@@ -101,22 +101,24 @@ recipes.addShaped("harness_base", <thaumicaugmentation:material:4>, [
 recipes.remove(<thaumcraft:vis_generator>);
 recipes.remove(<thaumicaugmentation:impetus_generator>);
 
-recipes.removeByRecipeName("thaumcraft_jarlabel_modified");
+recipes.remove(<thaumcraft:label>);
 recipes.addShapeless("thaumcraft_jarlabel", <thaumcraft:label> * 4, 
 	[<ore:dyeBlack>, 
 	<embers:adhesive> | <roots:strange_ooze> | <thebetweenlands:sludge_ball> | <thebetweenlands:sap_spit> | <thebetweenlands:sludge_ball>, 
 	<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]
 );
-
+recipes.addShapeless("thaumcraft_jarlabelnull", <thaumcraft:label>, 
+	[<thaumcraft:label:1>]
+);
 
 recipes.remove(<thaumcraft:plate:*>);
 recipes.addShapeless("brassplate", <thaumcraft:plate:0>, 
 	[<ore:ingotBrass>, <ore:ingotBrass>, <embers:tinker_hammer:*>.transformDamage(1)]
 );
-recipes.addShapeless("brassplate", <thaumcraft:plate:2>, 
+recipes.addShapeless("thaumiumplate", <thaumcraft:plate:2>, 
 	[<ore:ingotThaumium>, <ore:ingotThaumium>, <embers:tinker_hammer:*>.transformDamage(1)]
 );
-recipes.addShapeless("brassplate", <thaumcraft:plate:3>, 
+recipes.addShapeless("voidplate", <thaumcraft:plate:3>, 
 	[<ore:ingotVoid>, <ore:ingotVoid>, <embers:tinker_hammer:*>.transformDamage(1)]
 );
 
@@ -662,7 +664,7 @@ ArcaneWorkbench.removeRecipe(<thaumcraft:tube_valve>);
 ArcaneWorkbench.registerShapelessRecipe("tubevalve", "TUBES@2", 10, [
 ], 
 <thaumcraft:tube_valve>, 
-	[<thaumcraft:tube>, ]
+	[<thaumcraft:tube>, <ore:lever>]
 );
 
 
