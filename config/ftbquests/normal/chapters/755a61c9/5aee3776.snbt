@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 4.0d,
+	text: [
+		"Day and night works differently here.",
+		"",
+		"While sleeping is not an option, you can still right click a bed to set your spawn point."
+	],
+	dependencies: [
+		"a6c9d1c4"
+	],
+	tasks: [{
+		uid: "8fc35d74",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:moss_bed_item"
+		}]
+	}]
+}

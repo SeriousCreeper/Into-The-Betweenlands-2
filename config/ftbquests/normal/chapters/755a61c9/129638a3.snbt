@@ -1,0 +1,21 @@
+{
+	x: 5.5d,
+	y: 4.0d,
+	text: [
+		"There are many plants in the betweenlands, and all of them will be very useful later on.",
+		"",
+		"Getting shears also gives you access to a bed and making fires."
+	],
+	dependencies: [
+		"a6c9d1c4"
+	],
+	tasks: [{
+		uid: "3f23d91d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

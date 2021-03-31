@@ -1,0 +1,18 @@
+[
+    {
+        "key": "MORE_MECHANISMS",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": [
+                        "thebetweenlands:weedwood_plank_button",
+                        "thebetweenlands:betweenstone_button",
+                        "thebetweenlands:weedwood_plank_pressure_plate",
+                        "thebetweenlands:betweenstone_pressure_plate"
+                    ]
+            }
+        ]
+    }
+]
+

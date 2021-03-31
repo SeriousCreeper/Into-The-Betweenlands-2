@@ -1,0 +1,11 @@
+{
+    "name": "Introduction",
+    "icon": "minecraft:writable_book",
+    "category": "walljump",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can double jump by pressing jump while mid air."
+        }
+    ]
+}

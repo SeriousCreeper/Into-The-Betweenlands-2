@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/parent/rail_bridge",
+	"textures": {
+		"0": "thebetweenlands:blocks/hearthgrove_planks",
+		"1": "thebetweenlands:blocks/log_hearthgrove",
+		"2": "thebetweenlands:blocks/log_hearthgrove_top",
+		"particle": "thebetweenlands:blocks/log_hearthgrove"
+	}
+}

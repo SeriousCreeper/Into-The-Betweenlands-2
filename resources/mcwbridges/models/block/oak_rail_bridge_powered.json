@@ -1,0 +1,10 @@
+{
+	"parent": "mcwbridges:block/parent/rail_bridge_powered",
+	"textures": {
+		"0": "thebetweenlands:blocks/weedwood_planks",
+		"1": "thebetweenlands:blocks/log_weedwood",
+		"2": "thebetweenlands:blocks/log_weedwood_top",
+       	"3": "coloredredstone:blocks/colored_redstone_torch_light_blue_on",
+		"particle": "thebetweenlands:blocks/log_weedwood"
+	}
+}

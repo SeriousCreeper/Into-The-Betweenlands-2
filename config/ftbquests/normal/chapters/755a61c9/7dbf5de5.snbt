@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"Slimy bones will be your 2nd tier material for tools and armor.",
+		"",
+		"It can be found in the (betweenstone) cave layer, or by killing Swamp Hags."
+	],
+	dependencies: [
+		"57a2e1b0"
+	],
+	tasks: [{
+		uid: "8f210366",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 14"
+		}]
+	}]
+}

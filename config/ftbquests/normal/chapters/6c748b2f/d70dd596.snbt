@@ -1,0 +1,36 @@
+{
+	title: "Farming",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Like a lot of things, farming works slightly different here.",
+		"",
+		"Instead of using hoes to create farmland, you will use your shovels to dig up swamp dirt (right click).",
+		"",
+		"Assuming you already have a shovel, craft a compost bin next (i recommend making several).",
+		"",
+		"Compost bins will slowly turn plants into compost over time. The amount of compost you gain depends on the plant itself.",
+		"If you look up the use for the compost bin in JEI and hover over the middle white arrow, you will see how long an item takes to process, and how much compost value it has.",
+		"",
+		"Left click the bin to open it, then right click your plants until full (up to 20 items or a max compost value of 400). Then left click to close it again.",
+		"",
+		"If you see green particles, it means the bin is working. Once done, the particles will stop and you will see compost inside."
+	],
+	dependencies: [
+		"a6c9d1c4"
+	],
+	tasks: [{
+		uid: "2d3056b3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:compost_bin"
+		}]
+	},
+	{
+		uid: "8f830662",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 2"
+		}]
+	}]
+}

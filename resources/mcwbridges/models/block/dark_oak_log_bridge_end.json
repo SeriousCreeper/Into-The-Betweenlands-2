@@ -1,0 +1,8 @@
+{
+	"parent": "mcwbridges:block/parent/log_bridge_end",
+	"textures": {
+		"0": "thebetweenlands:blocks/rotten_bark",
+		"2": "thebetweenlands:blocks/rotten_planks",
+		"particle": "thebetweenlands:blocks/rotten_bark"
+	}
+}

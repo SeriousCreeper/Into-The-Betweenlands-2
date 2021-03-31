@@ -1,0 +1,13 @@
+[
+    {
+        "key": "HARNESS_BASE",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": ["crafttweaker:harness_base"]
+            }
+        ]
+    }
+]
+

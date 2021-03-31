@@ -1,0 +1,8 @@
+{
+	"parent": "mcwbridges:block/parent/brick_bridge",
+	"textures": {
+		"2": "thebetweenlands:blocks/betweenstone_bricks",
+		"0": "thebetweenlands:blocks/smooth_betweenstone",
+		"particle": "thebetweenlands:blocks/betweenstone_bricks"
+	}
+}

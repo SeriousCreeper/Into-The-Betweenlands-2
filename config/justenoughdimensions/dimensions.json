@@ -1,0 +1,43 @@
+{
+  "config_version": {
+    "id": "foo_bar_baz",
+    "version": 1
+  },
+  "dimensions": [
+    {
+      "dim": 21,
+      "world_template": "mirage_cragrock_tower",
+      "temporary_dimension": true,
+      "world_template": "cragrock_tower",
+      "jed": {
+        "SkyRenderType": 2,
+        "void_teleport": {
+          "dimension": 20,
+          "trigger_y": 0,
+          "find_surface": true,
+          "remove_fall_damage": true,
+          "fall_distance": 4.5,
+          "min_health_left": 1,
+          "teleport_type": "spawn"
+        }
+      },
+      "biome": "thebetweenlands:raised_isles",
+      "dimensiontype": {
+        "id": 21,
+        "name": "Cragrock Tower Mirage",
+        "keeploaded": false,
+        "suffix": "_dim21",
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+      "worldinfo": {},
+      "worldinfo_onetime": {
+        "generatorName": "flat",
+        "generatorOptions": "3;minecraft:air;127;",
+        "GameRules": {
+            "keepInventory": "true"
+        }
+      }
+    }
+  ]
+}

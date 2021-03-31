@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Once you acquired a sickle, you can begin your herblore journey!",
+		"",
+		"To document your discoveries, first craft a herblore book."
+	],
+	dependencies: [
+		"57552fda"
+	],
+	tasks: [{
+		uid: "45b0bc57",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:manual_hl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

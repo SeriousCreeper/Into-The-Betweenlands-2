@@ -1,0 +1,16 @@
+[
+    {
+        "key": "ARCANE_DOOR",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": [
+                        "oredict:doorWood",
+                        "oredict:doorMetal"
+                    ]
+            }
+        ]
+    }
+]
+

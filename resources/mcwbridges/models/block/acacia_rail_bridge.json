@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/parent/rail_bridge",
+	"textures": {
+		"0": "thebetweenlands:blocks/nibbletwig_planks",
+		"1": "thebetweenlands:blocks/log_nibbletwig_1",
+		"2": "thebetweenlands:blocks/log_nibbletwig_top",
+		"particle": "thebetweenlands:blocks/log_nibbletwig_1"
+	}
+}

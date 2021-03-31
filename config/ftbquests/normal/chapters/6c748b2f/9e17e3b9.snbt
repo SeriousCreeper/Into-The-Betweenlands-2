@@ -1,0 +1,39 @@
+{
+	title: "Shovel Knight",
+	icon: "thebetweenlands:dug_swamp_dirt",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"Once you crafted some compost, right click the ground with a shovel to create dug swamp dirt/grass.",
+		"",
+		"Right click it with compost to fertilize it.",
+		"",
+		"Once fertilized you can place your seeds/plants to grow them.",
+		"",
+		"Most plants placed on fertile swamp dirt will spread outwards to neighbouring blocks.",
+		"Others (pears, yellow dotted fungus, and aspectrus) will instead grow over time and reside on the same block.",
+		"",
+		"After enough harvests, the compost will be used up and needs to be re-applied to the swamp dirt/grass block again."
+	],
+	dependencies: [
+		"d70dd596"
+	],
+	tasks: [{
+		uid: "d0c10c80",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_shovel"
+		},
+		{
+			item: "thebetweenlands:bone_shovel"
+		},
+		{
+			item: "thebetweenlands:octine_shovel"
+		},
+		{
+			item: "thebetweenlands:valonite_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

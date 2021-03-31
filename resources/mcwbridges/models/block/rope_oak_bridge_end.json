@@ -1,0 +1,12 @@
+{
+	"parent": "mcwbridges:block/parent/rope_bridge_end",
+	"textures": {
+		"0": "mcwbridges:blocks/lead_knot_vert",
+		"2": "thebetweenlands:blocks/weedwood_planks",
+		"3": "thebetweenlands:blocks/log_weedwood",
+		"4": "mcwbridges:blocks/lead_knot",
+		"particle": "thebetweenlands:blocks/log_weedwood"
+	}
+}
+
+

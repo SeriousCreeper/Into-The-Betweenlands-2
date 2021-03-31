@@ -1,0 +1,8 @@
+{
+	"parent": "mcwbridges:block/parent/log_bridge_middle",
+	"textures": {
+		"0": "thebetweenlands:blocks/log_hearthgrove",
+		"2": "thebetweenlands:blocks/hearthgrove_planks",
+		"particle": "thebetweenlands:blocks/log_hearthgrove"
+	}
+}

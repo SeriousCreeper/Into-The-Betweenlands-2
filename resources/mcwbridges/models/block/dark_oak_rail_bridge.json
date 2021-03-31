@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/parent/rail_bridge",
+	"textures": {
+		"0": "thebetweenlands:blocks/rotten_planks",
+		"1": "thebetweenlands:blocks/rotten_bark",
+		"2": "thebetweenlands:blocks/rotten_bark",
+		"particle": "thebetweenlands:blocks/rotten_bark"
+	}
+}

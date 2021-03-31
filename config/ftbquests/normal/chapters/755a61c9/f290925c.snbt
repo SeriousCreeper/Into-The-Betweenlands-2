@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: 5.5d,
+	text: [
+		"While Syrmorite provides armor, Octine provides tools and better weapons."
+	],
+	dependencies: [
+		"a6c9d1c4"
+	],
+	tasks: [{
+		uid: "c3323c92",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ore"
+		}]
+	}]
+}

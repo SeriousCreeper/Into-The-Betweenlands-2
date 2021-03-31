@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"Cut down those large weedwood trees and craft your first weedwood crafting table!"
+	],
+	dependencies: [
+		"8adefc2c"
+	],
+	tasks: [{
+		uid: "9fc8f8d4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_workbench"
+		}]
+	}]
+}

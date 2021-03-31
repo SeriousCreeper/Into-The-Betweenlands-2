@@ -1,0 +1,25 @@
+[
+    {
+        "key": "BASEPERIPHERY",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/recipes",
+                "value": ["crafttweaker:thaumicperiphery_pauldron_modified"]
+            }
+        ],
+        "key": "MAGICQUIVER",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": [
+                        "thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:'motus'}]}",
+                        "thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:'auram'}]}",
+                        "thebetweenlands:angler_tooth_arrow"
+                    ]
+            }
+        ]
+    }
+]
+

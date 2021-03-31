@@ -1,0 +1,14 @@
+[
+    {
+        "key": "MECHANICALCRAFTER",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": ["thaumcraft:recipe_mechanical_crafter"]
+            }
+        ]
+    }
+]
+
+

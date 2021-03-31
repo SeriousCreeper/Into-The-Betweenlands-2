@@ -1,0 +1,1 @@
+mods.ArcaneWorld.createRitualCommand("mirage_cragrock_tower", "Mirage: Cragrock Tower", ["/tpj @a[r=5] 21 79 160 41 90 0"], <thebetweenlands:wight_heart>);

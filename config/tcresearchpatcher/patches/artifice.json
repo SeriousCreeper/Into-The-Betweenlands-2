@@ -1,0 +1,52 @@
+[
+    {
+        "key": "HUNGRYCHEST",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["oredict:chest","thebetweenlands:syrmorite_hopper"]
+            }
+        ],
+        "key": "REDSTONERELAY",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["coloredredstone:colored_redstone_torch_item;1;12"]
+            }
+        ],
+        "key": "INFERNALFURNACE",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_research",
+                "value": ["!ignis"]
+            }
+        ],
+        "key": "LAMPGROWTH",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["thebetweenlands:items_crushed;1;17"]
+            }
+        ],
+        "key": "LAMPFERTILITY",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["thebetweenlands:swamp_reed_item","thebetweenlands:middle_fruit"]
+            }
+        ],
+        "key": "MIRROR",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["oredict:shimmerstone","thaumcraft:mirrored_glass"]
+            }
+        ]
+    }
+]

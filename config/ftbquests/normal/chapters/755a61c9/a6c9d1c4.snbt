@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: 4.0d,
+	text: [
+		"Syrmorite is your 3rd tier and is equal to iron.",
+		"",
+		"There are no syrmorite tools, however armor and other useful items can be crafted with it."
+	],
+	dependencies: [
+		"7dbf5de5",
+		"5c2ed8c8"
+	],
+	tasks: [{
+		uid: "f73fd2a8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_ore"
+		}]
+	}]
+}

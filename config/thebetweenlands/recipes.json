@@ -1,0 +1,306 @@
+{
+	"pestle_and_mortar": [
+		{
+			"input": {
+				"id": "thebetweenlands:items_misc",
+				"meta": 39
+			},
+			"output": {
+				"id": "coloredredstone:colored_redstone_dust",
+				"meta": 12,
+				"size": 8
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:swamp_reed_item"
+			},
+			"output": {
+				"id": "minecraft:string",
+				"size": 2
+			}
+		},
+		{ // black
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 20
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 54
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"size": 2
+			}
+		},
+		{ // red
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 28
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 1,
+				"size": 8
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 21
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 1,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 25
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 1,
+				"size": 2
+			}
+		},
+		{ // green
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 32
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 2,
+				"size": 8
+			}
+		},
+		{ // blue
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 45
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 4,
+				"size": 8
+			}
+		},
+		{ 
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 11
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 4,
+				"size": 2
+			}
+		},
+		{ 
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 13
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 4,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 14
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 15,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 34
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 15,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 19
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 15,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 31
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 11,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 35
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 11,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 37
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 11,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 17
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 3,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 57
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 3,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 16
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 3,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 44
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 3,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 41
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 3,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 59
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 3,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 1
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 3,
+				"size": 2
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_crushed",
+				"meta": 40
+			},
+			"output": {
+				"id": "minecraft:dye",
+				"meta": 3,
+				"size": 2
+			}
+		}
+	],
+	"purifier": [
+		{
+			"input": {
+				"id": "thebetweenlands:bl_bucket",
+			  	"meta": 1,
+			  	"nbt": "{Fluid: {FluidName: \"stagnant_water\", Amount: 1000}}"
+			},
+			"output": {
+				"id": "thebetweenlands:bl_bucket",
+			  	"meta": 1,
+			  	"nbt": "{Fluid: {FluidName: \"water\", Amount: 1000}}"
+			}
+		}
+	],
+	"animator_repairable": [
+	  {
+	    "input": {
+	      "item": {
+	        "id": "thebetweenlands:bark_amulet"
+	      },
+	      //Minumum amount of fuel required to repair the item
+	      "min_fuel": 16,
+	      //Mimumum amount of life crystal required to repair the item
+	      "min_life": 16,
+	      //Amount of fuel required to repair the item if it is fully broken
+	      "max_fuel": 32,
+	      //Amount of life crystal required to repair the item if it is fully broken
+	      "max_life": 32
+	    }
+	  }
+	]
+}

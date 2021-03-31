@@ -1,0 +1,42 @@
+[
+    {
+        "key": "FIRSTSTEPS",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/recipes",
+                "value": ["crafttweaker:salismundus_shaped"]
+            },
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": ["thaumcraft:thaumometer","crafttweaker:salismundus_shaped"]
+            },
+            {
+                "op": "replace",
+                "path": "stages/2/recipes",
+                "value": ["thaumcraft:thaumometer","crafttweaker:salismundus_shaped","crafttweaker:stonearcane","thaumcraft:BrickArcane"]
+            }
+        ]
+    }, 
+    {
+        "key": "THEORYRESEARCH",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "parents",
+                "value": [ "CELESTIALSCANNING" ]
+            }
+        ]
+    }, 
+    {
+        "key": "CELESTIALSCANNING",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "meta",
+                "value": ["ROUND", "HIDDEN"]
+            }
+        ]
+    }
+]

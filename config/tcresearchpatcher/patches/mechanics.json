@@ -1,0 +1,28 @@
+[
+    {
+        "key": "AXLE",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/recipes",
+                "value": ["crafttweaker:mysticalmechanics_axle_iron"]
+            }
+        ],
+        "key": "GEARBOX",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/recipes",
+                "value": ["crafttweaker:mysticalmechanics_gearbox_frame_modified"]
+            }
+        ],
+        "key": "MERGEBOX",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/recipes",
+                "value": ["crafttweaker:mysticalmechanics_mergebox_frame_modified"]
+            }
+        ]
+    }
+]

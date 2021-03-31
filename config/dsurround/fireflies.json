@@ -1,0 +1,18 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        "thebetweenlands:swamp_tallgrass",
+        "thebetweenlands:swamp_double_tallgrass",
+        "thebetweenlands:cattail"
+      ],
+      "effects": [
+        {
+          "effect": "firefly",
+          "conditions": "weather.isNotRaining && (diurnal.isNight || diurnal.isSunset)",
+          "chance": 50
+        }
+      ]
+    }
+  ]
+}

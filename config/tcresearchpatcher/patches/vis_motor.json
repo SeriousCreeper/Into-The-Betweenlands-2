@@ -1,0 +1,13 @@
+[
+    {
+        "key": "VISMOTOR",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": ["thaumcraft:recipe_vis_motor"]
+            }
+        ]
+    }
+]
+
