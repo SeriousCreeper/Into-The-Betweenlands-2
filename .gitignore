@@ -10,3 +10,4 @@
 !/patchouli_books/**
 # You can be specific with these rules
 !.gitignore 
+config/thaumicjei_itemstack_aspects.json
