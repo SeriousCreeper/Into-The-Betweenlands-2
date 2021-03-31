@@ -7,6 +7,13 @@
                 "path": "stages/1/recipes",
                 "value": ["crafttweaker:harness_base"]
             }
+        ],
+        "key": "THAUMOSTATIC_HARNESS",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/0/required_research"
+            }
         ]
     }
 ]

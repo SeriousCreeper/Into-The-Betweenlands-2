@@ -1,0 +1,16 @@
+[
+    {
+        "key": "FOCUS_LIGHT",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": [
+                        "oredict:torch",
+                        "thebetweenlands:wisp"
+                    ]
+            }
+        ]
+    }
+]
+

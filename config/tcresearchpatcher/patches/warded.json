@@ -10,6 +10,24 @@
                         "oredict:doorMetal"
                     ]
             }
+        ],
+        "key": "WARD_KEYS",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": ["key_iron", "thaumicaugmentation:key_brass", "thaumicaugmentation:key_thaumium"]
+            }
+        ],
+        "key": "STARFIELD_GLASS_RIFT",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": [
+                        "thaumcraft:starfield_glass_rift"
+                    ]
+            }
         ]
     }
 ]

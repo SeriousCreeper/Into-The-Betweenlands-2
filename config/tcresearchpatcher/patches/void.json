@@ -1,0 +1,15 @@
+[
+    {
+        "key": "STABILITY_FIELD_GENERATOR",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": [
+                    "thaumcraft:stability_field_generator"
+                    ]
+            }
+        ]
+    }
+]
+

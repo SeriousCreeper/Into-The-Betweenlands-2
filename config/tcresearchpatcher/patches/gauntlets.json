@@ -1,0 +1,36 @@
+[
+    {
+        "key": "DIMENSIONAL_MODIFIERS",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/0/required_item"
+            },
+            {
+                "op": "remove",
+                "path": "stages/1/recipes"
+            },
+            {
+                "op": "replace",
+                "path": "stages/0/text",
+                "value": "NOT AVAILABLE IN THIS MODPACK\n(research is still required for further unlocks)"
+            },
+            {
+                "op": "replace",
+                "path": "stages/1/text",
+                "value": "NOT AVAILABLE IN THIS MODPACK\n(research is still required for further unlocks)"
+            }
+        ],
+        "key": "EXPERIENCE_MODIFIER",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": [
+                        "thaumcraft:strength_provider_experience"
+                    ]
+            }
+        ]
+    }
+]
+

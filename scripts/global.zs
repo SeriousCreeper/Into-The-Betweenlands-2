@@ -199,6 +199,31 @@ for item in removeAndHide {
 <ore:doorMetal>.add(<thebetweenlands:scabyst_door_item>);
 <ore:doorMetal>.add(<thebetweenlands:syrmorite_door_item>);
 
+<ore:torch>.remove(<minecraft:torch>);
+
+<ore:dustColoredRedstone>.remove(<coloredredstone:colored_redstone_dust:*>);
+<ore:dustColoredRedstone>.add(<coloredredstone:colored_redstone_dust:12>);
+
+<ore:blockRedstone>.remove(<coloredredstone:colored_redstone_block:*>);
+<ore:blockRedstone>.add(<coloredredstone:colored_redstone_block:12>);
+
+<ore:banner>.add(<thaumcraft:banner_white>);
+<ore:banner>.add(<thaumcraft:banner_orange>);
+<ore:banner>.add(<thaumcraft:banner_magenta>);
+<ore:banner>.add(<thaumcraft:banner_lightblue>);
+<ore:banner>.add(<thaumcraft:banner_yellow>);
+<ore:banner>.add(<thaumcraft:banner_lime>);
+<ore:banner>.add(<thaumcraft:banner_pink>);
+<ore:banner>.add(<thaumcraft:banner_gray>);
+<ore:banner>.add(<thaumcraft:banner_silver>);
+<ore:banner>.add(<thaumcraft:banner_cyan>);
+<ore:banner>.add(<thaumcraft:banner_purple>);
+<ore:banner>.add(<thaumcraft:banner_blue>);
+<ore:banner>.add(<thaumcraft:banner_brown>);
+<ore:banner>.add(<thaumcraft:banner_green>);
+<ore:banner>.add(<thaumcraft:banner_red>);
+<ore:banner>.add(<thaumcraft:banner_black>);
+
 
 val oreVisCrystals = <ore:visCrystals>;
 oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}));

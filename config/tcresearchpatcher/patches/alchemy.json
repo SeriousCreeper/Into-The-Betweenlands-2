@@ -15,12 +15,20 @@
                 "path": "stages/3/required_craft"
             }
         ],
-        "key": "POTIONSPRAYER",
+        "key": "TUBES",
         "ops": [
             {
                 "op": "replace",
-                "path": "meta",
-                "value": ["HIDDEN"]
+                "path": "stages/1/recipes/2",
+                "value": "crafttweaker:tubevalve"
+            }
+        ],
+        "key": "WARDEDJARS",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/recipes/3",
+                "value": "crafttweaker:thaumcraft_jarlabel"
             }
         ]
     }

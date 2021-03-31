@@ -871,3 +871,6 @@ for dye in dyeMap {
 
 <minecraft:slime>.displayName = "Block of Sludge";
 <minecraft:dye>.displayName = "Black Dye";
+<minecraft:dye:15>.displayName = "White Dye";
+<minecraft:dye:3>.displayName = "Brown Dye";
+<minecraft:dye:4>.displayName = "Blue Dye";

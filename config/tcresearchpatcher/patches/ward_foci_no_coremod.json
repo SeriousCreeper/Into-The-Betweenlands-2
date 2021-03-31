@@ -1,0 +1,16 @@
+[
+    {
+        "key": "FOCUS_WARD",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_research",
+                "value": [
+                        "f_STRONGPICKAXE",
+                        "m_CREEPER"
+                    ]
+            }
+        ]
+    }
+]
+

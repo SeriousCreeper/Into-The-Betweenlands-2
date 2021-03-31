@@ -1,0 +1,50 @@
+[
+    {
+        "key": "IMPETUS",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": [
+                        "thaumicaugmentation:impetus_jewel",
+                        "thaumicaugmentation:impetus_drainer",
+                        "thaumicaugmentation:impetus_relay",
+                        "thaumicaugmentation:impetus_diffuser",
+                        "thaumcraft:impetus_linker",
+                        "thaumicaugmentation:ancient_lantern"
+                    ]
+            }
+        ],
+        "key": "IMPETUS_GATE",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": [
+                        "thaumcraft:impetus_gate",
+                    ]
+            }
+        ],
+        "key": "IMPETUS_GENERATOR",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/text",
+                "value": "CURRENTLY UNUSED IN THIS MODPACK"
+            },
+            {
+                "op": "replace",
+                "path": "stages/1/text",
+                "value": "CURRENTLY UNUSED IN THIS MODPACK"
+            }
+        ],
+        "key": "ARCANE_TERRAFORMER",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/0/required_research"
+            }
+        ]
+    }
+]
+
