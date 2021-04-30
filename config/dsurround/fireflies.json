@@ -2,9 +2,20 @@
   "blocks": [
     {
       "blocks": [
-        "thebetweenlands:swamp_tallgrass",
+        "thebetweenlands:blue_eyed_grass",
+        "thebetweenlands:blue_iris",
+        "thebetweenlands:boneset",
+        "thebetweenlands:cardinal_flower",
+        "thebetweenlands:cattail",
+        "thebetweenlands:copper_iris",
+        "thebetweenlands:marsh_hibiscus",
+        "thebetweenlands:marsh_mallow",
+        "thebetweenlands:bog_bean_flower",
+        "thebetweenlands:golden_club_flower",
+        "thebetweenlands:marsh_marigold_flower",
+        "thebetweenlands:milkweed",
+        "thebetweenlands:pickerel_weed",
         "thebetweenlands:swamp_double_tallgrass",
-        "thebetweenlands:cattail"
       ],
       "effects": [
         {

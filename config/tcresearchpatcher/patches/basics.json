@@ -18,25 +18,5 @@
                 "value": ["thaumcraft:thaumometer","crafttweaker:salismundus_shaped","crafttweaker:stonearcane","thaumcraft:BrickArcane"]
             }
         ]
-    }, 
-    {
-        "key": "THEORYRESEARCH",
-        "ops": [
-            {
-                "op": "replace",
-                "path": "parents",
-                "value": [ "CELESTIALSCANNING" ]
-            }
-        ]
-    }, 
-    {
-        "key": "CELESTIALSCANNING",
-        "ops": [
-            {
-                "op": "replace",
-                "path": "meta",
-                "value": ["ROUND", "HIDDEN"]
-            }
-        ]
     }
 ]

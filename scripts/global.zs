@@ -140,7 +140,7 @@ for item in removeAndHide {
 
 <ore:nuggetIron>.remove(<minecraft:iron_nugget>);
 //<ore:nuggetIron>.remove(<thaumcraft:nugget>);
-<ore:nuggetSyrmorite>.add(<minecraft:iron_nugget>);
+//<ore:nuggetSyrmorite>.add(<minecraft:iron_nugget>);
 
 <ore:dentrothystShard>.add(<thebetweenlands:dentrothyst_shard_orange>);
 <ore:dentrothystShard>.add(<thebetweenlands:dentrothyst_shard_green>);
@@ -150,6 +150,8 @@ for item in removeAndHide {
 
 <ore:blockGlass>.remove(<minecraft:stained_glass:*>);
 <ore:blockGlass>.remove(<minecraft:glass>);
+
+<ore:gemLapis>.remove(<minecraft:dye:4>);
 
 <ore:slabWood>.remove(<minecraft:wooden_slab:*>);
 <ore:plankWood>.remove(<minecraft:planks:*>);

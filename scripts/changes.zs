@@ -105,6 +105,8 @@ val itemsToKeep = [
 	<minecraft:rotten_flesh>,
 	<minecraft:noteblock>,
 	<minecraft:milk_bucket>,
+	<minecraft:water_bucket>,
+	<minecraft:paper>,
 ] as IItemStack[];
 
 
@@ -128,8 +130,9 @@ for item in minecraftItems {
 
 
 furnace.remove(<minecraft:torch>);
-/*
+
 furnace.remove(<minecraft:dye:*>);
+/*
 furnace.remove(<minecraft:stone>);
 furnace.remove(<minecraft:sponge>);
 furnace.remove(<minecraft:iron_nugget>);
@@ -145,6 +148,18 @@ furnace.remove(<minecraft:quartz>);
 
 
 recipes.remove(<minecraft:dye:*>);
+
+recipes.addShapeless("dyePurple", <minecraft:dye:5> * 2, [<minecraft:dye:4>, <minecraft:dye:1>]);
+recipes.addShapeless("dyeCyan", <minecraft:dye:6> * 2, [<minecraft:dye:4>, <minecraft:dye:2>]);
+recipes.addShapeless("dyeLightGray", <minecraft:dye:7> * 3, [<minecraft:dye:0>, <minecraft:dye:15>, <minecraft:dye:15>]);
+recipes.addShapeless("dyeGray", <minecraft:dye:8> * 2, [<minecraft:dye:0>, <minecraft:dye:15>]);
+recipes.addShapeless("dyePink", <minecraft:dye:9> * 2, [<minecraft:dye:1>, <minecraft:dye:15>]);
+recipes.addShapeless("dyeLime", <minecraft:dye:10> * 2, [<minecraft:dye:2>, <minecraft:dye:15>]);
+recipes.addShapeless("dyeLightBlue", <minecraft:dye:12> * 2, [<minecraft:dye:4>, <minecraft:dye:15>]);
+recipes.addShapeless("dyeMagenta", <minecraft:dye:13> * 2, [<minecraft:dye:5>, <minecraft:dye:9>]);
+recipes.addShapeless("dyeOrange", <minecraft:dye:14> * 2, [<minecraft:dye:1>, <minecraft:dye:11>]);
+
+recipes.addShapeless("paperFromBLPaper", <minecraft:paper>, [<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]);
 
 
 
@@ -731,40 +746,6 @@ recipes.addShaped("bookshelf", <minecraft:bookshelf>, [
 ]);
 
 
-val dyeMap = {
-	<minecraft:dye:0> : <thebetweenlands:items_crushed:20>,
-/*
-
-	<minecraft:dye:1> : <thebetweenlands:items_crushed:25>,
-	<minecraft:dye:2> : <thebetweenlands:items_crushed:0>,
-	<minecraft:dye:3> : <thebetweenlands:items_crushed:1>,
-	<minecraft:dye:4> : <thebetweenlands:items_crushed:13>,
-	<minecraft:dye:4> : <thebetweenlands:items_crushed:11>,
-	<minecraft:dye:5> : <thebetweenlands:items_crushed:7>,
-	<minecraft:dye:6> : <thebetweenlands:items_crushed:29>,
-	<minecraft:dye:7> : <thebetweenlands:items_crushed:9>,
-	<minecraft:dye:8> : <thebetweenlands:items_crushed:50>,
-	<minecraft:dye:9> : <thebetweenlands:items_crushed:6>,
-	<minecraft:dye:10> : <thebetweenlands:items_crushed:3>,
-	<minecraft:dye:11> : <thebetweenlands:items_crushed:35>,
-	<minecraft:dye:12> : <thebetweenlands:items_crushed:24>,
-	<minecraft:dye:13> : <thebetweenlands:items_crushed:10>,
-	<minecraft:dye:14> : <thebetweenlands:items_crushed:36>,
-	<minecraft:dye:15> : <thebetweenlands:items_crushed:14>,
-*/
-
-} as IItemStack[IItemStack];
-
-
-// CHANGE TO MORTAR RECIPE?
-for dye in dyeMap {
-//<thebetweenlands:items_crushed:20>
-
-	//recipes.addShapeless(dye * 4, [<thebetweenlands:bl_bucket_rubber:0>.giveBack(<thebetweenlands:bl_bucket>) | <thebetweenlands:bl_bucket_rubber:1>.giveBack(<thebetweenlands:bl_bucket:1>), <thebetweenlands:items_misc:18>, dyeMap[dye]]);
-}
-
-
-
 // DISPLAY NAMES & TOOLTIPS
 <minecraft:minecart>.displayName = "Weedwood Minecart";
 <minecraft:iron_bars>.displayName = "Syrmorite Bars";
@@ -861,16 +842,10 @@ for dye in dyeMap {
 
 <thebetweenlands:weedwood_rowboat>.addTooltip(format.green("Clicking a boat with a Tar Drip will make it tarred.\nA tarred boat will stay in place and is easier to direct and control."));
 
-/*
-<minecraft:dye:15>.displayName = "White Dye";
-<minecraft:dye:11>.displayName = "Yellow Dye";
-<minecraft:dye:4>.displayName = "Blue Dye";
-<minecraft:dye:3>.displayName = "Brown Dye";
-<minecraft:dye>.displayName = "Black Dye";
-*/
 
 <minecraft:slime>.displayName = "Block of Sludge";
 <minecraft:dye>.displayName = "Black Dye";
 <minecraft:dye:15>.displayName = "White Dye";
 <minecraft:dye:3>.displayName = "Brown Dye";
 <minecraft:dye:4>.displayName = "Blue Dye";
+<minecraft:paper>.displayName = "Research Paper";
