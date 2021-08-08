@@ -6,7 +6,6 @@
   "dimensions": [
     {
       "dim": 21,
-      "world_template": "mirage_cragrock_tower",
       "temporary_dimension": true,
       "world_template": "cragrock_tower",
       "jed": {

@@ -11,15 +11,6 @@
 				"size": 8
 			}
 		},
-		{
-			"input": {
-				"id": "thebetweenlands:swamp_reed_item"
-			},
-			"output": {
-				"id": "minecraft:string",
-				"size": 2
-			}
-		},
 		{ // black
 			"input": {
 				"id": "thebetweenlands:items_crushed",
@@ -273,18 +264,6 @@
 		}
 	],
 	"purifier": [
-		{
-			"input": {
-				"id": "thebetweenlands:bl_bucket",
-			  	"meta": 1,
-			  	"nbt": "{Fluid: {FluidName: \"stagnant_water\", Amount: 1000}}"
-			},
-			"output": {
-				"id": "thebetweenlands:bl_bucket",
-			  	"meta": 1,
-			  	"nbt": "{Fluid: {FluidName: \"water\", Amount: 1000}}"
-			}
-		}
 	],
 	"animator_repairable": [
 	  {

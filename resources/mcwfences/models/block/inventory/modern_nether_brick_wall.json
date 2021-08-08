@@ -1,0 +1,10 @@
+
+	
+{
+	"parent": "mcwfences:block/parent/inventory/modern_wall",
+	"textures": {
+		"1": "embers:blocks/archaic_tile",
+		"particle": "embers:blocks/archaic_bricks",
+		"wall": "embers:blocks/archaic_bricks"
+	}
+}

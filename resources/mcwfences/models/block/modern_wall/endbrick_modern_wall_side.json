@@ -1,0 +1,10 @@
+
+	
+{
+	"parent": "mcwfences:block/parent/modern_wall_side",
+	"textures": {
+		"1": "embers:blocks/block_caminite_brick",
+		"particle": "embers:blocks/block_caminite_brick",
+		"wall": "embers:blocks/block_caminite_brick"
+	}
+}

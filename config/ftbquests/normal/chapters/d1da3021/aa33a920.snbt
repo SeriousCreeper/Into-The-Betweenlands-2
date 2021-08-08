@@ -1,0 +1,46 @@
+{
+	title: "Pit of Decay",
+	x: -1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "1f3e6130",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:boss_item_3"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f51d5daa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:ring_of_dispersion"
+		}
+	},
+	{
+		uid: "c6a5c40a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:amulet_slot"
+		}
+	},
+	{
+		uid: "c3825a2f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gamestagebooks:knowledge_of_decay"
+		}
+	}]
+}

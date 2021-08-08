@@ -5,17 +5,27 @@
             {
                 "op": "replace",
                 "path": "stages/0/recipes",
-                "value": ["crafttweaker:salismundus_shaped"]
+                "value": ["crafttweaker:salismundus"]
             },
             {
                 "op": "replace",
                 "path": "stages/1/recipes",
-                "value": ["thaumcraft:thaumometer","crafttweaker:salismundus_shaped"]
+                "value": ["thaumcraft:thaumometer","crafttweaker:salismundus"]
             },
             {
                 "op": "replace",
                 "path": "stages/2/recipes",
-                "value": ["thaumcraft:thaumometer","crafttweaker:salismundus_shaped","crafttweaker:stonearcane","thaumcraft:BrickArcane"]
+                "value": ["thaumcraft:thaumometer","crafttweaker:salismundus","crafttweaker:stonearcane","thaumcraft:BrickArcane"]
+            }
+        ]
+    },
+    {
+        "key": "THEORYRESEARCH",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/recipes",
+                "value": ["crafttweaker:scribingtoolscraft1_shaped","crafttweaker:tablewood"]
             }
         ]
     }

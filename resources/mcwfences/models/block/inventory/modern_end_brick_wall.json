@@ -1,0 +1,10 @@
+
+	
+{
+	"parent": "mcwfences:block/parent/inventory/modern_wall",
+	"textures": {
+		"1": "soot:blocks/caminite_plate",
+		"particle": "embers:blocks/block_caminite_brick",
+		"wall": "embers:blocks/block_caminite_brick"
+	}
+}

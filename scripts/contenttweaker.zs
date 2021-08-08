@@ -14,6 +14,17 @@ import mods.contenttweaker.AxisAlignedBB;
 
 
 
+val items = [
+	"menhir_core",
+	"boss_item_1",
+	"boss_item_2",
+	"boss_item_3",
+	"boss_item_4",
+	"boss_item_5",
+	"boss_item_6"
+] as string[];
 
-var core = VanillaFactory.createItem("menhir_core");
-core.register();
+
+for item in items {
+	VanillaFactory.createItem(item).register();
+}

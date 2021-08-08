@@ -5,15 +5,16 @@ import mods.thaumcraft.Infusion;
 
 
 
+recipes.remove(<thaumcraft:nugget:1>);
+recipes.remove(<thaumcraft:nugget:2>);
+recipes.remove(<thaumcraft:nugget:3>);
+recipes.remove(<thaumcraft:nugget:4>);
+
 recipes.remove(<thaumcraft:plate:1>);
 <ore:plateIron>.remove(<thaumcraft:plate:1>);
 
 recipes.remove(<thaumcraft:salis_mundus>);
 recipes.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <coloredredstone:colored_redstone_dust:12>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
-recipes.addHiddenShaped("salismundus_shaped", <thaumcraft:salis_mundus>, [
-	[<thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>],
-	[<thebetweenlands:items_misc:22>, <thebetweenlands:items_misc:14>, <coloredredstone:colored_redstone_dust:12>]
-]);
 
 recipes.remove(<thaumcraft:nugget:9>);
 recipes.addShaped(<thaumcraft:nugget:9> * 9, [[<thebetweenlands:dentrothyst_shard_orange> | <thebetweenlands:dentrothyst_shard_green>]]);
@@ -723,13 +724,14 @@ Crucible.registerRecipe("everfullurn", "EVERFULLURN", <thaumcraft:everfull_urn>,
 ]);
 
 
+/*
 Crucible.removeRecipe("liquiddeath");
-Crucible.registerRecipe("liquiddeath", "LIQUIDDEATH", <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <thebetweenlands:bl_bucket:1>, [
+Crucible.registerRecipe("liquiddeath", "LIQUIDDEATH", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}), <thebetweenlands:bl_bucket:1>, [
 	<aspect:alkimia> * 20,
 	<aspect:mortuus> * 100,
 	<aspect:perditio> * 50,
 ]);
-
+*/
 
 
 // INFUSION
@@ -840,3 +842,5 @@ Infusion.registerRecipe("thaumiumfortresslegs", "ARMORFORTRESS", <thaumcraft:for
 // NAME CHANGES
 <thaumcraft:inlay>.displayName = "Bluedust Inlay";
 <thaumcraft:redstone_relay>.displayName = "Bluedust Relay";
+<thaumcraft:brain>.displayName = "Swamphag Brain";
+<thaumcraft:nugget:9>.displayName = "Dentrothyst Sliver";

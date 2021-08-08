@@ -1,6 +1,11 @@
 {
 	title: "Farming",
-	icon: "thebetweenlands:middle_fruit",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thebetweenlands:middle_fruit"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

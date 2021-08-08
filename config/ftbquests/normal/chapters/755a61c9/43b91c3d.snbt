@@ -13,7 +13,10 @@
 		uid: "b68a608f",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:syrmorite_shield"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:syrmorite_shield"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

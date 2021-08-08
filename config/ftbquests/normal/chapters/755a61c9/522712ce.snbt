@@ -8,7 +8,10 @@
 		uid: "a8f91b34",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:bone_shield"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:bone_shield"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

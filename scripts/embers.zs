@@ -3,6 +3,7 @@ import mods.embers.Melter;
 import mods.embers.Stamper;
 import mods.embers.EmberGeneration;
 import mods.embers.Mixer;
+import mods.embers.EmberBoreFixed;
 
 
 
@@ -243,6 +244,18 @@ Melter.add(<liquid:alchemical_redstone> * 1296, <coloredredstone:colored_redston
 Melter.remove(<liquid:oil_soul> * 100);
 Melter.add(<liquid:oil_soul> * 5, <thebetweenlands:sap_spit>);
 
+Melter.add(<liquid:brass> * 144, <thaumcraft:ingot:2>);
+Melter.add(<liquid:brass> * 144, <thaumcraft:plate:0>);
+Melter.add(<liquid:brass> * 16, <thaumcraft:nugget:8>);
+
+Melter.add(<liquid:thaumium> * 144, <thaumcraft:ingot:0>);
+Melter.add(<liquid:thaumium> * 144, <thaumcraft:plate:2>);
+Melter.add(<liquid:thaumium> * 16, <thaumcraft:nugget:6>);
+
+Melter.add(<liquid:void> * 144, <thaumcraft:ingot:1>);
+Melter.add(<liquid:void> * 144, <thaumcraft:plate:3>);
+Melter.add(<liquid:void> * 16, <thaumcraft:nugget:7>);
+
 
 
 // ----------- STAMPER ----------------------
@@ -261,6 +274,10 @@ Stamper.add(<thebetweenlands:octine_ingot>, <liquid:octine> * 144, <embers:stamp
 Stamper.remove(<embers:plate_iron>);
 Stamper.add(<embers:plate_iron>, <liquid:syrmorite> * 144, <embers:stamp_plate>);
 
+Stamper.add(<thaumcraft:plate:0>, <liquid:brass> * 144, <embers:stamp_plate>);
+Stamper.add(<thaumcraft:plate:2>, <liquid:thaumium> * 144, <embers:stamp_plate>);
+Stamper.add(<thaumcraft:plate:3>, <liquid:void> * 144, <embers:stamp_plate>);
+
 Stamper.remove(<embers:plate_gold>);
 Stamper.add(<embers:plate_gold>, <liquid:octine> * 144, <embers:stamp_plate>);
 	
@@ -268,6 +285,8 @@ Stamper.remove(<minecraft:blaze_powder>);
 
 Stamper.remove(<embers:aspectus_iron>);
 Stamper.add(<embers:aspectus_iron>, <liquid:syrmorite> * 144, <embers:stamp_plate>, <embers:shard_ember>);
+
+Stamper.add(<pizzacraft:cheese>, <liquid:liquid_milk> * 1000, <embers:stamp_flat>);
 
 //Stamper.remove(<minecraft:iron_nugget>);
 //Stamper.add(<thebetweenlands:items_misc:41>, <liquid:syrmorite> * 16, <soot:stamp_nugget>);
@@ -290,6 +309,30 @@ Mixer.add(<liquid:electrum> * 8, [<liquid:silver> * 4, <liquid:octine> * 4]);
 // ----------- EMBER GENERATION ----------------------
 EmberGeneration.addEmberFuel(<thebetweenlands:items_misc:45>, 1000);
 EmberGeneration.addBoilerFluid(<liquid:swamp_water>, <liquid:steam>, 5, [255, 255, 255]);
+
+
+
+
+// ----------- BORE ----------------------
+var boresetTCCrystals = EmberBoreFixed.create([20], ["thebetweenlands:swamplands_clearing"]);
+
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}) * 2).weight(20));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}) * 2).weight(20));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}) * 2).weight(20));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}) * 2).weight(20));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}) * 2).weight(20));
+
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}) * 3).weight(15));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}) * 3).weight(15));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}) * 3).weight(15));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}) * 3).weight(15));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}) * 3).weight(15));
+
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}) * 4).weight(10));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}) * 4).weight(10));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}) * 4).weight(10));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}) * 4).weight(10));
+boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}) * 4).weight(10));
 
 
 

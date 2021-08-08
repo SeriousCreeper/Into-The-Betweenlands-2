@@ -13,7 +13,10 @@
 		uid: "45b0bc57",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:manual_hl"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:manual_hl"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

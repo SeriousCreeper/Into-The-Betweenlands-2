@@ -14,6 +14,13 @@
                 "op": "remove",
                 "path": "stages/0/required_research"
             }
+        ],
+        "key": "THAUMOSTATIC_HARNESS",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/0/required_research"
+            }
         ]
     }
 ]

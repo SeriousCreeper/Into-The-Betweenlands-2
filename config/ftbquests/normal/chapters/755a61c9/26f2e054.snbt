@@ -9,16 +9,28 @@
 		uid: "c759e58c",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:bone_pickaxe"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:bone_pickaxe"
 		},
 		{
-			item: "thebetweenlands:bone_shovel"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:bone_shovel"
 		},
 		{
-			item: "thebetweenlands:bone_axe"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:bone_axe"
 		},
 		{
-			item: "thebetweenlands:bone_sword"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:bone_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

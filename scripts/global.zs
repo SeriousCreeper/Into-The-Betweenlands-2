@@ -4,11 +4,55 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import thaumcraft.aspect.CTAspectStack;
+
+
 
 
 function RemoveAndHide(item as IItemStack) {
 	removeAndHide += item;
 }
+
+
+global allAspects as CTAspectStack[] = [
+	<aspect:aer>,
+	<aspect:terra>,
+	<aspect:ignis>,
+	<aspect:aqua>,
+	<aspect:ordo>,
+	<aspect:perditio>,
+	<aspect:vacuos>,
+	<aspect:lux>,
+	<aspect:motus>,
+	<aspect:gelum>,
+	<aspect:vitreus>,
+	<aspect:metallum>,
+	<aspect:victus>,
+	<aspect:mortuus>,
+	<aspect:potentia>,
+	<aspect:permutatio>,
+	<aspect:praecantatio>,
+	<aspect:auram>,
+	<aspect:alkimia>,
+	<aspect:vitium>,
+	<aspect:tenebrae>,
+	<aspect:alienis>,
+	<aspect:volatus>,
+	<aspect:herba>,
+	<aspect:instrumentum>,
+	<aspect:fabrico>,
+	<aspect:machina>,
+	<aspect:vinculum>,
+	<aspect:spiritus>,
+	<aspect:cognitio>,
+	<aspect:sensus>,
+	<aspect:aversio>,
+	<aspect:praemunio>,
+	<aspect:desiderium>,
+	<aspect:exanimis>,
+	<aspect:bestia>,
+	<aspect:humanus>,
+] as CTAspectStack[];
 
 
 global removeAndHide as IItemStack[] = [
@@ -67,43 +111,6 @@ global removeAndHide as IItemStack[] = [
 	<embers:ore_quartz>,
 	<embers:geo_separator>,
 
-// STORAGE DRANWERS
-	<storagedrawers:basicdrawers:*>,
-	<storagedrawers:trim:*>,
-	<storagedrawers:upgrade_creative:*>,
-	<storagedrawers:tape>,
-	<storagedrawers:upgrade_conversion>,
-
-// SGCRAFT
-	<sgcraft:naquadahblock>,
-	<sgcraft:naquadahore>,
-	<sgcraft:sgpowerunit>,
-	<sgcraft:zpm_console>,
-	<sgcraft:naquadahingot>,
-	<sgcraft:sgcorecrystal>,
-	<sgcraft:sgcontrollercrystal>,
-	<sgcraft:sgchevronupgrade>,
-	<sgcraft:zpm>,
-	<sgcraft:tollan_phase_shift_device>,
-	<sgcraft:pegasus_upgrade>,
-
-// BETWEEN ORES
-	<betweenores:coal_ore>,
-	<betweenores:iron_ore>,
-	<betweenores:gold_ore>,
-	<betweenores:redstone_ore>,
-	<betweenores:lapis_ore>,
-	<betweenores:diamond_ore>,
-	<betweenores:emerald_ore>,
-	<betweenores:quartz_ore>,
-	<betweenores:platinum_ore>,
-	<betweenores:iridium_ore>,
-	<betweenores:mithril_ore>,
-	<betweenores:uranium_ore>,
-	<betweenores:osmium_ore>,
-	<betweenores:ardite_ore>,
-	<betweenores:cobalt_ore>,
-
 // MECH WORKS
 	<tmechworks:metal:*>,
 	<tmechworks:ingots:*>,
@@ -125,6 +132,76 @@ for item in removeAndHide {
 	JEI.removeAndHide(item);
 }
 
+
+
+global stageSpiritTree as string[] = [
+	"roots",
+	"arcanearchives"
+] as string[];
+
+global stagePrimordial as string[] = [
+	"embers",
+	"mystgears",
+	"mysticalmechanics",
+] as string[];
+
+global stageDreadfulMummy as string[] = [
+	//"brazier",
+] as string[];
+
+global stageSludgeon as string[] = [
+	"thaumcraft",
+	"thaumicperiphery",
+	"thaumicaugmentation",
+	"thaumicredundancy",
+	"thaumicperiphery"
+] as string[];
+
+global stageForbiddenKnowledge as string[] = [
+	//"aetherworks",
+	//"midnight",
+] as string[];
+
+
+val oreAllTallFlowers = <ore:allTallFlowers>;
+
+for item in oreAllTallFlowers.items {
+    oreAllTallFlowers.remove(item);
+}
+
+val oreAllFlowers = <ore:allFlowers>;
+
+for item in oreAllFlowers.items {
+    oreAllFlowers.remove(item);
+}
+
+oreAllFlowers.add(<thebetweenlands:arrow_arum>);
+oreAllFlowers.add(<thebetweenlands:blue_eyed_grass>);
+oreAllFlowers.add(<thebetweenlands:blue_iris>);
+oreAllFlowers.add(<thebetweenlands:boneset>);
+oreAllFlowers.add(<thebetweenlands:bottle_brush_grass>);
+oreAllFlowers.add(<thebetweenlands:button_bush>);
+oreAllFlowers.add(<thebetweenlands:copper_iris>);
+oreAllFlowers.add(<thebetweenlands:marsh_hibiscus>);
+oreAllFlowers.add(<thebetweenlands:marsh_mallow>);
+oreAllFlowers.add(<thebetweenlands:milkweed>);
+oreAllFlowers.add(<thebetweenlands:nettle>);
+oreAllFlowers.add(<thebetweenlands:nettle_flowered>);
+oreAllFlowers.add(<thebetweenlands:pickerel_weed>);
+oreAllFlowers.add(<thebetweenlands:shoots>);
+oreAllFlowers.add(<thebetweenlands:sludgecreep>);
+oreAllFlowers.add(<thebetweenlands:soft_rush>);
+oreAllFlowers.add(<thebetweenlands:dead_weedwood_bush>);
+
+
+<ore:nuggetLead>.remove(<embers:nugget_lead>);
+<ore:nuggetCopper>.remove(<thaumcraft:nugget:1>);
+<ore:nuggetTin>.remove(<thaumcraft:nugget:2>);
+<ore:nuggetSilver>.remove(<thaumcraft:nugget:3>);
+
+<ore:ingotCopper>.remove(<tmechworks:ingots:1>);
+
+<ore:string>.remove(<mysticalworld:silk_thread>);
 
 <ore:crystalSeed>.add(<embers:seed_iron>);
 <ore:crystalSeed>.add(<embers:seed_gold>);

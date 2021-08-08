@@ -1,0 +1,10 @@
+
+	
+{
+	"parent": "mcwfences:block/parent/inventory/modern_wall",
+	"textures": {
+		"1": "thebetweenlands:blocks/pitstone",
+		"particle": "thebetweenlands:blocks/pitstone_bricks",
+		"wall": "thebetweenlands:blocks/pitstone_bricks"
+	}
+}

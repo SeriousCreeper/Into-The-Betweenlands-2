@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thaumcraft:items/thaumium_axe",
+    "layer1": "thaumcraft:items/thaumium_axe_corrosion_1"
+  }
+}

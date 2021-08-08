@@ -1,0 +1,9 @@
+
+	
+{
+	"parent": "mcwfences:block/parent/modern_wall_post",
+	"textures": {
+		"particle": "thebetweenlands:blocks/pitstone_bricks",
+		"wall": "thebetweenlands:blocks/pitstone_bricks"
+	}
+}

@@ -13,7 +13,10 @@
 		uid: "cdf0b844",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:sickle"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:sickle"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

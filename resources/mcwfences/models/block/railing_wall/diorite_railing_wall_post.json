@@ -1,0 +1,9 @@
+
+	
+{
+	"parent": "mcwfences:block/parent/railing_wall_post",
+	"textures": {
+		"particle": "thebetweenlands:blocks/limestone_bricks",
+		"wall": "thebetweenlands:blocks/limestone_bricks"
+	}
+}

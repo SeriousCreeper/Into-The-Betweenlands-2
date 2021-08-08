@@ -138,6 +138,128 @@
           1
         ]
       }
+    },
+    "betweenlands_amber": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "thaumcraft:ore_amber"
+        },
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 6
+      },
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 80,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_cinnabar": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "thaumcraft:ore_cinnabar"
+        },
+        "material": "thebetweenlands:pitstone",
+        "cluster-size": 6
+      },
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 30,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_mossy_stone": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "thebetweenlands:mossy_smooth_betweenstone"
+        },
+        "type": "cave",
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 3
+      },
+      "cluster-count": 1000,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": false,
+      "chunk-chance": 1,
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_smooth_stone": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "thebetweenlands:smooth_betweenstone"
+        },
+        "type": "cave",
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 3
+      },
+      "cluster-count": 1000,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": false,
+      "chunk-chance": 1,
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_grass": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "thebetweenlands:swamp_grass"
+        },
+        "type": "cave",
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 50,
+        "ground-level": 0,
+      },
+      "cluster-count": 10,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": false,
+      "chunk-chance": 1,
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
     }
   }
 }

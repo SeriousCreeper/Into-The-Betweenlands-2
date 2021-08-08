@@ -1,0 +1,39 @@
+{
+	title: "Pit of Decay Redux",
+	x: -1.0d,
+	y: -2.5d,
+	can_repeat: true,
+	dependencies: [
+		"aa33a920"
+	],
+	tasks: [{
+		uid: "9f457ca6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:boss_item_3"
+		}]
+	}],
+	rewards: [{
+		uid: "334b48e3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:ring_of_dispersion"
+		}
+	},
+	{
+		uid: "2e09b799",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:amulet_slot"
+		}
+	}]
+}

@@ -11,7 +11,10 @@
 		uid: "9fc8f8d4",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:weedwood_workbench"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:weedwood_workbench"
 		}]
 	}]
 }

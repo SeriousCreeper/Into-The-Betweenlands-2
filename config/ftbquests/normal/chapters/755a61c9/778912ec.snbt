@@ -14,7 +14,11 @@
 		uid: "a91ff2a5",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:items_misc 1 39"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:items_misc",
+			Damage: 39s
 		}]
 	}]
 }

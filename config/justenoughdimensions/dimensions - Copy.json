@@ -1,0 +1,62 @@
+{
+  "config_version": {
+    "id": "foo_bar_baz",
+    "version": 1
+  },
+  "dimensions": [
+    {
+      "dim": 22,
+      "temporary_dimension": true,
+      "world_template": "cragrock_tower",
+      "jed": {
+        "SkyRenderType": 2,
+        "void_teleport": {
+          "dimension": 20,
+          "trigger_y": 0,
+          "find_surface": true,
+          "remove_fall_damage": true,
+          "fall_distance": 4.5,
+          "min_health_left": 1,
+          "teleport_type": "spawn"
+        }
+      }
+    },
+    {
+      "dim": 21,
+      "temporary_dimension": true,
+      "biome": "thebetweenlands:raised_isles",
+      "dimensiontype": {
+        "id": 21,
+        "name": "Cragrock Tower Mirage",
+        "keeploaded": false,
+        "suffix": "_dim21",
+        "worldprovider": "thebetweenlands.common.world.WorldProviderBetweenlands",
+        "require_exact_match": true
+      },
+      "worldinfo": {},
+      "worldinfo_onetime": {
+        "GameRules": {
+            "keepInventory": "true"
+        }
+      }
+    },
+    { 
+      "dim": 0, 
+      "override": true,
+      "dimensiontype": {
+          "name": "Overworld",
+          "keeploaded": false,
+          "worldprovider": "WorldProviderSurfaceJED"
+      },
+      "disable_teleporting_to": false,
+      "worldinfo_onetime": {
+          "generatorName": "flat",
+          "generatorOptions": "3;minecraft:air;127;"
+      },
+      "jed": {
+          "CanSpawnHostiles": false,
+          "CanSpawnPeacefulMobs": false
+      }
+    }
+  ]
+}

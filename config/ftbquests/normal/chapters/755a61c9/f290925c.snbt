@@ -11,7 +11,10 @@
 		uid: "c3323c92",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:octine_ore"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:octine_ore"
 		}]
 	}]
 }

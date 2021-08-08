@@ -14,16 +14,28 @@
 		uid: "4a90e73d",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:weedwood_pickaxe"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:weedwood_pickaxe"
 		},
 		{
-			item: "thebetweenlands:weedwood_shovel"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:weedwood_shovel"
 		},
 		{
-			item: "thebetweenlands:weedwood_axe"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:weedwood_axe"
 		},
 		{
-			item: "thebetweenlands:weedwood_sword"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:weedwood_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,15 +1,21 @@
+import mods.jei.JEI;
+
+
+JEI.removeAndHide(<mystgears:gear_diamond>);
+JEI.removeAndHide(<mystgears:gear_stone>);
+JEI.removeAndHide(<mystgears:ember_gatling_gun>);
+JEI.removeAndHide(<mystgears:witchburn_gatling_gun>);
+JEI.removeAndHide(<mystgears:mechanical_turret>);
+JEI.removeAndHide(<mystgears:drill>);
+JEI.removeAndHide(<mystgears:drill_diamond>);
+JEI.removeAndHide(<mystgears:redstone_dynamo>);
+
+
 recipes.remove(<mysticalmechanics:gear_fan>);
 recipes.addShaped("mysticalmechanics-fan_iron", <mysticalmechanics:gear_fan>, [
-	[<thebetweenlands:syrmorite_pressure_plate>, null, <thebetweenlands:syrmorite_pressure_plate>], 
+	[<embers:plate_iron>, null, <embers:plate_iron>], 
 	[null, <thebetweenlands:items_misc:41>, null], 
-	[<thebetweenlands:syrmorite_pressure_plate>, null, <thebetweenlands:syrmorite_pressure_plate>]
-]);
-
-recipes.remove(<mystgears:gear_diamond>);
-recipes.addShaped("mystgears-recipe_gear_diamond", <mystgears:gear_diamond>, [
-	[null, <thebetweenlands:items_misc:19>, null], 
-	[<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:43>, <thebetweenlands:items_misc:19>], 
-	[null, <thebetweenlands:items_misc:19>, null]
+	[<embers:plate_iron>, null, <embers:plate_iron>]
 ]);
 
 recipes.remove(<mystgears:gear_black_hole>);
@@ -26,14 +32,6 @@ recipes.addShaped("mystgears-recipe_gear_wood", <mystgears:gear_wood>, [
 	[null, <thebetweenlands:weedwood_planks>, null]
 ]);
 
-recipes.remove(<mystgears:gear_stone>);
-recipes.addShaped("mystgears-recipe_gear_stone", <mystgears:gear_stone>, [
-	[null, <thebetweenlands:cragrock>, null], 
-	[<thebetweenlands:cragrock>, <thebetweenlands:items_misc:20>, <thebetweenlands:cragrock>], 
-	[null, <thebetweenlands:cragrock>, null]
-]);
-
-
 recipes.remove(<mystgears:gear_googly_eye>);
 recipes.addShaped("mystgears-recipe_gear_googly_eye", <mystgears:gear_googly_eye>, [
 	[null, <thebetweenlands:shelf_fungus>, null], 
@@ -41,16 +39,17 @@ recipes.addShaped("mystgears-recipe_gear_googly_eye", <mystgears:gear_googly_eye
 	[null, <thebetweenlands:shelf_fungus>, null]
 ]);
 
+recipes.remove(<mystgears:gear_flywheel_heavy>);
+recipes.addShaped("mystgears-recipe_gear_flywheel_heavy", <mystgears:gear_flywheel_heavy>, [
+	[<thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>], 
+	[<thebetweenlands:octine_ingot>, <thebetweenlands:items_misc:19>, <thebetweenlands:octine_ingot>], 
+	[<thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>]
+]);
 
 
-<ore:gearDiamond>.remove(<mystgears:gear_diamond>);
-<ore:gearValonite>.add(<mystgears:gear_diamond>);
 
 <ore:gearWood>.remove(<mystgears:gear_wood>);
 <ore:gearWeedwood>.add(<mystgears:gear_wood>);
-
-<ore:gearStone>.remove(<mystgears:gear_stone>);
-<ore:gearCragrock>.add(<mystgears:gear_stone>);
 
 
 <mysticalmechanics:axle_iron>.displayName = "Syrmorite Axle";
