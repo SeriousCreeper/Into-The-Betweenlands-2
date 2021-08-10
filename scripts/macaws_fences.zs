@@ -18,7 +18,7 @@ function addStoneRailings(result as IItemStack, bottomBlock as IIngredient) {
 	]);
 }
 
-addStoneFences(<mcwfences:modern_stone_brick_wall>, <thebetweenlands:betweenstone_bricks>, <thebetweenlands:betweenstone>);
+addStoneFences(<mcwfences:modern_stone_brick_wall>, <thebetweenlands:betweenstone_bricks>, <thebetweenlands:betweenstone_tiles>);
 addStoneFences(<mcwfences:modern_andesite_wall>, <thebetweenlands:cragrock_bricks>, <thebetweenlands:cragrock>);
 addStoneFences(<mcwfences:modern_diorite_wall>, <thebetweenlands:limestone_bricks>, <thebetweenlands:limestone>);
 addStoneFences(<mcwfences:modern_granite_wall>, <thebetweenlands:mud_bricks>, <thebetweenlands:mud_brick_shingles>);
@@ -85,6 +85,17 @@ for wood in fenceWoodTypes {
 	recipes.remove(itemName);
 	recipes.addShaped(itemName * 1, [[<ore:stickWood>, fenceWoodTypes[wood].log, <ore:stickWood>], [<ore:stickWood>, fenceWoodTypes[wood].log, <ore:stickWood>]]);
 }
+
+
+recipes.remove(<mcwfences:oak_horse_fence>);
+recipes.addShapeless(<mcwfences:oak_horse_fence>, [<thebetweenlands:weedwood_log_fence>]);
+recipes.addShapeless(<thebetweenlands:weedwood_log_fence>, [<mcwfences:oak_horse_fence>]);
+
+recipes.remove(<mcwfences:oak_highley_gate>);
+recipes.addShapeless(<mcwfences:oak_highley_gate>, [<thebetweenlands:weedwood_log_fence_gate>]);
+recipes.addShapeless(<thebetweenlands:weedwood_log_fence_gate>, [<mcwfences:oak_highley_gate>]);
+
+
 
 
 for fence in loadedMods["mcwfences"].items {

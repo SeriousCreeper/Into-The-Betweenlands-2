@@ -1,0 +1,1 @@
+<simpletomb:grave_key>.addTooltip(format.green("Stand on your grave and SNEAK to get items back"));

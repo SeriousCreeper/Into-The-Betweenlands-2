@@ -503,14 +503,6 @@ recipes.addShaped("weirdinggadget-weirding_gadget-remodified", <weirdinggadget:w
 
 
 
-
-// GRAVESTONE
-JEI.removeAndHide(<gravestone:gravestone>);
-JEI.removeAndHide(<gravestone:death_info>);
-
-
-
-
 // UPPERS
 recipes.remove(<uppers:upper>);
 recipes.addShaped("uppers-upper-modified", <uppers:upper>, [

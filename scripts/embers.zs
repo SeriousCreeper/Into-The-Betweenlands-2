@@ -259,12 +259,6 @@ Melter.add(<liquid:void> * 16, <thaumcraft:nugget:7>);
 
 
 // ----------- STAMPER ----------------------
-Stamper.remove(<mysticalmechanics:gear_gold>);
-Stamper.add(<mysticalmechanics:gear_gold>, <liquid:octine> * 288, <embers:stamp_gear>);
-
-Stamper.remove(<mysticalmechanics:gear_iron>);
-Stamper.add(<mysticalmechanics:gear_iron>, <liquid:syrmorite> * 288, <embers:stamp_gear>);
-
 Stamper.remove(<minecraft:iron_ingot>);
 Stamper.add(<thebetweenlands:items_misc:11>, <liquid:syrmorite> * 144, <embers:stamp_bar>);
 

@@ -303,6 +303,12 @@ oreAllFlowers.add(<thebetweenlands:dead_weedwood_bush>);
 <ore:banner>.add(<thaumcraft:banner_red>);
 <ore:banner>.add(<thaumcraft:banner_black>);
 
+<ore:gearIron>.remove(<mysticalmechanics:gear_iron>);
+<ore:gearIron>.add(<mystgears:gear_syrmorite>);
+
+<ore:gearGold>.remove(<mysticalmechanics:gear_gold>);
+<ore:gearGold>.add(<mystgears:gear_octine>);
+
 
 val oreVisCrystals = <ore:visCrystals>;
 oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}));

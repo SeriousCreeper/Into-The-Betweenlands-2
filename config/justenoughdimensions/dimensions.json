@@ -5,6 +5,35 @@
   },
   "dimensions": [
     {
+      "dim": -2,
+      "temporary_dimension": false,
+      "world_template": "spawn_world",
+      "jed": {
+        "SkyRenderType": 2,
+        "CanSpawnHostiles": false
+      },
+      "biome": "thebetweenlands:raised_isles",
+      "dimensiontype": {
+        "id": -2,
+        "name": "The Emptiness",
+        "keeploaded": false,
+        "suffix": "_dim-2",
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+      "worldinfo": {},
+      "worldinfo_onetime": {
+        "generatorName": "flat",
+        "generatorOptions": "3;minecraft:air;127;",
+        "GameRules": {
+            "keepInventory": "true"
+        },
+        "SpawnX": 0,
+        "SpawnY": 100,
+        "SpawnZ": 0
+      }
+    },
+    {
       "dim": 21,
       "temporary_dimension": true,
       "world_template": "cragrock_tower",

@@ -1,0 +1,466 @@
+{
+  "dependencies": "betweenores",
+  "populate": {
+    "betweenlands_bone_top": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:slimy_bone_ore"
+        },
+        "material": [
+          "thebetweenlands:betweenstone",
+          "thebetweenlands:smooth_betweenstone",
+          "thebetweenlands:mossy_smooth_betweenstone"
+        ],
+        "cluster-size": 6
+      },
+      "chunk-chance": 5,
+      "cluster-count": 18,
+      "ceiling": true,
+      "ground-level": 128,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+    "betweenlands_bone_bottom": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:slimy_bone_ore"
+        },
+        "material": [
+          "thebetweenlands:betweenstone",
+          "thebetweenlands:smooth_betweenstone",
+          "thebetweenlands:mossy_smooth_betweenstone"
+        ],
+        "cluster-size": 6
+      },
+      "chunk-chance": 5,
+      "cluster-count": 18,
+      "ceiling": false,
+      "ground-level": 128,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    "betweenlands_syrmorite_top": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:syrmorite_ore"
+        },
+        "material": [
+          "thebetweenlands:betweenstone",
+          "thebetweenlands:smooth_betweenstone",
+          "thebetweenlands:mossy_smooth_betweenstone"
+        ],
+        "cluster-size": 8
+      },
+      "chunk-chance": 5,
+      "cluster-count": 17,
+      "ceiling": true,
+      "ground-level": 105,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+    "betweenlands_syrmorite_bottom": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:syrmorite_ore"
+        },
+        "material": [
+          "thebetweenlands:betweenstone",
+          "thebetweenlands:smooth_betweenstone",
+          "thebetweenlands:mossy_smooth_betweenstone"
+        ],
+        "cluster-size": 8
+      },
+      "chunk-chance": 5,
+      "cluster-count": 17,
+      "ceiling": false,
+      "ground-level": 105,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+
+
+
+
+
+
+
+
+
+    "betweenlands_octine_top": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:octine_ore"
+        },
+        "material": [
+          "thebetweenlands:betweenstone",
+          "thebetweenlands:smooth_betweenstone",
+          "thebetweenlands:mossy_smooth_betweenstone"
+        ],
+        "cluster-size": 8
+      },
+      "chunk-chance": 8,
+      "cluster-count": 16,
+      "ceiling": true,
+      "ground-level": 70,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+    "betweenlands_octine_bottom": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:octine_ore"
+        },
+        "material": [
+          "thebetweenlands:betweenstone",
+          "thebetweenlands:smooth_betweenstone",
+          "thebetweenlands:mossy_smooth_betweenstone"
+        ],
+        "cluster-size": 8
+      },
+      "chunk-chance": 8,
+      "cluster-count": 16,
+      "ceiling": false,
+      "ground-level": 70,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+
+
+
+
+
+
+
+
+    "betweenlands_valonite_top": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:valonite_ore"
+        },
+        "material": [
+          "thebetweenlands:pitstone"
+        ],
+        "cluster-size": 5
+      },
+      "chunk-chance": 10,
+      "cluster-count": 10,
+      "ceiling": true,
+      "ground-level": 45,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+    "betweenlands_valonite_bottom": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:valonite_ore"
+        },
+        "material": [
+          "thebetweenlands:pitstone"
+        ],
+        "cluster-size": 5
+      },
+      "chunk-chance": 10,
+      "cluster-count": 10,
+      "ceiling": false,
+      "ground-level": 45,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+
+
+
+
+    "betweenlands_sulfur_top": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:sulfur_ore"
+        },
+        "material": [
+          "thebetweenlands:betweenstone",
+          "thebetweenlands:smooth_betweenstone",
+          "thebetweenlands:mossy_smooth_betweenstone"
+        ],
+        "cluster-size": 12
+      },
+      "chunk-chance": 4,
+      "cluster-count": 18,
+      "ceiling": true,
+      "ground-level": 128,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+    "betweenlands_sulfur_bottom": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:sulfur_ore"
+        },
+        "material": [
+          "thebetweenlands:betweenstone",
+          "thebetweenlands:smooth_betweenstone",
+          "thebetweenlands:mossy_smooth_betweenstone"
+        ],
+        "cluster-size": 12
+      },
+      "chunk-chance": 4,
+      "cluster-count": 18,
+      "ceiling": false,
+      "ground-level": 128,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+    "betweenlands_sulfur_extra": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "soot:sulfur_ore"
+        },
+        "material": [
+          "thebetweenlands:sulfur_ore"
+        ],
+        "cluster-size": 1
+      },
+      "chunk-chance": 1,
+      "cluster-count": 30,
+      "ceiling": false,
+      "ground-level": 128,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+
+
+
+
+
+
+    "betweenlands_scabyst_top": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:scabyst_ore"
+        },
+        "material": [
+          "thebetweenlands:pitstone"
+        ],
+        "cluster-size": 5
+      },
+      "chunk-chance": 10,
+      "cluster-count": 12,
+      "ceiling": true,
+      "ground-level": 45,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+    "betweenlands_scabyst_bottom": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thebetweenlands:scabyst_ore"
+        },
+        "material": [
+          "thebetweenlands:pitstone"
+        ],
+        "cluster-size": 5
+      },
+      "chunk-chance": 10,
+      "cluster-count": 12,
+      "ceiling": false,
+      "ground-level": 45,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
+    },
+
+
+
+
+
+    "betweenlands_mossy_stone": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "thebetweenlands:mossy_smooth_betweenstone"
+        },
+        "type": "cave",
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 3
+      },
+      "cluster-count": 100,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": false,
+      "chunk-chance": 1,
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_smooth_stone": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "thebetweenlands:smooth_betweenstone"
+        },
+        "type": "cave",
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 3
+      },
+      "cluster-count": 100,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": false,
+      "chunk-chance": 1,
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "betweenlands_grass": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "thebetweenlands:swamp_grass"
+        },
+        "type": "cave",
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 50,
+        "ground-level": 0,
+      },
+      "cluster-count": 10,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": false,
+      "chunk-chance": 10,
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    }
+  }
+}

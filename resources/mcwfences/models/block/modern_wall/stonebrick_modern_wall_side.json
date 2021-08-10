@@ -3,8 +3,8 @@
 {
 	"parent": "mcwfences:block/parent/modern_wall_side",
 	"textures": {
-		"1": "thebetweenlands:blocks/betweenstone",
-		"particle": "thebetweenlands:blocks/betweenstone",
+		"1": "thebetweenlands:blocks/betweenstone_tiles",
+		"particle": "thebetweenlands:blocks/betweenstone_tiles",
 		"wall": "thebetweenlands:blocks/betweenstone_bricks"
 	}
 }

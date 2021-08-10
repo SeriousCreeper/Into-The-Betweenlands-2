@@ -3,8 +3,8 @@
 {
 	"parent": "mcwfences:block/parent/modern_wall_side",
 	"textures": {
-		"1": "embers:blocks/block_caminite_brick",
-		"particle": "embers:blocks/block_caminite_brick",
+		"1": "soot:blocks/caminite_plate",
+		"particle": "soot:blocks/caminite_plate",
 		"wall": "embers:blocks/block_caminite_brick"
 	}
 }
