@@ -103,7 +103,7 @@ val itemsToKeep = [
 	<minecraft:book>,
 	<minecraft:writable_book>,
 	<minecraft:dye:*>,
-	<minecraft:name_tag>,
+	//<minecraft:name_tag>,
 	<minecraft:bookshelf>,
 	<minecraft:rotten_flesh>,
 	<minecraft:noteblock>,
@@ -582,12 +582,14 @@ recipes.addShaped("book", <minecraft:book>, [
 recipes.remove(<minecraft:writable_book>);
 recipes.addShapeless("writable_book", <minecraft:writable_book>, [<minecraft:book>, <thebetweenlands:items_misc:3>, <minecraft:dye>]);
 
+/*
 recipes.remove(<minecraft:name_tag>);
 recipes.addShaped("name_tag", <minecraft:name_tag>, [
 	[null, null, <minecraft:string>],
 	[null, <thebetweenlands:items_misc:32>, null],
 	[<thebetweenlands:items_misc:32>, null, null]
 ]);
+*/
 
 <ore:slimeball>.add(<thebetweenlands:sludge_ball>);
 

@@ -6,6 +6,8 @@ import mods.roots.Pyre;
 import mods.roots.RunicShears;
 import mods.roots.Ritual;
 import mods.roots.Transmutation;
+import mods.roots.AnimalHarvest;
+import mods.roots.Pacifist;
 import mods.roots.predicates.PropertyPredicate;
 import mods.roots.predicates.StatePredicate;
 import mods.jei.JEI;
@@ -37,6 +39,10 @@ JEI.removeAndHide(<roots:gold_knife>);
 
 JEI.removeAndHide(<roots:wooden_shears>);
 JEI.removeAndHide(<roots:fire_starter>);
+JEI.removeAndHide(<roots:salmon_of_knowledge>);
+JEI.removeAndHide(<roots:flour>);
+JEI.removeAndHide(<roots:reliquary>);
+JEI.removeAndHide(<roots:glass_eye>);
 
 
 recipes.remove(<roots:wooden_shears>);
@@ -92,6 +98,14 @@ recipes.addShapedMirrored("roots_pestle", <roots:pestle>, [
 	[<thebetweenlands:cragrock>, <thebetweenlands:cragrock>, null]
 ]);
 
+recipes.remove(<roots:herb_pouch>);
+recipes.addShaped("herb_pouch", <roots:herb_pouch>.withTag({"color": 0}), [
+	[null, <thebetweenlands:shelf_fungus>, null], 
+	[<thebetweenlands:shelf_fungus>, null, <thebetweenlands:shelf_fungus>], 
+	[<thebetweenlands:shelf_fungus>, <thebetweenlands:shelf_fungus>, <thebetweenlands:shelf_fungus>]
+]);
+
+
 
 // Remove vanilla bark
 Bark.removeRecipe(<roots:bark_oak>);
@@ -121,7 +135,7 @@ Bark.addRecipe("saptree_bark_2", <thebetweenlands:log_sap:12>, <roots:bark_birch
 
 Bark.addRecipe("saptree_bark_2", <thebetweenlands:giant_root>, <roots:bark_dark_oak>);
 
-
+Bark.addRecipe("wildroot", <thebetweenlands:root>, <roots:wildroot>);
 
 // Misc
 
@@ -137,6 +151,7 @@ Mortar.removeRecipe(<minecraft:flint>);
 Mortar.removeRecipe(<minecraft:magma_cream>);
 Mortar.removeRecipe(<minecraft:blaze_powder>);
 Mortar.removeRecipe(<roots:petals>);
+Mortar.addRecipe("petals", <roots:petals>, [<ore:allFlowers>]);
 
 
 //Mortar.changeSpell("spell_supplication", [<ore:doorWood>, <thebetweenlands:cragrock:2>, <thebetweenlands:sapling_weedwood>, <roots:wildroot>, <thebetweenlands:items_misc:14>]);
@@ -214,32 +229,32 @@ Fey.removeRecipe(<roots:runed_hoe>);
 
 Fey.removeRecipe(<roots:runed_pickaxe>);
 Fey.addRecipe("runed_pickaxe", <roots:runed_pickaxe>, 
-	[<thaumcraft:metal_void>, <thaumcraft:metal_void>, <thebetweenlands:valonite_pickaxe>, <roots:fey_leather>, <roots:stalicripe>]);
+	[<roots:runed_obsidian>, <roots:runed_obsidian>, <thebetweenlands:valonite_pickaxe>, <roots:fey_leather>, <roots:stalicripe>]);
 
 Fey.removeRecipe(<roots:runed_axe>);
 Fey.addRecipe("runed_axe", <roots:runed_axe>, 
-	[<thaumcraft:metal_void>, <thaumcraft:metal_void>, <thebetweenlands:valonite_axe>, <roots:fey_leather>, <roots:cloud_berry>]);
+	[<roots:runed_obsidian>, <roots:runed_obsidian>, <thebetweenlands:valonite_axe>, <roots:fey_leather>, <roots:cloud_berry>]);
 
 Fey.removeRecipe(<roots:runed_shovel>);
 Fey.addRecipe("runed_shovel", <roots:runed_shovel>, 
-	[<thaumcraft:metal_void>, <thaumcraft:metal_void>, <thebetweenlands:valonite_shovel>, <roots:fey_leather>, <roots:dewgonia>]);
+	[<roots:runed_obsidian>, <roots:runed_obsidian>, <thebetweenlands:valonite_shovel>, <roots:fey_leather>, <roots:dewgonia>]);
 
 Fey.removeRecipe(<roots:runed_sword>);
 Fey.addRecipe("runed_sword", <roots:runed_sword>, 
-	[<thaumcraft:metal_void>, <thaumcraft:metal_void>, <thebetweenlands:valonite_sword>, <roots:fey_leather>, <roots:infernal_bulb>]);
+	[<roots:runed_obsidian>, <roots:runed_obsidian>, <thebetweenlands:valonite_sword>, <roots:fey_leather>, <roots:infernal_bulb>]);
 
 Fey.removeRecipe(<roots:runed_dagger>);
 Fey.addRecipe("runed_dagger", <roots:runed_dagger>, 
-	[<thaumcraft:metal_void>, <thaumcraft:metal_void>, <roots:diamond_knife>, <roots:fey_leather>, <roots:moonglow_leaf>]);
+	[<roots:runed_obsidian>, <roots:runed_obsidian>, <roots:diamond_knife>, <roots:fey_leather>, <roots:moonglow_leaf>]);
 
 
 
 Fey.removeRecipe(<roots:component_pouch>);
-Fey.addRecipe("component_pouch", <roots:component_pouch>, 
+Fey.addRecipe("component_pouch", <roots:component_pouch>.withTag({"color": 0}), 
 	[<thebetweenlands:weedwood_chest>, <thebetweenlands:shelf_fungus>, <thebetweenlands:shelf_fungus>, <roots:wildroot>, <ore:rootsBark>]);
 
 Fey.removeRecipe(<roots:apothecary_pouch>);
-Fey.addRecipe("apothecary_pouch", <roots:apothecary_pouch>, 
+Fey.addRecipe("apothecary_pouch", <roots:apothecary_pouch>.withTag({"color": 0}), 
 	[<arcanearchives:radiant_chest>, <roots:bark_wildwood>, <roots:bark_wildwood>, <roots:spirit_herb>, <roots:component_pouch>]);
 
 Fey.removeRecipe(<roots:living_arrow>);
@@ -252,14 +267,24 @@ Fey.addRecipe("elemental_soil", <roots:elemental_soil>,
 
 Fey.removeRecipe(<roots:runestone>);
 Fey.addRecipe("runestone", <roots:runestone> * 4, 
-	[<thebetweenlands:dentrothyst_shard_green> | <thebetweenlands:items_misc:39>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>]);
+	[<thebetweenlands:items_misc:39>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>]);
+Fey.addRecipe("runestone_2", <roots:runestone> * 8, 
+	[<thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>]);
 
 Fey.removeRecipe(<roots:unending_bowl>);
 Fey.addRecipe("unending_bowl", <roots:unending_bowl>, 
 	[<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}), <roots:mortar>, <roots:dewgonia>, <roots:terra_moss>, <roots:dewgonia>]);
 
+Fey.removeRecipe(<roots:runed_obsidian>);
+Fey.addRecipe("runed_obsidian", <roots:runed_obsidian> * 4, 
+	[<roots:runic_dust>, <thaumcraft:ingot:1>, <thaumcraft:ingot:1>, <ore:runestone>, <ore:runestone>]);
+
+Fey.removeRecipe(<minecraft:gunpowder>);
+Fey.removeRecipe(<roots:salmon_of_knowledge>);
 
 
+
+// WILDROOT
 Fey.removeRecipe(<roots:wildwood_helmet>);
 Fey.addRecipe("wildwood_helmet", <roots:wildwood_helmet>, 
 	[<thebetweenlands:syrmorite_helmet>, <roots:bark_wildwood>, <roots:bark_wildwood>, <ore:plankWood>, <thebetweenlands:items_misc:19>]);
@@ -281,11 +306,6 @@ Fey.addRecipe("wildwood_bow", <roots:wildwood_bow>,
 	[<thebetweenlands:weedwood_bow>, <roots:bark_wildwood>, <roots:bark_wildwood>, <roots:terra_moss>, <roots:spirit_herb>]);
 
 
-
-Fey.removeRecipe(<minecraft:gunpowder>);
-
-
-
 // Pyre Crafting
 Pyre.addRecipe("embers_manual", <embers:codex>, 
 	[<minecraft:book>, <ore:ingotOctine>, <ore:ingotOctine>, <thebetweenlands:items_misc:10>, <thebetweenlands:items_misc:10>]);
@@ -301,28 +321,35 @@ Pyre.removeRecipe(<roots:baffle_cap_mushroom> * 3);
 Pyre.addRecipe("baffle_cap", <roots:baffle_cap_mushroom> * 3, 
 	[<roots:terra_moss>, <thebetweenlands:items_misc:30>, <thebetweenlands:yellow_dotted_fungus>, <thebetweenlands:flat_head_mushroom_item>, <thebetweenlands:black_hat_mushroom_item>]);
 
-Pyre.removeRecipe(<roots:moonglow_leaf>* 3);
+Pyre.removeRecipe(<roots:moonglow_leaf> * 3);
 Pyre.addRecipe("moonglow_leaf", <roots:moonglow_leaf> * 3, 
 	[<ore:treeLeaves>, <thebetweenlands:dentrothyst:1>, <thebetweenlands:dentrothyst_shard_orange> | <thebetweenlands:dentrothyst_shard_green>, <roots:bark_birch>, <roots:bark_birch>]);
 
-Pyre.removeRecipe(<roots:pereskia>* 3);
+Pyre.removeRecipe(<roots:pereskia> * 3);
 Pyre.addRecipe("pereskia", <roots:pereskia> * 3, 
 	[<roots:wildroot>, <thebetweenlands:yellow_dotted_fungus>, <thebetweenlands:items_misc:39>, <thebetweenlands:middle_fruit>, <thebetweenlands:swamp_reed_item>]);
 
-Pyre.removeRecipe(<roots:dewgonia>* 3);
+Pyre.removeRecipe(<roots:dewgonia> * 3);
 Pyre.addRecipe("dewgonia", <roots:dewgonia> * 3, 
 	[<thebetweenlands:swamp_tallgrass>, <thebetweenlands:middle_fruit>, <thebetweenlands:items_misc:39>, <roots:terra_moss>, <thebetweenlands:algae>]);
 
-Pyre.removeRecipe(<roots:stalicripe>* 3);
+Pyre.removeRecipe(<roots:stalicripe> * 3);
 Pyre.addRecipe("stalicripe", <roots:stalicripe> * 3, 
 	[<thebetweenlands:items_misc:27>, <thebetweenlands:smooth_betweenstone>, <roots:wildroot>, <thebetweenlands:items_misc:11>, <coloredredstone:colored_redstone_dust:12>]);
 
+Pyre.removeRecipe(<roots:infernal_bulb> * 3);
+Pyre.addRecipe("infernal_bulb", <roots:infernal_bulb>, 
+	[<roots:wildroot>, <thebetweenlands:items_misc:45>, <thebetweenlands:items_misc:45>, <thebetweenlands:octine_ingot>, <thebetweenlands:items_misc:18>]);
+
 
 // Runic Shears
-RunicShears.addEntityRecipe("pods_from_roots", <thebetweenlands:root_pod> * 2, <entity:thebetweenlands:root_sprite>, 120 * 20);
-RunicShears.addEntityRecipe("lurkerskin_from_roots", <thebetweenlands:items_misc:4>, <entity:thebetweenlands:lurker>, 120 * 20);
-RunicShears.addEntityRecipe("feyleather_from_geckos", <roots:fey_leather>, <entity:thebetweenlands:gecko>, 120 * 20);
-RunicShears.addEntityRecipe("feyleather_from_toads", <roots:fey_leather>, <entity:thebetweenlands:toad>, 120 * 20);
+val defaultDelay = 20 * 60 * 10;
+
+RunicShears.removeRecipe(<roots:fey_leather>);
+RunicShears.addEntityRecipe("pods_from_roots", <thebetweenlands:root_pod> * 2, <entity:thebetweenlands:root_sprite>, defaultDelay);
+RunicShears.addEntityRecipe("lurkerskin_from_roots", <thebetweenlands:items_misc:4>, <entity:thebetweenlands:lurker>, defaultDelay);
+RunicShears.addEntityRecipe("feyleather_from_geckos", <roots:fey_leather>, <entity:thebetweenlands:gecko>, defaultDelay);
+RunicShears.addEntityRecipe("feyleather_from_toads", <roots:fey_leather>, <entity:thebetweenlands:toad>, defaultDelay);
 
 RunicShears.removeRecipe(<roots:spirit_herb>);
 RunicShears.addRecipe("spirit_herb", <roots:spirit_herb>, PropertyPredicate.create(<blockstate:thebetweenlands:middle_fruit_bush:age=15,decayed=false>, ["age","decayed"]), <blockstate:thebetweenlands:middle_fruit_bush:age=2>, <thebetweenlands:middle_fruit>);
@@ -330,9 +357,16 @@ RunicShears.addRecipe("spirit_herb", <roots:spirit_herb>, PropertyPredicate.crea
 RunicShears.removeRecipe(<roots:wildewheet>);
 RunicShears.addRecipe("wildewheet", <roots:wildewheet>, StatePredicate.create(<blockstate:thebetweenlands:swamp_reed>), <blockstate:minecraft:air>, <thebetweenlands:swamp_reed_item>);
 
+RunicShears.removeRecipe(<roots:mystic_feather>);
+RunicShears.addEntityRecipe("mystic_feather", <roots:mystic_feather>, <entity:thebetweenlands:dragonfly>, defaultDelay);
 
+RunicShears.removeRecipe(<roots:strange_ooze>);
+RunicShears.addEntityRecipe("strange_ooze_1", <roots:strange_ooze>, <entity:thebetweenlands:frog>, defaultDelay);
+RunicShears.addEntityRecipe("strange_ooze_2", <roots:strange_ooze>, <entity:thebetweenlands:sludge>, defaultDelay);
+RunicShears.addEntityRecipe("strange_ooze_3", <roots:strange_ooze>, <entity:thebetweenlands:tiny_sludge_worm>, defaultDelay);
+RunicShears.addEntityRecipe("strange_ooze_4", <roots:strange_ooze>, <entity:thebetweenlands:large_sludge_worm>, defaultDelay);
 
-
+RunicShears.removeRecipe(<roots:spirit_bag>);
 
 
 // RITUALS
@@ -348,6 +382,53 @@ Transmutation.addStateToStateRecipe("silverwood_sapling", StatePredicate.create(
 
 //Transmutation.addBlockToBlockRecipe("greatwood_sapling", <blockstate:roots:wildwood_sapling>, <blockstate:thaumcraft:sapling_greatwood>);
 
+
+
+
+// Animal Harvest
+AnimalHarvest.removeFish(<minecraft:fish:0>);
+AnimalHarvest.removeFish(<minecraft:fish:1>);
+AnimalHarvest.removeFish(<minecraft:fish:2>);
+AnimalHarvest.removeFish(<minecraft:fish:3>);
+
+AnimalHarvest.addFish("swamp_kelp_item", <thebetweenlands:swamp_kelp_item>, 1000);
+
+AnimalHarvest.addFish("angler_meat_raw", <thebetweenlands:angler_meat_raw>, 200);
+AnimalHarvest.addFish("angler_tooth", <thebetweenlands:items_misc:21>, 100);
+
+AnimalHarvest.addFish("crimson_middle_gem", <thebetweenlands:crimson_middle_gem>, 10);
+AnimalHarvest.addFish("aqua_middle_gem", <thebetweenlands:aqua_middle_gem>, 10);
+AnimalHarvest.addFish("green_middle_gem", <thebetweenlands:green_middle_gem>, 10);
+
+AnimalHarvest.addFish("life_crystal_fragment", <thebetweenlands:life_crystal_fragment>, 3);
+
+AnimalHarvest.addEntity(<entity:thebetweenlands:mire_snail>);
+AnimalHarvest.addEntity(<entity:thebetweenlands:lurker>);
+AnimalHarvest.addEntity(<entity:thebetweenlands:root_sprite>);
+AnimalHarvest.addEntity(<entity:thebetweenlands:sporeling>);
+AnimalHarvest.addEntity(<entity:thebetweenlands:dragonfly>);
+AnimalHarvest.addEntity(<entity:thebetweenlands:frog>);
+
+
+
+
+// Pacifist Animals
+Pacifist.addEntity(<entity:thebetweenlands:lurker>);
+Pacifist.addEntity(<entity:thebetweenlands:root_sprite>);
+Pacifist.addEntity(<entity:thebetweenlands:sporeling>);
+Pacifist.addEntity(<entity:thebetweenlands:dragonfly>);
+Pacifist.addEntity(<entity:thebetweenlands:frog>);
+Pacifist.addEntity(<entity:thebetweenlands:firefly>);
+Pacifist.addEntity(<entity:thebetweenlands:mire_snail>);
+Pacifist.addEntity(<entity:thebetweenlands:gecko>);
+Pacifist.addEntity(<entity:thebetweenlands:greebling>);
+Pacifist.addEntity(<entity:thebetweenlands:angler>);
+Pacifist.addEntity(<entity:thebetweenlands:spirit_tree_face_large>);
+Pacifist.addEntity(<entity:thebetweenlands:spirit_tree_face_small>);
+Pacifist.addEntity(<entity:thebetweenlands:emberling>);
+Pacifist.addEntity(<entity:thebetweenlands:chiromaw_tame>);
+Pacifist.addEntity(<entity:thebetweenlands:chiromaw_greebling_rider>);
+Pacifist.addEntity(<entity:thebetweenlands:chiromaw_hatchling>);
 
 
 // Flower Growth
@@ -408,7 +489,10 @@ FlowerGrowth.addRecipeBlock("thebetweenlands_dead_weedwood_bush", <thebetweenlan
 <roots:mortar>.displayName = "Small Mortar";
 <roots:pestle>.displayName = "Small Pestle";
 
+<roots:mystic_feather>.displayName = "Mystic Wing";
+
 <roots:terra_spores>.withLore(["Can turn Crag Rock into Mossy version"]);
 <roots:wildroot>.addTooltip(format.green("Dropped when breaking roots with a knife"));
 
 mods.jei.JEI.addDescription(<roots:terra_spores>, "Can turn Crag Rock into Mossy version");
+mods.jei.JEI.addDescription(<roots:elemental_soil_fire>, "Created by tossing a piece of Elemental Soil into fire.");

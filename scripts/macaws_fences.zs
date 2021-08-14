@@ -73,17 +73,19 @@ for wood in fenceWoodTypes {
 	recipes.remove(itemName);
 	recipes.addShaped(itemName * 3, [[fenceWoodTypes[wood].log, fenceWoodTypes[wood].plank, fenceWoodTypes[wood].log], [fenceWoodTypes[wood].log, fenceWoodTypes[wood].plank, fenceWoodTypes[wood].log]]);
 
-	itemName = itemUtils.getItem("mcwfences:" ~ wood ~ "_horse_fence");
-	recipes.remove(itemName);
-	recipes.addShaped(itemName * 3, [[fenceWoodTypes[wood].log, <ore:stickWood>, fenceWoodTypes[wood].log], [fenceWoodTypes[wood].log, <ore:stickWood>, fenceWoodTypes[wood].log]]);
+	if(wood != "oak") {
+		itemName = itemUtils.getItem("mcwfences:" ~ wood ~ "_horse_fence");
+		recipes.remove(itemName);
+		recipes.addShaped(itemName * 3, [[fenceWoodTypes[wood].log, <ore:stickWood>, fenceWoodTypes[wood].log], [fenceWoodTypes[wood].log, <ore:stickWood>, fenceWoodTypes[wood].log]]);
+		
+		itemName = itemUtils.getItem("mcwfences:" ~ wood ~ "_highley_gate");
+		recipes.remove(itemName);
+		recipes.addShaped(itemName * 1, [[<ore:stickWood>, fenceWoodTypes[wood].log, <ore:stickWood>], [<ore:stickWood>, fenceWoodTypes[wood].log, <ore:stickWood>]]);
+	}
 
 	itemName = itemUtils.getItem("mcwfences:" ~ wood ~ "_wired_fence");
 	recipes.remove(itemName);
 	recipes.addShaped(itemName * 3, [[<ore:stickWood>, <minecraft:iron_bars>, <ore:stickWood>], [<ore:stickWood>, fenceWoodTypes[wood].log, <ore:stickWood>]]);
-
-	itemName = itemUtils.getItem("mcwfences:" ~ wood ~ "_highley_gate");
-	recipes.remove(itemName);
-	recipes.addShaped(itemName * 1, [[<ore:stickWood>, fenceWoodTypes[wood].log, <ore:stickWood>], [<ore:stickWood>, fenceWoodTypes[wood].log, <ore:stickWood>]]);
 }
 
 

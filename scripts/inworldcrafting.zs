@@ -1,0 +1,1 @@
+mods.inworldcrafting.FireCrafting.addRecipe(<roots:elemental_soil_fire>, <roots:elemental_soil>, 40);

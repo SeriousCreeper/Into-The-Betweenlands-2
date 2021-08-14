@@ -12,8 +12,8 @@
         "meta": 32767
       },
       "input_fluid": {
-        "comment": "Water",
-        "name": "water",
+        "comment": "Swamp Water",
+        "name": "swamp_water",
         "amount": 1000
       },
       "output_fluid": {

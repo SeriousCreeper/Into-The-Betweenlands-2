@@ -37,6 +37,7 @@
       "dim": 21,
       "temporary_dimension": true,
       "world_template": "cragrock_tower",
+      "post_deletion_command": "say Dimension 21 was deleted!",
       "jed": {
         "SkyRenderType": 2,
         "void_teleport": {

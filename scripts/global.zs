@@ -189,7 +189,7 @@ oreAllFlowers.add(<thebetweenlands:nettle>);
 oreAllFlowers.add(<thebetweenlands:nettle_flowered>);
 oreAllFlowers.add(<thebetweenlands:pickerel_weed>);
 oreAllFlowers.add(<thebetweenlands:shoots>);
-oreAllFlowers.add(<thebetweenlands:sludgecreep>);
+//oreAllFlowers.add(<thebetweenlands:sludgecreep>);
 oreAllFlowers.add(<thebetweenlands:soft_rush>);
 oreAllFlowers.add(<thebetweenlands:dead_weedwood_bush>);
 
