@@ -17,7 +17,25 @@
         "amount": 250
       },
       "required_heat": 0.6,
-      "time": 240
+      "time": 3000
+    },
+    {
+      "comment": "",
+      "output_item": {
+        "ore": null,
+        "comment": "Salt",
+        "mod_id": "growthcraft",
+        "name": "salt",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Swamp Water",
+        "name": "swamp_water",
+        "amount": 500
+      },
+      "required_heat": 0.6,
+      "time": 3000
     }
   ]
 }

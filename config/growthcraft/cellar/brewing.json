@@ -2,14 +2,14 @@
   "comment": "",
   "data": [
     {
-      "comment": "",
+      "comment": "Rennet Making",
       "item": {
-        "ore": "rennetSource",
+        "ore": null,
         "comment": "",
-        "mod_id": null,
-        "name": null,
+        "mod_id": "thebetweenlands",
+        "name": "nettle_flowered",
         "amount": 1,
-        "meta": 32767
+        "meta": 0
       },
       "input_fluid": {
         "comment": "Swamp Water",
@@ -27,10 +27,35 @@
         "comment": "Bone Meal",
         "mod_id": "minecraft",
         "name": "dye",
-        "amount": 1,
+        "amount": 0,
         "meta": 15
       },
       "requiresLid": false,
+      "time": 1200
+    },
+    {
+      "comment": "Salt Making",
+      "item": null,
+      "input_fluid": {
+        "comment": "Swamp Water",
+        "name": "swamp_water",
+        "amount": 1000
+      },
+      "output_fluid": {
+        "comment": "Swamp Water",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 0.0,
+        "ore": null,
+        "comment": "Salt",
+        "mod_id": "growthcraft",
+        "name": "salt",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": true,
       "time": 1200
     },
     {

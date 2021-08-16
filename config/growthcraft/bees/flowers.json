@@ -6,8 +6,8 @@
       "entry_type": "generic",
       "block": {
         "comment": "Flower",
-        "mod_id": "minecraft",
-        "name": "red_flower",
+        "mod_id": "thebetweenlands",
+        "name": "arrow_arum",
         "meta": 32767
       }
     },
@@ -16,8 +16,108 @@
       "entry_type": "generic",
       "block": {
         "comment": "Flower",
-        "mod_id": "minecraft",
-        "name": "yellow_flower",
+        "mod_id": "thebetweenlands",
+        "name": "blue_eyed_grass",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "thebetweenlands",
+        "name": "blue_iris",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "thebetweenlands",
+        "name": "boneset",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "thebetweenlands",
+        "name": "bottle_brush_grass",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "thebetweenlands",
+        "name": "button_bush",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "thebetweenlands",
+        "name": "copper_iris",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "thebetweenlands",
+        "name": "marsh_hibiscus",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "thebetweenlands",
+        "name": "marsh_mallow",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "thebetweenlands",
+        "name": "milkweed",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "thebetweenlands",
+        "name": "nettle_flowered",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "thebetweenlands",
+        "name": "pickerel_weed",
         "meta": 32767
       }
     }

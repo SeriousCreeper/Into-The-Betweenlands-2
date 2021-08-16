@@ -24,6 +24,19 @@
           "chance": 50
         }
       ]
+    },
+    {
+      "blocks": [
+        "growthcraft_bees:beebox",
+        "growthcraft_bees:beehive"
+      ],
+      "effects": [
+        {
+          "effect": "firefly",
+          "chance": 100
+        }
+      ]
     }
   ]
 }
+

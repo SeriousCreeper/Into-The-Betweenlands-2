@@ -111,12 +111,6 @@ global removeAndHide as IItemStack[] = [
 	<embers:ore_quartz>,
 	<embers:geo_separator>,
 
-// MECH WORKS
-	<tmechworks:metal:*>,
-	<tmechworks:ingots:*>,
-	<tmechworks:nuggets:*>,
-	<tmechworks:drawbridge:1>,
-	<tmechworks:firestarter>,
 
 // MYSTICAL GEARS
 	<mystgears:drill_diamond>,
@@ -193,13 +187,15 @@ oreAllFlowers.add(<thebetweenlands:shoots>);
 oreAllFlowers.add(<thebetweenlands:soft_rush>);
 oreAllFlowers.add(<thebetweenlands:dead_weedwood_bush>);
 
+<ore:rennetSource>.add(<thebetweenlands:nettle_flowered>);
+
 
 <ore:nuggetLead>.remove(<embers:nugget_lead>);
 <ore:nuggetCopper>.remove(<thaumcraft:nugget:1>);
 <ore:nuggetTin>.remove(<thaumcraft:nugget:2>);
 <ore:nuggetSilver>.remove(<thaumcraft:nugget:3>);
 
-<ore:ingotCopper>.remove(<tmechworks:ingots:1>);
+//<ore:ingotCopper>.remove(<tmechworks:ingots:1>);
 
 <ore:string>.remove(<mysticalworld:silk_thread>);
 

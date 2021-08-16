@@ -11,7 +11,7 @@
 				"size": 8
 			}
 		},
-		{ // black
+		{ 
 			"input": {
 				"id": "thebetweenlands:items_crushed",
 				"meta": 20
@@ -31,7 +31,7 @@
 				"size": 2
 			}
 		},
-		{ // red
+		{
 			"input": {
 				"id": "thebetweenlands:items_crushed",
 				"meta": 28
@@ -64,7 +64,7 @@
 				"size": 2
 			}
 		},
-		{ // green
+		{
 			"input": {
 				"id": "thebetweenlands:items_crushed",
 				"meta": 32
@@ -75,7 +75,7 @@
 				"size": 8
 			}
 		},
-		{ // blue
+		{
 			"input": {
 				"id": "thebetweenlands:items_crushed",
 				"meta": 45
@@ -264,6 +264,15 @@
 		}
 	],
 	"purifier": [
+	  {
+	    "input": {
+          "id": "minecraft:paper"
+	    },
+	      "output": {
+          "id": "pizzacraft:paper_mass",
+          "size": 3
+	    }
+	  }
 	],
 	"animator_repairable": [
 	  {
@@ -271,13 +280,9 @@
 	      "item": {
 	        "id": "thebetweenlands:bark_amulet"
 	      },
-	      //Minumum amount of fuel required to repair the item
 	      "min_fuel": 16,
-	      //Mimumum amount of life crystal required to repair the item
 	      "min_life": 16,
-	      //Amount of fuel required to repair the item if it is fully broken
 	      "max_fuel": 32,
-	      //Amount of life crystal required to repair the item if it is fully broken
 	      "max_life": 32
 	    }
 	  }

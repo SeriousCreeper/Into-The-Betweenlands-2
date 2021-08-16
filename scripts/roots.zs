@@ -31,6 +31,11 @@ knifeDict.add(<roots:stone_knife:32767>);
 knifeDict.add(<roots:iron_knife:32767>);
 knifeDict.add(<roots:diamond_knife:32767>);
 
+<ore:toolKnife>.add(<roots:wood_knife:32767>);
+<ore:toolKnife>.add(<roots:stone_knife:32767>);
+<ore:toolKnife>.add(<roots:iron_knife:32767>);
+<ore:toolKnife>.add(<roots:diamond_knife:32767>);
+
 //JEI.hide(<roots:wood_knife>);
 JEI.removeAndHide(<roots:gold_knife>);
 //JEI.hide(<roots:living_hoe>);

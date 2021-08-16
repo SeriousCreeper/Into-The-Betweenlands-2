@@ -280,7 +280,6 @@ Stamper.remove(<minecraft:blaze_powder>);
 Stamper.remove(<embers:aspectus_iron>);
 Stamper.add(<embers:aspectus_iron>, <liquid:syrmorite> * 144, <embers:stamp_plate>, <embers:shard_ember>);
 
-Stamper.add(<pizzacraft:cheese>, <liquid:liquid_milk> * 1000, <embers:stamp_flat>);
 
 //Stamper.remove(<minecraft:iron_nugget>);
 //Stamper.add(<thebetweenlands:items_misc:41>, <liquid:syrmorite> * 16, <soot:stamp_nugget>);

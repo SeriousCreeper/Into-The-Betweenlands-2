@@ -523,11 +523,11 @@ recipes.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<uppers
 
 
 
-// MACAW
-
-
-
 // THE BETWEENLANDS
+recipes.addShaped("paper_from_swamp_reed", <minecraft:paper> * 3, [
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>]
+]);
+
 recipes.addShaped("more_weedwood_sticks", <thebetweenlands:items_misc:20> * 16, [
 	[<thebetweenlands:log_weedwood:12> | <thebetweenlands:log_weedwood:0>], 
 	[<thebetweenlands:log_weedwood:12> | <thebetweenlands:log_weedwood:0>]

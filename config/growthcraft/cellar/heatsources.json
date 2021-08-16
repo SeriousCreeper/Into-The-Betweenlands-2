@@ -32,6 +32,14 @@
       "states": {
         "32767": 0.7
       }
+    },
+    {
+      "comment": "Octine Block",
+      "mod_id": "thebetweenlands",
+      "block_name": "octine_block",
+      "states": {
+        "32767": 0.7
+      }
     }
   ]
 }
