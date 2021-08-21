@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thaumcraft:items/elemental_pick",
+    "layer1": "thaumcraft:items/elemental_pick_corrosion_3"
+  }
+}

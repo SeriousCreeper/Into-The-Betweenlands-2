@@ -2,6 +2,7 @@ import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.SalisMundus;
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Infusion;
+import mods.thaumcraft.SmeltingBonus;
 
 
 
@@ -678,6 +679,9 @@ SalisMundus.addSingleConversion(<ore:blockSyrmorite>, <thaumcraft:crucible>);
 
 
 // CAULDRON
+Crucible.removeRecipe(<thaumcraft:cluster:0>);
+Crucible.removeRecipe(<thaumcraft:cluster:1>);
+
 Crucible.removeRecipe(<thaumcraft:nitor_yellow>);
 Crucible.registerRecipe("nitor", "UNLOCKALCHEMY@3", <thaumcraft:nitor_yellow>, <embers:crystal_ember>, [
 	<aspect:ignis> * 10, 
@@ -836,6 +840,29 @@ Infusion.registerRecipe("thaumiumfortresslegs", "ARMORFORTRESS", <thaumcraft:for
 	<ore:leather>
 ]);
 
+
+
+
+// INFERNAL FURNACE
+SmeltingBonus.removeSmeltingBonus(<ore:oreLead>, <thaumcraft:nugget:4>);
+SmeltingBonus.removeSmeltingBonus(<ore:oreSilver>, <thaumcraft:nugget:3>);
+SmeltingBonus.removeSmeltingBonus(<ore:oreTin>, <thaumcraft:nugget:2>);
+SmeltingBonus.removeSmeltingBonus(<ore:oreCopper>, <thaumcraft:nugget:1>);
+
+SmeltingBonus.removeSmeltingBonus(<ore:clusterLead>, <thaumcraft:nugget:4>);
+SmeltingBonus.removeSmeltingBonus(<ore:clusterSilver>, <thaumcraft:nugget:3>);
+SmeltingBonus.removeSmeltingBonus(<ore:clusterTin>, <thaumcraft:nugget:2>);
+SmeltingBonus.removeSmeltingBonus(<ore:clusterCopper>, <thaumcraft:nugget:1>);
+
+SmeltingBonus.addSmeltingBonus(<ore:oreLead>, <embers:nugget_lead> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:oreSilver>, <embers:nugget_silver> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:oreTin>, <embers:nugget_tin> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:oreCopper>, <embers:nugget_copper> % 10);
+
+SmeltingBonus.addSmeltingBonus(<ore:clusterLead>, <embers:nugget_lead> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterSilver>, <embers:nugget_silver> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterTin>, <embers:nugget_tin> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterCopper>, <embers:nugget_copper> % 20);
 
 
 

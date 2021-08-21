@@ -4,6 +4,31 @@
     "TEST": [
       "antiqueatlas:textures/gui/tiles/test.png",
       "antiqueatlas:textures/gui/tiles/test.png"
+    ],
+    "RAISED_ISLES": [
+      "antiqueatlas:textures/raised_isles.png",
+      "antiqueatlas:textures/raised_isles1.png",
+      "antiqueatlas:textures/raised_isles2.png",
+      "antiqueatlas:textures/raised_isles3.png",
+      "antiqueatlas:textures/raised_isles4.png",
+      "antiqueatlas:textures/water.png",
+      "antiqueatlas:textures/water1.png",
+      "antiqueatlas:textures/water.png",
+      "antiqueatlas:textures/water1.png",
+      "antiqueatlas:textures/water.png",
+      "antiqueatlas:textures/water1.png"
+    ],
+    "DEEP_WATERS": [
+      "antiqueatlas:textures/deep_waters.png",
+      "antiqueatlas:textures/deep_waters1.png",
+      "antiqueatlas:textures/deep_waters2.png",
+      "antiqueatlas:textures/deep_waters3.png",
+      "antiqueatlas:textures/water.png",
+      "antiqueatlas:textures/water1.png",
+      "antiqueatlas:textures/water.png",
+      "antiqueatlas:textures/water1.png",
+      "antiqueatlas:textures/water.png",
+      "antiqueatlas:textures/water1.png"
     ]
   }
 }

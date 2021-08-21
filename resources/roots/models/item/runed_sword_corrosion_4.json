@@ -1,0 +1,7 @@
+{
+  "parent": "mysticallib:item/handheld_large",
+  "textures": {
+    "layer0": "roots:items/runed_sword",
+    "layer1": "roots:items/runed_sword_corrosion_4"
+  }
+}

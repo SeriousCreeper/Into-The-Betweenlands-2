@@ -119,6 +119,10 @@ global removeAndHide as IItemStack[] = [
 	<mech_crafting:sturdy_gearbox>,
 	<mech_crafting:mechanical_bellows>,
 
+// THAUMCRAFT
+	<thaumcraft:cluster:0>,
+	<thaumcraft:cluster:1>,
+
 ] as IItemStack[];
 
 
@@ -212,6 +216,7 @@ oreAllFlowers.add(<thebetweenlands:dead_weedwood_bush>);
 <ore:nuggetOctine>.add(<minecraft:gold_nugget>);
 
 <ore:nuggetIron>.remove(<minecraft:iron_nugget>);
+<ore:nuggetSyrmorite>.add(<minecraft:iron_nugget>);
 //<ore:nuggetIron>.remove(<thaumcraft:nugget>);
 //<ore:nuggetSyrmorite>.add(<minecraft:iron_nugget>);
 

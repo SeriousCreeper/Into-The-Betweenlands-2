@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thaumcraft:items/elemental_hoe",
+    "layer1": "thaumcraft:items/elemental_hoe_corrosion_4"
+  }
+}

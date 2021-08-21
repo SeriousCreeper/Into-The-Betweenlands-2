@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "roots:items/living_pickaxe",
+    "layer1": "roots:items/living_pickaxe_corrosion_3"
+  }
+}

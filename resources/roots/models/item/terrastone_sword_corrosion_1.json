@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "roots:items/terrastone_sword",
+    "layer1": "roots:items/terrastone_sword_corrosion_1"
+  }
+}

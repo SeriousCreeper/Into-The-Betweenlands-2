@@ -1,3 +1,72 @@
+import mods.jei.JEI;
+import crafttweaker.item.IItemStack;
+
+
+val subModNames = [
+	"growthcraft",
+	"growthcraft_bees",
+	"growthcraft_milk",
+	"growthcraft_cellar",
+	"growthcraft_bamboo",
+	"growthcraft_rice",
+	"growthcraft_hops",
+	"growthcraft_grapes",
+	"growthcraft_fishtrap",
+	"growthcraft_apples",
+] as string[];
+
+val itemsToKeep = [
+	<growthcraft:salt>,
+	<growthcraft_bees:honey_jar>,
+	<growthcraft_bees:honey_comb_empty>,
+	<growthcraft_bees:honey_comb_filled>,
+	<growthcraft_bees:bee>,
+	<growthcraft_bees:bees_wax>,
+	<growthcraft_bees:beebox>,
+	<growthcraft_bees:beehive>,
+	<growthcraft_cellar:brew_kettle>,
+	<growthcraft_cellar:culture_jar>,
+	<bladditions:dentrothyst_fluid_vial:*>,
+	<growthcraft_milk:cheese_cloth>,
+	<growthcraft_milk:cheese_vat>,
+	<growthcraft_milk:pancheon>,
+	<growthcraft_milk:churn>,
+	<growthcraft_milk:cheese_press>,
+	<growthcraft_milk:butter:*>,
+	<growthcraft_milk:ice_cream:*>,
+	<growthcraft_milk:yogurt:*>,
+	<growthcraft_milk:cheese_aged_slice:*>,
+	<growthcraft_milk:cheese_waxed_slice:*>,
+	<growthcraft_milk:cheese_simple_slice:*>,
+	<growthcraft_milk:cheese_aged:*>,
+	<growthcraft_milk:cheese_waxed:*>,
+	<growthcraft_milk:curds_aged:*>,
+	<growthcraft_milk:curds_waxed:*>,
+	<growthcraft_milk:curds_simple:*>,
+] as IItemStack[];
+
+for mod in subModNames {
+	val loadedModItems = loadedMods[mod].items;
+
+	for item in loadedModItems {
+		var skip = false;
+
+	    for wlItem in itemsToKeep {
+	    	if(wlItem.matches(item)) {
+	            skip = true;
+	            break;
+	        }
+	    }
+
+	    if(!skip) {
+	    	JEI.removeAndHide(item);
+	    	furnace.remove(item);
+	    	item.removeAspects(allAspects);
+	    }
+	}
+}
+
+
 
 val honeyBucket = <thebetweenlands:bl_bucket:0>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:0>) |
 				  <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:1>);
@@ -26,7 +95,7 @@ recipes.addShapeless("fluid_honey_to_bottles", <bladditions:dentrothyst_fluid_vi
 	[honeyBucket, <thebetweenlands:dentrothyst_vial>, <thebetweenlands:dentrothyst_vial>, <thebetweenlands:dentrothyst_vial>, <thebetweenlands:dentrothyst_vial>]
 );
 recipes.addShapeless("fluid_honey_to_bottles_2", <bladditions:dentrothyst_fluid_vial:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}) * 4, 
-	[honeyBucket, <thebetweenlands:dentrothyst_vial>, <thebetweenlands:dentrothyst_vial>, <thebetweenlands:dentrothyst_vial>, <thebetweenlands:dentrothyst_vial>]
+	[honeyBucket, <thebetweenlands:dentrothyst_vial:2>, <thebetweenlands:dentrothyst_vial:2>, <thebetweenlands:dentrothyst_vial:2>, <thebetweenlands:dentrothyst_vial:2>]
 );
 
 recipes.addShapeless("honey_comb_filled_3", <bladditions:dentrothyst_fluid_vial>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}), 
@@ -40,8 +109,8 @@ recipes.remove(<growthcraft_bees:honey_jar>);
 recipes.addShapeless("honey_comb_filled_1", <growthcraft_bees:honey_jar>, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <thebetweenlands:mud_flower_pot>]);
 
 
-recipes.addShapeless("honey_to_bucket_1", <thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 1000}}), [<growthcraft_bees:honey_jar>, <growthcraft_bees:honey_jar>, <thebetweenlands:bl_bucket>]);
-recipes.addShapeless("honey_to_bucket_2", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 1000}}), [<growthcraft_bees:honey_jar>, <growthcraft_bees:honey_jar>, <thebetweenlands:bl_bucket:1>]);
+recipes.addShapeless("honey_to_bucket_1", <thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 1000}}), [<growthcraft_bees:honey_jar>.transformReplace(<thebetweenlands:mud_flower_pot>), <growthcraft_bees:honey_jar>.transformReplace(<thebetweenlands:mud_flower_pot>), <thebetweenlands:bl_bucket>]);
+recipes.addShapeless("honey_to_bucket_2", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 1000}}), [<growthcraft_bees:honey_jar>.transformReplace(<thebetweenlands:mud_flower_pot>), <growthcraft_bees:honey_jar>.transformReplace(<thebetweenlands:mud_flower_pot>), <thebetweenlands:bl_bucket:1>]);
 
 
 recipes.remove(<growthcraft_milk:cheese_press>);
@@ -58,3 +127,4 @@ recipes.addShaped("culture_jar", <growthcraft_cellar:culture_jar>, [
 	[<thebetweenlands:dentrothyst_shard_green>, null, <thebetweenlands:dentrothyst_shard_green>], 
 	[<thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:dentrothyst_shard_green>]
 ]);
+

@@ -7,7 +7,7 @@
     {
       "dim": -2,
       "temporary_dimension": false,
-      "world_template": "spawn_world",
+      //"world_template": "spawn_world",
       "jed": {
         "SkyRenderType": 2,
         "CanSpawnHostiles": false
@@ -29,26 +29,28 @@
             "keepInventory": "true"
         },
         "SpawnX": 0,
-        "SpawnY": 100,
+        "SpawnY": 103,
         "SpawnZ": 0
       }
     },
     {
       "dim": 21,
       "temporary_dimension": true,
-      "world_template": "cragrock_tower",
-      "post_deletion_command": "say Dimension 21 was deleted!",
+      "post_deletion_command": "tellraw @a [\"\",{\"text\":\"The Cragrock Tower Mirage has disappeared\\n\",\"obfuscated\":true,\"color\":\"dark_purple\"},{\"text\":\"The Cragrock Tower Mirage has disappeared\\n\",\"color\":\"gold\"},{\"text\":\"The Cragrock Tower Mirage has disappeared\",\"obfuscated\":true,\"color\":\"dark_purple\"}]",
       "jed": {
         "SkyRenderType": 2,
         "void_teleport": {
           "dimension": 20,
-          "trigger_y": 0,
+          "trigger_y": 50,
           "find_surface": true,
           "remove_fall_damage": true,
-          "fall_distance": 4.5,
+          "fall_distance": 2,
           "min_health_left": 1,
           "teleport_type": "spawn"
-        }
+        },
+        "CanDoRainSnowIce": false,
+        "CanDoLightning": false,
+        "IsSurfaceWorld": false
       },
       "biome": "thebetweenlands:raised_isles",
       "dimensiontype": {
@@ -65,7 +67,10 @@
         "generatorOptions": "3;minecraft:air;127;",
         "GameRules": {
             "keepInventory": "true"
-        }
+        },
+        "SpawnX": 0,
+        "SpawnY": 118,
+        "SpawnZ": 38
       }
     }
   ]

@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thaumcraft:items/void_shovel",
+    "layer1": "thaumcraft:items/void_shovel_corrosion_3"
+  }
+}

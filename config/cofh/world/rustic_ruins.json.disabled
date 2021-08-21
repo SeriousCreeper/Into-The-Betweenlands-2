@@ -1,0 +1,34 @@
+{
+  "dependencies": "betweenores",
+  "populate": {
+    "teststructure": {
+      "enabled": "true",
+      "distribution": "cave",
+      "generator": {
+        "block": {
+          "name": "thebetweenlands:pitstone"
+        },
+        "type": "structure",
+        "structure": "im_test_1.nbt",
+        "ignored-block": [
+          "minecraft:air"
+        ]
+      },
+      "cluster-count": 5,
+      "min-height": 10,
+      "max-height": 50,
+      "retrogen": false,
+      "ceiling": false,
+      "ground-level": 50,
+      "chunk-chance": 5,
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thaumcraft:items/elemental_sword",
+    "layer1": "thaumcraft:items/elemental_sword_corrosion_4"
+  }
+}

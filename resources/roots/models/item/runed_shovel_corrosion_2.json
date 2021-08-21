@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "roots:items/runed_shovel",
+    "layer1": "roots:items/runed_shovel_corrosion_2"
+  }
+}

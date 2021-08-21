@@ -286,5 +286,19 @@
 	      "max_life": 32
 	    }
 	  }
+	],
+	"animator": [
+	  {
+	    "input": {
+	      "item": {
+	        "id": "thaumcraft:nitor_yellow"
+	      },
+	      "fuel": 16,
+	      "life": 10
+	    },
+	    "output": {
+	      "id": "thebetweenlands:wisp"
+	    }
+	  }
 	]
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thaumcraft:items/void_pickaxe",
+    "layer1": "thaumcraft:items/void_pickaxe_corrosion_3"
+  }
+}

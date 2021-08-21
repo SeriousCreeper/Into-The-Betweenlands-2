@@ -4,7 +4,7 @@
 	"textures": {
 		"9": "pizzacraft:blocks/oven_front",
 		"10": "thebetweenlands:blocks/mud_bricks",
-		"14": "blocks/netherrack",
+		"14": "thebetweenlands:blocks/peat",
 		"16": "thebetweenlands:blocks/betweenstone_tiles",
 		"17": "pizzacraft:blocks/oven_counterside",
 		"18": "pizzacraft:blocks/oven_countertop",
