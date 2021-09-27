@@ -211,8 +211,9 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:aspectrus_seeds>.setAspects(<aspect:victus> * 1, <aspect:herba> * 5, <aspect:alkimia> * 1);
 <thebetweenlands:mire_snail_egg>.setAspects(<aspect:victus> * 5, <aspect:bestia> * 5);
 <thebetweenlands:mire_snail_egg_cooked>.setAspects(<aspect:victus> * 5, <aspect:bestia> * 5, <aspect:fabrico> * 1);
-<thebetweenlands:angler_meat_raw>.setAspects(<aspect:aqua> * 5, <aspect:victus> * 5, <aspect:bestia> * 5);
-<thebetweenlands:angler_meat_cooked>.setAspects(<aspect:victus> * 5, <aspect:bestia> * 5, <aspect:fabrico> * 1);
+<thebetweenlands:anadia_meat_raw>.setAspects(<aspect:aqua> * 5, <aspect:victus> * 5, <aspect:bestia> * 5);
+<thebetweenlands:anadia_meat_cooked>.setAspects(<aspect:victus> * 5, <aspect:bestia> * 5, <aspect:fabrico> * 1);
+<thebetweenlands:anadia_meat_smoked>.setAspects(<aspect:victus> * 5, <aspect:bestia> * 5, <aspect:fabrico> * 1);
 <thebetweenlands:frog_legs_raw>.setAspects(<aspect:aqua> * 5, <aspect:victus> * 5, <aspect:bestia> * 5);
 <thebetweenlands:frog_legs_cooked>.setAspects(<aspect:victus> * 5, <aspect:bestia> * 5, <aspect:fabrico> * 1);
 <thebetweenlands:snail_flesh_raw>.setAspects(<aspect:victus> * 5, <aspect:bestia> * 5);
@@ -318,7 +319,7 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:items_misc:11>.setAspects(<aspect:metallum> * 15);
 <thebetweenlands:items_misc:13>.setAspects(<aspect:herba> * 10);
 <thebetweenlands:items_misc:14>.setAspects(<aspect:mortuus> * 5, <aspect:victus> * 5);
-<thebetweenlands:items_misc:17>.setAspects(<aspect:mortuus> * 5, <aspect:bestia> * 5, <aspect:sensus> * 5);
+<thebetweenlands:items_misc:52>.setAspects(<aspect:mortuus> * 5, <aspect:bestia> * 5, <aspect:sensus> * 5);
 <thebetweenlands:items_misc:18>.setAspects(<aspect:ignis> * 10, <aspect:potentia> * 10);
 <thebetweenlands:items_misc:19>.setAspects(<aspect:vitreus> * 15, <aspect:desiderium> * 15);
 <thebetweenlands:items_misc:21>.setAspects(<aspect:bestia> * 5, <aspect:aversio> * 2);
@@ -337,9 +338,6 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:items_misc:45>.setAspects(<aspect:ignis> * 10, <aspect:vitreus> * 3);
 <thebetweenlands:items_misc:47>.setAspects(<aspect:vitreus> * 5, <aspect:alienis> * 5);
 
-
-
-<embers:plate_iron>.setAspects(<aspect:metallum> * 22);
 
 
 

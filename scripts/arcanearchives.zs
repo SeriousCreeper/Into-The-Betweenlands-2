@@ -3,7 +3,7 @@ import mods.arcanearchives.GCT;
 recipes.remove(<arcanearchives:radiant_resonator>);
 recipes.addShaped("arcanearchives-radiant_resonator", <arcanearchives:radiant_resonator>, [
 	[<thebetweenlands:octine_ingot>, <minecraft:iron_bars>, <thebetweenlands:octine_ingot>], 
-	[<ore:logWood>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).giveBack(<thebetweenlands:bl_bucket:1>), <ore:logWood>], 
+	[<ore:logWood>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).giveBack(<thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})), <ore:logWood>], 
 	[<ore:logWood>, null, <ore:logWood>]
 ]);
 
@@ -32,5 +32,16 @@ GCT.replaceRecipe("radiant_tank", <arcanearchives:radiant_tank>, [<arcanearchive
 GCT.replaceRecipe("brazier_of_hoarding", <arcanearchives:brazier_of_hoarding>, [<arcanearchives:radiant_dust> * 4, <thebetweenlands:items_misc:18> * 8, <thebetweenlands:octine_ingot> * 2, <ore:logWood> * 3]);
 
 
+recipes.remove(<pyrotech:diamond_hammer>);
+GCT.addRecipe("pyrotech_diamond_hammer", <pyrotech:diamond_hammer>, [<thebetweenlands:items_misc:19> * 2, <dawnoftimebuilder:silk>, <ore:stickWood> * 2]);
+
+recipes.remove(<pyrotech:tongs_diamond>);
+GCT.addRecipe("pyrotech_tongs_diamond", <pyrotech:tongs_diamond>, [<pyrotech:material:18> * 3, <pyrotech:material:27> * 2]);
+
+recipes.remove(<pyrotech:sawmill_blade_diamond>);
+GCT.addRecipe("pyrotech_sawmill_blade_diamond", <pyrotech:sawmill_blade_diamond>, [<thebetweenlands:octine_ingot>, <pyrotech:material:18> * 8]);
+
+recipes.remove(<pyrotech:cog_diamond>);
+GCT.addRecipe("pyrotech_cog_diamond", <pyrotech:cog_diamond>, [<pyrotech:material:18> * 8]);
 
 

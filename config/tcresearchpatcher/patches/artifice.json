@@ -7,7 +7,9 @@
                 "path": "stages/0/required_item",
                 "value": ["oredict:chest","thebetweenlands:syrmorite_hopper"]
             }
-        ],
+        ]
+    },
+    {
         "key": "REDSTONERELAY",
         "ops": [
             {
@@ -15,7 +17,9 @@
                 "path": "stages/0/required_item",
                 "value": ["coloredredstone:colored_redstone_torch_item;1;12"]
             }
-        ],
+        ]
+    },
+    {
         "key": "INFERNALFURNACE",
         "ops": [
             {
@@ -23,7 +27,9 @@
                 "path": "stages/0/required_research",
                 "value": ["!ignis"]
             }
-        ],
+        ]
+    },
+    {
         "key": "LAMPGROWTH",
         "ops": [
             {
@@ -31,7 +37,9 @@
                 "path": "stages/0/required_item",
                 "value": ["thebetweenlands:items_crushed;1;17"]
             }
-        ],
+        ]
+    },
+    {
         "key": "LAMPFERTILITY",
         "ops": [
             {
@@ -39,7 +47,9 @@
                 "path": "stages/0/required_item",
                 "value": ["thebetweenlands:swamp_reed_item","thebetweenlands:middle_fruit"]
             }
-        ],
+        ]
+    },
+    {
         "key": "MIRROR",
         "ops": [
             {

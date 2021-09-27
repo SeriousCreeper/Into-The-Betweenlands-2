@@ -10,7 +10,9 @@
                         "oredict:doorMetal"
                     ]
             }
-        ],
+        ]
+    },
+    {
         "key": "WARD_KEYS",
         "ops": [
             {
@@ -18,7 +20,9 @@
                 "path": "stages/1/recipes",
                 "value": ["key_iron", "thaumicaugmentation:key_brass", "thaumicaugmentation:key_thaumium"]
             }
-        ],
+        ]
+    },
+    {
         "key": "STARFIELD_GLASS_RIFT",
         "ops": [
             {

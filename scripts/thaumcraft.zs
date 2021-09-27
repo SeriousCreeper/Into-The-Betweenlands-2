@@ -85,14 +85,6 @@ recipes.addShaped("golembell", <thaumcraft:golem_bell>, [
 ]);
 
 
-recipes.remove(<mysticalmechanics:axle_iron>);
-recipes.addShaped("mysticalmechanics_axle_iron", <mysticalmechanics:axle_iron> * 8, [
-	[<thebetweenlands:items_misc:11>], 
-	[<ore:nuggetSyrmorite>], 
-	[<thebetweenlands:items_misc:11>]
-]);
-
-
 recipes.remove(<thaumicaugmentation:material:4>);
 recipes.addShaped("harness_base", <thaumicaugmentation:material:4>, [
 	[<ore:plateBrass>], 
@@ -106,7 +98,7 @@ recipes.remove(<thaumicaugmentation:impetus_generator>);
 recipes.remove(<thaumcraft:label>);
 recipes.addShapeless("thaumcraft_jarlabel", <thaumcraft:label> * 4, 
 	[<ore:dyeBlack>, 
-	<embers:adhesive> | <roots:strange_ooze> | <thebetweenlands:sludge_ball> | <thebetweenlands:sap_spit> | <thebetweenlands:sludge_ball>, 
+	<roots:strange_ooze> | <thebetweenlands:sludge_ball> | <thebetweenlands:sap_spit> | <thebetweenlands:sludge_ball>, 
 	<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]
 );
 recipes.addShapeless("thaumcraft_jarlabelnull", <thaumcraft:label>, 
@@ -115,13 +107,13 @@ recipes.addShapeless("thaumcraft_jarlabelnull", <thaumcraft:label>,
 
 recipes.remove(<thaumcraft:plate:*>);
 recipes.addShapeless("brassplate", <thaumcraft:plate:0>, 
-	[<ore:ingotBrass>, <ore:ingotBrass>, <embers:tinker_hammer:*>.transformDamage(1)]
+	[<ore:ingotBrass>, <ore:ingotBrass>, <immersiveengineering:tool:*>.transformDamage(1)]
 );
 recipes.addShapeless("thaumiumplate", <thaumcraft:plate:2>, 
-	[<ore:ingotThaumium>, <ore:ingotThaumium>, <embers:tinker_hammer:*>.transformDamage(1)]
+	[<ore:ingotThaumium>, <ore:ingotThaumium>, <immersiveengineering:tool:*>.transformDamage(1)]
 );
 recipes.addShapeless("voidplate", <thaumcraft:plate:3>, 
-	[<ore:ingotVoid>, <ore:ingotVoid>, <embers:tinker_hammer:*>.transformDamage(1)]
+	[<ore:ingotVoid>, <ore:ingotVoid>, <immersiveengineering:tool:*>.transformDamage(1)]
 );
 
 recipes.addShapeless(<thaumcraft:banner_white>, [<ore:banner>, <minecraft:dye:15>]);
@@ -438,7 +430,7 @@ ArcaneWorkbench.registerShapedRecipe("modvision", "GOLEMVISION@2", 50, [
 <thaumcraft:module>, 
 [
 	[<thebetweenlands:dentrothyst_vial:0>, null, <thebetweenlands:dentrothyst_vial:0>], 
-	[<thebetweenlands:items_misc:17>, null, <thebetweenlands:items_misc:17>], 
+	[<thebetweenlands:items_misc:52>, null, <thebetweenlands:items_misc:52>], 
 	[<ore:plateBrass>, <thaumcraft:mechanism_simple>, <ore:plateBrass>]
 ]);
 
@@ -476,33 +468,6 @@ ArcaneWorkbench.registerShapedRecipe("automatedcrossbow", "BASICTURRET@2", 100, 
 	[<ore:bow>, <thaumcraft:mechanism_simple>, <ore:plateIron>], 
 	[<thaumcraft:plank_greatwood>, <thaumcraft:mind>, <thaumcraft:plank_greatwood>], 
 	[<ore:stickWood>, null, <ore:stickWood>]
-]);
-
-
-recipes.remove(<mystgears:crafter_mechanical>);
-ArcaneWorkbench.removeRecipe("recipe_mechanical_crafter");
-ArcaneWorkbench.registerShapedRecipe("recipe_mechanical_crafter", "MECHANICALCRAFTER", 30, [
-	<aspect:terra>,
-	<aspect:aqua>,
-	<aspect:ordo>,
-], 
-<mystgears:crafter_mechanical>, 
-[
-	[<mysticalmechanics:axle_iron>, <thebetweenlands:syrmorite_hopper>, null], 
-	[<thaumcraft:mechanism_simple>, <ore:workbench>, <thaumcraft:mechanism_simple>], 
-	[null, <thaumcraft:plank_greatwood>, null]
-]);
-
-
-recipes.remove(<mystgears:vis_motor>);
-ArcaneWorkbench.removeRecipe(<mystgears:vis_motor>);
-ArcaneWorkbench.registerShapedRecipe("recipe_vis_motor", "VISMOTOR", 25, [
-	<aspect:ordo>,
-], 
-<mystgears:vis_motor>, 
-[
-	[<ore:plankWood>, <thaumcraft:vis_resonator>, <ore:plankWood>], 
-	[<ore:nuggetSyrmorite>, <mysticalmechanics:axle_iron>, <ore:nuggetSyrmorite>]
 ]);
 
 
@@ -587,8 +552,8 @@ ArcaneWorkbench.registerShapedRecipe("potionsprayer", "POTIONSPRAYER@2", 75, [
 <thaumcraft:potion_sprayer>, 
 [
 	[<ore:plateBrass>, <minecraft:dispenser>, <ore:plateBrass>], 
-	[<embers:plate_iron>, <thebetweenlands:infuser>, <embers:plate_iron>], 
-	[<embers:plate_iron>, <thaumcraft:metal_alchemical>, <embers:plate_iron>]
+	[<immersiveengineering:metal:39>, <thebetweenlands:infuser>, <immersiveengineering:metal:39>], 
+	[<immersiveengineering:metal:39>, <thaumcraft:metal_alchemical>, <immersiveengineering:metal:39>]
 ]);
 
 
@@ -682,12 +647,14 @@ SalisMundus.addSingleConversion(<ore:blockSyrmorite>, <thaumcraft:crucible>);
 Crucible.removeRecipe(<thaumcraft:cluster:0>);
 Crucible.removeRecipe(<thaumcraft:cluster:1>);
 
+/*
 Crucible.removeRecipe(<thaumcraft:nitor_yellow>);
 Crucible.registerRecipe("nitor", "UNLOCKALCHEMY@3", <thaumcraft:nitor_yellow>, <embers:crystal_ember>, [
 	<aspect:ignis> * 10, 
 	<aspect:lux> * 10, 
 	<aspect:potentia> * 10
 ]);
+*/
 
 
 Crucible.removeRecipe(<thaumcraft:nitor_yellow>);
@@ -714,7 +681,7 @@ Crucible.registerRecipe("thaumiumingot", "METALLURGY@2", <thaumcraft:ingot>, <th
 
 
 Crucible.removeRecipe(<minecraft:leather>);
-Crucible.registerRecipe("hedge_leather", "HEDGEALCHEMY@1", <minecraft:leather>, <minecraft:rotten_flesh>, [
+Crucible.registerRecipe("hedge_leather", "HEDGEALCHEMY@1", <thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:56>, [
 	<aspect:aer> * 3, 
 	<aspect:bestia> * 3, 
 ]);
@@ -854,15 +821,13 @@ SmeltingBonus.removeSmeltingBonus(<ore:clusterSilver>, <thaumcraft:nugget:3>);
 SmeltingBonus.removeSmeltingBonus(<ore:clusterTin>, <thaumcraft:nugget:2>);
 SmeltingBonus.removeSmeltingBonus(<ore:clusterCopper>, <thaumcraft:nugget:1>);
 
-SmeltingBonus.addSmeltingBonus(<ore:oreLead>, <embers:nugget_lead> % 10);
-SmeltingBonus.addSmeltingBonus(<ore:oreSilver>, <embers:nugget_silver> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:oreTin>, <embers:nugget_tin> % 10);
-SmeltingBonus.addSmeltingBonus(<ore:oreCopper>, <embers:nugget_copper> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:oreLead>, <immersiveengineering:metal:22> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:oreSilver>, <immersiveengineering:metal:23> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:oreCopper>, <immersiveengineering:metal:20> % 10);
 
-SmeltingBonus.addSmeltingBonus(<ore:clusterLead>, <embers:nugget_lead> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:clusterSilver>, <embers:nugget_silver> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:clusterTin>, <embers:nugget_tin> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:clusterCopper>, <embers:nugget_copper> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterLead>, <immersiveengineering:metal:22> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterSilver>, <immersiveengineering:metal:23> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterCopper>, <immersiveengineering:metal:20> % 20);
 
 
 

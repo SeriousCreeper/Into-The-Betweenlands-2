@@ -1,0 +1,44 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:leaves_weedwood_tree:*",
+            "thaumcraft:leaves_greatwood:*",
+            "thaumcraft:leaves_silverwood:*",
+            "thebetweenlands:leaves_sap_tree:*",
+            "thebetweenlands:leaves_rubber_tree:*",
+            "thebetweenlands:leaves_hearthgrove_tree:*",
+            "thebetweenlands:leaves_nibbletwig_tree:*",
+            "roots:wildwood_leaves:*"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 98
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items" : [
+              "dawnoftimebuilder:silk_worm_eggs"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

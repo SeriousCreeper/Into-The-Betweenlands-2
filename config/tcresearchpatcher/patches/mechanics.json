@@ -7,7 +7,9 @@
                 "path": "stages/0/recipes",
                 "value": ["crafttweaker:mysticalmechanics_axle_iron"]
             }
-        ],
+        ]
+    },
+    {
         "key": "GEARBOX",
         "ops": [
             {
@@ -15,7 +17,9 @@
                 "path": "stages/0/recipes",
                 "value": ["crafttweaker:mysticalmechanics_gearbox_frame_modified"]
             }
-        ],
+        ]
+    },
+    {
         "key": "MERGEBOX",
         "ops": [
             {

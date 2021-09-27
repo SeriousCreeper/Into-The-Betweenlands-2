@@ -1,34 +1,39 @@
 {
   "version": 1,
   "data": {
+    "COARSE_ISLANDS": [
+      "antiqueatlas:textures/coarse_islands.png"
+    ],
+    "DEEP_WATERS": [
+      "antiqueatlas:textures/deep_waters.png"
+    ],
+    "MARSH_0": [
+      "antiqueatlas:textures/marsh_0.png"
+    ],
+    "MARSH_1": [
+      "antiqueatlas:textures/marsh_1.png"
+    ],
+    "PATCHY_ISLANDS": [
+      "antiqueatlas:textures/patchy_islands.png"
+    ],
+    "RAISED_ISLES": [
+      "antiqueatlas:textures/raised_isles.png"
+    ],
+    "SLUDGE_PLAINS": [
+      "antiqueatlas:textures/sludge_plains.png"
+    ],
+    "SLUDGE_PLAINS_CLEARING": [
+      "antiqueatlas:textures/sludge_plains_clearing.png"
+    ],
+    "SWAMPLANDS": [
+      "antiqueatlas:textures/swamplands.png"
+    ],
+    "SWAMPLANDS_CLEARING": [
+      "antiqueatlas:textures/swamplands_clearing.png"
+    ],
     "TEST": [
       "antiqueatlas:textures/gui/tiles/test.png",
       "antiqueatlas:textures/gui/tiles/test.png"
-    ],
-    "RAISED_ISLES": [
-      "antiqueatlas:textures/raised_isles.png",
-      "antiqueatlas:textures/raised_isles1.png",
-      "antiqueatlas:textures/raised_isles2.png",
-      "antiqueatlas:textures/raised_isles3.png",
-      "antiqueatlas:textures/raised_isles4.png",
-      "antiqueatlas:textures/water.png",
-      "antiqueatlas:textures/water1.png",
-      "antiqueatlas:textures/water.png",
-      "antiqueatlas:textures/water1.png",
-      "antiqueatlas:textures/water.png",
-      "antiqueatlas:textures/water1.png"
-    ],
-    "DEEP_WATERS": [
-      "antiqueatlas:textures/deep_waters.png",
-      "antiqueatlas:textures/deep_waters1.png",
-      "antiqueatlas:textures/deep_waters2.png",
-      "antiqueatlas:textures/deep_waters3.png",
-      "antiqueatlas:textures/water.png",
-      "antiqueatlas:textures/water1.png",
-      "antiqueatlas:textures/water.png",
-      "antiqueatlas:textures/water1.png",
-      "antiqueatlas:textures/water.png",
-      "antiqueatlas:textures/water1.png"
     ]
   }
 }

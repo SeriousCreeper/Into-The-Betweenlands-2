@@ -7,7 +7,9 @@
                 "path": "stages/0/required_item",
                 "value": ["thebetweenlands:betweenstone","thebetweenlands:items_misc;1;3","thaumcraft:phial;1;1;{Aspects:[{amount:10,key:'aer'}]}"]
             }
-        ],
+        ]
+    },
+    {
         "key": "INFUSIONSTABLE",
         "ops": [
             {
@@ -15,7 +17,9 @@
                 "path": "stages/0/required_item",
                 "value": ["coloredredstone:colored_redstone_dust;1;12","thaumcraft:phial;1;1;{Aspects:[{amount:10,key:'vitium'}]}"]
             }
-        ],
+        ]
+    },
+    {
         "key": "BASEINFUSION",
         "ops": [
             {

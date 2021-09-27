@@ -1,0 +1,56 @@
+{
+  "list": [
+    {
+      "name": "bone",
+      "harvestLevel": 1,
+      "maxUses": 150,
+      "efficiency": 3.8,
+      "damage": 1.0,
+      "enchantability": 5,
+      "color": "f9fad8",
+      "shiny": false,
+      "ingredient": "ore:bone",
+      "langKey": "material.athenaeum.bone",
+      "oreDictKey": "artisansToolBone"
+    },
+    {
+      "name": "syrmorite",
+      "harvestLevel": 2,
+      "maxUses": 250,
+      "efficiency": 6.0,
+      "damage": 1.0,
+      "enchantability": 14,
+      "color": "5660a5",
+      "shiny": false,
+      "ingredient": "ore:ingotSyrmorite",
+      "langKey": "material.athenaeum.iron",
+      "oreDictKey": "artisansToolSyrmorite"
+    },
+    {
+      "name": "valonite",
+      "harvestLevel": 3,
+      "maxUses": 1500,
+      "efficiency": 8.0,
+      "damage": 1.0,
+      "enchantability": 10,
+      "color": "edc8ed",
+      "shiny": false,
+      "ingredient": "ore:gemValonite",
+      "langKey": "material.athenaeum.diamond",
+      "oreDictKey": "artisansToolValonite"
+    },
+    {
+      "name": "steel",
+      "harvestLevel": 4,
+      "maxUses": 5000,
+      "efficiency": 10,
+      "damage": 1.0,
+      "enchantability": 10,
+      "color": "444444",
+      "shiny": true,
+      "ingredient": "ore:ingotSteel",
+      "langKey": "material.athenaeum.steel",
+      "oreDictKey": "artisansToolSteel"
+    }
+  ]
+}

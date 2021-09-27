@@ -66,3 +66,10 @@ recipes.addShaped("redstone_randomizer", <quark:redstone_randomizer>, [
 	[<coloredredstone:colored_redstone_torch_item:12>, <thebetweenlands:items_misc:47>, <coloredredstone:colored_redstone_torch_item:12>],
 	[<thebetweenlands:smooth_cragrock>, <thebetweenlands:smooth_cragrock>, <thebetweenlands:smooth_cragrock>]
 ]);
+
+recipes.remove(<quark:tiny_potato>);
+recipes.addHiddenShapeless("tiny_pebble", <quark:tiny_potato>, [<thebetweenlands:items_misc:50>, <thebetweenlands:items_misc:19>]);
+recipes.addHiddenShapeless("angry_tiny_pebble", <quark:tiny_potato>.withTag({angery: 1 as byte}), [<thebetweenlands:angry_pebble>, <thebetweenlands:items_misc:19>]);
+
+<quark:tiny_potato>.displayName = "Tiny Pebble";
+<quark:tiny_potato>.withTag({angery: 1 as byte}).displayName = "Angry Tiny Pebble";

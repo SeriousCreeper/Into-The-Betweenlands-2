@@ -14,7 +14,9 @@
                 "op": "remove",
                 "path": "stages/3/required_craft"
             }
-        ],
+        ]
+    },
+    {
         "key": "TUBES",
         "ops": [
             {
@@ -22,7 +24,9 @@
                 "path": "stages/1/recipes/2",
                 "value": "crafttweaker:tubevalve"
             }
-        ],
+        ]
+    },
+    {
         "key": "WARDEDJARS",
         "ops": [
             {

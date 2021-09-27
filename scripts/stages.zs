@@ -3,6 +3,10 @@ import mods.recipestages.Recipes;
 import mods.orestages.OreStages;
 import crafttweaker.item.IItemStack;
 
+
+/*
+
+
 OreStages.addReplacement("knowledge_of_malice", <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_malice", <betweenores:tin_ore>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_malice", <betweenores:lead_ore>, <thebetweenlands:pitstone>);
@@ -34,7 +38,7 @@ ItemStages.addItemStage("knowledge_of_malice", <embers:tinker_hammer>);
 Recipes.setRecipeStage("knowledge_of_decay", <thaumcraft:salis_mundus>);
 ItemStages.addItemStage("knowledge_of_decay", <thaumcraft:salis_mundus>);
 
-
+*/
 
 
 /*

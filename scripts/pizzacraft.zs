@@ -46,6 +46,11 @@ for item in itemsToRemove {
 	JEI.removeAndHide(item);
 }
 
+val waterBucket = <thebetweenlands:bl_bucket:0>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:0>) |
+				  <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:1>);
+val honeyJar = <bladditions:dentrothyst_fluid_vial:0>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}).transformReplace(<thebetweenlands:dentrothyst_vial:1>) |
+			   <bladditions:dentrothyst_fluid_vial:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}).transformReplace(<thebetweenlands:dentrothyst_vial:2>);
+
 
 recipes.remove(<pizzacraft:pizza_oven>);
 recipes.addShaped("pizza_oven", <pizzacraft:pizza_oven>, [
@@ -80,11 +85,6 @@ recipes.addShaped("pizza_bag", <pizzacraft:pizza_bag>, [
 	[<pizzacraft:red_cloth>, <ore:chestWood>, <pizzacraft:red_cloth>], 
 	[<pizzacraft:red_cloth>, <pizzacraft:red_cloth>, <pizzacraft:red_cloth>]
 ]);
-
-val waterBucket = <thebetweenlands:bl_bucket:0>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:0>) |
-				  <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:1>);
-val honeyJar = <bladditions:dentrothyst_fluid_vial:0>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}).transformReplace(<thebetweenlands:dentrothyst_vial:1>) |
-			   <bladditions:dentrothyst_fluid_vial:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}).transformReplace(<thebetweenlands:dentrothyst_vial:2>);
 
 
 recipes.remove(<pizzacraft:dough>);

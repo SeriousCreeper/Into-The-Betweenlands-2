@@ -105,11 +105,11 @@ val itemsToKeep = [
 	<minecraft:dye:*>,
 	//<minecraft:name_tag>,
 	<minecraft:bookshelf>,
-	<minecraft:rotten_flesh>,
 	<minecraft:noteblock>,
-	<minecraft:milk_bucket>,
+	//<minecraft:milk_bucket>,
 	//<minecraft:water_bucket>,
 	<minecraft:paper>,
+	<minecraft:stained_glass:*>,
 ] as IItemStack[];
 
 
@@ -251,6 +251,39 @@ recipes.addShaped("minecraft-anvil", <minecraft:anvil>, [
 ]);
 
 
+recipes.remove(<minecraft:string>);
+recipes.addShapeless("string", <minecraft:string> * 3, [<dawnoftimebuilder:silk>, <mysticalworld:spindle>]);
+
+
+val stainedGlassColors = {
+	<minecraft:stained_glass:0> : <minecraft:dye:15>,
+	<minecraft:stained_glass:1> : <minecraft:dye:14>,
+	<minecraft:stained_glass:2> : <minecraft:dye:13>,
+	<minecraft:stained_glass:3> : <minecraft:dye:12>,
+	<minecraft:stained_glass:4> : <minecraft:dye:11>,
+	<minecraft:stained_glass:5> : <minecraft:dye:10>,
+	<minecraft:stained_glass:6> : <minecraft:dye:9>,
+	<minecraft:stained_glass:7> : <minecraft:dye:8>,
+	<minecraft:stained_glass:8> : <minecraft:dye:7>,
+	<minecraft:stained_glass:9> : <minecraft:dye:6>,
+	<minecraft:stained_glass:10> : <minecraft:dye:5>,
+	<minecraft:stained_glass:11> : <minecraft:dye:4>,
+	<minecraft:stained_glass:12> : <minecraft:dye:3>,
+	<minecraft:stained_glass:13> : <minecraft:dye:2>,
+	<minecraft:stained_glass:14> : <minecraft:dye:1>,
+	<minecraft:stained_glass:15> : <minecraft:dye:0>,
+} as IItemStack[IItemStack];
+
+
+for glass in stainedGlassColors {
+	recipes.remove(glass);
+
+	recipes.addShaped(glass * 8, [
+		[<thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>], 
+		[<thebetweenlands:filtered_silt_glass>, stainedGlassColors[glass], <thebetweenlands:filtered_silt_glass>], 
+		[<thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>]
+	]);
+}
 
 
 
@@ -471,15 +504,6 @@ recipes.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<uppers
 
 
 // THE BETWEENLANDS
-recipes.addShaped("paper_from_swamp_reed", <minecraft:paper> * 3, [
-	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>]
-]);
-
-recipes.addShaped("more_weedwood_sticks", <thebetweenlands:items_misc:20> * 16, [
-	[<thebetweenlands:log_weedwood:12> | <thebetweenlands:log_weedwood:0>], 
-	[<thebetweenlands:log_weedwood:12> | <thebetweenlands:log_weedwood:0>]
-]);
-
 val weedWoodLogs = <thebetweenlands:weedwood> | <thebetweenlands:log_weedwood:12> | <thebetweenlands:log_weedwood:0>;
 
 recipes.addShaped("more_weedwood_chests", <thebetweenlands:weedwood_chest> * 4, [
@@ -488,8 +512,6 @@ recipes.addShaped("more_weedwood_chests", <thebetweenlands:weedwood_chest> * 4, 
 	[weedWoodLogs, weedWoodLogs, weedWoodLogs]
 ]);
 
-
-furnace.addRecipe(<thebetweenlands:items_misc:13>, <ore:logWood>);
 
 recipes.remove(<thebetweenlands:swamp_talisman>);
 
@@ -521,22 +543,12 @@ recipes.addShaped("thebetweenlands-gallery_frame_small", <thebetweenlands:galler
 ]);
 
 recipes.remove(<minecraft:book>);
-recipes.addShaped("book", <minecraft:book>, [
-	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>],
-	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:4>]
-]);
+recipes.addShapeless("book", <minecraft:book>, 
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:4>]
+);
 
 recipes.remove(<minecraft:writable_book>);
 recipes.addShapeless("writable_book", <minecraft:writable_book>, [<minecraft:book>, <thebetweenlands:items_misc:3>, <minecraft:dye>]);
-
-/*
-recipes.remove(<minecraft:name_tag>);
-recipes.addShaped("name_tag", <minecraft:name_tag>, [
-	[null, null, <minecraft:string>],
-	[null, <thebetweenlands:items_misc:32>, null],
-	[<thebetweenlands:items_misc:32>, null, null]
-]);
-*/
 
 <ore:slimeball>.add(<thebetweenlands:sludge_ball>);
 
@@ -591,9 +603,7 @@ recipes.addShaped("bookshelf", <minecraft:bookshelf>, [
 
 <uppers:upper>.displayName = "Syrmorite Upper";
 
-<thebetweenlands:weedwood_rowboat>.addTooltip(format.green("Clicking a boat with a Tar Drip will make it tarred.\nA tarred boat will stay in place and is easier to direct and control."));
-
-<thebetweenlands:sulfur_torch_extinguished>.addTooltip(format.green("Can be relit with an octine ingot."));
+scripts.utils.addInfoTooltip(<thebetweenlands:sulfur_torch_extinguished>, "Can be relit with an octine ingot.");
 
 
 <minecraft:slime>.displayName = "Block of Sludge";

@@ -14,6 +14,12 @@ import mods.jei.JEI;
 import crafttweaker.block.IBlockState;
 import mods.roots.predicates.Predicates;
 import mods.roots.predicates.BlockStateBelow;
+import mods.roots.Spells;
+import mods.roots.Spell;
+import mods.roots.Costs;
+import mods.roots.Herbs;
+import mods.roots.Modifiers;
+
 
 
 // NORMAL --------------------------------------------------------------
@@ -98,9 +104,8 @@ recipes.addShaped("roots_mortar", <roots:mortar>, [
 
 recipes.remove(<roots:pestle>);
 recipes.addShapedMirrored("roots_pestle", <roots:pestle>, [
-	[null, null, <thebetweenlands:cragrock>], 
-	[<thebetweenlands:cragrock>, <thebetweenlands:cragrock>, null], 
-	[<thebetweenlands:cragrock>, <thebetweenlands:cragrock>, null]
+	[<ore:stickWood>], 
+	[<thebetweenlands:cragrock>]
 ]);
 
 recipes.remove(<roots:herb_pouch>);
@@ -312,12 +317,6 @@ Fey.addRecipe("wildwood_bow", <roots:wildwood_bow>,
 
 
 // Pyre Crafting
-Pyre.addRecipe("embers_manual", <embers:codex>, 
-	[<minecraft:book>, <ore:ingotOctine>, <ore:ingotOctine>, <thebetweenlands:items_misc:10>, <thebetweenlands:items_misc:10>]);
-
-Pyre.addRecipe("ember_shard", <embers:shard_ember> * 3, 
-	[<thebetweenlands:log_hearthgrove:1>, <thebetweenlands:log_hearthgrove:1>, <thebetweenlands:log_hearthgrove:1>, <thebetweenlands:log_hearthgrove:1>, <thebetweenlands:log_hearthgrove:1>]);
-
 Pyre.removeRecipe(<roots:cloud_berry> * 3);
 Pyre.addRecipe("cloud_berry", <roots:cloud_berry>, 
 	[<thebetweenlands:swamp_tallgrass>, <thebetweenlands:shelf_fungus>, <ore:treeLeaves>, <roots:terra_moss>, <roots:terra_moss>]);
@@ -398,7 +397,7 @@ AnimalHarvest.removeFish(<minecraft:fish:3>);
 
 AnimalHarvest.addFish("swamp_kelp_item", <thebetweenlands:swamp_kelp_item>, 1000);
 
-AnimalHarvest.addFish("angler_meat_raw", <thebetweenlands:angler_meat_raw>, 200);
+AnimalHarvest.addFish("anadia_meat_raw", <thebetweenlands:anadia_meat_raw>, 200);
 AnimalHarvest.addFish("angler_tooth", <thebetweenlands:items_misc:21>, 100);
 
 AnimalHarvest.addFish("crimson_middle_gem", <thebetweenlands:crimson_middle_gem>, 10);
@@ -468,6 +467,23 @@ FlowerGrowth.addRecipeBlock("thebetweenlands_dead_weedwood_bush", <thebetweenlan
 
 
 
+// Spells
+var natures_scythe = Spells.getSpell("natures_scythe") as Spell;
+natures_scythe.setString("web_dictionary", "ns_webs");
+natures_scythe.setString("grass_dictionary", "ns_tallgrass");
+
+
+var shatter = Spells.getSpell("shatter") as Spell;
+
+natures_scythe.setString("web_dictionary", "ns_webs");
+
+
+
+// Modifiers
+Modifiers.disableModifier("false_night");
+
+
+
 
 // TRANSMUTATION RITUAL
 //Transmutation.addBlockToBlockRecipe("weedwood_to_greatwood", <blockstate:thebetweenlands:sapling_weedwood>, <blockstate:thaumcraft:sapling_greatwood>);
@@ -497,7 +513,8 @@ FlowerGrowth.addRecipeBlock("thebetweenlands_dead_weedwood_bush", <thebetweenlan
 <roots:mystic_feather>.displayName = "Mystic Wing";
 
 <roots:terra_spores>.withLore(["Can turn Crag Rock into Mossy version"]);
-<roots:wildroot>.addTooltip(format.green("Dropped when breaking roots with a knife"));
+
+scripts.utils.addInfoTooltip(<roots:wildroot>, "Dropped when breaking roots with a knife");
 
 mods.jei.JEI.addDescription(<roots:terra_spores>, "Can turn Crag Rock into Mossy version");
 mods.jei.JEI.addDescription(<roots:elemental_soil_fire>, "Created by tossing a piece of Elemental Soil into fire.");

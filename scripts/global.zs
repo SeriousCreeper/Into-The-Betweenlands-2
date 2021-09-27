@@ -56,69 +56,6 @@ global allAspects as CTAspectStack[] = [
 
 
 global removeAndHide as IItemStack[] = [
-// EMBERS
-	<embers:axe_copper>,
-	<embers:axe_dawnstone>,
-	<embers:axe_lead>,
-	<embers:axe_silver>,
-	<embers:hoe_copper>,
-	<embers:hoe_dawnstone>,
-	<embers:hoe_lead>,
-	<embers:hoe_silver>,
-	<embers:pickaxe_copper>,
-	<embers:pickaxe_dawnstone>,
-	<embers:pickaxe_lead>,
-	<embers:pickaxe_silver>,
-	<embers:shovel_copper>,
-	<embers:shovel_dawnstone>,
-	<embers:shovel_lead>,
-	<embers:shovel_silver>,
-	<embers:sword_copper>,
-	<embers:sword_dawnstone>,
-	<embers:sword_lead>,
-	<embers:sword_silver>,
-	<embers:pickaxe_aluminum>,
-	<embers:axe_aluminum>,
-	<embers:shovel_aluminum>,
-	<embers:sword_aluminum>,
-	<embers:hoe_aluminum>,
-	<embers:pickaxe_bronze>,
-	<embers:axe_bronze>,
-	<embers:shovel_bronze>,
-	<embers:sword_bronze>,
-	<embers:hoe_bronze>,
-	<embers:pickaxe_electrum>,
-	<embers:axe_electrum>,
-	<embers:shovel_electrum>,
-	<embers:sword_electrum>,
-	<embers:hoe_electrum>,
-	<embers:pickaxe_nickel>,
-	<embers:axe_nickel>,
-	<embers:shovel_nickel>,
-	<embers:sword_nickel>,
-	<embers:hoe_nickel>,
-	<embers:pickaxe_tin>,
-	<embers:axe_tin>,
-	<embers:shovel_tin>,
-	<embers:sword_tin>,
-	<embers:hoe_tin>,
-	<embers:ore_copper>,
-	<embers:ore_lead>,
-	<embers:ore_silver>,
-	<embers:ore_nickel>,
-	<embers:ore_tin>,
-	<embers:ore_aluminum>,
-	<embers:ore_quartz>,
-	<embers:geo_separator>,
-
-
-// MYSTICAL GEARS
-	<mystgears:drill_diamond>,
-	<mystgears:drill>,
-	<mystgears:redstone_dynamo>,
-	<mech_crafting:sturdy_gearbox>,
-	<mech_crafting:mechanical_bellows>,
-
 // THAUMCRAFT
 	<thaumcraft:cluster:0>,
 	<thaumcraft:cluster:1>,
@@ -138,9 +75,6 @@ global stageSpiritTree as string[] = [
 ] as string[];
 
 global stagePrimordial as string[] = [
-	"embers",
-	"mystgears",
-	"mysticalmechanics",
 ] as string[];
 
 global stageDreadfulMummy as string[] = [
@@ -187,14 +121,92 @@ oreAllFlowers.add(<thebetweenlands:nettle>);
 oreAllFlowers.add(<thebetweenlands:nettle_flowered>);
 oreAllFlowers.add(<thebetweenlands:pickerel_weed>);
 oreAllFlowers.add(<thebetweenlands:shoots>);
-//oreAllFlowers.add(<thebetweenlands:sludgecreep>);
 oreAllFlowers.add(<thebetweenlands:soft_rush>);
 oreAllFlowers.add(<thebetweenlands:dead_weedwood_bush>);
+oreAllFlowers.add(<thebetweenlands:cardinal_flower>);
+oreAllFlowers.add(<thebetweenlands:bladderwort_flower>);
+oreAllFlowers.add(<thebetweenlands:bog_bean_flower>);
+oreAllFlowers.add(<thebetweenlands:golden_club_flower>);
+oreAllFlowers.add(<thebetweenlands:marsh_marigold_flower>);
+
+val oreFlowers = <ore:flowers>;
+
+oreFlowers.add(<thebetweenlands:arrow_arum>);
+oreFlowers.add(<thebetweenlands:blue_eyed_grass>);
+oreFlowers.add(<thebetweenlands:blue_iris>);
+oreFlowers.add(<thebetweenlands:boneset>);
+oreFlowers.add(<thebetweenlands:bottle_brush_grass>);
+oreFlowers.add(<thebetweenlands:button_bush>);
+oreFlowers.add(<thebetweenlands:copper_iris>);
+oreFlowers.add(<thebetweenlands:marsh_hibiscus>);
+oreFlowers.add(<thebetweenlands:marsh_mallow>);
+oreFlowers.add(<thebetweenlands:milkweed>);
+oreFlowers.add(<thebetweenlands:nettle>);
+oreFlowers.add(<thebetweenlands:nettle_flowered>);
+oreFlowers.add(<thebetweenlands:pickerel_weed>);
+oreFlowers.add(<thebetweenlands:shoots>);
+oreFlowers.add(<thebetweenlands:soft_rush>);
+oreFlowers.add(<thebetweenlands:dead_weedwood_bush>);
+oreFlowers.add(<thebetweenlands:cardinal_flower>);
+oreFlowers.add(<thebetweenlands:bladderwort_flower>);
+oreFlowers.add(<thebetweenlands:bog_bean_flower>);
+oreFlowers.add(<thebetweenlands:golden_club_flower>);
+oreFlowers.add(<thebetweenlands:marsh_marigold_flower>);
+
+val oreNS_Tallgrass = <ore:ns_tallgrass>;
+
+oreNS_Tallgrass.add(<thebetweenlands:pitcher_plant>);
+oreNS_Tallgrass.add(<thebetweenlands:weeping_blue>);
+oreNS_Tallgrass.add(<thebetweenlands:sundew>);
+oreNS_Tallgrass.add(<thebetweenlands:venus_fly_trap>);
+oreNS_Tallgrass.add(<thebetweenlands:volarpad>);
+oreNS_Tallgrass.add(<thebetweenlands:swamp_plant>);
+oreNS_Tallgrass.add(<thebetweenlands:mire_coral>);
+oreNS_Tallgrass.add(<thebetweenlands:deep_water_coral>);
+oreNS_Tallgrass.add(<thebetweenlands:cattail>);
+oreNS_Tallgrass.add(<thebetweenlands:algae>);
+oreNS_Tallgrass.add(<thebetweenlands:water_weeds>);
+oreNS_Tallgrass.add(<thebetweenlands:arrow_arum>);
+oreNS_Tallgrass.add(<thebetweenlands:broomsedge>);
+oreNS_Tallgrass.add(<thebetweenlands:cave_grass>);
+oreNS_Tallgrass.add(<thebetweenlands:sludgecreep>);
+oreNS_Tallgrass.add(<thebetweenlands:swamp_tallgrass>);
+oreNS_Tallgrass.add(<thebetweenlands:weedwood_bush>);
+oreNS_Tallgrass.add(<thebetweenlands:pale_grass>);
+oreNS_Tallgrass.add(<thebetweenlands:fallen_leaves>);
+oreNS_Tallgrass.add(<thebetweenlands:swamp_double_tallgrass>);
+oreNS_Tallgrass.add(<thebetweenlands:phragmites>);
+oreNS_Tallgrass.add(<thebetweenlands:tall_sludgecreep>);
+oreNS_Tallgrass.add(<thebetweenlands:tall_cattail>);
+oreNS_Tallgrass.add(<thebetweenlands:swamp_reed_item>);
+oreNS_Tallgrass.add(<thebetweenlands:swamp_kelp_item>);
+oreNS_Tallgrass.add(<thebetweenlands:hanger>);
+oreNS_Tallgrass.add(<thebetweenlands:hanger:3>);
+oreNS_Tallgrass.add(<thebetweenlands:cave_moss>);
+oreNS_Tallgrass.add(<thebetweenlands:cryptweed>);
+oreNS_Tallgrass.add(<thebetweenlands:string_roots>);
+
+val oreMushrooms = <ore:mushrooms>;
+oreMushrooms.add(<thebetweenlands:rotbulb>);
+
+val oreNSWebs = <ore:ns_webs>;
+
+oreNSWebs.add(<thebetweenlands:moss>);
+oreNSWebs.add(<thebetweenlands:dead_moss>);
+oreNSWebs.add(<thebetweenlands:lichen>);
+oreNSWebs.add(<thebetweenlands:dead_lichen>);
+
+
+
+<ore:ingotIron>.remove(<minecraft:iron_ingot>);
+<ore:ingotIron>.add(<thebetweenlands:items_misc:11>);
+
+
 
 <ore:rennetSource>.add(<thebetweenlands:nettle_flowered>);
 
 
-<ore:nuggetLead>.remove(<embers:nugget_lead>);
+//<ore:nuggetLead>.remove(<embers:nugget_lead>);
 <ore:nuggetCopper>.remove(<thaumcraft:nugget:1>);
 <ore:nuggetTin>.remove(<thaumcraft:nugget:2>);
 <ore:nuggetSilver>.remove(<thaumcraft:nugget:3>);
@@ -202,15 +214,6 @@ oreAllFlowers.add(<thebetweenlands:dead_weedwood_bush>);
 //<ore:ingotCopper>.remove(<tmechworks:ingots:1>);
 
 <ore:string>.remove(<mysticalworld:silk_thread>);
-
-<ore:crystalSeed>.add(<embers:seed_iron>);
-<ore:crystalSeed>.add(<embers:seed_gold>);
-<ore:crystalSeed>.add(<embers:seed_copper>);
-<ore:crystalSeed>.add(<embers:seed_silver>);
-<ore:crystalSeed>.add(<embers:seed_dawnstone>);
-<ore:crystalSeed>.add(<embers:seed_aluminum>);
-<ore:crystalSeed>.add(<embers:seed_nickel>);
-<ore:crystalSeed>.add(<embers:seed_tin>);
 
 <ore:nuggetGold>.remove(<minecraft:gold_nugget>);
 <ore:nuggetOctine>.add(<minecraft:gold_nugget>);
@@ -229,7 +232,8 @@ oreAllFlowers.add(<thebetweenlands:dead_weedwood_bush>);
 <ore:blockGlass>.remove(<minecraft:stained_glass:*>);
 <ore:blockGlass>.remove(<minecraft:glass>);
 
-<ore:gemLapis>.remove(<minecraft:dye:4>);
+//<ore:gemLapis>.remove(<minecraft:dye:4>);
+<ore:gemLapis>.add(<thebetweenlands:items_misc:47>);
 
 <ore:slabWood>.remove(<minecraft:wooden_slab:*>);
 <ore:plankWood>.remove(<minecraft:planks:*>);
@@ -242,7 +246,6 @@ oreAllFlowers.add(<thebetweenlands:dead_weedwood_bush>);
 <ore:trapdoorWood>.add(<thebetweenlands:nibbletwig_plank_trapdoor>);
 
 <ore:lever>.add(<thebetweenlands:weedwood_lever>);
-<ore:lever>.add(<embers:caminite_lever>);
 
 <ore:middleGems>.add(<thebetweenlands:green_middle_gem>);
 <ore:middleGems>.add(<thebetweenlands:crimson_middle_gem>);
@@ -303,12 +306,6 @@ oreAllFlowers.add(<thebetweenlands:dead_weedwood_bush>);
 <ore:banner>.add(<thaumcraft:banner_green>);
 <ore:banner>.add(<thaumcraft:banner_red>);
 <ore:banner>.add(<thaumcraft:banner_black>);
-
-<ore:gearIron>.remove(<mysticalmechanics:gear_iron>);
-<ore:gearIron>.add(<mystgears:gear_syrmorite>);
-
-<ore:gearGold>.remove(<mysticalmechanics:gear_gold>);
-<ore:gearGold>.add(<mystgears:gear_octine>);
 
 
 val oreVisCrystals = <ore:visCrystals>;

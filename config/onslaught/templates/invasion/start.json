@@ -1,0 +1,43 @@
+{
+  "beasts": {
+    "selector": {
+      "weight": 100,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 20 ]
+      }
+    },
+    "name": "The Beasts",
+    "messages": {
+      "start": "\u00A7cA pack of sickly creatures are stampeding!",
+      "end": "\u00A7aThe horde has been stopped... for now",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eA pack of wild animals make disturbing noises in the distance..."
+      }
+    },
+    "waves": [
+      {
+        "delayTicks": [ 300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "skel",
+                "count": [ 3, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

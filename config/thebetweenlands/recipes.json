@@ -261,6 +261,15 @@
 				"meta": 3,
 				"size": 2
 			}
+		},
+		{
+			"input": {
+				"id": "arcanearchives:raw_quartz"
+			},
+			"output": {
+				"id": "arcanearchives:quartz_sliver",
+				"size": 8
+			}
 		}
 	],
 	"purifier": [
@@ -298,6 +307,34 @@
 	    },
 	    "output": {
 	      "id": "thebetweenlands:wisp"
+	    }
+	  }
+	],
+	"smoking_rack": [
+	  {
+	    "input": {
+	      "item": {
+	        "id": "teastory:tea_leaf"
+	      },
+	      "smoking_time": 5
+	    },
+	    "output": {
+	      "item" : {
+	        "id": "teastory:dried_tea"
+	  	  }
+	    }
+	  },
+	  {
+	    "input": {
+	      "item": {
+	        "id": "teastory:half_dried_tea"
+	      },
+	      "smoking_time": 5
+	    },
+	    "output": {
+	      "item" : {
+	        "id": "teastory:oolong_tea_leaf"
+	  	  }
 	    }
 	  }
 	]

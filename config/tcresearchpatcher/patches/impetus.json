@@ -14,7 +14,9 @@
                         "thaumicaugmentation:ancient_lantern"
                     ]
             }
-        ],
+        ]
+    },
+    {
         "key": "IMPETUS_GATE",
         "ops": [
             {
@@ -24,7 +26,9 @@
                         "thaumcraft:impetus_gate",
                     ]
             }
-        ],
+        ]
+    },
+    {
         "key": "IMPETUS_GENERATOR",
         "ops": [
             {
@@ -37,7 +41,9 @@
                 "path": "stages/1/text",
                 "value": "CURRENTLY UNUSED IN THIS MODPACK"
             }
-        ],
+        ]
+    },
+    {
         "key": "ARCANE_TERRAFORMER",
         "ops": [
             {

@@ -7,7 +7,9 @@
                 "path": "stages/0/recipes",
                 "value": ["crafttweaker:thaumicperiphery_pauldron_modified"]
             }
-        ],
+        ]
+    },
+    {
         "key": "MAGICQUIVER",
         "ops": [
             {

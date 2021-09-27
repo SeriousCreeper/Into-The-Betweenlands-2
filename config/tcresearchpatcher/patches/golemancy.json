@@ -7,7 +7,9 @@
                 "path": "stages/0/required_item",
                 "value": ["thebetweenlands:items_misc;1;17"]
             }
-        ],
+        ]
+    },
+    {
         "key": "GOLEMCLIMBER",
         "ops": [
             {
@@ -15,7 +17,9 @@
                 "path": "stages/0/required_item",
                 "value": ["thebetweenlands:items_misc;1;21"]
             }
-        ],
+        ]
+    },
+    {
         "key": "GOLEMBREAKER",
         "ops": [
             {
@@ -23,7 +27,9 @@
                 "path": "stages/0/required_item",
                 "value": ["thebetweenlands:items_misc;1;19","minecraft:piston"]
             }
-        ],
+        ]
+    },
+    {
         "key": "CONTROLSEALS",
         "ops": [
             {
@@ -31,7 +37,9 @@
                 "path": "stages/0/recipes",
                 "value": ["crafttweaker:golembell","thaumcraft:SealBlank"]
             }
-        ],
+        ]
+    },
+    {
         "key": "GOLEMCOMBATADV",
         "ops": [
             {
@@ -39,7 +47,9 @@
                 "path": "stages/0/required_item",
                 "value": ["thebetweenlands:angler_tooth_arrow","thebetweenlands:syrmorite_shears"]
             }
-        ],
+        ]
+    },
+    {
         "key": "GOLEMLOGISTICS",
         "ops": [
             {
@@ -47,7 +57,9 @@
                 "path": "stages/0/required_item",
                 "value": ["thebetweenlands:empty_amate_map","thebetweenlands:items_misc;1;17"]
             }
-        ],
+        ]
+    },
+    {
         "key": "MATSTUDCLAY",
         "ops": [
             {
