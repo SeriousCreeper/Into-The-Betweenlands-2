@@ -10,6 +10,9 @@ import mods.pyrotech.IroncladAnvil;
 import mods.pyrotech.StoneSawmill;
 import mods.pyrotech.BrickSawmill;
 import mods.pyrotech.Chopping;
+import mods.pyrotech.Bloomery;
+import mods.pyrotech.BrickOven;
+import mods.pyrotech.StoneOven;
 
 
 JEI.hideCategory("pyrotech.crude.drying");
@@ -233,6 +236,14 @@ recipes.addShaped("tech/basic/anvil_iron_plated", <pyrotech:anvil_iron_plated>, 
 	[<thebetweenlands:pitstone_brick_slab>, <thebetweenlands:pitstone_brick_slab>, <thebetweenlands:pitstone_brick_slab>]
 ]);
 
+recipes.remove(<pyrotech:compacting_bin>);
+recipes.addShaped("tech/basic/compacting_bin", <pyrotech:compacting_bin>, [
+	[<thebetweenlands:smooth_cragrock_slab>, null, <thebetweenlands:smooth_cragrock_slab>], 
+	[<ore:plankWood>, null, <ore:plankWood>], 
+	[<thebetweenlands:smooth_cragrock_slab>, <ore:slabWood>, <thebetweenlands:smooth_cragrock_slab>]
+]);
+
+
 
 
 recipes.remove(<pyrotech:obsidian_hammer>);
@@ -248,6 +259,11 @@ recipes.remove(<pyrotech:cog_obsidian>);
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.addRecipe("slaked_lime", <pyrotech:material:8>, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:27>, 7 * 60 * 20);
 
+SoakingPot.removeRecipes(<pyrotech:material:25>);
+SoakingPot.addRecipe("pulp_from_wood_chips", <pyrotech:material:25>, <liquid:swamp_water> * 500, <pyrotech:rock:7>, true, 7 * 60 * 20);
+SoakingPot.addRecipe("pulp_from_dry_bark", <pyrotech:material:25> * 3, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:13>, 2 * 60 * 20);
+SoakingPot.addRecipe("pulp_from_swamp_reed", <pyrotech:material:25>, <liquid:swamp_water> * 125, <thebetweenlands:swamp_reed_item>, 4 * 60 * 20);
+SoakingPot.addRecipe("pulp_from_bark", <pyrotech:material:25>, <liquid:swamp_water> * 125, <ore:rootsBark>, 3 * 60 * 20);
 
 
 
@@ -262,8 +278,8 @@ Chopping.removeAllRecipes();
 
 
 function stoneSawmillRecipeBuilder(name as string, itemOut as IItemStack, itemIn as IIngredient, countBone as int, countOctine as int, countDiamond as int) {
-	StoneSawmill.addRecipe(name ~ "_sawmill_bone", itemOut * countBone, itemIn, 200, <pyrotech:sawmill_blade_bone:*>, 4, true);
-	StoneSawmill.addRecipe(name ~ "_sawmill_octine", itemOut * countOctine, itemIn, 120, <pyrotech:sawmill_blade_gold:*>, 2, true);
+	StoneSawmill.addRecipe(name ~ "_sawmill_bone", itemOut * countBone, itemIn, 200, <pyrotech:sawmill_blade_bone:*>, 2, true);
+	StoneSawmill.addRecipe(name ~ "_sawmill_octine", itemOut * countOctine, itemIn, 120, <pyrotech:sawmill_blade_gold:*>, 1, true);
 	StoneSawmill.addRecipe(name ~ "_sawmill_valonite", itemOut * countDiamond, itemIn, 180, <pyrotech:sawmill_blade_diamond:*>.or(<pyrotech:sawmill_blade_obsidian:*>), 1, true);
 }
 
@@ -402,6 +418,7 @@ stoneSawmillRecipeBuilder("treated_boards", <pyrotech:material:23>, <immersiveen
 
 // ANVIL
 GraniteAnvil.removeRecipes(<minecraft:gold_nugget>);
+GraniteAnvil.removeRecipes(<immersiveengineering:metal:29>);
 
 GraniteAnvil.removeRecipes(<pyrotech:material:11>);
 GraniteAnvil.addRecipe("bone_shard_from_bone", <pyrotech:material:11> * 3, <thebetweenlands:items_misc:14>, 4, "pickaxe", true);
@@ -446,7 +463,6 @@ Burn.createBuilder("sulfur_from_hearthgrove", <thebetweenlands:items_misc:18>, "
     .setFluidLevelAffectsFailureChance(true)
     .register();
 
-
 Burn.createBuilder("coke_from_sulfur", <immersiveengineering:material:6>, "thebetweenlands:sulfur_block:*")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(1 * 60 * 20)
@@ -458,6 +474,52 @@ Burn.createBuilder("coke_from_sulfur", <immersiveengineering:material:6>, "thebe
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(true)
     .register();
+
+
+
+
+
+// BLOOMERY
+Bloomery.removeBloomeryRecipes(<immersiveengineering:metal:29>);
+Bloomery.removeBloomeryRecipes(<thebetweenlands:items_misc:42>);
+Bloomery.createBloomeryBuilder(
+        "bloom_from_octine_ore",   // recipe name
+        <thebetweenlands:items_misc:42>, // output
+        <thebetweenlands:octine_ore>     // input
+    )
+    .setAnvilTiers(["ironclad"])
+    .setBurnTimeTicks(24 * 60 * 20)
+    .setFailureChance(0.25)
+    .setBloomYield(12, 15)
+    .setSlagItem(<pyrotech:generated_slag_octine>, 4)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(<pyrotech:generated_slag_octine>, 2)
+    .register();
+
+
+Bloomery.createBloomeryBuilder(
+        "bloom_from_octine_slag",             // recipe name
+        <thebetweenlands:items_misc:42>,            // output
+        <pyrotech:generated_pile_slag_octine> // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(12 * 60 * 20)
+    .setFailureChance(0.25)
+    .setBloomYield(12, 15)
+    .setSlagItem(<pyrotech:generated_slag_octine>, 2)
+    .addFailureItem(<thebetweenlands:items_misc:50>, 1)
+    .addFailureItem(<pyrotech:slag>, 2)
+    .setLangKey("tile.oreOctine;item.pyrotech.slag.unique")
+    .register();
+
+
+
+
+
+// OVEN
+StoneOven.removeRecipes(<thebetweenlands:items_misc:32>);
+StoneOven.addRecipe("baked_apple_from_apple", <thebetweenlands:items_misc:32>, <pyrotech:material:25>, true);
+
 
 
 

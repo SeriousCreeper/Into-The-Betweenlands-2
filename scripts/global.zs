@@ -198,9 +198,10 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 
 
-<ore:ingotIron>.remove(<minecraft:iron_ingot>);
-<ore:ingotIron>.add(<thebetweenlands:items_misc:11>);
+//<ore:ingotIron>.remove(<minecraft:iron_ingot>);
+//<ore:ingotIron>.add(<thebetweenlands:items_misc:11>);
 
+<ore:rock>.add(<thebetweenlands:items_misc:50>);
 
 
 <ore:rennetSource>.add(<thebetweenlands:nettle_flowered>);
@@ -215,11 +216,11 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 <ore:string>.remove(<mysticalworld:silk_thread>);
 
-<ore:nuggetGold>.remove(<minecraft:gold_nugget>);
-<ore:nuggetOctine>.add(<minecraft:gold_nugget>);
+//<ore:nuggetGold>.remove(<minecraft:gold_nugget>);
+//<ore:nuggetOctine>.add(<minecraft:gold_nugget>);
 
-<ore:nuggetIron>.remove(<minecraft:iron_nugget>);
-<ore:nuggetSyrmorite>.add(<minecraft:iron_nugget>);
+//<ore:nuggetIron>.remove(<minecraft:iron_nugget>);
+//<ore:nuggetSyrmorite>.add(<minecraft:iron_nugget>);
 //<ore:nuggetIron>.remove(<thaumcraft:nugget>);
 //<ore:nuggetSyrmorite>.add(<minecraft:iron_nugget>);
 

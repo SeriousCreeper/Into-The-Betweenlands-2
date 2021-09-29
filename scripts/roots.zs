@@ -5,6 +5,7 @@ import mods.roots.FlowerGrowth;
 import mods.roots.Pyre;
 import mods.roots.RunicShears;
 import mods.roots.Ritual;
+import mods.roots.Rituals;
 import mods.roots.Transmutation;
 import mods.roots.AnimalHarvest;
 import mods.roots.Pacifist;
@@ -23,11 +24,6 @@ import mods.roots.Modifiers;
 
 
 // NORMAL --------------------------------------------------------------
-recipes.addShaped("paperFromRootsBark", <minecraft:paper> * 9, [
-	[<ore:rootsBark>, <ore:rootsBark>, <ore:rootsBark>]
-]);
-
-
 
 
 var knifeDict = <ore:knife>;
@@ -126,8 +122,8 @@ Bark.removeRecipe(<roots:bark_birch>);
 Bark.removeRecipe(<roots:bark_dark_oak>);
 
 // Add Betweenlands bark
-Bark.addRecipe("bark_oak", <thebetweenlands:log_weedwood:0>, <roots:bark_oak>);
-Bark.addRecipe("bark_oak", <thebetweenlands:log_weedwood:12>, <roots:bark_oak>);
+Bark.addRecipe("bark_oak", <thebetweenlands:log_weedwood:*>, <roots:bark_oak>);
+Bark.addRecipe("bark_oak_2", <thebetweenlands:weedwood:*>, <roots:bark_oak>);
 
 Bark.addRecipe("rotten_bark_1", <thebetweenlands:log_rotten_bark:0>, <roots:bark_jungle>);
 Bark.addRecipe("rotten_bark_2", <thebetweenlands:log_spreading_rotten_bark>, <roots:bark_jungle>);
@@ -374,10 +370,8 @@ RunicShears.removeRecipe(<roots:spirit_bag>);
 
 
 // RITUALS
-/*
-Ritual.modifyRitual("ritual_transmutation", 
-	[<roots:chiseled_runestone>, <roots:cloud_berry>, <thaumcraft:salis_mundus>, <arcanearchives:radiant_dust>, <roots:bark_oak>]);
-*/
+Rituals.modifyRitual("ritual_grove_supplication", 
+	[<ore:doorWood>, <ore:treeSapling>, <roots:petals>, <roots:wildroot>, <thebetweenlands:cragrock:1> | <thebetweenlands:cragrock:2>]);
 
 Transmutation.addStateToStateRecipe("greatwood_sapling", StatePredicate.create(<blockstate:thebetweenlands:sapling_weedwood>), <blockstate:thaumcraft:sapling_greatwood>, null);
 Transmutation.addStateToStateRecipe("silverwood_sapling", StatePredicate.create(<blockstate:thebetweenlands:sapling_spirit_tree>), <blockstate:thaumcraft:sapling_silverwood>, null);
@@ -426,12 +420,8 @@ Pacifist.addEntity(<entity:thebetweenlands:firefly>);
 Pacifist.addEntity(<entity:thebetweenlands:mire_snail>);
 Pacifist.addEntity(<entity:thebetweenlands:gecko>);
 Pacifist.addEntity(<entity:thebetweenlands:greebling>);
-Pacifist.addEntity(<entity:thebetweenlands:angler>);
-Pacifist.addEntity(<entity:thebetweenlands:spirit_tree_face_large>);
-Pacifist.addEntity(<entity:thebetweenlands:spirit_tree_face_small>);
 Pacifist.addEntity(<entity:thebetweenlands:emberling>);
 Pacifist.addEntity(<entity:thebetweenlands:chiromaw_tame>);
-Pacifist.addEntity(<entity:thebetweenlands:chiromaw_greebling_rider>);
 Pacifist.addEntity(<entity:thebetweenlands:chiromaw_hatchling>);
 
 

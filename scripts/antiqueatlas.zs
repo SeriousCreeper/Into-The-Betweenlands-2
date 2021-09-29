@@ -1,0 +1,2 @@
+recipes.remove(<antiqueatlas:empty_antique_atlas>);
+recipes.addShapeless("antique_atlas", <antiqueatlas:empty_antique_atlas>, [<minecraft:book>, <thebetweenlands:empty_amate_map> | <thebetweenlands:amate_map>, <naturescompass:naturescompass>]);

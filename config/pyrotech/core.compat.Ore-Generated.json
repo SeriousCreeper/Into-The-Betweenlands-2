@@ -40,6 +40,16 @@
         "immersiveengineering:metal:20"
       ]
     },
+    "oreGold": {
+      "slagColor": "fcee4b",
+      "langKey": [
+        "betweenores:tile.betweenores.gold_ore",
+        "minecraft:tile.oreGold"
+      ],
+      "output": [
+        "minecraft:gold_nugget:0"
+      ]
+    },
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
@@ -48,6 +58,7 @@
       ],
       "output": [
         "immersiveengineering:metal:29",
+        "minecraft:iron_nugget:0",
         "thaumcraft:nugget:0"
       ]
     },
@@ -78,7 +89,6 @@
         "thebetweenlands:tile.thebetweenlands.octine_ore"
       ],
       "output": [
-        "minecraft:gold_nugget:0",
         "thebetweenlands:items_misc:42"
       ]
     },
@@ -98,7 +108,6 @@
         "thebetweenlands:tile.thebetweenlands.syrmorite_ore"
       ],
       "output": [
-        "minecraft:iron_nugget:0",
         "thebetweenlands:items_misc:41"
       ]
     },

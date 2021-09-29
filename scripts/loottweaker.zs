@@ -3,11 +3,13 @@ import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
+import loottweaker.vanilla.loot.LootFunction;
+import loottweaker.vanilla.loot.LootCondition;
 
 val swamp_hag = LootTweaker.getTable("thebetweenlands:entities/swamp_hag");
 val swamp_hag_main = swamp_hag.getPool("swamp_hag");
 
-swamp_hag_main.addItemEntry(<thaumcraft:brain>, 1, 1, [Functions.setCount(0, 1)], []);
+swamp_hag_main.addItemEntryHelper(<thaumcraft:brain>, 1, 1, [Functions.setCount(0, 1)], []);
 
 
 val sludge_menace = LootTweaker.getTable("thebetweenlands:entities/sludge_menace");
@@ -25,8 +27,17 @@ function replaceLoot(tableName as string, poolName as string, entryName as strin
 	val table = LootTweaker.getTable(tableName);
 	val pool = table.getPool(poolName);
 	pool.removeEntry(entryName);
-	pool.addItemEntry(itemToAdd, weight, quality, [Functions.setCount(minItem, maxItem)], []);
+	pool.addItemEntryHelper(itemToAdd, weight, quality, [Functions.setCount(minItem, maxItem)], []);
 }
+
+
+function replaceLootComplex(tableName as string, poolName as string, entryName as string, itemToAdd as IItemStack, weight as int, quality as int, funcs as LootFunction[], conditions as LootCondition[]) {
+	val table = LootTweaker.getTable(tableName);
+	val pool = table.getPool(poolName);
+	pool.removeEntry(entryName);
+	pool.addItemEntryHelper(itemToAdd, weight, quality, funcs, conditions);
+}
+
 
 replaceLoot("thebetweenlands:loot/cragrock_tower_chest", "uncommon_loot", "syrmorite_ingot", <thebetweenlands:syrmorite_ore>, 10, 0, 1, 2);
 replaceLoot("thebetweenlands:loot/cragrock_tower_chest", "uncommon_loot", "octine_ingot", <thebetweenlands:octine_ore>, 10, 0, 1, 2);
@@ -110,5 +121,55 @@ replaceLoot("thebetweenlands:animator/scroll", "scroll", "thebetweenlands:octine
 
 val table = LootTweaker.getTable("thebetweenlands:entities/anadia_treasure");
 val pool = table.getPool("anadia_body");
-pool.removeEntry("syrmorite_nuggets_0");
-pool.addItemEntry(<pyrotech:generated_slag_syrmorite>, 3, 0, [{"function":"thebetweenlands:set_count_from_anadia","size_start":0.125,"size_end":0.95,"min_count":4,"max_count":8}], [{"condition":"entity_properties","entity":"this","properties":{"thebetweenlands:anadia_body_type":0}}]);
+
+replaceLootComplex("thebetweenlands:entities/anadia_treasure", "anadia_body", "syrmorite_nuggets_0", <pyrotech:generated_slag_syrmorite>, 3, 0, [Functions.parse({
+                            "function": "thebetweenlands:set_count_from_anadia",
+                            "size_start": 0.125,
+                            "size_end": 0.95,
+                            "min_count": 4,
+                            "max_count": 8
+                        })], [Conditions.parse({
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "properties": {
+                                "thebetweenlands:anadia_body_type": 0
+                            }
+                        })]);
+
+replaceLootComplex("thebetweenlands:entities/anadia_treasure", "anadia_body", "syrmorite_nuggets_1", <pyrotech:generated_slag_syrmorite>, 2, 0, [Functions.parse({
+				              "size_start": 0.125,
+				              "size_end": 0.95,
+				              "min_count": 12,
+				              "max_count": 24,
+				              "function": "thebetweenlands:set_count_from_anadia"
+				            })], [Conditions.parse({
+				              "properties": {
+				                "thebetweenlands:anadia_body_type": 2
+				              },
+				              "entity": "this",
+				              "condition": "minecraft:entity_properties"
+				            })]);
+
+replaceLootComplex("thebetweenlands:entities/anadia_treasure", "anadia_body", "syrmorite_nuggets_2", <pyrotech:generated_slag_syrmorite>, 3, 0, [Functions.parse({
+				              "size_start": 0.125,
+				              "size_end": 0.95,
+				              "min_count": 8,
+				              "max_count": 16,
+				              "function": "thebetweenlands:set_count_from_anadia"
+				            })], [Conditions.parse({
+				              "properties": {
+				                "thebetweenlands:anadia_body_type": 1
+				              },
+				              "entity": "this",
+				              "condition": "minecraft:entity_properties"
+				            })]);
+
+replaceLootComplex("thebetweenlands:entities/crypt_crawler", "misc_drops", "syrmorite_nugget", <pyrotech:generated_slag_syrmorite>, 15, 0, [], []);
+replaceLootComplex("thebetweenlands:entities/crypt_crawler", "misc_drops", "octine_nugget", <pyrotech:generated_slag_octine>, 13, 0, [], []);
+replaceLootComplex("thebetweenlands:entities/emberling", "octine_nugget", "thebetweenlands:items_misc", <pyrotech:generated_slag_octine>, 1, 0, [Functions.parse({
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:looting_enchant"
+            })], []);

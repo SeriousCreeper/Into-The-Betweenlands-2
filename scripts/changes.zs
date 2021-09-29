@@ -255,6 +255,14 @@ recipes.remove(<minecraft:string>);
 recipes.addShapeless("string", <minecraft:string> * 3, [<dawnoftimebuilder:silk>, <mysticalworld:spindle>]);
 
 
+recipes.remove(<minecraft:iron_bars>);
+recipes.addShaped("iron_bars", <minecraft:iron_bars> * 16, [
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>]
+]);
+
+
+
 val stainedGlassColors = {
 	<minecraft:stained_glass:0> : <minecraft:dye:15>,
 	<minecraft:stained_glass:1> : <minecraft:dye:14>,
@@ -310,6 +318,17 @@ recipes.removeByRecipeName("minecraft:orange_dye_from_orange_tulip");
 recipes.removeByRecipeName("minecraft:bone_meal_from_block");
 recipes.removeByRecipeName("minecraft:bone_meal_from_bone");
 */
+
+
+
+// CRAFTING TABLE ON STICK
+recipes.remove(<portablecraftingtable:portable_crafting_table>);
+recipes.addShaped("portable_crafting_table", <portablecraftingtable:portable_crafting_table>, [
+	[null, null, <thebetweenlands:weedwood_workbench>], 
+	[null, <ore:stickWood>, null], 
+	[<ore:stickWood>, null, null]
+]);
+
 
 
 
@@ -505,12 +524,6 @@ recipes.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<uppers
 
 // THE BETWEENLANDS
 val weedWoodLogs = <thebetweenlands:weedwood> | <thebetweenlands:log_weedwood:12> | <thebetweenlands:log_weedwood:0>;
-
-recipes.addShaped("more_weedwood_chests", <thebetweenlands:weedwood_chest> * 4, [
-	[weedWoodLogs, weedWoodLogs, weedWoodLogs], 
-	[weedWoodLogs, null, weedWoodLogs],
-	[weedWoodLogs, weedWoodLogs, weedWoodLogs]
-]);
 
 
 recipes.remove(<thebetweenlands:swamp_talisman>);

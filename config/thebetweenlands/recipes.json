@@ -268,7 +268,7 @@
 			},
 			"output": {
 				"id": "arcanearchives:quartz_sliver",
-				"size": 8
+				"size": 4
 			}
 		}
 	],
@@ -336,6 +336,27 @@
 	        "id": "teastory:oolong_tea_leaf"
 	  	  }
 	    }
+	  }
+	],
+	"compost_bin": [
+	  {
+	    "input": {
+	      "item": {
+	      	"id": "pyrotech:material"
+	      },
+	      "composting_time": 250
+	    },
+	    "output": 2
+	  },
+	  {
+	    "input": {
+	      "item": {
+	      	"id": "pyrotech:rock",
+	      	"meta": 7
+	      },
+	      "composting_time": 250
+	    },
+	    "output": 3
 	  }
 	]
 }
