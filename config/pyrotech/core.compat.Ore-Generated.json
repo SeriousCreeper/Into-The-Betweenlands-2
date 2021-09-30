@@ -58,8 +58,7 @@
       ],
       "output": [
         "immersiveengineering:metal:29",
-        "minecraft:iron_nugget:0",
-        "thaumcraft:nugget:0"
+        "minecraft:iron_nugget:0"
       ]
     },
     "oreLead": {

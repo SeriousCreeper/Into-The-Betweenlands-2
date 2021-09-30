@@ -50,6 +50,13 @@ for i, wood in quarkChestLog {
 	]);
 }
 
+recipes.remove(<quark:chain>);
+recipes.addShaped("chain", <quark:chain> * 3, [
+	[<ore:nuggetSyrmorite>, <ore:nuggetSyrmorite>, null], 
+	[<ore:nuggetSyrmorite>, <ore:ingotSyrmorite>, null], 
+	[null, null, <ore:ingotSyrmorite>]
+]);
+
 recipes.remove(<quark:glass_item_frame>);
 recipes.addShaped("glass_item_frame", <quark:glass_item_frame> * 2, [
 	[<thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>], 

@@ -1,18 +1,29 @@
 import mods.arcanearchives.GCT;
 
 recipes.remove(<arcanearchives:radiant_resonator>);
-recipes.addShaped("arcanearchives-radiant_resonator", <arcanearchives:radiant_resonator>, [
+recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>, [
 	[<thebetweenlands:octine_ingot>, <minecraft:iron_bars>, <thebetweenlands:octine_ingot>], 
 	[<ore:logWood>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).giveBack(<thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})), <ore:logWood>], 
 	[<ore:logWood>, null, <ore:logWood>]
 ]);
 
 recipes.remove(<arcanearchives:gemcutters_table>);
-recipes.addShaped("arcanearchives-gemcutters_table", <arcanearchives:gemcutters_table>, [
+recipes.addShaped("gemcutters_table", <arcanearchives:gemcutters_table>, [
 	[<thebetweenlands:limestone>, <thebetweenlands:polished_dentrothyst_pane:1>, <thebetweenlands:items_misc:32>], 
 	[<ore:logWood>, <ore:workbench>, <ore:logWood>], 
 	[<arcanearchives:raw_quartz>, <ore:logWood>, <arcanearchives:raw_quartz>]
 ]);
+
+recipes.remove(<arcanearchives:tome_arcana>);
+recipes.addShapeless("tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}), [<minecraft:book>, <ore:nuggetOctine>]);
+
+recipes.remove(<arcanearchives:scepter_revelation>);
+recipes.addShaped("scepter_revelation", <arcanearchives:scepter_revelation>, [
+	[null, null, <arcanearchives:raw_quartz>], 
+	[null, <ore:nuggetOctine>, null], 
+	[<ore:stickWood>, null, null]
+]);
+
 
 
 GCT.replaceRecipe("manifest", <arcanearchives:manifest>, [<thebetweenlands:items_misc:32>, <minecraft:dye:0>, <arcanearchives:radiant_dust> * 2]);

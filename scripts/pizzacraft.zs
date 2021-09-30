@@ -93,3 +93,11 @@ recipes.addShaped("dough", <pizzacraft:dough>, [
 	[honeyJar, waterBucket, honeyJar], 
 	[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]
 ]);
+
+
+recipes.remove(<pizzacraft:bakeware>);
+recipes.addShaped("bakeware", <pizzacraft:bakeware>, [
+	[null, <ore:ingotSyrmorite>, null], 
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
+	[null, <ore:ingotSyrmorite>, null]
+]);

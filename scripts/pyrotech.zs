@@ -13,6 +13,8 @@ import mods.pyrotech.Chopping;
 import mods.pyrotech.Bloomery;
 import mods.pyrotech.BrickOven;
 import mods.pyrotech.StoneOven;
+import mods.pyrotech.StoneKiln;
+
 
 
 JEI.hideCategory("pyrotech.crude.drying");
@@ -242,6 +244,43 @@ recipes.addShaped("tech/basic/compacting_bin", <pyrotech:compacting_bin>, [
 	[<ore:plankWood>, null, <ore:plankWood>], 
 	[<thebetweenlands:smooth_cragrock_slab>, <ore:slabWood>, <thebetweenlands:smooth_cragrock_slab>]
 ]);
+
+recipes.remove(<pyrotech:sawmill_blade_gold>);
+recipes.addShaped("tech/machine/sawmill_blade_gold", <pyrotech:sawmill_blade_gold>, [
+	[<pyrotech:material:34>, <pyrotech:material:34>, <pyrotech:material:34>], 
+	[<pyrotech:material:34>, <ore:ingotSyrmorite>, <pyrotech:material:34>], 
+	[<pyrotech:material:34>, <pyrotech:material:34>, <pyrotech:material:34>]
+]);
+
+recipes.remove(<pyrotech:brick_kiln>);
+recipes.addShaped("tech/machine/brick_kiln", <pyrotech:brick_kiln>, [
+	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>], 
+	[<pyrotech:refractory_brick_block>, <pyrotech:stone_kiln>, <pyrotech:refractory_brick_block>], 
+	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>]
+]);
+
+recipes.remove(<pyrotech:brick_oven>);
+recipes.addShaped("tech/machine/brick_oven", <pyrotech:brick_oven>, [
+	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>], 
+	[<pyrotech:refractory_brick_block>, <pyrotech:stone_oven>, <pyrotech:refractory_brick_block>], 
+	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>]
+]);
+
+recipes.remove(<pyrotech:brick_sawmill>);
+recipes.addShaped("tech/machine/brick_sawmill", <pyrotech:brick_sawmill>, [
+	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>], 
+	[<pyrotech:refractory_brick_block>, <pyrotech:stone_sawmill>, <pyrotech:refractory_brick_block>], 
+	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>]
+]);
+
+recipes.remove(<pyrotech:brick_crucible>);
+recipes.addShaped("tech/machine/brick_crucible", <pyrotech:brick_crucible>, [
+	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>], 
+	[<pyrotech:refractory_brick_block>, <pyrotech:stone_crucible>, <pyrotech:refractory_brick_block>], 
+	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>]
+]);
+
+
 
 
 
@@ -478,6 +517,13 @@ Burn.createBuilder("coke_from_sulfur", <immersiveengineering:material:6>, "thebe
 
 
 
+// KILNS
+furnace.remove(<thebetweenlands:polished_dentrothyst:*>);
+StoneKiln.addRecipe("dentrothyst_green", <thebetweenlands:polished_dentrothyst:0>, <thebetweenlands:dentrothyst:0>, 6000);
+StoneKiln.addRecipe("dentrothyst_orange", <thebetweenlands:polished_dentrothyst:1>, <thebetweenlands:dentrothyst:1>, 6000);
+
+
+
 
 // BLOOMERY
 Bloomery.removeBloomeryRecipes(<immersiveengineering:metal:29>);
@@ -502,7 +548,7 @@ Bloomery.createBloomeryBuilder(
         <thebetweenlands:items_misc:42>,            // output
         <pyrotech:generated_pile_slag_octine> // input
     )
-    .setAnvilTiers(["granite", "ironclad"])
+    .setAnvilTiers(["ironclad"])
     .setBurnTimeTicks(12 * 60 * 20)
     .setFailureChance(0.25)
     .setBloomYield(12, 15)

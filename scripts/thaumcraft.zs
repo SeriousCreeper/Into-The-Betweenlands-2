@@ -14,11 +14,11 @@ recipes.remove(<thaumcraft:nugget:4>);
 recipes.remove(<thaumcraft:plate:1>);
 <ore:plateIron>.remove(<thaumcraft:plate:1>);
 
-recipes.remove(<thaumcraft:salis_mundus>);
-recipes.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <coloredredstone:colored_redstone_dust:12>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
+//recipes.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <coloredredstone:colored_redstone_dust:12>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
 
 recipes.remove(<thaumcraft:nugget:9>);
-recipes.addShaped(<thaumcraft:nugget:9> * 9, [[<thebetweenlands:dentrothyst_shard_orange> | <thebetweenlands:dentrothyst_shard_green>]]);
+recipes.addShaped(<thaumcraft:nugget:9> * 16, [[<thebetweenlands:dentrothyst_shard_green>]]);
+recipes.addShaped(<thaumcraft:nugget:9> * 32, [[<thebetweenlands:dentrothyst_shard_orange>]]);
 
 recipes.remove(<thaumcraft:table_wood>);
 recipes.addShaped("tablewood", <thaumcraft:table_wood>, [
@@ -658,7 +658,7 @@ Crucible.registerRecipe("nitor", "UNLOCKALCHEMY@3", <thaumcraft:nitor_yellow>, <
 
 
 Crucible.removeRecipe(<thaumcraft:nitor_yellow>);
-Crucible.registerRecipe("nitor_2", "UNLOCKALCHEMY@3", <thaumcraft:nitor_yellow>, <thebetweenlands:items_misc:45>, [
+Crucible.registerRecipe("nitor", "UNLOCKALCHEMY@3", <thaumcraft:nitor_yellow>, <thebetweenlands:wisp>, [
 	<aspect:ignis> * 10, 
 	<aspect:lux> * 10, 
 	<aspect:potentia> * 10

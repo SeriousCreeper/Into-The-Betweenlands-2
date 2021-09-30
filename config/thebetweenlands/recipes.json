@@ -358,5 +358,20 @@
 	    },
 	    "output": 3
 	  }
+	],
+	"crab_pot_filter": [
+	  {
+	    "input": {
+	      "item": {
+	      	"id": "roots:terra_moss"
+	      }
+	    },
+	    "output": {
+	      "item" : {
+	        "id": "roots:terra_spores"
+	  	  }
+	    }
+	  }
 	]
 }
+

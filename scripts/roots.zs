@@ -41,8 +41,6 @@ knifeDict.add(<roots:diamond_knife:32767>);
 //JEI.hide(<roots:wood_knife>);
 JEI.removeAndHide(<roots:gold_knife>);
 //JEI.hide(<roots:living_hoe>);
-//JEI.hide(<roots:runed_hoe>);
-//JEI.hide(<roots:terrastone_hoe>);
 
 JEI.removeAndHide(<roots:wooden_shears>);
 JEI.removeAndHide(<roots:fire_starter>);
@@ -50,6 +48,9 @@ JEI.removeAndHide(<roots:salmon_of_knowledge>);
 JEI.removeAndHide(<roots:flour>);
 JEI.removeAndHide(<roots:reliquary>);
 JEI.removeAndHide(<roots:glass_eye>);
+JEI.removeAndHide(<roots:living_hoe>);
+JEI.hide(<roots:runed_hoe>);
+JEI.hide(<roots:terrastone_hoe>);
 
 
 recipes.remove(<roots:wooden_shears>);
@@ -189,7 +190,7 @@ Fey.addRecipe("sylvan_boots", <roots:sylvan_boots>,
 
 
 // Living Tools
-//Fey.removeRecipe(<roots:living_hoe>);
+Fey.removeRecipe(<roots:living_hoe>);
 
 Fey.removeRecipe(<roots:living_pickaxe>);
 Fey.addRecipe("living_pickaxe", <roots:living_pickaxe>, 
@@ -285,6 +286,16 @@ Fey.removeRecipe(<roots:runed_obsidian>);
 Fey.addRecipe("runed_obsidian", <roots:runed_obsidian> * 4, 
 	[<roots:runic_dust>, <thaumcraft:ingot:1>, <thaumcraft:ingot:1>, <ore:runestone>, <ore:runestone>]);
 
+recipes.remove(<thaumcraft:salis_mundus>);
+Fey.addRecipe("salismundus", <thaumcraft:salis_mundus>, 
+	[<arcanearchives:raw_quartz>, <coloredredstone:colored_redstone_dust:12>, <ore:visCrystals>, <ore:visCrystals>, <ore:visCrystals>]);
+
+Fey.addRecipe("sporeling_spores", <thebetweenlands:spores>, 
+	[<roots:terra_spores>, <thebetweenlands:items_misc:18>, <arcanearchives:raw_quartz>, <thebetweenlands:shelf_fungus>, <thebetweenlands:bulb_capped_mushroom_item>]);
+
+
+
+
 Fey.removeRecipe(<minecraft:gunpowder>);
 Fey.removeRecipe(<roots:salmon_of_knowledge>);
 
@@ -310,6 +321,7 @@ Fey.addRecipe("wildwood_boots", <roots:wildwood_boots>,
 Fey.removeRecipe(<roots:wildwood_bow>);
 Fey.addRecipe("wildwood_bow", <roots:wildwood_bow>, 
 	[<thebetweenlands:weedwood_bow>, <roots:bark_wildwood>, <roots:bark_wildwood>, <roots:terra_moss>, <roots:spirit_herb>]);
+
 
 
 // Pyre Crafting
@@ -343,7 +355,7 @@ Pyre.addRecipe("infernal_bulb", <roots:infernal_bulb>,
 
 
 // Runic Shears
-val defaultDelay = 20 * 60 * 10;
+val defaultDelay = 20 * 60 * 20;
 
 RunicShears.removeRecipe(<roots:fey_leather>);
 RunicShears.addEntityRecipe("pods_from_roots", <thebetweenlands:root_pod> * 2, <entity:thebetweenlands:root_sprite>, defaultDelay);
@@ -365,6 +377,8 @@ RunicShears.addEntityRecipe("strange_ooze_1", <roots:strange_ooze>, <entity:theb
 RunicShears.addEntityRecipe("strange_ooze_2", <roots:strange_ooze>, <entity:thebetweenlands:sludge>, defaultDelay);
 RunicShears.addEntityRecipe("strange_ooze_3", <roots:strange_ooze>, <entity:thebetweenlands:tiny_sludge_worm>, defaultDelay);
 RunicShears.addEntityRecipe("strange_ooze_4", <roots:strange_ooze>, <entity:thebetweenlands:large_sludge_worm>, defaultDelay);
+
+RunicShears.addEntityRecipe("sporeling_spores", <thebetweenlands:spores>, <entity:thebetweenlands:sporeling>, defaultDelay);
 
 RunicShears.removeRecipe(<roots:spirit_bag>);
 

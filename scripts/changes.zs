@@ -55,11 +55,11 @@ recipes.removeByRecipeName("coloredredstone:light_blue_colored_redstone_comparat
 //recipes.removeByRecipeName("coloredredstone:light_blue_colored_redstone_lamp_with_dye");
 
 
-recipes.replaceAllOccurences(<minecraft:iron_ingot>, <thebetweenlands:items_misc:11>);
-recipes.replaceAllOccurences(<minecraft:iron_nugget>, <thebetweenlands:items_misc:41>);
-recipes.replaceAllOccurences(<thaumcraft:nugget>, <thebetweenlands:items_misc:41>);
-recipes.replaceAllOccurences(<minecraft:gold_ingot>, <thebetweenlands:octine_ingot>);
-recipes.replaceAllOccurences(<minecraft:gold_nugget>, <thebetweenlands:items_misc:42>);
+//recipes.replaceAllOccurences(<minecraft:iron_ingot>, <thebetweenlands:items_misc:11>);
+//recipes.replaceAllOccurences(<minecraft:iron_nugget>, <thebetweenlands:items_misc:41>);
+//recipes.replaceAllOccurences(<thaumcraft:nugget>, <thebetweenlands:items_misc:41>);
+//recipes.replaceAllOccurences(<minecraft:gold_ingot>, <thebetweenlands:octine_ingot>);
+//recipes.replaceAllOccurences(<minecraft:gold_nugget>, <thebetweenlands:items_misc:42>);
 recipes.replaceAllOccurences(<minecraft:redstone>, <coloredredstone:colored_redstone_dust:12>);
 recipes.replaceAllOccurences(<minecraft:redstone_torch>, <coloredredstone:colored_redstone_torch_item:12>);
 recipes.replaceAllOccurences(<minecraft:wooden_pressure_plate>, <thebetweenlands:weedwood_plank_pressure_plate>);
@@ -228,7 +228,6 @@ recipes.addShaped("minecraft-minecart-modified", <minecraft:minecart>, [
 	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>],
 	[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>]]);
 
-
 recipes.remove(<minecraft:slime>);
 recipes.addShaped("slime", <minecraft:slime>, [
 	[<thebetweenlands:sludge_ball> | <thebetweenlands:sap_spit>, <thebetweenlands:sludge_ball> | <thebetweenlands:sap_spit>],
@@ -250,16 +249,55 @@ recipes.addShaped("minecraft-anvil", <minecraft:anvil>, [
 	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>]
 ]);
 
-
 recipes.remove(<minecraft:string>);
 recipes.addShapeless("string", <minecraft:string> * 3, [<dawnoftimebuilder:silk>, <mysticalworld:spindle>]);
-
 
 recipes.remove(<minecraft:iron_bars>);
 recipes.addShaped("iron_bars", <minecraft:iron_bars> * 16, [
 	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>], 
 	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>]
 ]);
+
+recipes.remove(<minecraft:golden_rail>);
+recipes.addShaped("golden_rail", <minecraft:golden_rail> * 6, [
+	[<ore:ingotOctine>, null, <ore:ingotOctine>], 
+	[<ore:ingotOctine>, <ore:stickWood>, <ore:ingotOctine>], 
+	[<ore:ingotOctine>, <ore:dustColoredRedstone>, <ore:ingotOctine>]
+]);
+
+recipes.remove(<minecraft:detector_rail>);
+recipes.addShaped("detector_rail", <minecraft:detector_rail> * 6, [
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <thebetweenlands:betweenstone_pressure_plate>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:dustColoredRedstone>, <ore:ingotSyrmorite>]
+]);
+
+recipes.remove(<minecraft:rail>);
+recipes.addShaped("rail", <minecraft:rail> * 16, [
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:stickWood>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>]
+]);
+
+recipes.remove(<minecraft:activator_rail>);
+recipes.addShaped("activator_rail", <minecraft:activator_rail> * 6, [
+	[<ore:ingotSyrmorite>, <ore:stickWood>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <coloredredstone:colored_redstone_torch_item:12>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:stickWood>, <ore:ingotSyrmorite>]
+]);
+
+recipes.remove(<minecraft:tripwire_hook>);
+recipes.addShaped("tripwire_hook", <minecraft:tripwire_hook> * 2, [
+	[<ore:ingotSyrmorite>], 
+	[<ore:stickWood>], 
+	[<ore:plankWood>]
+]);
+
+
+
+
+
+
 
 
 
@@ -382,6 +420,10 @@ for i, wood in gateWoodTypes {
 }
 
 
+
+
+// BASE
+recipes.remove(<base:wrench>);
 
 
 

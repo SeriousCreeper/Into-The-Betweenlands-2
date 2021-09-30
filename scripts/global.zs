@@ -207,10 +207,10 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:rennetSource>.add(<thebetweenlands:nettle_flowered>);
 
 
-//<ore:nuggetLead>.remove(<embers:nugget_lead>);
 <ore:nuggetCopper>.remove(<thaumcraft:nugget:1>);
 <ore:nuggetTin>.remove(<thaumcraft:nugget:2>);
 <ore:nuggetSilver>.remove(<thaumcraft:nugget:3>);
+<ore:nuggetIron>.remove(<thaumcraft:nugget>);
 
 //<ore:ingotCopper>.remove(<tmechworks:ingots:1>);
 
@@ -221,7 +221,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 //<ore:nuggetIron>.remove(<minecraft:iron_nugget>);
 //<ore:nuggetSyrmorite>.add(<minecraft:iron_nugget>);
-//<ore:nuggetIron>.remove(<thaumcraft:nugget>);
+
 //<ore:nuggetSyrmorite>.add(<minecraft:iron_nugget>);
 
 <ore:dentrothystShard>.add(<thebetweenlands:dentrothyst_shard_orange>);
