@@ -123,11 +123,12 @@ Bark.removeRecipe(<roots:bark_birch>);
 Bark.removeRecipe(<roots:bark_dark_oak>);
 
 // Add Betweenlands bark
-Bark.addRecipe("bark_oak", <thebetweenlands:log_weedwood:*>, <roots:bark_oak>);
-Bark.addRecipe("bark_oak_2", <thebetweenlands:weedwood:*>, <roots:bark_oak>);
+Bark.addRecipe("bark_oak_1", <thebetweenlands:log_weedwood:0>, <roots:bark_oak>);
+Bark.addRecipe("bark_oak_2", <thebetweenlands:log_weedwood:12>, <roots:bark_oak>);
+Bark.addRecipe("bark_oak_3", <thebetweenlands:weedwood:0>, <roots:bark_oak>);
 
 Bark.addRecipe("rotten_bark_1", <thebetweenlands:log_rotten_bark:0>, <roots:bark_jungle>);
-Bark.addRecipe("rotten_bark_2", <thebetweenlands:log_spreading_rotten_bark>, <roots:bark_jungle>);
+Bark.addRecipe("rotten_bark_2", <thebetweenlands:log_rotten_bark:12>, <roots:bark_jungle>);
 
 Bark.addRecipe("hearthgrove_bark_1", <thebetweenlands:log_hearthgrove:1>, <roots:bark_acacia>);
 Bark.addRecipe("hearthgrove_bark_2", <thebetweenlands:log_hearthgrove:5>, <roots:bark_acacia>);
@@ -138,9 +139,9 @@ Bark.addRecipe("nibbletwig_bark_1", <thebetweenlands:log_nibbletwig:0>, <roots:b
 Bark.addRecipe("nibbletwig_bark_2", <thebetweenlands:log_nibbletwig:12>, <roots:bark_spruce>);
 
 Bark.addRecipe("saptree_bark_1", <thebetweenlands:log_sap:0>, <roots:bark_birch>);
-Bark.addRecipe("saptree_bark_2", <thebetweenlands:log_sap:12>, <roots:bark_birch>);
+//Bark.addRecipe("saptree_bark_2", <thebetweenlands:log_sap:12>, <roots:bark_birch>);
 
-Bark.addRecipe("saptree_bark_2", <thebetweenlands:giant_root>, <roots:bark_dark_oak>);
+Bark.addRecipe("giantroot_bark_1", <thebetweenlands:giant_root:0>, <roots:bark_dark_oak>);
 
 Bark.addRecipe("wildroot", <thebetweenlands:root>, <roots:wildroot>);
 
@@ -379,6 +380,8 @@ RunicShears.addEntityRecipe("strange_ooze_3", <roots:strange_ooze>, <entity:theb
 RunicShears.addEntityRecipe("strange_ooze_4", <roots:strange_ooze>, <entity:thebetweenlands:large_sludge_worm>, defaultDelay);
 
 RunicShears.addEntityRecipe("sporeling_spores", <thebetweenlands:spores>, <entity:thebetweenlands:sporeling>, defaultDelay);
+RunicShears.addEntityRecipe("ochre_shells", <thebetweenlands:items_misc:1>, <entity:thebetweenlands:mire_snail>, defaultDelay);
+
 
 RunicShears.removeRecipe(<roots:spirit_bag>);
 

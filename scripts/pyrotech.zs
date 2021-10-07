@@ -299,7 +299,7 @@ SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.addRecipe("slaked_lime", <pyrotech:material:8>, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:27>, 7 * 60 * 20);
 
 SoakingPot.removeRecipes(<pyrotech:material:25>);
-SoakingPot.addRecipe("pulp_from_wood_chips", <pyrotech:material:25>, <liquid:swamp_water> * 500, <pyrotech:rock:7>, true, 7 * 60 * 20);
+SoakingPot.addRecipe("pulp_from_wood_chips", <pyrotech:material:25>, <liquid:swamp_water> * 500, <pyrotech:rock:7> * 8, true, 7 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_dry_bark", <pyrotech:material:25> * 3, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:13>, 2 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_swamp_reed", <pyrotech:material:25>, <liquid:swamp_water> * 125, <thebetweenlands:swamp_reed_item>, 4 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_bark", <pyrotech:material:25>, <liquid:swamp_water> * 125, <ore:rootsBark>, 3 * 60 * 20);
@@ -519,6 +519,7 @@ Burn.createBuilder("coke_from_sulfur", <immersiveengineering:material:6>, "thebe
 
 // KILNS
 furnace.remove(<thebetweenlands:polished_dentrothyst:*>);
+
 StoneKiln.addRecipe("dentrothyst_green", <thebetweenlands:polished_dentrothyst:0>, <thebetweenlands:dentrothyst:0>, 6000);
 StoneKiln.addRecipe("dentrothyst_orange", <thebetweenlands:polished_dentrothyst:1>, <thebetweenlands:dentrothyst:1>, 6000);
 
@@ -526,7 +527,64 @@ StoneKiln.addRecipe("dentrothyst_orange", <thebetweenlands:polished_dentrothyst:
 
 
 // BLOOMERY
-Bloomery.removeBloomeryRecipes(<immersiveengineering:metal:29>);
+
+function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, inputSlag as IItemStack, output as IItemStack, outputSlag as IItemStack, anvilTypes as string[]) {
+	Bloomery.removeBloomeryRecipes(output);
+	Bloomery.removeBloomeryRecipes(outputSlag);
+	Bloomery.removeWitherForgeRecipes(output);
+	Bloomery.removeWitherForgeRecipes(outputSlag);
+
+	Bloomery.createBloomeryBuilder(
+        "bloom_from_" ~ oreName.toLowerCase() ~ "_ore",   // recipe name
+        output,
+        inputOre,
+        true
+    )
+    .setAnvilTiers(anvilTypes)
+    .setBurnTimeTicks(24 * 60 * 20)
+    .setFailureChance(0.25)
+    .setBloomYield(12, 15)
+    .setSlagItem(outputSlag, 2)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(outputSlag, 1)
+    .register();
+
+	Bloomery.createBloomeryBuilder(
+        "bloom_from_" ~ oreName.toLowerCase() ~ "_slag",
+        output,
+        inputSlag,
+        true
+    )
+    .setAnvilTiers(anvilTypes)
+    .setBurnTimeTicks(12 * 60 * 20)
+    .setFailureChance(0.25)
+    .setBloomYield(12, 15)
+    .setSlagItem(outputSlag, 1)
+    .addFailureItem(<thebetweenlands:items_misc:50>, 1)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .setLangKey("tile.ore" ~ oreName ~ ";item.pyrotech.slag.unique")
+    .register();
+}
+
+recreateBloomeryRecipe("Octine", <thebetweenlands:octine_ore>, <pyrotech:generated_pile_slag_octine>, <thebetweenlands:items_misc:42>, <pyrotech:generated_slag_octine>, ["ironclad"]);
+recreateBloomeryRecipe("Syrmorite", <thebetweenlands:syrmorite_ore>, <pyrotech:generated_pile_slag_syrmorite>, <thebetweenlands:items_misc:41>, <pyrotech:generated_slag_syrmorite>, ["granite", "ironclad"]);
+
+
+val bloomsToRemove = [
+	<immersiveengineering:metal:29>,
+	<minecraft:gold_nugget>
+] as IItemStack[];
+
+
+for bloom in bloomsToRemove {
+	Bloomery.removeBloomeryRecipes(bloom);
+	Bloomery.removeWitherForgeRecipes(bloom);
+}
+
+
+
+
+/*
 Bloomery.removeBloomeryRecipes(<thebetweenlands:items_misc:42>);
 Bloomery.createBloomeryBuilder(
         "bloom_from_octine_ore",   // recipe name
@@ -557,7 +615,7 @@ Bloomery.createBloomeryBuilder(
     .addFailureItem(<pyrotech:slag>, 2)
     .setLangKey("tile.oreOctine;item.pyrotech.slag.unique")
     .register();
-
+*/
 
 
 

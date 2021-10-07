@@ -181,7 +181,7 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:syrmorite_door>.setAspects(<aspect:herba> * 22, <aspect:vinculum> * 5, <aspect:machina> * 5);
 <thebetweenlands:scabyst_door>.setAspects(<aspect:ordo> * 7, <aspect:vitreus> * 4, <aspect:vinculum> * 5, <aspect:machina> * 5);
 <thebetweenlands:sulfur_torch_extinguished>.setAspects(<aspect:tenebrae> * 2);
-<thebetweenlands:sulfur_torch>.setAspects(<aspect:ignis> * 1, <aspect:lux> * 5, <aspect:potentia> * 1);
+<thebetweenlands:sulfur_torch>.setAspects(<aspect:lux> * 5);
 <thebetweenlands:weedwood_trapdoor>.setAspects(<aspect:motus> * 5, <aspect:herba> * 6);
 <thebetweenlands:rubber_tree_plank_trapdoor>.setAspects(<aspect:motus> * 5, <aspect:herba> * 2, <aspect:vinculum> * 2);
 <thebetweenlands:syrmorite_trapdoor>.setAspects(<aspect:metallum> * 45, <aspect:motus> * 5);

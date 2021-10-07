@@ -4,20 +4,25 @@ import mods.orestages.OreStages;
 import crafttweaker.item.IItemStack;
 
 
-/*
 
 
-OreStages.addReplacement("knowledge_of_malice", <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:tin_ore>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:lead_ore>, <thebetweenlands:pitstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:silver_ore>, <thebetweenlands:pitstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_amber>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_cinnabar>, <thebetweenlands:pitstone>);
+OreStages.addReplacement("knowledge_of_technology", <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement("knowledge_of_technology", <betweenores:tin_ore>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement("knowledge_of_technology", <betweenores:lead_ore>, <thebetweenlands:pitstone>);
+OreStages.addReplacement("knowledge_of_technology", <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
+OreStages.addReplacement("knowledge_of_technology", <betweenores:silver_ore>, <thebetweenlands:pitstone>);
+OreStages.addReplacement("knowledge_of_technology", <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);
+//OreStages.addReplacement("knowledge_of_technology", <thaumcraft:ore_amber>, <thebetweenlands:betweenstone>);
+//OreStages.addReplacement("knowledge_of_technology", <thaumcraft:ore_cinnabar>, <thebetweenlands:pitstone>);
 
 OreStages.addReplacement("locked", <minecraft:dirt>, <thebetweenlands:swamp_dirt>);
 
+
+Recipes.setRecipeStageByMod("knowledge_of_technology", "immersiveengineering");
+ItemStages.stageModItems("knowledge_of_technology", "immersiveengineering");
+
+
+/*
 
 Recipes.setRecipeStage("knowledge_of_spirit", <arcanearchives:radiant_resonator>);
 ItemStages.addItemStage("knowledge_of_spirit", <arcanearchives:radiant_resonator>);
