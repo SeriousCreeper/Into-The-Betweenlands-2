@@ -6,7 +6,7 @@ import mods.teastory.TeaTable;
 import mods.teastory.Teapan.InSun;
 
 val itemsToRemove = [
-<teastory:matcha_powder>,
+	<teastory:matcha_powder>,
 	<teastory:matcha_leaf>,
 	<teastory:wet_tea>,
 	<teastory:zisha_clay>,

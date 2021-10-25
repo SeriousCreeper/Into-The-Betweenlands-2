@@ -24,10 +24,12 @@ for item in mwItems {
     if(!skip) {
     	JEI.removeAndHide(item);
     	furnace.remove(item);
+        item.removeAspects(allAspects);
     }
 }
 
 
 recipes.remove(<mysticalworld:silk_thread>);
 recipes.addShapeless("mysticalworld_silk_thread", <mysticalworld:silk_thread> * 2, [<mysticalworld:silk_cocoon>]);
-recipes.addShapeless("mysticalworld_silk_thread_spindle", <mysticalworld:silk_thread> * 6, [<mysticalworld:silk_cocoon>, <mysticalworld:spindle:*>.transformDamage(1)]);
+recipes.addShapeless("mysticalworld_silk_thread_spindle", <mysticalworld:silk_thread> * 6, [<mysticalworld:silk_cocoon>, <mysticalworld:spindle:*>]);
+recipes.addShapeless("mysticalworld_silk_thread_spindle_test", <mysticalworld:silk_thread> * 6, [<mysticalworld:silk_cocoon>, <mysticalworld:silk_cocoon>, <mysticalworld:spindle:*>.reuse()]);

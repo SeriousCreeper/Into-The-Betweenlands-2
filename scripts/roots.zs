@@ -1,3 +1,4 @@
+import crafttweaker.item.IItemStack;
 import mods.roots.Bark;
 import mods.roots.Mortar;
 import mods.roots.Fey;
@@ -38,22 +39,24 @@ knifeDict.add(<roots:diamond_knife:32767>);
 <ore:toolKnife>.add(<roots:iron_knife:32767>);
 <ore:toolKnife>.add(<roots:diamond_knife:32767>);
 
-//JEI.hide(<roots:wood_knife>);
-JEI.removeAndHide(<roots:gold_knife>);
-//JEI.hide(<roots:living_hoe>);
+val itemsToRemove = [
+	<roots:gold_knife>,
+	<roots:wooden_shears>,
+	<roots:fire_starter>,
+	<roots:salmon_of_knowledge>,
+	<roots:flour>,
+	<roots:reliquary>,
+	<roots:glass_eye>,
+	<roots:living_hoe>,
+	<roots:runed_hoe>,
+	<roots:terrastone_hoe>,
+] as IItemStack[];
 
-JEI.removeAndHide(<roots:wooden_shears>);
-JEI.removeAndHide(<roots:fire_starter>);
-JEI.removeAndHide(<roots:salmon_of_knowledge>);
-JEI.removeAndHide(<roots:flour>);
-JEI.removeAndHide(<roots:reliquary>);
-JEI.removeAndHide(<roots:glass_eye>);
-JEI.removeAndHide(<roots:living_hoe>);
-JEI.hide(<roots:runed_hoe>);
-JEI.hide(<roots:terrastone_hoe>);
 
-
-recipes.remove(<roots:wooden_shears>);
+for item in itemsToRemove {
+	JEI.removeAndHide(item);
+	item.removeAspects(allAspects);
+}
 
 
 recipes.remove(<roots:grove_stone>);
@@ -289,7 +292,7 @@ Fey.addRecipe("runed_obsidian", <roots:runed_obsidian> * 4,
 
 recipes.remove(<thaumcraft:salis_mundus>);
 Fey.addRecipe("salismundus", <thaumcraft:salis_mundus>, 
-	[<arcanearchives:raw_quartz>, <coloredredstone:colored_redstone_dust:12>, <ore:visCrystals>, <ore:visCrystals>, <ore:visCrystals>]);
+	[<arcanearchives:raw_quartz>, <coloredredstone:colored_redstone_dust:12>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
 
 Fey.addRecipe("sporeling_spores", <thebetweenlands:spores>, 
 	[<roots:terra_spores>, <thebetweenlands:items_misc:18>, <arcanearchives:raw_quartz>, <thebetweenlands:shelf_fungus>, <thebetweenlands:bulb_capped_mushroom_item>]);

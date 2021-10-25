@@ -44,6 +44,7 @@ val itemsToRemove = [
 
 for item in itemsToRemove {
 	JEI.removeAndHide(item);
+	item.removeAspects(allAspects);
 }
 
 val waterBucket = <thebetweenlands:bl_bucket:0>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:0>) |

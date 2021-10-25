@@ -7,13 +7,6 @@ recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>, [
 	[<ore:logWood>, null, <ore:logWood>]
 ]);
 
-recipes.remove(<arcanearchives:gemcutters_table>);
-recipes.addShaped("gemcutters_table", <arcanearchives:gemcutters_table>, [
-	[<thebetweenlands:limestone>, <thebetweenlands:polished_dentrothyst_pane:1>, <thebetweenlands:items_misc:32>], 
-	[<ore:logWood>, <ore:workbench>, <ore:logWood>], 
-	[<arcanearchives:raw_quartz>, <ore:logWood>, <arcanearchives:raw_quartz>]
-]);
-
 recipes.remove(<arcanearchives:tome_arcana>);
 recipes.addShapeless("tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}), [<minecraft:book>, <ore:nuggetOctine>]);
 

@@ -55,16 +55,203 @@ global allAspects as CTAspectStack[] = [
 ] as CTAspectStack[];
 
 
+global metals as IItemStack[string][string] = {
+	syrmorite: {
+		ore: <thebetweenlands:syrmorite_ore>,
+		nugget: <thebetweenlands:items_misc:41>,
+		ingot: <thebetweenlands:items_misc:11>,
+		block: <thebetweenlands:syrmorite_block>,
+		plate: <embers:plate_iron>,
+		cluster: <jaopca:item_clustersyrmorite>
+	},
+	octine: {
+		ore: <thebetweenlands:octine_ore>,
+		nugget: <thebetweenlands:items_misc:42>,
+		ingot: <thebetweenlands:octine_ingot>,
+		block: <thebetweenlands:octine_block>,
+		plate: <embers:plate_gold>,
+		cluster: <jaopca:item_clusteroctine>
+	},
+	copper: {
+		ore: <betweenores:copper_ore>,
+		nugget: <embers:nugget_copper>,
+		ingot: <embers:ingot_copper>,
+		block: <embers:block_copper>,
+		plate: <embers:plate_copper>,
+		cluster: <thaumcraft:cluster:2>
+	},
+	lead: {
+		ore: <betweenores:lead_ore>,
+		nugget: <embers:nugget_lead>,
+		ingot: <embers:ingot_lead>,
+		block: <embers:block_lead>,
+		plate: <embers:plate_lead>,
+		cluster: <thaumcraft:cluster:5>
+	},
+	silver: {
+		ore: <betweenores:silver_ore>,
+		nugget: <embers:nugget_silver>,
+		ingot: <embers:ingot_silver>,
+		block: <embers:block_silver>,
+		plate: <embers:plate_silver>,
+		cluster: <thaumcraft:cluster:4>
+	},
+	aluminum: {
+		ore: <betweenores:aluminum_ore>,
+		nugget: <embers:nugget_aluminum>,
+		ingot: <embers:ingot_aluminum>,
+		block: <embers:block_aluminum>,
+		plate: <embers:plate_aluminum>,
+		cluster: <jaopca:item_clusteraluminium>
+	},
+	nickel: {
+		ore: <betweenores:nickel_ore>,
+		nugget: <embers:nugget_nickel>,
+		ingot: <embers:ingot_nickel>,
+		block: <embers:block_nickel>,
+		plate: <embers:plate_nickel>,
+		cluster: <jaopca:item_clusternickel>
+	},
+	tin: {
+		ore: <betweenores:tin_ore>,
+		nugget: <embers:nugget_tin>,
+		ingot: <embers:ingot_tin>,
+		block: <embers:block_tin>,
+		plate: <embers:plate_tin>,
+		cluster: <thaumcraft:cluster:3>
+	},
+	dawnstone: {
+		ore: null,
+		nugget: <embers:nugget_dawnstone>,
+		ingot: <embers:ingot_dawnstone>,
+		block: <embers:block_dawnstone>,
+		plate: <embers:plate_dawnstone>,
+		cluster: null
+	},
+	bronze: {
+		ore: null,
+		nugget: <embers:nugget_bronze>,
+		ingot: <embers:ingot_bronze>,
+		block: <embers:block_bronze>,
+		plate: <embers:plate_bronze>,
+		cluster: null
+	},
+	electrum: {
+		ore: null,
+		nugget: <embers:nugget_electrum>,
+		ingot: <embers:ingot_electrum>,
+		block: <embers:block_electrum>,
+		plate: <embers:plate_electrum>,
+		cluster: null
+	},
+	thaumium: {
+		ore: null,
+		nugget: <thaumcraft:nugget:6>,
+		ingot: <thaumcraft:ingot>,
+		block: <thaumcraft:metal_thaumium>,
+		plate: <thaumcraft:plate:2>,
+		cluster: null
+	},
+	"void": {
+		ore: null,
+		nugget: <thaumcraft:nugget:7>,
+		ingot: <thaumcraft:ingot:1>,
+		block: <thaumcraft:metal_void>,
+		plate: <thaumcraft:plate:3>,
+		cluster: null
+	},
+	brass: {
+		ore: null,
+		nugget: <thaumcraft:nugget:8>,
+		ingot: <thaumcraft:ingot:2>,
+		block: <thaumcraft:metal_brass>,
+		plate: <thaumcraft:plate:0>,
+		cluster: null
+	}
+};
+
+global liquids as ILiquidStack[string] = {
+	syrmorite: <liquid:syrmorite>,
+	octine: <liquid:octine>,
+	copper: <liquid:copper>,
+	lead: <liquid:lead>,
+	silver: <liquid:silver>,
+	aluminum: <liquid:aluminum>,
+	nickel: <liquid:nickel>,
+	tin: <liquid:tin>,
+	dawnstone: <liquid:dawnstone>,
+	bronze: <liquid:bronze>,
+	electrum: <liquid:electrum>,
+	thaumium: <liquid:thaumium>,
+	"void": <liquid:void>,
+	brass: <liquid:brass>,
+};
+
+
 global removeAndHide as IItemStack[] = [
-// THAUMCRAFT
 	<thaumcraft:cluster:0>,
 	<thaumcraft:cluster:1>,
+
+	<embers:pickaxe_copper>,
+	<embers:axe_copper>,
+	<embers:shovel_copper>,
+	<embers:hoe_copper>,
+	<embers:sword_copper>,
+	<embers:pickaxe_silver>,
+	<embers:axe_silver>,
+	<embers:shovel_silver>,
+	<embers:hoe_silver>,
+	<embers:sword_silver>,
+	<embers:pickaxe_lead>,
+	<embers:axe_lead>,
+	<embers:shovel_lead>,
+	<embers:hoe_lead>,
+	<embers:sword_lead>,
+	<embers:pickaxe_dawnstone>,
+	<embers:axe_dawnstone>,
+	<embers:shovel_dawnstone>,
+	<embers:hoe_dawnstone>,
+	<embers:sword_dawnstone>,
+	<embers:pickaxe_aluminum>,
+	<embers:axe_aluminum>,
+	<embers:shovel_aluminum>,
+	<embers:sword_aluminum>,
+	<embers:hoe_aluminum>,
+	<embers:pickaxe_bronze>,
+	<embers:axe_bronze>,
+	<embers:shovel_bronze>,
+	<embers:sword_bronze>,
+	<embers:hoe_bronze>,
+	<embers:pickaxe_electrum>,
+	<embers:axe_electrum>,
+	<embers:shovel_electrum>,
+	<embers:sword_electrum>,
+	<embers:hoe_electrum>,
+	<embers:pickaxe_nickel>,
+	<embers:axe_nickel>,
+	<embers:shovel_nickel>,
+	<embers:sword_nickel>,
+	<embers:hoe_nickel>,
+	<embers:pickaxe_tin>,
+	<embers:axe_tin>,
+	<embers:shovel_tin>,
+	<embers:sword_tin>,
+	<embers:hoe_tin>,
+
+	//<denseores:minecraft_quartz_ore>,
+	//<denseores:minecraft_gold_ore>,
+	//<denseores:minecraft_coal_ore>,
+	//<denseores:minecraft_diamond_ore>,
+	//<denseores:minecraft_iron_ore>,
+	//<denseores:minecraft_emerald_ore>,
+	//<denseores:minecraft_lapis_ore>,
 
 ] as IItemStack[];
 
 
 for item in removeAndHide {
 	JEI.removeAndHide(item);
+	item.removeAspects(allAspects);
 }
 
 
@@ -283,6 +470,8 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:doorMetal>.add(<thebetweenlands:scabyst_door_item>);
 <ore:doorMetal>.add(<thebetweenlands:syrmorite_door_item>);
 
+<ore:plateSyrmorite>.add(<embers:plate_iron>);
+
 <ore:torch>.remove(<minecraft:torch>);
 
 <ore:dustColoredRedstone>.remove(<coloredredstone:colored_redstone_dust:*>);
@@ -307,6 +496,8 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:banner>.add(<thaumcraft:banner_green>);
 <ore:banner>.add(<thaumcraft:banner_red>);
 <ore:banner>.add(<thaumcraft:banner_black>);
+
+<ore:dustRedstone>.add(<coloredredstone:colored_redstone_dust:12>);
 
 
 val oreVisCrystals = <ore:visCrystals>;

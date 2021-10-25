@@ -2,8 +2,31 @@ import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-recipes.remove(<immersiveengineering:metal:29>);
 
+val itemsToRemove = [
+	<immersiveengineering:stone_decoration:0>
+] as IItemStack[];
+
+for item in itemsToRemove {
+	JEI.removeAndHide(item);
+	item.removeAspects(allAspects);
+}
+
+recipes.remove(<immersiveengineering:metal:29>);
+recipes.remove(<immersiveengineering:stone_decoration>);
+
+recipes.remove(<immersiveengineering:wooden_device0:2>);
+recipes.addShaped("wooden_devices/workbench", <immersiveengineering:wooden_device0:2>, [
+	[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], 
+	[<thebetweenlands:weedwood_workbench>, null, <ore:fenceTreatedWood>]
+]);
+
+recipes.remove(<immersiveengineering:stone_decoration:1>);
+recipes.addShaped("stone_decoration/blastbrick", <immersiveengineering:stone_decoration:1> * 3, [
+	[<pyrotech:material:5>, <thebetweenlands:items_misc:10>, <pyrotech:material:5>], 
+	[<thebetweenlands:items_misc:10>, <thebetweenlands:wisp>, <thebetweenlands:items_misc:10>], 
+	[<pyrotech:material:5>, <thebetweenlands:items_misc:10>, <pyrotech:material:5>]
+]);
 
 
 val platesToReplace = {
@@ -25,3 +48,8 @@ for plate in platesToReplace {
 	recipes.remove(plate);
 	recipes.addShapeless(plate, [platesToReplace[plate], platesToReplace[plate], platesToReplace[plate], <immersiveengineering:tool>.transformDamage()]);
 }
+
+
+
+<immersiveengineering:metal:39>.displayName = "Syrmorite Plate";
+<immersiveengineering:metal:40>.displayName = "Octine Plate";

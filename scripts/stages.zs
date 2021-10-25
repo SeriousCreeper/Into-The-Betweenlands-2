@@ -1,3 +1,5 @@
+#priority -199
+
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import mods.orestages.OreStages;
@@ -7,7 +9,6 @@ import crafttweaker.item.IItemStack;
 
 
 OreStages.addReplacement("knowledge_of_technology", <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement("knowledge_of_technology", <betweenores:tin_ore>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_technology", <betweenores:lead_ore>, <thebetweenlands:pitstone>);
 OreStages.addReplacement("knowledge_of_technology", <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
 OreStages.addReplacement("knowledge_of_technology", <betweenores:silver_ore>, <thebetweenlands:pitstone>);
@@ -19,7 +20,7 @@ OreStages.addReplacement("locked", <minecraft:dirt>, <thebetweenlands:swamp_dirt
 
 
 Recipes.setRecipeStageByMod("knowledge_of_technology", "immersiveengineering");
-ItemStages.stageModItems("knowledge_of_technology", "immersiveengineering");
+//ItemStages.stageModItems("knowledge_of_technology", "immersiveengineering");
 
 
 /*

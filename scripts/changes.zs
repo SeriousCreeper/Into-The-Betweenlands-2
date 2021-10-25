@@ -359,6 +359,39 @@ recipes.removeByRecipeName("minecraft:bone_meal_from_bone");
 
 
 
+furnace.remove(<ore:ingotCopper>);
+furnace.remove(<ore:ingotTin>);
+furnace.remove(<ore:ingotSilver>);
+furnace.remove(<ore:ingotLead>);
+furnace.remove(<ore:ingotAluminum>);
+furnace.remove(<ore:ingotNickel>);
+
+
+
+for metal in metals {
+	furnace.remove(metals[metal].ingot);
+	furnace.remove(metals[metal].nugget);
+
+	recipes.remove(metals[metal].ingot);
+	recipes.remove(metals[metal].nugget);
+
+	recipes.addShaped(metals[metal].ingot, [
+		[metals[metal].nugget, metals[metal].nugget, metals[metal].nugget],
+		[metals[metal].nugget, metals[metal].nugget, metals[metal].nugget],
+		[metals[metal].nugget, metals[metal].nugget, metals[metal].nugget]
+	]);
+
+	recipes.addShaped(metals[metal].block, [
+		[metals[metal].ingot, metals[metal].ingot, metals[metal].ingot],
+		[metals[metal].ingot, metals[metal].ingot, metals[metal].ingot],
+		[metals[metal].ingot, metals[metal].ingot, metals[metal].ingot]
+	]);
+}
+
+
+
+
+
 // CRAFTING TABLE ON STICK
 recipes.remove(<portablecraftingtable:portable_crafting_table>);
 recipes.addShaped("portable_crafting_table", <portablecraftingtable:portable_crafting_table>, [
@@ -472,6 +505,9 @@ recipes.addShaped("light_blue_colored_redstone_lamp", <coloredredstone:colored_r
 	[<thebetweenlands:silt_glass>, <thebetweenlands:bulb_capped_mushroom_cap>, <thebetweenlands:silt_glass>],
 	[<coloredredstone:colored_redstone_dust:12>, <thebetweenlands:silt_glass>, <coloredredstone:colored_redstone_dust:12>]
 ]);
+
+recipes.remove(<coloredredstone:colored_redstone_dust:12>);
+recipes.remove(<coloredredstone:colored_redstone_block:12>);
 
 
 
@@ -599,7 +635,7 @@ recipes.addShaped("thebetweenlands-gallery_frame_small", <thebetweenlands:galler
 
 recipes.remove(<minecraft:book>);
 recipes.addShapeless("book", <minecraft:book>, 
-	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:4>]
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <ore:leather>]
 );
 
 recipes.remove(<minecraft:writable_book>);

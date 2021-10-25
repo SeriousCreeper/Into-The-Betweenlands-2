@@ -20,14 +20,14 @@
         {
           "selector": {
             "weight": {
-              "value": 98
+              "value": 99
             }
           }
         },
         {
           "selector": {
             "weight": {
-              "value": 2
+              "value": 1
             }
           },
           "item": {

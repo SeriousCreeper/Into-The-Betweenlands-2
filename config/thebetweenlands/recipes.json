@@ -1,16 +1,5 @@
 {
 	"pestle_and_mortar": [
-		{
-			"input": {
-				"id": "thebetweenlands:items_misc",
-				"meta": 39
-			},
-			"output": {
-				"id": "coloredredstone:colored_redstone_dust",
-				"meta": 12,
-				"size": 8
-			}
-		},
 		{ 
 			"input": {
 				"id": "thebetweenlands:items_crushed",
@@ -270,6 +259,36 @@
 				"id": "arcanearchives:quartz_sliver",
 				"size": 4
 			}
+		},
+		{
+			"input": {
+				"id": "arcanearchives:quartz_sliver"
+			},
+			"output": {
+				"id": "thaumcraft:nugget",
+				"meta": 9,
+				"size": 4
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:dentrothyst_shard_green"
+			},
+			"output": {
+				"id": "thaumcraft:nugget",
+				"meta": 9,
+				"size": 16
+			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:dentrothyst_shard_orange"
+			},
+			"output": {
+				"id": "thaumcraft:nugget",
+				"meta": 9,
+				"size": 32
+			}
 		}
 	],
 	"purifier": [
@@ -336,15 +355,31 @@
 	        "id": "teastory:oolong_tea_leaf"
 	  	  }
 	    }
+	  },
+	  {
+	    "input": {
+	      "item": {
+	        "id": "pyrotech:material",
+	        "meta": 25
+	      },
+	      "smoking_time": 6
+	    },
+	    "output": {
+	      "item" : {
+	        "id": "thebetweenlands:items_misc",
+	        "meta": 32
+	  	  }
+	    }
 	  }
 	],
 	"compost_bin": [
 	  {
 	    "input": {
 	      "item": {
-	      	"id": "pyrotech:material"
+	      	"id": "pyrotech:material",
+	      	"meta": 0
 	      },
-	      "composting_time": 250
+	      "composting_time": 5000
 	    },
 	    "output": 2
 	  },
@@ -354,7 +389,7 @@
 	      	"id": "pyrotech:rock",
 	      	"meta": 7
 	      },
-	      "composting_time": 250
+	      "composting_time": 5000
 	    },
 	    "output": 3
 	  }

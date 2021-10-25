@@ -26,6 +26,11 @@
                 "op": "replace",
                 "path": "stages/0/required_research",
                 "value": ["!ignis"]
+            },
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["thebetweenlands:mud_bricks","thaumcraft:stone_arcane_brick","thebetweenlands:octine_ingot"]
             }
         ]
     },

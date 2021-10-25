@@ -11,14 +11,13 @@ recipes.remove(<thaumcraft:nugget:2>);
 recipes.remove(<thaumcraft:nugget:3>);
 recipes.remove(<thaumcraft:nugget:4>);
 
-recipes.remove(<thaumcraft:plate:1>);
+recipes.remove(<thaumcraft:plate:*>);
 <ore:plateIron>.remove(<thaumcraft:plate:1>);
+
 
 //recipes.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <coloredredstone:colored_redstone_dust:12>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
 
 recipes.remove(<thaumcraft:nugget:9>);
-recipes.addShaped(<thaumcraft:nugget:9> * 16, [[<thebetweenlands:dentrothyst_shard_green>]]);
-recipes.addShaped(<thaumcraft:nugget:9> * 32, [[<thebetweenlands:dentrothyst_shard_orange>]]);
 
 recipes.remove(<thaumcraft:table_wood>);
 recipes.addShaped("tablewood", <thaumcraft:table_wood>, [
@@ -72,8 +71,8 @@ recipes.addShaped("baubleamuletfancy", <thaumcraft:baubles:4>, [
 
 recipes.remove(<thaumcraft:baubles:6>);
 recipes.addShaped("baublegirdlefancy", <thaumcraft:baubles:6>, [
-	[null, <thebetweenlands:items_misc:4>, null], 
-	[<thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:4>], 
+	[null, <ore:leather>, null], 
+	[<ore:leather>, <thebetweenlands:items_misc:19>, <ore:leather>], 
 	[null, <thebetweenlands:octine_ingot>, null]
 ]);
 
@@ -105,16 +104,6 @@ recipes.addShapeless("thaumcraft_jarlabelnull", <thaumcraft:label>,
 	[<thaumcraft:label:1>]
 );
 
-recipes.remove(<thaumcraft:plate:*>);
-recipes.addShapeless("brassplate", <thaumcraft:plate:0>, 
-	[<ore:ingotBrass>, <ore:ingotBrass>, <immersiveengineering:tool:*>.transformDamage(1)]
-);
-recipes.addShapeless("thaumiumplate", <thaumcraft:plate:2>, 
-	[<ore:ingotThaumium>, <ore:ingotThaumium>, <immersiveengineering:tool:*>.transformDamage(1)]
-);
-recipes.addShapeless("voidplate", <thaumcraft:plate:3>, 
-	[<ore:ingotVoid>, <ore:ingotVoid>, <immersiveengineering:tool:*>.transformDamage(1)]
-);
 
 recipes.addShapeless(<thaumcraft:banner_white>, [<ore:banner>, <minecraft:dye:15>]);
 recipes.addShapeless(<thaumcraft:banner_orange>, [<ore:banner>, <minecraft:dye:14>]);
@@ -227,8 +216,8 @@ ArcaneWorkbench.registerShapedRecipe("goggles", "UNLOCKARTIFICE@2", 50, [
 ], 
 <thaumcraft:goggles>, 
 [
-	[<thebetweenlands:items_misc:4>, <ore:ingotBrass>, <thebetweenlands:items_misc:4>], 
-	[<thebetweenlands:items_misc:4>, null, <thebetweenlands:items_misc:4>], 
+	[<ore:leather>, <ore:ingotBrass>, <ore:leather>], 
+	[<ore:leather>, null, <ore:leather>], 
 	[<thaumcraft:thaumometer>, <ore:ingotBrass>, <thaumcraft:thaumometer>]
 ]);
 
@@ -281,7 +270,7 @@ ArcaneWorkbench.registerShapedRecipe("bellows", "BELLOWS@2", 25, [
 <thaumcraft:bellows>, 
 [
 	[<ore:plankWood>, <ore:plankWood>, null], 
-	[<thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:11>], 
+	[<ore:leather>, <ore:leather>, <thebetweenlands:items_misc:11>], 
 	[<ore:plankWood>, <ore:plankWood>, null]
 ]);
 
@@ -302,7 +291,7 @@ ArcaneWorkbench.registerShapedRecipe("wand_workbench", "BASEAUROMANCY@2", 100, [
 
 recipes.remove(<thaumcraft:caster_basic>);
 ArcaneWorkbench.removeRecipe("caster_basic");
-ArcaneWorkbench.registerShapedRecipe("caster_basic", "BELLOWS@1", 100, [
+ArcaneWorkbench.registerShapedRecipe("caster_basic", "UNLOCKAUROMANCY@1", 100, [
 	<aspect:aer>,
 	<aspect:terra>,
 	<aspect:aqua>,
@@ -313,8 +302,8 @@ ArcaneWorkbench.registerShapedRecipe("caster_basic", "BELLOWS@1", 100, [
 <thaumcraft:caster_basic>, 
 [
 	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>], 
-	[<thebetweenlands:items_misc:4>, <thaumcraft:vis_resonator>, <thebetweenlands:items_misc:4>], 
-	[<thebetweenlands:items_misc:4>, <thaumcraft:thaumometer>, <thebetweenlands:items_misc:4>]
+	[<ore:leather>, <thaumcraft:vis_resonator>, <ore:leather>], 
+	[<ore:leather>, <thaumcraft:thaumometer>, <ore:leather>]
 ]);
 
 
@@ -324,9 +313,9 @@ ArcaneWorkbench.registerShapedRecipe("focuspouch", "FOCUSPOUCH@2", 25, [
 ], 
 <thaumcraft:focus_pouch>, 
 [
-	[<thebetweenlands:items_misc:4>, <thebetweenlands:octine_ingot>, <thebetweenlands:items_misc:4>], 
-	[<thebetweenlands:items_misc:4>, <thaumcraft:baubles:2>, <thebetweenlands:items_misc:4>], 
-	[<thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:4>]
+	[<ore:leather>, <thebetweenlands:octine_ingot>, <ore:leather>], 
+	[<ore:leather>, <thaumcraft:baubles:2>, <ore:leather>], 
+	[<ore:leather>, <ore:leather>, <ore:leather>]
 ]);
 
 
@@ -558,7 +547,7 @@ ArcaneWorkbench.registerShapedRecipe("potionsprayer", "POTIONSPRAYER@2", 75, [
 
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:condenser_lattice>);
-ArcaneWorkbench.registerShapedRecipe("condenserlattice", "POTIONSPRAYER@2", 100, [
+ArcaneWorkbench.registerShapedRecipe("condenserlattice", "FLUXCLEANUP@2", 100, [
 	<aspect:terra> * 3,
 	<aspect:aer> * 3,
 ], 
@@ -587,13 +576,105 @@ ArcaneWorkbench.removeRecipe(<thaumcraft:banner_green>);
 ArcaneWorkbench.removeRecipe(<thaumcraft:banner_red>);
 ArcaneWorkbench.removeRecipe(<thaumcraft:banner_black>);
 
-ArcaneWorkbench.registerShapedRecipe("bannerwhite", "POTIONSPRAYER@2", 10, [
+ArcaneWorkbench.registerShapedRecipe("bannerwhite", "BASEINFUSION", 10, [
 ], 
 <thaumcraft:banner_white>, 
 [
 	[<thebetweenlands:shelf_fungus>, <ore:stickWood>], 
 	[<thebetweenlands:shelf_fungus>, <ore:stickWood>], 
 	[<thebetweenlands:shelf_fungus>, <ore:slabWood>]
+]);
+
+recipes.remove(<arcanearchives:radiant_chest>);
+ArcaneWorkbench.registerShapedRecipe("radiant_chest", "", 10, [
+	<aspect:terra>,
+	<aspect:aer>,
+	<aspect:ignis>,
+	<aspect:aqua>,
+	<aspect:ordo>,
+	<aspect:perditio>,
+], 
+<arcanearchives:radiant_chest>, 
+[
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
+	[<ore:plankWood>, <arcanearchives:raw_quartz>, <ore:plankWood>], 
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);
+
+ArcaneWorkbench.registerShapedRecipe("manifest", "", 25, [
+	<aspect:terra>,
+	<aspect:aer>,
+	<aspect:ignis>,
+	<aspect:aqua>,
+	<aspect:ordo>,
+	<aspect:perditio>,
+], 
+<arcanearchives:manifest>, 
+[
+	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>], 
+	[<thebetweenlands:items_misc:32>, <minecraft:dye:0>, <thebetweenlands:items_misc:32>], 
+	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>]
+]);
+
+ArcaneWorkbench.registerShapedRecipe("letter_invitation", "", 25, [
+	<aspect:terra>,
+	<aspect:aer>,
+	<aspect:ignis>,
+	<aspect:aqua>,
+	<aspect:ordo>,
+	<aspect:perditio>,
+], 
+<arcanearchives:letter_invitation>, 
+[
+	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>], 
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:32>, <thebetweenlands:items_misc:32>], 
+	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>]
+]);
+
+ArcaneWorkbench.registerShapedRecipe("letter_resignation", "", 25, [
+	<aspect:terra>,
+	<aspect:aer>,
+	<aspect:ignis>,
+	<aspect:aqua>,
+	<aspect:ordo>,
+	<aspect:perditio>,
+], 
+<arcanearchives:letter_resignation>, 
+[
+	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>], 
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:45>, <thebetweenlands:items_misc:32>], 
+	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>]
+]);
+
+ArcaneWorkbench.registerShapedRecipe("writ_expulsion", "", 25, [
+	<aspect:terra>,
+	<aspect:aer>,
+	<aspect:ignis>,
+	<aspect:aqua>,
+	<aspect:ordo>,
+	<aspect:perditio>,
+], 
+<arcanearchives:writ_expulsion>, 
+[
+	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>], 
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:28>, <thebetweenlands:items_misc:32>], 
+	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>]
+]);
+
+recipes.remove(<arcanearchives:lectern_manifest>);
+ArcaneWorkbench.registerShapedRecipe("lectern_manifest", "", 50, [
+	<aspect:terra>,
+	<aspect:aer>,
+	<aspect:ignis>,
+	<aspect:aqua>,
+	<aspect:ordo>,
+	<aspect:perditio>,
+], 
+<arcanearchives:lectern_manifest>, 
+[
+	[null, <arcanearchives:manifest>, null], 
+	[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>], 
+	[<ore:stickWood>, null, <ore:stickWood>]
 ]);
 
 
@@ -805,6 +886,24 @@ Infusion.registerRecipe("thaumiumfortresslegs", "ARMORFORTRESS", <thaumcraft:for
 	<thaumcraft:plate:2>,
 	<thebetweenlands:octine_ingot>,
 	<ore:leather>
+]);
+
+recipes.remove(<arcanearchives:gemcutters_table>);
+Infusion.registerRecipe("gemcuttertable", "BASEINFUSION", <arcanearchives:gemcutters_table>, 10, [
+	<aspect:fabrico> * 25,
+	<aspect:praecantatio> * 100,
+	<aspect:permutatio> * 50,
+], 
+<thebetweenlands:weedwood_workbench>, 
+[
+	<thebetweenlands:log_spirit_tree>,
+	<thebetweenlands:log_spirit_tree>,
+	<thebetweenlands:log_spirit_tree>,
+	<arcanearchives:storage_raw_quartz>,
+	<arcanearchives:storage_raw_quartz>,
+	<thebetweenlands:polished_dentrothyst_pane:1>,
+	<embers:focal_lens>,
+	<thebetweenlands:valonite_block>
 ]);
 
 

@@ -323,6 +323,7 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:items_misc:18>.setAspects(<aspect:ignis> * 10, <aspect:potentia> * 10);
 <thebetweenlands:items_misc:19>.setAspects(<aspect:vitreus> * 15, <aspect:desiderium> * 15);
 <thebetweenlands:items_misc:21>.setAspects(<aspect:bestia> * 5, <aspect:aversio> * 2);
+<thebetweenlands:items_misc:22>.setAspects(<aspect:vacuos> * 5, <aspect:herba> * 1);
 <thebetweenlands:items_misc:23>.setAspects(<aspect:herba> * 2, <aspect:vinculum> * 2);
 <thebetweenlands:items_misc:25>.setAspects(<aspect:aqua> * 12, <aspect:victus> * 3, <aspect:spiritus> * 7, <aspect:tenebrae> * 30, <aspect:vinculum> * 30, <aspect:alienis> * 7);
 <thebetweenlands:items_misc:26>.setAspects(<aspect:aqua> * 2, <aspect:tenebrae> * 5, <aspect:vinculum> * 5);
@@ -334,9 +335,12 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:items_misc:41>.setAspects(<aspect:metallum> * 1);
 <thebetweenlands:items_misc:42>.setAspects(<aspect:ignis> * 1);
 <thebetweenlands:items_misc:43>.setAspects(<aspect:vitreus> * 1, <aspect:desiderium> * 1);
-<thebetweenlands:items_misc:44>.setAspects(<aspect:exanimis> * 10, <aspect:spiritus> * 10);
+<thebetweenlands:items_misc:44>.setAspects(<aspect:exanimis> * 2, <aspect:spiritus> * 2);
 <thebetweenlands:items_misc:45>.setAspects(<aspect:ignis> * 10, <aspect:vitreus> * 3);
 <thebetweenlands:items_misc:47>.setAspects(<aspect:vitreus> * 5, <aspect:alienis> * 5);
+
+
+<pyrotech:material:11>.setAspects( <aspect:instrumentum> * 1);
 
 
 

@@ -1,0 +1,133 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "thebetweenlands:mud"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "items": [
+              "thebetweenlands:octine_shovel:*"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 5
+            }
+          },
+          "item": {
+            "items": [
+              "thebetweenlands:items_misc:10"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 4
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 95
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "thebetweenlands:silt"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "items": [
+              "thebetweenlands:octine_shovel:*"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 5
+            }
+          },
+          "item": {
+            "items": [
+              "thebetweenlands:silt_glass"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 95
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "thebetweenlands:filtered_silt"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "items": [
+              "thebetweenlands:octine_shovel:*"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 5
+            }
+          },
+          "item": {
+            "items": [
+              "thebetweenlands:filtered_silt_glass"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 95
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

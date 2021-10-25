@@ -8,12 +8,17 @@ import mods.pyrotech.Burn;
 import mods.pyrotech.GraniteAnvil;
 import mods.pyrotech.IroncladAnvil;
 import mods.pyrotech.StoneSawmill;
+import mods.pyrotech.StoneCrucible;
 import mods.pyrotech.BrickSawmill;
 import mods.pyrotech.Chopping;
 import mods.pyrotech.Bloomery;
 import mods.pyrotech.BrickOven;
+import mods.pyrotech.BrickKiln;
+import mods.pyrotech.BrickCrucible;
 import mods.pyrotech.StoneOven;
 import mods.pyrotech.StoneKiln;
+import mods.pyrotech.CompactingBin;
+import mods.pyrotech.Campfire;
 
 
 
@@ -98,7 +103,6 @@ val itemsToRemove = [
 	<pyrotech:material:33>,
 	<pyrotech:material:31>,
 	<pyrotech:material:26>,
-	<pyrotech:material:24>,
 	<pyrotech:material:22>,
 	<pyrotech:material:21>,
 	<pyrotech:material:19>,
@@ -110,6 +114,7 @@ val itemsToRemove = [
 	<pyrotech:material:10>,
 	<pyrotech:material:2>,
 	<pyrotech:material:3>,
+	<pyrotech:material:7>,
 	<pyrotech:dense_quartz_ore_rocks>,
 	<pyrotech:dense_quartz_ore_small>,
 	<pyrotech:dense_quartz_ore_large>,
@@ -133,7 +138,6 @@ val itemsToRemove = [
 	<pyrotech:rock:9>,
 	<pyrotech:rock:8>,
 	<pyrotech:rock:6>,
-	<pyrotech:rock:5>,
 	<pyrotech:rock:4>,
 	<pyrotech:rock:3>,
 	<pyrotech:rock:2>,
@@ -148,6 +152,40 @@ val itemsToRemove = [
 	<pyrotech:tongs_flint>,
 	<pyrotech:tongs_iron>,
 	<pyrotech:chopping_block>,
+	<pyrotech:material:28>,
+	<pyrotech:generated_slag_gold>,
+	<pyrotech:generated_pile_slag_gold>,
+	<pyrotech:generated_slag_iron>,
+	<pyrotech:generated_pile_slag_iron>,
+	<pyrotech:material:30>,
+	//<pyrotech:planks_tarred>,
+	<pyrotech:stone_kiln>,
+	<pyrotech:stone_oven>,
+	<pyrotech:stone_crucible>,
+	<pyrotech:brick_kiln>,
+	<pyrotech:brick_oven>,
+	<pyrotech:brick_crucible>,
+	<pyrotech:campfire>,
+	<pyrotech:material:29>,
+	<pyrotech:burned_food>,
+	<pyrotech:material:24>,
+	<pyrotech:material:6>,
+	<pyrotech:igniter:1>,
+	<pyrotech:igniter>,
+	<pyrotech:book>,
+	<pyrotech:material:32>,
+	<pyrotech:tinder>,
+	<pyrotech:tar_collector>,
+	<pyrotech:tar_drain>,
+	<pyrotech:material:1>,
+	<pyrotech:rock:5>,
+	<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "liquid_clay", Amount: 1000}}),
+	<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "wood_tar", Amount: 1000}}),
+	<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "coal_tar", Amount: 1000}}),
+	<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_clay", Amount: 1000}}),
+	<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "wood_tar", Amount: 1000}}),
+	<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "coal_tar", Amount: 1000}}),
+	<pyrotech:stone_door>
 ] as IItemStack[];
 
 
@@ -182,13 +220,6 @@ recipes.remove(<pyrotech:tinder>);
 recipes.addShaped("tech/basic/tinder", <pyrotech:tinder>, [
 	[<thebetweenlands:items_misc:6>, <ore:stickWood>], 
 	[<ore:stickWood>, <thebetweenlands:items_misc:6>]
-]);
-
-recipes.remove(<pyrotech:stone_kiln>);
-recipes.addShaped("tech/machine/stone_kiln", <pyrotech:stone_kiln>, [
-	[<pyrotech:stone_bricks>, <pyrotech:material:16>, <pyrotech:stone_bricks>], 
-	[<pyrotech:stone_bricks>, <thebetweenlands:reed_mat>, <pyrotech:stone_bricks>], 
-	[<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]
 ]);
 
 recipes.remove(<pyrotech:log_pile>);
@@ -252,20 +283,6 @@ recipes.addShaped("tech/machine/sawmill_blade_gold", <pyrotech:sawmill_blade_gol
 	[<pyrotech:material:34>, <pyrotech:material:34>, <pyrotech:material:34>]
 ]);
 
-recipes.remove(<pyrotech:brick_kiln>);
-recipes.addShaped("tech/machine/brick_kiln", <pyrotech:brick_kiln>, [
-	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>], 
-	[<pyrotech:refractory_brick_block>, <pyrotech:stone_kiln>, <pyrotech:refractory_brick_block>], 
-	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>]
-]);
-
-recipes.remove(<pyrotech:brick_oven>);
-recipes.addShaped("tech/machine/brick_oven", <pyrotech:brick_oven>, [
-	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>], 
-	[<pyrotech:refractory_brick_block>, <pyrotech:stone_oven>, <pyrotech:refractory_brick_block>], 
-	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>]
-]);
-
 recipes.remove(<pyrotech:brick_sawmill>);
 recipes.addShaped("tech/machine/brick_sawmill", <pyrotech:brick_sawmill>, [
 	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>], 
@@ -273,16 +290,33 @@ recipes.addShaped("tech/machine/brick_sawmill", <pyrotech:brick_sawmill>, [
 	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>]
 ]);
 
-recipes.remove(<pyrotech:brick_crucible>);
-recipes.addShaped("tech/machine/brick_crucible", <pyrotech:brick_crucible>, [
-	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>], 
-	[<pyrotech:refractory_brick_block>, <pyrotech:stone_crucible>, <pyrotech:refractory_brick_block>], 
-	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>]
+recipes.remove(<pyrotech:mechanical_compacting_bin>);
+recipes.addShaped("tech/machine/mechanical_compacting_bin", <pyrotech:mechanical_compacting_bin>, [
+	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>], 
+	[<pyrotech:mechanical_hopper>, <pyrotech:compacting_bin>, <minecraft:piston>], 
+	[<pyrotech:stone_bricks>, <pyrotech:planks_tarred>, <pyrotech:stone_bricks>]
 ]);
 
+recipes.remove(<pyrotech:mechanical_mulch_spreader>);
+recipes.addShaped("tech/machine/mechanical_mulch_spreader", <pyrotech:mechanical_mulch_spreader>, [
+	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>], 
+	[<pyrotech:mechanical_hopper>, <minecraft:dispenser>, <pyrotech:mechanical_hopper>], 
+	[<pyrotech:stone_bricks>, <pyrotech:planks_tarred>, <pyrotech:stone_bricks>]
+]);
 
+recipes.remove(<pyrotech:mechanical_hopper>);
+recipes.addShaped("tech/machine/mechanical_hopper", <pyrotech:mechanical_hopper>, [
+	[<pyrotech:material:16>, null, <pyrotech:material:16>], 
+	[<pyrotech:planks_tarred>, <pyrotech:material:27>, <pyrotech:planks_tarred>], 
+	[null, <pyrotech:material:16>, null]
+]);
 
-
+recipes.remove(<pyrotech:mechanical_bellows>);
+recipes.addShaped("tech/machine/mechanical_bellows", <pyrotech:mechanical_bellows>, [
+	[<pyrotech:material:23>, <minecraft:piston>, <pyrotech:material:23>], 
+	[<ore:stickStone>, <pyrotech:bellows>, <ore:stickStone>], 
+	[<pyrotech:planks_tarred>, null, <pyrotech:planks_tarred>]
+]);
 
 
 recipes.remove(<pyrotech:obsidian_hammer>);
@@ -292,29 +326,97 @@ recipes.remove(<pyrotech:cog_obsidian>);
 
 
 
+// CAMPFIRE
+Campfire.blacklistAllSmeltingRecipes();
+
+
+
+
+// COMPACTING BIN
+CompactingBin.removeRecipes(<minecraft:netherrack>);
+CompactingBin.removeRecipes(<minecraft:lapis_block>);
+CompactingBin.removeRecipes(<minecraft:redstone_block>);
+CompactingBin.removeRecipes(<pyrotech:charcoal_block>);
+CompactingBin.removeRecipes(<minecraft:gravel>);
+CompactingBin.removeRecipes(<minecraft:dirt>);
+CompactingBin.removeRecipes(<minecraft:sand:*>);
+CompactingBin.removeRecipes(<minecraft:grass>);
+CompactingBin.removeRecipes(<minecraft:clay>);
+CompactingBin.removeRecipes(<minecraft:snow>);
+CompactingBin.removeRecipes(<minecraft:bone_block>);
+CompactingBin.removeRecipes(<minecraft:coal_block>);
+CompactingBin.removeRecipes(<pyrotech:coal_coke_block>);
+
+CompactingBin.addRecipe("redstone_block", <coloredredstone:colored_redstone_block:12>, <coloredredstone:colored_redstone_dust:12>, 9, true);
+CompactingBin.addRecipe("sulfur", <thebetweenlands:items_misc:18>, <immersiveengineering:material:25>, 8, true);
+
+recipes.remove(<thebetweenlands:sulfur_block>);
+CompactingBin.addRecipe("sulfur_block", <thebetweenlands:sulfur_block>, <thebetweenlands:items_misc:18>, 9, true);
+
+CompactingBin.addRecipe("silt", <thebetweenlands:silt>, <pyrotech:rock:5>, 8, true);
+
+
+
 
 
 // SOAKING POT
+SoakingPot.removeRecipes(<pyrotech:material:30>);
+SoakingPot.removeRecipes(<pyrotech:planks_tarred>);
+SoakingPot.removeRecipes(<pyrotech:material:23>);
+
+
+
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.addRecipe("slaked_lime", <pyrotech:material:8>, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:27>, 7 * 60 * 20);
 
 SoakingPot.removeRecipes(<pyrotech:material:25>);
 SoakingPot.addRecipe("pulp_from_wood_chips", <pyrotech:material:25>, <liquid:swamp_water> * 500, <pyrotech:rock:7> * 8, true, 7 * 60 * 20);
+SoakingPot.addRecipe("pulp_from_wood_chips_pile", <pyrotech:material:25>, <liquid:swamp_water> * 500, <pyrotech:pile_wood_chips>, true, 7 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_dry_bark", <pyrotech:material:25> * 3, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:13>, 2 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_swamp_reed", <pyrotech:material:25>, <liquid:swamp_water> * 125, <thebetweenlands:swamp_reed_item>, 4 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_bark", <pyrotech:material:25>, <liquid:swamp_water> * 125, <ore:rootsBark>, 3 * 60 * 20);
+SoakingPot.addRecipe("board_tarred", <pyrotech:material:23>, <liquid:tar> * 50, <pyrotech:material:20>, true, 105 * 20);
+SoakingPot.addRecipe("planks_tarred", <pyrotech:planks_tarred>, <liquid:tar> * 125, <ore:plankWood>, true, 7 * 60 * 20);
 
 
 
+// ANVIL
+GraniteAnvil.removeAllRecipes();
+IroncladAnvil.removeAllRecipes();
 
+GraniteAnvil.addRecipe("bone_shard_from_bone", <pyrotech:material:11> * 3, <thebetweenlands:items_misc:14>, 4, "pickaxe", true);
+GraniteAnvil.addRecipe("bone_shard_from_block", <pyrotech:material:11> * 27, <thebetweenlands:slimy_bone_block>, 8, "pickaxe", true);
+
+IroncladAnvil.addRecipe("diamond_nugget", <thebetweenlands:items_misc:43> * 9, <thebetweenlands:items_misc:19>, 16, "hammer");
+IroncladAnvil.addRecipe("diamond_shard", <pyrotech:material:18>, <thebetweenlands:items_misc:43>, 16, "pickaxe");
+
+IroncladAnvil.addRecipe("octine_shard_from_nugget", <pyrotech:material:34>, <thebetweenlands:items_misc:42>, 4, "hammer");
+
+recipes.remove(<thebetweenlands:items_misc:18>);
+GraniteAnvil.addRecipe("sulfur", <thebetweenlands:items_misc:18> * 9, <thebetweenlands:sulfur_block>, 8, "hammer", true);
+GraniteAnvil.addRecipe("silt_pile", <pyrotech:rock:5>, <pyrotech:material:6>, 4, "hammer", true);
+
+IroncladAnvil.addRecipe("radiant_dust", <arcanearchives:radiant_dust>, <arcanearchives:raw_quartz>, 8, "hammer");
+
+function nuggetAnvilRecipeBuilder(name as string, output as IItemStack, input as IIngredient, hits as int) {
+	recipes.remove(output);
+	IroncladAnvil.addRecipe(name, output, input, hits, "hammer");
+}
+
+for metal in metals {
+	IroncladAnvil.addRecipe(metal ~ "_nugget", metals[metal].nugget * 9, metals[metal].ingot, 8, "hammer");
+	IroncladAnvil.addRecipe(metal ~ "_ingot", metals[metal].ingot * 9, metals[metal].block, 8, "pickaxe");
+}
+
+GraniteAnvil.addRecipe("stick_stone", <pyrotech:material:27> * 4, <pyrotech:material:16>, 4, "pickaxe", true);
+IroncladAnvil.addRecipe("redstone_dust_from_dense_redstone", <coloredredstone:colored_redstone_dust:12> * 2, <pyrotech:material:36>, 2, "hammer");
+IroncladAnvil.addRecipe("redstone_from_redstone_block", <coloredredstone:colored_redstone_dust:12> * 9, <coloredredstone:colored_redstone_block:12>, 8, "hammer");
 
 
 // SAWMILL
 StoneSawmill.removeAllRecipes();
 BrickSawmill.removeAllRecipes();
 Chopping.removeAllRecipes();
-
-
 
 function stoneSawmillRecipeBuilder(name as string, itemOut as IItemStack, itemIn as IIngredient, countBone as int, countOctine as int, countDiamond as int) {
 	StoneSawmill.addRecipe(name ~ "_sawmill_bone", itemOut * countBone, itemIn, 200, <pyrotech:sawmill_blade_bone:*>, 2, true);
@@ -334,8 +436,8 @@ function brickSawmillRecipeBuilder(name as string, itemOut as IItemStack, itemIn
 	GraniteAnvil.removeRecipes(itemOut);
 	GraniteAnvil.addRecipe(name ~ "_anvil", itemOut * 2, itemIn, 8, "pickaxe", true);
 
-	BrickSawmill.addRecipe(name ~ "_sawmill_octine", itemOut * countOctine, itemIn, 1200, <pyrotech:sawmill_blade_gold:*>, 1 * multiplier);
-	BrickSawmill.addRecipe(name ~ "_sawmill_valonite", itemOut * countDiamond, itemIn, 600, <pyrotech:sawmill_blade_diamond:*>.or(<pyrotech:sawmill_blade_obsidian:*>), 1 * multiplier);
+	BrickSawmill.addRecipe(name ~ "_sawmill_octine", itemOut * countOctine, itemIn, 600, <pyrotech:sawmill_blade_gold:*>, 1 * multiplier);
+	BrickSawmill.addRecipe(name ~ "_sawmill_valonite", itemOut * countDiamond, itemIn, 300, <pyrotech:sawmill_blade_diamond:*>.or(<pyrotech:sawmill_blade_obsidian:*>), 1 * multiplier);
 }
 
 
@@ -361,9 +463,9 @@ slabRecipe("rotten_slab", <thebetweenlands:rotten_plank_slab>, <thebetweenlands:
 slabRecipe("greatwood_slab", <thaumcraft:slab_greatwood>, <thaumcraft:plank_greatwood>, 2, 3, 3);
 slabRecipe("silverwood_slab", <thaumcraft:slab_silverwood>, <thaumcraft:plank_silverwood>, 2, 3, 3);
 slabRecipe("wildwood_slab", <roots:wildwood_slab>, <roots:wildwood_planks>, 2, 3, 3);
-slabRecipe("treatedwood_slab_2", <immersiveengineering:treated_wood_slab:2>, <immersiveengineering:treated_wood:2>, 2, 3, 3);
-slabRecipe("treatedwood_slab_1", <immersiveengineering:treated_wood_slab:1>, <immersiveengineering:treated_wood:1>, 2, 3, 3);
-slabRecipe("treatedwood_slab_0", <immersiveengineering:treated_wood_slab:0>, <immersiveengineering:treated_wood:0>, 2, 3, 3);
+//slabRecipe("treatedwood_slab_2", <immersiveengineering:treated_wood_slab:2>, <immersiveengineering:treated_wood:2>, 2, 3, 3);
+//slabRecipe("treatedwood_slab_1", <immersiveengineering:treated_wood_slab:1>, <immersiveengineering:treated_wood:1>, 2, 3, 3);
+//slabRecipe("treatedwood_slab_0", <immersiveengineering:treated_wood_slab:0>, <immersiveengineering:treated_wood:0>, 2, 3, 3);
 
 planksRecipe("weedwood_planks", <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood:*> | <thebetweenlands:log_weedwood:*>, 4, 5, 6);
 planksRecipe("rubber_tree_planks", <thebetweenlands:rubber_tree_planks>, <thebetweenlands:log_rubber:*>, 4, 5, 6);
@@ -446,41 +548,11 @@ brickSawmillRecipeBuilder("storage_slab_0", <immersiveengineering:storage_slab:0
 
 
 stoneSawmillRecipeBuilder("boards", <pyrotech:material:20>, <ore:slabWood>, 1, 2, 3); // boards
-stoneSawmillRecipeBuilder("treated_boards", <pyrotech:material:23>, <immersiveengineering:treated_wood_slab>, 1, 2, 3); // tarred boards
+stoneSawmillRecipeBuilder("treated_boards", <pyrotech:material:23>, <pyrotech:planks_tarred>, 1, 2, 3); // tarred boards
 
 //recipes.remove(<thebetweenlands:items_misc:20>); // sticks
 //recipes.addShaped("weedwood_sticks", <thebetweenlands:items_misc:20> * 2, [[<thebetweenlands:weedwood_planks>], [<thebetweenlands:weedwood_planks>]]);
 //stoneSawmillRecipeBuilder("weedwood_sticks", <thebetweenlands:items_misc:20>, <thebetweenlands:weedwood_planks>, 2, 4, 6);
-
-
-
-
-// ANVIL
-GraniteAnvil.removeRecipes(<minecraft:gold_nugget>);
-GraniteAnvil.removeRecipes(<immersiveengineering:metal:29>);
-
-GraniteAnvil.removeRecipes(<pyrotech:material:11>);
-GraniteAnvil.addRecipe("bone_shard_from_bone", <pyrotech:material:11> * 3, <thebetweenlands:items_misc:14>, 4, "pickaxe", true);
-GraniteAnvil.addRecipe("bone_shard_from_block", <pyrotech:material:11> * 27, <thebetweenlands:slimy_bone_block>, 8, "pickaxe", true);
-
-GraniteAnvil.removeRecipes(<pyrotech:material:18>);
-GraniteAnvil.addRecipe("diamond_shard", <pyrotech:material:18> * 9, <thebetweenlands:items_misc:19>, 16, "pickaxe", true);
-
-GraniteAnvil.removeRecipes(<pyrotech:material:34>);
-GraniteAnvil.addRecipe("octine_shard", <pyrotech:material:34> * 9, <thebetweenlands:octine_ingot>, 8, "pickaxe", true);
-GraniteAnvil.addRecipe("octine_shard_from_nugget", <pyrotech:material:34>, <thebetweenlands:items_misc:42>, 4, "hammer", true);
-
-
-function nuggetAnvilRecipeBuilder(name as string, output as IItemStack, input as IIngredient, hits as int) {
-	recipes.remove(output);
-	IroncladAnvil.addRecipe(name, output, input, hits, "hammer");
-}
-
-nuggetAnvilRecipeBuilder("syrmorite_nugget", <thebetweenlands:items_misc:41> * 9, <thebetweenlands:items_misc:11>, 8);
-nuggetAnvilRecipeBuilder("octine_nugget", <thebetweenlands:items_misc:42>, <pyrotech:material:34>, 8);
-
-IroncladAnvil.addRecipe("syrmorite_ingot", <thebetweenlands:items_misc:11> * 9, <thebetweenlands:syrmorite_block>, 8, "pickaxe");
-IroncladAnvil.addRecipe("octine_ingot", <thebetweenlands:octine_ingot> * 9, <thebetweenlands:octine_block>, 8, "pickaxe");
 
 
 
@@ -492,12 +564,23 @@ Burn.removeRecipes(<pyrotech:material:1>);
 Burn.removeRecipes(<minecraft:coal:1>);
 Burn.createBuilder("sulfur_from_hearthgrove", <thebetweenlands:items_misc:18>, "pyrotech:log_pile:*")
     .setBurnStages(2)
-    .setTotalBurnTimeTicks(1 * 60 * 20)
-    .setFluidProduced(<liquid:creosote> * 500)
+    .setTotalBurnTimeTicks(10 * 60 * 20)
+    .setFluidProduced(<liquid:creosote> * 1000)
     .setFailureChance(0.15)
     .addFailureItem(<immersiveengineering:material:25>)
     .addFailureItem(<immersiveengineering:material:25> * 2)
     .addFailureItem(<immersiveengineering:material:25> * 4)
+    .setRequiresRefractoryBlocks(true)
+    .setFluidLevelAffectsFailureChance(true)
+    .register();
+
+Burn.createBuilder("sulfur_from_tarred_hearthgrove", <thebetweenlands:items_misc:18>, "thebetweenlands:log_hearthgrove:5")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(7 * 60 * 20)
+    .setFluidProduced(<liquid:creosote> * 1000)
+    .setFailureChance(0.1)
+    .addFailureItem(<immersiveengineering:material:25>)
+    .addFailureItem(<immersiveengineering:material:25> * 2)
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(true)
     .register();
@@ -518,21 +601,19 @@ Burn.createBuilder("coke_from_sulfur", <immersiveengineering:material:6>, "thebe
 
 
 // KILNS
-furnace.remove(<thebetweenlands:polished_dentrothyst:*>);
-
-StoneKiln.addRecipe("dentrothyst_green", <thebetweenlands:polished_dentrothyst:0>, <thebetweenlands:dentrothyst:0>, 6000);
-StoneKiln.addRecipe("dentrothyst_orange", <thebetweenlands:polished_dentrothyst:1>, <thebetweenlands:dentrothyst:1>, 6000);
-
+StoneKiln.removeAllRecipes();
+BrickKiln.removeAllRecipes();
 
 
 
 // BLOOMERY
-
 function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, inputSlag as IItemStack, output as IItemStack, outputSlag as IItemStack, anvilTypes as string[]) {
 	Bloomery.removeBloomeryRecipes(output);
 	Bloomery.removeBloomeryRecipes(outputSlag);
 	Bloomery.removeWitherForgeRecipes(output);
 	Bloomery.removeWitherForgeRecipes(outputSlag);
+
+	furnace.addRecipe(inputSlag, inputOre);
 
 	Bloomery.createBloomeryBuilder(
         "bloom_from_" ~ oreName.toLowerCase() ~ "_ore",   // recipe name
@@ -546,7 +627,7 @@ function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, input
     .setBloomYield(12, 15)
     .setSlagItem(outputSlag, 2)
     .addFailureItem(<pyrotech:slag>, 1)
-    .addFailureItem(outputSlag, 1)
+    //.addFailureItem(outputSlag, 1)
     .register();
 
 	Bloomery.createBloomeryBuilder(
@@ -557,17 +638,42 @@ function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, input
     )
     .setAnvilTiers(anvilTypes)
     .setBurnTimeTicks(12 * 60 * 20)
-    .setFailureChance(0.25)
-    .setBloomYield(12, 15)
-    .setSlagItem(outputSlag, 1)
-    .addFailureItem(<thebetweenlands:items_misc:50>, 1)
+    .setFailureChance(0.2)
+    .setBloomYield(14, 18)
+    //.setSlagItem(outputSlag, 1)
+    //.addFailureItem(<thebetweenlands:items_misc:50>, 1)
     .addFailureItem(<pyrotech:slag>, 1)
     .setLangKey("tile.ore" ~ oreName ~ ";item.pyrotech.slag.unique")
     .register();
+
+    val cluster = metals[oreName.toLowerCase()].cluster;
+
+    if(!isNull(cluster)) {
+		Bloomery.createBloomeryBuilder(
+	        "bloom_from_" ~ oreName.toLowerCase() ~ "_cluster",   // recipe name
+	        output,
+	        metals[oreName.toLowerCase()].cluster,
+	        true
+	    )
+	    .setAnvilTiers(anvilTypes)
+	    .setBurnTimeTicks(24 * 60 * 20)
+	    .setFailureChance(0.1)
+	    .setBloomYield(24, 30)
+	    .setSlagItem(outputSlag, 1)
+    	.setLangKey("tile.cluster" ~ oreName ~ ";item.pyrotech.slag.unique")
+	    .register();
+    }
 }
 
-recreateBloomeryRecipe("Octine", <thebetweenlands:octine_ore>, <pyrotech:generated_pile_slag_octine>, <thebetweenlands:items_misc:42>, <pyrotech:generated_slag_octine>, ["ironclad"]);
 recreateBloomeryRecipe("Syrmorite", <thebetweenlands:syrmorite_ore>, <pyrotech:generated_pile_slag_syrmorite>, <thebetweenlands:items_misc:41>, <pyrotech:generated_slag_syrmorite>, ["granite", "ironclad"]);
+recreateBloomeryRecipe("Octine", metals["octine"].ore, <pyrotech:generated_pile_slag_octine>, metals["octine"].nugget, <pyrotech:generated_slag_octine>, ["ironclad"]);
+recreateBloomeryRecipe("Aluminum", metals["aluminum"].ore, <pyrotech:generated_pile_slag_aluminum>, metals["aluminum"].nugget, <pyrotech:generated_slag_aluminum>, ["ironclad"]);
+recreateBloomeryRecipe("Copper", metals["copper"].ore, <pyrotech:generated_pile_slag_copper>, metals["copper"].nugget, <pyrotech:generated_slag_copper>, ["ironclad"]);
+recreateBloomeryRecipe("Lead", metals["lead"].ore, <pyrotech:generated_pile_slag_lead>, metals["lead"].nugget, <pyrotech:generated_slag_lead>, ["ironclad"]);
+recreateBloomeryRecipe("Nickel", metals["nickel"].ore, <pyrotech:generated_pile_slag_nickel>, metals["nickel"].nugget, <pyrotech:generated_slag_nickel>, ["ironclad"]);
+recreateBloomeryRecipe("Silver", metals["silver"].ore, <pyrotech:generated_pile_slag_silver>, metals["silver"].nugget, <pyrotech:generated_slag_silver>, ["ironclad"]);
+recreateBloomeryRecipe("Tin", metals["tin"].ore, <pyrotech:generated_pile_slag_tin>, metals["tin"].nugget, <pyrotech:generated_slag_tin>, ["ironclad"]);
+//recreateBloomeryRecipe("Uranium", metals["uranium"].ore, <pyrotech:generated_pile_slag_uranium>, metals["uranium"].nugget, <pyrotech:generated_slag_uranium>, ["ironclad"]);
 
 
 val bloomsToRemove = [
@@ -580,6 +686,7 @@ for bloom in bloomsToRemove {
 	Bloomery.removeBloomeryRecipes(bloom);
 	Bloomery.removeWitherForgeRecipes(bloom);
 }
+
 
 
 
@@ -621,11 +728,15 @@ Bloomery.createBloomeryBuilder(
 
 
 // OVEN
-StoneOven.removeRecipes(<thebetweenlands:items_misc:32>);
-StoneOven.addRecipe("baked_apple_from_apple", <thebetweenlands:items_misc:32>, <pyrotech:material:25>, true);
+StoneOven.blacklistAllSmeltingRecipes();
+BrickOven.blacklistAllSmeltingRecipes();
 
 
 
+
+// CRUCIBLE
+StoneCrucible.removeAllRecipes();
+BrickCrucible.removeAllRecipes();
 
 
 
