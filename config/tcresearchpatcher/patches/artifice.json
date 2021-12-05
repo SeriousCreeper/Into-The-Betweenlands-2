@@ -63,5 +63,15 @@
                 "value": ["oredict:shimmerstone","thaumcraft:mirrored_glass"]
             }
         ]
+    },
+    {
+        "key": "VISGENERATOR",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["coloredredstone:colored_redstone_block;1;12","minecraft:piston"]
+            }
+        ]
     }
 ]

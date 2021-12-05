@@ -10,11 +10,22 @@
         ]
     },
     {
-        "key": "THAUMOSTATIC_HARNESS",
+        "key": "HARNESS_BASE",
         "ops": [
             {
-                "op": "remove",
-                "path": "stages/0/required_research"
+                "op": "replace",
+                "path": "parents",
+                "value": ["IMPETUS"]
+            }
+        ]
+    },
+    {
+        "key": "HARNESS_BASE",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "location",
+                "value": [2, 7]
             }
         ]
     },

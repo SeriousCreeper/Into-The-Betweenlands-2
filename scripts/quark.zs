@@ -14,6 +14,12 @@ recipes.addShaped("quark-paper_lantern-modified", <quark:paper_lantern>, [
 	[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>]
 ]);
 
+recipes.addShaped("backpack", <quark:backpack>, [
+	[<ore:leather>, <minecraft:tripwire_hook>, <ore:leather>],
+	[<ore:leather>, <quark:custom_chest>, <ore:leather>],
+	[<ore:leather>, <ore:leather>, <ore:leather>]
+]);
+
 
 val quarkChestPlank = [
 	<thebetweenlands:rubber_tree_planks>,
@@ -65,12 +71,12 @@ recipes.addShaped("glass_item_frame", <quark:glass_item_frame> * 2, [
 ]);
 
 recipes.remove(<quark:lit_lamp>);
-recipes.addShapeless("quark-lit_lamp-modified", <quark:lit_lamp>, [<coloredredstone:colored_redstone_lamp:12>, <coloredredstone:colored_redstone_torch_item:12>]);
+recipes.addShapeless("quark-lit_lamp-modified", <quark:lit_lamp>, [<minecraft:redstone_lamp>, <minecraft:redstone_torch>]);
 
 recipes.remove(<quark:redstone_randomizer>);
 recipes.addShaped("redstone_randomizer", <quark:redstone_randomizer>, [
-	[null, <coloredredstone:colored_redstone_torch_item:12>, null],
-	[<coloredredstone:colored_redstone_torch_item:12>, <thebetweenlands:items_misc:47>, <coloredredstone:colored_redstone_torch_item:12>],
+	[null, <minecraft:redstone_torch>, null],
+	[<minecraft:redstone_torch>, <thebetweenlands:items_misc:47>, <minecraft:redstone_torch>],
 	[<thebetweenlands:smooth_cragrock>, <thebetweenlands:smooth_cragrock>, <thebetweenlands:smooth_cragrock>]
 ]);
 
@@ -80,3 +86,18 @@ recipes.addHiddenShapeless("angry_tiny_pebble", <quark:tiny_potato>.withTag({ang
 
 <quark:tiny_potato>.displayName = "Tiny Pebble";
 <quark:tiny_potato>.withTag({angery: 1 as byte}).displayName = "Angry Tiny Pebble";
+
+<quark:chain>.displayName = "Syrmorite Chain";
+<quark:grate>.displayName = "Syrmorite Grate";
+
+<quark:custom_chest:0>.displayName = "Rubber Tree Chest";
+<quark:custom_chest:1>.displayName = "Giant Root Chest";
+<quark:custom_chest:2>.displayName = "Hearthgrove Chest";
+<quark:custom_chest:3>.displayName = "Nibbletwig Chest";
+<quark:custom_chest:4>.displayName = "Rotten Bark Chest";
+
+<quark:custom_chest_trap:0>.displayName = "Rubber Tree Trapped Chest";
+<quark:custom_chest_trap:1>.displayName = "Giant Root Trapped Chest";
+<quark:custom_chest_trap:2>.displayName = "Hearthgrove Trapped Chest";
+<quark:custom_chest_trap:3>.displayName = "Nibbletwig Trapped Chest";
+<quark:custom_chest_trap:4>.displayName = "Rotten Bark Trapped Chest";

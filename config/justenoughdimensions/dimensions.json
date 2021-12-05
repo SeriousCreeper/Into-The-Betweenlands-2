@@ -15,7 +15,7 @@
       "biome": "thebetweenlands:raised_isles",
       "dimensiontype": {
         "id": -2,
-        "name": "The Emptiness",
+        "name": "The World That Never Was",
         "keeploaded": false,
         "suffix": "_dim-2",
         "worldprovider": "WorldProviderSurfaceJED",
@@ -36,6 +36,13 @@
     {
       "dim": 21,
       "temporary_dimension": true,
+      "spawn_structure": {
+          "name": "islands.schematic",
+          "rotation": "none",
+          "mirror": "none",
+          "centered": true,
+          "offset": [0, -19, -41]
+      },
       "post_deletion_command": "tellraw @a [\"\",{\"text\":\"The Cragrock Tower Mirage has disappeared\\n\",\"obfuscated\":true,\"color\":\"dark_purple\"},{\"text\":\"The Cragrock Tower Mirage has disappeared\\n\",\"color\":\"gold\"},{\"text\":\"The Cragrock Tower Mirage has disappeared\",\"obfuscated\":true,\"color\":\"dark_purple\"}]",
       "jed": {
         "SkyRenderType": 2,
@@ -66,11 +73,119 @@
         "generatorName": "flat",
         "generatorOptions": "3;minecraft:air;127;",
         "GameRules": {
-            "keepInventory": "true"
+            "keepInventory": "true",
+            "spawnRadius": 0
         },
         "SpawnX": 0,
         "SpawnY": 118,
         "SpawnZ": 38
+      }
+    },
+    {
+      "dim": 22,
+      "temporary_dimension": true,
+      "spawn_structure": {
+          "name": "wight_fortress_island.schematic",
+          "rotation": "none",
+          "mirror": "none",
+          "centered": true,
+          "offset": [0, -30, 30]
+      },
+      "post_deletion_command": "tellraw @a [\"\",{\"text\":\"The Wight Fortress Mirage has disappeared\\n\",\"obfuscated\":true,\"color\":\"dark_purple\"},{\"text\":\"The Wight Fortress Mirage has disappeared\\n\",\"color\":\"gold\"},{\"text\":\"The Wight Fortress Mirage has disappeared\",\"obfuscated\":true,\"color\":\"dark_purple\"}]",
+      "jed": {
+        "SkyRenderType": 2,
+        "void_teleport": {
+          "dimension": 20,
+          "trigger_y": 50,
+          "find_surface": true,
+          "remove_fall_damage": true,
+          "fall_distance": 2,
+          "min_health_left": 1,
+          "teleport_type": "spawn"
+        },
+        "SpawnPointSearchType": "none",
+        "CanDoRainSnowIce": false,
+        "CanDoLightning": false,
+        "IsSurfaceWorld": false
+      },
+      "biome": "thebetweenlands:marsh_1",
+      "dimensiontype": {
+        "id": 22,
+        "name": "Wight Fortress Mirage",
+        "keeploaded": false,
+        "suffix": "_dim22",
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+      "worldinfo": {},
+      "worldinfo_onetime": {
+        "generatorName": "flat",
+        "generatorOptions": "3;minecraft:air;127;",
+        "GameRules": {
+            "keepInventory": "true",
+            "spawnRadius": 0
+        },
+        "SpawnX": 0,
+        "SpawnY": 120,
+        "SpawnZ": 0
+      }
+    },
+    {
+      "dim": 23,
+      "temporary_dimension": true,
+      "post_deletion_command": "tellraw @a [\"\",{\"text\":\"The Sludgeon Mirage has disappeared\\n\",\"obfuscated\":true,\"color\":\"dark_purple\"},{\"text\":\"The Sludgeon Mirage has disappeared\\n\",\"color\":\"gold\"},{\"text\":\"The Sludgeon Mirage has disappeared\",\"obfuscated\":true,\"color\":\"dark_purple\"}]",
+      "jed": {
+        "SkyRenderType": 2,
+        "void_teleport": {
+          "dimension": 20,
+          "trigger_y": 50,
+          "find_surface": true,
+          "remove_fall_damage": true,
+          "fall_distance": 2,
+          "min_health_left": 1,
+          "teleport_type": "spawn"
+        },
+        "SpawnPointSearchType": "none",
+        "CanDoRainSnowIce": false,
+        "CanDoLightning": false,
+        "IsSurfaceWorld": false
+      },
+      "biome": "thebetweenlands:sludge_plains_clearing",
+      "dimensiontype": {
+        "id": 23,
+        "name": "Sludgeon Mirage",
+        "keeploaded": false,
+        "suffix": "_dim23"
+      },
+      "worldinfo": {},
+      "worldinfo_onetime": {
+        "GameRules": {
+            "keepInventory": "true",
+            "spawnRadius": 0
+        },
+        "SpawnX": 0,
+        "SpawnY": 120,
+        "SpawnZ": 0
+      }
+    },
+    {
+      "dim": 0,
+      "override": true,
+      "jed": {
+        "CanRespawnHere": false,
+        "RespawnDimension": 20
+      },
+      "dimensiontype": {
+        "id": 0,
+        "keeploaded": false
+      }
+    },
+    {
+      "dim": 14676,
+      "override": true,
+      "jed": {
+        "CanRespawnHere": true,
+        "RespawnDimension": 20
       }
     }
   ]

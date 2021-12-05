@@ -27,7 +27,7 @@ GCT.replaceRecipe("radiant_amphora", <arcanearchives:radiant_amphora>, [<arcanea
 GCT.replaceRecipe("containment_field", <arcanearchives:containment_field>, [<arcanearchives:scintillating_inlay>, <thebetweenlands:octine_ingot> * 2, <arcanearchives:shaped_quartz> * 2]);
 GCT.replaceRecipe("matrix_brace", <arcanearchives:matrix_brace>, [<arcanearchives:scintillating_inlay>, <thebetweenlands:octine_ingot> * 2]);
 GCT.replaceRecipe("material_interface", <arcanearchives:material_interface>, [<arcanearchives:scintillating_inlay>, <thebetweenlands:octine_ingot>, <arcanearchives:shaped_quartz>]);
-GCT.replaceRecipe("scintillating_inlay", <arcanearchives:scintillating_inlay>, [<arcanearchives:radiant_dust> * 6, <coloredredstone:colored_redstone_dust:12> * 12, <thebetweenlands:octine_ingot>, <thebetweenlands:items_misc:42> * 6]);
+GCT.replaceRecipe("scintillating_inlay", <arcanearchives:scintillating_inlay>, [<arcanearchives:radiant_dust> * 6, <ore:dustRedstone> * 12, <thebetweenlands:octine_ingot>, <thebetweenlands:items_misc:42> * 6]);
 GCT.replaceRecipe("devouring_charm", <arcanearchives:devouring_charm> * 4, [<thebetweenlands:octine_ingot>, <thebetweenlands:tar_solid> * 2, <minecraft:flint_and_steel>]);
 GCT.replaceRecipe("radiant_key", <arcanearchives:radiant_key>, [<thebetweenlands:octine_ingot>, <thebetweenlands:items_misc:42> * 6, <arcanearchives:shaped_quartz>]);
 GCT.replaceRecipe("radiant_lantern", <arcanearchives:radiant_lantern>, [<arcanearchives:raw_quartz> * 2, <thebetweenlands:octine_ingot>]);
@@ -48,4 +48,38 @@ GCT.addRecipe("pyrotech_sawmill_blade_diamond", <pyrotech:sawmill_blade_diamond>
 recipes.remove(<pyrotech:cog_diamond>);
 GCT.addRecipe("pyrotech_cog_diamond", <pyrotech:cog_diamond>, [<pyrotech:material:18> * 8]);
 
+recipes.remove(<roots:diamond_knife>);
+GCT.addRecipe("diamond_knife", <roots:diamond_knife>, [<ore:gemValonite> * 2, <ore:stickWood>]);
 
+recipes.remove(<mystgears:gear_valonite>);
+GCT.addRecipe("gear_valonite", <mystgears:gear_valonite>, [<ore:gemValonite> * 4, <ore:nuggetValonite>]);
+
+recipes.remove(<thebetweenlands:valonite_helmet>);
+GCT.addRecipe("valonite_helmet", <thebetweenlands:valonite_helmet>, [<ore:gemValonite> * 5]);
+
+recipes.remove(<thebetweenlands:valonite_chestplate>);
+GCT.addRecipe("valonite_chestplate", <thebetweenlands:valonite_chestplate>, [<ore:gemValonite> * 8]);
+
+recipes.remove(<thebetweenlands:valonite_leggings>);
+GCT.addRecipe("valonite_leggings", <thebetweenlands:valonite_leggings>, [<ore:gemValonite> * 7]);
+
+recipes.remove(<thebetweenlands:valonite_boots>);
+GCT.addRecipe("valonite_boots", <thebetweenlands:valonite_boots>, [<ore:gemValonite> * 4]);
+
+recipes.remove(<thebetweenlands:valonite_sword>);
+GCT.addRecipe("valonite_sword", <thebetweenlands:valonite_sword>, [<ore:gemValonite> * 2, <ore:stickWood>]);
+
+recipes.remove(<thebetweenlands:valonite_shovel>);
+GCT.addRecipe("valonite_shovel", <thebetweenlands:valonite_shovel>, [<ore:gemValonite> * 1, <ore:stickWood> * 2]);
+
+recipes.remove(<thebetweenlands:valonite_axe>);
+GCT.addRecipe("valonite_axe", <thebetweenlands:valonite_axe>, [<ore:gemValonite> * 3, <ore:stickWood> * 2]);
+
+recipes.remove(<thebetweenlands:valonite_pickaxe>);
+GCT.addRecipe("valonite_pickaxe", <thebetweenlands:valonite_pickaxe>, [<ore:gemValonite> * 3, <ore:stickWood> * 2]);
+
+recipes.remove(<thebetweenlands:valonite_shield>);
+GCT.addRecipe("valonite_shield", <thebetweenlands:valonite_shield>, [<ore:gemValonite> * 6, <thebetweenlands:pitstone>]);
+
+recipes.remove(<thebetweenlands:valonite_greataxe>);
+GCT.addRecipe("valonite_greataxe", <thebetweenlands:valonite_greataxe>, [<ore:gemValonite> * 2, <ore:stickWood> * 2, <thebetweenlands:valonite_axe>]);

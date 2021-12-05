@@ -15,7 +15,7 @@ recipes.remove(<thaumcraft:plate:*>);
 <ore:plateIron>.remove(<thaumcraft:plate:1>);
 
 
-//recipes.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <coloredredstone:colored_redstone_dust:12>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
+//recipes.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <ore:dustRedstone>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
 
 recipes.remove(<thaumcraft:nugget:9>);
 
@@ -91,8 +91,8 @@ recipes.addShaped("harness_base", <thaumicaugmentation:material:4>, [
 	[<thaumcraft:baubles:2>]
 ]);
 
-recipes.remove(<thaumcraft:vis_generator>);
-recipes.remove(<thaumicaugmentation:impetus_generator>);
+//recipes.remove(<thaumcraft:vis_generator>);
+//recipes.remove(<thaumicaugmentation:impetus_generator>);
 
 recipes.remove(<thaumcraft:label>);
 recipes.addShapeless("thaumcraft_jarlabel", <thaumcraft:label> * 4, 
@@ -122,6 +122,39 @@ recipes.addShapeless(<thaumcraft:banner_green>, [<ore:banner>, <minecraft:dye:2>
 recipes.addShapeless(<thaumcraft:banner_red>, [<ore:banner>, <minecraft:dye:1>]);
 recipes.addShapeless(<thaumcraft:banner_black>, [<ore:banner>, <minecraft:dye:0>]);
 
+
+recipes.remove(<thaumcraft:candle_white>);
+recipes.remove(<thaumcraft:candle_orange>);
+recipes.remove(<thaumcraft:candle_magenta>);
+recipes.remove(<thaumcraft:candle_lightblue>);
+recipes.remove(<thaumcraft:candle_yellow>);
+recipes.remove(<thaumcraft:candle_lime>);
+recipes.remove(<thaumcraft:candle_pink>);
+recipes.remove(<thaumcraft:candle_gray>);
+recipes.remove(<thaumcraft:candle_silver>);
+recipes.remove(<thaumcraft:candle_cyan>);
+recipes.remove(<thaumcraft:candle_purple>);
+recipes.remove(<thaumcraft:candle_blue>);
+recipes.remove(<thaumcraft:candle_brown>);
+recipes.remove(<thaumcraft:candle_green>);
+recipes.remove(<thaumcraft:candle_red>);
+recipes.remove(<thaumcraft:candle_black>);
+recipes.addShaped(<thaumcraft:candle_white>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:0>], [<growthcraft_bees:bees_wax:0>]]);
+recipes.addShaped(<thaumcraft:candle_orange>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:1>], [<growthcraft_bees:bees_wax:1>]]);
+recipes.addShaped(<thaumcraft:candle_magenta>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:2>], [<growthcraft_bees:bees_wax:2>]]);
+recipes.addShaped(<thaumcraft:candle_lightblue>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:3>], [<growthcraft_bees:bees_wax:3>]]);
+recipes.addShaped(<thaumcraft:candle_yellow>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:4>], [<growthcraft_bees:bees_wax:4>]]);
+recipes.addShaped(<thaumcraft:candle_lime>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:5>], [<growthcraft_bees:bees_wax:5>]]);
+recipes.addShaped(<thaumcraft:candle_pink>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:6>], [<growthcraft_bees:bees_wax:6>]]);
+recipes.addShaped(<thaumcraft:candle_gray>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:7>], [<growthcraft_bees:bees_wax:7>]]);
+recipes.addShaped(<thaumcraft:candle_silver>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:8>], [<growthcraft_bees:bees_wax:8>]]);
+recipes.addShaped(<thaumcraft:candle_cyan>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:9>], [<growthcraft_bees:bees_wax:9>]]);
+recipes.addShaped(<thaumcraft:candle_purple>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:10>], [<growthcraft_bees:bees_wax:10>]]);
+recipes.addShaped(<thaumcraft:candle_blue>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:11>], [<growthcraft_bees:bees_wax:11>]]);
+recipes.addShaped(<thaumcraft:candle_brown>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:12>], [<growthcraft_bees:bees_wax:12>]]);
+recipes.addShaped(<thaumcraft:candle_green>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:13>], [<growthcraft_bees:bees_wax:13>]]);
+recipes.addShaped(<thaumcraft:candle_red>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:14>], [<growthcraft_bees:bees_wax:14>]]);
+recipes.addShaped(<thaumcraft:candle_black>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:15>], [<growthcraft_bees:bees_wax:15>]]);
 
 
 // ARCANE WORKBENCH - SHAPED
@@ -243,7 +276,7 @@ ArcaneWorkbench.registerShapedRecipe("redstonerelay", "REDSTONERELAY@2", 10, [
 ], 
 <thaumcraft:redstone_relay>, 
 [
-	[<coloredredstone:colored_redstone_torch_item:12>, <thaumcraft:mechanism_simple>, <coloredredstone:colored_redstone_torch_item:12>], 
+	[<minecraft:redstone_torch>, <thaumcraft:mechanism_simple>, <minecraft:redstone_torch>], 
 	[<thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>]
 ]);
 
@@ -257,7 +290,7 @@ ArcaneWorkbench.registerShapedRecipe("arcaneear", "ARCANEEAR@2", 15, [
 [
 	[<ore:plateBrass>, null, <ore:plateBrass>], 
 	[null, <thaumcraft:mechanism_simple>, null], 
-	[<ore:slabWood>, <coloredredstone:colored_redstone_dust:12>, <ore:slabWood>]
+	[<ore:slabWood>, <ore:dustRedstone>, <ore:slabWood>]
 ]);
 
 
@@ -408,7 +441,7 @@ ArcaneWorkbench.registerShapedRecipe("mindclockwork", "MINDCLOCKWORK@2", 25, [
 [
 	[null, <ore:paneGlass>, null], 
 	[<ore:paneGlass>, <thaumcraft:mechanism_simple>, <ore:paneGlass>], 
-	[<ore:plateBrass>, <coloredredstone:colored_redstone_comparator_item:12>, <ore:plateBrass>]
+	[<ore:plateBrass>, <minecraft:comparator>, <ore:plateBrass>]
 ]);
 
 
@@ -513,7 +546,7 @@ ArcaneWorkbench.registerShapedRecipe("impetus_gate", "IMPETUS_GATE", 50, [
 [
 	[null, <thaumicaugmentation:material:1>, null], 
 	[<ore:plateVoid>, <thaumicaugmentation:impetus_relay>, <ore:plateVoid>], 
-	[null, <coloredredstone:colored_redstone_comparator_item:12>, null]
+	[null, <minecraft:comparator>, null]
 ]);
 
 
@@ -528,7 +561,7 @@ ArcaneWorkbench.registerShapedRecipe("stability_field_generator", "STABILITY_FIE
 [
 	[<ore:plateBrass>, <ore:blockAmber>, <ore:plateBrass>], 
 	[<thaumcraft:slab_arcane_stone>, <thaumcraft:mechanism_complex>, <thaumcraft:slab_arcane_stone>], 
-	[<thaumcraft:stone_arcane>, <coloredredstone:colored_redstone_dust:12>, <thaumcraft:stone_arcane>]
+	[<thaumcraft:stone_arcane>, <ore:dustRedstone>, <thaumcraft:stone_arcane>]
 ]);
 
 
@@ -541,8 +574,8 @@ ArcaneWorkbench.registerShapedRecipe("potionsprayer", "POTIONSPRAYER@2", 75, [
 <thaumcraft:potion_sprayer>, 
 [
 	[<ore:plateBrass>, <minecraft:dispenser>, <ore:plateBrass>], 
-	[<immersiveengineering:metal:39>, <thebetweenlands:infuser>, <immersiveengineering:metal:39>], 
-	[<immersiveengineering:metal:39>, <thaumcraft:metal_alchemical>, <immersiveengineering:metal:39>]
+	[<ore:plateSyrmorite>, <thebetweenlands:infuser>, <ore:plateSyrmorite>], 
+	[<ore:plateSyrmorite>, <thaumcraft:metal_alchemical>, <ore:plateSyrmorite>]
 ]);
 
 
@@ -556,6 +589,20 @@ ArcaneWorkbench.registerShapedRecipe("condenserlattice", "FLUXCLEANUP@2", 100, [
 	[<ore:dentrothystShard>, <ore:plateThaumium>, <ore:dentrothystShard>], 
 	[<ore:dentrothystShard>, <thaumcraft:filter>, <ore:dentrothystShard>], 
 	[<ore:dentrothystShard>, <ore:plateThaumium>, <ore:dentrothystShard>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumicaugmentation:material:1>);
+ArcaneWorkbench.registerShapedRecipe("warding_sigil", "WARDED_ARCANA@1", 10, [
+	<aspect:ignis>,
+	<aspect:aqua>,
+	<aspect:terra>,
+	<aspect:perditio>,
+], 
+<thaumicaugmentation:material:1> * 3, 
+[
+	[null, <growthcraft_bees:bees_wax:*>, null], 
+	[<ore:dyePurple>, <thaumcraft:brain>, <ore:dyePurple>], 
+	[null, <growthcraft_bees:bees_wax:*>, null]
 ]);
 
 
@@ -678,16 +725,13 @@ ArcaneWorkbench.registerShapedRecipe("lectern_manifest", "", 50, [
 ]);
 
 
-
-
 // ARCANE WORKBENCH - SHAPELESS
 ArcaneWorkbench.removeRecipe("sealblank");
 ArcaneWorkbench.registerShapelessRecipe("sealblank", "CONTROLSEALS@1", 20, [
 	<aspect:aer>,
 ], 
 <thaumcraft:seal> * 3, 
-[<thebetweenlands:mud>, <thaumcraft:tallow>, <ore:dyeRed>, <ore:nitor>]);
-
+[<thebetweenlands:mud>, <growthcraft_bees:bees_wax:*>, <ore:dyeRed>, <ore:nitor>]);
 
 recipes.remove(<thaumcraft:inlay>);
 ArcaneWorkbench.removeRecipe("redstoneinlay");
@@ -695,9 +739,8 @@ ArcaneWorkbench.registerShapelessRecipe("redstoneinlay", "CONTROLSEALS@1", 25, [
 	<aspect:aqua>,
 ], 
 <thaumcraft:inlay> * 2, 
-	[<coloredredstone:colored_redstone_dust:12>, <thebetweenlands:octine_ingot>]
+	[<ore:dustRedstone>, <thebetweenlands:octine_ingot>]
 );
-
 
 ArcaneWorkbench.removeRecipe("thaumicaugmentation:strength_provider_experience");
 ArcaneWorkbench.registerShapelessRecipe("strength_provider_experience", "EXPERIENCE_MODIFIER", 15, [
@@ -706,7 +749,6 @@ ArcaneWorkbench.registerShapelessRecipe("strength_provider_experience", "EXPERIE
 <thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_experience"}), 
 	[<thaumcraft:vis_resonator>, <ore:middleGems>, <ore:middleGems>, <minecraft:dye:4>]
 );
-
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:tube_valve>);
 ArcaneWorkbench.registerShapelessRecipe("tubevalve", "TUBES@2", 10, [
@@ -889,7 +931,7 @@ Infusion.registerRecipe("thaumiumfortresslegs", "ARMORFORTRESS", <thaumcraft:for
 ]);
 
 recipes.remove(<arcanearchives:gemcutters_table>);
-Infusion.registerRecipe("gemcuttertable", "BASEINFUSION", <arcanearchives:gemcutters_table>, 10, [
+Infusion.registerRecipe("gemcuttertable", "BASEINFUSION", <arcanearchives:gemcutters_table>, 5, [
 	<aspect:fabrico> * 25,
 	<aspect:praecantatio> * 100,
 	<aspect:permutatio> * 50,
@@ -906,6 +948,19 @@ Infusion.registerRecipe("gemcuttertable", "BASEINFUSION", <arcanearchives:gemcut
 	<thebetweenlands:valonite_block>
 ]);
 
+Infusion.registerRecipe("corrupted_bone_wayfinder_cragrock", "BASEINFUSION", <bladditions:corrupted_bone_wayfinder>.withTag({dimension: 21}), 1, [
+	<aspect:fabrico> * 25,
+	<aspect:praecantatio> * 25,
+	<aspect:permutatio> * 25,
+], 
+<contenttweaker:inert_boneway_finder>, 
+[
+	<thaumcraft:salis_mundus>,
+	<thebetweenlands:wisp>,
+	<thaumcraft:salis_mundus>,
+	<thebetweenlands:wisp>
+]);
+
 
 
 
@@ -920,18 +975,18 @@ SmeltingBonus.removeSmeltingBonus(<ore:clusterSilver>, <thaumcraft:nugget:3>);
 SmeltingBonus.removeSmeltingBonus(<ore:clusterTin>, <thaumcraft:nugget:2>);
 SmeltingBonus.removeSmeltingBonus(<ore:clusterCopper>, <thaumcraft:nugget:1>);
 
-SmeltingBonus.addSmeltingBonus(<ore:oreLead>, <immersiveengineering:metal:22> % 10);
-SmeltingBonus.addSmeltingBonus(<ore:oreSilver>, <immersiveengineering:metal:23> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:oreCopper>, <immersiveengineering:metal:20> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:oreLead>, <embers:nugget_lead> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:oreSilver>, <embers:nugget_silver> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:oreCopper>, <embers:nugget_copper> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:oreTin>, <embers:nugget_tin> % 10);
 
-SmeltingBonus.addSmeltingBonus(<ore:clusterLead>, <immersiveengineering:metal:22> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:clusterSilver>, <immersiveengineering:metal:23> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:clusterCopper>, <immersiveengineering:metal:20> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterLead>, <embers:nugget_lead> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterSilver>, <embers:nugget_silver> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterCopper>, <embers:nugget_copper> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterTin>, <embers:nugget_tin> % 20);
 
 
 
 // NAME CHANGES
-<thaumcraft:inlay>.displayName = "Bluedust Inlay";
-<thaumcraft:redstone_relay>.displayName = "Bluedust Relay";
 <thaumcraft:brain>.displayName = "Swamphag Brain";
 <thaumcraft:nugget:9>.displayName = "Dentrothyst Sliver";

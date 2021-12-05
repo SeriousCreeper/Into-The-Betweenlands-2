@@ -5,7 +5,7 @@
             {
                 "op": "replace",
                 "path": "stages/0/required_item",
-                "value": ["thebetweenlands:items_misc;1;17"]
+                "value": ["thebetweenlands:items_misc;1;52"]
             }
         ]
     },
@@ -55,7 +55,7 @@
             {
                 "op": "replace",
                 "path": "stages/0/required_item",
-                "value": ["thebetweenlands:empty_amate_map","thebetweenlands:items_misc;1;17"]
+                "value": ["arcanearchives:manifest","arcanearchives:monitoring_crystal"]
             }
         ]
     },
@@ -66,6 +66,16 @@
                 "op": "replace",
                 "path": "icons",
                 "value": ["thebetweenlands:mud"]
+            }
+        ]
+    },
+    {
+        "key": "MATSTUDIRON",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "icons",
+                "value": ["embers:plate_iron"]
             }
         ]
     }

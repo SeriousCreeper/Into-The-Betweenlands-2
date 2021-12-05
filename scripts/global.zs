@@ -474,12 +474,6 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 <ore:torch>.remove(<minecraft:torch>);
 
-<ore:dustColoredRedstone>.remove(<coloredredstone:colored_redstone_dust:*>);
-<ore:dustColoredRedstone>.add(<coloredredstone:colored_redstone_dust:12>);
-
-<ore:blockRedstone>.remove(<coloredredstone:colored_redstone_block:*>);
-<ore:blockRedstone>.add(<coloredredstone:colored_redstone_block:12>);
-
 <ore:banner>.add(<thaumcraft:banner_white>);
 <ore:banner>.add(<thaumcraft:banner_orange>);
 <ore:banner>.add(<thaumcraft:banner_magenta>);
@@ -497,7 +491,14 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:banner>.add(<thaumcraft:banner_red>);
 <ore:banner>.add(<thaumcraft:banner_black>);
 
-<ore:dustRedstone>.add(<coloredredstone:colored_redstone_dust:12>);
+//<ore:dustAsh>.remove(<pyrotech:material:0>);
+<ore:dustAshes>.remove(<embers:dust_ash>);
+
+<ore:candyHalloween>.add(<thebetweenlands:candy_blue>);
+<ore:candyHalloween>.add(<thebetweenlands:candy_red>);
+<ore:candyHalloween>.add(<thebetweenlands:candy_yellow>);
+
+<ore:slimeball>.remove(<minecraft:slime_ball>);
 
 
 val oreVisCrystals = <ore:visCrystals>;

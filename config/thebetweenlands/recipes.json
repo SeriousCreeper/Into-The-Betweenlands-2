@@ -1,412 +1,587 @@
 {
-	"pestle_and_mortar": [
-		{ 
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 20
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 54
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 28
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 1,
-				"size": 8
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 21
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 1,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 25
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 1,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 32
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 2,
-				"size": 8
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 45
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 4,
-				"size": 8
-			}
-		},
-		{ 
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 11
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 4,
-				"size": 2
-			}
-		},
-		{ 
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 13
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 4,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 14
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 15,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 34
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 15,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 19
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 15,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 31
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 11,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 35
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 11,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 37
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 11,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 17
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 3,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 57
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 3,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 16
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 3,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 44
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 3,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 41
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 3,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 59
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 3,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 1
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 3,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:items_crushed",
-				"meta": 40
-			},
-			"output": {
-				"id": "minecraft:dye",
-				"meta": 3,
-				"size": 2
-			}
-		},
-		{
-			"input": {
-				"id": "arcanearchives:raw_quartz"
-			},
-			"output": {
-				"id": "arcanearchives:quartz_sliver",
-				"size": 4
-			}
-		},
-		{
-			"input": {
-				"id": "arcanearchives:quartz_sliver"
-			},
-			"output": {
-				"id": "thaumcraft:nugget",
-				"meta": 9,
-				"size": 4
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:dentrothyst_shard_green"
-			},
-			"output": {
-				"id": "thaumcraft:nugget",
-				"meta": 9,
-				"size": 16
-			}
-		},
-		{
-			"input": {
-				"id": "thebetweenlands:dentrothyst_shard_orange"
-			},
-			"output": {
-				"id": "thaumcraft:nugget",
-				"meta": 9,
-				"size": 32
-			}
-		}
-	],
-	"purifier": [
-	  {
-	    "input": {
-          "id": "minecraft:paper"
-	    },
-	      "output": {
-          "id": "pizzacraft:paper_mass",
-          "size": 3
-	    }
-	  }
-	],
-	"animator_repairable": [
-	  {
-	    "input": {
-	      "item": {
-	        "id": "thebetweenlands:bark_amulet"
-	      },
-	      "min_fuel": 16,
-	      "min_life": 16,
-	      "max_fuel": 32,
-	      "max_life": 32
-	    }
-	  }
-	],
-	"animator": [
-	  {
-	    "input": {
-	      "item": {
-	        "id": "thaumcraft:nitor_yellow"
-	      },
-	      "fuel": 16,
-	      "life": 10
-	    },
-	    "output": {
-	      "id": "thebetweenlands:wisp"
-	    }
-	  }
-	],
-	"smoking_rack": [
-	  {
-	    "input": {
-	      "item": {
-	        "id": "teastory:tea_leaf"
-	      },
-	      "smoking_time": 5
-	    },
-	    "output": {
-	      "item" : {
-	        "id": "teastory:dried_tea"
-	  	  }
-	    }
-	  },
-	  {
-	    "input": {
-	      "item": {
-	        "id": "teastory:half_dried_tea"
-	      },
-	      "smoking_time": 5
-	    },
-	    "output": {
-	      "item" : {
-	        "id": "teastory:oolong_tea_leaf"
-	  	  }
-	    }
-	  },
-	  {
-	    "input": {
-	      "item": {
-	        "id": "pyrotech:material",
-	        "meta": 25
-	      },
-	      "smoking_time": 6
-	    },
-	    "output": {
-	      "item" : {
-	        "id": "thebetweenlands:items_misc",
-	        "meta": 32
-	  	  }
-	    }
-	  }
-	],
-	"compost_bin": [
-	  {
-	    "input": {
-	      "item": {
-	      	"id": "pyrotech:material",
-	      	"meta": 0
-	      },
-	      "composting_time": 5000
-	    },
-	    "output": 2
-	  },
-	  {
-	    "input": {
-	      "item": {
-	      	"id": "pyrotech:rock",
-	      	"meta": 7
-	      },
-	      "composting_time": 5000
-	    },
-	    "output": 3
-	  }
-	],
-	"crab_pot_filter": [
-	  {
-	    "input": {
-	      "item": {
-	      	"id": "roots:terra_moss"
-	      }
-	    },
-	    "output": {
-	      "item" : {
-	        "id": "roots:terra_spores"
-	  	  }
-	    }
-	  }
-	]
+  "pestle_and_mortar": [
+    {
+      "input": {
+        "id": "thebetweenlands:nettle_flowered"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:pickerel_weed"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:blue_iris"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:boneset"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:bottle_brush_grass"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:button_bush"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:cardinal_flower"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:copper_iris"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:marsh_hibiscus"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:marsh_mallow"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:bladderwort_flower"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:bog_bean_flower"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:golden_club_flower"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:marsh_marigold_flower"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:milkweed"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:blue_eyed_grass"
+      },
+      "output": {
+        "id": "roots:petals",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "dawnoftimebuilder:silk"
+      },
+      "output": {
+        "id": "minecraft:string",
+        "size": 3
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 20
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 54
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 28
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 1,
+        "size": 8
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 21
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 1,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 25
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 1,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 32
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 2,
+        "size": 8
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 45
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 4,
+        "size": 8
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 11
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 4,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 13
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 4,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 14
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 15,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 34
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 15,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 19
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 15,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 31
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 11,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 35
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 11,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 37
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 11,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 17
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 3,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 57
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 3,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 16
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 3,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 44
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 3,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 41
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 3,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 59
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 3,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 1
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 3,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:items_crushed",
+        "meta": 40
+      },
+      "output": {
+        "id": "minecraft:dye",
+        "meta": 3,
+        "size": 2
+      }
+    },
+    {
+      "input": {
+        "id": "arcanearchives:raw_quartz"
+      },
+      "output": {
+        "id": "arcanearchives:quartz_sliver",
+        "size": 4
+      }
+    },
+    {
+      "input": {
+        "id": "arcanearchives:quartz_sliver"
+      },
+      "output": {
+        "id": "thaumcraft:nugget",
+        "meta": 9,
+        "size": 4
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:dentrothyst_shard_green"
+      },
+      "output": {
+        "id": "thaumcraft:nugget",
+        "meta": 9,
+        "size": 16
+      }
+    },
+    {
+      "input": {
+        "id": "thebetweenlands:dentrothyst_shard_orange"
+      },
+      "output": {
+        "id": "thaumcraft:nugget",
+        "meta": 9,
+        "size": 32
+      }
+    }
+  ],
+  "purifier": [
+    {
+      "input": {
+        "id": "minecraft:paper"
+      },
+      "output": {
+        "id": "pizzacraft:paper_mass",
+        "size": 3
+      }
+    }
+  ],
+  "animator_repairable": [
+    {
+      "input": {
+        "item": {
+          "id": "thebetweenlands:bark_amulet"
+        },
+        "min_fuel": 16,
+        "min_life": 16,
+        "max_fuel": 32,
+        "max_life": 32
+      }
+    }
+  ],
+  "animator": [
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:nitor_yellow"
+        },
+        "fuel": 16,
+        "life": 10
+      },
+      "output": {
+        "id": "thebetweenlands:wisp"
+      }
+    }
+  ],
+  "smoking_rack": [
+    {
+      "input": {
+        "item": {
+          "id": "teastory:tea_leaf"
+        },
+        "smoking_time": 5
+      },
+      "output": {
+        "item": {
+          "id": "teastory:dried_tea"
+        }
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "teastory:half_dried_tea"
+        },
+        "smoking_time": 5
+      },
+      "output": {
+        "item": {
+          "id": "teastory:oolong_tea_leaf"
+        }
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "pyrotech:material",
+          "meta": 25
+        },
+        "smoking_time": 6
+      },
+      "output": {
+        "item": {
+          "id": "thebetweenlands:items_misc",
+          "meta": 32
+        }
+      }
+    }
+  ],
+  "compost_bin": [
+    {
+      "input": {
+        "item": {
+          "id": "embers:dust_ash",
+          "meta": 0
+        },
+        "composting_time": 5000
+      },
+      "output": 2
+    },
+    {
+      "input": {
+        "item": {
+          "id": "pyrotech:rock",
+          "meta": 7
+        },
+        "composting_time": 5000
+      },
+      "output": 3
+    }
+  ],
+  "crab_pot_filter": [
+    {
+      "input": {
+        "item": {
+          "id": "roots:terra_moss"
+        }
+      },
+      "output": {
+        "item": {
+          "id": "roots:terra_spores"
+        }
+      }
+    }
+  ],
+  "druid_altar": [
+    {
+      "input": {
+        "item_1": {
+            "id": "thebetweenlands:smooth_cragrock"
+        },
+        "item_2": {
+            "id": "thebetweenlands:items_misc",
+            "meta": 47
+        },
+        "item_3": {
+            "id": "roots:strange_ooze"
+        },
+        "item_4": {
+            "id": "thebetweenlands:items_misc",
+            "meta": 19
+        }
+      },
+      "output": {
+          "id": "contenttweaker:inert_boneway_finder"
+      }
+    }
+  ]
 }
-

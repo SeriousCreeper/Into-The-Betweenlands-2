@@ -22,6 +22,7 @@ val items = [
 	"boss_item_4",
 	"boss_item_5",
 	"boss_item_6",
+	"inert_boneway_finder",
 ] as string[];
 
 

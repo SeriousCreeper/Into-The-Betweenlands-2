@@ -22,24 +22,7 @@
             {
                 "op": "replace",
                 "path": "stages/1/recipes",
-                "value": [
-                        "thaumcraft:impetus_gate",
-                    ]
-            }
-        ]
-    },
-    {
-        "key": "IMPETUS_GENERATOR",
-        "ops": [
-            {
-                "op": "replace",
-                "path": "stages/0/text",
-                "value": "CURRENTLY UNUSED IN THIS MODPACK"
-            },
-            {
-                "op": "replace",
-                "path": "stages/1/text",
-                "value": "CURRENTLY UNUSED IN THIS MODPACK"
+                "value": ["thaumcraft:impetus_gate"]
             }
         ]
     },

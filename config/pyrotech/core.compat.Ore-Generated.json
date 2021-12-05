@@ -24,24 +24,20 @@
       "slagColor": "e2e2e3",
       "langKey": [
         "betweenores:tile.betweenores.aluminum_ore",
-        "embers:tile.ore_aluminum",
-        "immersiveengineering:tile.immersiveengineering.ore.aluminum"
+        "embers:tile.ore_aluminum"
       ],
       "output": [
-        "embers:nugget_aluminum:0",
-        "immersiveengineering:metal:21"
+        "embers:nugget_aluminum:0"
       ]
     },
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
         "betweenores:tile.betweenores.copper_ore",
-        "embers:tile.ore_copper",
-        "immersiveengineering:tile.immersiveengineering.ore.copper"
+        "embers:tile.ore_copper"
       ],
       "output": [
-        "embers:nugget_copper:0",
-        "immersiveengineering:metal:20"
+        "embers:nugget_copper:0"
       ]
     },
     "oreGold": {
@@ -59,7 +55,6 @@
         "minecraft:tile.oreIron"
       ],
       "output": [
-        "immersiveengineering:metal:29",
         "minecraft:iron_nugget:0"
       ]
     },
@@ -67,12 +62,10 @@
       "slagColor": "95afee",
       "langKey": [
         "betweenores:tile.betweenores.lead_ore",
-        "embers:tile.ore_lead",
-        "immersiveengineering:tile.immersiveengineering.ore.lead"
+        "embers:tile.ore_lead"
       ],
       "output": [
         "embers:nugget_lead:0",
-        "immersiveengineering:metal:22",
         "thaumcraft:nugget:4"
       ]
     },
@@ -80,12 +73,10 @@
       "slagColor": "e4e5d8",
       "langKey": [
         "betweenores:tile.betweenores.nickel_ore",
-        "embers:tile.ore_nickel",
-        "immersiveengineering:tile.immersiveengineering.ore.nickel"
+        "embers:tile.ore_nickel"
       ],
       "output": [
-        "embers:nugget_nickel:0",
-        "immersiveengineering:metal:24"
+        "embers:nugget_nickel:0"
       ]
     },
     "oreOctine": {
@@ -101,12 +92,10 @@
       "slagColor": "e8f6fd",
       "langKey": [
         "betweenores:tile.betweenores.silver_ore",
-        "embers:tile.ore_silver",
-        "immersiveengineering:tile.immersiveengineering.ore.silver"
+        "embers:tile.ore_silver"
       ],
       "output": [
-        "embers:nugget_silver:0",
-        "immersiveengineering:metal:23"
+        "embers:nugget_silver:0"
       ]
     },
     "oreSyrmorite": {
@@ -126,16 +115,6 @@
       ],
       "output": [
         "embers:nugget_tin:0"
-      ]
-    },
-    "oreUranium": {
-      "slagColor": "5c734b",
-      "langKey": [
-        "betweenores:tile.betweenores.uranium_ore",
-        "immersiveengineering:tile.immersiveengineering.ore.uranium"
-      ],
-      "output": [
-        "immersiveengineering:metal:25"
       ]
     }
   }

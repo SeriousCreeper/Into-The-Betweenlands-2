@@ -1,8 +1,6 @@
 {
   "version": 2,
   "data": {
-    "arcaneworld:arcane_dungeon": "PLAINS",
-    "arcaneworld:arcane_void": "PLAINS",
     "jeid:error_biome": "PLAINS",
     "minecraft:beaches": "SHORE",
     "minecraft:birch_forest": "BIRCH",
@@ -69,9 +67,9 @@
     "thaumcraft:eerie": "PLAINS",
     "thaumcraft:eldritch": "PLAINS",
     "thaumcraft:magical_forest": "FOREST",
-    "thaumicaugmentation:emptiness": "PLAINS",
-    "thaumicaugmentation:emptiness_highlands": "MOUNTAINS_NAKED",
-    "thaumicaugmentation:tainted_lands": "PLAINS",
+    "thaumicaugmentation:emptiness": "END_VOID",
+    "thaumicaugmentation:emptiness_highlands": "END_VOID",
+    "thaumicaugmentation:tainted_lands": "END_VOID",
     "thebetweenlands:coarse_islands": "COARSE_ISLANDS",
     "thebetweenlands:deep_waters": "DEEP_WATERS",
     "thebetweenlands:marsh_0": "MARSH_0",

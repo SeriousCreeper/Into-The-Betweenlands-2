@@ -57,16 +57,16 @@ recipes.addShaped("mystgears_recipe_windup_box_modified", <mystgears:windup_box>
 
 recipes.remove(<mysticalmechanics:gear_gold_on>);
 recipes.addShaped("mysticalmechanics_gear_gold_on_modified", <mysticalmechanics:gear_gold_on>, [
-	[<coloredredstone:colored_redstone_torch_item:12>, <coloredredstone:colored_redstone_torch_item:12>, <coloredredstone:colored_redstone_torch_item:12>], 
-	[<coloredredstone:colored_redstone_torch_item:12>, <mystgears:gear_octine>, <coloredredstone:colored_redstone_torch_item:12>], 
-	[<coloredredstone:colored_redstone_torch_item:12>, <coloredredstone:colored_redstone_torch_item:12>, <coloredredstone:colored_redstone_torch_item:12>]
+	[<minecraft:redstone_torch>, <minecraft:redstone_torch>, <minecraft:redstone_torch>], 
+	[<minecraft:redstone_torch>, <mystgears:gear_octine>, <minecraft:redstone_torch>], 
+	[<minecraft:redstone_torch>, <minecraft:redstone_torch>, <minecraft:redstone_torch>]
 ]);
 
 recipes.remove(<mysticalmechanics:gear_gold_off>);
 recipes.addShaped("mysticalmechanics_gear_gold_off_modified", <mysticalmechanics:gear_gold_off>, [
-	[<coloredredstone:colored_redstone_dust:12>, <coloredredstone:colored_redstone_dust:12>, <coloredredstone:colored_redstone_dust:12>], 
-	[<coloredredstone:colored_redstone_dust:12>, <mystgears:gear_octine>, <coloredredstone:colored_redstone_dust:12>], 
-	[<coloredredstone:colored_redstone_dust:12>, <coloredredstone:colored_redstone_dust:12>, <coloredredstone:colored_redstone_dust:12>]
+	[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], 
+	[<ore:dustRedstone>, <mystgears:gear_octine>, <ore:dustRedstone>], 
+	[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]
 ]);
 
 recipes.addShaped("gear_valonite", <mystgears:gear_valonite>, [
@@ -79,6 +79,6 @@ recipes.addShaped("gear_valonite", <mystgears:gear_valonite>, [
 
 
 <mysticalmechanics:axle_iron>.displayName = "Syrmorite Axle";
-<mysticalmechanics:gear_gold_on>.displayName = "Bluedust Gear (Inverted)";
-<mysticalmechanics:gear_gold_off>.displayName = "Bluedust Gear";
+//<mysticalmechanics:gear_gold_on>.displayName = "Bluedust Gear (Inverted)";
+//<mysticalmechanics:gear_gold_off>.displayName = "Bluedust Gear";
 <mysticalmechanics:gear_fan>.displayName = "Syrmorite Fan";

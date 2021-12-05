@@ -102,3 +102,7 @@ recipes.addShaped("bakeware", <pizzacraft:bakeware>, [
 	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
 	[null, <ore:ingotSyrmorite>, null]
 ]);
+
+
+recipes.remove(<pizzacraft:pizza_board>);
+recipes.addShaped("pizza_board", <pizzacraft:pizza_board>, [[<thebetweenlands:weedwood_plank_pressure_plate>]]);

@@ -17,6 +17,8 @@ OreStages.addReplacement("knowledge_of_technology", <betweenores:aluminum_ore>, 
 //OreStages.addReplacement("knowledge_of_technology", <thaumcraft:ore_cinnabar>, <thebetweenlands:pitstone>);
 
 OreStages.addReplacement("locked", <minecraft:dirt>, <thebetweenlands:swamp_dirt>);
+OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_solid>);
+//OreStages.addReplacement("locked", <pyrotech:material:0>, <embers:dust_ash>);
 
 
 Recipes.setRecipeStageByMod("knowledge_of_technology", "immersiveengineering");

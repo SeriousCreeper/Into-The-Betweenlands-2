@@ -4,15 +4,15 @@
         "ops": [
             {
                 "op": "remove",
+                "path": "stages/0/required_craft"
+            },
+            {
+                "op": "remove",
                 "path": "stages/1/required_craft"
             },
             {
                 "op": "remove",
                 "path": "stages/2/required_craft"
-            },
-            {
-                "op": "remove",
-                "path": "stages/3/required_craft"
             }
         ]
     },

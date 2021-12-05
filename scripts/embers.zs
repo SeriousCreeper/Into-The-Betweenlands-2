@@ -165,14 +165,14 @@ recipes.addShaped("large_tank", <embers:large_tank>, [
 
 recipes.remove(<embers:ember_gauge>);
 recipes.addShaped("ember_gauge", <embers:ember_gauge>, [
-	[<coloredredstone:colored_redstone_dust:12>], 
+	[<ore:dustRedstone>], 
 	[<thebetweenlands:items_misc:32>], 
 	[<ore:plateCopper>]
 ]);
 
 recipes.remove(<embers:fluid_gauge>);
 recipes.addShaped("fluid_gauge", <embers:fluid_gauge>, [
-	[<coloredredstone:colored_redstone_dust:12>], 
+	[<ore:dustRedstone>], 
 	[<thebetweenlands:items_misc:32>], 
 	[<ore:plateSyrmorite>]
 ]);
@@ -208,7 +208,7 @@ recipes.addShaped("charger", <embers:charger>, [
 recipes.remove(<embers:breaker>);
 recipes.addShaped("breaker", <embers:breaker>, [
 	[<ore:plateSyrmorite>, <ore:ingotSyrmorite>, <ore:plateSyrmorite>], 
-	[<ore:ingotLead>, <coloredredstone:colored_redstone_dust:12>, <ore:ingotLead>], 
+	[<ore:ingotLead>, <ore:dustRedstone>, <ore:ingotLead>], 
 	[<ore:ingotLead>, null, <ore:ingotLead>]
 ]);
 
@@ -249,7 +249,7 @@ recipes.addShaped("fluid_transfer", <embers:fluid_transfer> * 4, [
 
 recipes.remove(<embers:clockwork_attenuator>);
 recipes.addShaped("clockwork_attenuator", <embers:clockwork_attenuator>, [
-	[<ore:nuggetElectrum>, <coloredredstone:colored_redstone_dust:12>, <ore:nuggetElectrum>], 
+	[<ore:nuggetElectrum>, <ore:dustRedstone>, <ore:nuggetElectrum>], 
 	[null, <thebetweenlands:items_misc:32>, null], 
 	[<ore:nuggetElectrum>, <ore:plateElectrum>, <ore:nuggetElectrum>]
 ]);
@@ -283,7 +283,7 @@ recipes.addShaped("tinker_hammer", <embers:tinker_hammer>, [
 recipes.remove(<embers:ember_detector>);
 recipes.addShaped("ember_detector", <embers:ember_detector>, [
 	[null, <ore:ingotSyrmorite>, null], 
-	[<ore:ingotCopper>, <coloredredstone:colored_redstone_dust:12>, <ore:ingotCopper>], 
+	[<ore:ingotCopper>, <ore:dustRedstone>, <ore:ingotCopper>], 
 	[<ore:ingotCopper>, <ore:ingotSyrmorite>, <ore:ingotCopper>]
 ]);
 
@@ -355,6 +355,29 @@ recipes.addShaped("spark_plug", <embers:spark_plug>, [
 	[null, <embers:aspectus_silver:*>, null]
 ]);
 
+recipes.remove(<embers:ashen_amulet>);
+recipes.addShaped("ashen_amulet", <embers:ashen_amulet>, [
+	[null, <ore:leather>, null], 
+	[<ore:leather>, null, <ore:leather>], 
+	[<embers:archaic_brick:*>, <ore:dustAsh>, <embers:archaic_brick:*>]
+]);
+
+recipes.remove(<embers:ember_amulet>);
+recipes.addShaped("ember_amulet", <embers:ember_amulet>, [
+	[null, <ore:leather>, null], 
+	[<ore:leather>, null, <ore:leather>], 
+	[<ore:nuggetDawnstone>, <embers:ember_cluster:*>, <ore:nuggetDawnstone>]
+]);
+
+recipes.remove(<embers:ember_belt>);
+recipes.addShaped("ember_belt", <embers:ember_belt>, [
+	[<ore:leather>, <ore:ingotDawnstone>, <ore:leather>], 
+	[<ore:leather>, null, <ore:leather>], 
+	[<ore:plateDawnstone>, <embers:ember_cluster:*>, <ore:plateDawnstone>]
+]);
+
+
+
 recipes.remove(<embers:plate_iron>);
 recipes.addShapeless("plate_iron", <embers:plate_iron>, [<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <embers:tinker_hammer:*>]);
 
@@ -379,7 +402,7 @@ Alchemy.add(<embers:tyrfing>, [<thebetweenlands:valonite_sword>, <thebetweenland
 );
 
 Alchemy.remove(<embers:dust_metallurgic>);
-Alchemy.add(<embers:dust_metallurgic> * 3, [<ore:crystalSeed>, <embers:dust_ember>, <coloredredstone:colored_redstone_dust:12>, null, null], 
+Alchemy.add(<embers:dust_metallurgic> * 3, [<ore:crystalSeed>, <embers:dust_ember>, <ore:dustRedstone>, null, null], 
 	{
 		"dawnstone" : 0 to 16, 
 		"iron" : 0 to 16, 
@@ -566,8 +589,8 @@ for liquid in liquids {
 }
 
 Melter.remove(<liquid:alchemical_redstone>);
-Melter.add(<liquid:alchemical_redstone> * 144, <coloredredstone:colored_redstone_dust:12>);
-Melter.add(<liquid:alchemical_redstone> * 1296, <coloredredstone:colored_redstone_block:12>);
+Melter.add(<liquid:alchemical_redstone> * 144, <ore:dustRedstone>);
+Melter.add(<liquid:alchemical_redstone> * 1296, <ore:blockRedstone>);
 
 Melter.remove(<liquid:oil_soul> * 100);
 Melter.add(<liquid:oil_soul> * 5, <thebetweenlands:sap_spit>);
@@ -605,6 +628,8 @@ Stamper.add(<thebetweenlands:octine_pickaxe>, <liquid:octine> * 432, <embers:sta
 Stamper.add(<thebetweenlands:octine_axe>, <liquid:octine> * 432, <embers:stamp_flat>, <thebetweenlands:bone_axe>);
 Stamper.add(<thebetweenlands:octine_shovel>, <liquid:octine> * 144, <embers:stamp_flat>, <thebetweenlands:bone_shovel>);
 Stamper.add(<thebetweenlands:octine_sword>, <liquid:octine> * 288, <embers:stamp_flat>, <thebetweenlands:bone_sword>);
+Stamper.add(<roots:iron_knife>, <liquid:octine> * 288, <embers:stamp_flat>, <roots:stone_knife>);
+
 
 
 
@@ -628,7 +653,23 @@ Mixer.add(<liquid:electrum> * 8, [<liquid:silver> * 4, <liquid:octine> * 4]);
 
 // ----------- EMBER GENERATION ----------------------
 EmberGeneration.addEmberFuel(<thebetweenlands:items_misc:45>, 1000);
+EmberGeneration.removeBoilerFluid(<liquid:water>);
 EmberGeneration.addBoilerFluid(<liquid:swamp_water>, <liquid:steam>, 5, [255, 255, 255]);
+
+EmberGeneration.removeCombustionFuel(<minecraft:coal>);
+EmberGeneration.removeCombustionFuel(<minecraft:netherbrick>);
+EmberGeneration.removeCombustionFuel(<minecraft:blaze_powder>);
+
+EmberGeneration.addCombustionFuel(<thebetweenlands:items_misc:18>, 2);
+EmberGeneration.addCombustionFuel(<thebetweenlands:items_misc:42>, 3);
+EmberGeneration.addCombustionFuel(<thebetweenlands:items_misc:45>, 4);
+
+
+EmberGeneration.removeCatalysisFuel(<minecraft:gunpowder>);
+EmberGeneration.removeCatalysisFuel(<minecraft:glowstone_dust>);
+
+EmberGeneration.addCatalysisFuel(<thebetweenlands:items_misc:44>, 3);
+EmberGeneration.addCatalysisFuel(<thebetweenlands:wisp>, 4);
 
 
 

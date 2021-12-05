@@ -138,7 +138,7 @@ recipes.addShaped("mcwbridges-bamboo_bridge", <mcwbridges:bamboo_bridge> * 4, [
 
 recipes.remove(<mcwbridges:most1>);
 recipes.addShaped("mcwbridges-iron_bridge_middle", <mcwbridges:most1>, [
-	[<mcwbridges:iron_armrest>, <immersiveengineering:metal:39>, <mcwbridges:iron_armrest>]
+	[<mcwbridges:iron_armrest>, <ore:plateSyrmorite>, <mcwbridges:iron_armrest>]
 ]);
 
 

@@ -30,11 +30,22 @@ function replaceLoot(tableName as string, poolName as string, entryName as strin
 	pool.addItemEntryHelper(itemToAdd, weight, quality, [Functions.setCount(minItem, maxItem)], []);
 }
 
+function addLoot(tableName as string, poolName as string, entryName as string, itemToAdd as IItemStack, weight as int, quality as int, minItem as int, maxItem as int) {
+	val table = LootTweaker.getTable(tableName);
+	val pool = table.getPool(poolName);
+	pool.addItemEntryHelper(itemToAdd, weight, quality, [Functions.setCount(minItem, maxItem)], []);
+}
 
 function replaceLootComplex(tableName as string, poolName as string, entryName as string, itemToAdd as IItemStack, weight as int, quality as int, funcs as LootFunction[], conditions as LootCondition[]) {
 	val table = LootTweaker.getTable(tableName);
 	val pool = table.getPool(poolName);
 	pool.removeEntry(entryName);
+	pool.addItemEntryHelper(itemToAdd, weight, quality, funcs, conditions);
+}
+
+function addLootComplex(tableName as string, poolName as string, entryName as string, itemToAdd as IItemStack, weight as int, quality as int, funcs as LootFunction[], conditions as LootCondition[]) {
+	val table = LootTweaker.getTable(tableName);
+	val pool = table.getPool(poolName);
 	pool.addItemEntryHelper(itemToAdd, weight, quality, funcs, conditions);
 }
 
@@ -173,3 +184,137 @@ replaceLootComplex("thebetweenlands:entities/emberling", "octine_nugget", "thebe
               },
               "function": "minecraft:looting_enchant"
             })], []);
+
+
+
+
+function removeLootEntry(tableID as string, poolID as string, entryID as string) {
+	val table = LootTweaker.getTable(tableID);
+	val pool = table.getPool(poolID);
+	pool.removeEntry(entryID);
+}
+
+
+// Pedestals from Thaumic Augmentation
+removeLootEntry("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "minecraft:ender_pearl");
+removeLootEntry("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "minecraft:gold_ingot");
+removeLootEntry("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "minecraft:diamond");
+removeLootEntry("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "minecraft:emerald");
+removeLootEntry("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "minecraft:experience_bottle");
+removeLootEntry("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "minecraft:glowstone_dust");
+
+removeLootEntry("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "minecraft:ender_pearl");
+removeLootEntry("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "minecraft:nether_star");
+removeLootEntry("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "golden_apple");
+removeLootEntry("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "enchanted_golden_apple");
+removeLootEntry("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "minecraft:gold_ingot");
+removeLootEntry("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "minecraft:diamond");
+removeLootEntry("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "minecraft:emerald");
+removeLootEntry("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "minecraft:experience_bottle");
+removeLootEntry("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "minecraft:glowstone_dust");
+
+removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:ender_pearl");
+removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:name_tag");
+removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:nether_star");
+removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:golden_apple");
+removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:gold_ingot");
+removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:diamond");
+removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:emerald");
+removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:experience_bottle");
+removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:glowstone_dust");
+
+addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "ancient_debris", <thebetweenlands:items_misc:47>, 15, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "valonite_shard", <thebetweenlands:items_misc:19>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "octine_ingot", <thebetweenlands:octine_ingot>, 15, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "rocksnot_pearl", <thebetweenlands:rock_snot_pearl>, 5, 0, [], []);
+//addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "bluedust_block", <coloredredstone:colored_redstone_block:12>, 5, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "crimson_middle_gem", <thebetweenlands:crimson_middle_gem>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "aqua_middle_gem", <thebetweenlands:aqua_middle_gem>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "green_middle_gem", <thebetweenlands:green_middle_gem>, 10, 0, [], []);
+
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "ancient_debris", <thebetweenlands:items_misc:47>, 15, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "valonite_shard", <thebetweenlands:items_misc:19>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "octine_ingot", <thebetweenlands:octine_ingot>, 15, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "rocksnot_pearl", <thebetweenlands:rock_snot_pearl>, 5, 0, [], []);
+//addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "bluedust_block", <coloredredstone:colored_redstone_block:12>, 5, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "crimson_middle_gem", <thebetweenlands:crimson_middle_gem>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "aqua_middle_gem", <thebetweenlands:aqua_middle_gem>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "green_middle_gem", <thebetweenlands:green_middle_gem>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "valonite_block", <thebetweenlands:valonite_block>, 3, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "octine_block", <thebetweenlands:octine_block>, 4, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "syrmorite_block", <thebetweenlands:syrmorite_block>, 5, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "spirit_fruit", <thebetweenlands:spirit_fruit>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_rare", "pedestal_rare", "loot_scroll", <thebetweenlands:items_misc:40>, 10, 0, [], []);
+
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "ancient_debris", <thebetweenlands:items_misc:47>, 15, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "valonite_shard", <thebetweenlands:items_misc:19>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "octine_ingot", <thebetweenlands:octine_ingot>, 15, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "rocksnot_pearl", <thebetweenlands:rock_snot_pearl>, 5, 0, [], []);
+//addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "bluedust_block", <coloredredstone:colored_redstone_block:12>, 5, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "crimson_middle_gem", <thebetweenlands:crimson_middle_gem>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "aqua_middle_gem", <thebetweenlands:aqua_middle_gem>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "green_middle_gem", <thebetweenlands:green_middle_gem>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "loot_scroll", <thebetweenlands:items_misc:40>, 5, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "storage_raw_quartz", <arcanearchives:storage_raw_quartz>, 10, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "lurker_skin_pouch_big", <thebetweenlands:lurker_skin_pouch:3>, 5, 0, [], []);
+addLootComplex("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "lurker_skin_pouch_small", <thebetweenlands:lurker_skin_pouch:0>, 7, 0, [], []);
+
+
+
+// Loot pots from Thaumic Augmentation
+removeLootEntry("thaumicaugmentation:block/loot_common", "loot_common", "nugget_gold");
+removeLootEntry("thaumicaugmentation:block/loot_common", "loot_common", "minecraft:ender_pearl");
+removeLootEntry("thaumicaugmentation:block/loot_common", "loot_common", "minecraft:name_tag");
+removeLootEntry("thaumicaugmentation:block/loot_common", "loot_common", "minecraft:gold_ingot");
+removeLootEntry("thaumicaugmentation:block/loot_common", "loot_common", "minecraft:diamond");
+removeLootEntry("thaumicaugmentation:block/loot_common", "loot_common", "minecraft:emerald");
+removeLootEntry("thaumicaugmentation:block/loot_common", "loot_common", "minecraft:experience_bottle");
+removeLootEntry("thaumicaugmentation:block/loot_common", "loot_common", "minecraft:glowstone_dust");
+
+removeLootEntry("thaumicaugmentation:block/loot_rare", "loot_rare", "nugget_gold");
+removeLootEntry("thaumicaugmentation:block/loot_rare", "loot_rare", "minecraft:ender_pearl");
+removeLootEntry("thaumicaugmentation:block/loot_rare", "loot_rare", "minecraft:nether_star");
+removeLootEntry("thaumicaugmentation:block/loot_rare", "loot_rare", "enchanted_golden_apple");
+removeLootEntry("thaumicaugmentation:block/loot_rare", "loot_rare", "minecraft:gold_ingot");
+removeLootEntry("thaumicaugmentation:block/loot_rare", "loot_rare", "minecraft:diamond");
+removeLootEntry("thaumicaugmentation:block/loot_rare", "loot_rare", "minecraft:emerald");
+removeLootEntry("thaumicaugmentation:block/loot_rare", "loot_rare", "minecraft:experience_bottle");
+removeLootEntry("thaumicaugmentation:block/loot_rare", "loot_rare", "minecraft:glowstone_dust");
+
+removeLootEntry("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "nugget_gold");
+removeLootEntry("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "minecraft:ender_pearl");
+removeLootEntry("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "minecraft:name_tag");
+removeLootEntry("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "minecraft:nether_star");
+removeLootEntry("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "minecraft:golden_apple");
+removeLootEntry("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "minecraft:gold_ingot");
+removeLootEntry("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "minecraft:diamond");
+removeLootEntry("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "minecraft:emerald");
+removeLootEntry("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "minecraft:experience_bottle");
+removeLootEntry("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "minecraft:glowstone_dust");
+
+addLoot("thaumicaugmentation:block/loot_common", "loot_common", "octine_nugget", <thebetweenlands:items_misc:42>, 350, 0, 1, 2);
+addLoot("thaumicaugmentation:block/loot_common", "loot_common", "ancient_debris", <thebetweenlands:items_misc:47>, 50, 0, 1, 5);
+addLoot("thaumicaugmentation:block/loot_common", "loot_common", "valonite_shard", <thebetweenlands:items_misc:19>, 10, 0, 1, 3);
+addLoot("thaumicaugmentation:block/loot_common", "loot_common", "dentrothyst_shard_green", <thebetweenlands:dentrothyst_shard_green>, 10, 0, 1, 10);
+addLoot("thaumicaugmentation:block/loot_common", "loot_common", "dentrothyst_shard_orange", <thebetweenlands:dentrothyst_shard_orange>, 10, 0, 1, 5);
+addLoot("thaumicaugmentation:block/loot_common", "loot_common", "octine_ingot", <thebetweenlands:octine_ingot>, 15, 0, 1, 2);
+addLoot("thaumicaugmentation:block/loot_common", "loot_common", "rocksnot_pearl", <thebetweenlands:rock_snot_pearl>, 5, 0, 1, 3);
+//addLoot("thaumicaugmentation:block/loot_common", "loot_common", "blue_dust", <coloredredstone:colored_redstone_dust:12>, 5, 0, 4, 10);
+
+addLoot("thaumicaugmentation:block/loot_rare", "loot_rare", "ancient_debris", <thebetweenlands:items_misc:47>, 50, 0, 1, 5);
+addLoot("thaumicaugmentation:block/loot_rare", "loot_rare", "valonite_shard", <thebetweenlands:items_misc:19>, 10, 0, 1, 3);
+addLoot("thaumicaugmentation:block/loot_rare", "loot_rare", "dentrothyst_shard_green", <thebetweenlands:dentrothyst_shard_green>, 10, 0, 1, 10);
+addLoot("thaumicaugmentation:block/loot_rare", "loot_rare", "dentrothyst_shard_orange", <thebetweenlands:dentrothyst_shard_orange>, 10, 0, 1, 5);
+addLoot("thaumicaugmentation:block/loot_rare", "loot_rare", "octine_ingot", <thebetweenlands:octine_ingot>, 15, 0, 1, 2);
+addLoot("thaumicaugmentation:block/loot_rare", "loot_rare", "rocksnot_pearl", <thebetweenlands:rock_snot_pearl>, 5, 0, 1, 3);
+addLoot("thaumicaugmentation:block/loot_rare", "loot_rare", "spirit_fruit", <thebetweenlands:spirit_fruit>, 15, 0, 1, 1);
+addLoot("thaumicaugmentation:block/loot_rare", "loot_rare", "sapling_spirit_tree", <thebetweenlands:sapling_spirit_tree>, 10, 0, 1, 3);
+
+addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "octine_nugget", <thebetweenlands:items_misc:42>, 250, 0, 1, 2);
+addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "ancient_debris", <thebetweenlands:items_misc:47>, 50, 0, 1, 5);
+addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "valonite_shard", <thebetweenlands:items_misc:19>, 10, 0, 1, 1);
+addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "octine_ingot", <thebetweenlands:octine_ingot>, 15, 0, 1, 2);
+addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "rocksnot_pearl", <thebetweenlands:rock_snot_pearl>, 5, 0, 1, 3);
+//addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "blue_dust", <coloredredstone:colored_redstone_dust:12>, 5, 0, 4, 10);
+addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "spirit_fruit", <thebetweenlands:spirit_fruit>, 15, 0, 1, 1);
+addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "sapling_spirit_tree", <thebetweenlands:sapling_spirit_tree>, 10, 0, 1, 3);
