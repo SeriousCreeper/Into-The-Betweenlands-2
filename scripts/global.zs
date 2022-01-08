@@ -491,7 +491,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:banner>.add(<thaumcraft:banner_red>);
 <ore:banner>.add(<thaumcraft:banner_black>);
 
-//<ore:dustAsh>.remove(<pyrotech:material:0>);
+<ore:dustAsh>.add(<pyrotech:material:0>);
 <ore:dustAshes>.remove(<embers:dust_ash>);
 
 <ore:candyHalloween>.add(<thebetweenlands:candy_blue>);

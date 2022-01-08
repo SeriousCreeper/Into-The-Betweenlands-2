@@ -176,6 +176,7 @@ val itemsToRemove = [
 	<pyrotech:book>,
 	<pyrotech:material:32>,
 	//<pyrotech:tinder>,
+	<pyrotech:material:0>,
 	<pyrotech:tar_collector>,
 	<pyrotech:tar_drain>,
 	<pyrotech:material:1>,
@@ -725,7 +726,7 @@ function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, input
     //.setSlagItem(outputSlag, 1)
     //.addFailureItem(<thebetweenlands:items_misc:50>, 1)
     .addFailureItem(<pyrotech:slag>, 1)
-    .setLangKey("tile.ore" ~ oreName ~ ";item.pyrotech.slag.unique")
+    //.setLangKey(oreName ~ ";item.pyrotech.slag.unique")
     .register();
 
     val cluster = metals[oreName.toLowerCase()].cluster;
@@ -742,7 +743,7 @@ function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, input
 	    .setFailureChance(0.1)
 	    .setBloomYield(24, 30)
 	    .setSlagItem(outputSlag, 1)
-    	.setLangKey("tile.cluster" ~ oreName ~ ";item.pyrotech.slag.unique")
+    	//.setLangKey(oreName ~ ";item.pyrotech.slag.unique")
 	    .register();
     }
 }
