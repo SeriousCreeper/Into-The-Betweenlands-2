@@ -22,11 +22,11 @@ recipes.addShaped("backpack", <quark:backpack>, [
 
 
 val quarkChestPlank = [
-	<thebetweenlands:rubber_tree_planks>,
-	<thebetweenlands:giant_root_planks>,
-	<thebetweenlands:hearthgrove_planks>,
-	<thebetweenlands:nibbletwig_planks>,
-	<thebetweenlands:rotten_planks>
+	<thebetweenlands:rubber_tree_plank_slab>,
+	<thebetweenlands:giant_root_plank_slab>,
+	<thebetweenlands:hearthgrove_plank_slab>,
+	<thebetweenlands:nibbletwig_plank_slab>,
+	<thebetweenlands:rotten_plank_slab>
 ] as IItemStack[];
 
 val quarkChestLog = [
@@ -43,11 +43,12 @@ recipes.remove(<quark:custom_chest:*>);
 for i, wood in quarkChestPlank {
 	recipes.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i), [
 		[wood, wood, wood],
-		[wood, null, wood],
+		[wood, <ore:nuggetSyrmorite>, wood],
 		[wood, wood, wood]
 	]);
 }
 
+/*
 for i, wood in quarkChestLog {
 	recipes.addShaped("convenience_custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i) * 4, [
 		[wood, wood, wood],
@@ -55,6 +56,7 @@ for i, wood in quarkChestLog {
 		[wood, wood, wood]
 	]);
 }
+*/
 
 recipes.remove(<quark:chain>);
 recipes.addShaped("chain", <quark:chain> * 3, [

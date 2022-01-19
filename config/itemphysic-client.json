@@ -1,6 +1,6 @@
 {
   "rendering": {
-    "oldRotation": false,
+    "oldRotation": true,
     "vanillaRendering": false,
     "rotateSpeed": 1.0,
     "showPickupTooltip": true,

@@ -102,7 +102,7 @@ recipes.addShapeless("mcwbridges-dark_oak_log_bridge_middle-back", <mcwbridges:d
 
 recipes.remove(<mcwbridges:stone_brick_bridge>);
 recipes.addShaped("mcwbridges-stone_brick_bridge", <mcwbridges:stone_brick_bridge> * 4, [
-	[<thebetweenlands:betweenstone_bricks_mirage>, null, <thebetweenlands:betweenstone_bricks_mirage>], 
+	[<thebetweenlands:betweenstone_bricks>, null, <thebetweenlands:betweenstone_bricks>], 
 	[<thebetweenlands:smooth_betweenstone_slab>, <thebetweenlands:smooth_betweenstone_slab>, <thebetweenlands:smooth_betweenstone_slab>]
 ]);
 recipes.addShaped("mcwbridges-stone_brick_bridge_end-back", <mcwbridges:stone_brick_bridge>, [[<mcwbridges:stone_brick_bridge_end>]]);
@@ -140,6 +140,17 @@ recipes.remove(<mcwbridges:most1>);
 recipes.addShaped("mcwbridges-iron_bridge_middle", <mcwbridges:most1>, [
 	[<mcwbridges:iron_armrest>, <ore:plateSyrmorite>, <mcwbridges:iron_armrest>]
 ]);
+
+recipes.remove(<mcwbridges:iron_rod>);
+recipes.addShaped("iron_rod", <mcwbridges:iron_rod> * 2, [
+	[<ore:nuggetSyrmorite>], [<ore:nuggetSyrmorite>]
+]);
+
+recipes.remove(<mcwbridges:iron_armrest>);
+recipes.addShaped("iron_armrest", <mcwbridges:iron_armrest>, [
+	[<ore:nuggetSyrmorite>, <mcwbridges:iron_rod>, <ore:nuggetSyrmorite>]
+]);
+
 
 
 

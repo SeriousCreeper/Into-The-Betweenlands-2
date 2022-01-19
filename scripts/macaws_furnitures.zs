@@ -50,6 +50,11 @@ recipes.addShaped("mcwfurnitures_cabinet_door", <mcwfurnitures:cabinet_door>, [
 	[<ore:stick>, <ore:stick>, <ore:stick>]
 ]);
 
+recipes.remove(<mcwfurnitures:iron_handle>);
+recipes.addShaped("iron_handle", <mcwfurnitures:iron_handle>, [
+	[<ore:nuggetSyrmorite>, <ore:nuggetSyrmorite>]
+]);
+
 
 
 // Furnitures

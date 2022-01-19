@@ -1,0 +1,166 @@
+{
+  "pyrotech:brick_crucible": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 4.0
+    }
+  ],
+  "simpledifficulty:campfire": [
+    {
+      "properties": {
+        "burning": "true"
+      },
+      "temperature": 7.0
+    },
+    {
+      "properties": {
+        "burning": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "pyrotech:stone_oven": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 5.0
+    }
+  ],
+  "pyrotech:kiln_pit": [
+    {
+      "properties": {
+        "variant": "ACTIVE"
+      },
+      "temperature": 6.0
+    }
+  ],
+  "pyrotech:stone_crucible": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 5.0
+    }
+  ],
+  "pyrotech:brick_kiln": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 4.0
+    }
+  ],
+  "pyrotech:bloomery": [
+    {
+      "properties": {
+        "type": "BottomLit"
+      },
+      "temperature": 6.0
+    }
+  ],
+  "pyrotech:wither_forge": [
+    {
+      "properties": {
+        "type": "BottomLit"
+      },
+      "temperature": 7.0
+    }
+  ],
+  "minecraft:lava": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "pyrotech:stone_sawmill": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 5.0
+    }
+  ],
+  "pyrotech:pile_slag": [
+    {
+      "properties": {
+        "molten": "true"
+      },
+      "temperature": 4.0
+    }
+  ],
+  "pyrotech:stone_kiln": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 5.0
+    }
+  ],
+  "minecraft:magma": [
+    {
+      "properties": {},
+      "temperature": 10.0
+    }
+  ],
+  "pyrotech:torch_stone": [
+    {
+      "properties": {
+        "type": "LIT"
+      },
+      "temperature": 3.0
+    }
+  ],
+  "pyrotech:brick_sawmill": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 4.0
+    }
+  ],
+  "minecraft:lit_furnace": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ],
+  "minecraft:torch": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:flowing_lava": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "pyrotech:brick_oven": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 4.0
+    }
+  ],
+  "pyrotech:torch_fiber": [
+    {
+      "properties": {
+        "type": "LIT"
+      },
+      "temperature": 3.0
+    }
+  ],
+  "pyrotech:campfire": [
+    {
+      "properties": {
+        "variant": "LIT"
+      },
+      "temperature": 7.0
+    }
+  ]
+}

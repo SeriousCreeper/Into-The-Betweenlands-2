@@ -382,7 +382,7 @@ recipes.remove(<embers:plate_iron>);
 recipes.addShapeless("plate_iron", <embers:plate_iron>, [<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <embers:tinker_hammer:*>]);
 
 recipes.remove(<embers:plate_gold>);
-recipes.addShapeless("plate_gold", <embers:plate_gold>, [<ore:ingotOctine>, <ore:ingotOctine>, <embers:tinker_hammer:*>]);
+//recipes.addShapeless("plate_gold", <embers:plate_gold>, [<ore:ingotOctine>, <ore:ingotOctine>, <embers:tinker_hammer:*>]);
 
 recipes.addShapeless("plate_brass", <thaumcraft:plate:0>, [<ore:ingotBrass>, <ore:ingotBrass>, <embers:tinker_hammer:*>]);
 recipes.addShapeless("plate_thaumium", <thaumcraft:plate:2>, [<ore:ingotThaumium>, <ore:ingotThaumium>, <embers:tinker_hammer:*>]);

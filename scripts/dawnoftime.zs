@@ -82,5 +82,9 @@ recipes.addShaped("iron_chain", <dawnoftimebuilder:iron_chain>, [
 	[<ore:ingotSyrmorite>], [<ore:ingotSyrmorite>]
 ]);
 
+recipes.remove(<dawnoftimebuilder:silk>);
+recipes.addShapeless("silk", <dawnoftimebuilder:silk>, [<dawnoftimebuilder:silk_cocoons>, <dawnoftimebuilder:silk_cocoons>, <dawnoftimebuilder:silk_cocoons>, <mysticalworld:spindle:*>.transformDamage(1)]);
+
+
 
 <dawnoftimebuilder:iron_chain>.displayName = "Syrmorite Tea Chains";

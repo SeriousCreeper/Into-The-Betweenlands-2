@@ -72,7 +72,6 @@
     "oreNickel": {
       "slagColor": "e4e5d8",
       "langKey": [
-        "betweenores:tile.betweenores.nickel_ore",
         "embers:tile.ore_nickel"
       ],
       "output": [
@@ -110,7 +109,6 @@
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
-        "betweenores:tile.betweenores.tin_ore",
         "embers:tile.ore_tin"
       ],
       "output": [

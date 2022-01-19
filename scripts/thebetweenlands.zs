@@ -1,6 +1,14 @@
 import moretweaker.betweenlands.Animator;
 
+
+
+furnace.remove(<thebetweenlands:items_misc:6>);
+furnace.remove(<thebetweenlands:sulfur_torch>);
+
+
+
 recipes.remove(<thebetweenlands:items_misc:32>);
+recipes.remove(<thebetweenlands:items_misc:50>);
 
 recipes.addShaped("easier_sticks", <thebetweenlands:items_misc:20> * 8, [
 	[<thebetweenlands:log_weedwood:*> | <thebetweenlands:weedwood>], 
@@ -67,9 +75,31 @@ recipes.addShaped("bookshelf", <minecraft:bookshelf>, [
 	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
 ]);
 
+recipes.remove(<thebetweenlands:smoking_rack>);
+recipes.addShaped("smoking_rack", <thebetweenlands:smoking_rack>, [
+	[<thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:20>], 
+	[<thebetweenlands:items_misc:20>, <minecraft:string>, <thebetweenlands:items_misc:20>], 
+	[<thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:21>, <thebetweenlands:items_misc:20>]
+]);
+
+recipes.remove(<thebetweenlands:sulfur_torch>);
+recipes.addShaped("unlit_sulfur_torchers", <thebetweenlands:sulfur_torch_extinguished> * 4, [
+	[<thebetweenlands:items_misc:18>],
+	[<ore:stickWood>]
+]);
+
+recipes.remove(<thebetweenlands:weedwood_chest>);
+
+recipes.addShaped("weedwood_chest", <thebetweenlands:weedwood_chest>, [
+	[<thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>],
+	[<thebetweenlands:weedwood_plank_slab>, <ore:nuggetSyrmorite>, <thebetweenlands:weedwood_plank_slab>],
+	[<thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>]
+]);
+
+recipes.addShapeless("dragonfly_wings", <thebetweenlands:items_misc:3> * 2, [<roots:mystic_feather>]);
 
 
 scripts.utils.addBLChangeTooltip(<thebetweenlands:octine_pickaxe:*>, "Chance to turn ore into slag heap");
 scripts.utils.addBLChangeTooltip(<thebetweenlands:octine_shovel:*>, "Chance to turn sand into glass, mud into bricks");
 
-
+scripts.utils.addInfoTooltip(<thebetweenlands:sulfur_torch_extinguished>, "Can be relit with an octine ingot.");

@@ -40,13 +40,13 @@ recipes.remove(<pyrotech:diamond_hammer>);
 GCT.addRecipe("pyrotech_diamond_hammer", <pyrotech:diamond_hammer>, [<thebetweenlands:items_misc:19> * 2, <dawnoftimebuilder:silk>, <ore:stickWood> * 2]);
 
 recipes.remove(<pyrotech:tongs_diamond>);
-GCT.addRecipe("pyrotech_tongs_diamond", <pyrotech:tongs_diamond>, [<pyrotech:material:18> * 3, <pyrotech:material:27> * 2]);
+GCT.addRecipe("pyrotech_tongs_diamond", <pyrotech:tongs_diamond>, [<thebetweenlands:items_misc:43> * 3, <pyrotech:material:27> * 2]);
 
 recipes.remove(<pyrotech:sawmill_blade_diamond>);
-GCT.addRecipe("pyrotech_sawmill_blade_diamond", <pyrotech:sawmill_blade_diamond>, [<thebetweenlands:octine_ingot>, <pyrotech:material:18> * 8]);
+GCT.addRecipe("pyrotech_sawmill_blade_diamond", <pyrotech:sawmill_blade_diamond>, [<thebetweenlands:octine_ingot>, <thebetweenlands:items_misc:43> * 8]);
 
 recipes.remove(<pyrotech:cog_diamond>);
-GCT.addRecipe("pyrotech_cog_diamond", <pyrotech:cog_diamond>, [<pyrotech:material:18> * 8]);
+GCT.addRecipe("pyrotech_cog_diamond", <pyrotech:cog_diamond>, [<thebetweenlands:items_misc:43> * 8]);
 
 recipes.remove(<roots:diamond_knife>);
 GCT.addRecipe("diamond_knife", <roots:diamond_knife>, [<ore:gemValonite> * 2, <ore:stickWood>]);

@@ -5,6 +5,7 @@ import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import loottweaker.vanilla.loot.LootFunction;
 import loottweaker.vanilla.loot.LootCondition;
+import crafttweaker.entity.IEntityDefinition;
 
 val swamp_hag = LootTweaker.getTable("thebetweenlands:entities/swamp_hag");
 val swamp_hag_main = swamp_hag.getPool("swamp_hag");
@@ -137,8 +138,8 @@ replaceLootComplex("thebetweenlands:entities/anadia_treasure", "anadia_body", "s
                             "function": "thebetweenlands:set_count_from_anadia",
                             "size_start": 0.125,
                             "size_end": 0.95,
-                            "min_count": 4,
-                            "max_count": 8
+                            "min_count": 2,
+                            "max_count": 4
                         })], [Conditions.parse({
                             "condition": "entity_properties",
                             "entity": "this",
@@ -147,11 +148,11 @@ replaceLootComplex("thebetweenlands:entities/anadia_treasure", "anadia_body", "s
                             }
                         })]);
 
-replaceLootComplex("thebetweenlands:entities/anadia_treasure", "anadia_body", "syrmorite_nuggets_1", <pyrotech:generated_slag_syrmorite>, 2, 0, [Functions.parse({
+replaceLootComplex("thebetweenlands:entities/anadia_treasure", "anadia_body", "syrmorite_ingot_1", <pyrotech:generated_pile_slag_syrmorite>, 2, 0, [Functions.parse({
 				              "size_start": 0.125,
 				              "size_end": 0.95,
-				              "min_count": 12,
-				              "max_count": 24,
+				              "min_count": 1,
+				              "max_count": 1,
 				              "function": "thebetweenlands:set_count_from_anadia"
 				            })], [Conditions.parse({
 				              "properties": {
@@ -161,11 +162,11 @@ replaceLootComplex("thebetweenlands:entities/anadia_treasure", "anadia_body", "s
 				              "condition": "minecraft:entity_properties"
 				            })]);
 
-replaceLootComplex("thebetweenlands:entities/anadia_treasure", "anadia_body", "syrmorite_nuggets_2", <pyrotech:generated_slag_syrmorite>, 3, 0, [Functions.parse({
+replaceLootComplex("thebetweenlands:entities/anadia_treasure", "anadia_body", "syrmorite_ingot_2", <pyrotech:generated_pile_slag_syrmorite>, 3, 0, [Functions.parse({
 				              "size_start": 0.125,
 				              "size_end": 0.95,
-				              "min_count": 8,
-				              "max_count": 16,
+				              "min_count": 1,
+				              "max_count": 1,
 				              "function": "thebetweenlands:set_count_from_anadia"
 				            })], [Conditions.parse({
 				              "properties": {
@@ -318,3 +319,7 @@ addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "rocksnot_pe
 //addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "blue_dust", <coloredredstone:colored_redstone_dust:12>, 5, 0, 4, 10);
 addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "spirit_fruit", <thebetweenlands:spirit_fruit>, 15, 0, 1, 1);
 addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "sapling_spirit_tree", <thebetweenlands:sapling_spirit_tree>, 10, 0, 1, 3);
+
+
+<entity:thebetweenlands:termite>.addPlayerOnlyDrop(<thebetweenlands:dentrothyst_shard_green>, 1, 1, 0.2);
+<entity:thebetweenlands:termite>.addPlayerOnlyDrop(<thebetweenlands:dentrothyst_shard_orange>, 1, 1, 0.05);

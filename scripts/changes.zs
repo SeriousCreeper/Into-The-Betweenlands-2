@@ -254,7 +254,7 @@ recipes.addShaped("minecraft-anvil", <minecraft:anvil>, [
 ]);
 
 recipes.remove(<minecraft:string>);
-recipes.addShapeless("string", <minecraft:string> * 3, [<dawnoftimebuilder:silk>, <mysticalworld:spindle>]);
+recipes.addShapeless("string", <minecraft:string> * 3, [<dawnoftimebuilder:silk>, <mysticalworld:spindle:*>.transformDamage(1)]);
 
 recipes.remove(<minecraft:iron_bars>);
 recipes.addShaped("iron_bars", <minecraft:iron_bars> * 16, [
@@ -396,19 +396,6 @@ for metal in metals {
 		[metals[metal].ingot, metals[metal].ingot, metals[metal].ingot]
 	]);
 }
-
-
-
-
-
-// CRAFTING TABLE ON STICK
-recipes.remove(<portablecraftingtable:portable_crafting_table>);
-recipes.addShaped("portable_crafting_table", <portablecraftingtable:portable_crafting_table>, [
-	[null, null, <thebetweenlands:weedwood_workbench>], 
-	[null, <ore:stickWood>, null], 
-	[<ore:stickWood>, null, null]
-]);
-
 
 
 
@@ -628,8 +615,6 @@ recipes.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<uppers
 //<coloredredstone:colored_redstone_lamp:12>.displayName = "Bluedust Lamp";
 
 <uppers:upper>.displayName = "Syrmorite Upper";
-
-scripts.utils.addInfoTooltip(<thebetweenlands:sulfur_torch_extinguished>, "Can be relit with an octine ingot.");
 
 
 <minecraft:slime>.displayName = "Block of Sludge";

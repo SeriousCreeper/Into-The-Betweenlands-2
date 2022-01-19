@@ -75,6 +75,42 @@ recipes.addShaped("gear_valonite", <mystgears:gear_valonite>, [
 	[null, <thebetweenlands:items_misc:19>, null]
 ]);
 
+recipes.remove(<mysticalmechanics:axle_iron>);
+recipes.addShaped("axle_iron", <mysticalmechanics:axle_iron> * 8, [
+	[<ore:ingotSyrmorite>], 
+	[<ore:nuggetSyrmorite>], 
+	[<ore:ingotSyrmorite>]
+]);
+
+recipes.remove(<mystgears:gear_gearbox_cover>);
+recipes.addShaped("recipe_gear_gearbox_cover", <mystgears:gear_gearbox_cover> * 16, [
+	[<ore:nuggetSyrmorite>, null, <ore:nuggetSyrmorite>], 
+	[null, <mystgears:gear_syrmorite>, null], 
+	[<ore:nuggetSyrmorite>, null, <ore:nuggetSyrmorite>]
+]);
+
+recipes.remove(<mysticalmechanics:gearbox_frame>);
+recipes.addShaped("gearbox_frame", <mysticalmechanics:gearbox_frame>, [
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>], 
+	[<mysticalmechanics:axle_iron>, <mystgears:gear_syrmorite>, <mysticalmechanics:axle_iron>], 
+	[<ore:ingotSyrmorite>, <mysticalmechanics:axle_iron>, <ore:ingotSyrmorite>]
+]);
+
+recipes.remove(<mystgears:gear_flywheel_light>);
+recipes.addShaped("recipe_gear_flywheel_light", <mystgears:gear_flywheel_light>, [
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <mystgears:gear_octine>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>]
+]);
+
+recipes.remove(<mysticalmechanics:mergebox_frame>);
+recipes.addShaped("mergebox_frame", <mysticalmechanics:mergebox_frame>, [
+	[<ore:ingotOctine>, <ore:ingotOctine>, <ore:ingotOctine>], 
+	[<mysticalmechanics:axle_iron>, <mystgears:gear_octine>, <mysticalmechanics:axle_iron>], 
+	[<ore:ingotOctine>, <mysticalmechanics:axle_iron>, <ore:ingotOctine>]
+]);
+
+
 
 
 

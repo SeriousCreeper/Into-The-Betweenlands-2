@@ -104,22 +104,6 @@ global metals as IItemStack[string][string] = {
 		plate: <embers:plate_aluminum>,
 		cluster: <jaopca:item_clusteraluminium>
 	},
-	nickel: {
-		ore: <betweenores:nickel_ore>,
-		nugget: <embers:nugget_nickel>,
-		ingot: <embers:ingot_nickel>,
-		block: <embers:block_nickel>,
-		plate: <embers:plate_nickel>,
-		cluster: <jaopca:item_clusternickel>
-	},
-	tin: {
-		ore: <betweenores:tin_ore>,
-		nugget: <embers:nugget_tin>,
-		ingot: <embers:ingot_tin>,
-		block: <embers:block_tin>,
-		plate: <embers:plate_tin>,
-		cluster: <thaumcraft:cluster:3>
-	},
 	dawnstone: {
 		ore: null,
 		nugget: <embers:nugget_dawnstone>,
@@ -177,8 +161,6 @@ global liquids as ILiquidStack[string] = {
 	lead: <liquid:lead>,
 	silver: <liquid:silver>,
 	aluminum: <liquid:aluminum>,
-	nickel: <liquid:nickel>,
-	tin: <liquid:tin>,
 	dawnstone: <liquid:dawnstone>,
 	bronze: <liquid:bronze>,
 	electrum: <liquid:electrum>,

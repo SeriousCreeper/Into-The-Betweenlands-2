@@ -2,5 +2,5 @@
 almm.config.title=Another Liquid Milk Mod config
 
 #Fluid
-fluid.liquid_milk=Lurker Milk
-fluid.almm:liquid_milk.name=Lurker Milk
+fluid.liquid_milk=Lurker "Milk"
+fluid.almm:liquid_milk.name=Lurker "Milk"

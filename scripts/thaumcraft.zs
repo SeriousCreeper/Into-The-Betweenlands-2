@@ -643,7 +643,7 @@ ArcaneWorkbench.registerShapedRecipe("radiant_chest", "", 10, [
 ], 
 <arcanearchives:radiant_chest>, 
 [
-	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
+	[<ore:plankWood>, <embers:plate_gold>, <ore:plankWood>], 
 	[<ore:plankWood>, <arcanearchives:raw_quartz>, <ore:plankWood>], 
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
@@ -724,6 +724,18 @@ ArcaneWorkbench.registerShapedRecipe("lectern_manifest", "", 50, [
 	[<ore:stickWood>, null, <ore:stickWood>]
 ]);
 
+ArcaneWorkbench.removeRecipe(<mystgears:vis_motor>);
+ArcaneWorkbench.registerShapedRecipe("recipe_vis_motor", "VISMOTOR@2", 25, [
+	<aspect:ordo>
+], 
+<mystgears:vis_motor>, 
+[
+	[<ore:plankWood>, <thaumcraft:vis_resonator>, <ore:plankWood>], 
+	[<ore:nuggetSyrmorite>, <mysticalmechanics:axle_iron>, <ore:nuggetSyrmorite>]
+]);
+
+
+
 
 // ARCANE WORKBENCH - SHAPELESS
 ArcaneWorkbench.removeRecipe("sealblank");
@@ -756,6 +768,7 @@ ArcaneWorkbench.registerShapelessRecipe("tubevalve", "TUBES@2", 10, [
 <thaumcraft:tube_valve>, 
 	[<thaumcraft:tube>, <ore:lever>]
 );
+
 
 
 

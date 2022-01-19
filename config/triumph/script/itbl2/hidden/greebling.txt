@@ -1,0 +1,11 @@
+setIcon(<minecraft:apple>)
+
+setTitle("You MONSTER!")
+
+setDescription("Now you Dundra did it!")
+
+setPos(34,41)
+hideLines()
+
+criteria = addCriteria("killed_greebling", "minecraft:player_killed_entity")
+criteria.setEntityType("thebetweenlands:greebling")

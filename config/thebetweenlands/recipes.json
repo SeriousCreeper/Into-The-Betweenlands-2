@@ -146,15 +146,6 @@
     },
     {
       "input": {
-        "id": "dawnoftimebuilder:silk"
-      },
-      "output": {
-        "id": "minecraft:string",
-        "size": 3
-      }
-    },
-    {
-      "input": {
         "id": "thebetweenlands:items_crushed",
         "meta": 20
       },
@@ -459,12 +450,551 @@
     {
       "input": {
         "item": {
-          "id": "thebetweenlands:bark_amulet"
+          "id": "roots:living_pickaxe"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:terrastone_pickaxe"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:runed_pickaxe"
+        },
+        "min_fuel": 24,
+        "max_fuel": 48,
+        "min_life": 48,
+        "max_life": 110
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:thaumium_pick"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_pick"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:elemental_pick"
         },
         "min_fuel": 16,
-        "min_life": 16,
         "max_fuel": 32,
+        "min_life": 32,
+        "max_life": 64
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:sylvan_helmet"
+        },
+        "min_fuel": 3,
+        "max_fuel": 8,
+        "min_life": 4,
+        "max_life": 16
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:sylvan_chestplate"
+        },
+        "min_fuel": 3,
+        "max_fuel": 8,
+        "min_life": 4,
+        "max_life": 16
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:sylvan_leggings"
+        },
+        "min_fuel": 3,
+        "max_fuel": 8,
+        "min_life": 4,
+        "max_life": 16
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:sylvan_boots"
+        },
+        "min_fuel": 3,
+        "max_fuel": 8,
+        "min_life": 4,
+        "max_life": 16
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:wildwood_helmet"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:wildwood_chestplate"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:wildwood_leggings"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:wildwood_boots"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:thaumium_helm"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
         "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:thaumium_chest"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:thaumium_legs"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:thaumium_boots"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_helm"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_chest"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_legs"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_boots"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:goggles"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:cloth_chest"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:cloth_legs"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:cloth_boots"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:fortress_helm"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:fortress_chest"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:fortress_legs"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_robe_helm"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_robe_chest"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_robe_legs"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_plate_helm"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_plate_chest"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_plate_legs"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_boots"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_robe_helm"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_robe_chest"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_robe_legs"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_robe_legs"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_praetor_helm"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_praetor_chest"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:crimson_praetor_legs"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumicaugmentation:thaumium_robes_hood"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumicaugmentation:thaumium_robes_chestplate"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumicaugmentation:thaumium_robes_leggings"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumicredundancy:redundancy_head"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumicredundancy:redundancy_chest"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumicredundancy:redundancy_legs"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumicredundancy:redundancy_boots"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
       }
     }
   ],
@@ -488,7 +1018,7 @@
         "item": {
           "id": "teastory:tea_leaf"
         },
-        "smoking_time": 5
+        "smoking_time": 3
       },
       "output": {
         "item": {
@@ -501,7 +1031,7 @@
         "item": {
           "id": "teastory:half_dried_tea"
         },
-        "smoking_time": 5
+        "smoking_time": 3
       },
       "output": {
         "item": {
@@ -515,7 +1045,7 @@
           "id": "pyrotech:material",
           "meta": 25
         },
-        "smoking_time": 6
+        "smoking_time": 3
       },
       "output": {
         "item": {

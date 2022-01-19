@@ -27,6 +27,19 @@ import mods.roots.Modifiers;
 // NORMAL --------------------------------------------------------------
 
 
+<roots:living_pickaxe>.maxDamage = 600;
+<roots:living_shovel>.maxDamage = 600;
+<roots:living_axe>.maxDamage = 600;
+<roots:living_sword>.maxDamage = 600;
+
+<roots:terrastone_pickaxe>.maxDamage = 1200;
+<roots:terrastone_shovel>.maxDamage = 1200;
+<roots:terrastone_axe>.maxDamage = 1200;
+<roots:terrastone_sword>.maxDamage = 1200;
+
+
+
+
 var knifeDict = <ore:knife>;
 
 knifeDict.add(<roots:wood_knife:32767>);
