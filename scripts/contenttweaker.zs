@@ -23,11 +23,16 @@ val items = [
 	"boss_item_5",
 	"boss_item_6",
 	"inert_boneway_finder",
+	"mortar"
 ] as string[];
 
 
 for item in items {
 	VanillaFactory.createItem(item).register();
 }
+
+
+VanillaFactory.createFluid("lime_water", 14738896).register();
+
 
 

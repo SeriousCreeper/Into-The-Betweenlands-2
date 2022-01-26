@@ -121,3 +121,13 @@ recipes.addShaped("culture_jar", <growthcraft_cellar:culture_jar>, [
 	[<thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:dentrothyst_shard_green>]
 ]);
 
+recipes.remove(<growthcraft_bees:beebox>);
+recipes.addShaped("beebox", <growthcraft_bees:beebox>, [
+	[null, <pyrotech:material:20>, null], 
+	[<pyrotech:material:20>, null, <pyrotech:material:20>], 
+	[<pyrotech:material:20>, <pyrotech:material:20>, <pyrotech:material:20>]
+]);
+
+
+
+<growthcraft_bees:bee>.displayName = "Swambee";

@@ -521,24 +521,6 @@ recipes.addShapeless("stickycomparator", <redstonepaste:stickycomparator>, [<col
 
 
 
-// FAIRY LIGHTS
-/*
-recipes.remove(<fairylights:letter_bunting>);
-
-for i in 112 to 223 {
-	JEI.removeAndHide(<fairylights:light>.definition.makeStack(i));
-}
-
-recipes.remove(<fairylights:ladder>);
-recipes.addShaped("stepladder", <fairylights:ladder>, [
-	[<thebetweenlands:weedwood_ladder>, <ore:stickWood>], 
-	[<thebetweenlands:weedwood_ladder>, <ore:stickWood>], 
-	[<thebetweenlands:weedwood_ladder>, <ore:stickWood>]
-]);
-*/
-
-
-
 
 // FTB QUESTS
 /*

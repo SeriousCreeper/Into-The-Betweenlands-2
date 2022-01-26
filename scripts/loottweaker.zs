@@ -9,7 +9,6 @@ import crafttweaker.entity.IEntityDefinition;
 
 val swamp_hag = LootTweaker.getTable("thebetweenlands:entities/swamp_hag");
 val swamp_hag_main = swamp_hag.getPool("swamp_hag");
-
 swamp_hag_main.addItemEntryHelper(<thaumcraft:brain>, 1, 1, [Functions.setCount(0, 1)], []);
 
 
@@ -323,3 +322,11 @@ addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "sapling_spi
 
 <entity:thebetweenlands:termite>.addPlayerOnlyDrop(<thebetweenlands:dentrothyst_shard_green>, 1, 1, 0.2);
 <entity:thebetweenlands:termite>.addPlayerOnlyDrop(<thebetweenlands:dentrothyst_shard_orange>, 1, 1, 0.05);
+
+<entity:thebetweenlands:sporeling>.removeDrop(<thebetweenlands:spores>);
+<entity:thebetweenlands:sporeling>.addPlayerOnlyDrop(<thebetweenlands:spores>, 0, 1);
+
+val sporeling = LootTweaker.getTable("thebetweenlands:entities/sporeling");
+val sporeling_main = sporeling.getPool("sporeling");
+sporeling_main.removeEntry("thebetweenlands:spores");
+sporeling_main.addItemEntryHelper(<thebetweenlands:spores>, 1, 1, [Functions.setCount(0, 1)], []);

@@ -27,7 +27,7 @@ JEI.hideCategory("pyrotech.crude.drying");
 JEI.hideCategory("pyrotech.drying");
 JEI.hideCategory("pyrotech.worktable");
 JEI.hideCategory("pyrotech.compost.bin");
-JEI.hideCategory("pyrotech.pit.kiln");
+//JEI.hideCategory("pyrotech.pit.kiln");
 
 
 
@@ -37,7 +37,7 @@ val itemsToRemove = [
 	<pyrotech:sawmill_blade_stone>,
 	<pyrotech:sawmill_blade_flint>,
 	<pyrotech:sawmill_blade_iron>,
-	<pyrotech:crude_axe>,
+	//<pyrotech:crude_axe>,
 	<pyrotech:crude_hoe>,
 	<pyrotech:crude_pickaxe>,
 	<pyrotech:crude_shovel>,
@@ -84,12 +84,12 @@ val itemsToRemove = [
 	<pyrotech:marshmallow_roasted>,
 	<pyrotech:marshmallow_stick_empty>,
 	<pyrotech:marshmallow_burned>,
-	<pyrotech:torch_fiber>,
+	//<pyrotech:torch_fiber>,
 	<pyrotech:torch_stone>,
 	<pyrotech:stone_tank>,
 	<pyrotech:brick_tank>,
-	<pyrotech:kiln_pit>,
-	<pyrotech:worktable>,
+	//<pyrotech:kiln_pit>,
+	//<pyrotech:worktable>,
 	<pyrotech:worktable_stone>,
 	<pyrotech:compost_bin>,
 	<pyrotech:mulch>,
@@ -145,14 +145,14 @@ val itemsToRemove = [
 	<pyrotech:rock:1>,
 	<pyrotech:rock>,
 	<pyrotech:fluid.liquid_clay>,
-	<pyrotech:crude_hammer>,
+	//<pyrotech:crude_hammer>,
 	<pyrotech:stone_hammer>,
 	<pyrotech:flint_hammer>,
 	<pyrotech:iron_hammer>,
 	<pyrotech:tongs_stone>,
 	<pyrotech:tongs_flint>,
 	<pyrotech:tongs_iron>,
-	<pyrotech:chopping_block>,
+	//<pyrotech:chopping_block>,
 	<pyrotech:material:28>,
 	<pyrotech:generated_slag_gold>,
 	<pyrotech:generated_pile_slag_gold>,
@@ -163,12 +163,12 @@ val itemsToRemove = [
 	<pyrotech:stone_kiln>,
 	<pyrotech:stone_oven>,
 	<pyrotech:stone_crucible>,
-	<pyrotech:brick_kiln>,
+	//<pyrotech:brick_kiln>,
 	//<pyrotech:brick_oven>,
 	<pyrotech:brick_crucible>,
 	//<pyrotech:campfire>,
 	<pyrotech:material:29>,
-	<pyrotech:burned_food>,
+	//<pyrotech:burned_food>,
 	<pyrotech:material:24>,
 	<pyrotech:material:6>,
 	<pyrotech:igniter:1>,
@@ -229,7 +229,7 @@ recipes.addShaped("tech/basic/anvil_granite", <pyrotech:anvil_granite>, [
 ]);
 
 recipes.remove(<pyrotech:tinder>);
-recipes.addShaped("tech/basic/tinder", <pyrotech:tinder>, [
+recipes.addShapedMirrored("tech/basic/tinder", <pyrotech:tinder>, [
 	[<thebetweenlands:swamp_reed_item>, <ore:stickWood>], 
 	[<ore:stickWood>, <thebetweenlands:swamp_reed_item>]
 ]);
@@ -347,7 +347,7 @@ recipes.addShaped("tech/bloomery/tongs_bone", <pyrotech:tongs_bone>, [
 recipes.remove(<pyrotech:sawmill_blade_bone>);
 recipes.addShaped("tech/machine/sawmill_blade_bone", <pyrotech:sawmill_blade_bone>, [
 	[<thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:14>], 
-	[<thebetweenlands:items_misc:14>, <thebetweenlands:cragrock>, <thebetweenlands:items_misc:14>], 
+	[<thebetweenlands:items_misc:14>, <pyrotech:material:16>, <thebetweenlands:items_misc:14>], 
 	[<thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:14>]
 ]);
 
@@ -396,6 +396,30 @@ recipes.addShaped("storage/brick_faucet", <pyrotech:faucet_brick>, [
 	[<pyrotech:material:5>, null, <pyrotech:material:5>], 
 	[null, <pyrotech:material:5>, null]
 ]);
+
+recipes.remove(<pyrotech:torch_fiber>);
+recipes.addShaped("ignition/torch_fiber", <pyrotech:torch_fiber>, [
+	[<thebetweenlands:items_misc:6>], 
+	[<ore:stickWood>]
+]);
+
+recipes.remove(<pyrotech:kiln_pit>);
+recipes.addShaped("tech/basic/kiln_pit", <pyrotech:kiln_pit>, [
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>]
+]);
+
+recipes.remove(<pyrotech:crude_axe>);
+recipes.addShaped("tool/crude_axe", <pyrotech:crude_axe>, [
+	[<ore:rock>, <thebetweenlands:swamp_reed_item>], 
+	[<ore:rock>, <ore:stickWood>]
+]);
+
+recipes.remove(<pyrotech:crude_hammer>);
+recipes.addShaped("crude_hammer", <pyrotech:crude_hammer>, [
+	[<ore:rock>, <ore:rock>], 
+	[<ore:stickWood>, <thebetweenlands:swamp_reed_item>]
+]);
+
 
 
 
@@ -449,7 +473,7 @@ Campfire.addRecipe("anadia_meat_cooked", <thebetweenlands:anadia_meat_cooked>, <
 Campfire.addRecipe("olm_egg_cooked", <thebetweenlands:olm_egg_cooked>, <thebetweenlands:olm_egg_raw>, defaultCookTime);
 Campfire.addRecipe("cooked_pereskia", <roots:cooked_pereskia>, <roots:pereskia_bulb>, defaultCookTime);
 Campfire.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, defaultCookTime / 4);
-Campfire.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, defaultCookTime / 4);
+//Campfire.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, 1);
 Campfire.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, defaultCookTime);
 
 StoneOven.addRecipe("frog_legs_cooked", <thebetweenlands:frog_legs_cooked>, <thebetweenlands:frog_legs_raw>, true);
@@ -521,7 +545,10 @@ SoakingPot.addRecipe("mossy_betweenstone_bricks", <thebetweenlands:mossy_between
 SoakingPot.addRecipe("mossy_betweenstone_tiles", <thebetweenlands:mossy_betweenstone_tiles>, <liquid:swamp_water> * 250, <thebetweenlands:betweenstone_tiles>, 7 * 60 * 20);
 SoakingPot.addRecipe("mossy_limestone_bricks", <thebetweenlands:mossy_limestone_bricks>, <liquid:swamp_water> * 250, <thebetweenlands:limestone_bricks>, 7 * 60 * 20);
 SoakingPot.addRecipe("mossy_smooth_betweenstone", <thebetweenlands:mossy_smooth_betweenstone>, <liquid:swamp_water> * 250, <thebetweenlands:smooth_betweenstone>, 7 * 60 * 20);
-SoakingPot.addRecipe("purified_water", <thebetweenlands:mossy_smooth_betweenstone>, <liquid:swamp_water> * 250, <thebetweenlands:smooth_betweenstone>, 7 * 60 * 20);
+//SoakingPot.addRecipe("mortar", <contenttweaker:mortar> * 16, <liquid:lime_water> * 100, <thebetweenlands:silt>, 7 * 60 * 20);
+
+
+
 
 
 
@@ -584,12 +611,14 @@ function brickSawmillRecipeBuilder(name as string, itemOut as IItemStack, itemIn
 function slabRecipe(name as string, itemOut as IItemStack, itemIn as IIngredient, countBone as int, countOctine as int, countDiamond as int) {
 	recipes.remove(itemOut);
 	//recipes.addShaped(name, itemOut * 3, [[itemIn, itemIn, itemIn]]);
+	Chopping.addRecipe(name, itemOut, itemIn);
 	stoneSawmillRecipeBuilder(name, itemOut, itemIn, countBone, countOctine, countDiamond);
 }
 
 function planksRecipe(name as string, itemOut as IItemStack, itemIn as IIngredient, countBone as int, countOctine as int, countDiamond as int) {
 	recipes.remove(itemOut);
-	recipes.addShapeless(name, itemOut * 2, [itemIn]);
+	//recipes.addShapeless(name, itemOut * 2, [itemIn]);
+	Chopping.addRecipe(name, itemOut * 2, itemIn);
 	stoneSawmillRecipeBuilder(name, itemOut, itemIn, countBone, countOctine, countDiamond);
 }
 
@@ -686,13 +715,14 @@ brickSawmillRecipeBuilder("runestone_slab", <roots:runestone_slab>, <roots:runes
 //brickSawmillRecipeBuilder("storage_slab_1", <immersiveengineering:storage_slab:1>, <immersiveengineering:storage:1>, 2, 2, false);
 //brickSawmillRecipeBuilder("storage_slab_0", <immersiveengineering:storage_slab:0>, <immersiveengineering:storage:0>, 2, 2, false);
 
-
 stoneSawmillRecipeBuilder("boards", <pyrotech:material:20>, <ore:slabWood>, 1, 2, 3); // boards
 stoneSawmillRecipeBuilder("treated_boards", <pyrotech:material:23>, <pyrotech:planks_tarred>, 1, 2, 3); // tarred boards
+stoneSawmillRecipeBuilder("sticks", <thebetweenlands:items_misc:20>, <pyrotech:material:20>, 1, 2, 3); // boards
 
 //recipes.remove(<thebetweenlands:items_misc:20>); // sticks
 //recipes.addShaped("weedwood_sticks", <thebetweenlands:items_misc:20> * 2, [[<thebetweenlands:weedwood_planks>], [<thebetweenlands:weedwood_planks>]]);
 //stoneSawmillRecipeBuilder("weedwood_sticks", <thebetweenlands:items_misc:20>, <thebetweenlands:weedwood_planks>, 2, 4, 6);
+
 
 
 
@@ -744,6 +774,61 @@ Burn.createBuilder("coke_from_sulfur", <immersiveengineering:material:6>, "thebe
 // KILNS
 StoneKiln.removeAllRecipes();
 BrickKiln.removeAllRecipes();
+PitKiln.removeAllRecipes();
+
+PitKiln.addRecipe("polished_limestone", <thebetweenlands:polished_limestone>, <thebetweenlands:limestone>, 10 * 60 * 20, 0.33, [
+    <thebetweenlands:items_misc:27>
+], true);
+
+PitKiln.addRecipe("refractory_brick", <pyrotech:material:5>, <pyrotech:material:9>, 10 * 60 * 20, 0.33, [
+    <thebetweenlands:silt>
+], true);
+
+furnace.remove(<thebetweenlands:items_misc:10>);
+PitKiln.addRecipe("mud_bricks", <thebetweenlands:items_misc:10> * 4, <thebetweenlands:mud>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<embers:brick_caminite>);
+PitKiln.addRecipe("brick_caminite", <embers:brick_caminite>, <embers:blend_caminite>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<embers:plate_caminite>);
+PitKiln.addRecipe("plate_caminite", <embers:plate_caminite>, <embers:plate_caminite_raw>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<embers:stamp_bar>);
+PitKiln.addRecipe("stamp_bar", <embers:stamp_bar>, <embers:stamp_bar_raw>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<embers:stamp_flat>);
+PitKiln.addRecipe("stamp_flat", <embers:stamp_flat>, <embers:stamp_flat_raw>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<embers:stamp_plate>);
+PitKiln.addRecipe("stamp_plate", <embers:stamp_plate>, <embers:stamp_plate_raw>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<embers:stamp_gear>);
+PitKiln.addRecipe("stamp_gear", <embers:stamp_gear>, <embers:stamp_gear_raw>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<thebetweenlands:silt_glass>);
+PitKiln.addRecipe("silt_glass", <thebetweenlands:silt_glass>, <thebetweenlands:silt>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<thebetweenlands:filtered_silt_glass>);
+PitKiln.addRecipe("filtered_silt_glass", <thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<thebetweenlands:polished_dentrothyst>);
+PitKiln.addRecipe("polished_dentrothyst_green", <thebetweenlands:polished_dentrothyst>, <thebetweenlands:dentrothyst>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<thebetweenlands:polished_dentrothyst:1>);
+PitKiln.addRecipe("polished_dentrothyst_orange", <thebetweenlands:polished_dentrothyst:1>, <thebetweenlands:dentrothyst:1>, 10 * 60 * 20, 0.33, [
+], true);
+
+
 
 
 

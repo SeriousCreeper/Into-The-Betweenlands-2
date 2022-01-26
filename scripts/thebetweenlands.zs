@@ -1,5 +1,6 @@
 import moretweaker.betweenlands.Animator;
 
+val weedWoodLogs = <thebetweenlands:weedwood> | <thebetweenlands:log_weedwood:12> | <thebetweenlands:log_weedwood:0>;
 
 
 furnace.remove(<thebetweenlands:items_misc:6>);
@@ -10,18 +11,17 @@ furnace.remove(<thebetweenlands:sulfur_torch>);
 recipes.remove(<thebetweenlands:items_misc:32>);
 recipes.remove(<thebetweenlands:items_misc:50>);
 
-recipes.addShaped("easier_sticks", <thebetweenlands:items_misc:20> * 8, [
-	[<thebetweenlands:log_weedwood:*> | <thebetweenlands:weedwood>], 
-	[<thebetweenlands:log_weedwood:*> | <thebetweenlands:weedwood>]
-]);
-
 
 recipes.remove(<thebetweenlands:gerts_donut>);
 recipes.addShapeless("gerts_donut", <thebetweenlands:gerts_donut>, [<thebetweenlands:reed_donut>, <thebetweenlands:wight_heart>, <thebetweenlands:sap_spit>]);
 
 
-val weedWoodLogs = <thebetweenlands:weedwood> | <thebetweenlands:log_weedwood:12> | <thebetweenlands:log_weedwood:0>;
 
+recipes.remove(<thebetweenlands:items_misc:20>);
+recipes.addShaped("weedwood_stick", <thebetweenlands:items_misc:20> * 2, [
+	[weedWoodLogs],
+	[weedWoodLogs]
+]);
 
 recipes.remove(<thebetweenlands:swamp_talisman>);
 
@@ -89,12 +89,34 @@ recipes.addShaped("unlit_sulfur_torchers", <thebetweenlands:sulfur_torch_extingu
 ]);
 
 recipes.remove(<thebetweenlands:weedwood_chest>);
-
 recipes.addShaped("weedwood_chest", <thebetweenlands:weedwood_chest>, [
 	[<thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>],
-	[<thebetweenlands:weedwood_plank_slab>, <ore:nuggetSyrmorite>, <thebetweenlands:weedwood_plank_slab>],
+	[<thebetweenlands:weedwood_plank_slab>, <ore:ingotSyrmorite>, <thebetweenlands:weedwood_plank_slab>],
 	[<thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>]
 ]);
+
+recipes.remove(<thebetweenlands:weedwood_workbench>);
+recipes.addShaped("weedwood_workbench", <thebetweenlands:weedwood_workbench>, [
+	[<thebetweenlands:weedwood_planks>, <ore:ingotOctine>, <thebetweenlands:weedwood_planks>],
+	[<ore:ingotOctine>, <pyrotech:worktable>, <ore:ingotOctine>],
+	[<thebetweenlands:weedwood_planks>, <ore:ingotOctine>, <thebetweenlands:weedwood_planks>]
+]);
+
+recipes.addShaped("lantern_paper_1_candle", <thebetweenlands:lantern_paper_1>, [
+	[<thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>], 
+	[<thebetweenlands:amate_paper_pane_1> | <thebetweenlands:amate_paper_pane_2> | <thebetweenlands:amate_paper_pane_3>, <ore:candles>, <thebetweenlands:amate_paper_pane_1> | <thebetweenlands:amate_paper_pane_2> | <thebetweenlands:amate_paper_pane_3>], 
+	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
+]);
+
+recipes.remove(<thebetweenlands:weedwood_barrel>);
+recipes.addShaped("weedwood_barrel", <thebetweenlands:weedwood_barrel>, [
+	[<thebetweenlands:weedwood_plank_slab>, null, <thebetweenlands:weedwood_plank_slab>], 
+	[<thebetweenlands:items_misc:11>, <thebetweenlands:bl_bucket:*>.withTag({Fluid: {FluidName: "tar", Amount: 1000}}).noReturn(), <thebetweenlands:items_misc:11>], 
+	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
+]);
+recipes.addShaped("clear_weedwood_barrel", <thebetweenlands:weedwood_barrel>, [[<thebetweenlands:weedwood_barrel>]]);
+
+
 
 recipes.addShapeless("dragonfly_wings", <thebetweenlands:items_misc:3> * 2, [<roots:mystic_feather>]);
 

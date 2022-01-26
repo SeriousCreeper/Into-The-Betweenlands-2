@@ -482,6 +482,29 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 <ore:slimeball>.remove(<minecraft:slime_ball>);
 
+val candles = [
+	<thaumcraft:candle_white>,
+	<thaumcraft:candle_orange>,
+	<thaumcraft:candle_magenta>,
+	<thaumcraft:candle_lightblue>,
+	<thaumcraft:candle_yellow>,
+	<thaumcraft:candle_lime>,
+	<thaumcraft:candle_pink>,
+	<thaumcraft:candle_gray>,
+	<thaumcraft:candle_silver>,
+	<thaumcraft:candle_cyan>,
+	<thaumcraft:candle_purple>,
+	<thaumcraft:candle_blue>,
+	<thaumcraft:candle_brown>,
+	<thaumcraft:candle_green>,
+	<thaumcraft:candle_red>,
+	<thaumcraft:candle_black>,
+] as IItemStack[];
+
+for candle in candles {
+	<ore:candles>.add(candle);
+}
+
 
 val oreVisCrystals = <ore:visCrystals>;
 oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}));

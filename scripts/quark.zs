@@ -8,11 +8,14 @@ recipes.addShaped("pickarang", <quark:pickarang>, [
 ]);
 
 recipes.remove(<quark:paper_lantern>);
-recipes.addShaped("quark-paper_lantern-modified", <quark:paper_lantern>, [
+recipes.addShaped("paper_lantern", <quark:paper_lantern>, [
 	[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>], 
 	[<thebetweenlands:items_misc:32>, <thebetweenlands:critter>.withTag({Entity: {id: "thebetweenlands:firefly"}}), <thebetweenlands:items_misc:32>], 
 	[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>]
 ]);
+
+recipes.addShaped("paper_lantern_candle", <quark:paper_lantern>, [[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>], [<thebetweenlands:items_misc:32>, <ore:candles>, <thebetweenlands:items_misc:32>], [<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>]]);
+
 
 recipes.addShaped("backpack", <quark:backpack>, [
 	[<ore:leather>, <minecraft:tripwire_hook>, <ore:leather>],
@@ -43,7 +46,7 @@ recipes.remove(<quark:custom_chest:*>);
 for i, wood in quarkChestPlank {
 	recipes.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i), [
 		[wood, wood, wood],
-		[wood, <ore:nuggetSyrmorite>, wood],
+		[wood, <ore:ingotSyrmorite>, wood],
 		[wood, wood, wood]
 	]);
 }

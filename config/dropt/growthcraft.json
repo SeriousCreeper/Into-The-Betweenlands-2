@@ -1,0 +1,21 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:poison_ivy:*"
+          ]
+        },
+        "drops": {
+          "drops": [
+            "growthcraft_grapes:grape_seed:*",
+            "growthcraft_hops:hop_seeds"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS",
+      "drops": [{}]
+    }
+  ]
+}
