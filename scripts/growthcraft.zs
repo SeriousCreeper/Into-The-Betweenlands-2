@@ -67,14 +67,12 @@ for mod in subModNames {
 	}
 }
 
-
-
 val honeyBucket = <thebetweenlands:bl_bucket:0>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:0>) |
 				  <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:1>);
 
 recipes.remove(<forge:bucketfilled>.withTag({FluidName: "fluid_honey", Amount: 1000}));
 
-recipes.removeByRecipeName("growthcraft_bees:beewax_normal");
+//recipes.removeByRecipeName("growthcraft_bees:beewax_normal");
 
 
 
@@ -93,14 +91,15 @@ recipes.addShaped("brew_kettle", <growthcraft_cellar:brew_kettle>, [
 	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>]
 ]);
 
-
 recipes.remove(<growthcraft_bees:bottlefluid_honey>);
-recipes.addShapeless("honey_comb_filled_3", <bladditions:dentrothyst_fluid_vial>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}), 
-	[<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <thebetweenlands:dentrothyst_vial:0>]
-);
+recipes.addShapeless("honey_comb_filled_3", <growthcraft_bees:bottlefluid_honey> * 2, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <minecraft:glass_bottle:*>, <minecraft:glass_bottle:*>]);
+
+
+/*
 recipes.addShapeless("honey_comb_filled_3_2", <bladditions:dentrothyst_fluid_vial:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}), 
 	[<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <thebetweenlands:dentrothyst_vial:2>]
 );
+*/
 
 recipes.remove(<growthcraft_bees:honey_jar>);
 recipes.addShapeless("honey_comb_filled_1", <growthcraft_bees:honey_jar>, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <thebetweenlands:mud_flower_pot>]);
@@ -129,5 +128,7 @@ recipes.addShaped("beebox", <growthcraft_bees:beebox>, [
 ]);
 
 
+
+<growthcraft_bees:bee>.maxStackSize = 8;
 
 <growthcraft_bees:bee>.displayName = "Swambee";

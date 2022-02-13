@@ -20,7 +20,7 @@
         {
           "selector": {
             "weight": {
-              "value": 99
+              "value": 69
             }
           }
         },
@@ -33,6 +33,18 @@
           "item": {
             "items" : [
               "dawnoftimebuilder:silk_worm_eggs"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 30
+            }
+          },
+          "item": {
+            "items": [
+              "thebetweenlands:items_misc:20"
             ]
           }
         }

@@ -1,0 +1,5 @@
+gamestage silentadd @p knowledge_of_technology
+title @p times 20 100 20
+title @p title {"text":"Mineral Knowledge","bold":true}
+title @p subtitle {"text":"You sense there must be more ores out there","italic":true}
+playsound ui.toast.challenge_complete master @p

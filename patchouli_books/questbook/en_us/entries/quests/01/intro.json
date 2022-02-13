@@ -1,0 +1,23 @@
+{
+    "name": "Rusty Blocks",
+    "icon": "immersiveruins:scrap",
+    "category": "01_welcome",
+    "sortnum": 0,
+    "turnin": "itbl2:syrmorite_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "First of all, this island, small though it may be, holds some key materials to begin to re-establish things.$(br2)Take these trees for example - though you can fell them with your bare hands, their wood is innately powerful - such that even the crudest of wands carved from it may be of great use."
+        },
+        {
+            "type": "quest",
+            "trigger": "itbl2:syrmorite_ingot",
+            "text": "Break some rusty blocks"
+        },
+        {
+            "type": "checklist_end",
+            "item1": "immersiveruins:scrap#1",
+            "reward1": "immersiveruins:scrap#3"
+        }
+    ]
+}

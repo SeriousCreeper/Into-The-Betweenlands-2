@@ -215,6 +215,11 @@ recipes.addShaped("flint_and_tinder", <pyrotech:flint_and_tinder>, [
 	[<thebetweenlands:swamp_reed_item>, <thebetweenlands:items_misc:50>]
 ]);
 
+recipes.addShaped("flint_and_tinder_mirrored", <pyrotech:flint_and_tinder>, [
+	[<thebetweenlands:swamp_reed_item>, <thebetweenlands:items_misc:50>],
+	[<thebetweenlands:items_misc:50>, <thebetweenlands:swamp_reed_item>]
+]);
+
 recipes.remove(<pyrotech:material:4>);
 recipes.addShaped("refractory_clay_ball", <pyrotech:material:4> * 5, [
 	[<thebetweenlands:mud>, <ore:dustAsh>, <thebetweenlands:mud>], 
@@ -418,6 +423,12 @@ recipes.remove(<pyrotech:crude_hammer>);
 recipes.addShaped("crude_hammer", <pyrotech:crude_hammer>, [
 	[<ore:rock>, <ore:rock>], 
 	[<ore:stickWood>, <thebetweenlands:swamp_reed_item>]
+]);
+
+recipes.remove(<pyrotech:worktable>);
+recipes.addShaped("worktable", <pyrotech:worktable>, [
+	[<thebetweenlands:weedwood_plank_slab>], 
+	[<thebetweenlands:log_weedwood:*>]
 ]);
 
 

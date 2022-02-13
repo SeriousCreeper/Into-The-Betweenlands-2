@@ -1,0 +1,14 @@
+setTitle("Rusty Remains")
+
+setIcon(<immersiveruins:scrap>)
+
+setDescription("Break some old rusty blocks")
+
+addParent("itbl2:root")
+
+//Criteria
+criteria = addCriteria("broke_rusty_blocks", "triumph:player_break_block")
+criteria.setBlock(<ore:rustyBlocks>)
+
+addRewardFunction("itbl2:ore_tier_2_trigger")
+setPos(-10,0)

@@ -10,20 +10,12 @@ furnace.remove(<thebetweenlands:sulfur_torch>);
 
 recipes.remove(<thebetweenlands:items_misc:32>);
 recipes.remove(<thebetweenlands:items_misc:50>);
+recipes.remove(<thebetweenlands:items_misc:20>);
+recipes.remove(<thebetweenlands:swamp_talisman>);
 
 
 recipes.remove(<thebetweenlands:gerts_donut>);
 recipes.addShapeless("gerts_donut", <thebetweenlands:gerts_donut>, [<thebetweenlands:reed_donut>, <thebetweenlands:wight_heart>, <thebetweenlands:sap_spit>]);
-
-
-
-recipes.remove(<thebetweenlands:items_misc:20>);
-recipes.addShaped("weedwood_stick", <thebetweenlands:items_misc:20> * 2, [
-	[weedWoodLogs],
-	[weedWoodLogs]
-]);
-
-recipes.remove(<thebetweenlands:swamp_talisman>);
 
 recipes.addShapeless("convenient_dual_furnace", <thebetweenlands:sulfur_furnace_dual>, [<thebetweenlands:sulfur_furnace>, <thebetweenlands:sulfur_furnace>]);
 
@@ -111,17 +103,18 @@ recipes.addShaped("lantern_paper_1_candle", <thebetweenlands:lantern_paper_1>, [
 recipes.remove(<thebetweenlands:weedwood_barrel>);
 recipes.addShaped("weedwood_barrel", <thebetweenlands:weedwood_barrel>, [
 	[<thebetweenlands:weedwood_plank_slab>, null, <thebetweenlands:weedwood_plank_slab>], 
-	[<thebetweenlands:items_misc:11>, <thebetweenlands:bl_bucket:*>.withTag({Fluid: {FluidName: "tar", Amount: 1000}}).noReturn(), <thebetweenlands:items_misc:11>], 
+	[<thebetweenlands:items_misc:11>, <thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "tar", Amount: 1000}}).noReturn(), <thebetweenlands:items_misc:11>], 
 	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
 ]);
+
 recipes.addShaped("clear_weedwood_barrel", <thebetweenlands:weedwood_barrel>, [[<thebetweenlands:weedwood_barrel>]]);
-
-
 
 recipes.addShapeless("dragonfly_wings", <thebetweenlands:items_misc:3> * 2, [<roots:mystic_feather>]);
 
 
+<thebetweenlands:sulfur_torch_extinguished>.displayName = "Unlit Sulfur Torch";
+
 scripts.utils.addBLChangeTooltip(<thebetweenlands:octine_pickaxe:*>, "Chance to turn ore into slag heap");
 scripts.utils.addBLChangeTooltip(<thebetweenlands:octine_shovel:*>, "Chance to turn sand into glass, mud into bricks");
 
-scripts.utils.addInfoTooltip(<thebetweenlands:sulfur_torch_extinguished>, "Can be relit with an octine ingot.");
+scripts.utils.addInfoTooltip(<thebetweenlands:sulfur_torch_extinguished>, "Can be relit with an octine ingot or at a campfire.");

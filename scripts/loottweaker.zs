@@ -328,5 +328,6 @@ addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "sapling_spi
 
 val sporeling = LootTweaker.getTable("thebetweenlands:entities/sporeling");
 val sporeling_main = sporeling.getPool("sporeling");
+sporeling_main.setRolls(0, 2);
 sporeling_main.removeEntry("thebetweenlands:spores");
 sporeling_main.addItemEntryHelper(<thebetweenlands:spores>, 1, 1, [Functions.setCount(0, 1)], []);

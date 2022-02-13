@@ -116,6 +116,7 @@ val itemsToKeep = [
 	<minecraft:comparator>,
 	<minecraft:redstone_block>,
 	<minecraft:redstone_lamp>,
+	<minecraft:glass_bottle>,
 ] as IItemStack[];
 
 
@@ -304,7 +305,12 @@ recipes.addShaped("comparator", <minecraft:comparator>, [
 	[<ore:stone>, <ore:stone>, <ore:stone>]
 ]);
 
-
+recipes.remove(<minecraft:glass_bottle>);
+recipes.addShaped("glass_bottle", <minecraft:glass_bottle>, [
+	[null, <thebetweenlands:items_misc:23>, null],
+	[<thebetweenlands:silt_glass_pane>, null, <thebetweenlands:silt_glass_pane>],
+	[null, <thebetweenlands:silt_glass_pane>, null]
+]);
 
 
 
