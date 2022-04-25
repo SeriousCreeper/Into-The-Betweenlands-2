@@ -72,6 +72,11 @@ val itemsToRemove = [
 	<roots:elemental_soil_water>,
 	<roots:elemental_soil_fire>,
 	<roots:elemental_soil_air>,
+	<roots:wildewheet>,
+	<roots:wildewheet_seed>,
+	<roots:wildewheet_bread>,
+	<roots:life_essence>,
+	<roots:ritual_transmutation>,
 ] as IItemStack[];
 
 
@@ -178,7 +183,117 @@ Mortar.removeRecipe(<roots:petals>);
 //Mortar.addRecipe("petals", <roots:petals>, [<ore:allFlowers>]);
 
 
-//Mortar.changeSpell("spell_supplication", [<ore:doorWood>, <thebetweenlands:cragrock:2>, <thebetweenlands:sapling_weedwood>, <roots:wildroot>, <thebetweenlands:items_misc:14>]);
+Mortar.changeSpell("spell_geas", [
+	<thebetweenlands:weedwood_fishing_rod>,
+	<minecraft:lead>,
+	<roots:terra_spores>,
+	<thebetweenlands:yellow_dotted_fungus>,
+	<thebetweenlands:items_misc:14>
+]);
+
+Mortar.changeSpell("spell_rose_thorns", [
+	<thebetweenlands:nettle_flowered>,
+	<thebetweenlands:thorns>,
+	<thebetweenlands:items_misc:20>,
+	<roots:terra_moss>,
+	<thebetweenlands:items_misc:59>
+]);
+
+Mortar.changeSpell("spell_aqua_bubble", [
+	<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}),
+	<roots:dewgonia>,
+	<minecraft:snowball>,
+	<thebetweenlands:filtered_silt_glass>,
+	<thebetweenlands:dentrothyst_shard_orange>
+]);
+
+Mortar.changeSpell("spell_sanctuary", [
+	<thebetweenlands:repeller>,
+	<roots:pereskia>,
+	<roots:bark_spruce>,
+	<roots:wildroot>,
+	<thebetweenlands:shimmer_stone>
+]);
+
+Mortar.changeSpell("spell_growth_infusion", [
+	<ore:treeSapling>,
+	<ore:allFlowers>,
+	<roots:terra_moss>,
+	<thebetweenlands:swamp_reed_item>,
+	<thebetweenlands:compost_block>
+]);
+
+Mortar.changeSpell("spell_wild_fire", [
+	<thebetweenlands:items_misc:45>,
+	<embers:wildfire_core>,
+	<thebetweenlands:items_misc:18>,
+	<roots:infernal_bulb>,
+	<embers:dust_ember>
+]);
+
+Mortar.changeSpell("spell_natures_scythe", [
+	<roots:wildroot>,
+	<roots:wildroot>,
+	<ore:ns_tallgrass>,
+	<thebetweenlands:middle_fruit>,
+	<thebetweenlands:syrmorite_shears>
+]);
+
+Mortar.changeSpell("spell_shatter", [
+	<roots:living_pickaxe>,
+	<roots:stalicripe>,
+	<thebetweenlands:pitstone>,
+	<thebetweenlands:sulfur_block>,
+	<thebetweenlands:octine_ingot>
+]);
+
+Mortar.changeSpell("spell_acid_cloud", [
+	<thebetweenlands:yellow_dotted_fungus>,
+	<minecraft:dye:10>,
+	<thebetweenlands:items_misc:14>,
+	<thebetweenlands:poison_ivy>,
+	<roots:runic_dust>
+]);
+
+Mortar.changeSpell("spell_radiance", [
+	<roots:pereskia>,
+	<roots:cloud_berry>,
+	<arcanearchives:shaped_quartz>,
+	<arcanearchives:quartz_sliver>,
+	<embers:ingot_dawnstone>
+]);
+
+Mortar.changeSpell("spell_fey_light", [
+	<thaumcraft:lamp_arcane>,
+	<arcanearchives:quartz_sliver>,
+	<roots:cloud_berry>,
+	<ore:rootsBark>,
+	<roots:cloud_berry>
+]);
+
+Mortar.changeSpell("spell_desaturate", [
+	<roots:petals>,
+	<roots:spirit_herb>,
+	<thebetweenlands:items_misc:14>,
+	<thebetweenlands:items_misc:55>,
+	<thebetweenlands:items_misc:22>
+]);
+
+Mortar.changeSpell("spell_life_drain", [
+	<thebetweenlands:yellow_dotted_fungus>,
+	<roots:moonglow_leaf>,
+	<thaumcraft:void_sword>,
+	<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "victus"}]}),
+	<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "mortuus"}]})
+]);
+
+Mortar.changeSpell("spell_petal_shell", [
+	<roots:petals>,
+	<thebetweenlands:middle_fruit>,
+	<roots:spirit_herb>,
+	<thebetweenlands:octine_shield>,
+	<roots:pereskia>
+]);
 
 
 
@@ -376,6 +491,7 @@ Pyre.removeRecipe(<roots:cooked_pereskia> * 5);
 // Runic Shears
 val defaultDelay = 20 * 60 * 20;
 
+
 RunicShears.removeRecipe(<roots:fey_leather>);
 RunicShears.addEntityRecipe("pods_from_roots", <thebetweenlands:root_pod> * 2, <entity:thebetweenlands:root_sprite>, defaultDelay);
 RunicShears.addEntityRecipe("lurkerskin_from_roots", <thebetweenlands:items_misc:4>, <entity:thebetweenlands:lurker>, defaultDelay);
@@ -386,7 +502,7 @@ RunicShears.removeRecipe(<roots:spirit_herb>);
 RunicShears.addRecipe("spirit_herb", <roots:spirit_herb>, PropertyPredicate.create(<blockstate:thebetweenlands:middle_fruit_bush:age=15,decayed=false>, ["age","decayed"]), <blockstate:thebetweenlands:middle_fruit_bush:age=2>, <thebetweenlands:middle_fruit>);
 
 RunicShears.removeRecipe(<roots:wildewheet>);
-RunicShears.addRecipe("wildewheet", <roots:wildewheet>, StatePredicate.create(<blockstate:thebetweenlands:swamp_reed>), <blockstate:minecraft:air>, <thebetweenlands:swamp_reed_item>);
+//RunicShears.addRecipe("wildewheet", <roots:wildewheet>, StatePredicate.create(<blockstate:thebetweenlands:swamp_reed>), <blockstate:minecraft:air>, <thebetweenlands:swamp_reed_item>);
 
 RunicShears.removeRecipe(<roots:mystic_feather>);
 RunicShears.addEntityRecipe("mystic_feather", <roots:mystic_feather>, <entity:thebetweenlands:dragonfly>, defaultDelay);
@@ -405,15 +521,98 @@ RunicShears.removeRecipe(<roots:spirit_bag>);
 
 
 // RITUALS
-Rituals.modifyRitual("ritual_grove_supplication", 
-	[<ore:doorWood>, <ore:treeSapling>, <roots:petals>, <roots:wildroot>, <thebetweenlands:cragrock:1> | <thebetweenlands:cragrock:2>]);
+Rituals.modifyRitual("ritual_grove_supplication", [
+	<ore:doorWood>, 
+	<ore:treeSapling>, 
+	<roots:petals>, 
+	<roots:wildroot>, 
+	<thebetweenlands:cragrock:1> | <thebetweenlands:cragrock:2>
+]);
 
-Transmutation.addStateToStateRecipe("greatwood_sapling", StatePredicate.create(<blockstate:thebetweenlands:sapling_weedwood>), <blockstate:thaumcraft:sapling_greatwood>, null);
-Transmutation.addStateToStateRecipe("silverwood_sapling", StatePredicate.create(<blockstate:thebetweenlands:sapling_spirit_tree>), <blockstate:thaumcraft:sapling_silverwood>, null);
+Rituals.modifyRitual("ritual_divine_protection", [
+	<roots:pereskia>,
+	<roots:cloud_berry>,
+	<roots:bark_oak>,
+	<thebetweenlands:items_misc:47>,
+	<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "ordo"}]})
+]);
 
+Rituals.modifyRitual("ritual_fire_storm", [
+	<roots:bark_acacia>,
+	<roots:bark_acacia>,
+	<roots:infernal_bulb>,
+	<thebetweenlands:items_misc:45>,
+	<thebetweenlands:items_misc:18>
+]);
 
+Rituals.modifyRitual("ritual_windwall", [
+	<roots:moonglow_leaf>,
+	<ore:rootsBark>,
+	<ore:rootsBark>,
+	<ore:allFlowers>,
+	<roots:runestone>
+]);
 
-//Transmutation.addBlockToBlockRecipe("greatwood_sapling", <blockstate:roots:wildwood_sapling>, <blockstate:thaumcraft:sapling_greatwood>);
+Rituals.modifyRitual("ritual_warding_protection", [
+	<roots:stalicripe>,
+	<roots:wildroot>,
+	<ore:rootsBark>,
+	<thebetweenlands:weedwood_shield>,
+	<thebetweenlands:sap_ball>
+]);
+
+Rituals.modifyRitual("ritual_germination", [
+	<roots:spirit_herb>,
+	<roots:wildroot>,
+	<ore:rootsBark>,
+	<thebetweenlands:middle_fruit>,
+	<thebetweenlands:items_crushed:17>
+]);
+
+Rituals.modifyRitual("ritual_purity", [
+	<roots:terra_moss>,
+	<thebetweenlands:middle_fruit>,
+	<thebetweenlands:yellow_dotted_fungus>,
+	<thebetweenlands:tangled_root>,
+	<simpledifficulty:purified_water_bottle>
+]);
+
+Rituals.modifyRitual("ritual_animal_harvest", [
+	<thebetweenlands:items_misc:6>,
+	<thebetweenlands:black_hat_mushroom_item>,
+	<roots:wildroot>,
+	<ore:slimeball>,
+	<thebetweenlands:items_misc:56>
+]);
+
+Rituals.modifyRitual("ritual_summon_creatures", [
+	<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]}),
+	<thebetweenlands:items_misc:14>,
+	<thebetweenlands:rock_snot_pearl>,
+	<thebetweenlands:items_misc:18>,
+	<arcanearchives:quartz_sliver>
+]);
+
+Rituals.modifyRitual("ritual_overgrowth", [
+	<roots:terra_moss>,
+	<ore:rootsBark>,
+	<ore:rootsBark>,
+	<thebetweenlands:swamp_reed_item>,
+	<thebetweenlands:swamp_double_tallgrass>
+]);
+
+Rituals.modifyRitual("ritual_gathering", [
+	<ore:slimeball>,
+	<thebetweenlands:items_misc:6>,
+	<roots:moonglow_seed>,
+	<thebetweenlands:items_misc:11>,
+	<minecraft:redstone>
+]);
+
+var animal_harvest = Rituals.getRitual("animal_harvest") as Ritual;
+animal_harvest.setInteger("fish_count", 1);
+animal_harvest.setInteger("interval", 300);
+
 
 
 
@@ -496,17 +695,23 @@ FlowerGrowth.addRecipeBlock("thebetweenlands_dead_weedwood_bush", <thebetweenlan
 var natures_scythe = Spells.getSpell("natures_scythe") as Spell;
 natures_scythe.setString("web_dictionary", "ns_webs");
 natures_scythe.setString("grass_dictionary", "ns_tallgrass");
-
+natures_scythe.setString("web_dictionary", "ns_webs");
 
 var shatter = Spells.getSpell("shatter") as Spell;
 
-natures_scythe.setString("web_dictionary", "ns_webs");
 
 
 
 // Modifiers
 Modifiers.disableModifier("false_night");
-
+Modifiers.disableModifier("moonfall");
+Modifiers.disableModifier("unholy_command");
+Modifiers.disableModifier("false_night");
+Modifiers.disableModifier("embiggening");
+Modifiers.disableModifier("incubation");
+Modifiers.disableModifier("ore_infusion");
+Modifiers.disableModifier("hydration");
+Modifiers.disableModifier("spider_unsuffrage");
 
 
 

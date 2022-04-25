@@ -117,6 +117,7 @@ val itemsToKeep = [
 	<minecraft:redstone_block>,
 	<minecraft:redstone_lamp>,
 	<minecraft:glass_bottle>,
+	<minecraft:snowball>,
 ] as IItemStack[];
 
 

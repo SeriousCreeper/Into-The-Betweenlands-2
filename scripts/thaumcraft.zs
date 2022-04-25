@@ -776,6 +776,8 @@ ArcaneWorkbench.registerShapelessRecipe("tubevalve", "TUBES@2", 10, [
 // SALIS MUNDUS
 SalisMundus.removeSingleConversion(<thaumcraft:crucible>);
 SalisMundus.addSingleConversion(<ore:blockSyrmorite>, <thaumcraft:crucible>);
+SalisMundus.addSingleConversion(<roots:wildwood_sapling>, <thaumcraft:sapling_greatwood>);
+SalisMundus.addSingleConversion(<thebetweenlands:sapling_spirit_tree>, <thaumcraft:sapling_silverwood>);
 
 
 
