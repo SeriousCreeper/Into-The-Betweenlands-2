@@ -31,34 +31,34 @@ for item in basketItems {
 
 recipes.remove(<basketcase:wicker_small_generic>);
 recipes.addShaped("wicker_small", <basketcase:wicker_small_generic>, [
-	[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>],
-	[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>]
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>],
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>]
 ]);
 
 recipes.remove(<basketcase:wicker_medium_generic>);
 recipes.addShaped("wicker_medium", <basketcase:wicker_medium_generic>, [
-	[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>],
-	[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>]
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>],
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>]
 ]);
 
 recipes.remove(<basketcase:wicker_large_generic>);
 recipes.addShaped("wicker_large", <basketcase:wicker_large_generic>, [
-	[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>],
-	[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>],
-	[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>]
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>],
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>],
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>]
 ]);
 
 
 recipes.remove(<basketcase:basket_medium_generic>);
 recipes.addShaped("basket_medium_generic", <basketcase:basket_medium_generic>, [
-	[<thebetweenlands:items_misc:7>, <basketcase:wicker_medium_generic>, <thebetweenlands:items_misc:7>], 
+	[<thebetweenlands:items_misc:6>, <basketcase:wicker_medium_generic>, <thebetweenlands:items_misc:6>], 
 	[<basketcase:wicker_medium_generic>, <basketcase:wicker_medium_generic>, <basketcase:wicker_medium_generic>], 
-	[<thebetweenlands:items_misc:7>, <basketcase:wicker_medium_generic>, <thebetweenlands:items_misc:7>]
+	[<thebetweenlands:items_misc:6>, <basketcase:wicker_medium_generic>, <thebetweenlands:items_misc:6>]
 ]);
 
 recipes.remove(<basketcase:basket_large_generic>);
 recipes.addShaped("basket_large_generic", <basketcase:basket_large_generic>, [
-	[<thebetweenlands:items_misc:7>, <basketcase:wicker_large_generic>, <thebetweenlands:items_misc:7>], 
+	[<thebetweenlands:items_misc:6>, <basketcase:wicker_large_generic>, <thebetweenlands:items_misc:6>], 
 	[<basketcase:wicker_large_generic>, <basketcase:wicker_large_generic>, <basketcase:wicker_large_generic>], 
-	[<thebetweenlands:items_misc:7>, <basketcase:wicker_large_generic>, <thebetweenlands:items_misc:7>]
+	[<thebetweenlands:items_misc:6>, <basketcase:wicker_large_generic>, <thebetweenlands:items_misc:6>]
 ]);

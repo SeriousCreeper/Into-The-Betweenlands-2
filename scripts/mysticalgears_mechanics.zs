@@ -12,6 +12,10 @@ JEI.removeAndHide(<mystgears:redstone_dynamo>);
 JEI.removeAndHide(<mysticalmechanics:gear_iron>);
 JEI.removeAndHide(<mysticalmechanics:gear_gold>);
 
+recipes.remove(<mystgears:gear_octine>);
+recipes.remove(<mystgears:gear_valonite>);
+
+
 
 recipes.remove(<mysticalmechanics:gear_fan>);
 recipes.addShaped("mysticalmechanics-fan_iron", <mysticalmechanics:gear_fan>, [

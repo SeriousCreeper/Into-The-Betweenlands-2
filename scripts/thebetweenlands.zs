@@ -13,6 +13,8 @@ recipes.remove(<thebetweenlands:items_misc:50>);
 recipes.remove(<thebetweenlands:items_misc:20>);
 recipes.remove(<thebetweenlands:swamp_talisman>);
 
+recipes.removeByRegex("thebetweenlands:valonite_shard");
+
 
 recipes.remove(<thebetweenlands:gerts_donut>);
 recipes.addShapeless("gerts_donut", <thebetweenlands:gerts_donut>, [<thebetweenlands:reed_donut>, <thebetweenlands:wight_heart>, <thebetweenlands:sap_spit>]);
@@ -106,6 +108,14 @@ recipes.addShaped("weedwood_barrel", <thebetweenlands:weedwood_barrel>, [
 	[<thebetweenlands:items_misc:11>, <thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "tar", Amount: 1000}}).noReturn(), <thebetweenlands:items_misc:11>], 
 	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
 ]);
+
+recipes.remove(<thebetweenlands:thatch>);
+recipes.addShaped("thatch", <thebetweenlands:thatch> * 4, [
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>], 
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>], 
+	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>]
+]);
+
 
 recipes.addShaped("clear_weedwood_barrel", <thebetweenlands:weedwood_barrel>, [[<thebetweenlands:weedwood_barrel>]]);
 

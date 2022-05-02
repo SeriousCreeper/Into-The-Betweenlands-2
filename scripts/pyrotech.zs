@@ -190,7 +190,11 @@ val itemsToRemove = [
 	<pyrotech:stone_door>,
 	<pyrotech:matchstick>,
 	<pyrotech:material:11>,
-	<pyrotech:material:35>
+	<pyrotech:material:35>,
+	<pyrotech:material:18>,
+	<pyrotech:material:34>,
+	<pyrotech:wood_tar_block>,
+	<pyrotech:living_tar>
 ] as IItemStack[];
 
 
@@ -416,13 +420,13 @@ recipes.addShaped("tech/basic/kiln_pit", <pyrotech:kiln_pit>, [
 recipes.remove(<pyrotech:crude_axe>);
 recipes.addShaped("tool/crude_axe", <pyrotech:crude_axe>, [
 	[<ore:rock>, <thebetweenlands:swamp_reed_item>], 
-	[<ore:rock>, <ore:stickWood>]
+	[null, <ore:stickWood>]
 ]);
 
 recipes.remove(<pyrotech:crude_hammer>);
 recipes.addShaped("crude_hammer", <pyrotech:crude_hammer>, [
-	[<ore:rock>, <ore:rock>], 
-	[<ore:stickWood>, <thebetweenlands:swamp_reed_item>]
+	[<ore:rock>, <thebetweenlands:swamp_reed_item>], 
+	[<ore:stickWood>, <ore:rock>]
 ]);
 
 recipes.remove(<pyrotech:worktable>);
@@ -431,6 +435,12 @@ recipes.addShaped("worktable", <pyrotech:worktable>, [
 	[<thebetweenlands:log_weedwood:*>]
 ]);
 
+recipes.remove(<pyrotech:brick_kiln>);
+recipes.addShaped("tech/machine/brick_kiln", <pyrotech:brick_kiln>, [
+	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>], 
+	[<pyrotech:refractory_brick_block>, <pyrotech:kiln_pit>, <pyrotech:refractory_brick_block>], 
+	[<ore:ingotSyrmorite>, <pyrotech:refractory_brick_block>, <ore:ingotSyrmorite>]
+]);
 
 
 
@@ -468,7 +478,6 @@ val campfireRecipes = [
 
 for item in campfireRecipes {
 	furnace.remove(item);
-	//Campfire.addRecipe("roasted_carrot_from_carrot", <pyrotech:carrot_roasted>, <minecraft:carrot>);
 }
 
 val defaultCookTime = 20 * 20;
@@ -484,7 +493,7 @@ Campfire.addRecipe("anadia_meat_cooked", <thebetweenlands:anadia_meat_cooked>, <
 Campfire.addRecipe("olm_egg_cooked", <thebetweenlands:olm_egg_cooked>, <thebetweenlands:olm_egg_raw>, defaultCookTime);
 Campfire.addRecipe("cooked_pereskia", <roots:cooked_pereskia>, <roots:pereskia_bulb>, defaultCookTime);
 Campfire.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, defaultCookTime / 4);
-//Campfire.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, 1);
+Campfire.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, 40);
 Campfire.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, defaultCookTime);
 
 StoneOven.addRecipe("frog_legs_cooked", <thebetweenlands:frog_legs_cooked>, <thebetweenlands:frog_legs_raw>, true);
@@ -588,6 +597,7 @@ for metal in metals {
 GraniteAnvil.addRecipe("stick_stone", <pyrotech:material:27> * 4, <pyrotech:material:16>, 4, "pickaxe", true);
 IroncladAnvil.addRecipe("redstone_dust_from_dense_redstone", <minecraft:redstone> * 2, <pyrotech:material:36>, 2, "hammer");
 IroncladAnvil.addRecipe("redstone_from_redstone_block", <minecraft:redstone> * 9, <ore:blockRedstone>, 8, "hammer");
+IroncladAnvil.addRecipe("valonite_block_to_gem", <thebetweenlands:items_misc:19> * 9, <thebetweenlands:valonite_block>, 8, "pickaxe");
 
 
 
@@ -755,6 +765,7 @@ Burn.createBuilder("sulfur_from_hearthgrove", <thebetweenlands:items_misc:18>, "
     .setFluidLevelAffectsFailureChance(true)
     .register();
 
+/*
 Burn.createBuilder("sulfur_from_tarred_hearthgrove", <thebetweenlands:items_misc:18>, "thebetweenlands:log_hearthgrove:5")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(7 * 60 * 20)
@@ -766,7 +777,6 @@ Burn.createBuilder("sulfur_from_tarred_hearthgrove", <thebetweenlands:items_misc
     .setFluidLevelAffectsFailureChance(true)
     .register();
 
-/*
 Burn.createBuilder("coke_from_sulfur", <immersiveengineering:material:6>, "thebetweenlands:sulfur_block:*")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(1 * 60 * 20)

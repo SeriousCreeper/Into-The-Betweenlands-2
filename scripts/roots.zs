@@ -21,6 +21,7 @@ import mods.roots.Spell;
 import mods.roots.Costs;
 import mods.roots.Herbs;
 import mods.roots.Modifiers;
+import mods.roots.SummonCreatures;
 
 
 
@@ -493,9 +494,12 @@ val defaultDelay = 20 * 60 * 20;
 
 
 RunicShears.removeRecipe(<roots:fey_leather>);
+RunicShears.removeRecipe(<mysticalworld:aubergine>);
+RunicShears.removeRecipe(<roots:spirit_bag>);
+
 RunicShears.addEntityRecipe("pods_from_roots", <thebetweenlands:root_pod> * 2, <entity:thebetweenlands:root_sprite>, defaultDelay);
 RunicShears.addEntityRecipe("lurkerskin_from_roots", <thebetweenlands:items_misc:4>, <entity:thebetweenlands:lurker>, defaultDelay);
-RunicShears.addEntityRecipe("feyleather_from_geckos", <roots:fey_leather>, <entity:thebetweenlands:gecko>, defaultDelay);
+//RunicShears.addEntityRecipe("feyleather_from_geckos", <roots:fey_leather>, <entity:thebetweenlands:gecko>, defaultDelay);
 RunicShears.addEntityRecipe("feyleather_from_toads", <roots:fey_leather>, <entity:thebetweenlands:toad>, defaultDelay);
 
 RunicShears.removeRecipe(<roots:spirit_herb>);
@@ -509,15 +513,28 @@ RunicShears.addEntityRecipe("mystic_feather", <roots:mystic_feather>, <entity:th
 
 RunicShears.removeRecipe(<roots:strange_ooze>);
 RunicShears.addEntityRecipe("strange_ooze_1", <roots:strange_ooze>, <entity:thebetweenlands:frog>, defaultDelay);
-RunicShears.addEntityRecipe("strange_ooze_2", <roots:strange_ooze>, <entity:thebetweenlands:sludge>, defaultDelay);
-RunicShears.addEntityRecipe("strange_ooze_3", <roots:strange_ooze>, <entity:thebetweenlands:tiny_sludge_worm>, defaultDelay);
-RunicShears.addEntityRecipe("strange_ooze_4", <roots:strange_ooze>, <entity:thebetweenlands:large_sludge_worm>, defaultDelay);
 
 RunicShears.addEntityRecipe("sporeling_spores", <thebetweenlands:spores>, <entity:thebetweenlands:sporeling>, defaultDelay);
 RunicShears.addEntityRecipe("ochre_shells", <thebetweenlands:items_misc:1>, <entity:thebetweenlands:mire_snail>, defaultDelay);
 
+RunicShears.removeEntityRecipe(<entity:minecraft:zombie_pigman>);
+RunicShears.removeEntityRecipe(<entity:minecraft:wolf>);
+RunicShears.removeEntityRecipe(<entity:minecraft:silverfish>);
+RunicShears.removeEntityRecipe(<entity:minecraft:spider>);
+RunicShears.removeEntityRecipe(<entity:minecraft:zombie_horse>);
+RunicShears.removeEntityRecipe(<entity:minecraft:ocelot>);
+RunicShears.removeEntityRecipe(<entity:minecraft:polar_bear>);
+RunicShears.removeEntityRecipe(<entity:minecraft:snowman>);
+RunicShears.removeEntityRecipe(<entity:minecraft:cave_spider>);
+RunicShears.removeEntityRecipe(<entity:minecraft:villager_golem>);
+RunicShears.removeEntityRecipe(<entity:minecraft:skeleton_horse>);
 
-RunicShears.removeRecipe(<roots:spirit_bag>);
+RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_sprout>);
+RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_clam>);
+RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_hell_sprout>);
+RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_lava_cat>);
+
+
 
 
 // RITUALS
@@ -613,6 +630,43 @@ var animal_harvest = Rituals.getRitual("animal_harvest") as Ritual;
 animal_harvest.setInteger("fish_count", 1);
 animal_harvest.setInteger("interval", 300);
 
+
+
+
+// Summoning
+SummonCreatures.clearLifeEssence();
+
+SummonCreatures.removeEntity(<entity:minecraft:cow>);
+SummonCreatures.removeEntity(<entity:minecraft:witch>);
+SummonCreatures.removeEntity(<entity:minecraft:spider>);
+SummonCreatures.removeEntity(<entity:minecraft:donkey>);
+SummonCreatures.removeEntity(<entity:minecraft:pig>);
+SummonCreatures.removeEntity(<entity:minecraft:ocelot>);
+SummonCreatures.removeEntity(<entity:minecraft:rabbit>);
+SummonCreatures.removeEntity(<entity:minecraft:mooshroom>);
+SummonCreatures.removeEntity(<entity:minecraft:chicken>);
+SummonCreatures.removeEntity(<entity:minecraft:creeper>);
+SummonCreatures.removeEntity(<entity:minecraft:stray>);
+SummonCreatures.removeEntity(<entity:minecraft:parrot>);
+SummonCreatures.removeEntity(<entity:minecraft:zombie>);
+SummonCreatures.removeEntity(<entity:minecraft:squid>);
+SummonCreatures.removeEntity(<entity:minecraft:zombie_pigman>);
+SummonCreatures.removeEntity(<entity:minecraft:skeleton>);
+SummonCreatures.removeEntity(<entity:minecraft:horse>);
+SummonCreatures.removeEntity(<entity:minecraft:wolf>);
+SummonCreatures.removeEntity(<entity:minecraft:sheep>);
+SummonCreatures.removeEntity(<entity:minecraft:polar_bear>);
+SummonCreatures.removeEntity(<entity:minecraft:llama>);
+SummonCreatures.removeEntity(<entity:minecraft:mule>);
+SummonCreatures.removeEntity(<entity:minecraft:husk>);
+SummonCreatures.removeEntity(<entity:minecraft:bat>);
+
+SummonCreatures.removeEntity(<entity:mysticalworld:entity_fox>);
+SummonCreatures.removeEntity(<entity:mysticalworld:entity_owl>);
+SummonCreatures.removeEntity(<entity:mysticalworld:entity_beetle>);
+SummonCreatures.removeEntity(<entity:mysticalworld:entity_deer>);
+SummonCreatures.removeEntity(<entity:mysticalworld:entity_frog>);
+SummonCreatures.removeEntity(<entity:mysticalworld:entity_sprout>);
 
 
 

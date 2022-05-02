@@ -6,9 +6,17 @@ setDescription("Break some old rusty blocks")
 
 addParent("itbl2:root")
 
+setRequirements("any")
+
 //Criteria
-criteria = addCriteria("broke_rusty_blocks", "triumph:player_break_block")
-criteria.setBlock(<ore:rustyBlocks>)
+criteria = addCriteria("broke_rusty_blocks", "triumph:minecraft:inventory_changed")
+criteria.setBlock("immersiveruins:scrap")
+
+criteria2 = addCriteria("broke_rusty_blocks2", "triumph:minecraft:inventory_changed")
+criteria2.setBlock("immersiveruins:scrap2")
+
+criteria3 = addCriteria("broke_rusty_blocks3", "triumph:minecraft:inventory_changed")
+criteria3.setBlock("immersiveruins:scrap3")
 
 addRewardFunction("itbl2:ore_tier_2_trigger")
 setPos(-10,0)

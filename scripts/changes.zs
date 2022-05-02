@@ -612,3 +612,4 @@ recipes.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<uppers
 <minecraft:dye:3>.displayName = "Brown Dye";
 <minecraft:dye:4>.displayName = "Blue Dye";
 <minecraft:paper>.displayName = "Research Paper";
+<minecraft:glass_bottle>.displayName = "Silt Glass Bottle";

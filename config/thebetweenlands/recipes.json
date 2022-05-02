@@ -444,6 +444,14 @@
         "id": "pizzacraft:paper_mass",
         "size": 3
       }
+    },
+    {
+      "input": {
+        "id": "minecraft:glass_bottle"
+      },
+      "output": {
+        "id": "simpledifficulty:purified_water_bottle"
+      }
     }
   ],
   "animator_repairable": [
@@ -506,6 +514,204 @@
       "input": {
         "item": {
           "id": "thaumcraft:elemental_pick"
+        },
+        "min_fuel": 16,
+        "max_fuel": 32,
+        "min_life": 32,
+        "max_life": 64
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:living_axe"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:terrastone_axe"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:runed_axe"
+        },
+        "min_fuel": 24,
+        "max_fuel": 48,
+        "min_life": 48,
+        "max_life": 110
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:thaumium_axe"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_axe"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:elemental_axe"
+        },
+        "min_fuel": 16,
+        "max_fuel": 32,
+        "min_life": 32,
+        "max_life": 64
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:living_shovel"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:terrastone_shovel"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:runed_shovel"
+        },
+        "min_fuel": 24,
+        "max_fuel": 48,
+        "min_life": 48,
+        "max_life": 110
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:thaumium_shovel"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_shovel"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:elemental_shovel"
+        },
+        "min_fuel": 16,
+        "max_fuel": 32,
+        "min_life": 32,
+        "max_life": 64
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:living_sword"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:terrastone_sword"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:runed_sword"
+        },
+        "min_fuel": 24,
+        "max_fuel": 48,
+        "min_life": 48,
+        "max_life": 110
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:thaumium_sword"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:void_sword"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "thaumcraft:elemental_sword"
         },
         "min_fuel": 16,
         "max_fuel": 32,
