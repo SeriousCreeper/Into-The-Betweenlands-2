@@ -1,0 +1,14 @@
+setTitle("Limestone")
+
+setIcon(<thebetweenlands:limestone>)
+
+setDescription("Acquire limestone")
+
+addParent("itbl2:chapter_1/05_bones")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("thebetweenlands:limestone")
+

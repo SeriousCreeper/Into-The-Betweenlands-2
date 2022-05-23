@@ -1,0 +1,14 @@
+setTitle("Primitive Worktable")
+
+setIcon(<pyrotech:worktable>)
+
+setDescription("Craft a primitive worktable")
+
+addParent("itbl2:chapter_1/02_chopping_table")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasWorktable", "minecraft:inventory_changed")
+criteria.addItem("pyrotech:worktable")
+

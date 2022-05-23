@@ -47,10 +47,8 @@ for item in itemsToRemove {
 	item.removeAspects(allAspects);
 }
 
-val waterBucket = <thebetweenlands:bl_bucket:0>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:0>) |
-				  <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:1>);
-val honeyJar = <bladditions:dentrothyst_fluid_vial:0>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}).transformReplace(<thebetweenlands:dentrothyst_vial:1>) |
-			   <bladditions:dentrothyst_fluid_vial:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}).transformReplace(<thebetweenlands:dentrothyst_vial:2>);
+val waterBucket = <thebetweenlands:bl_bucket:0>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:0>) |
+				  <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:1>);
 
 
 recipes.remove(<pizzacraft:pizza_oven>);
@@ -91,8 +89,8 @@ recipes.addShaped("pizza_bag", <pizzacraft:pizza_bag>, [
 recipes.remove(<pizzacraft:dough>);
 recipes.addShaped("dough", <pizzacraft:dough>, [
 	[null, <growthcraft_milk:butter>, null], 
-	[honeyJar, waterBucket, honeyJar], 
-	[<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]
+	[<growthcraft_bees:bottlefluid_honey>.transformReplace(<minecraft:glass_bottle>), waterBucket, <growthcraft_bees:bottlefluid_honey>.transformReplace(<minecraft:glass_bottle>)], 
+	[<thebetweenlands:items_crushed:17>, <thebetweenlands:items_crushed:17>, <thebetweenlands:items_crushed:17>]
 ]);
 
 

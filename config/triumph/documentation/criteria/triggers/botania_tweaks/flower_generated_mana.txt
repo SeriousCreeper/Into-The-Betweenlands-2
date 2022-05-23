@@ -4,14 +4,6 @@ of mana with a certain flower.
 
 
 
-setRequiredMana:
-    Arguments:
-        long
-    Usage:
-        required mana
-    Notes:
-        Sets the required mana for the flower to have generated.
-
 setFlower:
     Arguments:
         String
@@ -19,6 +11,14 @@ setFlower:
         flower name
     Notes:
         Sets the required flower.
+
+setRequiredMana:
+    Arguments:
+        long
+    Usage:
+        required mana
+    Notes:
+        Sets the required mana for the flower to have generated.
 
 setCount:
     Arguments:

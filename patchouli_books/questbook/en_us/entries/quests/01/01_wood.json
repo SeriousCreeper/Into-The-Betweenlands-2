@@ -1,0 +1,27 @@
+{
+    "name": "Starting From Scratch",
+    "icon": "thebetweenlands:log_weedwood",
+    "category": "01_welcome",
+    "sortnum": 0,
+    "turnin": "itbl2:chapter_1/01_getting_wood",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Starting From Scratch",
+            "trigger": "itbl2:chapter_1/01_getting_wood",
+            "text": "$(o)\"I've only been in this world for a short while but have already encountered numerous creatures that didn't seem like the most friendly kind.$(br2)Using some of the rocks and reeds i found everywhere, i managed to hollow out one of these large trees for much needed shelter.\""
+        },
+        {
+            "type": "text",
+            "text": "$(o)Luckily i know how to make a crude axe out of some $(l:survival_guide/01/sticks)sticks$() and pebbles, wrapped in reeds."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "thebetweenlands:log_weedwood#1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:tool/crude_axe"
+        }
+    ]
+}

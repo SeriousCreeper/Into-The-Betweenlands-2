@@ -3,14 +3,6 @@ criteria trigger.
 
 
 
-setVillagerType:
-    Arguments:
-        String
-    Usage:
-        entity type
-    Notes:
-        Sets the villager entity type.
-
 setZombieType:
     Arguments:
         String
@@ -19,13 +11,21 @@ setZombieType:
     Notes:
         Sets the zombie entity type.
 
-getVillagerData:
-    Notes:
-        Returns the EntityData object for the villager so functions can be called on it.
-
 getZombieData:
     Notes:
         Returns the EntityData object for the zombie so functions can be called on it.
+
+setVillagerType:
+    Arguments:
+        String
+    Usage:
+        entity type
+    Notes:
+        Sets the villager entity type.
+
+getVillagerData:
+    Notes:
+        Returns the EntityData object for the villager so functions can be called on it.
 
 setCount:
     Arguments:

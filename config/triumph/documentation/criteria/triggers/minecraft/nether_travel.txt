@@ -3,14 +3,6 @@ trigger.
 
 
 
-setEnteredGeneratorOptions:
-    Arguments:
-        String
-    Usage:
-        generator string
-    Notes:
-        Sets the generator options string.
-
 setEnteredFeature:
     Arguments:
         String
@@ -18,14 +10,6 @@ setEnteredFeature:
         feature id
     Notes:
         Sets the feature id for the entered location. Used for things like structures.
-
-setExitedGeneratorOptions:
-    Arguments:
-        String
-    Usage:
-        generator string
-    Notes:
-        Sets the generator options string.
 
 setEnteredWorldType:
     Arguments:
@@ -35,6 +19,14 @@ setEnteredWorldType:
     Notes:
         Sets the WorldType id.
 
+setEnteredGeneratorOptions:
+    Arguments:
+        String
+    Usage:
+        generator string
+    Notes:
+        Sets the generator options string.
+
 setExitedWorldType:
     Arguments:
         String
@@ -43,37 +35,13 @@ setExitedWorldType:
     Notes:
         Sets the WorldType id.
 
-getDistanceData:
-    Notes:
-        Returns the DistanceData object so functions can be called on it.
-
-getExitedData:
-    Notes:
-        Returns the LocationData object for the exited location so functions can be called on it.
-
-setExitedBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome id
-    Notes:
-        Sets the biome id for the exited location. Can be an int or String.
-
-setExitedFeature:
+setExitedGeneratorOptions:
     Arguments:
         String
     Usage:
-        feature id
+        generator string
     Notes:
-        Sets the feature id for the exited location. Used for things like structures.
-
-setEnteredDimID:
-    Arguments:
-        int
-    Usage:
-        dimension id
-    Notes:
-        Sets the dimension id.
+        Sets the generator options string.
 
 getEnteredData:
     Notes:
@@ -87,7 +55,39 @@ setEnteredBiome:
     Notes:
         Sets the biome id for the entered location. Can be an int or String.
 
+getDistanceData:
+    Notes:
+        Returns the DistanceData object so functions can be called on it.
+
+getExitedData:
+    Notes:
+        Returns the LocationData object for the exited location so functions can be called on it.
+
+setExitedFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id for the exited location. Used for things like structures.
+
+setExitedBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id for the exited location. Can be an int or String.
+
 setExitedDimID:
+    Arguments:
+        int
+    Usage:
+        dimension id
+    Notes:
+        Sets the dimension id.
+
+setEnteredDimID:
     Arguments:
         int
     Usage:

@@ -141,7 +141,7 @@ for item in minecraftItems {
 
 
 furnace.remove(<minecraft:torch>);
-
+furnace.remove(<minecraft:redstone>);
 furnace.remove(<minecraft:dye:*>);
 /*
 furnace.remove(<minecraft:stone>);

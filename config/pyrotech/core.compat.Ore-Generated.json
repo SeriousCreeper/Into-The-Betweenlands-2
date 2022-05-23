@@ -23,8 +23,7 @@
     "oreAluminum": {
       "slagColor": "e2e2e3",
       "langKey": [
-        "betweenores:tile.betweenores.aluminum_ore",
-        "embers:tile.ore_aluminum"
+        "betweenores:tile.betweenores.aluminum_ore"
       ],
       "output": [
         "embers:nugget_aluminum:0"
@@ -33,8 +32,7 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
-        "betweenores:tile.betweenores.copper_ore",
-        "embers:tile.ore_copper"
+        "betweenores:tile.betweenores.copper_ore"
       ],
       "output": [
         "embers:nugget_copper:0"
@@ -61,12 +59,10 @@
     "oreLead": {
       "slagColor": "95afee",
       "langKey": [
-        "betweenores:tile.betweenores.lead_ore",
-        "embers:tile.ore_lead"
+        "betweenores:tile.betweenores.lead_ore"
       ],
       "output": [
-        "embers:nugget_lead:0",
-        "thaumcraft:nugget:4"
+        "embers:nugget_lead:0"
       ]
     },
     "oreNickel": {
@@ -90,8 +86,7 @@
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
-        "betweenores:tile.betweenores.silver_ore",
-        "embers:tile.ore_silver"
+        "betweenores:tile.betweenores.silver_ore"
       ],
       "output": [
         "embers:nugget_silver:0"

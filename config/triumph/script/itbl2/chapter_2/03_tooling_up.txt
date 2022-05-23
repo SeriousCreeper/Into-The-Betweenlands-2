@@ -1,0 +1,16 @@
+setTitle("Tooling Up")
+
+setIcon(<roots:living_pickaxe>)
+
+setDescription("Create living tools")
+
+addParent("itbl2:chapter_2/02_pyre")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("roots:fey_crafter")
+
+criteria2 = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria2.addItem("roots:living_pickaxe")

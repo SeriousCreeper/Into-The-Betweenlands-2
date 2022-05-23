@@ -1,0 +1,30 @@
+setTitle("Better Tools")
+
+setIcon(<thebetweenlands:weedwood_axe>)
+
+setDescription("Acquire better tools")
+
+addParent("itbl2:chapter_1/03_worktable")
+
+setRequiresParents()
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("hasBetterTool1", "minecraft:inventory_changed")
+criteria.addItem("thebetweenlands:weedwood_pickaxe")
+
+criteria2 = addCriteria("hasBetterTool2", "minecraft:inventory_changed")
+criteria2.addItem("thebetweenlands:weedwood_axe")
+
+criteria3 = addCriteria("hasBetterTool3", "minecraft:inventory_changed")
+criteria3.addItem("thebetweenlands:weedwood_shovel")
+
+criteria4 = addCriteria("hasBetterTool4", "minecraft:inventory_changed")
+criteria4.addItem("thebetweenlands:bone_shovel")
+
+criteria5 = addCriteria("hasBetterTool5", "minecraft:inventory_changed")
+criteria5.addItem("thebetweenlands:bone_axe")
+
+criteria6 = addCriteria("hasBetterTool6", "minecraft:inventory_changed")
+criteria6.addItem("thebetweenlands:bone_pickaxe")

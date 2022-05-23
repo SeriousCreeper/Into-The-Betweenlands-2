@@ -42,6 +42,18 @@ setBiome:
     Notes:
         Sets the biome id. Can be an int or String.
 
+getDistanceData:
+    Notes:
+        Returns the DistanceData object so functions can be called on it.
+
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType id
+    Notes:
+        Sets the WorldType id.
+
 setDimID:
     Arguments:
         int
@@ -58,14 +70,6 @@ setDimensionType:
     Notes:
         Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
-getDistanceData:
-    Notes:
-        Returns the DistanceData object so functions can be called on it.
-
-getLocationData:
-    Notes:
-        Returns the LocationData object so functions can be called on it.
-
 setScoreboard:
     Arguments:
         String, Float, Float
@@ -74,11 +78,7 @@ setScoreboard:
     Notes:
         Sets a required scoreboard score.
 
-setWorldType:
-    Arguments:
-        String
-    Usage:
-        WorldType id
+getLocationData:
     Notes:
-        Sets the WorldType id.
+        Returns the LocationData object so functions can be called on it.
 

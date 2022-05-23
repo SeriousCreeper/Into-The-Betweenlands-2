@@ -112,7 +112,7 @@ recipes.addShaped("weedwood_barrel", <thebetweenlands:weedwood_barrel>, [
 recipes.remove(<thebetweenlands:thatch>);
 recipes.addShaped("thatch", <thebetweenlands:thatch> * 4, [
 	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>], 
-	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>], 
+	[<thebetweenlands:items_misc:6>, null, <thebetweenlands:items_misc:6>], 
 	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>]
 ]);
 

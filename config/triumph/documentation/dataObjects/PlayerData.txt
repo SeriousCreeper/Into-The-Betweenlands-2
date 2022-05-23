@@ -2,6 +2,14 @@ These are the functions which can be called on an PlayerData object.
 
 
 
+setUUID:
+    Arguments:
+        String
+    Usage:
+        UUID
+    Notes:
+        Sets the required UUID for the player.
+
 setEquipmentSlotEmpty:
     Arguments:
         String
@@ -10,13 +18,9 @@ setEquipmentSlotEmpty:
     Notes:
         Requires the provided slot be empty. Slot options are "mainhand", "offhand", "feet", "legs", "chest", "head".
 
-setGamestage:
-    Arguments:
-        String
-    Usage:
-        gamestage
+getInventoryData:
     Notes:
-        Sets the required gamestage for the player.
+        Returns the InventoryData object for the player
 
 setEquipmentSlot:
     Arguments:
@@ -26,17 +30,13 @@ setEquipmentSlot:
     Notes:
         Sets the required item for the provided equipment slot. Slot options are "mainhand", "offhand", "feet", "legs", "chest", "head".
 
-getInventoryData:
-    Notes:
-        Returns the InventoryData object for the player
-
-setUUID:
+setGamestage:
     Arguments:
         String
     Usage:
-        UUID
+        gamestage
     Notes:
-        Sets the required UUID for the player.
+        Sets the required gamestage for the player.
 
 setName:
     Arguments:
@@ -78,6 +78,18 @@ setBiome:
     Notes:
         Sets the biome id. Can be an int or String.
 
+getDistanceData:
+    Notes:
+        Returns the DistanceData object so functions can be called on it.
+
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType id
+    Notes:
+        Sets the WorldType id.
+
 setDimID:
     Arguments:
         int
@@ -94,14 +106,6 @@ setDimensionType:
     Notes:
         Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
-getDistanceData:
-    Notes:
-        Returns the DistanceData object so functions can be called on it.
-
-getLocationData:
-    Notes:
-        Returns the LocationData object so functions can be called on it.
-
 setScoreboard:
     Arguments:
         String, Float, Float
@@ -110,11 +114,7 @@ setScoreboard:
     Notes:
         Sets a required scoreboard score.
 
-setWorldType:
-    Arguments:
-        String
-    Usage:
-        WorldType id
+getLocationData:
     Notes:
-        Sets the WorldType id.
+        Returns the LocationData object so functions can be called on it.
 

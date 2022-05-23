@@ -24,9 +24,9 @@ val itemsToKeep = [
 	<growthcraft_bees:bees_wax:*>,
 	<growthcraft_bees:beebox>,
 	<growthcraft_bees:beehive>,
+	<growthcraft_bees:bottlefluid_honey>,
 	<growthcraft_cellar:brew_kettle>,
 	<growthcraft_cellar:culture_jar>,
-	<bladditions:dentrothyst_fluid_vial:*>,
 	<growthcraft_milk:cheese_cloth>,
 	<growthcraft_milk:cheese_vat>,
 	<growthcraft_milk:pancheon>,
@@ -43,7 +43,7 @@ val itemsToKeep = [
 	<growthcraft_milk:curds_aged:*>,
 	<growthcraft_milk:curds_waxed:*>,
 	<growthcraft_milk:curds_simple:*>,
-	<growthcraft_milk:starter_culture>
+	<growthcraft_milk:starter_culture>,
 ] as IItemStack[];
 
 for mod in subModNames {

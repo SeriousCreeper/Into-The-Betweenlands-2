@@ -10,7 +10,8 @@
       //"world_template": "spawn_world",
       "jed": {
         "SkyRenderType": 2,
-        "CanSpawnHostiles": false
+        "CanSpawnHostiles": false,
+        "ForceGameMode": true
       },
       "biome": "thebetweenlands:raised_isles",
       "dimensiontype": {
@@ -23,6 +24,7 @@
       },
       "worldinfo": {},
       "worldinfo_onetime": {
+        "GameType": 2,
         "generatorName": "flat",
         "generatorOptions": "3;minecraft:air;127;",
         "GameRules": {

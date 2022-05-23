@@ -1,0 +1,22 @@
+setTitle("Embers")
+
+setIcon(<embers:ember_activator>)
+
+setDescription("Produce and store embers")
+
+addParent("itbl2:chapter_2/06_boring")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("embers:ember_activator")
+
+criteria2 = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria2.addItem("embers:ember_receiver")
+
+criteria3 = addCriteria("hasItem3", "minecraft:inventory_changed")
+criteria3.addItem("embers:ember_emitter")
+
+criteria4 = addCriteria("hasItem4", "minecraft:inventory_changed")
+criteria4.addItem("embers:copper_cell")

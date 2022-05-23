@@ -1,0 +1,16 @@
+setTitle("Pit Kiln")
+
+setIcon(<pyrotech:kiln_pit>)
+
+setDescription("Craft a pit kiln")
+
+addParent("itbl2:chapter_1/06a_limestone")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("pyrotech:kiln_pit")
+
+criteria2 = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria2.addItem("thebetweenlands:thatch")

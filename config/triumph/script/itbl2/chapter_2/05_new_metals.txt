@@ -1,0 +1,22 @@
+setTitle("New Metals")
+
+setIcon(<betweenores:lead_ore>)
+
+setDescription("Investigate caves for new ores")
+
+addParent("itbl2:chapter_2/04_rusty_remains")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("betweenores:copper_ore")
+
+criteria2 = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria2.addItem("betweenores:lead_ore")
+
+criteria3 = addCriteria("hasItem3", "minecraft:inventory_changed")
+criteria3.addItem("embers:ingot_lead")
+
+criteria4 = addCriteria("hasItem4", "minecraft:inventory_changed")
+criteria4.addItem("embers:ingot_copper")

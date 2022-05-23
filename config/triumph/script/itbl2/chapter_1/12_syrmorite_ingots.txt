@@ -1,0 +1,14 @@
+setTitle("Syrmorite Ingots")
+
+setIcon(<thebetweenlands:items_misc:11>)
+
+setDescription("Process Syrmorite and craft ingots")
+
+addParent("itbl2:chapter_1/11_bloomery")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasBones", "minecraft:inventory_changed")
+criteria.addItem("thebetweenlands:items_misc", 11)
+

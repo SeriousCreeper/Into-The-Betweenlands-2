@@ -3,29 +3,13 @@ criteria trigger.
 
 
 
-setDurabilityMinMax:
+setDurabilityMin:
     Arguments:
-        float, float
+        float
     Usage:
-        min, max
+        min
     Notes:
-        Sets the min and max item durability.
-
-setItem:
-    Arguments:
-        ItemBlockData
-    Usage:
-        item data
-    Notes:
-        Sets the required item.
-
-setDeltaMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max delta.
+        Sets the min item durability.
 
 setDeltaMax:
     Arguments:
@@ -35,13 +19,13 @@ setDeltaMax:
     Notes:
         Sets the max delta.
 
-setDurabilityMax:
+setDeltaMinMax:
     Arguments:
-        float
+        float, float
     Usage:
-        max
+        min, max
     Notes:
-        Sets the max item durability.
+        Sets the min and max delta.
 
 setDeltaMin:
     Arguments:
@@ -51,13 +35,29 @@ setDeltaMin:
     Notes:
         Sets the min delta.
 
-setDurabilityMin:
+setDurabilityMax:
     Arguments:
         float
     Usage:
-        min
+        max
     Notes:
-        Sets the min item durability.
+        Sets the max item durability.
+
+setItem:
+    Arguments:
+        ItemBlockData
+    Usage:
+        item data
+    Notes:
+        Sets the required item.
+
+setDurabilityMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max item durability.
 
 setCount:
     Arguments:

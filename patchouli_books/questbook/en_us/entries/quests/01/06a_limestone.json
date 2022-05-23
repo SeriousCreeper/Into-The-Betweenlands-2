@@ -1,0 +1,26 @@
+{
+    "name": "Limestone",
+    "icon": "thebetweenlands:limestone",
+    "category": "01_welcome",
+    "sortnum": 5,
+    "turnin": "itbl2:chapter_1/06a_limestone",
+    "advancement": "itbl2:chapter_1/05_bones",
+    "pages": [
+        {
+            "type": "quest",
+            "trigger": "itbl2:chapter_1/06a_limestone",
+            "title": "Limestone",
+            "text": "Equipped with betters tools i was able to dive deeper underground to look for anything useful. To my surprise i found more bones sticking out of the wall.$(br2)I gathered enough to upgrade my tools even further."
+        },
+        {
+            "type": "spotlight",
+            "item": "thebetweenlands:limestone",
+            "text": "Brittle enough that even my wooden tools can break it."
+        },
+        {
+            "type": "checklist_end",
+            "suffix": " (Any)",
+            "item1": "thebetweenlands:limestone#1"
+        }
+    ]
+}

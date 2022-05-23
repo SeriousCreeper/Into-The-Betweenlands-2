@@ -102,3 +102,4 @@ recipes.addShapeless("silk", <dawnoftimebuilder:silk>, [<dawnoftimebuilder:silk_
 
 
 <dawnoftimebuilder:iron_chain>.displayName = "Syrmorite Tea Chains";
+<dawnoftimebuilder:stick_bundle>.displayName = "Weedwood Stick Bundle";

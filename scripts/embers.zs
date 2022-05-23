@@ -10,9 +10,10 @@ import mods.embers.EmberBoreFixed;
 
 // ----------- NORMAL RECIPES ----------------------
 recipes.remove(<embers:blend_caminite>);
-recipes.addShaped("embers-blend_caminite", <embers:blend_caminite> * 8, [
-	[<thebetweenlands:silt>, <thebetweenlands:mud>], 
-	[<thebetweenlands:mud>, <thebetweenlands:silt>]
+recipes.addShaped("embers-blend_caminite", <embers:blend_caminite> * 5, [
+	[<thebetweenlands:mud>, <ore:dustAsh>, <thebetweenlands:mud>], 
+	[<pyrotech:material:8>, <thebetweenlands:silt>, <pyrotech:material:8>], 
+	[<thebetweenlands:mud>, <ore:dustAsh>, <thebetweenlands:mud>]
 ]);
 
 recipes.remove(<embers:mech_core>);

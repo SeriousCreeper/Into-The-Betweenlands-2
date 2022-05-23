@@ -26,6 +26,14 @@ setBiome:
     Notes:
         Sets the biome id. Can be an int or String.
 
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType id
+    Notes:
+        Sets the WorldType id.
+
 setDimID:
     Arguments:
         int
@@ -37,14 +45,6 @@ setDimID:
 getLocationData:
     Notes:
         Returns the LocationData object so functions can be called on it.
-
-setWorldType:
-    Arguments:
-        String
-    Usage:
-        WorldType id
-    Notes:
-        Sets the WorldType id.
 
 setCount:
     Arguments:

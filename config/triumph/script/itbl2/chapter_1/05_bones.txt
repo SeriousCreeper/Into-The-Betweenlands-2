@@ -1,0 +1,21 @@
+setTitle("Bones")
+
+setIcon(<thebetweenlands:bone_pickaxe>)
+
+setDescription("Acquire bones")
+
+addParent("itbl2:chapter_1/03_worktable")
+
+setRequiresParents()
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasBetterTool1", "minecraft:inventory_changed")
+criteria1.addItem("thebetweenlands:bone_shovel")
+
+criteria2 = addCriteria("hasBetterTool2", "minecraft:inventory_changed")
+criteria2.addItem("thebetweenlands:bone_axe")
+
+criteria3 = addCriteria("hasBetterTool3", "minecraft:inventory_changed")
+criteria3.addItem("thebetweenlands:bone_pickaxe")

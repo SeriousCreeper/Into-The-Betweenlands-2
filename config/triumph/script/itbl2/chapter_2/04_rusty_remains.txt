@@ -1,0 +1,23 @@
+setTitle("Rusty Remains")
+
+setIcon(<immersiveruins:scrap>)
+
+setDescription("Break old rusty blocks")
+
+addParent("itbl2:chapter_2/03_tooling_up")
+
+setRequirements("any")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("broke_rusty_blocks", "minecraft:inventory_changed")
+criteria.addItem("immersiveruins:scrap")
+
+criteria2 = addCriteria("broke_rusty_blocks2", "minecraft:inventory_changed")
+criteria2.addItem("immersiveruins:scrap2")
+
+criteria3 = addCriteria("broke_rusty_blocks3", "minecraft:inventory_changed")
+criteria3.addItem("immersiveruins:scrap3")
+
+addRewardFunction("itbl2:ore_tier_2_trigger")

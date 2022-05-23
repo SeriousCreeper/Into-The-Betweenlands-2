@@ -1,0 +1,19 @@
+setTitle("Melter")
+
+setIcon(<embers:block_furnace>)
+
+setDescription("Setup a melter and stamper")
+
+addParent("itbl2:chapter_2/07_embers")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("embers:block_furnace")
+
+criteria2 = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria2.addItem("embers:stamper")
+
+criteria3 = addCriteria("hasItem3", "minecraft:inventory_changed")
+criteria3.addItem("embers:stamper_base")

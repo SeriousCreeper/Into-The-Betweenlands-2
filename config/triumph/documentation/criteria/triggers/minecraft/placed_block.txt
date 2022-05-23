@@ -34,13 +34,13 @@ setItem:
     Notes:
         Sets the required item.
 
-setBlock:
+setWorldType:
     Arguments:
-        ItemBlockData
+        String
     Usage:
-        block data
+        WorldType id
     Notes:
-        Sets the required block.
+        Sets the WorldType id.
 
 setDimID:
     Arguments:
@@ -54,13 +54,13 @@ getLocationData:
     Notes:
         Returns the LocationData object so functions can be called on it.
 
-setWorldType:
+setBlock:
     Arguments:
-        String
+        ItemBlockData
     Usage:
-        WorldType id
+        block data
     Notes:
-        Sets the WorldType id.
+        Sets the required block.
 
 setCount:
     Arguments:

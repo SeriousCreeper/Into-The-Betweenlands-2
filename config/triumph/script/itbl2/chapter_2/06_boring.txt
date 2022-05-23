@@ -1,0 +1,22 @@
+setTitle("Boring")
+
+setIcon(<embers:ember_bore>)
+
+setDescription("Construct an ember bore")
+
+addParent("itbl2:chapter_2/05_new_metals")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("embers:mech_core")
+
+criteria2 = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria2.addItem("embers:ember_bore")
+
+criteria3 = addCriteria("hasItem3", "minecraft:inventory_changed")
+criteria3.addItem("embers:item_pipe")
+
+criteria4 = addCriteria("hasItem4", "minecraft:inventory_changed")
+criteria4.addItem("embers:item_pump")

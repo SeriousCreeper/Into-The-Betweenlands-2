@@ -3,8 +3,8 @@ import mods.arcanearchives.GCT;
 recipes.remove(<arcanearchives:radiant_resonator>);
 recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>, [
 	[<thebetweenlands:octine_ingot>, <minecraft:iron_bars>, <thebetweenlands:octine_ingot>], 
-	[<ore:logWood>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).giveBack(<thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})), <ore:logWood>], 
-	[<ore:logWood>, null, <ore:logWood>]
+	[<roots:wildwood_log>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}).giveBack(<thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})), <roots:wildwood_log>], 
+	[<roots:wildwood_log>, null, <roots:wildwood_log>]
 ]);
 
 recipes.remove(<arcanearchives:tome_arcana>);
@@ -83,3 +83,6 @@ GCT.addRecipe("valonite_shield", <thebetweenlands:valonite_shield>, [<ore:gemVal
 
 recipes.remove(<thebetweenlands:valonite_greataxe>);
 GCT.addRecipe("valonite_greataxe", <thebetweenlands:valonite_greataxe>, [<ore:gemValonite> * 2, <ore:stickWood> * 2, <thebetweenlands:valonite_axe>]);
+
+
+scripts.utils.addInfoTooltip(<arcanearchives:radiant_resonator>, "Only 1 per player");

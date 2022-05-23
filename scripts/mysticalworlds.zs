@@ -28,5 +28,4 @@ for item in mwItems {
     }
 }
 
-
 recipes.remove(<mysticalworld:silk_thread>);

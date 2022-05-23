@@ -1,0 +1,16 @@
+setTitle("Grove Stone")
+
+setIcon(<roots:grove_stone>)
+
+setDescription("Activate a grove stone")
+
+addParent("itbl2:chapter_2/01_natures_call")
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("roots:grove_stone")
+
+criteria2 = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria2.addItem("roots:pyre")
+
+criteria3 = addCriteria("activatedGrove", "roots:grove_activate")

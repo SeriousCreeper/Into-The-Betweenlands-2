@@ -1,0 +1,29 @@
+{
+    "name": "Wood Processing",
+    "icon": "pyrotech:chopping_block:3",
+    "category": "01_welcome",
+    "sortnum": 1,
+    "turnin": "itbl2:chapter_1/02_chopping_table",
+    "advancement": "itbl2:chapter_1/01_getting_wood",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Wood Processing",
+            "trigger": "itbl2:chapter_1/02_chopping_table",
+            "text": "To further process the logs i've gathered, all i have to do is place them onto a simple chopping block and hit them with my axe a few times."
+        },
+        {
+            "type": "text",
+            "text": "This can be quite exhausting, so i better watch out to not overwork myself."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "pyrotech:chopping_block#1",
+            "item2": "thebetweenlands:weedwood_plank#1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "pyrotech:tech/basic/chopping_block"
+        }
+    ]
+}

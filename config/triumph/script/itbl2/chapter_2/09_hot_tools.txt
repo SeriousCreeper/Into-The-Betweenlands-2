@@ -1,0 +1,13 @@
+setTitle("Hot Tools")
+
+setIcon(<thebetweenlands:octine_pickaxe>)
+
+setDescription("Use the melter to craft octine tools")
+
+addParent("itbl2:chapter_2/08_melter")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("thebetweenlands:octine_pickaxe")

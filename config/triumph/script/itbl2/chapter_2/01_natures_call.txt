@@ -1,0 +1,21 @@
+setTitle("The Root of Magic")
+
+setIcon(<roots:stone_knife>)
+
+setDescription("Craft a knife and gather wildroot and terra moss")
+
+addParent("itbl2:chapter_2/root")
+
+setRequiresParents()
+
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("roots:stone_knife")
+
+criteria2 = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria2.addItem("roots:terra_moss")
+
+criteria3 = addCriteria("hasItem3", "minecraft:inventory_changed")
+criteria3.addItem("roots:wildroot")
+

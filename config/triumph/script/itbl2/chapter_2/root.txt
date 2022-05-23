@@ -1,0 +1,16 @@
+setIcon(<roots:stone_knife>)
+
+setTitle("Story - Chapter 2")
+
+setDescription("")
+
+setBackground("thebetweenlands:textures/blocks/betweenstone.png")
+
+setShowToast(true)
+
+setAnnounceToChat(false)
+
+setPos(-21,26)
+
+criteria = addCriteria("completedChap1", "triumph:completed_advancement")
+criteria.setString("itbl2:chapter_1/12_syrmorite_ingots")

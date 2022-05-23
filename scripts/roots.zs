@@ -424,7 +424,7 @@ Fey.addRecipe("salismundus", <thaumcraft:salis_mundus>,
 	[<arcanearchives:raw_quartz>, <ore:dustRedstone>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
 
 Fey.addRecipe("sporeling_spores", <thebetweenlands:spores>, 
-	[<roots:terra_spores>, <thebetweenlands:items_misc:18>, <arcanearchives:raw_quartz>, <thebetweenlands:shelf_fungus>, <thebetweenlands:bulb_capped_mushroom_item>]);
+	[<roots:terra_spores>, <thebetweenlands:items_misc:18>, <thebetweenlands:dentrothyst:1>, <thebetweenlands:shelf_fungus>, <thebetweenlands:bulb_capped_mushroom_item>]);
 
 
 
@@ -433,6 +433,11 @@ Fey.removeRecipe(<minecraft:gunpowder>);
 Fey.removeRecipe(<roots:salmon_of_knowledge>);
 Fey.removeRecipe(<minecraft:clay_ball>);
 Fey.removeRecipe(<roots:elemental_soil>);
+Fey.removeRecipe(<minecraft:dirt:*>);
+Fey.removeRecipe(<minecraft:gravel>);
+Fey.removeRecipe(<minecraft:sand:*>);
+Fey.removeRecipe(<minecraft:mycelium>);
+
 
 
 
@@ -594,6 +599,7 @@ Rituals.modifyRitual("ritual_purity", [
 	<simpledifficulty:purified_water_bottle>
 ]);
 
+/*
 Rituals.modifyRitual("ritual_animal_harvest", [
 	<thebetweenlands:items_misc:6>,
 	<thebetweenlands:black_hat_mushroom_item>,
@@ -601,6 +607,7 @@ Rituals.modifyRitual("ritual_animal_harvest", [
 	<ore:slimeball>,
 	<thebetweenlands:items_misc:56>
 ]);
+*/
 
 Rituals.modifyRitual("ritual_summon_creatures", [
 	<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]}),

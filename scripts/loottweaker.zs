@@ -1,3 +1,4 @@
+
 import crafttweaker.item.IItemStack;
 import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootPool;
@@ -16,11 +17,11 @@ val sludge_menace = LootTweaker.getTable("thebetweenlands:entities/sludge_menace
 val sludge_menace_ring = sludge_menace.getPool("ring");
 val sludge_menace_amulet = sludge_menace.getPool("amulet_slot");
 
+/*
 sludge_menace_ring.removeEntry("thebetweenlands:ring_of_dispersion");
 sludge_menace_ring.addItemEntry(<contenttweaker:boss_item_3>, 1);
-
 sludge_menace_amulet.removeEntry("thebetweenlands:amulet_slot");
-
+*/
 
 
 function replaceLoot(tableName as string, poolName as string, entryName as string, itemToAdd as IItemStack, weight as int, quality as int, minItem as int, maxItem as int) {
