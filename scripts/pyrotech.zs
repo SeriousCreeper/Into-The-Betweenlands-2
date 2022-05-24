@@ -432,6 +432,12 @@ recipes.addShaped("tech/machine/brick_kiln", <pyrotech:brick_kiln>, [
 	[<ore:ingotSyrmorite>, <embers:block_caminite_brick>, <ore:ingotSyrmorite>]
 ]);
 
+recipes.remove(<pyrotech:bloomery>);
+recipes.addShaped("tech/bloomery/bloomery", <pyrotech:bloomery>, [
+	[<embers:block_caminite_brick>, null, <embers:block_caminite_brick>], 
+	[<embers:block_caminite_brick>, null, <embers:block_caminite_brick>], 
+	[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <embers:block_caminite_brick>]
+]);
 
 
 
