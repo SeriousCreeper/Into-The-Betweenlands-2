@@ -11,10 +11,7 @@
 		uid: "274e559d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:octine_shield"
+			item: "thebetweenlands:octine_shield"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -12,3 +12,4 @@ setRequiresParents()
 criteria = addCriteria("hasChoppingBlock", "minecraft:inventory_changed")
 criteria.addItem("pyrotech:chopping_block")
 
+setPos(64,13)

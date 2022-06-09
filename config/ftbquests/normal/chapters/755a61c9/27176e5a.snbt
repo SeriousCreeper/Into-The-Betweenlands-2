@@ -8,10 +8,7 @@
 		uid: "dc984197",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:weedwood_shield"
+			item: "thebetweenlands:weedwood_shield"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

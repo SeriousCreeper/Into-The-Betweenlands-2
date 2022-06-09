@@ -17,16 +17,10 @@
 		type: "item",
 		title: "Furnaces",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:sulfur_furnace"
+			item: "thebetweenlands:sulfur_furnace"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:sulfur_furnace_dual"
+			item: "thebetweenlands:sulfur_furnace_dual"
 		}]
 	}]
 }

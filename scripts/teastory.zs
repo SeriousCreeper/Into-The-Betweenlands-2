@@ -58,7 +58,8 @@ val itemsToRemove = [
 	<teastory:record_yangliuqing>,
 	<teastory:record_zizhudiao>,
 	<teastory:clay_kettle>,
-	<teastory:clay_cup>
+	<teastory:clay_cup>,
+	<teastory:half_dried_leaf_block>
 ] as IItemStack[];
 
 
@@ -150,6 +151,8 @@ recipes.addShaped("teastory_zisha_cup", <teastory:cup:5>, [
 	[<thebetweenlands:items_misc:47>, null, <thebetweenlands:items_misc:47>], 
 	[<thebetweenlands:items_misc:47>, <thebetweenlands:items_misc:47>, <thebetweenlands:items_misc:47>]
 ]);
+
+recipes.remove(<teastory:broken_tea>);
 
 
 Bake.removeAll();
@@ -245,9 +248,90 @@ InSun.add(<dawnoftimebuilder:silk_worm_hatchery>, <dawnoftimebuilder:silk_worms>
 
 
 // NAMES
+scripts.utils.addInfoTooltip(<teastory:green_tea:*>, "Inspires Auromancy");
+scripts.utils.addInfoTooltip(<teastory:black_tea:*>, "Inspires Artifice");
+scripts.utils.addInfoTooltip(<teastory:oolong_tea:*>, "Inspires Arcane");
+scripts.utils.addInfoTooltip(<teastory:puer_tea:*>, "Inspires Eldritch");
+scripts.utils.addInfoTooltip(<teastory:white_tea:*>, "Inspires Golemancy");
+scripts.utils.addInfoTooltip(<teastory:yellow_tea:*>, "Inspires Alchemy");
 
+scripts.utils.addInfoTooltip(<teastory:green_tea_bag>, "Inspires Auromancy");
+scripts.utils.addInfoTooltip(<teastory:black_tea_bag>, "Inspires Artifice");
+scripts.utils.addInfoTooltip(<teastory:oolong_tea_bag>, "Inspires Arcane");
+scripts.utils.addInfoTooltip(<teastory:puer_tea_bag>, "Inspires Eldritch");
+scripts.utils.addInfoTooltip(<teastory:white_tea_bag>, "Inspires Golemancy");
+scripts.utils.addInfoTooltip(<teastory:yellow_tea_bag>, "Inspires Alchemy");
 
-<teastory:cup:4>.displayName = "Mud Brick Cup";
+<teastory:cup>.displayName = "Weedwood Cup";
 <teastory:cup:2>.displayName = "Cragrock Cup";
 <teastory:cup:3>.displayName = "Dentrothyst Cup";
+<teastory:cup:4>.displayName = "Mud Brick Cup";
 <teastory:cup:5>.displayName = "Ancient Debris Cup";
+
+<teastory:pot_stone>.displayName = "Cragrock Pot";
+<teastory:pot_iron>.displayName = "Syrmorite Pot";
+<teastory:pot_porcelain>.displayName = "Mud Brick Pot";
+<teastory:pot_zisha>.displayName = "Ancient Debris Pot";
+<teastory:pot_clay>.displayName = "Unfired Mud Brick Pot";
+
+<teastory:cold_water_pot_zisha>.displayName = "Ancient Debris Pot (Cold Water)";
+<teastory:cold_water_pot_porcelain>.displayName = "Mud Brick Pot (Cold Water)";
+<teastory:cold_water_pot_iron>.displayName = "Syrmorite Pot (Cold Water)";
+<teastory:cold_water_pot_stone>.displayName = "Cragrock Pot (Cold Water)";
+
+<teastory:boiled_water_pot_zisha>.displayName = "Ancient Debris Pot (Boiled Water)";
+<teastory:boiled_water_pot_porcelain>.displayName = "Mud Brick Pot (Boiled Water)";
+<teastory:boiled_water_pot_iron>.displayName = "Syrmorite Pot (Boiled Water)";
+<teastory:boiled_water_pot_stone>.displayName = "Cragrock Pot (Boiled Water)";
+
+<teastory:green_tea>.displayName = "Green Tea";
+<teastory:green_tea:2>.displayName = "Green Tea";
+<teastory:green_tea:3>.displayName = "Green Tea";
+<teastory:green_tea:4>.displayName = "Green Tea";
+<teastory:green_tea:5>.displayName = "Green Tea";
+
+<teastory:black_tea>.displayName = "Black Tea";
+<teastory:black_tea:2>.displayName = "Black Tea";
+<teastory:black_tea:3>.displayName = "Black Tea";
+<teastory:black_tea:4>.displayName = "Black Tea";
+<teastory:black_tea:5>.displayName = "Black Tea";
+
+<teastory:yellow_tea>.displayName = "Yellow Tea";
+<teastory:yellow_tea:2>.displayName = "Yellow Tea";
+<teastory:yellow_tea:3>.displayName = "Yellow Tea";
+<teastory:yellow_tea:4>.displayName = "Yellow Tea";
+<teastory:yellow_tea:5>.displayName = "Yellow Tea";
+
+<teastory:white_tea>.displayName = "White Tea";
+<teastory:white_tea:2>.displayName = "White Tea";
+<teastory:white_tea:3>.displayName = "White Tea";
+<teastory:white_tea:4>.displayName = "White Tea";
+<teastory:white_tea:5>.displayName = "White Tea";
+
+<teastory:oolong_tea>.displayName = "Oolong Tea";
+<teastory:oolong_tea:2>.displayName = "Oolong Tea";
+<teastory:oolong_tea:3>.displayName = "Oolong Tea";
+<teastory:oolong_tea:4>.displayName = "Oolong Tea";
+<teastory:oolong_tea:5>.displayName = "Oolong Tea";
+
+<teastory:puer_tea>.displayName = "Dark Tea";
+<teastory:puer_tea:2>.displayName = "Dark Tea";
+<teastory:puer_tea:3>.displayName = "Dark Tea";
+<teastory:puer_tea:4>.displayName = "Dark Tea";
+<teastory:puer_tea:5>.displayName = "Dark Tea";
+
+<teastory:empty_porcelain_kettle>.displayName = "Mud Brick Kettle";
+<teastory:green_tea_porcelain_kettle>.displayName = "Mud Brick Kettle (Green Tea)";
+<teastory:black_tea_porcelain_kettle>.displayName = "Mud Brick Kettle (Black Tea)";
+<teastory:yellow_tea_porcelain_kettle>.displayName = "Mud Brick Kettle (Yellow Tea)";
+<teastory:white_tea_porcelain_kettle>.displayName = "Mud Brick Kettle (White Tea)";
+<teastory:oolong_tea_porcelain_kettle>.displayName = "Mud Brick Kettle (Oolong Tea)";
+<teastory:puer_tea_porcelain_kettle>.displayName = "Mud Brick Kettle (Dark Tea)";
+
+<teastory:empty_zisha_kettle>.displayName = "Ancient Debris Kettle";
+<teastory:green_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (Green Tea)";
+<teastory:black_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (Black Tea)";
+<teastory:yellow_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (Yellow Tea)";
+<teastory:white_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (White Tea)";
+<teastory:oolong_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (Oolong Tea)";
+<teastory:puer_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (Dark Tea)";

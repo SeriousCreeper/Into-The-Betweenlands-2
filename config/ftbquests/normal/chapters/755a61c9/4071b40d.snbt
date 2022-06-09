@@ -14,20 +14,14 @@
 		uid: "bfb1bc0d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:octine_ingot"
+			item: "thebetweenlands:octine_ingot"
 		}]
 	},
 	{
 		uid: "60aade45",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:moss"
+			item: "thebetweenlands:moss"
 		}]
 	}]
 }

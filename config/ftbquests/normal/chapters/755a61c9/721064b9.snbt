@@ -9,28 +9,16 @@
 		type: "item",
 		title: "Bone Armor",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:bone_helmet"
+			item: "thebetweenlands:bone_helmet"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:bone_chestplate"
+			item: "thebetweenlands:bone_chestplate"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:bone_leggings"
+			item: "thebetweenlands:bone_leggings"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:bone_boots"
+			item: "thebetweenlands:bone_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

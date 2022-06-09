@@ -9,28 +9,16 @@
 		uid: "d3379742",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:syrmorite_helmet"
+			item: "thebetweenlands:syrmorite_helmet"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:syrmorite_chestplate"
+			item: "thebetweenlands:syrmorite_chestplate"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:syrmorite_leggings"
+			item: "thebetweenlands:syrmorite_leggings"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:syrmorite_boots"
+			item: "thebetweenlands:syrmorite_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

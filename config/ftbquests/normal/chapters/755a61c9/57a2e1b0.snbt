@@ -11,10 +11,17 @@
 		uid: "9fc8f8d4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:weedwood_workbench"
+			item: "thebetweenlands:weedwood_workbench"
 		}]
+	}],
+	rewards: [{
+		uid: "42fbbb67",
+		type: "advancement",
+		title: "Lexicon Entry: Fish",
+		icon: "thebetweenlands:lore_scrap 1 2",
+		team_reward: false,
+		auto: "enabled",
+		advancement: "roots:untrue_pacifist",
+		criterion: ""
 	}]
 }

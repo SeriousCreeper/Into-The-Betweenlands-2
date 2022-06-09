@@ -9,29 +9,20 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "contenttweaker:boss_item_3"
+			id: "contenttweaker:boss_item_3",
+			Count: 1b
 		}],
 		consume_items: true
 	}],
 	rewards: [{
 		uid: "f51d5daa",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:ring_of_dispersion"
-		}
+		item: "thebetweenlands:ring_of_dispersion"
 	},
 	{
 		uid: "c6a5c40a",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:amulet_slot"
-		}
+		item: "thebetweenlands:amulet_slot"
 	},
 	{
 		uid: "c3825a2f",
@@ -40,7 +31,8 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "gamestagebooks:knowledge_of_decay"
+			id: "gamestagebooks:knowledge_of_decay",
+			Count: 1b
 		}
 	}]
 }

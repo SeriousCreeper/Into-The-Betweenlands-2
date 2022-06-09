@@ -1,11 +1,6 @@
 {
 	title: "Purifying Your Tools",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "thebetweenlands:purifier"
-	},
+	icon: "thebetweenlands:purifier",
 	x: -2.0d,
 	y: 5.5d,
 	text: [
@@ -29,19 +24,13 @@
 		uid: "c67c11a5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:purifier"
+			item: "thebetweenlands:purifier"
 		}]
 	},
 	{
 		uid: "eb0fdc32",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "thebetweenlands:bl_bucket",
 			tag: {
 				Fluid: {
@@ -51,9 +40,6 @@
 			}
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "thebetweenlands:bl_bucket",
 			tag: {
 				Fluid: {
@@ -69,11 +55,7 @@
 		uid: "b8df66a6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:items_misc",
-			Damage: 18s
+			item: "thebetweenlands:items_misc 1 18"
 		}]
 	}]
 }

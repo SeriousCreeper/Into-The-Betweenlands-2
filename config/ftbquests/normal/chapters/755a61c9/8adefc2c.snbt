@@ -6,23 +6,13 @@
 		uid: "dd0dec8a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:log_weedwood"
+			item: "thebetweenlands:log_weedwood"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:log_weedwood",
-			Damage: 12s
+			item: "thebetweenlands:log_weedwood 1 12"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:weedwood"
+			item: "thebetweenlands:weedwood"
 		}]
 	}]
 }

@@ -2,5 +2,7 @@
 	"name": "Old Journal",
 	"landing_text": "I found myself in the most perculiar place that i can't wait to study. I will write down my notes and discoveries into this journal in the hopes that someone might find it usful one day.$(br2)- The Explorer",
 	"version": 1,
-	"show_progress": true
+	"advancement_namespaces": [
+		"itbl2"
+	]
 }

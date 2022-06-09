@@ -38,13 +38,25 @@ isProjectile:
     Notes:
         Sets if the damage source is a projectile.
 
-bypassesMagic:
+isMagic:
     Arguments:
         boolean
     Usage:
         true/false
     Notes:
-        Sets if the damage source bypasses magic.
+        Sets if the damage source is magic.
+
+getSourceData:
+    Notes:
+        Returns the EntityData object for the source entity (This would be for the player/skeleton/etc.) so functions can be called on it.
+
+bypassesArmor:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source bypasses armor.
 
 isFire:
     Arguments:
@@ -54,25 +66,13 @@ isFire:
     Notes:
         Sets if the damage source is fire.
 
-getSourceData:
-    Notes:
-        Returns the EntityData object for the source entity (This would be for the player/skeleton/etc.) so functions can be called on it.
-
-isMagic:
+bypassesMagic:
     Arguments:
         boolean
     Usage:
         true/false
     Notes:
-        Sets if the damage source is magic.
-
-bypassesArmor:
-    Arguments:
-        boolean
-    Usage:
-        true/false
-    Notes:
-        Sets if the damage source bypasses armor.
+        Sets if the damage source bypasses magic.
 
 setCount:
     Arguments:

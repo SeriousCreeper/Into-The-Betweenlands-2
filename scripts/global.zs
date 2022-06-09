@@ -596,6 +596,7 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:fenceGateWood>.remove(<minecraft:acacia_fence_gate>);
 
 <ore:stickWood>.remove(<primallib:wooden_shaft>);
+<ore:stickWood>.remove(<mod_lavacow:mossy_stick>);
 
 <ore:treeSapling>.remove(<minecraft:sapling:*>);
 <ore:treeSapling>.remove(<pizzacraft:olive_sapling>);

@@ -23,21 +23,14 @@
 		uid: "2d3056b3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:compost_bin"
+			item: "thebetweenlands:compost_bin"
 		}]
 	},
 	{
 		uid: "8f830662",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:items_misc",
-			Damage: 2s
+			item: "thebetweenlands:items_misc 1 2"
 		}]
 	}]
 }

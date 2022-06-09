@@ -2,19 +2,9 @@
 	title: "Sludge Menace Spoils",
 	loot_size: 2,
 	rewards: [{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:ring_of_dispersion"
-		}
+		item: "thebetweenlands:ring_of_dispersion"
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:amulet_slot"
-		}
+		item: "thebetweenlands:amulet_slot"
 	}]
 }

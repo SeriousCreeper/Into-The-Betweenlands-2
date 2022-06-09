@@ -1,24 +1,13 @@
-//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
-
-//Set icon item
 setIcon(<thebetweenlands:swamp_talisman>)
 
-//Set title String
 setTitle("Story - Chapter 1")
 
-//Set description String
 setDescription("")
 
-//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("thebetweenlands:textures/blocks/swamp_dirt.png")
 
-//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
-setShowToast(true)
+setShowToast(false)
 
-//Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-setRequirements("any")
-
-//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
-addCriteria("craftItem", "triumph:player_crafted_item")
+addCriteria("location", "minecraft:location")

@@ -8,9 +8,6 @@
 		uid: "91dd18c1",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "thebetweenlands:bl_bucket",
 			tag: {
 				Fluid: {}

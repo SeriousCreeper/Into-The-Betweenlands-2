@@ -1,11 +1,6 @@
 {
 	title: "Shovel Knight",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "thebetweenlands:dug_swamp_dirt"
-	},
+	icon: "thebetweenlands:dug_swamp_dirt",
 	x: 0.0d,
 	y: 1.5d,
 	text: [
@@ -27,28 +22,16 @@
 		uid: "d0c10c80",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:weedwood_shovel"
+			item: "thebetweenlands:weedwood_shovel"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:bone_shovel"
+			item: "thebetweenlands:bone_shovel"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:octine_shovel"
+			item: "thebetweenlands:octine_shovel"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:valonite_shovel"
+			item: "thebetweenlands:valonite_shovel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -13,10 +13,7 @@
 		uid: "b2d27e41",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:limestone"
+			item: "thebetweenlands:limestone"
 		}]
 	}]
 }

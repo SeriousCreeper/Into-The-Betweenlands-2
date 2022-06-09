@@ -7,7 +7,7 @@
     {
       "dim": -2,
       "temporary_dimension": false,
-      //"world_template": "spawn_world",
+      "world_template": "spawn_world",
       "jed": {
         "SkyRenderType": 2,
         "CanSpawnHostiles": false,
@@ -179,7 +179,13 @@
       },
       "dimensiontype": {
         "id": 0,
-        "keeploaded": false
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+      "worldinfo_onetime": {
+          "generatorName": "flat",
+          "generatorOptions": "3;minecraft:air;1;"
       }
     },
     {

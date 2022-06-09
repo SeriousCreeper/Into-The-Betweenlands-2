@@ -11,10 +11,7 @@
 		uid: "83a00ad0",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:sap_spit"
+			item: "thebetweenlands:sap_spit"
 		}]
 	}]
 }

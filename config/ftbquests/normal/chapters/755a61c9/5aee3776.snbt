@@ -13,10 +13,7 @@
 		uid: "8fc35d74",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:moss_bed_item"
+			item: "thebetweenlands:moss_bed_item"
 		}]
 	}]
 }

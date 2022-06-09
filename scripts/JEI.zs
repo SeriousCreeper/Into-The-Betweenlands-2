@@ -8,6 +8,8 @@ val itemToHide = [
 	<thaumcraft:nugget:2>,
 	<thaumcraft:nugget:3>,
 	<thaumcraft:nugget:4>,
+
+	<mod_lavacow:mossy_stick>,
 ] as IItemStack[];
 
 

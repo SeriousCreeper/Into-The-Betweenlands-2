@@ -11,10 +11,7 @@
 		uid: "4da30036",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:valonite_shield"
+			item: "thebetweenlands:valonite_shield"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -249,8 +249,8 @@ ArcaneWorkbench.registerShapedRecipe("goggles", "UNLOCKARTIFICE@2", 50, [
 ], 
 <thaumcraft:goggles>, 
 [
-	[<ore:leather>, <ore:ingotBrass>, <ore:leather>], 
-	[<ore:leather>, null, <ore:leather>], 
+	[<roots:fey_leather>, <ore:ingotBrass>, <roots:fey_leather>], 
+	[<roots:fey_leather>, null, <roots:fey_leather>], 
 	[<thaumcraft:thaumometer>, <ore:ingotBrass>, <thaumcraft:thaumometer>]
 ]);
 

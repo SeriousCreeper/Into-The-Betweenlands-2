@@ -1275,12 +1275,11 @@
     {
       "input": {
         "item": {
-          "id": "pyrotech:rock",
-          "meta": 7
+          "id": "teastory:tea_residue"
         },
         "composting_time": 5000
       },
-      "output": 3
+      "output": 2
     }
   ],
   "crab_pot_filter": [

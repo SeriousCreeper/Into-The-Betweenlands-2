@@ -11,14 +11,6 @@ setDurabilityMin:
     Notes:
         Sets the min item durability.
 
-setDeltaMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max delta.
-
 setDeltaMinMax:
     Arguments:
         float, float
@@ -26,14 +18,6 @@ setDeltaMinMax:
         min, max
     Notes:
         Sets the min and max delta.
-
-setDeltaMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min delta.
 
 setDurabilityMax:
     Arguments:
@@ -43,13 +27,21 @@ setDurabilityMax:
     Notes:
         Sets the max item durability.
 
-setItem:
+setDeltaMin:
     Arguments:
-        ItemBlockData
+        float
     Usage:
-        item data
+        min
     Notes:
-        Sets the required item.
+        Sets the min delta.
+
+setDeltaMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max delta.
 
 setDurabilityMinMax:
     Arguments:
@@ -58,6 +50,14 @@ setDurabilityMinMax:
         min, max
     Notes:
         Sets the min and max item durability.
+
+setItem:
+    Arguments:
+        ItemBlockData
+    Usage:
+        item data
+    Notes:
+        Sets the required item.
 
 setCount:
     Arguments:

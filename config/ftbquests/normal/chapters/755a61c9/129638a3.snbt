@@ -13,10 +13,7 @@
 		uid: "3f23d91d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:syrmorite_shears"
+			item: "thebetweenlands:syrmorite_shears"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

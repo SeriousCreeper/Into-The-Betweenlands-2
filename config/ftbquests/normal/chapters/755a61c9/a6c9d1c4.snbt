@@ -14,10 +14,7 @@
 		uid: "f73fd2a8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:syrmorite_ore"
+			item: "thebetweenlands:syrmorite_ore"
 		}]
 	}]
 }

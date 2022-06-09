@@ -9,28 +9,16 @@
 		type: "item",
 		title: "Valonite Armor",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:valonite_helmet"
+			item: "thebetweenlands:valonite_helmet"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:valonite_chestplate"
+			item: "thebetweenlands:valonite_chestplate"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:valonite_leggings"
+			item: "thebetweenlands:valonite_leggings"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:valonite_boots"
+			item: "thebetweenlands:valonite_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

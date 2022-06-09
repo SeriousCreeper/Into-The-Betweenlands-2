@@ -1,11 +1,6 @@
 {
 	title: "Herblore",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "thebetweenlands:manual_hl"
-	},
+	icon: "thebetweenlands:manual_hl",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

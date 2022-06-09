@@ -9,28 +9,16 @@
 		uid: "2cf67555",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:octine_sword"
+			item: "thebetweenlands:octine_sword"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:octine_shovel"
+			item: "thebetweenlands:octine_shovel"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:octine_axe"
+			item: "thebetweenlands:octine_axe"
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "thebetweenlands:octine_pickaxe"
+			item: "thebetweenlands:octine_pickaxe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,11 +1,6 @@
 {
 	title: "Progression",
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "thebetweenlands:log_weedwood"
-	},
+	icon: "thebetweenlands:log_weedwood",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""
