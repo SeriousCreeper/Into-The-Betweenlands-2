@@ -1,0 +1,19 @@
+{
+	title: "Crude Axe",
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"Simple but brittle axe in case yours breaks"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8a3ffe16",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}]
+}

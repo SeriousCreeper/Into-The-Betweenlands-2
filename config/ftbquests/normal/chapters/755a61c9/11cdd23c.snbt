@@ -1,0 +1,18 @@
+{
+	title: "Limestone",
+	x: 1.0d,
+	y: 5.0d,
+	text: [
+		"Limestone has many uses and is required for the tier 1 anvil to process blooms."
+	],
+	dependencies: [
+		"742a6eec"
+	],
+	tasks: [{
+		uid: "c4604eb3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:limestone"
+		}]
+	}]
+}

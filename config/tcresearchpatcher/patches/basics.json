@@ -26,6 +26,16 @@
                 "op": "replace",
                 "path": "stages/0/recipes",
                 "value": ["crafttweaker:scribingtoolscraft1_shaped","crafttweaker:tablewood"]
+            },
+            {
+                "op": "replace",
+                "path": "icons",
+                "value": ["teastory:textures/items/green_tea_bag.png"]
+            },
+            {
+                "op": "replace",
+                "path": "stages/1/text",
+                "value": "bladditions:research.THEORYRESEARCH.stage.1"
             }
         ]
     }

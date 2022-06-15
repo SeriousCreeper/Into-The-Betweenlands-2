@@ -19,17 +19,17 @@ recipes.addShaped("paper_lantern_candle", <quark:paper_lantern>, [[<thebetweenla
 
 recipes.addShaped("backpack", <quark:backpack>, [
 	[<ore:leather>, <minecraft:tripwire_hook>, <ore:leather>],
-	[<ore:leather>, <quark:custom_chest>, <ore:leather>],
+	[<ore:leather>, <ore:chest>, <ore:leather>],
 	[<ore:leather>, <ore:leather>, <ore:leather>]
 ]);
 
 
 val quarkChestPlank = [
-	<thebetweenlands:rubber_tree_plank_slab>,
-	<thebetweenlands:giant_root_plank_slab>,
-	<thebetweenlands:hearthgrove_plank_slab>,
-	<thebetweenlands:nibbletwig_plank_slab>,
-	<thebetweenlands:rotten_plank_slab>
+	<thebetweenlands:rubber_tree_planks>,
+	<thebetweenlands:giant_root_planks>,
+	<thebetweenlands:hearthgrove_planks>,
+	<thebetweenlands:nibbletwig_planks>,
+	<thebetweenlands:rotten_planks>
 ] as IItemStack[];
 
 val quarkChestLog = [
@@ -44,7 +44,7 @@ val quarkChestLog = [
 recipes.remove(<quark:custom_chest:*>);
 
 for i, wood in quarkChestPlank {
-	recipes.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i), [
+	recipes.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i) * 2, [
 		[wood, wood, wood],
 		[wood, <ore:ingotSyrmorite>, wood],
 		[wood, wood, wood]

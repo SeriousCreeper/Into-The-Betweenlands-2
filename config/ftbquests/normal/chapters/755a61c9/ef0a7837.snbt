@@ -1,0 +1,21 @@
+{
+	title: "Getting Wood",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Get weedwood logs by using an axe"
+	],
+	tasks: [{
+		uid: "cd6a1e69",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:log_weedwood"
+		},
+		{
+			item: "thebetweenlands:log_weedwood 1 12"
+		},
+		{
+			item: "thebetweenlands:weedwood"
+		}]
+	}]
+}

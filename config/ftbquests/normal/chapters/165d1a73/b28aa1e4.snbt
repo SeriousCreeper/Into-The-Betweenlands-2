@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Place a pyre near a grove stone, and add all required ingredients for this ritual onto a pyre.",
+		"",
+		"Light the pyre using fire starter or octine ingots.",
+		"",
+		"You should see some particles once the grove stone is activated!"
+	],
+	dependencies: [
+		"92983340",
+		"6e0c4ef5",
+		"c9eeb620"
+	],
+	tasks: [{
+		uid: "4065b4de",
+		type: "item",
+		items: [{
+			item: "roots:ritual_grove_supplication"
+		}]
+	}]
+}

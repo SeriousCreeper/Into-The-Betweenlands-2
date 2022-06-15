@@ -491,6 +491,7 @@ Campfire.addRecipe("cooked_pereskia", <roots:cooked_pereskia>, <roots:pereskia_b
 Campfire.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, defaultCookTime / 4);
 Campfire.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, 40);
 Campfire.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, defaultCookTime);
+Campfire.addRecipe("purified_water", <simpledifficulty:purified_water_bottle>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), defaultCookTime * 5);
 
 StoneOven.addRecipe("frog_legs_cooked", <thebetweenlands:frog_legs_cooked>, <thebetweenlands:frog_legs_raw>, true);
 StoneOven.addRecipe("fried_swamp_kelp", <thebetweenlands:fried_swamp_kelp>, <thebetweenlands:swamp_kelp_item>, true);
@@ -505,6 +506,7 @@ StoneOven.addRecipe("cooked_pereskia", <roots:cooked_pereskia>, <roots:pereskia_
 StoneOven.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, true);
 StoneOven.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, true);
 StoneOven.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, true);
+
 
 
 // COMPACTING BIN
@@ -547,8 +549,7 @@ CompactingBin.addRecipe("pile_ash", <pyrotech:pile_ash>, <embers:dust_ash>, 8, t
 SoakingPot.removeAllRecipes();
 
 SoakingPot.addRecipe("slaked_lime", <pyrotech:material:8>, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:27>, 7 * 60 * 20);
-SoakingPot.addRecipe("pulp_from_wood_chips", <pyrotech:material:25>, <liquid:swamp_water> * 500, <pyrotech:rock:7> * 4, true, 7 * 60 * 20);
-SoakingPot.addRecipe("pulp_from_wood_chips_pile", <pyrotech:material:25> * 2, <liquid:swamp_water> * 500, <pyrotech:pile_wood_chips>, true, 7 * 60 * 20);
+SoakingPot.addRecipe("pulp_from_wood_chips_pile", <pyrotech:material:25>, <liquid:swamp_water> * 500, <pyrotech:pile_wood_chips> * 4, true, 7 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_dry_bark", <pyrotech:material:25>, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:13>, true, 2 * 60 * 20);
 //SoakingPot.addRecipe("pulp_from_swamp_reed", <pyrotech:material:25>, <liquid:swamp_water> * 125, <thebetweenlands:swamp_reed_item>, true, 4 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_bark", <pyrotech:material:25>, <liquid:swamp_water> * 125, <ore:rootsBark> * 4, true, 3 * 60 * 20);
@@ -734,7 +735,7 @@ brickSawmillRecipeBuilder("runestone_slab", <roots:runestone_slab>, <roots:runes
 
 stoneSawmillRecipeBuilder("boards", <pyrotech:material:20>, <ore:slabWood>, 1, 2, 3); // boards
 stoneSawmillRecipeBuilder("treated_boards", <pyrotech:material:23>, <pyrotech:planks_tarred>, 1, 2, 3); // tarred boards
-stoneSawmillRecipeBuilder("sticks", <thebetweenlands:items_misc:20>, <pyrotech:material:20>, 1, 2, 3); // boards
+stoneSawmillRecipeBuilder("sticks", <thebetweenlands:items_misc:20> * 2, <pyrotech:material:20>, 1, 1, 1); // boards
 
 //recipes.remove(<thebetweenlands:items_misc:20>); // sticks
 //recipes.addShaped("weedwood_sticks", <thebetweenlands:items_misc:20> * 2, [[<thebetweenlands:weedwood_planks>], [<thebetweenlands:weedwood_planks>]]);
@@ -829,6 +830,10 @@ furnace.remove(<embers:stamp_gear>);
 PitKiln.addRecipe("stamp_gear", <embers:stamp_gear>, <embers:stamp_gear_raw>, 10 * 60 * 20, 0.33, [
 ], true);
 
+furnace.remove(<soot:stamp_nugget>);
+PitKiln.addRecipe("stamp_nugget", <soot:stamp_nugget>, <soot:stamp_nugget_raw>, 10 * 60 * 20, 0.33, [
+], true);
+
 furnace.remove(<thebetweenlands:silt_glass>);
 PitKiln.addRecipe("silt_glass", <thebetweenlands:silt_glass>, <thebetweenlands:silt>, 10 * 60 * 20, 0.33, [
 ], true);
@@ -910,8 +915,8 @@ function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, input
 
 recreateBloomeryRecipe("Syrmorite", <thebetweenlands:syrmorite_ore>, <pyrotech:generated_pile_slag_syrmorite>, <thebetweenlands:items_misc:41>, <pyrotech:generated_slag_syrmorite>, ["granite", "ironclad"]);
 recreateBloomeryRecipe("Octine", metals["octine"].ore, <pyrotech:generated_pile_slag_octine>, metals["octine"].nugget, <pyrotech:generated_slag_octine>, ["ironclad"]);
-recreateBloomeryRecipe("Aluminum", metals["aluminum"].ore, <pyrotech:generated_pile_slag_aluminum>, metals["aluminum"].nugget, <pyrotech:generated_slag_aluminum>, ["ironclad"]);
-recreateBloomeryRecipe("Copper", metals["copper"].ore, <pyrotech:generated_pile_slag_copper>, metals["copper"].nugget, <pyrotech:generated_slag_copper>, ["ironclad"]);
+recreateBloomeryRecipe("Nickel", metals["nickel"].ore, <pyrotech:generated_pile_slag_nickel>, metals["nickel"].nugget, <pyrotech:generated_slag_nickel>, ["ironclad"]);
+//recreateBloomeryRecipe("Copper", metals["copper"].ore, <pyrotech:generated_pile_slag_copper>, metals["copper"].nugget, <pyrotech:generated_slag_copper>, ["ironclad"]);
 recreateBloomeryRecipe("Lead", metals["lead"].ore, <pyrotech:generated_pile_slag_lead>, metals["lead"].nugget, <pyrotech:generated_slag_lead>, ["ironclad"]);
 recreateBloomeryRecipe("Silver", metals["silver"].ore, <pyrotech:generated_pile_slag_silver>, metals["silver"].nugget, <pyrotech:generated_slag_silver>, ["ironclad"]);
 //recreateBloomeryRecipe("Uranium", metals["uranium"].ore, <pyrotech:generated_pile_slag_uranium>, metals["uranium"].nugget, <pyrotech:generated_slag_uranium>, ["ironclad"]);

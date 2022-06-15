@@ -139,6 +139,7 @@ recipes.remove(<thaumcraft:candle_brown>);
 recipes.remove(<thaumcraft:candle_green>);
 recipes.remove(<thaumcraft:candle_red>);
 recipes.remove(<thaumcraft:candle_black>);
+recipes.remove(<thaumcraft:flesh_block>);
 recipes.addShaped(<thaumcraft:candle_white>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:0>], [<growthcraft_bees:bees_wax:0>]]);
 recipes.addShaped(<thaumcraft:candle_orange>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:1>], [<growthcraft_bees:bees_wax:1>]]);
 recipes.addShaped(<thaumcraft:candle_magenta>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:2>], [<growthcraft_bees:bees_wax:2>]]);
@@ -784,6 +785,15 @@ SalisMundus.addSingleConversion(<thebetweenlands:sapling_spirit_tree>, <thaumcra
 // CAULDRON
 Crucible.removeRecipe(<thaumcraft:cluster:0>);
 Crucible.removeRecipe(<thaumcraft:cluster:1>);
+Crucible.removeRecipe(<thaumcraft:tallow>);
+Crucible.removeRecipe(<minecraft:gunpowder>);
+Crucible.removeRecipe(<minecraft:slime_ball>);
+Crucible.removeRecipe(<minecraft:dye>);
+Crucible.removeRecipe(<minecraft:glowstone_dust>);
+Crucible.removeRecipe(<minecraft:clay_ball>);
+Crucible.removeRecipe(<minecraft:string>);
+Crucible.removeRecipe(<minecraft:lava_bucket>);
+
 
 /*
 Crucible.removeRecipe(<thaumcraft:nitor_yellow>);
@@ -833,14 +843,28 @@ Crucible.registerRecipe("everfullurn", "EVERFULLURN", <thaumcraft:everfull_urn>,
 ]);
 
 
-/*
 Crucible.removeRecipe("liquiddeath");
 Crucible.registerRecipe("liquiddeath", "LIQUIDDEATH", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}), <thebetweenlands:bl_bucket:1>, [
 	<aspect:alkimia> * 20,
 	<aspect:mortuus> * 100,
 	<aspect:perditio> * 50,
 ]);
-*/
+
+
+Crucible.removeRecipe(<thaumcraft:sanity_soap>);
+Crucible.registerRecipe("SaneSoap", "SANESOAP@2", <thaumcraft:sanity_soap>, <thebetweenlands:fumigant>, [
+	<aspect:cognitio> * 75, 
+	<aspect:ordo> * 75, 
+	<aspect:alienis> * 50, 
+	<aspect:victus> * 50
+]);
+
+Crucible.removeRecipe(<thaumcraft:ingot:2>);
+Crucible.registerRecipe("brassingot", "METALLURGY@1", <thaumcraft:ingot:2>, <thebetweenlands:octine_ingot>, [
+	<aspect:instrumentum> * 5
+]);
+
+
 
 
 // INFUSION

@@ -438,7 +438,8 @@
   "purifier": [
     {
       "input": {
-        "id": "minecraft:paper"
+        "id": "thebetweenlands:items_misc",
+        "meta": 32
       },
       "output": {
         "id": "pizzacraft:paper_mass",

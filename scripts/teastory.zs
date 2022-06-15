@@ -70,6 +70,9 @@ for item in itemsToRemove {
 }
 
 
+furnace.remove(<teastory:tea_leaf>);
+furnace.remove(<forge:bucketfilled>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}));
+
 furnace.remove(<teastory:empty_porcelain_kettle>);
 recipes.remove(<teastory:empty_porcelain_kettle>);
 recipes.addShaped("teastory_empty_porcelain_kettle", <teastory:empty_porcelain_kettle>, [
@@ -88,9 +91,9 @@ recipes.addShaped("teastory_empty_zisha_kettle", <teastory:empty_zisha_kettle>, 
 
 recipes.remove(<teastory:pot_stone>);
 recipes.addShaped("teastory_pot_stone", <teastory:pot_stone>, [
-	[<thebetweenlands:smooth_cragrock>, null, <thebetweenlands:smooth_cragrock>], 
-	[<thebetweenlands:smooth_cragrock>, null, <thebetweenlands:smooth_cragrock>], 
-	[null, <thebetweenlands:smooth_cragrock>, null]
+	[<thebetweenlands:smooth_betweenstone>, null, <thebetweenlands:smooth_betweenstone>], 
+	[<thebetweenlands:smooth_betweenstone>, null, <thebetweenlands:smooth_betweenstone>], 
+	[null, <thebetweenlands:smooth_betweenstone>, null]
 ]);
 
 recipes.remove(<teastory:pot_iron>);
@@ -130,8 +133,8 @@ recipes.addShaped("teastory_wooden_cup", <teastory:cup:0>, [
 
 recipes.remove(<teastory:cup:2>);
 recipes.addShaped("teastory_stone_cup", <teastory:cup:2>, [
-	[<thebetweenlands:smooth_cragrock>, null, <thebetweenlands:smooth_cragrock>], 
-	[<thebetweenlands:cragrock>, <thebetweenlands:smooth_cragrock>, <thebetweenlands:cragrock>]
+	[<thebetweenlands:smooth_betweenstone>, null, <thebetweenlands:smooth_betweenstone>], 
+	[<thebetweenlands:smooth_betweenstone>, <thebetweenlands:smooth_betweenstone>, <thebetweenlands:smooth_betweenstone>]
 ]);
 
 recipes.remove(<teastory:cup:3>);

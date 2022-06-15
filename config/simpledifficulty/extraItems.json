@@ -11,7 +11,7 @@
   },
   "dragon_canteen": {
     "_comment": "Dragon Canteen - Automatically purifies water",
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "capacity": "8"
     }

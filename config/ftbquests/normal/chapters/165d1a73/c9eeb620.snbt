@@ -1,0 +1,20 @@
+{
+	title: "Fey Crafter",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"Fey crafter allows you to craft some magical items.",
+		"",
+		"In order for it to work, an activated grove stone needs to be nearby."
+	],
+	dependencies: [
+		"15494e7a"
+	],
+	tasks: [{
+		uid: "1aa171b7",
+		type: "item",
+		items: [{
+			item: "roots:fey_crafter"
+		}]
+	}]
+}

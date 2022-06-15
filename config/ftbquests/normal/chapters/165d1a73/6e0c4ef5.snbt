@@ -1,0 +1,18 @@
+{
+	title: "Pyre",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"Pyres are used to craft items and activate rituals."
+	],
+	dependencies: [
+		"15494e7a"
+	],
+	tasks: [{
+		uid: "c3059fbd",
+		type: "item",
+		items: [{
+			item: "roots:pyre"
+		}]
+	}]
+}

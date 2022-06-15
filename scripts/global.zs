@@ -72,14 +72,6 @@ global metals as IItemStack[string][string] = {
 		plate: <embers:plate_gold>,
 		cluster: <jaopca:item_clusteroctine>
 	},
-	copper: {
-		ore: <betweenores:copper_ore>,
-		nugget: <embers:nugget_copper>,
-		ingot: <embers:ingot_copper>,
-		block: <embers:block_copper>,
-		plate: <embers:plate_copper>,
-		cluster: <thaumcraft:cluster:2>
-	},
 	lead: {
 		ore: <betweenores:lead_ore>,
 		nugget: <embers:nugget_lead>,
@@ -96,13 +88,13 @@ global metals as IItemStack[string][string] = {
 		plate: <embers:plate_silver>,
 		cluster: <thaumcraft:cluster:4>
 	},
-	aluminum: {
-		ore: <betweenores:aluminum_ore>,
-		nugget: <embers:nugget_aluminum>,
-		ingot: <embers:ingot_aluminum>,
-		block: <embers:block_aluminum>,
-		plate: <embers:plate_aluminum>,
-		cluster: <jaopca:item_clusteraluminium>
+	nickel: {
+		ore: <betweenores:nickel_ore>,
+		nugget: <embers:nugget_nickel>,
+		ingot: <embers:ingot_nickel>,
+		block: <embers:block_nickel>,
+		plate: <embers:plate_nickel>,
+		cluster: <jaopca:item_clusternickel>
 	},
 	dawnstone: {
 		ore: null,
@@ -157,10 +149,9 @@ global metals as IItemStack[string][string] = {
 global liquids as ILiquidStack[string] = {
 	syrmorite: <liquid:syrmorite>,
 	octine: <liquid:octine>,
-	copper: <liquid:copper>,
 	lead: <liquid:lead>,
 	silver: <liquid:silver>,
-	aluminum: <liquid:aluminum>,
+	nickel: <liquid:nickel>,
 	dawnstone: <liquid:dawnstone>,
 	bronze: <liquid:bronze>,
 	electrum: <liquid:electrum>,
@@ -453,6 +444,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:doorMetal>.add(<thebetweenlands:syrmorite_door_item>);
 
 <ore:plateSyrmorite>.add(<embers:plate_iron>);
+<ore:plateOctine>.add(<embers:plate_gold>);
 
 <ore:torch>.remove(<minecraft:torch>);
 

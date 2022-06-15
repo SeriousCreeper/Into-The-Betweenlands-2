@@ -1,7 +1,0 @@
-{
-	title: "Knowledge",
-	icon: "thebetweenlands:spirit_tree_face_large_mask",
-	always_invisible: true,
-	group: 0,
-	default_quest_shape: ""
-}

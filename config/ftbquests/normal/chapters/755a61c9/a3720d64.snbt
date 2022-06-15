@@ -1,0 +1,36 @@
+{
+	title: "Refined Slag",
+	x: 1.0d,
+	y: 7.0d,
+	text: [
+		"While ore can be directly put into a bloomery to process, putting it into a sulfur furnace with some limestone flux first yields better results."
+	],
+	dependencies: [
+		"7558f8fc",
+		"623be228"
+	],
+	tasks: [{
+		uid: "02310a85",
+		type: "item",
+		items: [{
+			item: "pyrotech:generated_pile_slag_syrmorite"
+		}]
+	},
+	{
+		uid: "d8bfc5bb",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_furnace"
+		},
+		{
+			item: "thebetweenlands:sulfur_furnace_dual"
+		}]
+	},
+	{
+		uid: "ddf41a8c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 27"
+		}]
+	}]
+}

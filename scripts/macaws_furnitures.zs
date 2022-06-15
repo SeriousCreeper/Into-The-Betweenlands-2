@@ -9,45 +9,45 @@ recipes.remove(<mcwfurnitures:dark_oak_plate>);
 recipes.remove(<mcwfurnitures:cabinet_door>);
 
 recipes.addShaped("mcwfurnitures_oak_plate", <mcwfurnitures:oak_plate> * 8, [
-	[<ore:stick>, <ore:stick>, <ore:stick>], 
-	[<ore:stick>, <thebetweenlands:log_weedwood> | <thebetweenlands:log_weedwood:12>, <ore:stick>], 
-	[<ore:stick>, <ore:stick>, <ore:stick>]
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
+	[<ore:stickWood>, <thebetweenlands:log_weedwood> | <thebetweenlands:log_weedwood:12>, <ore:stickWood>], 
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
 recipes.addShaped("mcwfurnitures_spruce_plate", <mcwfurnitures:spruce_plate> * 8, [
-	[<ore:stick>, <ore:stick>, <ore:stick>], 
-	[<ore:stick>, <thebetweenlands:log_rubber>, <ore:stick>], 
-	[<ore:stick>, <ore:stick>, <ore:stick>]
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
+	[<ore:stickWood>, <thebetweenlands:log_rubber>, <ore:stickWood>], 
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
 recipes.addShaped("mcwfurnitures_birch_plate", <mcwfurnitures:birch_plate> * 8, [
-	[<ore:stick>, <ore:stick>, <ore:stick>], 
-	[<ore:stick>, <thebetweenlands:giant_root>, <ore:stick>], 
-	[<ore:stick>, <ore:stick>, <ore:stick>]
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
+	[<ore:stickWood>, <thebetweenlands:giant_root>, <ore:stickWood>], 
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
 recipes.addShaped("mcwfurnitures_jungle_plate", <mcwfurnitures:jungle_plate> * 8, [
-	[<ore:stick>, <ore:stick>, <ore:stick>], 
-	[<ore:stick>, <thebetweenlands:log_hearthgrove:1> | <thebetweenlands:log_hearthgrove:3>, <ore:stick>], 
-	[<ore:stick>, <ore:stick>, <ore:stick>]
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
+	[<ore:stickWood>, <thebetweenlands:log_hearthgrove:1> | <thebetweenlands:log_hearthgrove:3>, <ore:stickWood>], 
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
 recipes.addShaped("mcwfurnitures_acacia_plate", <mcwfurnitures:acacia_plate> * 8, [
-	[<ore:stick>, <ore:stick>, <ore:stick>], 
-	[<ore:stick>, <thebetweenlands:log_nibbletwig> | <thebetweenlands:log_nibbletwig:12>, <ore:stick>], 
-	[<ore:stick>, <ore:stick>, <ore:stick>]
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
+	[<ore:stickWood>, <thebetweenlands:log_nibbletwig> | <thebetweenlands:log_nibbletwig:12>, <ore:stickWood>], 
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
 recipes.addShaped("mcwfurnitures_dark_oak_plate", <mcwfurnitures:dark_oak_plate> * 8, [
-	[<ore:stick>, <ore:stick>, <ore:stick>], 
-	[<ore:stick>, <thebetweenlands:log_rotten_bark>, <ore:stick>], 
-	[<ore:stick>, <ore:stick>, <ore:stick>]
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
+	[<ore:stickWood>, <thebetweenlands:log_rotten_bark>, <ore:stickWood>], 
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
 recipes.addShaped("mcwfurnitures_cabinet_door", <mcwfurnitures:cabinet_door>, [
-	[<ore:stick>, <ore:stick>, <ore:stick>], 
-	[<ore:stick>, <ore:chest>, <ore:stick>], 
-	[<ore:stick>, <ore:stick>, <ore:stick>]
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
+	[<ore:stickWood>, <ore:chest>, <ore:stickWood>], 
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
 recipes.remove(<mcwfurnitures:iron_handle>);

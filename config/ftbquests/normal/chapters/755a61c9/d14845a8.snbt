@@ -1,0 +1,42 @@
+{
+	title: "Thirsty",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"Not only do you have to take care of food and decay, but also thirst!",
+		"",
+		"You can directly drink from a water source by sneak-right clicking with an empty hand. ",
+		"",
+		"This is not recommended as it can give you parasites.",
+		"",
+		"Bottles make it easier to carry around water and turn swamp water into purified water, which is parasite free!"
+	],
+	tasks: [{
+		uid: "a4a7c0f7",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_bottle"
+		}]
+	},
+	{
+		uid: "5df369bb",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:water"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa374335",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:purified_water_bottle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

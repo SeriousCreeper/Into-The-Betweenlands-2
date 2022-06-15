@@ -1,0 +1,22 @@
+{
+	title: "Living Tools",
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"Living tools are much more convenient than bone tools. ",
+		"",
+		"Not only do they mine faster and can mine harder blocks, they also repair themselves over time, but rather slowly."
+	],
+	dependencies: [
+		"b28aa1e4"
+	],
+	tasks: [{
+		uid: "2eb0d9c4",
+		type: "item",
+		items: [{
+			item: "roots:living_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

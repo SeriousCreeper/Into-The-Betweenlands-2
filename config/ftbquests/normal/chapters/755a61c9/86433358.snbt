@@ -1,0 +1,32 @@
+{
+	title: "First Nuggets",
+	icon: "pyrotech:bloom",
+	x: 1.0d,
+	y: 11.0d,
+	text: [
+		"Once the bloomer has finished, use a shovel to remove the ash on top, then use your tongs to grab the bloom.",
+		"",
+		"Place the bloom onto your anvil and keep hitting it with your hammer. ",
+		"",
+		"Careful, blooms are VERY hot and will set nearby blocks (and yourself) on fire!"
+	],
+	dependencies: [
+		"a86bcf84"
+	],
+	tasks: [{
+		uid: "45021a19",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 41"
+		}]
+	},
+	{
+		uid: "27e7bcdd",
+		type: "item",
+		items: [{
+			item: "pyrotech:bone_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

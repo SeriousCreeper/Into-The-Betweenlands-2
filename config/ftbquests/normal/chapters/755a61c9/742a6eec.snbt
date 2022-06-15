@@ -1,0 +1,19 @@
+{
+	title: "Bones",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Find bones to further progress.",
+		"These can drop from Swamp Hags, or mined from slimy bone ore."
+	],
+	dependencies: [
+		"4d6af512"
+	],
+	tasks: [{
+		uid: "1464fb84",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 14"
+		}]
+	}]
+}

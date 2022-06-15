@@ -1,0 +1,21 @@
+{
+	title: "Soaking Pot",
+	x: 2.0d,
+	y: 9.0d,
+	text: [
+		"The soaking pot will take some fluid and ingredients to turn them into something else. ",
+		"",
+		"Some recipes require a campfire below the soaking pot. "
+	],
+	dependencies: [
+		"ebb041d1",
+		"f77c3423"
+	],
+	tasks: [{
+		uid: "7d01ce97",
+		type: "item",
+		items: [{
+			item: "pyrotech:soaking_pot"
+		}]
+	}]
+}

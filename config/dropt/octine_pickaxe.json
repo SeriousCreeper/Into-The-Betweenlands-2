@@ -160,84 +160,6 @@
       "match": {
         "drops": {
           "drops": [
-            "ore:oreCopper"
-          ]
-        },
-        "harvester": {
-          "type": "PLAYER",
-          "heldItemMainHand": {
-            "items": [
-              "thebetweenlands:octine_pickaxe:*"
-            ]
-          }
-        }
-      },
-      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
-      "drops": [
-        {
-          "selector": {
-            "weight": {
-              "value": 5
-            }
-          },
-          "item": {
-            "items": [
-              "pyrotech:generated_pile_slag_copper"
-            ]
-          }
-        },
-        {
-          "selector": {
-            "weight": {
-              "value": 95
-            }
-          }
-        }
-      ]
-    },
-    {
-      "match": {
-        "drops": {
-          "drops": [
-            "ore:oreAluminum"
-          ]
-        },
-        "harvester": {
-          "type": "PLAYER",
-          "heldItemMainHand": {
-            "items": [
-              "thebetweenlands:octine_pickaxe:*"
-            ]
-          }
-        }
-      },
-      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
-      "drops": [
-        {
-          "selector": {
-            "weight": {
-              "value": 5
-            }
-          },
-          "item": {
-            "items": [
-              "pyrotech:generated_pile_slag_aluminum"
-            ]
-          }
-        },
-        {
-          "selector": {
-            "weight": {
-              "value": 95
-            }
-          }
-        }
-      ]
-    },
-    {
-      "match": {
-        "drops": {
-          "drops": [
             "ore:oreNickel"
           ]
         },
@@ -261,45 +183,6 @@
           "item": {
             "items": [
               "pyrotech:generated_pile_slag_nickel"
-            ]
-          }
-        },
-        {
-          "selector": {
-            "weight": {
-              "value": 95
-            }
-          }
-        }
-      ]
-    },
-    {
-      "match": {
-        "drops": {
-          "drops": [
-            "ore:oreTin"
-          ]
-        },
-        "harvester": {
-          "type": "PLAYER",
-          "heldItemMainHand": {
-            "items": [
-              "thebetweenlands:octine_pickaxe:*"
-            ]
-          }
-        }
-      },
-      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
-      "drops": [
-        {
-          "selector": {
-            "weight": {
-              "value": 5
-            }
-          },
-          "item": {
-            "items": [
-              "pyrotech:generated_pile_slag_tin"
             ]
           }
         },

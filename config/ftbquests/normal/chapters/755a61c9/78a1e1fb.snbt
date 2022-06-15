@@ -1,0 +1,20 @@
+{
+	title: "Tongs",
+	x: 1.0d,
+	y: 9.0d,
+	text: [
+		"Blooms are very how and are best handled using tongs."
+	],
+	dependencies: [
+		"a86bcf84"
+	],
+	tasks: [{
+		uid: "58498206",
+		type: "item",
+		items: [{
+			item: "pyrotech:tongs_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

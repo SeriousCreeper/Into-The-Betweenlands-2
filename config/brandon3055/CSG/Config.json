@@ -1,6 +1,7 @@
 {
   "inventory": {
-    "0:0": "pyrotech:crude_axe",
-    "1:3": "thebetweenlands:explorers_hat"
+    "0:1": "loreexpansion:lore_journal",
+    "1:3": "thebetweenlands:explorers_hat",
+    "0:0": "pyrotech:crude_axe"
   }
 }

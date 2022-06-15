@@ -33,6 +33,13 @@ for item in items {
 recipes.remove(<simpledifficulty:purified_water_bottle>);
 furnace.remove(<simpledifficulty:purified_water_bottle>);
 
+recipes.remove(<simpledifficulty:charcoal_filter>);
+recipes.addShaped("charcoal_filter", <simpledifficulty:charcoal_filter> * 3, [
+	[<thebetweenlands:items_misc:32>], 
+	[<thebetweenlands:items_misc:18>], 
+	[<thebetweenlands:items_misc:32>]
+]);
+
 recipes.removeByRegex("simpledifficulty:canteen_empty");
 recipes.addShaped("canteen_empty", <simpledifficulty:canteen>.withTag({Doses: 0, CanteenType: 0}), [
 	[null, <thebetweenlands:items_misc:4>, null], 

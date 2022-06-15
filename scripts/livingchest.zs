@@ -1,0 +1,1 @@
+recipes.remove(<livingchest:eye_bone>);

@@ -3,18 +3,22 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import mods.orestages.OreStages;
+import mods.MobStages;
 import crafttweaker.item.IItemStack;
 
 
+MobStages.addStage("knowledge_of_technology", "embers:ancient_golem");
 
 
-OreStages.addReplacement("knowledge_of_technology", <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
+
+
+//OreStages.addReplacement("knowledge_of_technology", <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_technology", <betweenores:lead_ore>, <thebetweenlands:pitstone>);
 OreStages.addReplacement("knowledge_of_technology", <betweenores:silver_ore>, <thebetweenlands:pitstone>);
-OreStages.addReplacement("knowledge_of_technology", <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);
+//OreStages.addReplacement("knowledge_of_technology", <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_technology", <thaumcraft:ore_amber>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_technology", <thaumcraft:ore_cinnabar>, <thebetweenlands:pitstone>);
-//OreStages.addReplacement("knowledge_of_technology", <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
+OreStages.addReplacement("knowledge_of_technology", <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
 
 OreStages.addReplacement("locked", <minecraft:dirt>, <thebetweenlands:swamp_dirt>);
 OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_solid>);

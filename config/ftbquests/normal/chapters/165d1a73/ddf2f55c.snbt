@@ -1,0 +1,22 @@
+{
+	title: "Old Remains",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"There are old remains on top of the floating islands. ",
+		"",
+		"With your new pickaxe you should be able to mine some of them. ",
+		"",
+		"Who knows what kind of discoveries you will make!"
+	],
+	dependencies: [
+		"5ae2700f"
+	],
+	tasks: [{
+		uid: "04d899db",
+		type: "item",
+		items: [{
+			item: "immersiveruins:scrap2"
+		}]
+	}]
+}

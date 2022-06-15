@@ -1,0 +1,1 @@
+recipes.remove(<pogosticks:pogo_stick>);

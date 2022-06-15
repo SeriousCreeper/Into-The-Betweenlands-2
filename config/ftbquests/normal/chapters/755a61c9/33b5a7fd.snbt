@@ -1,0 +1,18 @@
+{
+	title: "Metal Age",
+	x: 1.0d,
+	y: 12.0d,
+	text: [
+		"Once you get enough nuggets, you can craft your first ingot!"
+	],
+	dependencies: [
+		"86433358"
+	],
+	tasks: [{
+		uid: "4ba88deb",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 11"
+		}]
+	}]
+}

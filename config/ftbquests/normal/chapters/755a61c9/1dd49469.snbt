@@ -1,0 +1,26 @@
+{
+	title: "Chopping Block",
+	icon: "pyrotech:chopping_block",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"Craft a chopping block, place logs on it, and right click with an axe to get planks"
+	],
+	dependencies: [
+		"ef0a7837"
+	],
+	tasks: [{
+		uid: "53dbe07e",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	},
+	{
+		uid: "f9c35f00",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_planks"
+		}]
+	}]
+}

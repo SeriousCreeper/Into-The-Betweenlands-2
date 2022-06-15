@@ -83,10 +83,10 @@ recipes.addShaped("unlit_sulfur_torchers", <thebetweenlands:sulfur_torch_extingu
 ]);
 
 recipes.remove(<thebetweenlands:weedwood_chest>);
-recipes.addShaped("weedwood_chest", <thebetweenlands:weedwood_chest>, [
-	[<thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>],
-	[<thebetweenlands:weedwood_plank_slab>, <ore:ingotSyrmorite>, <thebetweenlands:weedwood_plank_slab>],
-	[<thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>]
+recipes.addShaped("weedwood_chest", <thebetweenlands:weedwood_chest> * 2, [
+	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>],
+	[<thebetweenlands:weedwood_planks>, <ore:ingotSyrmorite>, <thebetweenlands:weedwood_planks>],
+	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
 ]);
 
 recipes.remove(<thebetweenlands:weedwood_workbench>);

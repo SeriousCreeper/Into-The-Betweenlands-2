@@ -1,0 +1,20 @@
+{
+	title: "Campfire",
+	x: 4.0d,
+	y: 3.0d,
+	text: [
+		"Campfires are fantastic to have around your base.",
+		"",
+		"Not only do they provide light and burn for really long, they also give you buffs that will reduce how much food you need, and even heal you.",
+		"",
+		"Place tinder on the ground and add up to 8 logs, then light it up."
+	],
+	tasks: [{
+		uid: "f9803986",
+		type: "item",
+		icon: "pyrotech:campfire",
+		items: [{
+			item: "pyrotech:tinder"
+		}]
+	}]
+}

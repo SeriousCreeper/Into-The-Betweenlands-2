@@ -3,8 +3,14 @@
         "key": "HEDGEALCHEMY",
         "ops": [
             {
-                "op": "remove",
-                "path": "stages/0/required_craft"
+                "op": "replace",
+                "path": "stages/0/required_craft",
+                "value": ["thaumcraft:hedge_leather"]
+            },
+            {
+                "op": "replace",
+                "path": "stages/0/recipes",
+                "value": ["thaumcraft:hedge_leather", "thaumcraft:hedge_web"]
             },
             {
                 "op": "remove",
@@ -13,6 +19,21 @@
             {
                 "op": "remove",
                 "path": "stages/2/required_craft"
+            },
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": ["thaumcraft:hedge_leather", "thaumcraft:hedge_web"]
+            },
+            {
+                "op": "replace",
+                "path": "stages/2/recipes",
+                "value": ["thaumcraft:hedge_leather", "thaumcraft:hedge_web"]
+            },
+            {
+                "op": "replace",
+                "path": "stages/3/recipes",
+                "value": ["thaumcraft:hedge_leather", "thaumcraft:hedge_web"]
             }
         ]
     },

@@ -1,0 +1,19 @@
+{
+	title: "Limestone Anvil",
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"The first tier of anvil is the limestone anvil.",
+		"It is needed to get nuggets out of ore blooms."
+	],
+	dependencies: [
+		"600d5a83"
+	],
+	tasks: [{
+		uid: "8b64a67b",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_granite"
+		}]
+	}]
+}

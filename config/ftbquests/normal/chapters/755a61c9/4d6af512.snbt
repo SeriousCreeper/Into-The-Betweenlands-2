@@ -1,0 +1,27 @@
+{
+	title: "Simple Tools",
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"Craft simple but stronger tools using weedwood.",
+		"I recommend making an axe first!"
+	],
+	dependencies: [
+		"f5b90f01"
+	],
+	tasks: [{
+		uid: "4f6a9e1f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_axe"
+		},
+		{
+			item: "thebetweenlands:weedwood_pickaxe"
+		},
+		{
+			item: "thebetweenlands:weedwood_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

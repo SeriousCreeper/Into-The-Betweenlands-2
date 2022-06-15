@@ -509,7 +509,7 @@ RunicShears.addEntityRecipe("feyleather_from_toads", <roots:fey_leather>, <entit
 
 RunicShears.removeRecipe(<roots:spirit_herb>);
 RunicShears.addRecipe("spirit_herb", <roots:spirit_herb>, PropertyPredicate.create(<blockstate:thebetweenlands:middle_fruit_bush:age=15,decayed=false>, ["age","decayed"]), <blockstate:thebetweenlands:middle_fruit_bush:age=2>, <thebetweenlands:middle_fruit>);
-RunicShears.addRecipe("tea_seed", <teastory:tea_seeds>, StatePredicate.create(<blockstate:thebetweenlands:swamp_reed>), <blockstate:minecraft:air>, <thaumcraft:leaves_silverwood>);
+RunicShears.addRecipe("tea_seed", <teastory:tea_seeds>, StatePredicate.create(<blockstate:thaumcraft:leaves_silverwood>), <blockstate:minecraft:air>, <thaumcraft:leaves_silverwood>);
 
 
 RunicShears.removeRecipe(<roots:wildewheet>);

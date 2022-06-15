@@ -1,0 +1,19 @@
+{
+	title: "Refined Bricks",
+	x: 2.0d,
+	y: 7.0d,
+	text: [
+		"Bricks are required for the first set of machines.",
+		"Place betweenstone slabs onto the anvil and hit it with a pickaxe."
+	],
+	dependencies: [
+		"7f2a2271"
+	],
+	tasks: [{
+		uid: "7cc38a74",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 16"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "New Metals",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Studying the old remains on top of the floating islands opened your eyes to new metals in the world.",
+		"",
+		"Dive deeper into the underground to acquire some of them."
+	],
+	dependencies: [
+		"ddf2f55c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c9f08a35",
+		type: "item",
+		items: [{
+			item: "betweenores:silver_ore"
+		}]
+	},
+	{
+		uid: "9f2090a1",
+		type: "item",
+		items: [{
+			item: "betweenores:lead_ore"
+		}]
+	}]
+}

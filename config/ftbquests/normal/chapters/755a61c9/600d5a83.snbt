@@ -1,0 +1,30 @@
+{
+	title: "Pit Kiln",
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		"The pit kiln is an early way of refining certain items and blocks. ",
+		"",
+		"First place the pit kiln block.",
+		"Then right click the item you want to process.",
+		"Place thatch and logs on top, and set it ablaze."
+	],
+	dependencies: [
+		"7560e810",
+		"11cdd23c"
+	],
+	tasks: [{
+		uid: "4f8888e8",
+		type: "item",
+		items: [{
+			item: "pyrotech:kiln_pit"
+		}]
+	},
+	{
+		uid: "7135a5b9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:thatch"
+		}]
+	}]
+}

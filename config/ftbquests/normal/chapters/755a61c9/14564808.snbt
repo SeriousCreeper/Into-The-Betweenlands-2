@@ -1,0 +1,27 @@
+{
+	title: "Bone Tools",
+	x: 1.0d,
+	y: 3.0d,
+	text: [
+		"If you found some bones, you can make even better tools right away!"
+	],
+	dependencies: [
+		"f5b90f01",
+		"742a6eec"
+	],
+	tasks: [{
+		uid: "8e176d67",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_pickaxe"
+		},
+		{
+			item: "thebetweenlands:bone_axe"
+		},
+		{
+			item: "thebetweenlands:bone_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

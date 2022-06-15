@@ -1,0 +1,29 @@
+{
+	title: "Mortar and Pestle",
+	x: 1.0d,
+	y: 6.0d,
+	text: [
+		"With the mortar and pestle, limestone can be turned into limestone flux.",
+		"This is used to turn ores into slags, which yield more nuggets than the ore itself."
+	],
+	dependencies: [
+		"11cdd23c"
+	],
+	tasks: [{
+		uid: "d84b9986",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mortar"
+		}]
+	},
+	{
+		uid: "050b5691",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:pestle",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

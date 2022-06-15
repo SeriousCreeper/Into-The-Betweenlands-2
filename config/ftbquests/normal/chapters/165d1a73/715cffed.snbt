@@ -1,0 +1,43 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"b28aa1e4"
+	],
+	tasks: [{
+		uid: "a3d7f873",
+		type: "item",
+		items: [{
+			item: "roots:sylvan_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dfce5c9f",
+		type: "item",
+		items: [{
+			item: "roots:sylvan_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8db70763",
+		type: "item",
+		items: [{
+			item: "roots:sylvan_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "10bd4276",
+		type: "item",
+		items: [{
+			item: "roots:sylvan_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

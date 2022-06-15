@@ -25,6 +25,7 @@ addStoneFences(<mcwfences:modern_granite_wall>, <thebetweenlands:mud_bricks>, <t
 addStoneFences(<mcwfences:modern_sandstone_wall>, <thebetweenlands:pitstone_bricks>, <thebetweenlands:pitstone>);
 addStoneFences(<mcwfences:modern_red_sandstone_wall>, <thebetweenlands:mossy_betweenstone_bricks>, <thebetweenlands:mossy_betweenstone_tiles>);
 addStoneFences(<mcwfences:modern_nether_brick_wall>, <embers:archaic_bricks>, <embers:archaic_tile>);
+addStoneFences(<mcwfences:modern_end_brick_wall>, <embers:block_caminite_brick>, <embers:block_caminite_brick>);
 //addStoneFences(<mcwfences:modern_end_brick_wall>, <embers:block_caminite_brick>, <soot:caminite_large_tile>);
 
 addStoneRailings(<mcwfences:railing_stone_brick_wall>, <thebetweenlands:betweenstone_bricks>);

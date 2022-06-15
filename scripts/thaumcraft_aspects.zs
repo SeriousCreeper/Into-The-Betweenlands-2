@@ -339,6 +339,45 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:items_misc:45>.setAspects(<aspect:ignis> * 10, <aspect:vitreus> * 3);
 <thebetweenlands:items_misc:47>.setAspects(<aspect:vitreus> * 5, <aspect:alienis> * 5);
 
+<thebetweenlands:bl_bucket:0>.setAspects(<aspect:herba> * 1);
+<thebetweenlands:bl_bucket:1>.setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "tar", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "stagnant_water", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifying_fluid", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "sugar", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "antimony", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "void", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "thaumium", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "brass", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_condensed_milk", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_whey", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_skim_milk", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_rennet", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_milk_curds", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_cream", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_butter_milk", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "alchemical_redstone", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "electrum", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "bronze", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "nickel", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "aluminum", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "tin", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "dawnstone", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_milk", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "octine", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "syrmorite", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "oil_soul", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "oil_dwarf", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "iron", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "gold", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "lead", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "copper", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "silver", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
 
 <pyrotech:material:11>.setAspects( <aspect:instrumentum> * 1);
 

@@ -22,12 +22,11 @@ val items = [
 	//"boss_item_4",
 	//"boss_item_5",
 	//"boss_item_6",
-	"inert_boneway_finder"
+	"inert_boneway_finder",
+	//"plate_syrmorite"
 ] as string[];
 
 
 for item in items {
 	VanillaFactory.createItem(item).register();
 }
-
-

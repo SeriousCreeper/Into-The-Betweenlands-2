@@ -107,7 +107,7 @@ val itemsToKeep = [
 	<minecraft:noteblock>,
 	//<minecraft:milk_bucket>,
 	//<minecraft:water_bucket>,
-	<minecraft:paper>,
+	//<minecraft:paper>,
 	<minecraft:stained_glass:*>,
 	<minecraft:spawn_egg>,
 	<minecraft:redstone_torch>,
@@ -118,6 +118,9 @@ val itemsToKeep = [
 	<minecraft:redstone_lamp>,
 	<minecraft:glass_bottle>,
 	<minecraft:snowball>,
+	//<minecraft:iron_nugget>,
+	//<minecraft:iron_ingot>,
+	//<minecraft:iron_block>,
 ] as IItemStack[];
 
 
@@ -159,7 +162,6 @@ furnace.remove(<minecraft:quartz>);
 
 
 recipes.remove(<minecraft:dye:*>);
-recipes.remove(<minecraft:paper>);
 
 recipes.addShapeless("dyePurple", <minecraft:dye:5> * 2, [<minecraft:dye:4>, <minecraft:dye:1>]);
 recipes.addShapeless("dyeCyan", <minecraft:dye:6> * 2, [<minecraft:dye:4>, <minecraft:dye:2>]);
@@ -611,5 +613,4 @@ recipes.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<uppers
 <minecraft:dye:15>.displayName = "White Dye";
 <minecraft:dye:3>.displayName = "Brown Dye";
 <minecraft:dye:4>.displayName = "Blue Dye";
-<minecraft:paper>.displayName = "Research Paper";
 <minecraft:glass_bottle>.displayName = "Silt Glass Bottle";

@@ -1,0 +1,24 @@
+{
+	title: "Bloomery",
+	x: 1.0d,
+	y: 10.0d,
+	text: [
+		"The bloomery takes fuel, and either ores or slag to create blooms.",
+		"Insert the ore or slag into the top of the bloomery.",
+		"The right click it with fuel (for example sulfur). ",
+		"",
+		"Then right click the top with either a fire starter or an octine ingot to light it up. ",
+		"",
+		"It can take quite a while to create the bloom, but this process can be sped up later on."
+	],
+	dependencies: [
+		"16fa265a"
+	],
+	tasks: [{
+		uid: "5db209c6",
+		type: "item",
+		items: [{
+			item: "pyrotech:bloomery"
+		}]
+	}]
+}

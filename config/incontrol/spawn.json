@@ -1,2 +1,22 @@
 [
+  {
+    "minheight": 50,
+    "mob": "embers:ancient_golem",
+    "result": "deny"
+  },
+  {
+    "mob": "embers:ancient_golem",
+    "mincount": 10,
+    "result": "deny"
+  },
+  {
+    "maxheight": 120,
+    "mob": "mod_lavacow:raven",
+    "result": "deny"
+  },
+  {
+    "mob": "mod_lavacow:raven",
+    "mincount": 10,
+    "result": "deny"
+  }
 ]

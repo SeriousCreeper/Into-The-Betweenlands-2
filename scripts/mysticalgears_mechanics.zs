@@ -17,6 +17,14 @@ recipes.remove(<mystgears:gear_valonite>);
 
 
 
+recipes.remove(<mystgears:mechanical_dial>);
+recipes.addShaped("recipe_mechanical_dial", <mystgears:mechanical_dial>, [
+	[<ore:dustRedstone>], 
+	[<thebetweenlands:items_misc:32>], 
+	[<ore:plateGold>]
+]);
+
+
 recipes.remove(<mysticalmechanics:gear_fan>);
 recipes.addShaped("mysticalmechanics-fan_iron", <mysticalmechanics:gear_fan>, [
 	[<embers:plate_iron>, null, <embers:plate_iron>], 

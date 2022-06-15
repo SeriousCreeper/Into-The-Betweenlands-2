@@ -1,0 +1,30 @@
+{
+	title: "Worktable",
+	icon: "pyrotech:worktable",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Use logs and slabs to craft a simple work table.",
+		"To craft items, place the ingredients on the grid, and right click with a hammer.",
+		"There is also a small shelf below to store a few items."
+	],
+	dependencies: [
+		"1dd49469"
+	],
+	tasks: [{
+		uid: "93bde08c",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable"
+		}]
+	},
+	{
+		uid: "ec8bb958",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

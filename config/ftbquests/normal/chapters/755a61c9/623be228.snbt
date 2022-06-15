@@ -1,0 +1,18 @@
+{
+	title: "Metals",
+	x: 0.0d,
+	y: 7.0d,
+	text: [
+		"Your first metal is Syrmorite. The ore can be found in the betweenstones cave layers."
+	],
+	dependencies: [
+		"742a6eec"
+	],
+	tasks: [{
+		uid: "3a5a1539",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_ore"
+		}]
+	}]
+}

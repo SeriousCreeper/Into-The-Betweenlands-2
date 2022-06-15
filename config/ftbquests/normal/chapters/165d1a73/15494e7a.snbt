@@ -1,0 +1,40 @@
+{
+	title: "Nature's Call",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"There are some mystical powers at play here, and you think you can take this to your advantage.",
+		"",
+		"First craft a knife and gather wildroots and terra moss."
+	],
+	dependencies: [
+		"33b5a7fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12a0b6f1",
+		type: "item",
+		items: [{
+			item: "roots:stone_knife"
+		},
+		{
+			item: "roots:wood_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d2ada358",
+		type: "item",
+		items: [{
+			item: "roots:terra_moss"
+		}]
+	},
+	{
+		uid: "8d151504",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	}]
+}
