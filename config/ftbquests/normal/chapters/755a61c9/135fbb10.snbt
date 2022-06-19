@@ -3,7 +3,9 @@
 	x: -1.0d,
 	y: 0.0d,
 	text: [
-		"Simple but brittle axe in case yours breaks"
+		"Simple but brittle axe in case yours breaks. ",
+		"",
+		"Pebbles can be found on the ground throughout the dimension."
 	],
 	optional: true,
 	tasks: [{

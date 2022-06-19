@@ -7,13 +7,13 @@
         "dimensions": [ 20 ]
       }
     },
-    "name": "The Beasts",
+    "name": "The Hags",
     "messages": {
-      "start": "\u00A7cA pack of sickly creatures are stampeding!",
+      "start": "\u00A7cA pack of swamp hags are approaching!",
       "end": "\u00A7aThe horde has been stopped... for now",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eA pack of wild animals make disturbing noises in the distance..."
+        "message": "\u00A7eYou can hear some unsettling growling out there..."
       }
     },
     "waves": [
@@ -23,8 +23,8 @@
           {
             "mobs": [
               {
-                "id": "skel",
-                "count": [ 3, 5 ],
+                "id": "hags",
+                "count": [ 6, 9 ],
                 "spawn": {
                   "type": "ground",
                   "light": [ 0, 15 ],

@@ -1,0 +1,38 @@
+{
+	title: "Basic Components",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"Before we get to use most of the machines, we need to fuel them using embers.",
+		"",
+		"The only way to do get embers is with an Ember Bore. ",
+		"",
+		"Making plates requires a hammer and is quite costly, but there will be cheaper options later on."
+	],
+	dependencies: [
+		"700fae13"
+	],
+	tasks: [{
+		uid: "05cd86a2",
+		type: "item",
+		items: [{
+			item: "embers:tinker_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b75d8af4",
+		type: "item",
+		items: [{
+			item: "embers:plate_lead"
+		}]
+	},
+	{
+		uid: "56b56cc9",
+		type: "item",
+		items: [{
+			item: "embers:mech_core"
+		}]
+	}]
+}

@@ -8,7 +8,7 @@
 		"First craft a knife and gather wildroots and terra moss."
 	],
 	dependencies: [
-		"33b5a7fd"
+		"1153d040"
 	],
 	hide: true,
 	tasks: [{

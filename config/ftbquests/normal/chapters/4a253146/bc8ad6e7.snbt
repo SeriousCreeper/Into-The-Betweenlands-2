@@ -1,0 +1,31 @@
+{
+	title: "Stamping",
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"The Stamper can take either liquids or solids and stamp them into form.",
+		"",
+		"Place the stamper base at the bottom, and then place the stamper 2 blocks above. ",
+		"",
+		"The top blocks receives embers, while the bottom one receives liquids or items.",
+		"",
+		"Stamps and other items can be attached to the bottom side of the stamper (top block), depending on the recipe."
+	],
+	dependencies: [
+		"2bdeba90"
+	],
+	tasks: [{
+		uid: "1599cdd3",
+		type: "item",
+		items: [{
+			item: "embers:stamper_base"
+		}]
+	},
+	{
+		uid: "04105671",
+		type: "item",
+		items: [{
+			item: "embers:stamper"
+		}]
+	}]
+}

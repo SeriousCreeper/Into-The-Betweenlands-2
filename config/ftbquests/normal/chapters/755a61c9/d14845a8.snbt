@@ -11,6 +11,7 @@
 		"",
 		"Bottles make it easier to carry around water and turn swamp water into purified water, which is parasite free!"
 	],
+	optional: true,
 	tasks: [{
 		uid: "a4a7c0f7",
 		type: "item",

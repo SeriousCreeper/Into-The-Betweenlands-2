@@ -360,6 +360,7 @@ mod_lavacow:sandburst
 mod_lavacow:deathcoil
 mod_lavacow:mummy
 livingchest:chester
+lootr:lootr_minecart
 thaumicaugmentation:dimensional_fracture
 thaumicaugmentation:item_rift_jar
 thaumicaugmentation:item_indestructible

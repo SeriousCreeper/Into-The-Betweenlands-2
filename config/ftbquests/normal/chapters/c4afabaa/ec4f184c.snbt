@@ -1,0 +1,20 @@
+{
+	title: "Death",
+	icon: {
+		id: "death_compass:death_compass",
+		tag: {}
+	},
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"In this pack, dying is not as punishing as in normal minecraft.",
+		"",
+		"When you die, you keep everything that is in your hotbar, your armor, your cosmetic armor, and your equipped lurker pouch.",
+		"",
+		"All other items will be placed inside a grave."
+	],
+	tasks: [{
+		uid: "c3554000",
+		type: "checkmark"
+	}]
+}

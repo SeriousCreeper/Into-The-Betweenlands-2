@@ -24,6 +24,8 @@ OreStages.addReplacement("locked", <minecraft:dirt>, <thebetweenlands:swamp_dirt
 OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_solid>);
 //OreStages.addReplacement("locked", <pyrotech:material:0>, <embers:dust_ash>);
 
+ItemStages.addItemStage("knowledge_of_technology", <thebetweenlands:swift_pick:*>);
+
 
 //Recipes.setRecipeStageByMod("knowledge_of_technology", "immersiveengineering");
 //ItemStages.stageModItems("knowledge_of_technology", "immersiveengineering");

@@ -1,0 +1,20 @@
+{
+	title: "Early Defense",
+	x: 1.0d,
+	y: 2.0d,
+	text: [
+		"Wooden shields are fantastic at blocking most attacks and can save your life more than once."
+	],
+	dependencies: [
+		"f5b90f01"
+	],
+	tasks: [{
+		uid: "978ca5dd",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

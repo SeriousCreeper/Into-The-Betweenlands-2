@@ -1,6 +1,6 @@
 {
 	title: "Grove Stone",
-	x: -1.0d,
+	x: 0.0d,
 	y: 1.0d,
 	text: [
 		"Grove Stones are required in order for Fey Altars to work.",

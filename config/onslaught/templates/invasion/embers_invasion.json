@@ -1,0 +1,48 @@
+{
+  "embers_invasion": {
+    "selector": {
+      "gamestages": {
+        "and": ["temp_embers_invasion"]
+      }
+    },
+    "name": "Ancient Golems",
+    "messages": {
+      "start": "\u00A7cAncient golems are approaching!",
+      "end": "\u00A7aThe ancient golems have been dismantled.",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eMechanical sounds are approaching from a distance..."
+      }
+    },
+    "commands": {
+      "end": [
+        "/gamestage silentremove @p temp_embers_invasion",
+        "/gamestage silentadd @p temp_embers_invasion_completed"
+      ]
+    },
+    "waves": [
+      {
+        "delayTicks": [ 300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "ancient_golem",
+                "count": [ 3, 3 ],
+                "spawn": {
+                  "type": "ground",
+                  "force": true,
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

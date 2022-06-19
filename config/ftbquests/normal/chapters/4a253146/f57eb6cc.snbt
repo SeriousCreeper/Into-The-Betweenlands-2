@@ -1,0 +1,41 @@
+{
+	title: "Activating Embers",
+	icon: "embers:ember_activator",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Now that you have embers, you can use an Ember Activator to burn the shards into raw energy. ",
+		"",
+		"Pipe the embers into an Ember Activator and attach an Ember Emitter.",
+		"",
+		"Attach an Ember Receptor on any machine, then hold the embers hammer in your main hand;",
+		"",
+		"Sneak-right click the receptor  first, then normal (no sneak) right click the emitter. You now linked both the emitter and receptor.",
+		"",
+		"Attach a lever to the emitter and flip it to start sending energy."
+	],
+	dependencies: [
+		"d908c566"
+	],
+	tasks: [{
+		uid: "eb18f4a5",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	},
+	{
+		uid: "529c3aa4",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	},
+	{
+		uid: "029743a6",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	}]
+}

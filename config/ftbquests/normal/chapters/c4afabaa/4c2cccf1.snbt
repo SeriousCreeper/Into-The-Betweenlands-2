@@ -1,0 +1,15 @@
+{
+	title: "Wall-Jump!",
+	icon: "thebetweenlands:syrmorite_boots",
+	x: -1.0d,
+	y: -0.5d,
+	text: [
+		"If you jump against a wall, you can jump one more time by pressing the wall-jump button (Space by default).",
+		"",
+		"You can also hold down the wall-jump button to slowly slide down walls."
+	],
+	tasks: [{
+		uid: "a000843d",
+		type: "checkmark"
+	}]
+}

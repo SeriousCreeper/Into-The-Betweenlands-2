@@ -1,0 +1,15 @@
+{
+	x: 7.5d,
+	y: 2.0d,
+	dependencies: [
+		"292e4604",
+		"3dc1968f"
+	],
+	tasks: [{
+		uid: "f6d6b24a",
+		type: "item",
+		items: [{
+			item: "arcanearchives:lectern_manifest"
+		}]
+	}]
+}

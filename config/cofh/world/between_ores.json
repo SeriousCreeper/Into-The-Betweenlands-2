@@ -191,6 +191,31 @@
           1
         ]
       }
+    },
+    "betweenlands_sulfur_extra": {
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "soot:sulfur_ore"
+        },
+        "material": [
+          "thebetweenlands:sulfur_ore"
+        ],
+        "cluster-size": 1
+      },
+      "chunk-chance": 1,
+      "cluster-count": 100,
+      "ceiling": false,
+      "ground-level": 128,
+      "retrogen": false,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          20
+        ]
+      }
     }
   }
 }

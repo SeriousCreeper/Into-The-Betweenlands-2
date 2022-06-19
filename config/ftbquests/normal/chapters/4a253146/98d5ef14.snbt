@@ -1,0 +1,27 @@
+{
+	title: "Ember Bore",
+	icon: "embers:ember_bore",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Once you crafted an Ember Bore, place it somewhere within the pitstone layer. ",
+		"",
+		"The bore needs fuel (such as sulfur) and a way of piping the embers out of it. ",
+		"",
+		"The only input/output is in the top center of the bore. To add more input/outputs to interact with, place a mechanical core on top of it. ",
+		"",
+		"Each side of the core will count as an input and output. ",
+		" ",
+		"Now pipe fuel into the core, and embers out of it, ideally using item pipes."
+	],
+	dependencies: [
+		"a534fba3"
+	],
+	tasks: [{
+		uid: "dff4ad79",
+		type: "item",
+		items: [{
+			item: "embers:ember_bore"
+		}]
+	}]
+}

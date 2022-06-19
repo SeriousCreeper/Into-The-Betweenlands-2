@@ -17,9 +17,9 @@ recipes.removeByRegex("thebetweenlands:valonite_shard");
 
 
 recipes.remove(<thebetweenlands:gerts_donut>);
-recipes.addShapeless("gerts_donut", <thebetweenlands:gerts_donut>, [<thebetweenlands:reed_donut>, <thebetweenlands:wight_heart>, <thebetweenlands:sap_spit>]);
+scripts.utils.addShapeless("gerts_donut", <thebetweenlands:gerts_donut>, [<thebetweenlands:reed_donut>, <thebetweenlands:wight_heart>, <thebetweenlands:sap_spit>]);
 
-recipes.addShapeless("convenient_dual_furnace", <thebetweenlands:sulfur_furnace_dual>, [<thebetweenlands:sulfur_furnace>, <thebetweenlands:sulfur_furnace>]);
+scripts.utils.addShapeless("convenient_dual_furnace", <thebetweenlands:sulfur_furnace_dual>, [<thebetweenlands:sulfur_furnace>, <thebetweenlands:sulfur_furnace>]);
 
 recipes.remove(<thebetweenlands:syrmorite_hopper>);
 recipes.addShaped("syrmorite_hopper", <thebetweenlands:syrmorite_hopper>, [
@@ -47,12 +47,12 @@ recipes.addShaped("thebetweenlands-gallery_frame_small", <thebetweenlands:galler
 ]);
 
 recipes.remove(<minecraft:book>);
-recipes.addShapeless("book", <minecraft:book>, 
+scripts.utils.addShapeless("book", <minecraft:book>, 
 	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <ore:leather>]
 );
 
 recipes.remove(<minecraft:writable_book>);
-recipes.addShapeless("writable_book", <minecraft:writable_book>, [<minecraft:book>, <thebetweenlands:items_misc:3>, <minecraft:dye>]);
+scripts.utils.addShapeless("writable_book", <minecraft:writable_book>, [<minecraft:book>, <thebetweenlands:items_misc:3>, <minecraft:dye>]);
 
 <ore:slimeball>.add(<thebetweenlands:sludge_ball>);
 
@@ -83,7 +83,7 @@ recipes.addShaped("unlit_sulfur_torchers", <thebetweenlands:sulfur_torch_extingu
 ]);
 
 recipes.remove(<thebetweenlands:weedwood_chest>);
-recipes.addShaped("weedwood_chest", <thebetweenlands:weedwood_chest> * 2, [
+recipes.addShaped("weedwood_chest", <thebetweenlands:weedwood_chest>, [
 	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>],
 	[<thebetweenlands:weedwood_planks>, <ore:ingotSyrmorite>, <thebetweenlands:weedwood_planks>],
 	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
@@ -116,10 +116,12 @@ recipes.addShaped("thatch", <thebetweenlands:thatch> * 4, [
 	[<thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>, <thebetweenlands:items_misc:6>]
 ]);
 
+scripts.utils.addShapeless("sticks_from_sapling", <thebetweenlands:items_misc:20>, [<thebetweenlands:sapling_weedwood>]);
+
 
 recipes.addShaped("clear_weedwood_barrel", <thebetweenlands:weedwood_barrel>, [[<thebetweenlands:weedwood_barrel>]]);
 
-recipes.addShapeless("dragonfly_wings", <thebetweenlands:items_misc:3> * 2, [<roots:mystic_feather>]);
+scripts.utils.addShapeless("dragonfly_wings", <thebetweenlands:items_misc:3> * 2, [<roots:mystic_feather>]);
 
 
 <thebetweenlands:sulfur_torch_extinguished>.displayName = "Unlit Sulfur Torch";

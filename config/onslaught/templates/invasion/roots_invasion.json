@@ -1,0 +1,48 @@
+{
+  "roots_invasion": {
+    "selector": {
+      "gamestages": {
+        "and": ["temp_roots_invasion"]
+      }
+    },
+    "name": "The Dark Druid",
+    "messages": {
+      "start": "\u00A7cA dark druid is approaching!",
+      "end": "\u00A7aThe dark druid has been stopped... for now",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eYou feel like someone is watching you..."
+      }
+    },
+    "commands": {
+      "end": [
+        "/gamestage silentremove @p temp_roots_invasion",
+        "/gamestage silentadd @p temp_roots_invasion_completed"
+      ]
+    },
+    "waves": [
+      {
+        "delayTicks": [ 300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "dark_druid",
+                "count": [ 1, 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "force": true,
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

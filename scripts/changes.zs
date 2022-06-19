@@ -98,7 +98,7 @@ val itemsToKeep = [
 	<minecraft:tripwire_hook>,
 	<minecraft:string>,
 	<minecraft:slime>,
-	<minecraft:anvil>,
+	//<minecraft:anvil>,
 	<minecraft:book>,
 	<minecraft:writable_book>,
 	<minecraft:dye:*>,
@@ -250,13 +250,6 @@ recipes.addShaped("flint_and_steel", <minecraft:flint_and_steel>, [
 ]);
 */
 
-recipes.remove(<minecraft:anvil>);
-recipes.addShaped("minecraft-anvil", <minecraft:anvil>, [
-	[<thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>], 
-	[null, <thebetweenlands:items_misc:11>, null], 
-	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>]
-]);
-
 recipes.remove(<minecraft:string>);
 recipes.addShapeless("string", <minecraft:string> * 3, [<dawnoftimebuilder:silk>, <mysticalworld:spindle:*>.transformDamage(1)]);
 
@@ -310,7 +303,6 @@ recipes.addShaped("comparator", <minecraft:comparator>, [
 
 recipes.remove(<minecraft:glass_bottle>);
 recipes.addShaped("glass_bottle", <minecraft:glass_bottle>, [
-	[null, <thebetweenlands:items_misc:23>, null],
 	[<thebetweenlands:silt_glass_pane>, null, <thebetweenlands:silt_glass_pane>],
 	[null, <thebetweenlands:silt_glass_pane>, null]
 ]);

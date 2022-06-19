@@ -1,0 +1,29 @@
+{
+	title: "Food",
+	x: 5.0d,
+	y: 3.0d,
+	text: [
+		"Campfires let you cook food early on.",
+		"",
+		"Just place the item on the campfire and wait for it to finish cooking.",
+		"",
+		"Don't wait too long or the item might burn!"
+	],
+	dependencies: [
+		"704d5290"
+	],
+	tasks: [{
+		uid: "f4f30d47",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 6"
+		}]
+	},
+	{
+		uid: "322a4a87",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:reed_donut"
+		}]
+	}]
+}

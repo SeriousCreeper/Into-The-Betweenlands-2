@@ -1,0 +1,20 @@
+{
+	title: "Slaked Lime",
+	x: 3.0d,
+	y: 9.0d,
+	text: [
+		"In order to make caminite bricks, you need slaked lime. ",
+		"",
+		"Simply place up to 8 limestone flux into a soaking pot filled with swamp water and wait."
+	],
+	dependencies: [
+		"4457f695"
+	],
+	tasks: [{
+		uid: "5cb004a0",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 8"
+		}]
+	}]
+}

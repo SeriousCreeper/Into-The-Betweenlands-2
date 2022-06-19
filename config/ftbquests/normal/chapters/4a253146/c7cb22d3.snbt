@@ -1,0 +1,24 @@
+{
+	title: "The Right Spot",
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"The amount of embers a bore can mine depends on the density in the current chunk. ",
+		"",
+		"Craft an atmospheric gauge to find an area with a high embers amount. ",
+		"",
+		"The amount will fluctuate over time, so even a bad spot can turn into a good one."
+	],
+	dependencies: [
+		"a534fba3"
+	],
+	tasks: [{
+		uid: "b0882978",
+		type: "item",
+		items: [{
+			item: "embers:ember_detector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

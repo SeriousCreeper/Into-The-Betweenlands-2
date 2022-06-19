@@ -1,0 +1,20 @@
+{
+	title: "Spirit Herb",
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"Use runic shears on fully grown middle fruits to get spirit herbs. ",
+		"",
+		"Spirit herb seeds can be planted like any other crop."
+	],
+	dependencies: [
+		"f1219b54"
+	],
+	tasks: [{
+		uid: "50e737ac",
+		type: "item",
+		items: [{
+			item: "roots:spirit_herb"
+		}]
+	}]
+}

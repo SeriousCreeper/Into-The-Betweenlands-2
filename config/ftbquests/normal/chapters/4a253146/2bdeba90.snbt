@@ -1,0 +1,22 @@
+{
+	title: "Melting Ingots",
+	x: 1.0d,
+	y: 4.0d,
+	text: [
+		"The Melter should be one of the first machines you make.",
+		"",
+		"While it can't melt ores directly, it can take any ingot, block, or nugget and melt them into liquid form.",
+		"",
+		"Once the metal is melted, it can be sent to other machines, such as the Stamper."
+	],
+	dependencies: [
+		"f57eb6cc"
+	],
+	tasks: [{
+		uid: "acaf13e5",
+		type: "item",
+		items: [{
+			item: "embers:block_furnace"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Pacifist Challenge",
+	icon: {
+		id: "thebetweenlands:critter",
+		tag: {
+			Entity: {
+				id: "thebetweenlands:mire_snail"
+			}
+		}
+	},
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"There is an optional pacifist challenge that even gives you some benefits. ",
+		"",
+		"The goal is to not kill any passive mobs (anything that wouldn't attack you first). ",
+		"",
+		"By being a pacifisit, you gain small benefits, such as reduced cooldowns on Runic Shears. "
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ea27dafd",
+		type: "checkmark"
+	}]
+}

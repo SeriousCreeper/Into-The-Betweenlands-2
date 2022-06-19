@@ -1,0 +1,20 @@
+{
+	title: "Better Lights",
+	x: 7.5d,
+	y: -1.0d,
+	text: [
+		"Radiant quartz can be ground down into slivers. ",
+		"",
+		"These do not burn out or extinguish, even underwater, and can be placed on any surface, even hover in midair!"
+	],
+	dependencies: [
+		"3dc1968f"
+	],
+	tasks: [{
+		uid: "e8e3bb6d",
+		type: "item",
+		items: [{
+			item: "arcanearchives:quartz_sliver"
+		}]
+	}]
+}

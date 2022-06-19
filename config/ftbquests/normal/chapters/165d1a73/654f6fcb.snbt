@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"The wildroot growth ritual turns any nearby planted wildroot into a wildroot tree."
+	],
+	dependencies: [
+		"d256af5c"
+	],
+	tasks: [{
+		uid: "443d714c",
+		type: "checkmark",
+		title: "Ritual: Wildroot Growth",
+		icon: "roots:ritual_wildroot_growth"
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Octine Ingots",
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		"The next tool tier are octine tools. ",
+		"",
+		"Simply place the bone version of a tool into the stamper base, and fill it with molten octine. ",
+		"",
+		"Use a flat stamp on the stamper and voila, you just crafted your first octine tool!"
+	],
+	dependencies: [
+		"bc8ad6e7"
+	],
+	tasks: [{
+		uid: "8c5e5118",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_pickaxe"
+		},
+		{
+			item: "thebetweenlands:octine_shovel"
+		},
+		{
+			item: "thebetweenlands:octine_axe"
+		},
+		{
+			item: "thebetweenlands:octine_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

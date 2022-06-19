@@ -1,0 +1,75 @@
+{
+	title: "Crystals",
+	x: 11.5d,
+	y: 0.0d,
+	text: [
+		"You might have noticed some crystals in caves, that were previously unmineable for you.",
+		"",
+		"An octine pickaxe should be hot and sharp enough to cut these crystals with precision."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d1c2bef7",
+		"ddf2f55c",
+		"3dc1968f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f36a203a",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		}]
+	}]
+}

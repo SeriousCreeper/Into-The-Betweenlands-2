@@ -1,0 +1,15 @@
+{
+	title: "Mapping The Betweenlands",
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"An amate map will not only show biome borders, but also reveal any nearby structures."
+	],
+	tasks: [{
+		uid: "478571c8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:empty_amate_map"
+		}]
+	}]
+}

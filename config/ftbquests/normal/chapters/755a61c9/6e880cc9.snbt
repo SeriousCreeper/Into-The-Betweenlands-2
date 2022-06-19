@@ -1,0 +1,21 @@
+{
+	title: "Caminite Blend",
+	x: 3.0d,
+	y: 10.0d,
+	text: [
+		"Mixing slaked lime, ash, mud, and silt, creates a new blend called caminite.",
+		"",
+		"The blend can be shaped into different stamp, or used to make bricks."
+	],
+	dependencies: [
+		"a97f8bba",
+		"099b9324"
+	],
+	tasks: [{
+		uid: "9b0e9744",
+		type: "item",
+		items: [{
+			item: "embers:blend_caminite"
+		}]
+	}]
+}

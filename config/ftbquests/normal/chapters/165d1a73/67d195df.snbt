@@ -1,0 +1,15 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	dependencies: [
+		"caf84e80"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a633da78",
+		type: "item",
+		items: [{
+			item: "arcanearchives:writ_expulsion"
+		}]
+	}]
+}

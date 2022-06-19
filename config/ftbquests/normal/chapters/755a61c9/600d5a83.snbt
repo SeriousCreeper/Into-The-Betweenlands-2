@@ -5,9 +5,11 @@
 	text: [
 		"The pit kiln is an early way of refining certain items and blocks. ",
 		"",
-		"First place the pit kiln block.",
+		"First place the pit kiln block into a hole.",
 		"Then right click the item you want to process.",
-		"Place thatch and logs on top, and set it ablaze."
+		"Place thatch and logs on top, and set it ablaze.",
+		"",
+		"All sides and bottom of the pit kiln need to be surrounded by solid blocks. The top should stay open."
 	],
 	dependencies: [
 		"7560e810",

@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "blueprint",
+    "category": "journal"
+  },
+  "content": {
+    "title": "Blueprints",
+    "body": "Blueprints for a device that allows you to contact home.\nInstructions are to only build this once you evaluated this new dimension.",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 10,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": true,
+  "trigger": null,
+  "action": null
+}

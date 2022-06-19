@@ -1,0 +1,22 @@
+{
+	title: "Octine",
+	x: 4.0d,
+	y: 13.0d,
+	text: [
+		"Octine is a very hot metal that can be used to light your machines and blocks. ",
+		"",
+		"Things like the sawmill, torches, campfire, can all be lit with an octine ingot. ",
+		"",
+		"You can also use it to create fires in-world by lighting up moss when it's placed on the ground."
+	],
+	dependencies: [
+		"b35cdb03"
+	],
+	tasks: [{
+		uid: "6a211d9d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ingot"
+		}]
+	}]
+}

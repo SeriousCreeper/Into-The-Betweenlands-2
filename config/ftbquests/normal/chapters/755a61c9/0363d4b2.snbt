@@ -1,0 +1,22 @@
+{
+	title: "Emergency Light",
+	x: 3.0d,
+	y: 3.0d,
+	text: [
+		"Depending on where you spawn, getting light sources can be tricky. ",
+		"",
+		"Fiibre torches can help until you get proper sulfur torches. ",
+		"",
+		"Once crafted, place the torch down and light it using a firestarter."
+	],
+	dependencies: [
+		"7560e810"
+	],
+	tasks: [{
+		uid: "4fd7a08d",
+		type: "item",
+		items: [{
+			item: "pyrotech:torch_fiber"
+		}]
+	}]
+}

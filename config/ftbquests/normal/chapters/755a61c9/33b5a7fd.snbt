@@ -1,7 +1,7 @@
 {
 	title: "Metal Age",
-	x: 1.0d,
-	y: 12.0d,
+	x: 2.0d,
+	y: 13.0d,
 	text: [
 		"Once you get enough nuggets, you can craft your first ingot!"
 	],
@@ -14,5 +14,17 @@
 		items: [{
 			item: "thebetweenlands:items_misc 1 11"
 		}]
+	}],
+	rewards: [{
+		uid: "6dcddfaa",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "temp_roots_invasion"
+	},
+	{
+		uid: "682a801c",
+		type: "command",
+		auto: "invisible",
+		command: "/ostart roots_invasion @p"
 	}]
 }

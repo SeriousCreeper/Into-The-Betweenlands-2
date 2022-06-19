@@ -61,7 +61,7 @@ val fenceWoodTypes = {
 	},
 	dark_oak: {
 		plank: <thebetweenlands:rotten_planks>,
-		log: <thebetweenlands:log_rotten_bark>
+		log: <thebetweenlands:log_rotten_bark:*>
 	}
 } as IIngredient[string][string];
 

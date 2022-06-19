@@ -6,7 +6,8 @@
   },
   {
     "mob": "embers:ancient_golem",
-    "mincount": 10,
+    "mincount": 2,
+    "perplayer": true,
     "result": "deny"
   },
   {

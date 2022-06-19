@@ -1,0 +1,34 @@
+{
+	title: "Extinguish Thy Flame",
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"If you want to stop a pyre/ritual, right click it with a bucket of swamp water."
+	],
+	dependencies: [
+		"6e0c4ef5"
+	],
+	tasks: [{
+		uid: "9c6da6f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreBucketSwampWater",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBucketSwampWater"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4958e745",
+		type: "custom"
+	}]
+}

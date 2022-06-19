@@ -1,0 +1,20 @@
+{
+	title: "Bigger Map",
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"An atlas is like a bigger amate map. While it doesn't show a limited area like the amate map, it does not show any structures (currently). ",
+		"",
+		"You can keep the atlas on your hotbar to see a mini map and keep uncovering any location you explore. "
+	],
+	dependencies: [
+		"b32c5b1c"
+	],
+	tasks: [{
+		uid: "0381a754",
+		type: "item",
+		items: [{
+			item: "antiqueatlas:empty_antique_atlas"
+		}]
+	}]
+}

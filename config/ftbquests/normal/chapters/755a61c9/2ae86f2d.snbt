@@ -1,0 +1,20 @@
+{
+	title: "Refractory Machines",
+	x: 1.0d,
+	y: 13.0d,
+	text: [
+		"Refractory machines are upgrades to things like the pit kiln and campfire. ",
+		"",
+		"They usually can process multiple items at once, have a lower chance of failing, and automatically stop burning fuel once they finish."
+	],
+	dependencies: [
+		"33b5a7fd"
+	],
+	tasks: [{
+		uid: "dd411280",
+		type: "item",
+		items: [{
+			item: "pyrotech:brick_kiln"
+		}]
+	}]
+}

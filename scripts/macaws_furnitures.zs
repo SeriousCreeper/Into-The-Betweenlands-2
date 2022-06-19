@@ -40,7 +40,7 @@ recipes.addShaped("mcwfurnitures_acacia_plate", <mcwfurnitures:acacia_plate> * 8
 
 recipes.addShaped("mcwfurnitures_dark_oak_plate", <mcwfurnitures:dark_oak_plate> * 8, [
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
-	[<ore:stickWood>, <thebetweenlands:log_rotten_bark>, <ore:stickWood>], 
+	[<ore:stickWood>, <thebetweenlands:log_rotten_bark:*>, <ore:stickWood>], 
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
@@ -224,8 +224,8 @@ recipes.addShaped("mcwfurnitures_acacia_furniture_4", <mcwfurnitures:acacia_furn
 recipes.addShaped("mcwfurnitures_acacia_furniture_8", <mcwfurnitures:acacia_furniture_8>, [[<thebetweenlands:silt_glass_pane>, <mcwfurnitures:acacia_furniture_9>, <thebetweenlands:silt_glass_pane>]]);
 
 tempFence = <thebetweenlands:rotten_plank_fence>;
-log1 = <thebetweenlands:log_rotten_bark>;
-log2 = <thebetweenlands:log_rotten_bark>;
+log1 = <thebetweenlands:log_rotten_bark:*>;
+log2 = <thebetweenlands:log_rotten_bark:*>;
 
 recipes.addShaped("mcwfurnitures_dark_oak_nightstand_8", <mcwfurnitures:dark_oak_nightstand_8>, [[<mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>], [<mcwfurnitures:iron_handle>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:dark_oak_plate>], [<mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>]]);
 recipes.addShaped("mcwfurnitures_dark_oak_nightstand_9", <mcwfurnitures:dark_oak_nightstand_9>, [[<mcwfurnitures:dark_oak_nightstand_11>], [tempFence]]);

@@ -1,0 +1,29 @@
+{
+	title: "Organized Magic",
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"The Radiant Resonator will slowly create radiant quartz over time. ",
+		"",
+		"Each person can only place 1 resonator."
+	],
+	dependencies: [
+		"654f6fcb",
+		"05929675"
+	],
+	hide: true,
+	tasks: [{
+		uid: "35b6860a",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_resonator"
+		}]
+	},
+	{
+		uid: "3291ae66",
+		type: "item",
+		items: [{
+			item: "arcanearchives:raw_quartz"
+		}]
+	}]
+}

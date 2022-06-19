@@ -37,14 +37,14 @@ val quarkChestLog = [
 	<thebetweenlands:giant_root>,
 	<thebetweenlands:log_hearthgrove:*>,
 	<thebetweenlands:log_nibbletwig:*>,
-	<thebetweenlands:log_rotten_bark>
+	<thebetweenlands:log_rotten_bark:*>
 ] as IItemStack[];
 
 
 recipes.remove(<quark:custom_chest:*>);
 
 for i, wood in quarkChestPlank {
-	recipes.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i) * 2, [
+	recipes.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i), [
 		[wood, wood, wood],
 		[wood, <ore:ingotSyrmorite>, wood],
 		[wood, wood, wood]

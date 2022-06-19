@@ -23,7 +23,7 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:green_middle_gem_ore>.setAspects(<aspect:aqua> * 10, <aspect:terra> * 10, <aspect:vitreus> * 5);
 <thebetweenlands:dead_grass>.setAspects(<aspect:terra> * 3, <aspect:herba> * 1);
 <thebetweenlands:tar_solid>.setAspects(<aspect:terra> * 5, <aspect:tenebrae> * 5);
-<thebetweenlands:log_rotten_bark>.setAspects(<aspect:mortuus> * 2, <aspect:herba> * 10);
+<thebetweenlands:log_rotten_bark:*>.setAspects(<aspect:mortuus> * 2, <aspect:herba> * 10);
 <thebetweenlands:log_rubber>.setAspects(<aspect:herba> * 10, <aspect:vinculum> * 5);
 <thebetweenlands:log_hearthgrove:1>.setAspects(<aspect:ignis> * 2, <aspect:herba> * 20);
 <thebetweenlands:log_hearthgrove:2>.setAspects(<aspect:ignis> * 2, <aspect:herba> * 20);

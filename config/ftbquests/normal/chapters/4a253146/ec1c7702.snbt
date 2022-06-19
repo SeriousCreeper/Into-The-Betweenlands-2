@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	text: [
+		"To send molten metal from the melter (or other containers) to the stamper, fluid pipes and extractors are needed.",
+		"",
+		"These work exactly like the item pipes, but only move liquids. "
+	],
+	dependencies: [
+		"2bdeba90"
+	],
+	tasks: [{
+		uid: "665a59e4",
+		type: "item",
+		items: [{
+			item: "embers:pump"
+		}]
+	},
+	{
+		uid: "ee327939",
+		type: "item",
+		items: [{
+			item: "embers:pipe"
+		}]
+	}]
+}

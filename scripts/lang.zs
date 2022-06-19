@@ -19,3 +19,6 @@ game.setLocalization("item.simpledifficulty:dragon_canteen_empty.name", "Empty A
 game.setLocalization("item.simpledifficulty:dragon_canteen_normal.name", "Water Ancient Beast Canteen");
 game.setLocalization("item.simpledifficulty:dragon_canteen_purified.name", "Purified Ancient Beast Canteen");
 
+game.setLocalization("arcanearchives.tooltip.item.quartz_sliver", "An alternative to torches.");
+
+

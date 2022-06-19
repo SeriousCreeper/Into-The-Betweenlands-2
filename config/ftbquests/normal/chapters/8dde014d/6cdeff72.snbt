@@ -1,0 +1,19 @@
+{
+	title: "Bees",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Beehives can be found rarily hanging from weedwood leaves.",
+		"",
+		"Just keep an eye out for them while exploring.",
+		"",
+		"Breaking the hive will give you a swampbee."
+	],
+	tasks: [{
+		uid: "eee6dbc6",
+		type: "item",
+		items: [{
+			item: "growthcraft_bees:bee"
+		}]
+	}]
+}

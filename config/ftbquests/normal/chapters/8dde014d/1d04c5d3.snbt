@@ -1,0 +1,18 @@
+{
+	title: "Finding Biomes",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"Biomes are set to large, so it can be a bit more difficult to find specific biomes. ",
+		"",
+		"The Nature's Compass will let you pick which biome you want to find, and then point to the nearest one."
+	],
+	tasks: [{
+		uid: "e4b1993d",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}]
+	}]
+}

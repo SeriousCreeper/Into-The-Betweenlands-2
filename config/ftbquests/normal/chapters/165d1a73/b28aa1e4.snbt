@@ -1,4 +1,5 @@
 {
+	icon: "roots:ritual_grove_supplication",
 	x: 0.0d,
 	y: 2.0d,
 	text: [
@@ -14,10 +15,65 @@
 		"c9eeb620"
 	],
 	tasks: [{
-		uid: "4065b4de",
+		uid: "6c8cc2ad",
+		type: "checkmark",
+		title: "Completed Ritual"
+	},
+	{
+		uid: "a549dfb1",
 		type: "item",
 		items: [{
-			item: "roots:ritual_grove_supplication"
+			ForgeCaps: {
+				Parent: {
+					data: "doorWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any doorWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "87e1e909",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeSapling",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeSapling"
+				}
+			}
+		}]
+	},
+	{
+		uid: "2466d4fa",
+		type: "item",
+		items: [{
+			item: "roots:petals"
+		}]
+	},
+	{
+		uid: "6b87d682",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "b6da51ca",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:cragrock 1 2"
 		}]
 	}]
 }

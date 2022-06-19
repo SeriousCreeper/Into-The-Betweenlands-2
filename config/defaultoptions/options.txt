@@ -1,11 +1,11 @@
 version:1343
 invertYMouse:false
-mouseSensitivity:0.34507042
+mouseSensitivity:0.5
 fov:0.25
-gamma:0.5
+gamma:1.0
 saturation:0.0
 renderDistance:10
-guiScale:3
+guiScale:4
 particles:0
 bobView:true
 anaglyph3d:false
@@ -14,8 +14,8 @@ fboEnable:true
 difficulty:3
 fancyGraphics:true
 ao:2
-renderClouds:true
-resourcePacks:[]
+renderClouds:false
+resourcePacks:["Record+Resources+of+Tea+the+Story+v3.3.0+.zip","Betweenlands+Inventory+V2.1","EclecticTrove-1.12.2-1.0.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -53,9 +53,9 @@ autoJump:false
 narrator:0
 tutorialStep:none
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:1.0
 soundCategory_record:1.0
-soundCategory_weather:0.30985916
+soundCategory_weather:0.1056338
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

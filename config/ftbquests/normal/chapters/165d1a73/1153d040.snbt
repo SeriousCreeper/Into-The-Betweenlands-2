@@ -1,0 +1,25 @@
+{
+	icon: "roots:roots_guide",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"Upon this dark druids death, they dropped a book containing all kinds of knowledge about nature and its power. ",
+		"",
+		"I will have to study this..."
+	],
+	dependencies: [
+		"33b5a7fd"
+	],
+	tasks: [{
+		uid: "8fa9968d",
+		type: "gamestage",
+		title: "Defeat the Dark Druid",
+		icon: "roots:roots_guide",
+		stage: "temp_roots_invasion_completed"
+	}],
+	rewards: [{
+		uid: "98dc4964",
+		type: "item",
+		item: "roots:roots_guide"
+	}]
+}

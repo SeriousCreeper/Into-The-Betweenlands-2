@@ -1,0 +1,40 @@
+{
+	title: "Baskets",
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		"Baskets are a cheap portable storage solution. ",
+		"",
+		"They can be placed or held in your inventory, but only on your hotbar.",
+		"",
+		"The bigger the basket, the more slots and the more items per slots they can hold."
+	],
+	dependencies: [
+		"f5b90f01"
+	],
+	optional: true,
+	tasks: [{
+		uid: "41357450",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "basketcase:basket_small_generic"
+		},
+		{
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "basketcase:basket_medium_generic"
+		},
+		{
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "basketcase:basket_large_generic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

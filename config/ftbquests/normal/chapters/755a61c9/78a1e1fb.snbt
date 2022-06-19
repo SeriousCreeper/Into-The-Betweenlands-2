@@ -1,9 +1,11 @@
 {
 	title: "Tongs",
-	x: 1.0d,
-	y: 9.0d,
+	x: 3.0d,
+	y: 11.0d,
 	text: [
-		"Blooms are very how and are best handled using tongs."
+		"Blooms are very hot and are best handled using tongs.",
+		"",
+		"Once the bloomery is finished (no more fire), right click the top of it with a tong to get out the bloom."
 	],
 	dependencies: [
 		"a86bcf84"

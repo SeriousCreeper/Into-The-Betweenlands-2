@@ -1,0 +1,24 @@
+{
+	title: "Sulfur Torches",
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"Sulfur torches are one of the main light sources, at least early on. ",
+		"",
+		"Once you craft extinguished sulfur torches, place them on a campfire to light them up. ",
+		"",
+		"Alternatively right clicking with an octine ingot works as well. ",
+		"",
+		"Torches burn out in rain and when held while being underwater."
+	],
+	dependencies: [
+		"704d5290"
+	],
+	tasks: [{
+		uid: "914ff5a9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_torch"
+		}]
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Item Transport",
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"Item Pipes are an easy way of moving items from one location to another. ",
+		"",
+		"To move items, place an extractor at the container you want to pull from, and then pipes all the way to where you want your items to go to.",
+		"",
+		"Place a lever on the extractor and activate it to start moving items. ",
+		"",
+		"You can't directly connect 2 containers with just an extractor, it always needs at least 1 pipe as well."
+	],
+	dependencies: [
+		"98d5ef14"
+	],
+	tasks: [{
+		uid: "622ef373",
+		type: "item",
+		items: [{
+			item: "embers:item_pipe"
+		}]
+	},
+	{
+		uid: "ef6e100e",
+		type: "item",
+		items: [{
+			item: "embers:item_pump"
+		}]
+	}]
+}

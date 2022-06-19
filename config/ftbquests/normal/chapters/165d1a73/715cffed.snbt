@@ -1,6 +1,12 @@
 {
+	title: "Sylvan Armor",
 	x: 1.0d,
 	y: 3.0d,
+	text: [
+		"Sylvan Armor reduces the cost of roots spells depending on how many pieces are equipped. ",
+		"",
+		"Starting with a 2% reduction with one piece, it increases to 8% with a full set."
+	],
 	dependencies: [
 		"b28aa1e4"
 	],

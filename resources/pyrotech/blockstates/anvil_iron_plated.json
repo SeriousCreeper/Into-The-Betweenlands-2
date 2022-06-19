@@ -1,0 +1,33 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "pyrotech:anvil",
+    "textures": {
+      "top": "thebetweenlands:blocks/syrmorite_block",
+      "top_side": "thebetweenlands:blocks/syrmorite_block",
+      "bottom_side": "blocks/stone_slab_side",
+      "bottom": "blocks/stone_slab_top",
+      "particle": "thebetweenlands:blocks/syrmorite_block"
+    }
+  },
+  "variants": {
+    "damage": {
+      "0": {},
+      "1": {
+        "textures": {
+          "top": "pyrotech:blocks/anvil_iron_plated_damaged_a"
+        }
+      },
+      "2": {
+        "textures": {
+          "top": "pyrotech:blocks/anvil_iron_plated_damaged_b"
+        }
+      },
+      "3": {
+        "textures": {
+          "top": "pyrotech:blocks/anvil_iron_plated_damaged_c"
+        }
+      }
+    }
+  }
+}

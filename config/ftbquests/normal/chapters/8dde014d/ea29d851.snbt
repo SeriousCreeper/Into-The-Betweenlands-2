@@ -1,0 +1,20 @@
+{
+	title: "More Bees",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"Placing a Swampbee in a hive and surrounding it with flowers will slowly produce more bees. ",
+		"",
+		"Over time, bees will spread flowers and produce honey combs. "
+	],
+	dependencies: [
+		"6cdeff72"
+	],
+	tasks: [{
+		uid: "e82cb9f3",
+		type: "item",
+		items: [{
+			item: "growthcraft_bees:beebox"
+		}]
+	}]
+}

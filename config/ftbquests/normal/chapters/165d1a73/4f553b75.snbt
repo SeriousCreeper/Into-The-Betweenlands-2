@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"c9eeb620"
+	],
+	tasks: [{
+		uid: "0a265f74",
+		type: "item",
+		items: [{
+			item: "roots:pereskia"
+		}]
+	}]
+}

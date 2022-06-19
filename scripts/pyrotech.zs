@@ -492,6 +492,7 @@ Campfire.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, defaultCookTime 
 Campfire.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, 40);
 Campfire.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, defaultCookTime);
 Campfire.addRecipe("purified_water", <simpledifficulty:purified_water_bottle>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), defaultCookTime * 5);
+Campfire.addRecipe("purified_bucket", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}), defaultCookTime * 15);
 
 StoneOven.addRecipe("frog_legs_cooked", <thebetweenlands:frog_legs_cooked>, <thebetweenlands:frog_legs_raw>, true);
 StoneOven.addRecipe("fried_swamp_kelp", <thebetweenlands:fried_swamp_kelp>, <thebetweenlands:swamp_kelp_item>, true);
@@ -506,6 +507,8 @@ StoneOven.addRecipe("cooked_pereskia", <roots:cooked_pereskia>, <roots:pereskia_
 StoneOven.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, true);
 StoneOven.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, true);
 StoneOven.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, true);
+StoneOven.addRecipe("purified_water", <simpledifficulty:purified_water_bottle>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), true);
+StoneOven.addRecipe("purified_bucket", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}), true);
 
 
 
@@ -549,10 +552,10 @@ CompactingBin.addRecipe("pile_ash", <pyrotech:pile_ash>, <embers:dust_ash>, 8, t
 SoakingPot.removeAllRecipes();
 
 SoakingPot.addRecipe("slaked_lime", <pyrotech:material:8>, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:27>, 7 * 60 * 20);
-SoakingPot.addRecipe("pulp_from_wood_chips_pile", <pyrotech:material:25>, <liquid:swamp_water> * 500, <pyrotech:pile_wood_chips> * 4, true, 7 * 60 * 20);
+SoakingPot.addRecipe("pulp_from_wood_chips_pile", <pyrotech:material:25>, <liquid:swamp_water> * 500, <pyrotech:pile_wood_chips>, true, 7 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_dry_bark", <pyrotech:material:25>, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:13>, true, 2 * 60 * 20);
 //SoakingPot.addRecipe("pulp_from_swamp_reed", <pyrotech:material:25>, <liquid:swamp_water> * 125, <thebetweenlands:swamp_reed_item>, true, 4 * 60 * 20);
-SoakingPot.addRecipe("pulp_from_bark", <pyrotech:material:25>, <liquid:swamp_water> * 125, <ore:rootsBark> * 4, true, 3 * 60 * 20);
+//SoakingPot.addRecipe("pulp_from_bark", <pyrotech:material:25>, <liquid:swamp_water> * 125, <ore:rootsBark>, true, 3 * 60 * 20);
 SoakingPot.addRecipe("board_tarred", <pyrotech:material:23>, <liquid:tar> * 50, <pyrotech:material:20>, true, 105 * 20);
 SoakingPot.addRecipe("planks_tarred", <pyrotech:planks_tarred>, <liquid:tar> * 125, <ore:plankWood>, true, 7 * 60 * 20);
 SoakingPot.addRecipe("cragrock_chiseled_mossy", <thebetweenlands:cragrock_chiseled_mossy>, <liquid:swamp_water> * 250, <thebetweenlands:cragrock_chiseled>, 7 * 60 * 20);
@@ -578,6 +581,7 @@ GraniteAnvil.addRecipe("sulfur", <thebetweenlands:items_misc:18> * 9, <thebetwee
 GraniteAnvil.addRecipe("silt_pile", <pyrotech:rock:5>, <pyrotech:material:6>, 4, "hammer", true);
 GraniteAnvil.addRecipe("pebbles", <thebetweenlands:items_misc:50> * 2, <thebetweenlands:betweenstone>, 4, "hammer", true);
 GraniteAnvil.addRecipe("ash_from_food", <embers:dust_ash> * 2, <pyrotech:burned_food>, 2, "hammer", true);
+GraniteAnvil.addRecipe("sulfur_from_sulfur_liver", <thebetweenlands:items_misc:18> * 8, <soot:sulfur_clump>, 4, "hammer", true);
 
 IroncladAnvil.addRecipe("radiant_dust", <arcanearchives:radiant_dust>, <arcanearchives:raw_quartz>, 8, "hammer");
 
@@ -735,7 +739,7 @@ brickSawmillRecipeBuilder("runestone_slab", <roots:runestone_slab>, <roots:runes
 
 stoneSawmillRecipeBuilder("boards", <pyrotech:material:20>, <ore:slabWood>, 1, 2, 3); // boards
 stoneSawmillRecipeBuilder("treated_boards", <pyrotech:material:23>, <pyrotech:planks_tarred>, 1, 2, 3); // tarred boards
-stoneSawmillRecipeBuilder("sticks", <thebetweenlands:items_misc:20> * 2, <pyrotech:material:20>, 1, 1, 1); // boards
+stoneSawmillRecipeBuilder("sticks", <thebetweenlands:items_misc:20>, <pyrotech:material:20>, 1, 2, 3); // boards
 
 //recipes.remove(<thebetweenlands:items_misc:20>); // sticks
 //recipes.addShaped("weedwood_sticks", <thebetweenlands:items_misc:20> * 2, [[<thebetweenlands:weedwood_planks>], [<thebetweenlands:weedwood_planks>]]);
@@ -806,7 +810,7 @@ PitKiln.addRecipe("mud_bricks", <thebetweenlands:items_misc:10> * 4, <thebetween
 ], true);
 
 furnace.remove(<embers:brick_caminite>);
-PitKiln.addRecipe("brick_caminite", <embers:brick_caminite>, <embers:blend_caminite>, 10 * 60 * 20, 0.33, [
+PitKiln.addRecipe("brick_caminite", <embers:brick_caminite> * 2, <embers:blend_caminite>, 10 * 60 * 20, 0.33, [
 	<thebetweenlands:silt>
 ], true);
 
@@ -1002,4 +1006,4 @@ BrickCrucible.removeAllRecipes();
 <pyrotech:tongs_obsidian:*>.displayName = "Ancient Tongs";
 
 <pyrotech:anvil_granite:*>.displayName = "Limestone Anvil";
-<pyrotech:anvil_iron_plated:*>.displayName = "Syrmoriteclad Anvil";
+<pyrotech:anvil_iron_plated:*>.displayName = "Syrmorite Anvil";

@@ -1,0 +1,22 @@
+{
+	title: "Early Offense",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"Slingshots are a great way of dealing with enemies from afar. ",
+		"",
+		"They use pebbles as ammunition, which can be found everywhere. "
+	],
+	dependencies: [
+		"f5b90f01"
+	],
+	tasks: [{
+		uid: "507e558f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:simple_slingshot"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

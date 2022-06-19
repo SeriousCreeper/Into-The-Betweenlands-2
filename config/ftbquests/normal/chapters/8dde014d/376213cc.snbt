@@ -1,0 +1,29 @@
+{
+	title: "Silk Thread",
+	x: 1.0d,
+	y: 3.0d,
+	text: [
+		"Once you have enough cocoons, craft them together with a spindle to produce silk thread. ",
+		"",
+		"You can also turn some of the cocoons back into silk worm eggs."
+	],
+	dependencies: [
+		"4229733f"
+	],
+	tasks: [{
+		uid: "f581b19f",
+		type: "item",
+		items: [{
+			item: "mysticalworld:spindle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6bcdd6b5",
+		type: "item",
+		items: [{
+			item: "dawnoftimebuilder:silk"
+		}]
+	}]
+}

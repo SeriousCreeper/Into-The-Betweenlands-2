@@ -1,0 +1,28 @@
+{
+	title: "Embers",
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"Now that the bore is running, it will eventuall produce ember. ",
+		"",
+		"Ember comes in three different states - shards, crystal, and grit.",
+		"",
+		"Only the shards and crystals can be used to power other embers machines."
+	],
+	dependencies: [
+		"98d5ef14"
+	],
+	tasks: [{
+		uid: "84c96e3e",
+		type: "item",
+		items: [{
+			item: "embers:shard_ember"
+		},
+		{
+			item: "embers:crystal_ember"
+		},
+		{
+			item: "embers:dust_ember"
+		}]
+	}]
+}

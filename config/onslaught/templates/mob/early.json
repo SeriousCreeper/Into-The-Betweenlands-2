@@ -1,5 +1,5 @@
 {
-  "skel": {
+  "hags": {
     "id": "thebetweenlands:swamp_hag",
     "effects":[
       {
@@ -10,7 +10,7 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Invading Skeleton"
+      "CustomName": "\u00A76Invading Swamp Hags"
     }
   }
 }

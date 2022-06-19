@@ -269,20 +269,20 @@ scripts.utils.addInfoTooltip(<teastory:yellow_tea_bag>, "Inspires Alchemy");
 <teastory:cup:2>.displayName = "Cragrock Cup";
 <teastory:cup:3>.displayName = "Dentrothyst Cup";
 <teastory:cup:4>.displayName = "Mud Brick Cup";
-<teastory:cup:5>.displayName = "Ancient Debris Cup";
+<teastory:cup:5>.displayName = "Ancient Remnant Cup";
 
 <teastory:pot_stone>.displayName = "Cragrock Pot";
 <teastory:pot_iron>.displayName = "Syrmorite Pot";
 <teastory:pot_porcelain>.displayName = "Mud Brick Pot";
-<teastory:pot_zisha>.displayName = "Ancient Debris Pot";
+<teastory:pot_zisha>.displayName = "Ancient Remnant Pot";
 <teastory:pot_clay>.displayName = "Unfired Mud Brick Pot";
 
-<teastory:cold_water_pot_zisha>.displayName = "Ancient Debris Pot (Cold Water)";
+<teastory:cold_water_pot_zisha>.displayName = "Ancient Remnant Pot (Cold Water)";
 <teastory:cold_water_pot_porcelain>.displayName = "Mud Brick Pot (Cold Water)";
 <teastory:cold_water_pot_iron>.displayName = "Syrmorite Pot (Cold Water)";
 <teastory:cold_water_pot_stone>.displayName = "Cragrock Pot (Cold Water)";
 
-<teastory:boiled_water_pot_zisha>.displayName = "Ancient Debris Pot (Boiled Water)";
+<teastory:boiled_water_pot_zisha>.displayName = "Ancient Remnant Pot (Boiled Water)";
 <teastory:boiled_water_pot_porcelain>.displayName = "Mud Brick Pot (Boiled Water)";
 <teastory:boiled_water_pot_iron>.displayName = "Syrmorite Pot (Boiled Water)";
 <teastory:boiled_water_pot_stone>.displayName = "Cragrock Pot (Boiled Water)";
@@ -331,10 +331,10 @@ scripts.utils.addInfoTooltip(<teastory:yellow_tea_bag>, "Inspires Alchemy");
 <teastory:oolong_tea_porcelain_kettle>.displayName = "Mud Brick Kettle (Oolong Tea)";
 <teastory:puer_tea_porcelain_kettle>.displayName = "Mud Brick Kettle (Dark Tea)";
 
-<teastory:empty_zisha_kettle>.displayName = "Ancient Debris Kettle";
-<teastory:green_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (Green Tea)";
-<teastory:black_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (Black Tea)";
-<teastory:yellow_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (Yellow Tea)";
-<teastory:white_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (White Tea)";
-<teastory:oolong_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (Oolong Tea)";
-<teastory:puer_tea_zisha_kettle>.displayName = "Ancient Debris Kettle (Dark Tea)";
+<teastory:empty_zisha_kettle>.displayName = "Ancient Remnant Kettle";
+<teastory:green_tea_zisha_kettle>.displayName = "Ancient Remnant Kettle (Green Tea)";
+<teastory:black_tea_zisha_kettle>.displayName = "Ancient Remnant Kettle (Black Tea)";
+<teastory:yellow_tea_zisha_kettle>.displayName = "Ancient Remnant Kettle (Yellow Tea)";
+<teastory:white_tea_zisha_kettle>.displayName = "Ancient Remnant Kettle (White Tea)";
+<teastory:oolong_tea_zisha_kettle>.displayName = "Ancient Remnant Kettle (Oolong Tea)";
+<teastory:puer_tea_zisha_kettle>.displayName = "Ancient Remnant Kettle (Dark Tea)";

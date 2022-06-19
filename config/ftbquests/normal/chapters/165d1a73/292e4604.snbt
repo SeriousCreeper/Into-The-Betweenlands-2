@@ -1,0 +1,24 @@
+{
+	title: "More Storage",
+	x: 8.5d,
+	y: 2.0d,
+	text: [
+		"Radiant Chests are as big as a double chest, but only occupy one block space.",
+		"",
+		"They have a few additional functions:",
+		"- Can still be opened when a block is above them",
+		"- Emit some light",
+		"- Can have an item displayed on them using a staff",
+		"- Their content can be searched using a manifest"
+	],
+	dependencies: [
+		"c2ba1b6f"
+	],
+	tasks: [{
+		uid: "a44d5b64",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_chest"
+		}]
+	}]
+}

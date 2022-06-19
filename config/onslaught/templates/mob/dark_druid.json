@@ -1,0 +1,16 @@
+{
+  "dark_druid": {
+    "id": "thebetweenlands:dark_druid",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Dark Druid"
+    }
+  }
+}

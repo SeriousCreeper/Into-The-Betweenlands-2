@@ -15,18 +15,18 @@ recipes.remove(<thaumcraft:plate:*>);
 <ore:plateIron>.remove(<thaumcraft:plate:1>);
 
 
-//recipes.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <ore:dustRedstone>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
+//scripts.utils.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <ore:dustRedstone>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
 
 recipes.remove(<thaumcraft:nugget:9>);
 
 recipes.remove(<thaumcraft:table_wood>);
-recipes.addShaped("tablewood", <thaumcraft:table_wood>, [
+scripts.utils.addShaped("tablewood", <thaumcraft:table_wood>, [
 	[<thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>], 
 	[<thaumcraft:plank_greatwood>, null, <thaumcraft:plank_greatwood>]
 ]);
 
 recipes.remove(<thaumcraft:phial>);
-recipes.addShaped("phial", <thaumcraft:phial> * 8, [
+scripts.utils.addShaped("phial", <thaumcraft:phial> * 8, [
 	[null, <thebetweenlands:items_misc:23>, null], 
 	[<thebetweenlands:silt_glass>, null, <thebetweenlands:silt_glass>], 
 	[null, <thebetweenlands:silt_glass>, null]
@@ -34,12 +34,12 @@ recipes.addShaped("phial", <thaumcraft:phial> * 8, [
 
 
 recipes.remove(<thaumcraft:scribing_tools>);
-recipes.addShapeless("scribingtoolscraft1", <thaumcraft:scribing_tools>, [<thaumcraft:phial>, <minecraft:dye>, <thebetweenlands:items_misc:3>]);
+scripts.utils.addShapeless("scribingtoolscraft1", <thaumcraft:scribing_tools>, [<thaumcraft:phial>, <minecraft:dye>, <thebetweenlands:items_misc:3>]);
 recipes.addHiddenShaped("scribingtoolscraft1_shaped", <thaumcraft:scribing_tools>, [[<thaumcraft:phial>, <minecraft:dye>, <thebetweenlands:items_misc:3>]]);
-recipes.addShapeless("scribingtoolsrefill", <thaumcraft:scribing_tools>, [<thaumcraft:scribing_tools:*>, <minecraft:dye>]);
+scripts.utils.addShapeless("scribingtoolsrefill", <thaumcraft:scribing_tools>, [<thaumcraft:scribing_tools:*>, <minecraft:dye>]);
 
 recipes.remove(<thaumcraft:stone_arcane>);
-recipes.addShaped("stonearcane", <thaumcraft:stone_arcane> * 9, [
+scripts.utils.addShaped("stonearcane", <thaumcraft:stone_arcane> * 9, [
 	[<thebetweenlands:pitstone>, <thebetweenlands:pitstone>, <thebetweenlands:pitstone>], 
 	[<thebetweenlands:pitstone>, <thaumcraft:crystal_essence>, <thebetweenlands:pitstone>], 
 	[<thebetweenlands:pitstone>, <thebetweenlands:pitstone>, <thebetweenlands:pitstone>]
@@ -47,37 +47,37 @@ recipes.addShaped("stonearcane", <thaumcraft:stone_arcane> * 9, [
 
 
 recipes.remove(<thaumcraft:arcane_ear_toggle>);
-recipes.addShapeless("arcaneeartoggle", <thaumcraft:arcane_ear_toggle>, [<thaumcraft:arcane_ear>, <ore:lever>]);
+scripts.utils.addShapeless("arcaneeartoggle", <thaumcraft:arcane_ear_toggle>, [<thaumcraft:arcane_ear>, <ore:lever>]);
 
 recipes.remove(<thaumcraft:table_stone>);
-recipes.addShaped("tablestone", <thaumcraft:table_stone>, [
+scripts.utils.addShaped("tablestone", <thaumcraft:table_stone>, [
 	[<thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>], 
 	[<thebetweenlands:smooth_cragrock>, null, <thebetweenlands:smooth_cragrock>]
 ]);
 
 recipes.remove(<thaumcraft:baubles:5>);
-recipes.addShaped("baubleringfancy", <thaumcraft:baubles:5>, [
+scripts.utils.addShaped("baubleringfancy", <thaumcraft:baubles:5>, [
 	[<thebetweenlands:items_misc:42>, <thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:42>], 
 	[<thebetweenlands:items_misc:42>, null, <thebetweenlands:items_misc:42>], 
 	[<thebetweenlands:items_misc:42>, <thebetweenlands:items_misc:42>, <thebetweenlands:items_misc:42>]
 ]);
 
 recipes.remove(<thaumcraft:baubles:4>);
-recipes.addShaped("baubleamuletfancy", <thaumcraft:baubles:4>, [
+scripts.utils.addShaped("baubleamuletfancy", <thaumcraft:baubles:4>, [
 	[null, <ore:string>, null], 
 	[<ore:string>, <thebetweenlands:items_misc:19>, <ore:string>], 
 	[null, <thebetweenlands:octine_ingot>, null]
 ]);
 
 recipes.remove(<thaumcraft:baubles:6>);
-recipes.addShaped("baublegirdlefancy", <thaumcraft:baubles:6>, [
+scripts.utils.addShaped("baublegirdlefancy", <thaumcraft:baubles:6>, [
 	[null, <ore:leather>, null], 
 	[<ore:leather>, <thebetweenlands:items_misc:19>, <ore:leather>], 
 	[null, <thebetweenlands:octine_ingot>, null]
 ]);
 
 recipes.remove(<thaumcraft:golem_bell>);
-recipes.addShaped("golembell", <thaumcraft:golem_bell>, [
+scripts.utils.addShaped("golembell", <thaumcraft:golem_bell>, [
 	[null, <ore:dentrothystShard>, <ore:dentrothystShard>], 
 	[null, <ore:dentrothystShard>, <ore:dentrothystShard>], 
 	[<ore:stickWood>, null, null]
@@ -85,7 +85,7 @@ recipes.addShaped("golembell", <thaumcraft:golem_bell>, [
 
 
 recipes.remove(<thaumicaugmentation:material:4>);
-recipes.addShaped("harness_base", <thaumicaugmentation:material:4>, [
+scripts.utils.addShaped("harness_base", <thaumicaugmentation:material:4>, [
 	[<ore:plateBrass>], 
 	[<thebetweenlands:lurker_skin_chestplate:*>], 
 	[<thaumcraft:baubles:2>]
@@ -95,32 +95,32 @@ recipes.addShaped("harness_base", <thaumicaugmentation:material:4>, [
 //recipes.remove(<thaumicaugmentation:impetus_generator>);
 
 recipes.remove(<thaumcraft:label>);
-recipes.addShapeless("thaumcraft_jarlabel", <thaumcraft:label> * 4, 
+scripts.utils.addShapeless("thaumcraft_jarlabel", <thaumcraft:label> * 4, 
 	[<ore:dyeBlack>, 
 	<roots:strange_ooze> | <thebetweenlands:sludge_ball> | <thebetweenlands:sap_spit> | <thebetweenlands:sludge_ball>, 
 	<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]
 );
-recipes.addShapeless("thaumcraft_jarlabelnull", <thaumcraft:label>, 
+scripts.utils.addShapeless("thaumcraft_jarlabelnull", <thaumcraft:label>, 
 	[<thaumcraft:label:1>]
 );
 
 
-recipes.addShapeless(<thaumcraft:banner_white>, [<ore:banner>, <minecraft:dye:15>]);
-recipes.addShapeless(<thaumcraft:banner_orange>, [<ore:banner>, <minecraft:dye:14>]);
-recipes.addShapeless(<thaumcraft:banner_magenta>, [<ore:banner>, <minecraft:dye:13>]);
-recipes.addShapeless(<thaumcraft:banner_lightblue>, [<ore:banner>, <minecraft:dye:12>]);
-recipes.addShapeless(<thaumcraft:banner_yellow>, [<ore:banner>, <minecraft:dye:11>]);
-recipes.addShapeless(<thaumcraft:banner_lime>, [<ore:banner>, <minecraft:dye:10>]);
-recipes.addShapeless(<thaumcraft:banner_pink>, [<ore:banner>, <minecraft:dye:9>]);
-recipes.addShapeless(<thaumcraft:banner_gray>, [<ore:banner>, <minecraft:dye:8>]);
-recipes.addShapeless(<thaumcraft:banner_silver>, [<ore:banner>, <minecraft:dye:7>]);
-recipes.addShapeless(<thaumcraft:banner_cyan>, [<ore:banner>, <minecraft:dye:6>]);
-recipes.addShapeless(<thaumcraft:banner_purple>, [<ore:banner>, <minecraft:dye:5>]);
-recipes.addShapeless(<thaumcraft:banner_blue>, [<ore:banner>, <minecraft:dye:4>]);
-recipes.addShapeless(<thaumcraft:banner_brown>, [<ore:banner>, <minecraft:dye:3>]);
-recipes.addShapeless(<thaumcraft:banner_green>, [<ore:banner>, <minecraft:dye:2>]);
-recipes.addShapeless(<thaumcraft:banner_red>, [<ore:banner>, <minecraft:dye:1>]);
-recipes.addShapeless(<thaumcraft:banner_black>, [<ore:banner>, <minecraft:dye:0>]);
+scripts.utils.addShapeless("banner_white", <thaumcraft:banner_white>, [<ore:banner>, <minecraft:dye:15>]);
+scripts.utils.addShapeless("banner_orange", <thaumcraft:banner_orange>, [<ore:banner>, <minecraft:dye:14>]);
+scripts.utils.addShapeless("banner_magenta", <thaumcraft:banner_magenta>, [<ore:banner>, <minecraft:dye:13>]);
+scripts.utils.addShapeless("banner_lightblue", <thaumcraft:banner_lightblue>, [<ore:banner>, <minecraft:dye:12>]);
+scripts.utils.addShapeless("banner_yellow", <thaumcraft:banner_yellow>, [<ore:banner>, <minecraft:dye:11>]);
+scripts.utils.addShapeless("banner_lime", <thaumcraft:banner_lime>, [<ore:banner>, <minecraft:dye:10>]);
+scripts.utils.addShapeless("banner_pink", <thaumcraft:banner_pink>, [<ore:banner>, <minecraft:dye:9>]);
+scripts.utils.addShapeless("banner_gray", <thaumcraft:banner_gray>, [<ore:banner>, <minecraft:dye:8>]);
+scripts.utils.addShapeless("banner_silver", <thaumcraft:banner_silver>, [<ore:banner>, <minecraft:dye:7>]);
+scripts.utils.addShapeless("banner_cyan", <thaumcraft:banner_cyan>, [<ore:banner>, <minecraft:dye:6>]);
+scripts.utils.addShapeless("banner_purple", <thaumcraft:banner_purple>, [<ore:banner>, <minecraft:dye:5>]);
+scripts.utils.addShapeless("banner_blue", <thaumcraft:banner_blue>, [<ore:banner>, <minecraft:dye:4>]);
+scripts.utils.addShapeless("banner_brown", <thaumcraft:banner_brown>, [<ore:banner>, <minecraft:dye:3>]);
+scripts.utils.addShapeless("banner_green", <thaumcraft:banner_green>, [<ore:banner>, <minecraft:dye:2>]);
+scripts.utils.addShapeless("banner_red", <thaumcraft:banner_red>, [<ore:banner>, <minecraft:dye:1>]);
+scripts.utils.addShapeless("banner_black", <thaumcraft:banner_black>, [<ore:banner>, <minecraft:dye:0>]);
 
 
 recipes.remove(<thaumcraft:candle_white>);
@@ -140,22 +140,22 @@ recipes.remove(<thaumcraft:candle_green>);
 recipes.remove(<thaumcraft:candle_red>);
 recipes.remove(<thaumcraft:candle_black>);
 recipes.remove(<thaumcraft:flesh_block>);
-recipes.addShaped(<thaumcraft:candle_white>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:0>], [<growthcraft_bees:bees_wax:0>]]);
-recipes.addShaped(<thaumcraft:candle_orange>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:1>], [<growthcraft_bees:bees_wax:1>]]);
-recipes.addShaped(<thaumcraft:candle_magenta>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:2>], [<growthcraft_bees:bees_wax:2>]]);
-recipes.addShaped(<thaumcraft:candle_lightblue>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:3>], [<growthcraft_bees:bees_wax:3>]]);
-recipes.addShaped(<thaumcraft:candle_yellow>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:4>], [<growthcraft_bees:bees_wax:4>]]);
-recipes.addShaped(<thaumcraft:candle_lime>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:5>], [<growthcraft_bees:bees_wax:5>]]);
-recipes.addShaped(<thaumcraft:candle_pink>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:6>], [<growthcraft_bees:bees_wax:6>]]);
-recipes.addShaped(<thaumcraft:candle_gray>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:7>], [<growthcraft_bees:bees_wax:7>]]);
-recipes.addShaped(<thaumcraft:candle_silver>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:8>], [<growthcraft_bees:bees_wax:8>]]);
-recipes.addShaped(<thaumcraft:candle_cyan>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:9>], [<growthcraft_bees:bees_wax:9>]]);
-recipes.addShaped(<thaumcraft:candle_purple>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:10>], [<growthcraft_bees:bees_wax:10>]]);
-recipes.addShaped(<thaumcraft:candle_blue>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:11>], [<growthcraft_bees:bees_wax:11>]]);
-recipes.addShaped(<thaumcraft:candle_brown>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:12>], [<growthcraft_bees:bees_wax:12>]]);
-recipes.addShaped(<thaumcraft:candle_green>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:13>], [<growthcraft_bees:bees_wax:13>]]);
-recipes.addShaped(<thaumcraft:candle_red>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:14>], [<growthcraft_bees:bees_wax:14>]]);
-recipes.addShaped(<thaumcraft:candle_black>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:15>], [<growthcraft_bees:bees_wax:15>]]);
+scripts.utils.addShaped("candle_white", <thaumcraft:candle_white>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:0>], [<growthcraft_bees:bees_wax:0>]]);
+scripts.utils.addShaped("candle_orange", <thaumcraft:candle_orange>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:1>], [<growthcraft_bees:bees_wax:1>]]);
+scripts.utils.addShaped("candle_magenta", <thaumcraft:candle_magenta>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:2>], [<growthcraft_bees:bees_wax:2>]]);
+scripts.utils.addShaped("candle_lightblue", <thaumcraft:candle_lightblue>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:3>], [<growthcraft_bees:bees_wax:3>]]);
+scripts.utils.addShaped("candle_yellow", <thaumcraft:candle_yellow>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:4>], [<growthcraft_bees:bees_wax:4>]]);
+scripts.utils.addShaped("candle_lime", <thaumcraft:candle_lime>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:5>], [<growthcraft_bees:bees_wax:5>]]);
+scripts.utils.addShaped("candle_pink", <thaumcraft:candle_pink>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:6>], [<growthcraft_bees:bees_wax:6>]]);
+scripts.utils.addShaped("candle_gray", <thaumcraft:candle_gray>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:7>], [<growthcraft_bees:bees_wax:7>]]);
+scripts.utils.addShaped("candle_silver", <thaumcraft:candle_silver>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:8>], [<growthcraft_bees:bees_wax:8>]]);
+scripts.utils.addShaped("candle_cyan", <thaumcraft:candle_cyan>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:9>], [<growthcraft_bees:bees_wax:9>]]);
+scripts.utils.addShaped("candle_purple", <thaumcraft:candle_purple>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:10>], [<growthcraft_bees:bees_wax:10>]]);
+scripts.utils.addShaped("candle_blue", <thaumcraft:candle_blue>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:11>], [<growthcraft_bees:bees_wax:11>]]);
+scripts.utils.addShaped("candle_brown", <thaumcraft:candle_brown>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:12>], [<growthcraft_bees:bees_wax:12>]]);
+scripts.utils.addShaped("candle_green", <thaumcraft:candle_green>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:13>], [<growthcraft_bees:bees_wax:13>]]);
+scripts.utils.addShaped("candle_red", <thaumcraft:candle_red>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:14>], [<growthcraft_bees:bees_wax:14>]]);
+scripts.utils.addShaped("candle_black", <thaumcraft:candle_black>, [[<minecraft:string>], [<growthcraft_bees:bees_wax:15>], [<growthcraft_bees:bees_wax:15>]]);
 
 
 // ARCANE WORKBENCH - SHAPED

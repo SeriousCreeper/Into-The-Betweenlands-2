@@ -1,0 +1,24 @@
+{
+	title: "Octine Cell",
+	x: -1.0d,
+	y: 4.0d,
+	text: [
+		"The Octine Cell can store raw ember energy like a battery. ",
+		"",
+		"This can be useful if you want to keep a large amount ready, without having to wait for the activator to burn shards or crystals first."
+	],
+	dependencies: [
+		"f57eb6cc"
+	],
+	tasks: [{
+		uid: "87f0479c",
+		type: "item",
+		items: [{
+			id: "embers:copper_cell",
+			tag: {
+				emberCapacity: 24000.0d,
+				ember: 0.0d
+			}
+		}]
+	}]
+}

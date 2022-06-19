@@ -468,6 +468,17 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:dustAsh>.add(<pyrotech:material:0>);
 <ore:dustAshes>.remove(<embers:dust_ash>);
 
+<ore:toolAxe>.add(<thebetweenlands:valonite_axe:*>);
+<ore:toolAxe>.add(<roots:terrastone_axe:*>);
+<ore:toolAxe>.add(<roots:living_axe:*>);
+<ore:toolAxe>.add(<thaumcraft:thaumium_axe:*>);
+<ore:toolAxe>.add(<thaumcraft:void_axe:*>);
+<ore:toolAxe>.add(<thaumcraft:elemental_axe:*>);
+<ore:toolAxe>.add(<thebetweenlands:weedwood_axe:*>);
+<ore:toolAxe>.add(<thebetweenlands:bone_axe:*>);
+<ore:toolAxe>.add(<thebetweenlands:octine_axe:*>);
+<ore:toolAxe>.add(<roots:runed_axe:*>);
+
 <ore:candyHalloween>.add(<thebetweenlands:candy_blue>);
 <ore:candyHalloween>.add(<thebetweenlands:candy_red>);
 <ore:candyHalloween>.add(<thebetweenlands:candy_yellow>);

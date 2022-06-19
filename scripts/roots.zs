@@ -304,6 +304,10 @@ Fey.removeRecipe(<roots:runic_shears>);
 Fey.addRecipe("runic_shears", <roots:runic_shears>, 
 	[<thebetweenlands:sickle>, <roots:pereskia>, <roots:pereskia>, <roots:runestone>, <roots:runestone>]);
 
+recipes.removeByRegex("thebetweenlands:sickle");
+Fey.addRecipe("sickle", <thebetweenlands:sickle>, 
+	[<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:7>, <ore:stickWood>]);
+
 Fey.removeRecipe(<roots:sylvan_helmet>);
 Fey.addRecipe("sylvan_helmet", <roots:sylvan_helmet>, 
 	[<roots:fey_leather>, <thebetweenlands:moss>, <roots:bark_birch>, <thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:bone_helmet>]);

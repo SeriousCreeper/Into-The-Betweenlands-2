@@ -1,0 +1,28 @@
+{
+	title: "Getting Silk",
+	icon: "dawnoftimebuilder:silk_worm_hatchery",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"To get silk, first craft a silk worm hatchery and place it on a pan (exposed to sun). ",
+		"",
+		"After a while it will produce actual silk worms."
+	],
+	dependencies: [
+		"d7eb381c"
+	],
+	tasks: [{
+		uid: "0661a076",
+		type: "item",
+		items: [{
+			item: "dawnoftimebuilder:silk_worm_hatchery"
+		}]
+	},
+	{
+		uid: "836b29fe",
+		type: "item",
+		items: [{
+			item: "teastory:teapan"
+		}]
+	}]
+}

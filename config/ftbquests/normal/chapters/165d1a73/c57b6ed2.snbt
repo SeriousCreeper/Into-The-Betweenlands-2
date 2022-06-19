@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 0.0d,
+	dependencies: [
+		"3dc1968f"
+	],
+	tasks: [{
+		uid: "816d1791",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_crafting_table"
+		}]
+	}]
+}

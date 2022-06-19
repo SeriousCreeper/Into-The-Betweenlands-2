@@ -1,0 +1,20 @@
+{
+	title: "More Info",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"When working with Embers, it can be very helpful to see what each side of a machine does. ",
+		"",
+		"The Tinker's Lense will show you such information if you hold it in your hand and look at a machine."
+	],
+	dependencies: [
+		"700fae13"
+	],
+	tasks: [{
+		uid: "1561a28e",
+		type: "item",
+		items: [{
+			item: "embers:tinker_lens"
+		}]
+	}]
+}

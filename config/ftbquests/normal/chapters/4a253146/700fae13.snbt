@@ -24,5 +24,12 @@
 		items: [{
 			item: "betweenores:lead_ore"
 		}]
+	},
+	{
+		uid: "6a68ab3f",
+		type: "item",
+		items: [{
+			item: "betweenores:nickel_ore"
+		}]
 	}]
 }

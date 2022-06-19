@@ -1,0 +1,16 @@
+{
+  "ancient_golem": {
+    "id": "embers:ancient_golem",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Ancient Golem"
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
 	title: "First Nuggets",
 	icon: "pyrotech:bloom",
-	x: 1.0d,
-	y: 11.0d,
+	x: 2.0d,
+	y: 12.0d,
 	text: [
 		"Once the bloomer has finished, use a shovel to remove the ash on top, then use your tongs to grab the bloom.",
 		"",
