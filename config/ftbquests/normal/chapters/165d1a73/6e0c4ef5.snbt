@@ -1,7 +1,7 @@
 {
 	title: "Pyre",
 	x: -1.0d,
-	y: 1.0d,
+	y: 2.0d,
 	text: [
 		"Pyres are used to craft items and activate rituals.",
 		"",

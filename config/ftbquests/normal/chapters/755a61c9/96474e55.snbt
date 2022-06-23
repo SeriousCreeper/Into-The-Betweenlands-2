@@ -1,13 +1,14 @@
 {
 	title: "Sawdust",
 	x: 4.0d,
-	y: 8.0d,
+	y: 1.0d,
 	text: [
-		"When using a sawmill, sawdust will slowly accumulate around it. ",
-		"Use a shovel to get wood chips from it."
+		"When using the chopping board, small piles of wood chips are left behind.",
+		"",
+		"I should pick them up using a shovel, i'm sure i can reuse them later."
 	],
 	dependencies: [
-		"ebb041d1"
+		"1dd49469"
 	],
 	tasks: [{
 		uid: "4f704a49",

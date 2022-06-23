@@ -1,1 +1,1 @@
-recipes.addShapeless("journal", <loreexpansion:lore_journal>, [<minecraft:book>]);
+scripts.utils.addShapeless("journal", <loreexpansion:lore_journal>, [<minecraft:book>]);

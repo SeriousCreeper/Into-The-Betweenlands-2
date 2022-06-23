@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"Instead of filling my already limited storage with logs, i should build a wood rack to keep my logs in one place."
+	],
+	dependencies: [
+		"f5b90f01"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a678e8c2",
+		type: "item",
+		items: [{
+			item: "pyrotech:wood_rack"
+		}]
+	}]
+}

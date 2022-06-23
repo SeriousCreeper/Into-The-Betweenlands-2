@@ -77,7 +77,7 @@ recipes.remove(<forge:bucketfilled>.withTag({FluidName: "fluid_honey", Amount: 1
 
 
 recipes.remove(<growthcraft_milk:pancheon>);
-recipes.addShaped("pancheon", <growthcraft_milk:pancheon>, [
+scripts.utils.addShaped("pancheon", <growthcraft_milk:pancheon>, [
 	[<thebetweenlands:items_misc:27>, null, <thebetweenlands:items_misc:27>],
 	[<thebetweenlands:items_misc:10>, <thebetweenlands:items_misc:27>, <thebetweenlands:items_misc:10>], 
 	[<thebetweenlands:items_misc:10>, <thebetweenlands:items_misc:10>, <thebetweenlands:items_misc:10>]
@@ -85,28 +85,28 @@ recipes.addShaped("pancheon", <growthcraft_milk:pancheon>, [
 
 
 recipes.remove(<growthcraft_cellar:brew_kettle>);
-recipes.addShaped("brew_kettle", <growthcraft_cellar:brew_kettle>, [
+scripts.utils.addShaped("brew_kettle", <growthcraft_cellar:brew_kettle>, [
 	[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>], 
 	[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>], 
 	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>]
 ]);
 
 recipes.remove(<growthcraft_bees:bottlefluid_honey>);
-recipes.addShapeless("honey_comb_filled_3", <growthcraft_bees:bottlefluid_honey> * 2, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <minecraft:glass_bottle:*>, <minecraft:glass_bottle:*>]);
+scripts.utils.addShapeless("honey_comb_filled_3", <growthcraft_bees:bottlefluid_honey> * 2, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <minecraft:glass_bottle:*>, <minecraft:glass_bottle:*>]);
 
 
 /*
-recipes.addShapeless("honey_comb_filled_3_2", <bladditions:dentrothyst_fluid_vial:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}), 
+scripts.utils.addShapeless("honey_comb_filled_3_2", <bladditions:dentrothyst_fluid_vial:1>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 250}}), 
 	[<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <thebetweenlands:dentrothyst_vial:2>]
 );
 */
 
 recipes.remove(<growthcraft_bees:honey_jar>);
-recipes.addShapeless("honey_comb_filled_1", <growthcraft_bees:honey_jar>, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <thebetweenlands:mud_flower_pot>]);
+scripts.utils.addShapeless("honey_comb_filled_1", <growthcraft_bees:honey_jar>, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <thebetweenlands:mud_flower_pot>]);
 
 
 recipes.remove(<growthcraft_milk:cheese_press>);
-recipes.addShaped("cheese_press", <growthcraft_milk:cheese_press>, [
+scripts.utils.addShaped("cheese_press", <growthcraft_milk:cheese_press>, [
 	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>], 
 	[<thebetweenlands:items_misc:11>, <ore:chestWood>, <thebetweenlands:items_misc:11>], 
 	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
@@ -114,14 +114,14 @@ recipes.addShaped("cheese_press", <growthcraft_milk:cheese_press>, [
 
 
 recipes.remove(<growthcraft_cellar:culture_jar>);
-recipes.addShaped("culture_jar", <growthcraft_cellar:culture_jar>, [
+scripts.utils.addShaped("culture_jar", <growthcraft_cellar:culture_jar>, [
 	[<thebetweenlands:dentrothyst_shard_green>, <ore:plankWood>, <thebetweenlands:dentrothyst_shard_green>], 
 	[<thebetweenlands:dentrothyst_shard_green>, null, <thebetweenlands:dentrothyst_shard_green>], 
 	[<thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:dentrothyst_shard_green>]
 ]);
 
 recipes.remove(<growthcraft_bees:beebox>);
-recipes.addShaped("beebox", <growthcraft_bees:beebox>, [
+scripts.utils.addShaped("beebox", <growthcraft_bees:beebox>, [
 	[null, <pyrotech:material:20>, null], 
 	[<pyrotech:material:20>, null, <pyrotech:material:20>], 
 	[<pyrotech:material:20>, <pyrotech:material:20>, <pyrotech:material:20>]

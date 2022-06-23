@@ -1,0 +1,17 @@
+{
+  "name": "Introduction to Automation",
+  "icon": "minecraft:writable_book",
+  "category": "automation",
+  "priority": true,
+  "sortnum":  1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "There are many ways in which Roots can be automated.$(br2)Some devices are more suited to automation (such as the $(l:crafting/runic_crafter)runic crafter's$() auto-refilling).$(br2)As a rule, most devices that require a knife to activate can be automated with a dispenser (containing a knife) and a bluedust clock."
+    },
+    {
+      "type": "text",
+      "text": "In addition to devices, a knife in a dispenser can be used to automatically scrape moss from stone. See the $(l:automation/ritual_overgrowth)Overgrow Ritual automation$() section for more details.$(br2)Likewise, other tools can be used in dispensers, such as the $(l:automation/mortar_pestle)mortar's pestle$() and $(l:automation/runic_shears)runic shears$()."
+    }
+  ]
+}

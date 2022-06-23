@@ -1,14 +1,14 @@
 {
 	title: "New Metals",
 	x: 0.0d,
-	y: 0.0d,
+	y: 1.0d,
 	text: [
-		"Studying the old remains on top of the floating islands opened your eyes to new metals in the world.",
+		"According to the stone table, there should be more metals that i can make use of.",
 		"",
 		"Dive deeper into the underground to acquire some of them."
 	],
 	dependencies: [
-		"ddf2f55c"
+		"71867314"
 	],
 	hide: true,
 	tasks: [{

@@ -379,8 +379,7 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "copper", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "silver", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
 
-<pyrotech:material:11>.setAspects( <aspect:instrumentum> * 1);
-
+<pyrotech:material:27>.setAspects( <aspect:instrumentum> * 1);
 
 
 

@@ -2,7 +2,7 @@
 	title: "Peaceful Fungus",
 	icon: "thebetweenlands:yellow_dotted_fungus",
 	x: 2.0d,
-	y: 0.0d,
+	y: 1.0d,
 	text: [
 		"If you are doing the pacifist challenge, you might have trouble getting spores to grow fungus. ",
 		"",

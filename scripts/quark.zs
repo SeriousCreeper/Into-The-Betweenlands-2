@@ -1,23 +1,28 @@
 import crafttweaker.item.IItemStack;
 
 recipes.remove(<quark:pickarang>);
-recipes.addShaped("pickarang", <quark:pickarang>, [
-	[<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:4>, <thebetweenlands:life_crystal_fragment> | <thebetweenlands:life_crystal>], 
+scripts.utils.addShaped("pickarang", <quark:pickarang>, [
+	[<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:4>, <thebetweenlands:life_crystal>], 
+	[null, null, <thebetweenlands:items_misc:4>], 
+	[null, null, <thebetweenlands:items_misc:19>]
+]);
+scripts.utils.addShaped("pickarang_2", <quark:pickarang>, [
+	[<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:4>, <thebetweenlands:life_crystal>], 
 	[null, null, <thebetweenlands:items_misc:4>], 
 	[null, null, <thebetweenlands:items_misc:19>]
 ]);
 
 recipes.remove(<quark:paper_lantern>);
-recipes.addShaped("paper_lantern", <quark:paper_lantern>, [
+scripts.utils.addShaped("paper_lantern", <quark:paper_lantern>, [
 	[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>], 
 	[<thebetweenlands:items_misc:32>, <thebetweenlands:critter>.withTag({Entity: {id: "thebetweenlands:firefly"}}), <thebetweenlands:items_misc:32>], 
 	[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>]
 ]);
 
-recipes.addShaped("paper_lantern_candle", <quark:paper_lantern>, [[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>], [<thebetweenlands:items_misc:32>, <ore:candles>, <thebetweenlands:items_misc:32>], [<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>]]);
+scripts.utils.addShaped("paper_lantern_candle", <quark:paper_lantern>, [[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>], [<thebetweenlands:items_misc:32>, <ore:candles>, <thebetweenlands:items_misc:32>], [<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>]]);
 
 
-recipes.addShaped("backpack", <quark:backpack>, [
+scripts.utils.addShaped("backpack", <quark:backpack>, [
 	[<ore:leather>, <minecraft:tripwire_hook>, <ore:leather>],
 	[<ore:leather>, <ore:chest>, <ore:leather>],
 	[<ore:leather>, <ore:leather>, <ore:leather>]
@@ -44,7 +49,7 @@ val quarkChestLog = [
 recipes.remove(<quark:custom_chest:*>);
 
 for i, wood in quarkChestPlank {
-	recipes.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i), [
+	scripts.utils.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i), [
 		[wood, wood, wood],
 		[wood, <ore:ingotSyrmorite>, wood],
 		[wood, wood, wood]
@@ -53,7 +58,7 @@ for i, wood in quarkChestPlank {
 
 /*
 for i, wood in quarkChestLog {
-	recipes.addShaped("convenience_custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i) * 4, [
+	scripts.utils.addShaped("convenience_custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i) * 4, [
 		[wood, wood, wood],
 		[wood, null, wood],
 		[wood, wood, wood]
@@ -62,24 +67,24 @@ for i, wood in quarkChestLog {
 */
 
 recipes.remove(<quark:chain>);
-recipes.addShaped("chain", <quark:chain> * 3, [
+scripts.utils.addShaped("chain", <quark:chain> * 3, [
 	[<ore:nuggetSyrmorite>, <ore:nuggetSyrmorite>, null], 
 	[<ore:nuggetSyrmorite>, <ore:ingotSyrmorite>, null], 
 	[null, null, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<quark:glass_item_frame>);
-recipes.addShaped("glass_item_frame", <quark:glass_item_frame> * 2, [
+scripts.utils.addShaped("glass_item_frame", <quark:glass_item_frame> * 2, [
 	[<thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>], 
 	[<thebetweenlands:silt_glass_pane>, <minecraft:item_frame>, <thebetweenlands:silt_glass_pane>], 
 	[<thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>]
 ]);
 
 recipes.remove(<quark:lit_lamp>);
-recipes.addShapeless("quark-lit_lamp-modified", <quark:lit_lamp>, [<minecraft:redstone_lamp>, <minecraft:redstone_torch>]);
+scripts.utils.addShapeless("quark-lit_lamp-modified", <quark:lit_lamp>, [<minecraft:redstone_lamp>, <minecraft:redstone_torch>]);
 
 recipes.remove(<quark:redstone_randomizer>);
-recipes.addShaped("redstone_randomizer", <quark:redstone_randomizer>, [
+scripts.utils.addShaped("redstone_randomizer", <quark:redstone_randomizer>, [
 	[null, <minecraft:redstone_torch>, null],
 	[<minecraft:redstone_torch>, <thebetweenlands:items_misc:47>, <minecraft:redstone_torch>],
 	[<thebetweenlands:smooth_cragrock>, <thebetweenlands:smooth_cragrock>, <thebetweenlands:smooth_cragrock>]

@@ -1,0 +1,49 @@
+{
+  "name": "Purity",
+  "icon": "roots:ritual_purity",
+  "category": "rituals",
+  "read_by_default": true,
+  "flag": "roots:ritual_purity",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ailments, fire and negative effects are slowly removed from all creatures near the ritual.$(br2)$(warning) This also includes hostile creatures."
+    },
+    {
+      "type": "pyre_template",
+      "ritual": "ritual_purity",
+      "text": "$(standing_stones) As a $(l:rituals/tiers)$(bold)tier II$() ritual, $(l:rituals/ritual_purity#multiblock)two runed pillars of weedwood are required to begin$(). Please see later pages of this entry."
+    },
+    {
+      "type": "multiblock",
+      "anchor": "multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "roots:pyre",
+          "L": "thebetweenlands:log_weedwood",
+          "W": "roots:runed_oak"
+        },
+        "pattern": [
+          ["       ","       ","       ","       ","       ","       ","       "],
+          ["   W   ","       ","       ","       ","       ","       ","   W   "],
+          ["   L   ","       ","       ","       ","       ","       ","   L   "],
+          ["   L   ","       ","       ","   0   ","       ","       ","   L   "]
+        ]
+      },
+      "text": "Two $(l:rituals/standing_stones)runed pillar$() of weedwood is required."
+    },
+    {
+      "type": "text",
+      "title": "Ritual Specifics",
+      "text": "$(bold)Duration:$() The ritual lasts $(ritual:purity/SECONDS/duration) seconds.$(br2)$(bold)Size:$() The ritual will search for within an area of $(ritual:purity/radius_x) and $(ritual:purity/radius_z) blocks horizontally, and by $(ritual:purity/radius_y) vertically.$(br2)$(bold)Purification$(): Purification is performed ever $(ritual:purity/SECONDS/interval) seconds for the duration of the ritual, with each entity having 1 negative ailment removed from them, including fire."
+    },
+    {
+      "type": "relations",
+      "anchor": "related",
+      "entries": [
+        "rituals/standing_stones"
+      ]
+    }
+  ]
+}

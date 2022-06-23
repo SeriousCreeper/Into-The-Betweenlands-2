@@ -2,14 +2,14 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 recipes.remove(<mcwwindows:window_base>);
-recipes.addShaped("mcwwindows_window_base", <mcwwindows:window_base> * 4, [
+scripts.utils.addShaped("mcwwindows_window_base", <mcwwindows:window_base> * 4, [
 	[<ore:stick>, <ore:stick>, <ore:stick>], 
 	[<ore:stick>, <thebetweenlands:silt_glass_pane>, <ore:stick>], 
 	[<ore:stick>, <ore:stick>, <ore:stick>]
 ]);
 
 recipes.remove(<mcwwindows:window_centre_bar_base>);
-recipes.addShaped("mcwwindows_window_centre_bar_base", <mcwwindows:window_centre_bar_base> * 2, [
+scripts.utils.addShaped("mcwwindows_window_centre_bar_base", <mcwwindows:window_centre_bar_base> * 2, [
 	[null, <ore:stick>, null], 
 	[<ore:stick>, <mcwwindows:window_base>, <ore:stick>], 
 	[null, <ore:stick>, null]
@@ -19,7 +19,7 @@ recipes.addShaped("mcwwindows_window_centre_bar_base", <mcwwindows:window_centre
 val fenceWoodTypes = {
 	oak: {
 		plank: <thebetweenlands:weedwood_planks>,
-		log: <thebetweenlands:log_weedwood> | <thebetweenlands:log_weedwood:12>
+		log: <thebetweenlands:log_weedwood>
 	},
 	spruce: {
 		plank: <thebetweenlands:rubber_tree_planks>,
@@ -31,11 +31,11 @@ val fenceWoodTypes = {
 	},
 	jungle: {
 		plank: <thebetweenlands:hearthgrove_planks>,
-		log: <thebetweenlands:log_hearthgrove:1> | <thebetweenlands:log_hearthgrove:3>
+		log: <thebetweenlands:log_hearthgrove:1>
 	},
 	acacia: {
 		plank: <thebetweenlands:nibbletwig_planks>,
-		log: <thebetweenlands:log_nibbletwig> | <thebetweenlands:log_nibbletwig:12>
+		log: <thebetweenlands:log_nibbletwig>
 	},
 	dark_oak: {
 		plank: <thebetweenlands:rotten_planks>,
@@ -46,7 +46,7 @@ val fenceWoodTypes = {
 for wood in fenceWoodTypes {
 	var itemName = itemUtils.getItem("mcwwindows:" ~ wood ~ "_window");
 	recipes.remove(itemName);
-	recipes.addShaped(itemName * 8, [
+	scripts.utils.addShaped(wood ~ "_window", itemName * 8, [
 		[<mcwwindows:window_centre_bar_base>, <mcwwindows:window_centre_bar_base>, <mcwwindows:window_centre_bar_base>], 
 		[<mcwwindows:window_centre_bar_base>, fenceWoodTypes[wood].log, <mcwwindows:window_centre_bar_base>], 
 		[<mcwwindows:window_centre_bar_base>, <mcwwindows:window_centre_bar_base>, <mcwwindows:window_centre_bar_base>]
@@ -54,7 +54,7 @@ for wood in fenceWoodTypes {
 
 	itemName = itemUtils.getItem("mcwwindows:" ~ wood ~ "_plank_window");
 	recipes.remove(itemName);
-	recipes.addShaped(itemName * 8, [
+	scripts.utils.addShaped(wood ~ "_plank_window", itemName * 8, [
 		[<mcwwindows:window_centre_bar_base>, <mcwwindows:window_centre_bar_base>, <mcwwindows:window_centre_bar_base>], 
 		[<mcwwindows:window_centre_bar_base>, fenceWoodTypes[wood].plank, <mcwwindows:window_centre_bar_base>], 
 		[<mcwwindows:window_centre_bar_base>, <mcwwindows:window_centre_bar_base>, <mcwwindows:window_centre_bar_base>]
@@ -62,7 +62,7 @@ for wood in fenceWoodTypes {
 
 	itemName = itemUtils.getItem("mcwwindows:" ~ wood ~ "_window2");
 	recipes.remove(itemName);
-	recipes.addShaped(itemName * 8, [
+	scripts.utils.addShaped(wood ~ "_window2", itemName * 8, [
 		[<mcwwindows:window_base>, <mcwwindows:window_base>, <mcwwindows:window_base>], 
 		[<mcwwindows:window_base>, fenceWoodTypes[wood].log, <mcwwindows:window_base>], 
 		[<mcwwindows:window_base>, <mcwwindows:window_base>, <mcwwindows:window_base>]
@@ -70,7 +70,7 @@ for wood in fenceWoodTypes {
 
 	itemName = itemUtils.getItem("mcwwindows:" ~ wood ~ "_plank_window2");
 	recipes.remove(itemName);
-	recipes.addShaped(itemName * 8, [
+	scripts.utils.addShaped(wood ~ "_plank_window2", itemName * 8, [
 		[<mcwwindows:window_base>, <mcwwindows:window_base>, <mcwwindows:window_base>], 
 		[<mcwwindows:window_base>, fenceWoodTypes[wood].plank, <mcwwindows:window_base>], 
 		[<mcwwindows:window_base>, <mcwwindows:window_base>, <mcwwindows:window_base>]

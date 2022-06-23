@@ -1,0 +1,260 @@
+{
+  "creepy_crawlers": {
+    "selector": {
+      "weight": 100,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 20 ]
+      }
+    },
+    "name": "Creepy Crawlers",
+    "messages": {
+      "start": "\u00A7cBugs everywhere!",
+      "end": "\u00A7aBugs have been squished.",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eYou can hear some unsettling growling out there..."
+      }
+    },
+    "commands": {
+      "staged": [
+        {
+        "complete": 0.8,
+        "commands": [
+          "/ostop @p"
+        ]
+      }
+      ]
+    },
+    "waves": [
+      {
+        "delayTicks": [ 0 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "swarm",
+                "count": [ 2, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "termites",
+                "count": [ 5, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "leeches",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "swarm",
+                "count": [ 1, 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "termites",
+                "count": [ 3, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "leeches",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "swarm",
+                "count": [ 1, 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "termites",
+                "count": [ 1, 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "leeches",
+                "count": [ 1, 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "swarm",
+                "count": [ 1, 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "termites",
+                "count": [ 1, 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "leeches",
+                "count": [ 1, 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

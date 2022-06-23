@@ -1,7 +1,7 @@
 {
 	title: "Spirit Herb",
 	x: 4.0d,
-	y: 1.0d,
+	y: 2.0d,
 	text: [
 		"Use runic shears on fully grown middle fruits to get spirit herbs. ",
 		"",

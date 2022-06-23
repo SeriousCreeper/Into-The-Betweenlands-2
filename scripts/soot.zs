@@ -15,28 +15,28 @@ for item in itemsToRemove {
 
 
 recipes.remove(<soot:redstone_bin>);
-recipes.addShaped("redstone_bin", <soot:redstone_bin>, [
+scripts.utils.addShaped("redstone_bin", <soot:redstone_bin>, [
 	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
 	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
 	[<ore:ingotSyrmorite>, <thebetweenlands:syrmorite_trapdoor>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<soot:scale>);
-recipes.addShaped("scale", <soot:scale>, [
+scripts.utils.addShaped("scale", <soot:scale>, [
 	[<ore:ingotSilver>, <minecraft:redstone>, <ore:ingotSilver>], 
 	[null, <ore:ingotSilver>, null], 
 	[null, <embers:block_caminite_brick_slab>, null]
 ]);
 
 recipes.remove(<soot:alchemy_gauge>);
-recipes.addShaped("alchemy_gauge", <soot:alchemy_gauge>, [
+scripts.utils.addShaped("alchemy_gauge", <soot:alchemy_gauge>, [
 	[<ore:dustRedstone>], 
 	[<thebetweenlands:items_misc:32>], 
 	[<ore:ingotAntimony>]
 ]);
 
 recipes.remove(<soot:insulation>);
-recipes.addShaped("insulation", <soot:insulation>, [
+scripts.utils.addShaped("insulation", <soot:insulation>, [
 	[<ore:plateNickel>], 
 	[<ore:blockOctine>], 
 	[<embers:ashen_tile>]

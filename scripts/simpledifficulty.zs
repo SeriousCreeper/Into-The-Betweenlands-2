@@ -34,21 +34,21 @@ recipes.remove(<simpledifficulty:purified_water_bottle>);
 furnace.remove(<simpledifficulty:purified_water_bottle>);
 
 recipes.remove(<simpledifficulty:charcoal_filter>);
-recipes.addShaped("charcoal_filter", <simpledifficulty:charcoal_filter> * 3, [
+scripts.utils.addShaped("charcoal_filter", <simpledifficulty:charcoal_filter> * 3, [
 	[<thebetweenlands:items_misc:32>], 
 	[<thebetweenlands:items_misc:18>], 
 	[<thebetweenlands:items_misc:32>]
 ]);
 
 recipes.removeByRegex("simpledifficulty:canteen_empty");
-recipes.addShaped("canteen_empty", <simpledifficulty:canteen>.withTag({Doses: 0, CanteenType: 0}), [
+scripts.utils.addShaped("canteen_empty", <simpledifficulty:canteen>.withTag({Doses: 0, CanteenType: 0}), [
 	[null, <thebetweenlands:items_misc:4>, null], 
 	[<thebetweenlands:items_misc:4>, null, <thebetweenlands:items_misc:4>], 
 	[<thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:4>]
 ]);
 
 recipes.removeByRegex("simpledifficulty:iron_canteen_empty");
-recipes.addShaped("iron_canteen_empty", <simpledifficulty:iron_canteen>.withTag({Doses: 0, CanteenType: 0}), [
+scripts.utils.addShaped("iron_canteen_empty", <simpledifficulty:iron_canteen>.withTag({Doses: 0, CanteenType: 0}), [
 	[null, <ore:plateSyrmorite>, null], 
 	[<ore:plateSyrmorite>, <simpledifficulty:canteen>.withTag({Doses: 0}), <ore:plateSyrmorite>], 
 	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateSyrmorite>]

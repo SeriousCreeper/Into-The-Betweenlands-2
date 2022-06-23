@@ -3,9 +3,9 @@
 	x: 3.0d,
 	y: 9.0d,
 	text: [
-		"In order to make caminite bricks, you need slaked lime. ",
+		"The first set of machines i want to build will require a strong but heat resistant brick. ",
 		"",
-		"Simply place up to 8 limestone flux into a soaking pot filled with swamp water and wait."
+		"I have something in mind which requires slaked lime. If i place 8 limestone flux into a soaking pot filled with swamp water, and give it some time, it should give me what i need."
 	],
 	dependencies: [
 		"4457f695"

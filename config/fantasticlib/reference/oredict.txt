@@ -214,6 +214,7 @@ clusterLead
 clusterCinnabar
 clusterQuartz
 trapdoorWood
+oreCopper
 oreLead
 oreNickel
 oreSilver
@@ -302,7 +303,6 @@ blockCopper
 blockLead
 blockSilver
 blockDawnstone
-oreCopper
 blockAluminum
 nuggetAluminum
 plateAluminum
@@ -458,6 +458,7 @@ banner
 candyHalloween
 candles
 visCrystals
+flowerPot
 hopper
 stick
 knife

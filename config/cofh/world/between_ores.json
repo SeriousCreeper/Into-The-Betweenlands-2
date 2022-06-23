@@ -192,6 +192,29 @@
         ]
       }
     },
+    "betweenlands_copper": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "betweenores:copper_ore"
+        },
+        "material": "thebetweenlands:betweenstone",
+        "cluster-size": 12
+      },
+      "cluster-count": 10,
+      "min-height": 0,
+      "max-height": 100,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
     "betweenlands_sulfur_extra": {
       "distribution": "cave",
       "generator": {

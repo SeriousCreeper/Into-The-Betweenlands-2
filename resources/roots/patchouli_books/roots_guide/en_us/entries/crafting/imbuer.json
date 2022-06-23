@@ -1,0 +1,22 @@
+{
+  "name": "Imbuer",
+  "icon": "roots:imbuer",
+  "category": "crafting_devices",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "roots:imbuer",
+      "text": "$(info) Please see the $(l:spells/introduction#imbuing)spells introduction section on imbuing$() for information on spells."
+    },
+    {
+      "type": "relations",
+      "anchor": "related",
+      "entries": [
+        "crafting/imposer",
+        "spells/introduction1",
+        "crafting/staff"
+      ]
+    }
+  ]
+}

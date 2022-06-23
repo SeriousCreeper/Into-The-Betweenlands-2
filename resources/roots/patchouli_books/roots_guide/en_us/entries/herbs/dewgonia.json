@@ -1,0 +1,16 @@
+{
+  "name": "Dewgonia",
+  "icon": "roots:dewgonia",
+  "category": "herbs",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A mutation of undersea kelp and a vivid, flowering plant, this herb's attunement to the water cannot be denied.$(br2)The flowers, when picked, are perpetually damp, and when squeezed can produce a sweet liquid.$(br2)Formerly planted in flooded fields or even under the water itself, it is a renewable resource."
+    },
+    {
+      "type": "ritual_crafting_template",
+      "recipe": "dewgonia"
+    }
+  ]
+}

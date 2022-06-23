@@ -1,0 +1,36 @@
+{
+  "name": "Bark",
+  "icon": "roots:bark_acacia",
+  "category": "resources",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Created by breaking the relevant log with a $(l:crafting/knives)knife$(), the stripped-away bark contains much wild magic within it.$(br2)Different trees produce different barks, but each contain a considerable amount of wild magic."
+    },
+    {
+      "type": "bark_template_quint",
+      "recipe1": "roots:bark_oak_1",
+      "recipe2": "roots:rotten_bark_1",
+      "recipe3": "roots:hearthgrove_bark_1",
+      "recipe4": "roots:nibbletwig_bark_1",
+      "recipe5": "roots:saptree_bark_1",
+      "name": "Bark Types"
+    },
+    {
+      "type": "bark_template_double",
+      "recipe1": "roots:giantroot_bark_1",
+      "recipe2": "roots:wildwood",
+      "anchor": "dark_oak",
+      "name": "Bark Types",
+      "text": "Obtained from breaking logs with knives.$(br2)$(info) Other, modded bark types may be available. For a full listing, $(uses:roots:stone_knife)see JEI$()."
+    },
+    {
+      "type": "relations",
+      "anchor": "related",
+      "entries": [
+        "crafting/knives"
+      ]
+    }
+  ]
+}

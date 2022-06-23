@@ -20,14 +20,10 @@ for item in itemToHide {
 }
 
 val itemsToRemove = [
-	<embers:ingot_copper>,
-	<embers:block_copper>,
-	<embers:plate_copper>,
-	<embers:seed_copper>,
-	<embers:nugget_copper>,
 	<embers:geo_separator>,
+	<embers:seed_gold>,
 
-	<mystgears:gear_copper>,
+	//<mystgears:gear_copper>,
 ] as IItemStack[];
 
 

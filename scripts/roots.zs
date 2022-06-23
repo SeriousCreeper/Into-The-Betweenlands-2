@@ -78,6 +78,7 @@ val itemsToRemove = [
 	<roots:wildewheet_bread>,
 	<roots:life_essence>,
 	<roots:ritual_transmutation>,
+	<roots:runestone_trample>,
 ] as IItemStack[];
 
 
@@ -89,21 +90,21 @@ for item in itemsToRemove {
 
 
 recipes.remove(<roots:grove_stone>);
-recipes.addShaped("roots_grove_stone", <roots:grove_stone>, [
+scripts.utils.addShaped("roots_grove_stone", <roots:grove_stone>, [
 	[null, <thebetweenlands:cragrock>, null], 
 	[<roots:wildroot>, <thebetweenlands:cragrock>, <roots:terra_moss>], 
 	[<thebetweenlands:cragrock_slab>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock_slab>]
 ]);
 
 recipes.remove(<roots:wood_knife>);
-recipes.addShaped("roots_wood_knife", <roots:wood_knife>, [
+scripts.utils.addShaped("roots_wood_knife", <roots:wood_knife>, [
 	[null, null, <thebetweenlands:weedwood_planks>], 
 	[null, <thebetweenlands:weedwood_planks>, null], 
 	[<ore:stickWood>, null, null]
 ]);
 
 recipes.remove(<roots:stone_knife>);
-recipes.addShaped("roots_stone_knife", <roots:stone_knife>, [
+scripts.utils.addShaped("roots_stone_knife", <roots:stone_knife>, [
 	[null, null, <thebetweenlands:items_misc:14>], 
 	[null, <thebetweenlands:items_misc:14>, null], 
 	[<ore:stickWood>, null, null]
@@ -112,26 +113,26 @@ recipes.addShaped("roots_stone_knife", <roots:stone_knife>, [
 recipes.remove(<roots:iron_knife>);
 
 recipes.remove(<roots:mortar>);
-recipes.addShaped("roots_mortar", <roots:mortar>, [
+scripts.utils.addShaped("roots_mortar", <roots:mortar>, [
 	[<thebetweenlands:cragrock>, null, <thebetweenlands:cragrock>], 
 	[<thebetweenlands:cragrock>, <thebetweenlands:items_misc:18>, <thebetweenlands:cragrock>], 
 	[null, <thebetweenlands:cragrock>, null]
 ]);
 
 recipes.remove(<roots:pestle>);
-recipes.addShapedMirrored("roots_pestle", <roots:pestle>, [
+scripts.utils.addShapedMirrored("roots_pestle", <roots:pestle>, [
 	[<ore:stickWood>], 
 	[<thebetweenlands:cragrock>]
 ]);
 
 recipes.remove(<roots:herb_pouch>);
-recipes.addShaped("herb_pouch", <roots:herb_pouch>.withTag({"color": 0}), [
+scripts.utils.addShaped("herb_pouch", <roots:herb_pouch>.withTag({"color": 0}), [
 	[null, <thebetweenlands:shelf_fungus>, null], 
 	[<thebetweenlands:shelf_fungus>, null, <thebetweenlands:shelf_fungus>], 
 	[<thebetweenlands:shelf_fungus>, <thebetweenlands:shelf_fungus>, <thebetweenlands:shelf_fungus>]
 ]);
 
-recipes.addShapeless("terra_spores", <roots:terra_spores>, [<roots:terra_moss>]);
+scripts.utils.addShapeless("terra_spores", <roots:terra_spores>, [<roots:terra_moss>]);
 
 
 
@@ -181,6 +182,7 @@ Mortar.removeRecipe(<minecraft:flint>);
 Mortar.removeRecipe(<minecraft:magma_cream>);
 Mortar.removeRecipe(<minecraft:blaze_powder>);
 Mortar.removeRecipe(<roots:petals>);
+Mortar.removeRecipe(<mysticalworld:silk_thread>);
 //Mortar.addRecipe("petals", <roots:petals>, [<ore:allFlowers>]);
 
 
@@ -308,6 +310,15 @@ recipes.removeByRegex("thebetweenlands:sickle");
 Fey.addRecipe("sickle", <thebetweenlands:sickle>, 
 	[<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:7>, <ore:stickWood>]);
 
+Fey.addRecipe("sapling_silverwood", <thaumcraft:sapling_silverwood>, 
+	[<roots:bark_wildwood>, <roots:bark_wildwood>, <roots:bark_wildwood>, <thebetweenlands:sapling_sap>, <thaumcraft:salis_mundus>]);
+
+Fey.addRecipe("sapling_greatwood", <thaumcraft:sapling_greatwood>, 
+	[<roots:bark_wildwood>, <roots:bark_wildwood>, <roots:bark_wildwood>, <thebetweenlands:sapling_weedwood>, <thaumcraft:salis_mundus>]);
+
+
+
+// Sylvan Armor
 Fey.removeRecipe(<roots:sylvan_helmet>);
 Fey.addRecipe("sylvan_helmet", <roots:sylvan_helmet>, 
 	[<roots:fey_leather>, <thebetweenlands:moss>, <roots:bark_birch>, <thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:bone_helmet>]);
@@ -440,6 +451,7 @@ Fey.removeRecipe(<roots:elemental_soil>);
 Fey.removeRecipe(<minecraft:dirt:*>);
 Fey.removeRecipe(<minecraft:gravel>);
 Fey.removeRecipe(<minecraft:sand:*>);
+Fey.removeRecipe(<minecraft:sand>);
 Fey.removeRecipe(<minecraft:mycelium>);
 
 
@@ -778,7 +790,6 @@ Modifiers.disableModifier("embiggening");
 Modifiers.disableModifier("incubation");
 Modifiers.disableModifier("ore_infusion");
 Modifiers.disableModifier("hydration");
-Modifiers.disableModifier("spider_unsuffrage");
 
 
 

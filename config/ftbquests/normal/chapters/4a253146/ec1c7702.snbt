@@ -1,6 +1,6 @@
 {
 	x: 1.0d,
-	y: 3.0d,
+	y: 4.0d,
 	text: [
 		"To send molten metal from the melter (or other containers) to the stamper, fluid pipes and extractors are needed.",
 		"",

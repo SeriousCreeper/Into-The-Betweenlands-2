@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 13.0d,
+	text: [
+		"I have developed an automated bellow that will keep blowing air as long as it has a cog attached to it.",
+		"",
+		"If i need to turn it off, a redstone signal should be enough."
+	],
+	dependencies: [
+		"33b5a7fd",
+		"b024cd96"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7034a7d4",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_bellows"
+		}]
+	}]
+}

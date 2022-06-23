@@ -1,0 +1,20 @@
+{
+  "termites": {
+    "id": "thebetweenlands:termite",
+    "nbt": {
+      "CustomName": "\u00A76Termite"
+    }
+  },
+  "leeches": {
+    "id": "thebetweenlands:leech",
+    "nbt": {
+      "CustomName": "\u00A76Leech"
+    }
+  },
+  "swarm": {
+    "id": "thebetweenlands:swarm",
+    "nbt": {
+      "CustomName": "\u00A76Infestation"
+    }
+  }
+}

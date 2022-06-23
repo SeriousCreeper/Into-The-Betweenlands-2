@@ -1,11 +1,15 @@
 {
 	title: "Refractory Machines",
-	x: 1.0d,
-	y: 13.0d,
+	x: 2.0d,
+	y: 14.0d,
 	text: [
-		"Refractory machines are upgrades to things like the pit kiln and campfire. ",
+		"Now that i have access to metals, it's time to make some of the more tedious processes a bit less so. ",
 		"",
-		"They usually can process multiple items at once, have a lower chance of failing, and automatically stop burning fuel once they finish."
+		"Refractory machnes allow me to automate the campfire, chopping block, and pitkiln. ",
+		"",
+		"All i have to do is add the desired item at the top and fuel at the bottom, and light it up. Even an octine ingot is hot enough to light these machines.",
+		"",
+		"They will automatically stop burning fuel once they finished crafting."
 	],
 	dependencies: [
 		"33b5a7fd"

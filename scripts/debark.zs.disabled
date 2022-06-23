@@ -1,7 +1,7 @@
-recipes.addShapeless("debark_weedwood", <thebetweenlands:weedwood_planks> * 4, [<debark:debarked_log_thebetweenlands_log_weedwood>]);
-recipes.addShapeless("debark_rubber_tree", <thebetweenlands:rubber_tree_planks> * 4, [<debark:debarked_log_thebetweenlands_log_sap>]);
-recipes.addShapeless("debark_rotten", <thebetweenlands:rotten_planks> * 4, [<debark:debarked_log_thebetweenlands_log_rotten_bark>]);
-recipes.addShapeless("debark_hearthgrove", <thebetweenlands:hearthgrove_planks> * 4, [<debark:debarked_log_thebetweenlands_log_hearthgrove>]);
-recipes.addShapeless("debark_nibbletwig", <thebetweenlands:nibbletwig_planks> * 4, [<debark:debarked_log_thebetweenlands_log_nibbletwig>]);
-recipes.addShapeless("debark_giant_root", <thebetweenlands:giant_root_planks> * 4, [<debark:debarked_log_thebetweenlands_giant_root>]);
+scripts.utils.addShapeless("debark_weedwood", <thebetweenlands:weedwood_planks> * 4, [<debark:debarked_log_thebetweenlands_log_weedwood>]);
+scripts.utils.addShapeless("debark_rubber_tree", <thebetweenlands:rubber_tree_planks> * 4, [<debark:debarked_log_thebetweenlands_log_sap>]);
+scripts.utils.addShapeless("debark_rotten", <thebetweenlands:rotten_planks> * 4, [<debark:debarked_log_thebetweenlands_log_rotten_bark>]);
+scripts.utils.addShapeless("debark_hearthgrove", <thebetweenlands:hearthgrove_planks> * 4, [<debark:debarked_log_thebetweenlands_log_hearthgrove>]);
+scripts.utils.addShapeless("debark_nibbletwig", <thebetweenlands:nibbletwig_planks> * 4, [<debark:debarked_log_thebetweenlands_log_nibbletwig>]);
+scripts.utils.addShapeless("debark_giant_root", <thebetweenlands:giant_root_planks> * 4, [<debark:debarked_log_thebetweenlands_giant_root>]);
 

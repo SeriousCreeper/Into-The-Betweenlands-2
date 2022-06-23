@@ -8,10 +8,10 @@ recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>, [
 ]);
 
 recipes.remove(<arcanearchives:tome_arcana>);
-recipes.addShapeless("tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}), [<minecraft:book>, <ore:nuggetOctine>]);
+scripts.utils.addShapeless("tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}), [<minecraft:book>, <ore:nuggetOctine>]);
 
 recipes.remove(<arcanearchives:scepter_revelation>);
-recipes.addShaped("scepter_revelation", <arcanearchives:scepter_revelation>, [
+scripts.utils.addShaped("scepter_revelation", <arcanearchives:scepter_revelation>, [
 	[null, null, <arcanearchives:raw_quartz>], 
 	[null, <ore:nuggetOctine>, null], 
 	[<ore:stickWood>, null, null]

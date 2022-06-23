@@ -327,8 +327,20 @@ addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "sapling_spi
 <entity:thebetweenlands:sporeling>.removeDrop(<thebetweenlands:spores>);
 <entity:thebetweenlands:sporeling>.addPlayerOnlyDrop(<thebetweenlands:spores>, 0, 1);
 
+<entity:mod_lavacow:scarecrow>.removeDrop(<minecraft:stick>);
+<entity:mod_lavacow:scarecrow>.removeDrop(<minecraft:wheat>);
+<entity:mod_lavacow:scarecrow>.addPlayerOnlyDrop(<thebetweenlands:items_misc:20>, 0, 1);
+<entity:mod_lavacow:scarecrow>.addPlayerOnlyDrop(<thebetweenlands:items_misc:6>, 0, 1);
+
+
+/*
 val sporeling = LootTweaker.getTable("thebetweenlands:entities/sporeling");
 val sporeling_main = sporeling.getPool("sporeling");
 sporeling_main.setRolls(0, 2);
 sporeling_main.removeEntry("thebetweenlands:spores");
 sporeling_main.addItemEntryHelper(<thebetweenlands:spores>, 1, 1, [Functions.setCount(0, 1)], []);
+*/
+
+
+val darkdruid = LootTweaker.getTable("thebetweenlands:entities/dark_druid");
+darkdruid.removePool("dark_druid");

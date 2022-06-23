@@ -17,23 +17,23 @@ val syrmoritePlate = <immersiveengineering:metal:39>;
 // Misc Recipes
 recipes.remove(<artisanworktables:artisans_cutters_bone>);
 recipes.remove(<artisanworktables:artisans_hammer_bone>);
-recipes.addShaped("custom_bone_cutter", <artisanworktables:artisans_cutters_bone>, 
+scripts.utils.addShaped("custom_bone_cutter", <artisanworktables:artisans_cutters_bone>, 
 	[[bone, null, bone], 
 	 [null, rope, null], 
 	 [stick, null, stick]]);
 
-recipes.addShaped("custom_bone_hammer", <artisanworktables:artisans_hammer_bone>, 
+scripts.utils.addShaped("custom_bone_hammer", <artisanworktables:artisans_hammer_bone>, 
 	[[null, bone, rope], 
 	 [null, stick, bone], 
 	 [stick, null, null]]);
 
 
-recipes.addShaped("blacksmith_table", <artisanworktables:workstation:3>, [[<thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>],
+scripts.utils.addShaped("blacksmith_table", <artisanworktables:workstation:3>, [[<thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>],
 				[<ore:artisansDriver>, <thebetweenlands:weedwood_workbench>, <ore:artisansHammer>],
 				[<roots:runestone>, <roots:runestone>, <roots:runestone>]]);
 
 /*
-recipes.addShaped("basic_workstation", <artisanworktables:workstation:5>, 
+scripts.utils.addShaped("basic_workstation", <artisanworktables:workstation:5>, 
 	[[wwPlank, wwPlank, wwPlank],
 	 [<ore:artisansCutters>, <thebetweenlands:weedwood_workbench>, <ore:artisansHammer>],
 	 [<thebetweenlands:polished_limestone>, <thebetweenlands:polished_limestone>, <thebetweenlands:polished_limestone>]]);

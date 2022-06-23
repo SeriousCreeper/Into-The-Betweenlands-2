@@ -66,88 +66,88 @@ val bridgeFenceTypes = [
 
 for i, bridge in bridgeTypes {
 	recipes.remove(bridge);
-	recipes.addShaped("mcwbridges-log_bridge_middle_" ~ i, bridge * 4, [
+	scripts.utils.addShaped("mcwbridges-log_bridge_middle_" ~ i, bridge * 4, [
 		[bridgeFenceTypes[i], null, bridgeFenceTypes[i]], 
 		[bridgeSlabTypes[i], bridgeSlabTypes[i], bridgeSlabTypes[i]]
 	]);
 
 	recipes.remove(ropeBridgeEndTypes[i]);
-	recipes.addShaped("mcwbridges-rope_end_" ~ i, ropeBridgeEndTypes[i] * 4, [
+	scripts.utils.addShaped("mcwbridges-rope_end_" ~ i, ropeBridgeEndTypes[i] * 4, [
 		[stringItem, null, stringItem], 
 		[bridgeFenceTypes[i], null, bridgeFenceTypes[i]],
 		[bridgeSlabTypes[i], bridgeSlabTypes[i], bridgeSlabTypes[i]]
 	]);
 
 	recipes.remove(ropeBridgeTypes[i]);
-	recipes.addShaped("mcwbridges-rope_" ~ i, ropeBridgeTypes[i] * 4, [
+	scripts.utils.addShaped("mcwbridges-rope_" ~ i, ropeBridgeTypes[i] * 4, [
 		[stringItem, null, stringItem], 
 		[bridgeSlabTypes[i], bridgeSlabTypes[i], bridgeSlabTypes[i]]
 	]);
 
 	recipes.remove(railBridgeTypes[i]);
-	recipes.addShaped("mcwbridges-rail_bridge_" ~ i, railBridgeTypes[i] * 4, [
+	scripts.utils.addShaped("mcwbridges-rail_bridge_" ~ i, railBridgeTypes[i] * 4, [
 		[bridgeFenceTypes[i], null, bridgeFenceTypes[i]], 
 		[bridgeFenceTypes[i], bridgeSlabTypes[i], bridgeFenceTypes[i]]
 	]);
 }
 
 
-recipes.addShapeless("mcwbridges-oak_log_bridge_middle-back", <mcwbridges:oak_log_bridge_middle>, [<mcwbridges:oak_log_bridge_end>]);
-recipes.addShapeless("mcwbridges-birch_log_bridge_middle-back", <mcwbridges:birch_log_bridge_middle>, [<mcwbridges:birch_log_bridge_end>]);
-recipes.addShapeless("mcwbridges-acacia_log_bridge_middle-back", <mcwbridges:acacia_log_bridge_middle>, [<mcwbridges:acacia_log_bridge_end>]);
-recipes.addShapeless("mcwbridges-spruce_log_bridge_middle-back", <mcwbridges:spruce_log_bridge_middle>, [<mcwbridges:spruce_log_bridge_end>]);
-recipes.addShapeless("mcwbridges-jungle_log_bridge_middle-back", <mcwbridges:jungle_log_bridge_middle>, [<mcwbridges:jungle_log_bridge_end>]);
-recipes.addShapeless("mcwbridges-dark_oak_log_bridge_middle-back", <mcwbridges:dark_oak_log_bridge_middle>, [<mcwbridges:dark_oak_log_bridge_end>]);
+scripts.utils.addShapeless("mcwbridges-oak_log_bridge_middle-back", <mcwbridges:oak_log_bridge_middle>, [<mcwbridges:oak_log_bridge_end>]);
+scripts.utils.addShapeless("mcwbridges-birch_log_bridge_middle-back", <mcwbridges:birch_log_bridge_middle>, [<mcwbridges:birch_log_bridge_end>]);
+scripts.utils.addShapeless("mcwbridges-acacia_log_bridge_middle-back", <mcwbridges:acacia_log_bridge_middle>, [<mcwbridges:acacia_log_bridge_end>]);
+scripts.utils.addShapeless("mcwbridges-spruce_log_bridge_middle-back", <mcwbridges:spruce_log_bridge_middle>, [<mcwbridges:spruce_log_bridge_end>]);
+scripts.utils.addShapeless("mcwbridges-jungle_log_bridge_middle-back", <mcwbridges:jungle_log_bridge_middle>, [<mcwbridges:jungle_log_bridge_end>]);
+scripts.utils.addShapeless("mcwbridges-dark_oak_log_bridge_middle-back", <mcwbridges:dark_oak_log_bridge_middle>, [<mcwbridges:dark_oak_log_bridge_end>]);
 
 
 recipes.remove(<mcwbridges:stone_brick_bridge>);
-recipes.addShaped("mcwbridges-stone_brick_bridge", <mcwbridges:stone_brick_bridge> * 4, [
+scripts.utils.addShaped("mcwbridges-stone_brick_bridge", <mcwbridges:stone_brick_bridge> * 4, [
 	[<thebetweenlands:betweenstone_bricks>, null, <thebetweenlands:betweenstone_bricks>], 
 	[<thebetweenlands:smooth_betweenstone_slab>, <thebetweenlands:smooth_betweenstone_slab>, <thebetweenlands:smooth_betweenstone_slab>]
 ]);
-recipes.addShaped("mcwbridges-stone_brick_bridge_end-back", <mcwbridges:stone_brick_bridge>, [[<mcwbridges:stone_brick_bridge_end>]]);
+scripts.utils.addShaped("mcwbridges-stone_brick_bridge_end-back", <mcwbridges:stone_brick_bridge>, [[<mcwbridges:stone_brick_bridge_end>]]);
 
 recipes.remove(<mcwbridges:brick_bridge>);
-recipes.addShaped("mcwbridges-brick_bridge", <mcwbridges:brick_bridge> * 4, [
+scripts.utils.addShaped("mcwbridges-brick_bridge", <mcwbridges:brick_bridge> * 4, [
 	[<thebetweenlands:mud_bricks_carved>, null, <thebetweenlands:mud_bricks_carved>], 
 	[<thebetweenlands:mud_brick_shingle_slab>, <thebetweenlands:mud_brick_shingle_slab>, <thebetweenlands:mud_brick_shingle_slab>]
 ]);
-recipes.addShaped("mcwbridges-brick_bridge-back", <mcwbridges:brick_bridge>, [[<mcwbridges:brick_bridge_end>]]);
+scripts.utils.addShaped("mcwbridges-brick_bridge-back", <mcwbridges:brick_bridge>, [[<mcwbridges:brick_bridge_end>]]);
 
 
 recipes.remove(<mcwbridges:sandstone_bridge>);
-recipes.addShaped("mcwbridges-sandstone_bridge", <mcwbridges:sandstone_bridge> * 4, [
+scripts.utils.addShaped("mcwbridges-sandstone_bridge", <mcwbridges:sandstone_bridge> * 4, [
 	[<thebetweenlands:pitstone_bricks>, null, <thebetweenlands:pitstone_bricks>], 
 	[<thebetweenlands:smooth_pitstone_slab>, <thebetweenlands:smooth_pitstone_slab>, <thebetweenlands:smooth_pitstone_slab>]
 ]);
-recipes.addShaped("mcwbridges-sandstone_bridge-back", <mcwbridges:sandstone_bridge>, [[<mcwbridges:sandstone_bridge_end>]]);
+scripts.utils.addShaped("mcwbridges-sandstone_bridge-back", <mcwbridges:sandstone_bridge>, [[<mcwbridges:sandstone_bridge_end>]]);
 
 recipes.remove(<mcwbridges:orange_sandstone_bridge>);
-recipes.addShaped("mcwbridges-orange_sandstone_bridge", <mcwbridges:orange_sandstone_bridge> * 4, [
+scripts.utils.addShaped("mcwbridges-orange_sandstone_bridge", <mcwbridges:orange_sandstone_bridge> * 4, [
 	[<thebetweenlands:cragrock_bricks>, null, <thebetweenlands:cragrock_bricks>], 
 	[<thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>]
 ]);
-recipes.addShaped("mcwbridges-orange_sandstone_bridge-back", <mcwbridges:orange_sandstone_bridge>, [[<mcwbridges:orange_sandstone_bridge_end>]]);
+scripts.utils.addShaped("mcwbridges-orange_sandstone_bridge-back", <mcwbridges:orange_sandstone_bridge>, [[<mcwbridges:orange_sandstone_bridge_end>]]);
 
 
 recipes.remove(<mcwbridges:bamboo_bridge>);
-recipes.addShaped("mcwbridges-bamboo_bridge", <mcwbridges:bamboo_bridge> * 4, [
+scripts.utils.addShaped("mcwbridges-bamboo_bridge", <mcwbridges:bamboo_bridge> * 4, [
 	[<thebetweenlands:items_misc:14>, stringItem, <thebetweenlands:items_misc:14>], 
 	[<thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:14>]
 ]);
 
 recipes.remove(<mcwbridges:most1>);
-recipes.addShaped("mcwbridges-iron_bridge_middle", <mcwbridges:most1>, [
+scripts.utils.addShaped("mcwbridges-iron_bridge_middle", <mcwbridges:most1>, [
 	[<mcwbridges:iron_armrest>, <ore:plateSyrmorite>, <mcwbridges:iron_armrest>]
 ]);
 
 recipes.remove(<mcwbridges:iron_rod>);
-recipes.addShaped("iron_rod", <mcwbridges:iron_rod> * 2, [
+scripts.utils.addShaped("iron_rod", <mcwbridges:iron_rod> * 2, [
 	[<ore:nuggetSyrmorite>], [<ore:nuggetSyrmorite>]
 ]);
 
 recipes.remove(<mcwbridges:iron_armrest>);
-recipes.addShaped("iron_armrest", <mcwbridges:iron_armrest>, [
+scripts.utils.addShaped("iron_armrest", <mcwbridges:iron_armrest>, [
 	[<ore:nuggetSyrmorite>, <mcwbridges:iron_rod>, <ore:nuggetSyrmorite>]
 ]);
 

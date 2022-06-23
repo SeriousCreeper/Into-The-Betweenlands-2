@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 11.0d,
+	text: [
+		"Bellows facing the bloomer (except for the front) will speed up its process. ",
+		"",
+		"I'll have to stand on the bellow and wait for it to go all the way down, then let it rise all the way up again to get the most airflow out of it."
+	],
+	dependencies: [
+		"a86bcf84"
+	],
+	tasks: [{
+		uid: "21a1165b",
+		type: "item",
+		items: [{
+			item: "pyrotech:bellows"
+		}]
+	}]
+}

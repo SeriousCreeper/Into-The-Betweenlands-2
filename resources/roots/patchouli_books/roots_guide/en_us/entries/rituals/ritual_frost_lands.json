@@ -1,0 +1,23 @@
+{
+  "name": "Frost Lands",
+  "icon": "roots:ritual_frost_lands",
+  "category": "rituals",
+  "read_by_default": true,
+  "flag": "roots:ritual_frost_lands",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Surrounding land is frozen by the touch of winter, as layers of snow build up all around, and water frozen to ice."
+    },
+    {
+      "type": "pyre_template",
+      "ritual": "ritual_frost_lands",
+      "text": "As a $(l:rituals/tiers)$(bold)tier 0$() ritual, there are no additional requirements to complete this ritual."
+    },
+    {
+      "type": "text",
+      "title": "Ritual Specifics",
+      "text": "$(bold)Duration:$() The ritual lasts for $(ritual:frost_lands/SECONDS/duration) seconds.$(br2)$(bold)Size:$() Ritual area extends $(ritual:frost_lands/radius_x) and $(ritual:frost_lands/radius_z) blocks from the center, and vertically by $(ritual:frost_lands/radius_y) blocks."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Cloud Berry",
+  "icon": "roots:cloud_berry",
+  "category": "herbs",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Cultivated from a bush so bouyant that, as more cloud berries sprouted, it would eventually tear itself from the ground.$(br2)Tying the bushes down is no longer required, but the berries still float like feathers when dropped.$(br2)Used in spells and rituals associated with the sky, it is also a renewable crop."
+    },
+    {
+      "type": "ritual_crafting_template",
+      "recipe": "cloud_berry"
+    }
+  ]
+}

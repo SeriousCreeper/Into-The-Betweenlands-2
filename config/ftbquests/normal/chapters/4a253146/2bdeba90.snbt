@@ -1,7 +1,7 @@
 {
 	title: "Melting Ingots",
 	x: 1.0d,
-	y: 4.0d,
+	y: 5.0d,
 	text: [
 		"The Melter should be one of the first machines you make.",
 		"",

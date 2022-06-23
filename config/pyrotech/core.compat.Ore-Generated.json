@@ -20,6 +20,15 @@
     "Output item strings are in the format: (domain):(path):(meta)"
   ],
   "oredict": {
+    "oreCopper": {
+      "slagColor": "ffaa1c",
+      "langKey": [
+        "betweenores:tile.betweenores.copper_ore"
+      ],
+      "output": [
+        "embers:nugget_copper:0"
+      ]
+    },
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [

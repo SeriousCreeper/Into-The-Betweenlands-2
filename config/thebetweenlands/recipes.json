@@ -1281,6 +1281,15 @@
         "composting_time": 5000
       },
       "output": 2
+    },
+    {
+      "input": {
+        "item": {
+          "id": "pyrotech:pile_slag"
+        },
+        "composting_time": 12000
+      },
+      "output": 25
     }
   ],
   "crab_pot_filter": [

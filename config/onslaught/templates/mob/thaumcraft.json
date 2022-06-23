@@ -1,0 +1,13 @@
+{
+  "wisp": {
+    "id": "thaumcraft:wisp",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ]
+  }
+}

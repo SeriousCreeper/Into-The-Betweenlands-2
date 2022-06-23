@@ -9,6 +9,28 @@
         "groupcountmax": 1
       }
     ]
+  },
+  {
+    "dimension": 20,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:raven",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 20,
+    "mobs": [
+      {
+        "mob": "thaumcraft:wisp",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
   }
 ]
 

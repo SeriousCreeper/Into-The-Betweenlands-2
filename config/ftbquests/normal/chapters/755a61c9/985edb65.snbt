@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 7.0d,
+	text: [
+		"Mechanical Hoppers can transfer items from one storage container to another. ",
+		"",
+		"In order to do so, they will need a cog attached to the front. ",
+		"",
+		"The amount of items transfered each operation depends on the cog. ",
+		"",
+		"Everytime items are transfered, the cog gets damaged slightly."
+	],
+	dependencies: [
+		"f4488f2a"
+	],
+	tasks: [{
+		uid: "c0384bb5",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_hopper"
+		}]
+	}]
+}

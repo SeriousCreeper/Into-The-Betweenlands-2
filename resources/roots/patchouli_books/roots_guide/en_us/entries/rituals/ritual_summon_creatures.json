@@ -1,0 +1,23 @@
+{
+  "name": "Summon Creatures",
+  "icon": "roots:ritual_summon_creatures",
+  "category": "rituals",
+  "read_by_default": true,
+  "flag": "roots:ritual_summon_creatures",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Summoning spirits or creatures out of nothings it beyond your abilities.$(br2)It is however possible to keep a spawner active, even without anyone being near it, if an active Summon Ritual is within range."
+    },
+    {
+      "type": "pyre_template",
+      "ritual": "ritual_summon_creatures",
+      "text": "Must be placed within a 9x9x9 cube around a spawner."
+    },
+    {
+      "type": "text",
+      "title": "Ritual Specifics",
+      "text": "$(bold)Duration:$() The ritual lasts $(ritual:summon_creatures/SECONDS/duration) seconds, with the entity being summoned after $(ritual:summon_creatures/SECONDS/interval)."
+    }
+  ]
+}

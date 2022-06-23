@@ -29,3 +29,4 @@ for item in mwItems {
 }
 
 recipes.remove(<mysticalworld:silk_thread>);
+recipes.remove(<patchouli:guide_book>.withTag({"patchouli:book": "mysticalworld:world_guide"}));

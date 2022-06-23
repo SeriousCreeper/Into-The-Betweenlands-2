@@ -1,7 +1,7 @@
 {
 	title: "Stamping",
 	x: 2.0d,
-	y: 4.0d,
+	y: 5.0d,
 	text: [
 		"The Stamper can take either liquids or solids and stamp them into form.",
 		"",

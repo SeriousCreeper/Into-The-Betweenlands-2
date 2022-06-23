@@ -5,8 +5,8 @@
     "textures": {
       "top": "thebetweenlands:blocks/syrmorite_block",
       "top_side": "thebetweenlands:blocks/syrmorite_block",
-      "bottom_side": "blocks/stone_slab_side",
-      "bottom": "blocks/stone_slab_top",
+      "bottom_side": "thebetweenlands:blocks/pitstone_bricks",
+      "bottom": "thebetweenlands:blocks/pitstone_bricks",
       "particle": "thebetweenlands:blocks/syrmorite_block"
     }
   },

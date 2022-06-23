@@ -1,7 +1,7 @@
 {
 	title: "Basic Components",
 	x: 0.0d,
-	y: 1.0d,
+	y: 2.0d,
 	text: [
 		"Before we get to use most of the machines, we need to fuel them using embers.",
 		"",

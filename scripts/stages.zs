@@ -8,11 +8,10 @@ import crafttweaker.item.IItemStack;
 
 
 MobStages.addStage("knowledge_of_technology", "embers:ancient_golem");
+MobStages.addStage("knowledge_of_decay", "thaumcraft:wisp");
 
 
-
-
-//OreStages.addReplacement("knowledge_of_technology", <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement("knowledge_of_technology", <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_technology", <betweenores:lead_ore>, <thebetweenlands:pitstone>);
 OreStages.addReplacement("knowledge_of_technology", <betweenores:silver_ore>, <thebetweenlands:pitstone>);
 //OreStages.addReplacement("knowledge_of_technology", <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);

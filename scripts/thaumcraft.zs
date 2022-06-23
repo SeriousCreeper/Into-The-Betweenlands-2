@@ -34,8 +34,8 @@ scripts.utils.addShaped("phial", <thaumcraft:phial> * 8, [
 
 
 recipes.remove(<thaumcraft:scribing_tools>);
-scripts.utils.addShapeless("scribingtoolscraft1", <thaumcraft:scribing_tools>, [<thaumcraft:phial>, <minecraft:dye>, <thebetweenlands:items_misc:3>]);
-recipes.addHiddenShaped("scribingtoolscraft1_shaped", <thaumcraft:scribing_tools>, [[<thaumcraft:phial>, <minecraft:dye>, <thebetweenlands:items_misc:3>]]);
+scripts.utils.addShapeless("scribingtoolscraft1", <thaumcraft:scribing_tools>, [<thaumcraft:phial>, <minecraft:dye>, <ore:feather>]);
+recipes.addHiddenShaped("scribingtoolscraft1_shaped", <thaumcraft:scribing_tools>, [[<thaumcraft:phial>, <minecraft:dye>, <ore:feather>]]);
 scripts.utils.addShapeless("scribingtoolsrefill", <thaumcraft:scribing_tools>, [<thaumcraft:scribing_tools:*>, <minecraft:dye>]);
 
 recipes.remove(<thaumcraft:stone_arcane>);
@@ -97,7 +97,12 @@ scripts.utils.addShaped("harness_base", <thaumicaugmentation:material:4>, [
 recipes.remove(<thaumcraft:label>);
 scripts.utils.addShapeless("thaumcraft_jarlabel", <thaumcraft:label> * 4, 
 	[<ore:dyeBlack>, 
-	<roots:strange_ooze> | <thebetweenlands:sludge_ball> | <thebetweenlands:sap_spit> | <thebetweenlands:sludge_ball>, 
+	<thebetweenlands:sap_spit>, 
+	<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]
+);
+scripts.utils.addShapeless("thaumcraft_jarlabel_2", <thaumcraft:label> * 4, 
+	[<ore:dyeBlack>, 
+	<ore:slimeball>, 
 	<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]
 );
 scripts.utils.addShapeless("thaumcraft_jarlabelnull", <thaumcraft:label>, 
@@ -777,8 +782,6 @@ ArcaneWorkbench.registerShapelessRecipe("tubevalve", "TUBES@2", 10, [
 // SALIS MUNDUS
 SalisMundus.removeSingleConversion(<thaumcraft:crucible>);
 SalisMundus.addSingleConversion(<ore:blockSyrmorite>, <thaumcraft:crucible>);
-SalisMundus.addSingleConversion(<roots:wildwood_sapling>, <thaumcraft:sapling_greatwood>);
-SalisMundus.addSingleConversion(<thebetweenlands:sapling_spirit_tree>, <thaumcraft:sapling_silverwood>);
 
 
 
@@ -860,7 +863,7 @@ Crucible.registerRecipe("SaneSoap", "SANESOAP@2", <thaumcraft:sanity_soap>, <the
 ]);
 
 Crucible.removeRecipe(<thaumcraft:ingot:2>);
-Crucible.registerRecipe("brassingot", "METALLURGY@1", <thaumcraft:ingot:2>, <thebetweenlands:octine_ingot>, [
+Crucible.registerRecipe("brassingot", "METALLURGY@1", <thaumcraft:ingot:2>, <ore:ingotCopper>, [
 	<aspect:instrumentum> * 5
 ]);
 
@@ -873,7 +876,7 @@ Infusion.registerRecipe("cloudring", "CLOUDRING", <thaumcraft:cloud_ring>, 1, [
 	<aspect:aer> * 50, 
 ], 
 <thaumcraft:baubles:1>, 
-[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), <thebetweenlands:items_misc:3>]);
+[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), <ore:feather>]);
 
 
 
@@ -916,7 +919,7 @@ Infusion.registerRecipe("bootstraveller", "BOOTSTRAVELLER", <thaumcraft:travelle
 	<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
 	<thaumcraft:fabric>, 
 	<thaumcraft:fabric>,
-	<thebetweenlands:items_misc:3>,
+	<ore:feather>,
 	<thebetweenlands:items_misc:21>
 ]);
 
@@ -1014,15 +1017,15 @@ SmeltingBonus.removeSmeltingBonus(<ore:clusterSilver>, <thaumcraft:nugget:3>);
 SmeltingBonus.removeSmeltingBonus(<ore:clusterTin>, <thaumcraft:nugget:2>);
 SmeltingBonus.removeSmeltingBonus(<ore:clusterCopper>, <thaumcraft:nugget:1>);
 
-SmeltingBonus.addSmeltingBonus(<ore:oreLead>, <embers:nugget_lead> % 10);
-SmeltingBonus.addSmeltingBonus(<ore:oreSilver>, <embers:nugget_silver> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:oreCopper>, <embers:nugget_copper> % 10);
-SmeltingBonus.addSmeltingBonus(<ore:oreTin>, <embers:nugget_tin> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:oreLead>, <embers:nugget_lead> % 5);
+SmeltingBonus.addSmeltingBonus(<ore:oreSilver>, <embers:nugget_silver> % 5);
+SmeltingBonus.addSmeltingBonus(<ore:oreCopper>, <embers:nugget_copper> % 5);
+SmeltingBonus.addSmeltingBonus(<ore:oreTin>, <embers:nugget_tin> % 5);
 
-SmeltingBonus.addSmeltingBonus(<ore:clusterLead>, <embers:nugget_lead> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:clusterSilver>, <embers:nugget_silver> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:clusterCopper>, <embers:nugget_copper> % 20);
-SmeltingBonus.addSmeltingBonus(<ore:clusterTin>, <embers:nugget_tin> % 20);
+SmeltingBonus.addSmeltingBonus(<ore:clusterLead>, <embers:nugget_lead> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:clusterSilver>, <embers:nugget_silver> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:clusterCopper>, <embers:nugget_copper> % 10);
+SmeltingBonus.addSmeltingBonus(<ore:clusterTin>, <embers:nugget_tin> % 10);
 
 
 

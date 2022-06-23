@@ -27,7 +27,7 @@ for item in items {
 }
 
 recipes.remove(<waterstrainer:strainer_base>);
-recipes.addShaped("strainer_base", <waterstrainer:strainer_base>, [
+scripts.utils.addShaped("strainer_base", <waterstrainer:strainer_base>, [
 	[<thebetweenlands:items_misc:20>, null, <thebetweenlands:items_misc:20>],
 	[<thebetweenlands:weedwood_planks>, <quark:chute>, <thebetweenlands:weedwood_planks>],
 	[<thebetweenlands:weedwood_planks>, <pyrotech:crate>, <thebetweenlands:weedwood_planks>]
@@ -35,7 +35,7 @@ recipes.addShaped("strainer_base", <waterstrainer:strainer_base>, [
 
 
 recipes.remove(<waterstrainer:strainer_survivalist>);
-recipes.addShaped("strainer_survivalist", <waterstrainer:strainer_survivalist>, [
+scripts.utils.addShaped("strainer_survivalist", <waterstrainer:strainer_survivalist>, [
 	[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:7>],
 	[<thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:14>],
 	[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:7>]
@@ -43,7 +43,7 @@ recipes.addShaped("strainer_survivalist", <waterstrainer:strainer_survivalist>, 
 
 
 recipes.remove(<waterstrainer:strainer_survivalist_solid>);
-recipes.addShaped("strainer_survivalist_solid", <waterstrainer:strainer_survivalist_solid>, [
+scripts.utils.addShaped("strainer_survivalist_solid", <waterstrainer:strainer_survivalist_solid>, [
 	[null, <thebetweenlands:items_misc:14>, null],
 	[<thebetweenlands:items_misc:14>, <dawnoftimebuilder:silk>, <thebetweenlands:items_misc:14>],
 	[null, <thebetweenlands:items_misc:14>, null]

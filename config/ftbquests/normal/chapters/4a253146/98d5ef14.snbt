@@ -2,7 +2,7 @@
 	title: "Ember Bore",
 	icon: "embers:ember_bore",
 	x: 0.0d,
-	y: 2.0d,
+	y: 3.0d,
 	text: [
 		"Once you crafted an Ember Bore, place it somewhere within the pitstone layer. ",
 		"",

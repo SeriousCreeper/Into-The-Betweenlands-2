@@ -61,11 +61,11 @@ Store.addTrade("dungeon_sludgeon", <thebetweenlands:mud_brick_alcove>, cur_1 * 1
 Store.addTrade("dungeon_sludgeon", <thebetweenlands:loot_urn>, cur_1 * 16);
 Store.addTrade("dungeon_sludgeon", <thebetweenlands:loot_urn:4>, cur_1 * 16);
 Store.addTrade("dungeon_sludgeon", <thebetweenlands:loot_urn:8>, cur_1 * 16);
-Store.addTrade("dungeon_sludgeon", <thebetweenlands:mud_brick_spike_trap>, cur_1 * 64);
-Store.addTrade("dungeon_sludgeon", <thebetweenlands:mud_tiles_spike_trap>, cur_1 * 64);
+//Store.addTrade("dungeon_sludgeon", <thebetweenlands:mud_brick_spike_trap>, cur_1 * 64);
+//Store.addTrade("dungeon_sludgeon", <thebetweenlands:mud_tiles_spike_trap>, cur_1 * 64);
 Store.addTrade("dungeon_sludgeon", <thebetweenlands:mud_tower_brazier>, cur_1 * 32);
 
-Store.addTrade("dungeon_wight_fortress", <thebetweenlands:spike_trap>, cur_1 * 64);
+//Store.addTrade("dungeon_wight_fortress", <thebetweenlands:spike_trap>, cur_1 * 64);
 Store.addTrade("dungeon_wight_fortress", <thebetweenlands:betweenstone_bricks_mirage>, cur_1 * 16);
 Store.addTrade("dungeon_wight_fortress", <thebetweenlands:possessed_block>, cur_1 * 32);
 

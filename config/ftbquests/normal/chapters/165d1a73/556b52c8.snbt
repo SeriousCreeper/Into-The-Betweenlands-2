@@ -1,7 +1,7 @@
 {
 	title: "Salis Mundus",
 	x: 11.5d,
-	y: 1.0d,
+	y: 2.0d,
 	text: [
 		"Salis mundus turns blocks into magical versions. ",
 		"",

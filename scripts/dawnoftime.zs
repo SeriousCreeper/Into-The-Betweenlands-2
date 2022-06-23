@@ -73,26 +73,26 @@ for item in items {
 
 
 furnace.remove(<dawnoftimebuilder:grey_tile>);
-recipes.addShaped("grey_tile", <dawnoftimebuilder:grey_tile> * 8, [
+scripts.utils.addShaped("grey_tile", <dawnoftimebuilder:grey_tile> * 8, [
 	[<pyrotech:material:16>, null, null],
 	[<pyrotech:material:16>, <pyrotech:material:16>, null],
 	[<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>]
 ]);
 
 recipes.remove(<dawnoftimebuilder:silk_worm_hatchery>);
-recipes.addShapeless("silk_worm_hatchery", <dawnoftimebuilder:silk_worm_hatchery>, 
+scripts.utils.addShapeless("silk_worm_hatchery", <dawnoftimebuilder:silk_worm_hatchery>, 
 	[<dawnoftimebuilder:silk_worm_eggs>, <thebetweenlands:items_plant_drop>, <thebetweenlands:items_plant_drop>]
 );
 
 recipes.remove(<dawnoftimebuilder:stick_bundle>);
-recipes.addShaped("stick_bundle", <dawnoftimebuilder:stick_bundle>, [
+scripts.utils.addShaped("stick_bundle", <dawnoftimebuilder:stick_bundle>, [
 	[null, <ore:stickWood>, null], 
 	[<ore:stickWood>, null, <ore:stickWood>], 
 	[null, <ore:stickWood>, null]
 ]);
 
 recipes.remove(<dawnoftimebuilder:iron_chain>);
-recipes.addShaped("iron_chain", <dawnoftimebuilder:iron_chain>, [
+scripts.utils.addShaped("iron_chain", <dawnoftimebuilder:iron_chain>, [
 	[<ore:ingotSyrmorite>], [<ore:ingotSyrmorite>]
 ]);
 

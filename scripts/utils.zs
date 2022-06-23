@@ -26,3 +26,9 @@ function addShaped(name as string, output as IItemStack, input as IIngredient[][
 
 	ArcaneWorkbench.registerShapedRecipe(name, "", 0, [], output, input);
 }
+
+function addShapedMirrored(name as string, output as IItemStack, input as IIngredient[][]) {
+	recipes.addShapedMirrored(name, output, input);
+
+	ArcaneWorkbench.registerShapedRecipe(name, "", 0, [], output, input);
+}

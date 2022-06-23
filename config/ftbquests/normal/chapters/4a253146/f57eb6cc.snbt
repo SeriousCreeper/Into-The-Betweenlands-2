@@ -2,7 +2,7 @@
 	title: "Activating Embers",
 	icon: "embers:ember_activator",
 	x: 0.0d,
-	y: 4.0d,
+	y: 5.0d,
 	text: [
 		"Now that you have embers, you can use an Ember Activator to burn the shards into raw energy. ",
 		"",

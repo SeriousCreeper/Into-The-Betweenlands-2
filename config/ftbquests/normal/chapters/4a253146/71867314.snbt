@@ -1,0 +1,55 @@
+{
+	title: "Opening Your Mind",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"One of the golems i killed had an interesting stone tablet lodged into its side. ",
+		"",
+		"Reading through it i realize that there are more things in this world than i initially thought."
+	],
+	dependencies: [
+		"5ae2700f"
+	],
+	tasks: [{
+		uid: "8157c3bc",
+		type: "gamestage",
+		icon: "embers:codex",
+		stage: "temp_embers_invasion_completed"
+	}],
+	rewards: [{
+		uid: "198e1bed",
+		type: "item",
+		item: "embers:codex"
+	},
+	{
+		uid: "4ca9fd31",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "knowledge_of_technology"
+	},
+	{
+		uid: "b292f2e0",
+		type: "command",
+		auto: "invisible",
+		command: "/title @p times 20 100 20"
+	},
+	{
+		uid: "b2cf331a",
+		type: "command",
+		auto: "invisible",
+		command: "/title @p title {\"text\":\"Mineral Knowledge\",\"bold\":true}"
+	},
+	{
+		uid: "ac6d3792",
+		type: "command",
+		auto: "invisible",
+		command: "/title @p subtitle {\"text\":\"You sense there must be more ores out there\",\"italic\":true}"
+	},
+	{
+		uid: "f5771180",
+		type: "command",
+		auto: "invisible",
+		command: "/playsound ui.toast.challenge_complete master @p",
+		player_command: true
+	}]
+}

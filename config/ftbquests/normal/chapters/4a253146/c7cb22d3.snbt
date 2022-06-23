@@ -1,7 +1,7 @@
 {
 	title: "The Right Spot",
 	x: -1.0d,
-	y: 1.0d,
+	y: 2.0d,
 	text: [
 		"The amount of embers a bore can mine depends on the density in the current chunk. ",
 		"",

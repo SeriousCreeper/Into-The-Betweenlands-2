@@ -1,6 +1,6 @@
 {
 	title: "Sulfur Torches",
-	x: 4.0d,
+	x: 3.0d,
 	y: 2.0d,
 	text: [
 		"Sulfur torches are one of the main light sources, at least early on. ",

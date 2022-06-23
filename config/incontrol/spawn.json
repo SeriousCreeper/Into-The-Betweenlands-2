@@ -11,13 +11,20 @@
     "result": "deny"
   },
   {
+    "mob": "thaumcraft:wisp",
+    "mincount": 3,
+    "perplayer": true,
+    "result": "deny"
+  },
+  {
     "maxheight": 120,
     "mob": "mod_lavacow:raven",
     "result": "deny"
   },
   {
     "mob": "mod_lavacow:raven",
-    "mincount": 10,
+    "mincount": 1,
+    "perplayer": true,
     "result": "deny"
   }
 ]

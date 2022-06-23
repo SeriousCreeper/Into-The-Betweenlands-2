@@ -1,0 +1,16 @@
+{
+  "name": "Stalicripe",
+  "icon": "roots:stalicripe",
+  "category": "herbs",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "It is easy to confuse stalicripe with rocky growth, such is its affinity for the earth.$(br2)Whether stone given life as a plant, or plant calcified to stone, it has a strong affinity with the earth.$(br2)Once reborn from the heat of a $(l:crafting/pyres)pyre$(), it becomes a renewable resource."
+    },
+    {
+      "type": "ritual_crafting_template",
+      "recipe": "stalicripe"
+    }
+  ]
+}

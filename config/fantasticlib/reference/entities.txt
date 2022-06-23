@@ -90,11 +90,11 @@ embers:magma_projectile
 aetherworks:entity_arrow
 aetherworks:entity_magma
 arcanearchives:weight
-quark:pickarang
 quark:seat
 quark:flat_item_frame
 quark:leash_knot
 quark:glass_item_frame
+quark:pickarang
 thebetweenlands:dark_druid
 thebetweenlands:angler
 thebetweenlands:sludge

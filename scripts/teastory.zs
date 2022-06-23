@@ -75,7 +75,7 @@ furnace.remove(<forge:bucketfilled>.withTag({Fluid: {FluidName: "purifiedwater",
 
 furnace.remove(<teastory:empty_porcelain_kettle>);
 recipes.remove(<teastory:empty_porcelain_kettle>);
-recipes.addShaped("teastory_empty_porcelain_kettle", <teastory:empty_porcelain_kettle>, [
+scripts.utils.addShaped("teastory_empty_porcelain_kettle", <teastory:empty_porcelain_kettle>, [
 	[null, <thebetweenlands:items_misc:10>, null], 
 	[<thebetweenlands:items_misc:10>, null, <thebetweenlands:items_misc:10>], 
 	[<thebetweenlands:items_misc:10>, <thebetweenlands:items_misc:10>, <thebetweenlands:items_misc:10>]
@@ -83,28 +83,28 @@ recipes.addShaped("teastory_empty_porcelain_kettle", <teastory:empty_porcelain_k
 
 recipes.remove(<teastory:empty_zisha_kettle>);
 furnace.remove(<teastory:empty_zisha_kettle>);
-recipes.addShaped("teastory_empty_zisha_kettle", <teastory:empty_zisha_kettle>, [
+scripts.utils.addShaped("teastory_empty_zisha_kettle", <teastory:empty_zisha_kettle>, [
 	[null, <thebetweenlands:items_misc:47>, null], 
 	[<thebetweenlands:items_misc:47>, null, <thebetweenlands:items_misc:47>], 
 	[<thebetweenlands:items_misc:47>, <thebetweenlands:items_misc:47>, <thebetweenlands:items_misc:47>]
 ]);
 
 recipes.remove(<teastory:pot_stone>);
-recipes.addShaped("teastory_pot_stone", <teastory:pot_stone>, [
+scripts.utils.addShaped("teastory_pot_stone", <teastory:pot_stone>, [
 	[<thebetweenlands:smooth_betweenstone>, null, <thebetweenlands:smooth_betweenstone>], 
 	[<thebetweenlands:smooth_betweenstone>, null, <thebetweenlands:smooth_betweenstone>], 
 	[null, <thebetweenlands:smooth_betweenstone>, null]
 ]);
 
 recipes.remove(<teastory:pot_iron>);
-recipes.addShaped("teastory_pot_iron", <teastory:pot_iron>, [
+scripts.utils.addShaped("teastory_pot_iron", <teastory:pot_iron>, [
 	[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>], 
 	[<thebetweenlands:items_misc:11>, <teastory:pot_stone>, <thebetweenlands:items_misc:11>], 
 	[null, <ore:blockSyrmorite>, null]
 ]);
 
 recipes.remove(<teastory:pot_clay>);
-recipes.addShaped("teastory_pot_clay", <teastory:pot_clay>, [
+scripts.utils.addShaped("teastory_pot_clay", <teastory:pot_clay>, [
 	[<thebetweenlands:mud>, null, <thebetweenlands:mud>], 
 	[<thebetweenlands:mud>, <teastory:pot_iron>, <thebetweenlands:mud>], 
 	[null, <thebetweenlands:mud>, null]
@@ -112,45 +112,45 @@ recipes.addShaped("teastory_pot_clay", <teastory:pot_clay>, [
 
 recipes.remove(<teastory:pot_zisha>);
 furnace.remove(<teastory:pot_zisha>);
-recipes.addShaped("teastory_pot_zisha", <teastory:pot_zisha>, [
+scripts.utils.addShaped("teastory_pot_zisha", <teastory:pot_zisha>, [
 	[<thebetweenlands:items_misc:47>, null, <thebetweenlands:items_misc:47>], 
 	[<thebetweenlands:items_misc:47>, null, <thebetweenlands:items_misc:47>], 
 	[null, <thebetweenlands:items_misc:47>, null]
 ]);
 
 recipes.remove(<teastory:empty_tea_bag>);
-recipes.addShaped("teastory_empty_tea_bag", <teastory:empty_tea_bag> * 3, [
+scripts.utils.addShaped("teastory_empty_tea_bag", <teastory:empty_tea_bag> * 3, [
 	[null, <ore:string>, null], 
 	[<thebetweenlands:items_misc:32>, null, <thebetweenlands:items_misc:32>], 
 	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]
 ]);
 
 recipes.remove(<teastory:cup:0>);
-recipes.addShaped("teastory_wooden_cup", <teastory:cup:0>, [
+scripts.utils.addShaped("teastory_wooden_cup", <teastory:cup:0>, [
 	[<thebetweenlands:weedwood>, null, <thebetweenlands:weedwood>], 
 	[<ore:stickWood>, <thebetweenlands:weedwood>, <ore:stickWood>]
 ]);
 
 recipes.remove(<teastory:cup:2>);
-recipes.addShaped("teastory_stone_cup", <teastory:cup:2>, [
+scripts.utils.addShaped("teastory_stone_cup", <teastory:cup:2>, [
 	[<thebetweenlands:smooth_betweenstone>, null, <thebetweenlands:smooth_betweenstone>], 
 	[<thebetweenlands:smooth_betweenstone>, <thebetweenlands:smooth_betweenstone>, <thebetweenlands:smooth_betweenstone>]
 ]);
 
 recipes.remove(<teastory:cup:3>);
-recipes.addShaped("teastory_glass_cup", <teastory:cup:3>, [
+scripts.utils.addShaped("teastory_glass_cup", <teastory:cup:3>, [
 	[<thebetweenlands:polished_dentrothyst_pane>, null, <thebetweenlands:polished_dentrothyst_pane>], 
 	[null, <thebetweenlands:polished_dentrothyst_pane>, null]
 ]);
 
 furnace.remove(<teastory:cup:4>);
-recipes.addShaped("teastory_mud_cup", <teastory:cup:4>, [
+scripts.utils.addShaped("teastory_mud_cup", <teastory:cup:4>, [
 	[<thebetweenlands:items_misc:10>, null, <thebetweenlands:items_misc:10>], 
 	[<thebetweenlands:items_misc:10>, <thebetweenlands:items_misc:10>, <thebetweenlands:items_misc:10>]
 ]);
 
 furnace.remove(<teastory:cup:5>);
-recipes.addShaped("teastory_zisha_cup", <teastory:cup:5>, [
+scripts.utils.addShaped("teastory_zisha_cup", <teastory:cup:5>, [
 	[<thebetweenlands:items_misc:47>, null, <thebetweenlands:items_misc:47>], 
 	[<thebetweenlands:items_misc:47>, <thebetweenlands:items_misc:47>, <thebetweenlands:items_misc:47>]
 ]);

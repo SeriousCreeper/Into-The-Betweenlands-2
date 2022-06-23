@@ -1,7 +1,7 @@
 {
 	icon: "roots:ritual_grove_supplication",
 	x: 0.0d,
-	y: 2.0d,
+	y: 3.0d,
 	text: [
 		"Place a pyre near a grove stone, and add all required ingredients for this ritual onto a pyre.",
 		"",

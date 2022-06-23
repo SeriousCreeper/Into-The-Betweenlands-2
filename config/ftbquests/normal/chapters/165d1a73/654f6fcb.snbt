@@ -1,9 +1,10 @@
 {
 	x: 4.0d,
-	y: 0.0d,
+	y: 1.0d,
 	text: [
 		"The wildroot growth ritual turns any nearby planted wildroot into a wildroot tree."
 	],
+	guide_page: "roots:roots_guide:rituals/ritual_wildroot_growth",
 	dependencies: [
 		"d256af5c"
 	],

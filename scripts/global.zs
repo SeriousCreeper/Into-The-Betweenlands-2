@@ -61,7 +61,7 @@ global metals as IItemStack[string][string] = {
 		nugget: <thebetweenlands:items_misc:41>,
 		ingot: <thebetweenlands:items_misc:11>,
 		block: <thebetweenlands:syrmorite_block>,
-		plate: <embers:plate_iron>,
+		plate: <thaumcraft:plate:1>,
 		cluster: <jaopca:item_clustersyrmorite>
 	},
 	octine: {
@@ -88,6 +88,14 @@ global metals as IItemStack[string][string] = {
 		plate: <embers:plate_silver>,
 		cluster: <thaumcraft:cluster:4>
 	},
+    copper: {
+        ore: <betweenores:copper_ore>,
+        nugget: <embers:nugget_copper>,
+        ingot: <embers:ingot_copper>,
+        block: <embers:block_copper>,
+        plate: <embers:plate_copper>,
+        cluster: <thaumcraft:cluster:2>
+    },
 	nickel: {
 		ore: <betweenores:nickel_ore>,
 		nugget: <embers:nugget_nickel>,
@@ -143,6 +151,14 @@ global metals as IItemStack[string][string] = {
 		block: <thaumcraft:metal_brass>,
 		plate: <thaumcraft:plate:0>,
 		cluster: null
+	},
+	iron: {
+		ore: <immersiveruins:scrap2>,
+		nugget: <minecraft:iron_nugget>,
+		ingot: <minecraft:iron_ingot>,
+		block: <minecraft:iron_block>,
+		plate: <embers:plate_iron>,
+		cluster: null
 	}
 };
 
@@ -158,6 +174,8 @@ global liquids as ILiquidStack[string] = {
 	thaumium: <liquid:thaumium>,
 	"void": <liquid:void>,
 	brass: <liquid:brass>,
+	copper: <liquid:copper>,
+	iron: <liquid:iron>,
 };
 
 
@@ -210,15 +228,6 @@ global removeAndHide as IItemStack[] = [
 	<embers:shovel_tin>,
 	<embers:sword_tin>,
 	<embers:hoe_tin>,
-
-	//<denseores:minecraft_quartz_ore>,
-	//<denseores:minecraft_gold_ore>,
-	//<denseores:minecraft_coal_ore>,
-	//<denseores:minecraft_diamond_ore>,
-	//<denseores:minecraft_iron_ore>,
-	//<denseores:minecraft_emerald_ore>,
-	//<denseores:minecraft_lapis_ore>,
-
 ] as IItemStack[];
 
 
@@ -363,6 +372,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 <ore:rock>.add(<thebetweenlands:items_misc:50>);
 
+<ore:feather>.add(<thebetweenlands:items_misc:3>);
 
 <ore:rennetSource>.add(<thebetweenlands:nettle_flowered>);
 
@@ -443,7 +453,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:doorMetal>.add(<thebetweenlands:scabyst_door_item>);
 <ore:doorMetal>.add(<thebetweenlands:syrmorite_door_item>);
 
-<ore:plateSyrmorite>.add(<embers:plate_iron>);
+<ore:plateSyrmorite>.add(<thaumcraft:plate:1>);
 <ore:plateOctine>.add(<embers:plate_gold>);
 
 <ore:torch>.remove(<minecraft:torch>);
@@ -639,6 +649,10 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 
 <ore:stone>.remove(<minecraft:stone>);
 
+<ore:pyreFireStarters>.add(<thebetweenlands:octine_ingot>);
+<ore:pyreFireStarters>.add(<pyrotech:flint_and_tinder:*>);
+<ore:pyreFireStarters>.remove(<minecraft:flint_and_steel:*>);
+
 <ore:cobblestone>.remove(<pyrotech:cobblestone>);
 <ore:cobblestone>.remove(<pyrotech:cobblestone:1>);
 <ore:cobblestone>.remove(<pyrotech:cobblestone:2>);
@@ -652,7 +666,10 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 
 <ore:paneGlassColorless>.remove(<minecraft:glass_pane>);
 
-<ore:chest>.remove(<minecraft:chest>);
+<ore:flowerPot>.add(<thebetweenlands:mud_flower_pot>);
+<ore:flowerPot>.add(<minecraft:flower_pot>);
+
+//<ore:chest>.remove(<minecraft:chest>);
 <ore:chest>.remove(<minecraft:ender_chest>);
 <ore:chest>.remove(<minecraft:trapped_chest>);
 <ore:chest>.remove(<minecraft:white_shulker_box>);

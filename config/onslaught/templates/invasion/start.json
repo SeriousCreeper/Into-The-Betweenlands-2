@@ -16,15 +16,235 @@
         "message": "\u00A7eYou can hear some unsettling growling out there..."
       }
     },
+    "commands": {
+      "staged": [
+        {
+        "complete": 0.8,
+        "commands": [
+          "/ostop @p"
+        ]
+      }
+      ]
+    },
     "waves": [
       {
-        "delayTicks": [ 300 ],
+        "delayTicks": [ 0 ],
         "groups": [
           {
             "mobs": [
               {
                 "id": "hags",
                 "count": [ 6, 9 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "hags",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "hags",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "hags",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "hags",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "hags",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "hags",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "hags",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "hags",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "hags",
+                "count": [ 4, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 2000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "hags",
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [ 0, 15 ],

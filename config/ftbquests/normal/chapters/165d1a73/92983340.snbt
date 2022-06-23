@@ -1,7 +1,7 @@
 {
 	title: "Grove Stone",
 	x: 0.0d,
-	y: 1.0d,
+	y: 2.0d,
 	text: [
 		"Grove Stones are required in order for Fey Altars to work.",
 		"Once placed, you still need to activate it with a Grove Ritual!"

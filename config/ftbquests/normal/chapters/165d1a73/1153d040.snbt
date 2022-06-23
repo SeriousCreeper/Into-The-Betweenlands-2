@@ -1,7 +1,7 @@
 {
 	icon: "roots:roots_guide",
 	x: 0.0d,
-	y: -1.0d,
+	y: 0.0d,
 	text: [
 		"Upon this dark druids death, they dropped a book containing all kinds of knowledge about nature and its power. ",
 		"",
