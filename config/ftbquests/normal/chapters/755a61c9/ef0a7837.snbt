@@ -5,6 +5,9 @@
 	text: [
 		"Get weedwood logs by using an axe"
 	],
+	dependencies: [
+		"135fbb10"
+	],
 	tasks: [{
 		uid: "cd6a1e69",
 		type: "item",

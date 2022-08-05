@@ -25,17 +25,32 @@
             {
                 "op": "replace",
                 "path": "stages/0/recipes",
-                "value": ["crafttweaker:scribingtoolscraft1_shaped","crafttweaker:tablewood"]
+                "value": ["crafttweaker:scribingtoolscraft1_shaped", "teastory:green_tea_bag", "teastory:black_tea_bag", "teastory:yellow_tea_bag", "teastory:white_tea_bag", "teastory:oolong_tea_bag", "teastory:puer_tea_bag"]
+            },
+            {
+                "op": "replace",
+                "path": "stages/0/required_craft",
+                "value": ["crafttweaker:scribingtoolscraft1_shaped", "teastory:green_tea_bag"]
+            },
+            {
+                "op": "replace",
+                "path": "stages/1/recipes",
+                "value": ["crafttweaker:scribingtoolscraft1_shaped", "teastory:green_tea_bag", "teastory:black_tea_bag", "teastory:yellow_tea_bag", "teastory:white_tea_bag", "teastory:oolong_tea_bag", "teastory:puer_tea_bag"]
             },
             {
                 "op": "replace",
                 "path": "icons",
                 "value": ["teastory:textures/items/green_tea_bag.png"]
-            },
+            }
+        ]
+    },
+    {
+        "key": "CELESTIALSCANNING",
+        "ops": [
             {
                 "op": "replace",
-                "path": "stages/1/text",
-                "value": "bladditions:research.THEORYRESEARCH.stage.1"
+                "path": "icons",
+                "value": ["minecraft:textures/blocks/bookshelf.png"]
             }
         ]
     }

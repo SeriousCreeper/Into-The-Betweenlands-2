@@ -32,6 +32,8 @@ JEI.hideCategory("pyrotech.compost.bin");
 
 
 val itemsToRemove = [
+	<pyrotech:log_pile>,
+	<pyrotech:material:5>,
 	<pyrotech:refractory_door>,
 	<pyrotech:refractory_glass>,
 	<pyrotech:tar_collector:1>,
@@ -246,6 +248,7 @@ scripts.utils.addShapedMirrored("tech/basic/tinder", <pyrotech:tinder>, [
 	[<ore:stickWood>, <thebetweenlands:swamp_reed_item>]
 ]);
 
+/*
 recipes.remove(<pyrotech:log_pile>);
 scripts.utils.addShaped("log_pile", <pyrotech:log_pile>, [
 	[<thebetweenlands:log_hearthgrove:*>, <thebetweenlands:log_hearthgrove:*>, <thebetweenlands:log_hearthgrove:*>],
@@ -253,7 +256,6 @@ scripts.utils.addShaped("log_pile", <pyrotech:log_pile>, [
 	[<thebetweenlands:log_hearthgrove:*>, <thebetweenlands:log_hearthgrove:*>, <thebetweenlands:log_hearthgrove:*>]
 ]);
 
-/*
 recipes.remove(<pyrotech:stone_sawmill>);
 scripts.utils.addShaped("tech/machine/stone_sawmill", <pyrotech:stone_sawmill>, [
 	[<pyrotech:stone_bricks>, <pyrotech:material:16>, <pyrotech:stone_bricks>], 
@@ -297,9 +299,9 @@ scripts.utils.addShaped("tech/basic/compacting_bin", <pyrotech:compacting_bin>, 
 
 recipes.remove(<pyrotech:brick_sawmill>);
 scripts.utils.addShaped("tech/machine/brick_sawmill", <pyrotech:brick_sawmill>, [
-	[<ore:ingotSyrmorite>, <embers:block_caminite_brick>, <ore:ingotSyrmorite>], 
-	[<embers:block_caminite_brick>, <pyrotech:stone_sawmill>, <embers:block_caminite_brick>], 
-	[<ore:ingotSyrmorite>, <embers:block_caminite_brick>, <ore:ingotSyrmorite>]
+	[<embers:brick_caminite>, <embers:block_caminite_brick>, <embers:brick_caminite>], 
+	[<embers:block_caminite_brick>, <pyrotech:chopping_block>, <embers:block_caminite_brick>], 
+	[<embers:brick_caminite>, <embers:block_caminite_brick>, <embers:brick_caminite>]
 ]);
 
 recipes.remove(<pyrotech:mechanical_compacting_bin>);
@@ -339,9 +341,9 @@ scripts.utils.addShaped("storage/wood_rack", <pyrotech:wood_rack>, [
 
 recipes.remove(<pyrotech:brick_oven>);
 scripts.utils.addShaped("tech/machine/brick_oven", <pyrotech:brick_oven>, [
-	[<ore:ingotSyrmorite>, <embers:block_caminite_brick>, <ore:ingotSyrmorite>], 
+	[<embers:brick_caminite>, <embers:block_caminite_brick>, <embers:brick_caminite>], 
 	[<embers:block_caminite_brick>, <pyrotech:tinder>, <embers:block_caminite_brick>], 
-	[<ore:ingotSyrmorite>, <embers:block_caminite_brick>, <ore:ingotSyrmorite>]
+	[<embers:brick_caminite>, <embers:block_caminite_brick>, <embers:brick_caminite>]
 ]);
 
 recipes.remove(<pyrotech:cog_bone>);
@@ -431,9 +433,9 @@ scripts.utils.addShaped("worktable", <pyrotech:worktable>, [
 
 recipes.remove(<pyrotech:brick_kiln>);
 scripts.utils.addShaped("tech/machine/brick_kiln", <pyrotech:brick_kiln>, [
-	[<ore:ingotSyrmorite>, <embers:block_caminite_brick>, <ore:ingotSyrmorite>], 
+	[<embers:brick_caminite>, <embers:block_caminite_brick>, <embers:brick_caminite>], 
 	[<embers:block_caminite_brick>, <pyrotech:kiln_pit>, <embers:block_caminite_brick>], 
-	[<ore:ingotSyrmorite>, <embers:block_caminite_brick>, <ore:ingotSyrmorite>]
+	[<embers:brick_caminite>, <embers:block_caminite_brick>, <embers:brick_caminite>]
 ]);
 
 recipes.remove(<pyrotech:bloomery>);
@@ -491,12 +493,12 @@ Campfire.addRecipe("mire_snail_egg_cooked", <thebetweenlands:mire_snail_egg_cook
 Campfire.addRecipe("snail_flesh_cooked", <thebetweenlands:snail_flesh_cooked>, <thebetweenlands:snail_flesh_raw>, defaultCookTime);
 Campfire.addRecipe("anadia_meat_cooked", <thebetweenlands:anadia_meat_cooked>, <thebetweenlands:anadia_meat_raw>, defaultCookTime);
 Campfire.addRecipe("olm_egg_cooked", <thebetweenlands:olm_egg_cooked>, <thebetweenlands:olm_egg_raw>, defaultCookTime);
-Campfire.addRecipe("cooked_pereskia", <roots:cooked_pereskia>, <roots:pereskia_bulb>, defaultCookTime);
+//Campfire.addRecipe("cooked_pereskia", <roots:cooked_pereskia>, <roots:pereskia_bulb>, defaultCookTime);
 Campfire.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, defaultCookTime / 4);
 Campfire.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, 40);
 Campfire.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, defaultCookTime);
-Campfire.addRecipe("purified_water", <simpledifficulty:purified_water_bottle>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), defaultCookTime * 5);
-Campfire.addRecipe("purified_bucket", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}), defaultCookTime * 15);
+Campfire.addRecipe("purified_water", <simpledifficulty:purified_water_bottle>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), defaultCookTime);
+Campfire.addRecipe("purified_bucket", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}), defaultCookTime * 4);
 
 StoneOven.addRecipe("frog_legs_cooked", <thebetweenlands:frog_legs_cooked>, <thebetweenlands:frog_legs_raw>, true);
 StoneOven.addRecipe("fried_swamp_kelp", <thebetweenlands:fried_swamp_kelp>, <thebetweenlands:swamp_kelp_item>, true);
@@ -558,8 +560,8 @@ SoakingPot.removeAllRecipes();
 SoakingPot.addRecipe("slaked_lime", <pyrotech:material:8>, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:27>, 7 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_wood_chips_pile", <pyrotech:material:25>, <liquid:swamp_water> * 500, <pyrotech:pile_wood_chips>, true, 7 * 60 * 20);
 SoakingPot.addRecipe("pulp_from_dry_bark", <pyrotech:material:25>, <liquid:swamp_water> * 125, <thebetweenlands:items_misc:13>, true, 2 * 60 * 20);
-//SoakingPot.addRecipe("pulp_from_swamp_reed", <pyrotech:material:25>, <liquid:swamp_water> * 125, <thebetweenlands:swamp_reed_item>, true, 4 * 60 * 20);
-//SoakingPot.addRecipe("pulp_from_bark", <pyrotech:material:25>, <liquid:swamp_water> * 125, <ore:rootsBark>, true, 3 * 60 * 20);
+SoakingPot.addRecipe("pulp_from_swamp_reed", <pizzacraft:paper_mass>, <liquid:swamp_water> * 50, <thebetweenlands:swamp_reed_item>, true, 4 * 60 * 2);
+SoakingPot.addRecipe("pulp_from_bark", <pizzacraft:paper_mass>, <liquid:swamp_water> * 50, <ore:rootsBark>, true, 3 * 60 * 2);
 SoakingPot.addRecipe("board_tarred", <pyrotech:material:23>, <liquid:tar> * 50, <pyrotech:material:20>, true, 105 * 20);
 SoakingPot.addRecipe("planks_tarred", <pyrotech:planks_tarred>, <liquid:tar> * 125, <ore:plankWood>, true, 7 * 60 * 20);
 SoakingPot.addRecipe("cragrock_chiseled_mossy", <thebetweenlands:cragrock_chiseled_mossy>, <liquid:swamp_water> * 250, <thebetweenlands:cragrock_chiseled>, 7 * 60 * 20);
@@ -927,6 +929,7 @@ recreateBloomeryRecipe("Nickel", metals["nickel"].ore, <pyrotech:generated_pile_
 recreateBloomeryRecipe("Copper", metals["copper"].ore, <pyrotech:generated_pile_slag_copper>, metals["copper"].nugget, <pyrotech:generated_slag_copper>, ["ironclad"]);
 recreateBloomeryRecipe("Lead", metals["lead"].ore, <pyrotech:generated_pile_slag_lead>, metals["lead"].nugget, <pyrotech:generated_slag_lead>, ["ironclad"]);
 recreateBloomeryRecipe("Silver", metals["silver"].ore, <pyrotech:generated_pile_slag_silver>, metals["silver"].nugget, <pyrotech:generated_slag_silver>, ["ironclad"]);
+recreateBloomeryRecipe("Aluminum", metals["aluminum"].ore, <pyrotech:generated_pile_slag_aluminum>, metals["aluminum"].nugget, <pyrotech:generated_slag_aluminum>, ["ironclad"]);
 //recreateBloomeryRecipe("Uranium", metals["uranium"].ore, <pyrotech:generated_pile_slag_uranium>, metals["uranium"].nugget, <pyrotech:generated_slag_uranium>, ["ironclad"]);
 
 furnace.remove(<pyrotech:generated_pile_slag_iron>);

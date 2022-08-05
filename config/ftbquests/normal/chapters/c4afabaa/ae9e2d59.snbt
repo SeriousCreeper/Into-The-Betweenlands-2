@@ -1,0 +1,39 @@
+{
+	title: "Profession: Guard",
+	icon: "pyrotech:flint_sword",
+	x: 0.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "2d145a54",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8b6afb2e",
+		type: "item",
+		auto: "enabled",
+		item: "pyrotech:flint_sword"
+	},
+	{
+		uid: "4ae01aa4",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cooked_beef",
+		count: 3
+	},
+	{
+		uid: "24bffb70",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:leather_chestplate"
+	},
+	{
+		uid: "58ba7d83",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:leather_leggings"
+	}]
+}

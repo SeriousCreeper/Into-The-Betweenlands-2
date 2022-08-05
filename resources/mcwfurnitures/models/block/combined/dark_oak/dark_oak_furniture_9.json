@@ -1,0 +1,12 @@
+{
+	"parent": "mcwfurnitures:block/parent/combined/furniture_9",
+	"textures": {
+		"1": "mcwfurnitures:block/oak/stripped_dark_oak_log",
+		"3": "minecraft:blocks/log_big_oak",
+		"6": "mcwfurnitures:block/oak/stripped_dark_oak_log",
+		"7": "minecraft:blocks/bookshelf",
+		"particle": "minecraft:blocks/log_big_oak",
+		"texture": "minecraft:blocks/log_big_oak",
+		"1_2": "thebetweenlands:blocks/syrmorite_block"
+	}
+}

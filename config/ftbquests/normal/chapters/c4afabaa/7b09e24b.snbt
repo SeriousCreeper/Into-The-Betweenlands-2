@@ -1,0 +1,33 @@
+{
+	title: "Profession: Fisherman",
+	icon: "thebetweenlands:fishing_spear",
+	x: -0.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "c2840c0f",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ad47f9b3",
+		type: "item",
+		auto: "enabled",
+		item: "thebetweenlands:fishing_spear"
+	},
+	{
+		uid: "b9ee82fd",
+		type: "item",
+		auto: "enabled",
+		item: "mysticalworld:fish_and_chips",
+		count: 3
+	},
+	{
+		uid: "b2d06278",
+		type: "item",
+		auto: "enabled",
+		item: "thebetweenlands:fishing_tackle_box"
+	}]
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/desk_5",
+	"textures": {
+		"0": "mcwfurnitures:block/oak/stripped_spruce_log",
+		"particle": "minecraft:blocks/log_spruce",
+		"texture": "minecraft:blocks/log_spruce",
+		"1_2": "thebetweenlands:blocks/syrmorite_block"
+	}
+}

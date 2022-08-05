@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/combined/furniture_7",
+	"textures": {
+		"3": "minecraft:blocks/log_oak",
+		"6": "minecraft:blocks/bookshelf",
+		"particle": "minecraft:blocks/log_oak",
+		"texture": "minecraft:blocks/log_oak"
+	}
+}

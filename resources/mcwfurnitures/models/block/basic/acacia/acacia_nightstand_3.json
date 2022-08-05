@@ -1,0 +1,11 @@
+{
+	"parent": "mcwfurnitures:block/parent/nightstand_3",
+	"textures": {
+		"0": "mcwfurnitures:block/oak/stripped_acacia_log",
+		"1": "minecraft:blocks/log_acacia",
+		"2": "minecraft:blocks/log_acacia",
+		"4": "minecraft:blocks/bookshelf",
+		"particle": "minecraft:blocks/log_acacia",
+		"1_2": "thebetweenlands:blocks/syrmorite_block"
+	}
+}

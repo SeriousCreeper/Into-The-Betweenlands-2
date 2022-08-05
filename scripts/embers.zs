@@ -693,10 +693,15 @@ EmberGeneration.addMetalCoefficient(<thebetweenlands:octine_block>, 0.8);
 EmberGeneration.addMetalCoefficient(<ore:blockIron>, 0.7);
 
 
+
+
+
+
 // ----------- MELTER ----------------------
 val liquidsToRemove = [
 	<liquid:iron>,
 	<liquid:gold>,
+	<liquid:tin>,
 ] as ILiquidStack[];
 
 for liquid in liquidsToRemove {
@@ -712,6 +717,7 @@ for liquid in liquids {
 	Melter.remove(liquids[liquid] * 288);
 	Melter.remove(liquids[liquid] * 144);
 	Melter.remove(liquids[liquid] * 16);
+	Melter.remove(liquids[liquid]);
 	
 	Melter.add(liquids[liquid] * 1296, metals[liquid].block);
 	Melter.add(liquids[liquid] * 144, metals[liquid].ingot);

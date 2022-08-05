@@ -1,0 +1,13 @@
+{
+  "generationInfos": [],
+  "defaultSpawnChance": 0.3,
+  "structureMinCap": 3.0,
+  "spawnDistanceMultiplier": 0.0,
+  "spawnDistanceMultiplierCap": 1.0,
+  "selectableInGUI": true,
+  "title": "Raised Isles Frequent",
+  "tooltip": [
+    "Scenery and decoration for the biomes",
+    "Random structure each 25 chunks"
+  ]
+}

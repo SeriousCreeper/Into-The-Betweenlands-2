@@ -1,0 +1,10 @@
+{
+	"parent": "mcwfurnitures:block/parent/nightstand_7",
+	"textures": {
+		"1": "minecraft:blocks/log_birch",
+		"2": "minecraft:blocks/log_birch",
+		"3": "minecraft:blocks/glass",
+		"particle": "minecraft:blocks/log_birch",
+		"1_2": "thebetweenlands:blocks/syrmorite_block"
+	}
+}

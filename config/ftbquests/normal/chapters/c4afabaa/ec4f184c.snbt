@@ -5,7 +5,7 @@
 		tag: {}
 	},
 	x: 0.0d,
-	y: -0.5d,
+	y: 2.5d,
 	text: [
 		"In this pack, dying is not as punishing as in normal minecraft.",
 		"",
@@ -13,6 +13,11 @@
 		"",
 		"All other items will be placed inside a grave."
 	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b55694eb"
+	],
+	hide: true,
 	tasks: [{
 		uid: "c3554000",
 		type: "checkmark"

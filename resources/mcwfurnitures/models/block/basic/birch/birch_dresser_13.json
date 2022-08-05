@@ -1,0 +1,11 @@
+{
+	"parent": "mcwfurnitures:block/parent/dresser_13",
+	"textures": {
+		"1": "mcwfurnitures:block/oak/stripped_birch_log",
+		"2": "mcwfurnitures:block/oak/stripped_birch_log",
+		"3": "minecraft:blocks/log_birch",
+		"particle": "minecraft:blocks/log_birch",
+		"texture": "minecraft:blocks/log_birch",
+		"1_2": "thebetweenlands:blocks/syrmorite_block"
+	}
+}

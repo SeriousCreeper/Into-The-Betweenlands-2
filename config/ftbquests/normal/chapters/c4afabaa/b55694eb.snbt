@@ -1,0 +1,22 @@
+{
+	title: "Permission Granted",
+	icon: "minecraft:ghast_tear",
+	x: 0.5d,
+	y: 0.0d,
+	min_required_dependencies: 1,
+	dependencies: [
+		"7b09e24b",
+		"45c2cf11",
+		"18b0895c",
+		"f49442b9",
+		"07176842",
+		"ae9e2d59"
+	],
+	dependency_requirement: "one_completed",
+	rewards: [{
+		uid: "58c9022c",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:ghast_tear"
+	}]
+}

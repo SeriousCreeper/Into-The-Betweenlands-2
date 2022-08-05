@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.block.IBlockDefinition;
 
 <immersiveruins:scrap>.maxStackSize = 64;
 <immersiveruins:scrap2>.maxStackSize = 64;
@@ -97,12 +98,15 @@ val electronicScrap = {
 
 for scrap, amount in mixedScrap {
 	scripts.utils.addInfoTooltip(scrap, "Mixed Scrap x" ~ amount);
+	scrap.asBlock().definition.resistance = 1200;
 }
 
 for scrap, amount in metalScrap {
 	scripts.utils.addInfoTooltip(scrap, "Metal Scrap x" ~ amount);
+	scrap.asBlock().definition.resistance = 1200;
 }
 
 for scrap, amount in electronicScrap {
 	scripts.utils.addInfoTooltip(scrap, "Electronic Scrap x" ~ amount);
+	scrap.asBlock().definition.resistance = 1200;
 }

@@ -16,6 +16,10 @@
 		title: "Defeat the Dark Druid",
 		icon: "roots:roots_guide",
 		stage: "temp_roots_invasion_completed"
+	},
+	{
+		uid: "86e553e2",
+		type: "checkmark"
 	}],
 	rewards: [{
 		uid: "98dc4964",

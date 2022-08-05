@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/combined/furniture_7",
+	"textures": {
+		"3": "minecraft:blocks/log_birch",
+		"6": "minecraft:blocks/bookshelf",
+		"particle": "minecraft:blocks/log_birch",
+		"texture": "minecraft:blocks/log_birch"
+	}
+}

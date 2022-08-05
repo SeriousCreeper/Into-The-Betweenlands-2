@@ -1,0 +1,10 @@
+{
+	"parent": "mcwfurnitures:block/parent/nightstand",
+	"textures": {
+		"0": "mcwfurnitures:block/oak/stripped_spruce_log",
+		"1": "minecraft:blocks/log_spruce",
+		"2": "minecraft:blocks/log_spruce",
+		"particle": "minecraft:blocks/log_spruce",
+		"1_2": "thebetweenlands:blocks/syrmorite_block"
+	}
+}

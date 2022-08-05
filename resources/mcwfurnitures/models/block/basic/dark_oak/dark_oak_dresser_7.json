@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/dresser_7",
+	"textures": {
+		"1": "mcwfurnitures:block/oak/stripped_dark_oak_log",
+		"particle": "minecraft:blocks/log_big_oak",
+		"texture": "minecraft:blocks/log_big_oak",
+		"1_2": "thebetweenlands:blocks/syrmorite_block"
+	}
+}

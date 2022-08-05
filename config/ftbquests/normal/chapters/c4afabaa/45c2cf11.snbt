@@ -1,0 +1,40 @@
+{
+	title: "Profession: Miner",
+	icon: "pyrotech:crude_pickaxe",
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d9da76aa",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "57a388a6",
+		type: "item",
+		auto: "enabled",
+		item: "pyrotech:crude_pickaxe"
+	},
+	{
+		uid: "26df69cd",
+		type: "item",
+		auto: "enabled",
+		item: "baubles:ring"
+	},
+	{
+		uid: "2b8245b5",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:rabbit_stew",
+		count: 3
+	},
+	{
+		uid: "e2d5a665",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:tnt",
+		count: 3
+	}]
+}

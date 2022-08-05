@@ -15,6 +15,10 @@
 		type: "gamestage",
 		icon: "embers:codex",
 		stage: "temp_embers_invasion_completed"
+	},
+	{
+		uid: "c090c714",
+		type: "checkmark"
 	}],
 	rewards: [{
 		uid: "198e1bed",

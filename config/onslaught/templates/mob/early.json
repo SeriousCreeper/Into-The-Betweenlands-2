@@ -1,6 +1,14 @@
 {
   "hags": {
     "id": "thebetweenlands:swamp_hag",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A76Invading Swamp Hag",
       "Attributes": [

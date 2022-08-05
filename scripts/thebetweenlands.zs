@@ -124,7 +124,11 @@ scripts.utils.addShaped("octine_arrow", <thebetweenlands:octine_arrow> * 4, [
 	[<ore:feather>]
 ]);
 
-
+scripts.utils.addShaped("amate_paper", <thebetweenlands:items_misc:32>, [
+	[<pizzacraft:paper_mass>, <pizzacraft:paper_mass>, <pizzacraft:paper_mass>], 
+	[<pizzacraft:paper_mass>, <pizzacraft:paper_mass>, <pizzacraft:paper_mass>], 
+	[<pizzacraft:paper_mass>, <pizzacraft:paper_mass>, <pizzacraft:paper_mass>]
+]);
 
 
 scripts.utils.addShapeless("sticks_from_sapling", <thebetweenlands:items_misc:20>, [<thebetweenlands:sapling_weedwood>]);

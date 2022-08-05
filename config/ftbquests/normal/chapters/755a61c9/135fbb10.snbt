@@ -1,13 +1,16 @@
 {
 	title: "Crude Axe",
-	x: -1.0d,
-	y: 0.0d,
+	x: 0.0d,
+	y: -1.0d,
 	text: [
-		"Simple but brittle axe in case yours breaks. ",
+		"With all these giant trees around, i should make an axe to use their materia to my advantage.",
 		"",
+		"Sticks drop from leaves and weedwood bushes.",
 		"Pebbles can be found on the ground throughout the dimension."
 	],
-	optional: true,
+	dependencies: [
+		"b55694eb"
+	],
 	tasks: [{
 		uid: "8a3ffe16",
 		type: "item",

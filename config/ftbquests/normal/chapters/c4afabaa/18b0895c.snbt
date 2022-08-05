@@ -1,0 +1,54 @@
+{
+	title: "Profession: Alchemist",
+	icon: {
+		id: "minecraft:potion",
+		tag: {
+			Potion: "minecraft:healing"
+		}
+	},
+	x: 1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "5745f6d7",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "71999fba",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:healing"
+			}
+		}
+	},
+	{
+		uid: "06b9e4a9",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_night_vision"
+			}
+		}
+	},
+	{
+		uid: "c799a913",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:book"
+	},
+	{
+		uid: "11e63551",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:golden_carrot",
+		count: 3
+	}]
+}

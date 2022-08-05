@@ -1,0 +1,13 @@
+{
+	title: "No Profession",
+	x: 1.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "b103f10a",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		consume_items: true
+	}]
+}

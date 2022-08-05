@@ -1,0 +1,10 @@
+{
+	"parent": "mcwfurnitures:block/parent/pult_4",
+	"textures": {
+		"0": "mcwfurnitures:block/oak/stripped_acacia_log",
+		"1": "minecraft:blocks/log_acacia",
+		"3": "minecraft:blocks/log_acacia",
+		"particle": "minecraft:blocks/log_acacia",
+		"1_2": "thebetweenlands:blocks/syrmorite_block"
+	}
+}

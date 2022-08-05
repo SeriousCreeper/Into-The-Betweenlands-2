@@ -1,0 +1,11 @@
+{
+	"parent": "mcwfurnitures:block/parent/combined/cupboard_4",
+	"textures": {
+		"1": "minecraft:blocks/log_jungle",
+		"3": "minecraft:blocks/log_jungle",
+		"4": "mcwfurnitures:block/oak/stripped_jungle_log",
+		"5": "mcwfurnitures:block/oak/stripped_jungle_log",
+		"particle": "minecraft:blocks/log_jungle",
+		"1_2": "thebetweenlands:blocks/syrmorite_block"
+	}
+}

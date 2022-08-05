@@ -212,8 +212,7 @@ recipes.remove(<minecraft:piston>);
 scripts.utils.addShaped("minecraft-piston-remodified", <minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:cobblestone>, <thebetweenlands:items_misc:11>, <ore:cobblestone>], [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>]]);
 
 recipes.remove(<minecraft:sticky_piston>);
-scripts.utils.addShaped("sticky_piston", <minecraft:sticky_piston>, [[<thebetweenlands:sludge_ball>], [<minecraft:piston>]]);
-scripts.utils.addShaped("sticky_piston_2", <minecraft:sticky_piston>, [[<thebetweenlands:sap_spit>], [<minecraft:piston>]]);
+scripts.utils.addShaped("sticky_piston", <minecraft:sticky_piston>, [[<thebetweenlands:sap_spit>], [<minecraft:piston>]]);
 
 
 recipes.remove(<minecraft:dispenser>);
@@ -252,12 +251,13 @@ scripts.utils.addShaped("slime", <minecraft:slime>, [
 	[<thebetweenlands:sludge_ball>, <thebetweenlands:sludge_ball>],
 	[<thebetweenlands:sludge_ball>, <thebetweenlands:sludge_ball>]
 ]);
+
+/*
 scripts.utils.addShaped("slime_2", <minecraft:slime>, [
 	[<thebetweenlands:sap_spit>, <thebetweenlands:sap_spit>],
 	[<thebetweenlands:sap_spit>, <thebetweenlands:sap_spit>]
 ]);
 
-/*
 recipes.remove(<minecraft:flint_and_steel>);
 scripts.utils.addShaped("flint_and_steel", <minecraft:flint_and_steel>, [
 	[<thebetweenlands:octine_ingot>, <thebetweenlands:items_misc:45>],
@@ -468,14 +468,6 @@ for i, wood in gateWoodTypes {
 
 // BASE
 recipes.remove(<base:wrench>);
-
-
-
-
-// HOPPER DUCTS
-recipes.remove(<hopperducts:gratedhopper>);
-scripts.utils.addShapeless("gratedhopper", <hopperducts:gratedhopper>, [<minecraft:iron_bars>, <thebetweenlands:syrmorite_hopper>]);
-
 
 
 

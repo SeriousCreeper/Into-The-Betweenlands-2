@@ -1,0 +1,40 @@
+{
+	title: "Profession: Explorer",
+	icon: "thebetweenlands:explorers_hat",
+	x: 0.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "4558f16f",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6d981ab6",
+		type: "item",
+		auto: "enabled",
+		item: "thebetweenlands:explorers_hat"
+	},
+	{
+		uid: "34309310",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:torch",
+		count: 4
+	},
+	{
+		uid: "d872a12f",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:bread",
+		count: 3
+	},
+	{
+		uid: "55d3567c",
+		type: "item",
+		auto: "enabled",
+		item: "pyrotech:crude_axe"
+	}]
+}

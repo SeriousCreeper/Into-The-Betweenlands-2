@@ -438,16 +438,6 @@
   "purifier": [
     {
       "input": {
-        "id": "thebetweenlands:items_misc",
-        "meta": 32
-      },
-      "output": {
-        "id": "pizzacraft:paper_mass",
-        "size": 3
-      }
-    },
-    {
-      "input": {
         "id": "minecraft:glass_bottle"
       },
       "output": {
@@ -1263,6 +1253,69 @@
     }
   ],
   "compost_bin": [
+    {
+      "input": {
+        "item": {
+          "id": "roots:bark_oak"
+        },
+        "composting_time": 4000
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:bark_spruce"
+        },
+        "composting_time": 4000
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:bark_birch"
+        },
+        "composting_time": 4000
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:bark_jungle"
+        },
+        "composting_time": 4000
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:bark_dark_oak"
+        },
+        "composting_time": 4000
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:bark_acacia"
+        },
+        "composting_time": 4000
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "item": {
+          "id": "roots:bark_wildwood"
+        },
+        "composting_time": 4000
+      },
+      "output": 6
+    },
     {
       "input": {
         "item": {

@@ -1,0 +1,15 @@
+{
+	"parent": "mcwfurnitures:block/parent/combined/cupboard_2",
+	"textures": {
+        "0": "thebetweenlands:blocks/syrmorite_block",
+		"1": "minecraft:blocks/log_acacia",
+		"2": "mcwfurnitures:block/oak/stripped_acacia_log",
+		"particle": "minecraft:blocks/log_acacia"
+	}
+}
+
+
+
+
+
+

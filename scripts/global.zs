@@ -159,7 +159,15 @@ global metals as IItemStack[string][string] = {
 		block: <minecraft:iron_block>,
 		plate: <embers:plate_iron>,
 		cluster: null
-	}
+	},
+    aluminum: {
+        ore: <betweenores:aluminum_ore>,
+        nugget: <embers:nugget_aluminum>,
+        ingot: <embers:ingot_aluminum>,
+        block: <embers:block_aluminum>,
+        plate: <embers:plate_aluminum>,
+        cluster: <jaopca:item_clusteraluminium>
+    }
 };
 
 global liquids as ILiquidStack[string] = {
@@ -176,6 +184,7 @@ global liquids as ILiquidStack[string] = {
 	brass: <liquid:brass>,
 	copper: <liquid:copper>,
 	iron: <liquid:iron>,
+    aluminum: <liquid:aluminum>,
 };
 
 
@@ -689,7 +698,7 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:chest>.remove(<minecraft:red_shulker_box>);
 <ore:chest>.remove(<minecraft:black_shulker_box>);
 
-<ore:chestWood>.remove(<minecraft:chest>);
+//<ore:chestWood>.remove(<minecraft:chest>);
 
 <ore:dyeBlack>.remove(<mysticalworld:ink_bottle>);
 

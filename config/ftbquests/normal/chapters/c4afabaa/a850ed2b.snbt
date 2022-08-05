@@ -2,12 +2,17 @@
 	title: "Bugs?",
 	icon: "waterstrainer:worm",
 	x: 1.0d,
-	y: -0.5d,
+	y: 2.5d,
 	text: [
 		"If you encounter any bugs, report them directly to SeriousCreeper, and not the author of the mod in question. ",
 		"",
 		"Much has been modified in this modpack, and the chance of the bug being caused by SeriousCreeper's changes is likely. "
 	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b55694eb"
+	],
+	hide: true,
 	tasks: [{
 		uid: "76d59772",
 		type: "checkmark"

@@ -528,7 +528,7 @@ RunicShears.addRecipe("spirit_herb", <roots:spirit_herb>, PropertyPredicate.crea
 RunicShears.addRecipe("tea_seed", <teastory:tea_seeds>, StatePredicate.create(<blockstate:thaumcraft:leaves_silverwood>), <blockstate:minecraft:air>, <thaumcraft:leaves_silverwood>);
 
 
-RunicShears.removeRecipe(<roots:wildewheet>);
+RunicShears.removeRecipe(<thebetweenlands:weeping_blue_petal>);
 //RunicShears.addRecipe("wildewheet", <roots:wildewheet>, StatePredicate.create(<blockstate:thebetweenlands:swamp_reed>), <blockstate:minecraft:air>, <thebetweenlands:swamp_reed_item>);
 
 RunicShears.removeRecipe(<roots:mystic_feather>);
@@ -819,6 +819,13 @@ Modifiers.disableModifier("hydration");
 <roots:pestle>.displayName = "Small Pestle";
 
 <roots:mystic_feather>.displayName = "Mystic Wing";
+
+<roots:runed_acacia>.displayName = "Runed Nibbletwig";
+<roots:runed_dark_oak>.displayName = "Runed Rotten Bark";
+<roots:runed_oak>.displayName = "Runed Weedwood";
+<roots:runed_birch>.displayName = "Runed Giant Root";
+<roots:runed_jungle>.displayName = "Runed Hearthgrove";
+<roots:runed_spruce>.displayName = "Runed Sap Tree";
 
 <roots:terra_spores>.withLore(["Can turn Crag Rock into Mossy version"]);
 

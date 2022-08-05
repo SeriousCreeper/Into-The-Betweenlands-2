@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/desk_8",
+	"textures": {
+		"particle": "minecraft:blocks/log_jungle",
+		"texture": "minecraft:blocks/log_jungle"
+	}
+}

@@ -39,6 +39,7 @@ val itemsToRemove = [
 	<pizzacraft:olive_planks>,
 	<pizzacraft:chopping_board>,
 	<pizzacraft:mortar_and_pestle>,
+	<pizzacraft:cardboard>,
 ] as IItemStack[];
 
 
@@ -100,6 +101,14 @@ scripts.utils.addShaped("bakeware", <pizzacraft:bakeware>, [
 	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
 	[null, <ore:ingotSyrmorite>, null]
 ]);
+
+recipes.remove(<pizzacraft:pizza_box>);
+scripts.utils.addShaped("pizza_box", <pizzacraft:pizza_box>, [
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>], 
+	[<thebetweenlands:items_misc:32>, null, <thebetweenlands:items_misc:32>],
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]
+]);
+
 
 
 recipes.remove(<pizzacraft:pizza_board>);

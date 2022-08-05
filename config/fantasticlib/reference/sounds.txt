@@ -760,6 +760,8 @@ quark:entity.pickarang.clank
 quark:entity.pickarang.pickup
 quark:item.horse_whistle.blow
 quark:block.tiny_potato.shia_labeouf
+bettercombatmod:player.swordslash
+bettercombatmod:player.criticalstrike
 fairylights:cord.stretch
 fairylights:cord.connect
 fairylights:cord.disconnect
@@ -890,6 +892,13 @@ soot:inspiration.end
 soot:inspiration.refresh
 soot:inspiration.loop
 soot:inspiration.muse_appear
+spartanweaponry:crossbow_load
+spartanweaponry:crossbow_fire
+spartanweaponry:throwing_weapon_throw
+spartanweaponry:throwing_weapon_hit
+spartanweaponry:throwing_weapon_return
+spartanweaponry:boomerang_throw
+spartanweaponry:boomerang_flight
 statues:copy
 statues:paint
 thaumicaugmentation:e_ambience
@@ -1264,6 +1273,9 @@ thebetweenlands:fish_chop
 thebetweenlands:lyestone_fizz
 patchouli:book_open
 patchouli:book_flip
+grue:grue.spawn
+grue:grue.whisper
+grue:grue.death
 clothesline:block.clothesline_anchor.squeak
 clothesline:block.clothesline_anchor.rope
 roots:whirlwind

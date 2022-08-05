@@ -33,6 +33,17 @@ mod_lavacow:lifesteal
 mod_lavacow:corrosive
 simpledifficulty:chilling
 simpledifficulty:heating
+spartanweaponry:propulsion
+spartanweaponry:razors_edge
+spartanweaponry:incendiary
+spartanweaponry:lucky_throw
+spartanweaponry:hydrodynamic
+spartanweaponry:supercharge
+spartanweaponry:expanse
+spartanweaponry:return
+spartanweaponry:rapid_load
+spartanweaponry:spreadshot
+spartanweaponry:sharpshooter
 walljump:walljump
 walljump:doublejump
 walljump:speedboost
