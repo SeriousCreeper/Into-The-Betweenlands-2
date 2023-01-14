@@ -452,6 +452,17 @@ blockMarble
 stoneMarble
 plantFiber
 cordage
+toolHammer
+straw
+toolShears
+toolHuntersKnife
+leatherDurable
+hideSmallScrapeable
+shard
+hideScrapeable
+kitRepairLeather
+foodDough
+rockLimestone
 listAllmushroom
 listAllegg
 listAllsugar
@@ -478,8 +489,8 @@ cropStraw
 barsIron
 stoneVoid
 blockAmber
+blockCharcoal
 jarHoney
-notesCelestial
 dustSulfur
 dustSugar
 flowers
@@ -536,7 +547,6 @@ sliceTomato
 sliceCucumber
 sliceOnion
 foodPizzaDough
-foodDough
 foodCheese
 cropOlive
 cropOliveblack

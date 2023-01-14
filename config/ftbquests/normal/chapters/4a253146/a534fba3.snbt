@@ -7,7 +7,7 @@
 		"",
 		"The only way to do get embers is with an Ember Bore. ",
 		"",
-		"Making plates requires a hammer and is quite costly, but there will be cheaper options later on."
+		"§6Plates§r can be made by repeatedly hitting an ingot on an anvil. This is a long process, so i hope to come up with a better solution in the future."
 	],
 	dependencies: [
 		"700fae13"

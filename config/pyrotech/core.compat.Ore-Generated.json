@@ -27,6 +27,14 @@
       ],
       "output": [
         "embers:nugget_aluminum:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreCopper": {
@@ -36,6 +44,14 @@
       ],
       "output": [
         "embers:nugget_copper:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreGold": {
@@ -45,6 +61,14 @@
       ],
       "output": [
         "minecraft:gold_nugget:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreIron": {
@@ -54,6 +78,14 @@
       ],
       "output": [
         "minecraft:iron_nugget:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreLead": {
@@ -63,6 +95,14 @@
       ],
       "output": [
         "embers:nugget_lead:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreNickel": {
@@ -73,6 +113,14 @@
       ],
       "output": [
         "embers:nugget_nickel:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreOctine": {
@@ -82,6 +130,14 @@
       ],
       "output": [
         "thebetweenlands:items_misc:42"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreSilver": {
@@ -91,6 +147,14 @@
       ],
       "output": [
         "embers:nugget_silver:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreSyrmorite": {
@@ -100,6 +164,14 @@
       ],
       "output": [
         "thebetweenlands:items_misc:41"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreTin": {
@@ -109,6 +181,14 @@
       ],
       "output": [
         "embers:nugget_tin:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     }
   }

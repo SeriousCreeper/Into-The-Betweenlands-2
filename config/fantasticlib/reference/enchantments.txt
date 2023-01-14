@@ -44,6 +44,3 @@ spartanweaponry:return
 spartanweaponry:rapid_load
 spartanweaponry:spreadshot
 spartanweaponry:sharpshooter
-walljump:walljump
-walljump:doublejump
-walljump:speedboost

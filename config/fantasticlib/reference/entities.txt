@@ -90,8 +90,8 @@ embers:magma_projectile
 aetherworks:entity_arrow
 aetherworks:entity_magma
 arcanearchives:weight
-quark:pickarang
 quark:seat
+quark:pickarang
 quark:flat_item_frame
 quark:leash_knot
 quark:glass_item_frame
@@ -222,6 +222,7 @@ thebetweenlands:cave_fish
 thebetweenlands:glowing_goop
 thebetweenlands:fish_vortex
 thebetweenlands:urchin_spike_aoe
+thebetweenlands:item_frame
 delivery:falling_block_ext
 dawnoftimebuilder:silkmoth
 dawnoftimebuilder:japanese_dragon
@@ -321,7 +322,13 @@ pyrotech:rock
 pyrotech:rock_grass
 pyrotech:rock_netherrack
 pyrotech:pyrotech.entityitembook
+pyrotech:pyroberry_cocktail
 pyrotech:pyrotech.entityitembloom
+pyrotech:pyrotech.entityitemhidescraped
+pyrotech:flint_arrow
+pyrotech:bone_arrow
+pyrotech:spear
+pyrotech:pyrotech.mud
 thaumicperiphery:magic_arrow
 eyesinthedarkness:eyes
 mod_lavacow:lavacow
@@ -390,5 +397,6 @@ thaumicaugmentation:eldritch_golem
 thaumicaugmentation:golem_orb
 thaumicaugmentation:celestial_observer
 thaumicaugmentation:item_important
+coroutil:bat_smart
 corpse:corpse
 platforms:gui-item

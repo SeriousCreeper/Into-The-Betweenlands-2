@@ -258,9 +258,9 @@ scripts.utils.addShaped("log_pile", <pyrotech:log_pile>, [
 
 recipes.remove(<pyrotech:stone_sawmill>);
 scripts.utils.addShaped("tech/machine/stone_sawmill", <pyrotech:stone_sawmill>, [
-	[<pyrotech:stone_bricks>, <pyrotech:material:16>, <pyrotech:stone_bricks>], 
-	[<pyrotech:stone_bricks>, <ore:plankWood>, <pyrotech:stone_bricks>], 
-	[<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]
+	[<pyrotech:masonry_brick_block>, <pyrotech:material:16>, <pyrotech:masonry_brick_block>], 
+	[<pyrotech:masonry_brick_block>, <ore:plankWood>, <pyrotech:masonry_brick_block>], 
+	[<pyrotech:masonry_brick_block>, <pyrotech:masonry_brick_block>, <pyrotech:masonry_brick_block>]
 ]);
 */
 
@@ -308,14 +308,14 @@ recipes.remove(<pyrotech:mechanical_compacting_bin>);
 scripts.utils.addShaped("tech/machine/mechanical_compacting_bin", <pyrotech:mechanical_compacting_bin>, [
 	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>], 
 	[<pyrotech:mechanical_hopper>, <pyrotech:compacting_bin>, <minecraft:piston>], 
-	[<pyrotech:stone_bricks>, <pyrotech:planks_tarred>, <pyrotech:stone_bricks>]
+	[<pyrotech:masonry_brick_block>, <pyrotech:planks_tarred>, <pyrotech:masonry_brick_block>]
 ]);
 
 recipes.remove(<pyrotech:mechanical_mulch_spreader>);
 scripts.utils.addShaped("tech/machine/mechanical_mulch_spreader", <pyrotech:mechanical_mulch_spreader>, [
 	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>], 
 	[<pyrotech:mechanical_hopper>, <minecraft:dispenser>, <pyrotech:mechanical_hopper>], 
-	[<pyrotech:stone_bricks>, <pyrotech:planks_tarred>, <pyrotech:stone_bricks>]
+	[<pyrotech:masonry_brick_block>, <pyrotech:planks_tarred>, <pyrotech:masonry_brick_block>]
 ]);
 
 recipes.remove(<pyrotech:mechanical_hopper>);
@@ -592,11 +592,11 @@ IroncladAnvil.addRecipe("radiant_dust", <arcanearchives:radiant_dust>, <arcanear
 
 function nuggetAnvilRecipeBuilder(name as string, output as IItemStack, input as IIngredient, hits as int) {
 	recipes.remove(output);
-	IroncladAnvil.addRecipe(name, output, input, hits, "hammer");
+	IroncladAnvil.addRecipe(name, output, input, hits, "pickaxe");
 }
 
 for metal in metals {
-	IroncladAnvil.addRecipe(metal ~ "_nugget", metals[metal].nugget * 9, metals[metal].ingot, 8, "hammer");
+	IroncladAnvil.addRecipe(metal ~ "_nugget", metals[metal].nugget * 9, metals[metal].ingot, 8, "pickaxe");
 	IroncladAnvil.addRecipe(metal ~ "_ingot", metals[metal].ingot * 9, metals[metal].block, 8, "pickaxe");
 }
 
@@ -920,6 +920,13 @@ function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, input
     	//.setLangKey(oreName ~ ";item.pyrotech.slag.unique")
 	    .register();
     }
+
+    val plate = metals[oreName.toLowerCase()].plate;
+    val ingot = metals[oreName.toLowerCase()].ingot;
+
+    recipes.remove(plate);
+
+    IroncladAnvil.addRecipe(oreName.toLowerCase() ~ "_plate", plate, ingot, 8, "hammer");
 }
 
 recreateBloomeryRecipe("Iron", metals["iron"].ore, <pyrotech:generated_pile_slag_iron>, metals["iron"].nugget, <pyrotech:generated_slag_iron>, ["ironclad"]);

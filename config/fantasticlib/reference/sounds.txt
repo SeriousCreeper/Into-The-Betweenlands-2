@@ -1271,6 +1271,8 @@ thebetweenlands:fishing_tackle_box_open
 thebetweenlands:fishing_tackle_box_close
 thebetweenlands:fish_chop
 thebetweenlands:lyestone_fizz
+thebetweenlands:grub_hub_mist
+thebetweenlands:grub_hub_suck
 patchouli:book_open
 patchouli:book_flip
 grue:grue.spawn

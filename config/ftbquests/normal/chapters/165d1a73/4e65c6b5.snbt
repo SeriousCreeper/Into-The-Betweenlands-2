@@ -3,9 +3,9 @@
 	x: 11.5d,
 	y: 1.0d,
 	text: [
-		"You might have noticed some crystals in caves, that were previously unmineable for you.",
+		"I've seen several glowing crystals down in the caves, even sometimes high up on islands and towers, but have yet to be able to mine any of them without completely destroying them.",
 		"",
-		"An octine pickaxe should be hot and sharp enough to cut these crystals with precision."
+		"However, the heat from the octine pickaxe should be enough to cleanly and carefully cut off those crystals."
 	],
 	hide_dependency_lines: true,
 	dependencies: [
