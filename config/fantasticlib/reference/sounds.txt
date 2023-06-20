@@ -892,13 +892,6 @@ soot:inspiration.end
 soot:inspiration.refresh
 soot:inspiration.loop
 soot:inspiration.muse_appear
-spartanweaponry:crossbow_load
-spartanweaponry:crossbow_fire
-spartanweaponry:throwing_weapon_throw
-spartanweaponry:throwing_weapon_hit
-spartanweaponry:throwing_weapon_return
-spartanweaponry:boomerang_throw
-spartanweaponry:boomerang_flight
 statues:copy
 statues:paint
 thaumicaugmentation:e_ambience
@@ -1243,6 +1236,7 @@ thebetweenlands:bl_fishing_reel
 thebetweenlands:bl_fishing_rod_creak
 thebetweenlands:mist_staff_cast
 thebetweenlands:mist_staff_vanish
+thebetweenlands:silky_pebble_throw
 thebetweenlands:grind
 thebetweenlands:infuser_finished
 thebetweenlands:purifier
