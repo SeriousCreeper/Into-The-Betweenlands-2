@@ -31,5 +31,3 @@ minecraft:vanishing_curse
 mod_lavacow:poisonous
 mod_lavacow:lifesteal
 mod_lavacow:corrosive
-simpledifficulty:chilling
-simpledifficulty:heating

@@ -1,0 +1,15 @@
+setTitle("Unlocking Roots")
+
+setIcon(<thebetweenlands:weedwood>)
+
+setDescription("Unlocks roots")
+
+addParent("itbl2:unlocks/root")
+
+setRequirements("any")
+
+drawDirectLines()
+
+setRewardItem("gamestagebooks:knowledge_of_spirit")
+
+criteria = addCriteria("ruin", "thebetweenlands:cragrock_tower_top")

@@ -1,0 +1,16 @@
+setTitle("Unlocking Immersive Engineering - Post")
+
+setIcon(<thebetweenlands:weedwood>)
+
+setDescription("Unlocks ie book")
+
+addParent("itbl2:unlocks/root")
+
+setRequirements("any")
+
+drawDirectLines()
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("knowledge_of_technology")
+
+setRewardItem(<immersiveengineering:tool:3>)

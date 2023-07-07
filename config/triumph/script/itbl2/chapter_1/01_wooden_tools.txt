@@ -1,0 +1,20 @@
+setTitle("First Tools")
+
+setIcon(<thebetweenlands:weedwood_axe>)
+
+setDescription("Acquire weedwood tools")
+
+addParent("itbl2:chapter_1/root")
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("hasBetterTool1", "minecraft:inventory_changed")
+criteria.addItem("thebetweenlands:weedwood_pickaxe")
+
+criteria2 = addCriteria("hasBetterTool2", "minecraft:inventory_changed")
+criteria2.addItem("thebetweenlands:weedwood_axe")
+
+criteria3 = addCriteria("hasBetterTool3", "minecraft:inventory_changed")
+criteria3.addItem("thebetweenlands:weedwood_shovel")
+setPos(34,-30)

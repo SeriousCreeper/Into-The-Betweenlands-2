@@ -19,7 +19,7 @@
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "White Dye",
+        "comment": "White Dye Powder",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -45,7 +45,7 @@
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "White Dye",
+        "comment": "White Dye Powder",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -71,7 +71,7 @@
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "White Dye",
+        "comment": "White Dye Powder",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -97,7 +97,7 @@
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "White Dye",
+        "comment": "White Dye Powder",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,

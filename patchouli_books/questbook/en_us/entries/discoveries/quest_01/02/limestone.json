@@ -1,0 +1,18 @@
+{
+    "name": "Limestone",
+    "icon": "thebetweenlands:limestone",
+    "category": "02_survival_guide",
+    "sortnum": 1,
+    "advancement": "itbl2:chapter_1/01_wooden_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Limestone can be found in large veins underground.$(br2)Besides being pretty, it's not very useful in its raw form. Further processing is required."
+        },
+        {
+            "type": "spotlight",
+            "item": "thebetweenlands:limestone",
+            "text": "Brittle enough that even wooden tools can break it."
+        }
+    ]
+}

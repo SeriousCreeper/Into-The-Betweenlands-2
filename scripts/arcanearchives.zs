@@ -37,7 +37,7 @@ GCT.replaceRecipe("brazier_of_hoarding", <arcanearchives:brazier_of_hoarding>, [
 
 
 recipes.remove(<pyrotech:diamond_hammer>);
-GCT.addRecipe("pyrotech_diamond_hammer", <pyrotech:diamond_hammer>, [<thebetweenlands:items_misc:19> * 2, <dawnoftimebuilder:silk>, <ore:stickWood> * 2]);
+GCT.addRecipe("pyrotech_diamond_hammer", <pyrotech:diamond_hammer>, [<thebetweenlands:items_misc:19> * 2, <contenttweaker:silk>, <ore:stickWood> * 2]);
 
 recipes.remove(<pyrotech:tongs_diamond>);
 GCT.addRecipe("pyrotech_tongs_diamond", <pyrotech:tongs_diamond>, [<thebetweenlands:items_misc:43> * 3, <pyrotech:material:27> * 2]);

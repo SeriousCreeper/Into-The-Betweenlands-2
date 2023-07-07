@@ -32,7 +32,7 @@ JEI.hideCategory("pyrotech.compost.bin");
 
 
 val itemsToRemove = [
-	<pyrotech:log_pile>,
+	//<pyrotech:log_pile>,
 	<pyrotech:material:5>,
 	<pyrotech:refractory_door>,
 	<pyrotech:refractory_glass>,
@@ -207,6 +207,122 @@ val itemsToRemove = [
 	<pyrotech:refractory_brick_block>,
 	<pyrotech:slag_glass>,
 	<pyrotech:stone_sawmill>,
+	<pyrotech:rock:11>,
+	<pyrotech:cob_wet>,
+	<pyrotech:cob_dry>,
+	<pyrotech:mud>,
+	<pyrotech:mud_layer>,
+	<pyrotech:crafting_table_template>,
+	<pyrotech:refractory_brick_stairs>,
+	<pyrotech:refractory_brick_wall>,
+	<pyrotech:refractory_brick_slab>,
+	<pyrotech:material:38>,
+	<pyrotech:material:39>,
+	<pyrotech:material:40>,
+	<pyrotech:material:41>,
+	<pyrotech:material:42>,
+	<pyrotech:material:43>,
+	<pyrotech:material:44>,
+	<pyrotech:material:45>,
+	<pyrotech:material:47>,
+	<pyrotech:material:48>,
+	<pyrotech:material:49>,
+	<pyrotech:material:50>,
+	<pyrotech:material:51>,
+	<pyrotech:material:52>,
+	<pyrotech:material:53>,
+	<pyrotech:material:54>,
+	<pyrotech:pyroberry_wine>,
+	<pyrotech:gloamberry_wine>,
+	<pyrotech:freckleberry_wine>,
+	<pyrotech:tainted_meat>,
+	<pyrotech:bone_hammer_durable>,
+	<pyrotech:flint_hammer_durable>,
+	<pyrotech:pyroberry_seeds>,
+	<pyrotech:pyroberries>,
+	<pyrotech:pyroberry_cocktail>,
+	<pyrotech:gloamberry_seeds>,
+	<pyrotech:gloamberries>,
+	<pyrotech:freckleberry_seeds>,
+	<pyrotech:freckleberries>,
+	<pyrotech:furnace_core>,
+	<pyrotech:butchers_block>,
+	<pyrotech:hide_pig>,
+	<pyrotech:hide_sheep_sheared>,
+	<pyrotech:hide_washed>,
+	<pyrotech:hide_small_washed>,
+	<pyrotech:hide_llama>,
+	<pyrotech:hide_tanned>,
+	<pyrotech:hide_small_tanned>,
+	<pyrotech:hide_scraped>,
+	<pyrotech:hide_small_scraped>,
+	<pyrotech:pelt_ruined>,
+	<pyrotech:pelt_cow>,
+	<pyrotech:pelt_mooshroom>,
+	<pyrotech:pelt_polar_bear>,
+	<pyrotech:pelt_bat>,
+	<pyrotech:pelt_horse>,
+	<pyrotech:pelt_wolf>,
+	<pyrotech:pelt_sheep_yellow>,
+	<pyrotech:pelt_sheep_white>,
+	<pyrotech:pelt_sheep_gray_light>,
+	<pyrotech:pelt_sheep_red>,
+	<pyrotech:pelt_sheep_purple>,
+	<pyrotech:pelt_sheep_pink>,
+	<pyrotech:pelt_sheep_orange>,
+	<pyrotech:pelt_sheep_magenta>,
+	<pyrotech:pelt_sheep_lime>,
+	<pyrotech:pelt_sheep_blue_light>,
+	<pyrotech:pelt_sheep_green>,
+	<pyrotech:pelt_sheep_gray>,
+	<pyrotech:pelt_sheep_cyan>,
+	<pyrotech:pelt_sheep_brown>,
+	<pyrotech:pelt_sheep_blue>,
+	<pyrotech:pelt_sheep_black>,
+	<pyrotech:pelt_llama_white>,
+	<pyrotech:pelt_llama_creamy>,
+	<pyrotech:pelt_llama_gray>,
+	<pyrotech:pelt_llama_brown>,
+	<pyrotech:bone_hunters_knife>,
+	<pyrotech:flint_hunters_knife>,
+	<pyrotech:stone_hunters_knife>,
+	<pyrotech:iron_hunters_knife>,
+	<pyrotech:gold_hunters_knife>,
+	<pyrotech:diamond_hunters_knife>,
+	<pyrotech:obsidian_hunters_knife>,
+	<pyrotech:flint_butchers_knife>,
+	<pyrotech:bone_butchers_knife>,
+	<pyrotech:stone_butchers_knife>,
+	<pyrotech:iron_butchers_knife>,
+	<pyrotech:gold_butchers_knife>,
+	<pyrotech:diamond_butchers_knife>,
+	<pyrotech:obsidian_butchers_knife>,
+	<pyrotech:leather_durable_repair_kit>,
+	<pyrotech:leather_durable_upgrade_kit>,
+	<pyrotech:leather_repair_kit>,
+	<pyrotech:flint_arrow>,
+	<pyrotech:bone_arrow>,
+	<pyrotech:fluid.lamp_oil>,
+	<pyrotech:lamp_oil>,
+	<pyrotech:bow_drill_durable>,
+	<pyrotech:barrel>,
+	<pyrotech:tanning_rack>,
+	<pyrotech:barrel_lid>,
+	<pyrotech:trip_hammer>,
+	<pyrotech:fluid.wood_tar>,
+	<pyrotech:fluid.coal_tar>,
+	<pyrotech:crude_shield>,
+	<pyrotech:durable_shield>,
+	<pyrotech:bone_axe_durable>,
+	<pyrotech:bone_hoe_durable>,
+	<pyrotech:bone_pickaxe_durable>,
+	<pyrotech:bone_shovel_durable>,
+	<pyrotech:flint_axe_durable>,
+	<pyrotech:flint_hoe_durable>,
+	<pyrotech:flint_pickaxe_durable>,
+	<pyrotech:flint_shovel_durable>,
+	<pyrotech:bone_tool_repair_kit>,
+	<pyrotech:flint_tool_repair_kit>,
 ] as IItemStack[];
 
 
@@ -248,7 +364,6 @@ scripts.utils.addShapedMirrored("tech/basic/tinder", <pyrotech:tinder>, [
 	[<ore:stickWood>, <thebetweenlands:swamp_reed_item>]
 ]);
 
-/*
 recipes.remove(<pyrotech:log_pile>);
 scripts.utils.addShaped("log_pile", <pyrotech:log_pile>, [
 	[<thebetweenlands:log_hearthgrove:*>, <thebetweenlands:log_hearthgrove:*>, <thebetweenlands:log_hearthgrove:*>],
@@ -256,6 +371,7 @@ scripts.utils.addShaped("log_pile", <pyrotech:log_pile>, [
 	[<thebetweenlands:log_hearthgrove:*>, <thebetweenlands:log_hearthgrove:*>, <thebetweenlands:log_hearthgrove:*>]
 ]);
 
+/*
 recipes.remove(<pyrotech:stone_sawmill>);
 scripts.utils.addShaped("tech/machine/stone_sawmill", <pyrotech:stone_sawmill>, [
 	[<pyrotech:masonry_brick_block>, <pyrotech:material:16>, <pyrotech:masonry_brick_block>], 
@@ -323,6 +439,13 @@ scripts.utils.addShaped("tech/machine/mechanical_hopper", <pyrotech:mechanical_h
 	[<pyrotech:material:16>, null, <pyrotech:material:16>], 
 	[<pyrotech:planks_tarred>, <pyrotech:material:27>, <pyrotech:planks_tarred>], 
 	[null, <pyrotech:material:16>, null]
+]);
+
+recipes.remove(<pyrotech:bellows>);
+scripts.utils.addShaped("tech/machine/bellows", <pyrotech:bellows>, [
+	[<pyrotech:material:20>, <pyrotech:material:16>, <pyrotech:material:20>], 
+	[<ore:leather>, <pyrotech:material:27>, <ore:leather>], 
+	[<embers:block_caminite_brick>, null, <embers:block_caminite_brick>]
 ]);
 
 recipes.remove(<pyrotech:mechanical_bellows>);
@@ -659,9 +782,16 @@ slabRecipe("rotten_slab", <thebetweenlands:rotten_plank_slab>, <thebetweenlands:
 slabRecipe("greatwood_slab", <thaumcraft:slab_greatwood>, <thaumcraft:plank_greatwood>, 2, 3, 3);
 slabRecipe("silverwood_slab", <thaumcraft:slab_silverwood>, <thaumcraft:plank_silverwood>, 2, 3, 3);
 slabRecipe("wildwood_slab", <roots:wildwood_slab>, <roots:wildwood_planks>, 2, 3, 3);
-//slabRecipe("treatedwood_slab_2", <immersiveengineering:treated_wood_slab:2>, <immersiveengineering:treated_wood:2>, 2, 3, 3);
-//slabRecipe("treatedwood_slab_1", <immersiveengineering:treated_wood_slab:1>, <immersiveengineering:treated_wood:1>, 2, 3, 3);
-//slabRecipe("treatedwood_slab_0", <immersiveengineering:treated_wood_slab:0>, <immersiveengineering:treated_wood:0>, 2, 3, 3);
+slabRecipe("weedwood_plank_slab_treated", <thebetweenlands:weedwood_plank_slab_treated>, <thebetweenlands:weedwood_planks_treated>, 2, 3, 3);
+slabRecipe("rubber_tree_plank_slab_treated", <thebetweenlands:rubber_tree_plank_slab_treated>, <thebetweenlands:rubber_tree_planks_treated>, 2, 3, 3);
+slabRecipe("giant_root_plank_slab_treated", <thebetweenlands:giant_root_plank_slab_treated>, <thebetweenlands:giant_root_planks_treated>, 2, 3, 3);
+slabRecipe("hearthgrove_plank_slab_treated", <thebetweenlands:hearthgrove_plank_slab_treated>, <thebetweenlands:hearthgrove_planks_treated>, 2, 3, 3);
+slabRecipe("nibbletwig_plank_slab_treated", <thebetweenlands:nibbletwig_plank_slab_treated>, <thebetweenlands:nibbletwig_planks_treated>, 2, 3, 3);
+slabRecipe("rotten_plank_slab_treated", <thebetweenlands:rotten_plank_slab_treated>, <thebetweenlands:rotten_planks_treated>, 2, 3, 3);
+
+slabRecipe("treatedwood_slab_2", <immersiveengineering:treated_wood_slab:2>, <immersiveengineering:treated_wood:2>, 2, 3, 3);
+slabRecipe("treatedwood_slab_1", <immersiveengineering:treated_wood_slab:1>, <immersiveengineering:treated_wood:1>, 2, 3, 3);
+slabRecipe("treatedwood_slab_0", <immersiveengineering:treated_wood_slab:0>, <immersiveengineering:treated_wood:0>, 2, 3, 3);
 
 planksRecipe("weedwood_planks", <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood:*> | <thebetweenlands:log_weedwood:*>, 4, 5, 6);
 planksRecipe("rubber_tree_planks", <thebetweenlands:rubber_tree_planks>, <thebetweenlands:log_rubber:*>, 4, 5, 6);
@@ -708,39 +838,57 @@ brickSawmillRecipeBuilder("runed_obsidian_slab", <roots:runed_obsidian_slab>, <r
 brickSawmillRecipeBuilder("runestone_brick_alt_slab", <roots:runestone_brick_alt_slab>, <roots:runestone_brick_alt>, 2, 2, false);
 brickSawmillRecipeBuilder("runestone_brick_slab", <roots:runestone_brick_slab>, <roots:runestone_brick>, 2, 2, false);
 brickSawmillRecipeBuilder("runestone_slab", <roots:runestone_slab>, <roots:runestone>, 2, 2, false);
-//brickSawmillRecipeBuilder("metal_decoration1_slab_7", <immersiveengineering:metal_decoration1_slab:7>, <immersiveengineering:metal_decoration1:7>, 2, 2, false);
-//brickSawmillRecipeBuilder("metal_decoration1_slab_6", <immersiveengineering:metal_decoration1_slab:6>, <immersiveengineering:metal_decoration1:6>, 2, 2, false);
-//brickSawmillRecipeBuilder("metal_decoration1_slab_5", <immersiveengineering:metal_decoration1_slab:5>, <immersiveengineering:metal_decoration1:5>, 2, 2, false);
-//brickSawmillRecipeBuilder("metal_decoration1_slab_3", <immersiveengineering:metal_decoration1_slab:3>, <immersiveengineering:metal_decoration1:3>, 2, 2, false);
-//brickSawmillRecipeBuilder("metal_decoration1_slab_2", <immersiveengineering:metal_decoration1_slab:2>, <immersiveengineering:metal_decoration1:2>, 2, 2, false);
-//brickSawmillRecipeBuilder("metal_decoration1_slab_1", <immersiveengineering:metal_decoration1_slab:1>, <immersiveengineering:metal_decoration1:1>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_10", <immersiveengineering:sheetmetal_slab:10>, <immersiveengineering:sheetmetal:10>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_9", <immersiveengineering:sheetmetal_slab:9>, <immersiveengineering:sheetmetal:9>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_8", <immersiveengineering:sheetmetal_slab:8>, <immersiveengineering:sheetmetal:8>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_7", <immersiveengineering:sheetmetal_slab:7>, <immersiveengineering:sheetmetal:7>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_6", <immersiveengineering:sheetmetal_slab:6>, <immersiveengineering:sheetmetal:6>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_5", <immersiveengineering:sheetmetal_slab:5>, <immersiveengineering:sheetmetal:5>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_4", <immersiveengineering:sheetmetal_slab:4>, <immersiveengineering:sheetmetal:4>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_3", <immersiveengineering:sheetmetal_slab:3>, <immersiveengineering:sheetmetal:3>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_2", <immersiveengineering:sheetmetal_slab:2>, <immersiveengineering:sheetmetal:2>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_1", <immersiveengineering:sheetmetal_slab:1>, <immersiveengineering:sheetmetal:1>, 2, 2, false);
-//brickSawmillRecipeBuilder("sheetmetal_slab_0", <immersiveengineering:sheetmetal_slab:0>, <immersiveengineering:sheetmetal:0>, 2, 2, false);
-//brickSawmillRecipeBuilder("stone_decoration_slab_10", <immersiveengineering:stone_decoration_slab:10>, <immersiveengineering:stone_decoration:10>, 2, 2, false);
-//brickSawmillRecipeBuilder("stone_decoration_slab_7", <immersiveengineering:stone_decoration_slab:7>, <immersiveengineering:stone_decoration:7>, 2, 2, false);
-//brickSawmillRecipeBuilder("stone_decoration_slab_6", <immersiveengineering:stone_decoration_slab:6>, <immersiveengineering:stone_decoration:6>, 2, 2, false);
-//brickSawmillRecipeBuilder("stone_decoration_slab_5", <immersiveengineering:stone_decoration_slab:5>, <immersiveengineering:stone_decoration:5>, 2, 2, false);
-//brickSawmillRecipeBuilder("stone_decoration_slab_4", <immersiveengineering:stone_decoration_slab:4>, <immersiveengineering:stone_decoration:4>, 2, 2, false);
-//brickSawmillRecipeBuilder("stone_decoration_slab_2", <immersiveengineering:stone_decoration_slab:2>, <immersiveengineering:stone_decoration:2>, 2, 2, false);
-//brickSawmillRecipeBuilder("stone_decoration_slab_1", <immersiveengineering:stone_decoration_slab:1>, <immersiveengineering:stone_decoration:1>, 2, 2, false);
-//brickSawmillRecipeBuilder("storage_slab_8", <immersiveengineering:storage_slab:8>, <immersiveengineering:storage:8>, 2, 2, false);
-//brickSawmillRecipeBuilder("storage_slab_7", <immersiveengineering:storage_slab:7>, <immersiveengineering:storage:7>, 2, 2, false);
-//brickSawmillRecipeBuilder("storage_slab_6", <immersiveengineering:storage_slab:6>, <immersiveengineering:storage:6>, 2, 2, false);
-//brickSawmillRecipeBuilder("storage_slab_5", <immersiveengineering:storage_slab:5>, <immersiveengineering:storage:5>, 2, 2, false);
-//brickSawmillRecipeBuilder("storage_slab_4", <immersiveengineering:storage_slab:4>, <immersiveengineering:storage:4>, 2, 2, false);
-//brickSawmillRecipeBuilder("storage_slab_3", <immersiveengineering:storage_slab:3>, <immersiveengineering:storage:3>, 2, 2, false);
-//brickSawmillRecipeBuilder("storage_slab_2", <immersiveengineering:storage_slab:2>, <immersiveengineering:storage:2>, 2, 2, false);
-//brickSawmillRecipeBuilder("storage_slab_1", <immersiveengineering:storage_slab:1>, <immersiveengineering:storage:1>, 2, 2, false);
-//brickSawmillRecipeBuilder("storage_slab_0", <immersiveengineering:storage_slab:0>, <immersiveengineering:storage:0>, 2, 2, false);
+brickSawmillRecipeBuilder("masonry_brick_slab", <pyrotech:masonry_brick_slab>, <pyrotech:masonry_brick_block>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_dull_lavender", <thebetweenlands:mud_brick_shingle_slab_stained_dull_lavender>, <thebetweenlands:mud_brick_shingle_stained:0>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_maroon", <thebetweenlands:mud_brick_shingle_slab_stained_maroon>, <thebetweenlands:mud_brick_shingle_stained:2>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_shadow_green", <thebetweenlands:mud_brick_shingle_slab_stained_shadow_green>, <thebetweenlands:mud_brick_shingle_stained:3>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_camelot_magenta", <thebetweenlands:mud_brick_shingle_slab_stained_camelot_magenta>, <thebetweenlands:mud_brick_shingle_stained:4>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_saffron", <thebetweenlands:mud_brick_shingle_slab_stained_saffron>, <thebetweenlands:mud_brick_shingle_stained:5>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_caribbean_green", <thebetweenlands:mud_brick_shingle_slab_stained_caribbean_green>, <thebetweenlands:mud_brick_shingle_stained:6>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_vivid_tangerine", <thebetweenlands:mud_brick_shingle_slab_stained_vivid_tangerine>, <thebetweenlands:mud_brick_shingle_stained:7>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_champagne", <thebetweenlands:mud_brick_shingle_slab_stained_champagne>, <thebetweenlands:mud_brick_shingle_stained:8>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_raisin_black", <thebetweenlands:mud_brick_shingle_slab_stained_raisin_black>, <thebetweenlands:mud_brick_shingle_stained:9>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_sushi_green", <thebetweenlands:mud_brick_shingle_slab_stained_sushi_green>, <thebetweenlands:mud_brick_shingle_stained:10>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_elm_cyan", <thebetweenlands:mud_brick_shingle_slab_stained_elm_cyan>, <thebetweenlands:mud_brick_shingle_stained:11>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_cadmium_green", <thebetweenlands:mud_brick_shingle_slab_stained_cadmium_green>, <thebetweenlands:mud_brick_shingle_stained:12>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_lavender_blue", <thebetweenlands:mud_brick_shingle_slab_stained_lavender_blue>, <thebetweenlands:mud_brick_shingle_stained:13>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_brown_rust", <thebetweenlands:mud_brick_shingle_slab_stained_brown_rust>, <thebetweenlands:mud_brick_shingle_stained:14>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_midnight_purple", <thebetweenlands:mud_brick_shingle_slab_stained_midnight_purple>, <thebetweenlands:mud_brick_shingle_stained:15>, 2, 2, false);
+brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_pewter_grey", <thebetweenlands:mud_brick_shingle_slab_stained_pewter_grey>, <thebetweenlands:mud_brick_shingle_stained:16>, 2, 2, false);
+
+brickSawmillRecipeBuilder("metal_decoration1_slab_7", <immersiveengineering:metal_decoration1_slab:7>, <immersiveengineering:metal_decoration1:7>, 2, 2, false);
+brickSawmillRecipeBuilder("metal_decoration1_slab_6", <immersiveengineering:metal_decoration1_slab:6>, <immersiveengineering:metal_decoration1:6>, 2, 2, false);
+brickSawmillRecipeBuilder("metal_decoration1_slab_5", <immersiveengineering:metal_decoration1_slab:5>, <immersiveengineering:metal_decoration1:5>, 2, 2, false);
+brickSawmillRecipeBuilder("metal_decoration1_slab_3", <immersiveengineering:metal_decoration1_slab:3>, <immersiveengineering:metal_decoration1:3>, 2, 2, false);
+brickSawmillRecipeBuilder("metal_decoration1_slab_2", <immersiveengineering:metal_decoration1_slab:2>, <immersiveengineering:metal_decoration1:2>, 2, 2, false);
+brickSawmillRecipeBuilder("metal_decoration1_slab_1", <immersiveengineering:metal_decoration1_slab:1>, <immersiveengineering:metal_decoration1:1>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_10", <immersiveengineering:sheetmetal_slab:10>, <immersiveengineering:sheetmetal:10>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_9", <immersiveengineering:sheetmetal_slab:9>, <immersiveengineering:sheetmetal:9>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_8", <immersiveengineering:sheetmetal_slab:8>, <immersiveengineering:sheetmetal:8>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_7", <immersiveengineering:sheetmetal_slab:7>, <immersiveengineering:sheetmetal:7>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_6", <immersiveengineering:sheetmetal_slab:6>, <immersiveengineering:sheetmetal:6>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_5", <immersiveengineering:sheetmetal_slab:5>, <immersiveengineering:sheetmetal:5>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_4", <immersiveengineering:sheetmetal_slab:4>, <immersiveengineering:sheetmetal:4>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_3", <immersiveengineering:sheetmetal_slab:3>, <immersiveengineering:sheetmetal:3>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_2", <immersiveengineering:sheetmetal_slab:2>, <immersiveengineering:sheetmetal:2>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_1", <immersiveengineering:sheetmetal_slab:1>, <immersiveengineering:sheetmetal:1>, 2, 2, false);
+brickSawmillRecipeBuilder("sheetmetal_slab_0", <immersiveengineering:sheetmetal_slab:0>, <immersiveengineering:sheetmetal:0>, 2, 2, false);
+brickSawmillRecipeBuilder("stone_decoration_slab_10", <immersiveengineering:stone_decoration_slab:10>, <immersiveengineering:stone_decoration:10>, 2, 2, false);
+brickSawmillRecipeBuilder("stone_decoration_slab_7", <immersiveengineering:stone_decoration_slab:7>, <immersiveengineering:stone_decoration:7>, 2, 2, false);
+brickSawmillRecipeBuilder("stone_decoration_slab_6", <immersiveengineering:stone_decoration_slab:6>, <immersiveengineering:stone_decoration:6>, 2, 2, false);
+brickSawmillRecipeBuilder("stone_decoration_slab_5", <immersiveengineering:stone_decoration_slab:5>, <immersiveengineering:stone_decoration:5>, 2, 2, false);
+brickSawmillRecipeBuilder("stone_decoration_slab_4", <immersiveengineering:stone_decoration_slab:4>, <immersiveengineering:stone_decoration:4>, 2, 2, false);
+brickSawmillRecipeBuilder("stone_decoration_slab_2", <immersiveengineering:stone_decoration_slab:2>, <immersiveengineering:stone_decoration:2>, 2, 2, false);
+brickSawmillRecipeBuilder("stone_decoration_slab_1", <immersiveengineering:stone_decoration_slab:1>, <immersiveengineering:stone_decoration:1>, 2, 2, false);
+brickSawmillRecipeBuilder("storage_slab_8", <immersiveengineering:storage_slab:8>, <immersiveengineering:storage:8>, 2, 2, false);
+brickSawmillRecipeBuilder("storage_slab_7", <immersiveengineering:storage_slab:7>, <immersiveengineering:storage:7>, 2, 2, false);
+brickSawmillRecipeBuilder("storage_slab_6", <immersiveengineering:storage_slab:6>, <immersiveengineering:storage:6>, 2, 2, false);
+brickSawmillRecipeBuilder("storage_slab_5", <immersiveengineering:storage_slab:5>, <immersiveengineering:storage:5>, 2, 2, false);
+brickSawmillRecipeBuilder("storage_slab_4", <immersiveengineering:storage_slab:4>, <immersiveengineering:storage:4>, 2, 2, false);
+brickSawmillRecipeBuilder("storage_slab_3", <immersiveengineering:storage_slab:3>, <immersiveengineering:storage:3>, 2, 2, false);
+brickSawmillRecipeBuilder("storage_slab_2", <immersiveengineering:storage_slab:2>, <immersiveengineering:storage:2>, 2, 2, false);
+brickSawmillRecipeBuilder("storage_slab_1", <immersiveengineering:storage_slab:1>, <immersiveengineering:storage:1>, 2, 2, false);
+brickSawmillRecipeBuilder("storage_slab_0", <immersiveengineering:storage_slab:0>, <immersiveengineering:storage:0>, 2, 2, false);
 
 slabRecipe("boards", <pyrotech:material:20>, <ore:slabWood>, 1, 2, 3); // boards
 stoneSawmillRecipeBuilder("treated_boards", <pyrotech:material:23>, <pyrotech:planks_tarred>, 1, 2, 3); // tarred boards

@@ -1,0 +1,13 @@
+setTitle("Bloomery")
+
+setIcon(<pyrotech:bloomery>)
+
+setDescription("Craft a bloomery out of refractory clay")
+
+addParent("itbl2:chapter_1/10_soaking_pot")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("pyrotech:bloomery")

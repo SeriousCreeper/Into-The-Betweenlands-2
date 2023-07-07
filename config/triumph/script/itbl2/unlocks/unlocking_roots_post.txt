@@ -1,0 +1,16 @@
+setTitle("Unlocking Roots - Post")
+
+setIcon(<thebetweenlands:weedwood>)
+
+setDescription("Unlocks roots book")
+
+addParent("itbl2:unlocks/root")
+
+setRequirements("any")
+
+drawDirectLines()
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("knowledge_of_spirit")
+
+setRewardItem("roots:roots_guide")

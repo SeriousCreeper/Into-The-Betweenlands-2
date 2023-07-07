@@ -722,8 +722,8 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:rock>.remove(<pyrotech:rock:8>);
 <ore:rock>.remove(<pyrotech:rock:10>);
 
-<ore:stoneLimestone>.remove(<dawnoftimebuilder:cobbled_limestone>);
-<ore:stoneLimestone>.remove(<dawnoftimebuilder:limestone_brick>);
+//<ore:stoneLimestone>.remove(<dawnoftimebuilder:cobbled_limestone>);
+//<ore:stoneLimestone>.remove(<dawnoftimebuilder:limestone_brick>);
 
 <ore:toolAxe>.remove(<minecraft:stone_axe:*>);
 <ore:toolAxe>.remove(<minecraft:iron_axe:*>);

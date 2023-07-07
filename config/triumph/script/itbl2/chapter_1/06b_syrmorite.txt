@@ -1,0 +1,14 @@
+setTitle("Syrmorite Ore")
+
+setIcon(<thebetweenlands:syrmorite_ore>)
+
+setDescription("Acquire syrmorite ore")
+
+addParent("itbl2:chapter_1/05_bones")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasSyrmoriteOre", "minecraft:inventory_changed")
+criteria.addItem("thebetweenlands:syrmorite_ore")
+

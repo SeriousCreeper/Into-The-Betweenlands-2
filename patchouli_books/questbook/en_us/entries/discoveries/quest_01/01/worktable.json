@@ -1,0 +1,17 @@
+{
+    "name": "Primitive Worktable",
+    "icon": "pyrotech:worktable",
+    "category": "02_survival_guide",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A primitive worktable that can craft more complex items by placing them onto the grid and hitting it with a hammer.$(br2)Even has a small shelf to store items at the bottom."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:worktable",
+            "recipe2": "crafttweaker:crude_hammer"
+        }
+    ]
+}

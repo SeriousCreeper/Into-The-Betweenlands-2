@@ -1,0 +1,13 @@
+setTitle("Limestone Anvil")
+
+setIcon(<pyrotech:anvil_granite>)
+
+setDescription("Craft a limestone anvil")
+
+addParent("itbl2:chapter_1/07a_pitkiln")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("pyrotech:anvil_granite")

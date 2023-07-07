@@ -321,6 +321,8 @@ addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "spirit_frui
 addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "sapling_spirit_tree", <thebetweenlands:sapling_spirit_tree>, 10, 0, 1, 3);
 
 
+removeLootEntry("thebetweenlands:entities/infestation", "infestation", "thebetweenlands:pheromone_thorax");
+
 <entity:thebetweenlands:termite>.addPlayerOnlyDrop(<thebetweenlands:dentrothyst_shard_green>, 1, 1, 0.2);
 <entity:thebetweenlands:termite>.addPlayerOnlyDrop(<thebetweenlands:dentrothyst_shard_orange>, 1, 1, 0.05);
 

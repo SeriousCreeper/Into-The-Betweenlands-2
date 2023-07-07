@@ -45,6 +45,6 @@ scripts.utils.addShaped("strainer_survivalist", <waterstrainer:strainer_survival
 recipes.remove(<waterstrainer:strainer_survivalist_solid>);
 scripts.utils.addShaped("strainer_survivalist_solid", <waterstrainer:strainer_survivalist_solid>, [
 	[null, <thebetweenlands:items_misc:14>, null],
-	[<thebetweenlands:items_misc:14>, <dawnoftimebuilder:silk>, <thebetweenlands:items_misc:14>],
+	[<thebetweenlands:items_misc:14>, <contenttweaker:silk>, <thebetweenlands:items_misc:14>],
 	[null, <thebetweenlands:items_misc:14>, null]
 ]);

@@ -1,0 +1,14 @@
+setIcon(<thebetweenlands:swamp_talisman>)
+
+setTitle("Story - Chapter 1 test")
+
+setDescription("")
+
+setBackground("thebetweenlands:textures/blocks/swamp_dirt.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+addCriteria("location", "minecraft:location")
+setPos(0,0)

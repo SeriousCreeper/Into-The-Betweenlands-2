@@ -1,0 +1,7 @@
+{
+  "name": "Automation",
+  "sortnum" : 6,
+  "parent": "roots",
+  "description": "This section covers ways of automating Roots using Vanilla methods.",
+  "icon": "minecraft:dispenser"
+}

@@ -1,0 +1,19 @@
+setTitle("Sawmill")
+
+setIcon(<pyrotech:stone_sawmill>)
+
+setDescription("Craft a sawmill for more efficient wood processing")
+
+addParent("itbl2:chapter_1/08_limestone_anvil")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("pyrotech:material", 16)
+
+criteria2 = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria2.addItem("pyrotech:stone_sawmill")
+
+criteria3 = addCriteria("hasItem3", "minecraft:inventory_changed")
+criteria3.addItem("pyrotech:sawmill_blade_bone")

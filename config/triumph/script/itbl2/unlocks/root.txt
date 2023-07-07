@@ -1,0 +1,15 @@
+setIcon(<thebetweenlands:swamp_talisman>)
+
+setTitle("Mod Unlocks")
+
+setDescription("")
+
+setBackground("thebetweenlands:textures/blocks/swamp_dirt.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+addCriteria("location", "minecraft:location")
+setPos(0,0)
+

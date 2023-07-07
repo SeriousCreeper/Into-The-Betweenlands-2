@@ -79,7 +79,7 @@ scripts.utils.addShaped("unlit_sulfur_torchers", <thebetweenlands:sulfur_torch_e
 recipes.remove(<thebetweenlands:weedwood_chest>);
 scripts.utils.addShaped("weedwood_chest", <thebetweenlands:weedwood_chest>, [
 	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>],
-	[<thebetweenlands:weedwood_planks>, <ore:ingotSyrmorite>, <thebetweenlands:weedwood_planks>],
+	[<thebetweenlands:weedwood_planks>, <mcwfurnitures:iron_handle>, <thebetweenlands:weedwood_planks>],
 	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
 ]);
 
@@ -131,6 +131,9 @@ scripts.utils.addShaped("amate_paper", <thebetweenlands:items_misc:32>, [
 ]);
 
 
+scripts.utils.addShapeless("silk", <contenttweaker:silk>, [<thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <mysticalworld:spindle:*>.transformDamage(1)]);
+
+
 scripts.utils.addShapeless("sticks_from_sapling", <thebetweenlands:items_misc:20>, [<thebetweenlands:sapling_weedwood>]);
 
 
@@ -145,3 +148,6 @@ scripts.utils.addBLChangeTooltip(<thebetweenlands:octine_pickaxe:*>, "Chance to 
 scripts.utils.addBLChangeTooltip(<thebetweenlands:octine_shovel:*>, "Chance to turn sand into glass, mud into bricks");
 
 scripts.utils.addInfoTooltip(<thebetweenlands:sulfur_torch_extinguished>, "Can be relit with an octine ingot or at a campfire.");
+
+<thebetweenlands:moss_filter>.maxDamage = 4000;
+<thebetweenlands:silk_filter>.maxDamage = 20000;

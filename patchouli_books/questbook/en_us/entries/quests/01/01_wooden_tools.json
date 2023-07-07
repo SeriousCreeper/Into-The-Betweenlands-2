@@ -1,0 +1,30 @@
+{
+    "name": "First Tools",
+    "icon": "thebetweenlands:weedwood_pickaxe",
+    "category": "01_discoveries",
+    "sortnum": 0,
+    "turnin": "itbl2:chapter_1/01_wooden_tools",
+    "pages": [
+        {
+            "type": "quest",
+            "trigger": "itbl2:chapter_1/01_wooden_tools",
+            "title": "First Tools",
+            "text": "First set of tools to gather additional resources. Requires a $(l:discoveries/quest_01/01/worktable)worktable/$ to craft."
+        },
+        {
+            "type": "checklist_end",
+            "suffix": " (Any)",
+            "item1": "thebetweenlands:weedwood_pickaxe#1",
+            "item2": "thebetweenlands:weedwood_axe#1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "thebetweenlands:weedwood_pickaxe",
+            "recipe2": "thebetweenlands:weedwood_axe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "thebetweenlands:weedwood_shovel"
+        }
+    ]
+}

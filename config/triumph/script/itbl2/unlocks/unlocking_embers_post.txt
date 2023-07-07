@@ -1,0 +1,18 @@
+setTitle("Unlocking Embers - Post")
+
+setIcon(<thebetweenlands:weedwood>)
+
+setDescription("Unlocks embers book")
+
+addParent("itbl2:unlocks/root")
+
+setRequirements("any")
+
+drawDirectLines()
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("knowledge_of_malice")
+
+setRewardItem("embers:codex")
+
+addRewardFunction("itbl2:ore_tier_2_trigger")

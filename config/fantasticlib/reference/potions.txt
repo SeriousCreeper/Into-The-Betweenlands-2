@@ -36,6 +36,13 @@ teastory:life_drain
 teastory:photosynthesis
 teastory:defence
 teastory:excitement
+immersiveengineering:flammable
+immersiveengineering:slippery
+immersiveengineering:conductive
+immersiveengineering:sticky
+immersiveengineering:stunned
+immersiveengineering:concretefeet
+immersiveengineering:flashed
 thaumcraft:fluxtaint
 thaumcraft:visexhaust
 thaumcraft:infectiousvisexhaust

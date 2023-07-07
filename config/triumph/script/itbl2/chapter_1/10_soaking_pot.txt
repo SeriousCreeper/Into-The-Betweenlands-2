@@ -1,0 +1,13 @@
+setTitle("Soaking Pot")
+
+setIcon(<pyrotech:soaking_pot>)
+
+setDescription("Craft a soaking pot")
+
+addParent("itbl2:chapter_1/09_sawmill")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("pyrotech:soaking_pot")

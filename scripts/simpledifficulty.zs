@@ -8,7 +8,6 @@ val itemsToKeep = [
 	<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}),
 	<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}),
 	<simpledifficulty:purifiedwater>,
-	<simpledifficulty:charcoal_filter>
 ] as IItemStack[];
 
 val items = loadedMods["simpledifficulty"].items;
@@ -33,12 +32,14 @@ for item in items {
 recipes.remove(<simpledifficulty:purified_water_bottle>);
 furnace.remove(<simpledifficulty:purified_water_bottle>);
 
+/*
 recipes.remove(<simpledifficulty:charcoal_filter>);
 scripts.utils.addShaped("charcoal_filter", <simpledifficulty:charcoal_filter> * 3, [
 	[<thebetweenlands:items_misc:32>], 
 	[<thebetweenlands:items_misc:18>], 
 	[<thebetweenlands:items_misc:32>]
 ]);
+*/
 
 recipes.removeByRegex("simpledifficulty:canteen_empty");
 scripts.utils.addShaped("canteen_empty", <simpledifficulty:canteen>.withTag({Doses: 0, CanteenType: 0}), [

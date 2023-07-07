@@ -245,7 +245,7 @@ for teabag in teas {
 
 
 // TEA PAN
-InSun.add(<dawnoftimebuilder:silk_worm_hatchery>, <dawnoftimebuilder:silk_worms>);
+//InSun.add(<dawnoftimebuilder:silk_worm_hatchery>, <dawnoftimebuilder:silk_worms>);
 
 
 

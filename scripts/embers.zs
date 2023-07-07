@@ -312,7 +312,7 @@ scripts.utils.addShaped("ignition_cannon", <embers:ignition_cannon>.withTag({coo
 
 recipes.remove(<embers:ashen_cloak_head>);
 scripts.utils.addShaped("ashen_cloak_head", <embers:ashen_cloak_head>, [
-	[null, <dawnoftimebuilder:silk>, null], 
+	[null, <contenttweaker:silk>, null], 
 	[<embers:ashen_cloth:*>, null, <embers:ashen_cloth:*>], 
 	[<ore:ingotDawnstone>, <embers:ashen_cloth:*>, <ore:ingotDawnstone>]
 ]);
@@ -777,6 +777,15 @@ Stamper.add(<thebetweenlands:octine_shovel>, <liquid:octine> * 144, <embers:stam
 Stamper.add(<thebetweenlands:octine_sword>, <liquid:octine> * 288, <embers:stamp_flat>, <thebetweenlands:bone_sword>);
 Stamper.add(<roots:iron_knife>, <liquid:octine> * 288, <embers:stamp_flat>, <roots:stone_knife>);
 
+// Bullet mold
+Stamper.add(<immersiveengineering:bullet>, <liquid:copper> * 144, <immersiveengineering:mold:3>);
+
+// Rod mold
+Stamper.add(<alternatingflux:material> * 2, <liquid:constantan> * 144, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:20> * 2, <liquid:copper> * 144, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:21> * 2, <liquid:electrum> * 144, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:22> * 2, <liquid:aluminum> * 144, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:23> * 2, <liquid:steel> * 144, <immersiveengineering:mold:4>);
 
 
 

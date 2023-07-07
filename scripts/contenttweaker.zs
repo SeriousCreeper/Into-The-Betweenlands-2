@@ -23,6 +23,7 @@ val items = [
 	//"boss_item_5",
 	//"boss_item_6",
 	"inert_boneway_finder",
+	"silk",
 	//"plate_syrmorite"
 ] as string[];
 

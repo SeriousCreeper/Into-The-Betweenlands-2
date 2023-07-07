@@ -4,7 +4,7 @@
     "category": "01_welcome",
     "sortnum": 1,
     "turnin": "itbl2:chapter_1/02_chopping_table",
-    "advancement": "itbl2:chapter_1/01_getting_wood",
+    "advancement": "itbl2:chapter_1/01_wooden_tools",
     "pages": [
         {
             "type": "quest",

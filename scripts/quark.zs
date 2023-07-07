@@ -52,7 +52,7 @@ recipes.remove(<quark:custom_bookshelf:*>);
 for i, wood in quarkChestPlank {
 	scripts.utils.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i), [
 		[wood, wood, wood],
-		[wood, <ore:ingotSyrmorite>, wood],
+		[wood, <mcwfurnitures:iron_handle>, wood],
 		[wood, wood, wood]
 	]);
 
@@ -71,11 +71,11 @@ scripts.utils.addShaped("chain", <quark:chain> * 3, [
 ]);
 
 recipes.remove(<quark:glass_item_frame>);
-scripts.utils.addShaped("glass_item_frame", <quark:glass_item_frame> * 2, [
-	[<thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>], 
-	[<thebetweenlands:silt_glass_pane>, <minecraft:item_frame>, <thebetweenlands:silt_glass_pane>], 
-	[<thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>]
-]);
+//scripts.utils.addShaped("glass_item_frame", <quark:glass_item_frame> * 2, [
+//	[<thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>], 
+//	[<thebetweenlands:silt_glass_pane>, <minecraft:item_frame>, <thebetweenlands:silt_glass_pane>], 
+//	[<thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>]
+//]);
 
 recipes.remove(<quark:lit_lamp>);
 scripts.utils.addShapeless("quark-lit_lamp-modified", <quark:lit_lamp>, [<minecraft:redstone_lamp>, <minecraft:redstone_torch>]);

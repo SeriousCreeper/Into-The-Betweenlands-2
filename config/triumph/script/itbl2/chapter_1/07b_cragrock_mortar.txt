@@ -1,0 +1,19 @@
+setTitle("Cragrock Mortar")
+
+setIcon(<thebetweenlands:mortar>)
+
+setDescription("Find cragrock and craft a mortar and pestle")
+
+addParent("itbl2:chapter_1/06a_limestone")
+
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem("thebetweenlands:cragrock")
+
+criteria2 = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria2.addItem("thebetweenlands:mortar")
+
+criteria3 = addCriteria("hasItem3", "minecraft:inventory_changed")
+criteria3.addItem("thebetweenlands:pestle")

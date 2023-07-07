@@ -91,7 +91,7 @@ val itemsToKeep = [
 	<minecraft:hopper_minecart>,
 	<minecraft:iron_bars>,
 	<minecraft:trapped_chest>,
-	<minecraft:item_frame>,
+	//<minecraft:item_frame>,
 	<minecraft:activator_rail>,
 	<minecraft:rail>,
 	//<minecraft:flint_and_steel>,
@@ -108,7 +108,6 @@ val itemsToKeep = [
 	//<minecraft:milk_bucket>,
 	//<minecraft:water_bucket>,
 	//<minecraft:paper>,
-	<minecraft:stained_glass:*>,
 	<minecraft:spawn_egg>,
 	<minecraft:redstone_torch>,
 	<minecraft:redstone>,
@@ -266,7 +265,7 @@ scripts.utils.addShaped("flint_and_steel", <minecraft:flint_and_steel>, [
 */
 
 recipes.remove(<minecraft:string>);
-recipes.addShapeless("string", <minecraft:string> * 3, [<dawnoftimebuilder:silk>, <mysticalworld:spindle:*>.transformDamage(1)]);
+recipes.addShapeless("string", <minecraft:string> * 3, [<contenttweaker:silk>, <mysticalworld:spindle:*>.transformDamage(1)]);
 
 recipes.remove(<minecraft:iron_bars>);
 scripts.utils.addShaped("iron_bars", <minecraft:iron_bars> * 16, [
@@ -330,7 +329,7 @@ scripts.utils.addShaped("glass_bottle", <minecraft:glass_bottle>, [
 
 
 
-
+/*
 val stainedGlassColors = {
 	<minecraft:stained_glass:0> : <minecraft:dye:15>,
 	<minecraft:stained_glass:1> : <minecraft:dye:14>,
@@ -360,7 +359,7 @@ for glass in stainedGlassColors {
 		[<thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>]
 	]);
 }
-
+*/
 
 
 
@@ -594,7 +593,7 @@ scripts.utils.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<
 <tallgates:tall_gate:4>.displayName = "Tall Nibbletwig Plank Fence Gate";
 <tallgates:tall_gate:5>.displayName = "Tall Rotten Plank Fence Gate";
 
-//<ore:dustRedstone>.displayName = "Bluedust";
+<minecraft:redstone>.displayName = "Bluedust";
 //<coloredredstone:colored_redstone_comparator_item:12>.displayName = "Bluedust Comparator";
 //<coloredredstone:colored_redstone_repeater_item:12>.displayName = "Bluedust Repeater";
 //<coloredredstone:colored_redstone_torch_item:12>.displayName = "Bluedust Torch";
@@ -610,3 +609,20 @@ scripts.utils.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<
 <minecraft:dye:3>.displayName = "Brown Dye";
 <minecraft:dye:4>.displayName = "Blue Dye";
 <minecraft:glass_bottle>.displayName = "Silt Glass Bottle";
+
+<minecraft:dye:0>.displayName = <minecraft:dye:0>.displayName + " Powder";
+<minecraft:dye:1>.displayName = <minecraft:dye:1>.displayName + " Powder";
+<minecraft:dye:2>.displayName = <minecraft:dye:2>.displayName + " Powder";
+<minecraft:dye:3>.displayName = <minecraft:dye:3>.displayName + " Powder";
+<minecraft:dye:4>.displayName = <minecraft:dye:4>.displayName + " Powder";
+<minecraft:dye:5>.displayName = <minecraft:dye:5>.displayName + " Powder";
+<minecraft:dye:6>.displayName = <minecraft:dye:6>.displayName + " Powder";
+<minecraft:dye:7>.displayName = <minecraft:dye:7>.displayName + " Powder";
+<minecraft:dye:8>.displayName = <minecraft:dye:8>.displayName + " Powder";
+<minecraft:dye:9>.displayName = <minecraft:dye:9>.displayName + " Powder";
+<minecraft:dye:10>.displayName = <minecraft:dye:10>.displayName + " Powder";
+<minecraft:dye:11>.displayName = <minecraft:dye:11>.displayName + " Powder";
+<minecraft:dye:12>.displayName = <minecraft:dye:12>.displayName + " Powder";
+<minecraft:dye:13>.displayName = <minecraft:dye:13>.displayName + " Powder";
+<minecraft:dye:14>.displayName = <minecraft:dye:14>.displayName + " Powder";
+<minecraft:dye:15>.displayName = <minecraft:dye:15>.displayName + " Powder";
