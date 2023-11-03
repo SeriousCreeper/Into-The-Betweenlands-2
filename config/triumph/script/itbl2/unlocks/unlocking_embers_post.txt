@@ -16,3 +16,4 @@ criteria.setStage("knowledge_of_malice")
 setRewardItem("embers:codex")
 
 addRewardFunction("itbl2:ore_tier_2_trigger")
+setPos(63,32)

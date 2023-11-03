@@ -12,4 +12,5 @@ drawDirectLines()
 
 setRewardItem("gamestagebooks:knowledge_of_malice")
 
-criteria = addCriteria("ruin", "thebetweenlands:staring_contest")
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("thebetweenlands:fighter/staring_contest")

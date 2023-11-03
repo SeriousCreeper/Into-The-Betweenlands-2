@@ -707,12 +707,21 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:trapdoorWood>.remove(<minecraft:trapdoor>);
 
 <ore:oreCopper>.remove(<embers:ore_copper>);
+<ore:oreCopper>.remove(<immersiveengineering:ore>);
 
 <ore:oreLead>.remove(<embers:ore_lead>);
+<ore:oreLead>.remove(<immersiveengineering:ore:2>);
 
 <ore:oreSilver>.remove(<embers:ore_silver>);
+<ore:oreSilver>.remove(<immersiveengineering:ore:3>);
 
 <ore:oreAluminum>.remove(<embers:ore_aluminum>);
+<ore:oreAluminum>.remove(<immersiveengineering:ore:1>);
+<ore:oreAluminium>.remove(<immersiveengineering:ore:1>);
+
+<ore:oreNickel>.remove(<immersiveengineering:ore:4>);
+
+
 
 <ore:rock>.remove(<pyrotech:rock>);
 <ore:rock>.remove(<pyrotech:rock:2>);

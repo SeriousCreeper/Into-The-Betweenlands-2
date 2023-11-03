@@ -14,3 +14,4 @@ criteria = addCriteria("gamestage", "triumph:gamestage")
 criteria.setStage("knowledge_of_spirit")
 
 setRewardItem("roots:roots_guide")
+setPos(62,83)

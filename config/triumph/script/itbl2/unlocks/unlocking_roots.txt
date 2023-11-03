@@ -13,3 +13,5 @@ drawDirectLines()
 setRewardItem("gamestagebooks:knowledge_of_spirit")
 
 criteria = addCriteria("ruin", "thebetweenlands:cragrock_tower_top")
+
+setPos(21,-41)

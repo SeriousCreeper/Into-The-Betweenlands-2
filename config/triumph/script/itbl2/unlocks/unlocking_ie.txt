@@ -12,5 +12,5 @@ drawDirectLines()
 
 setRewardItem("gamestagebooks:knowledge_of_technology")
 
-criteria = addCriteria("ruin", "thebetweenlands:not_a_boss")
-
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("thebetweenlands:fighter/not_a_boss")

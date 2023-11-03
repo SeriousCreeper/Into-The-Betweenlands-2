@@ -1017,10 +1017,17 @@ function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, input
 	Bloomery.removeBloomeryRecipes(outputSlag);
 	Bloomery.removeWitherForgeRecipes(output);
 	Bloomery.removeWitherForgeRecipes(outputSlag);
+
+	var minYield = 16;
+	var maxYield = 20;
+
 	// Remove anvil recipes too?
 
 	if(oreName != "Iron") {
 		furnace.addRecipe(inputSlag, inputOre, 0.1);
+	} else {
+		minYield += 5;
+		maxYield += 5;
 	}
 
 	Bloomery.createBloomeryBuilder(
@@ -1045,7 +1052,7 @@ function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, input
     .setAnvilTiers(anvilTypes)
     .setBurnTimeTicks(12 * 60 * 20)
     .setFailureChance(0.2)
-    .setBloomYield(16, 20)
+    .setBloomYield(minYield, maxYield)
     //.setSlagItem(outputSlag, 1)
     //.addFailureItem(<thebetweenlands:items_misc:50>, 1)
     .addFailureItem(<pyrotech:slag>, 1)

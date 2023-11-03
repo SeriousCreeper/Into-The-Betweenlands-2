@@ -1,4 +1,6 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.block.IBlockState;
+import mods.jei.JEI;
 import mods.roots.Bark;
 import mods.roots.Mortar;
 import mods.roots.Fey;
@@ -12,8 +14,6 @@ import mods.roots.AnimalHarvest;
 import mods.roots.Pacifist;
 import mods.roots.predicates.PropertyPredicate;
 import mods.roots.predicates.StatePredicate;
-import mods.jei.JEI;
-import crafttweaker.block.IBlockState;
 import mods.roots.predicates.Predicates;
 import mods.roots.predicates.BlockStateBelow;
 import mods.roots.Spells;
@@ -22,6 +22,7 @@ import mods.roots.Costs;
 import mods.roots.Herbs;
 import mods.roots.Modifiers;
 import mods.roots.SummonCreatures;
+import mods.roots.Chrysopoeia;
 
 
 
@@ -778,6 +779,12 @@ natures_scythe.setString("grass_dictionary", "ns_tallgrass");
 natures_scythe.setString("web_dictionary", "ns_webs");
 
 var shatter = Spells.getSpell("shatter") as Spell;
+
+Chrysopoeia.removeRecipeByOutput(<minecraft:leather>);
+Chrysopoeia.removeRecipeByOutput(<minecraft:iron_ingot>);
+Chrysopoeia.removeRecipeByOutput(<minecraft:iron_nugget>);
+Chrysopoeia.removeRecipeByOutput(<minecraft:gold_ingot>);
+Chrysopoeia.removeRecipeByOutput(<minecraft:gold_nugget>);
 
 
 

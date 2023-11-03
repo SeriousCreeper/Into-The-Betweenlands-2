@@ -127,7 +127,7 @@ function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack
 
 	    if(!skip) {
 	    	ItemStages.addItemStage(stageID, item);
-	    	Recipes.setRecipeStage(stageID, item);
+	    	//Recipes.setRecipeStage(stageID, item);
 	    }
 	}
 }

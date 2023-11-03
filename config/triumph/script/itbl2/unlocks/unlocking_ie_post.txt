@@ -14,3 +14,4 @@ criteria = addCriteria("gamestage", "triumph:gamestage")
 criteria.setStage("knowledge_of_technology")
 
 setRewardItem(<immersiveengineering:tool:3>)
+setPos(-18,126)

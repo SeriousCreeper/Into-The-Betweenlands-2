@@ -11,5 +11,4 @@ setShowToast(false)
 setAnnounceToChat(false)
 
 addCriteria("location", "minecraft:location")
-setPos(0,0)
-
+setPos(3,4)

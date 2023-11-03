@@ -12,5 +12,7 @@ drawDirectLines()
 
 setRewardItem("gamestagebooks:knowledge_of_decay")
 
-criteria = addCriteria("ruin", "thebetweenlands:illegal_logging")
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("thebetweenlands:fighter/illegal_logging")
 
+setPos(60,-24)

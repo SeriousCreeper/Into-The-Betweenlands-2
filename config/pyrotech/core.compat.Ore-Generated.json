@@ -23,8 +23,7 @@
     "oreAluminum": {
       "slagColor": "e2e2e3",
       "langKey": [
-        "betweenores:tile.betweenores.aluminum_ore",
-        "immersiveengineering:tile.immersiveengineering.ore.aluminum"
+        "betweenores:tile.betweenores.aluminum_ore"
       ],
       "output": [
         "embers:nugget_aluminum:0",
@@ -42,8 +41,7 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
-        "betweenores:tile.betweenores.copper_ore",
-        "immersiveengineering:tile.immersiveengineering.ore.copper"
+        "betweenores:tile.betweenores.copper_ore"
       ],
       "output": [
         "embers:nugget_copper:0",
@@ -96,8 +94,7 @@
     "oreLead": {
       "slagColor": "95afee",
       "langKey": [
-        "betweenores:tile.betweenores.lead_ore",
-        "immersiveengineering:tile.immersiveengineering.ore.lead"
+        "betweenores:tile.betweenores.lead_ore"
       ],
       "output": [
         "embers:nugget_lead:0",
@@ -116,8 +113,7 @@
       "slagColor": "e4e5d8",
       "langKey": [
         "betweenores:tile.betweenores.nickel_ore",
-        "embers:tile.ore_nickel",
-        "immersiveengineering:tile.immersiveengineering.ore.nickel"
+        "embers:tile.ore_nickel"
       ],
       "output": [
         "embers:nugget_nickel:0",
@@ -152,8 +148,7 @@
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
-        "betweenores:tile.betweenores.silver_ore",
-        "immersiveengineering:tile.immersiveengineering.ore.silver"
+        "betweenores:tile.betweenores.silver_ore"
       ],
       "output": [
         "embers:nugget_silver:0",
