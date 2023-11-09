@@ -52,7 +52,7 @@ recipes.remove(<quark:custom_bookshelf:*>);
 for i, wood in quarkChestPlank {
 	scripts.utils.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i), [
 		[wood, wood, wood],
-		[wood, <mcwfurnitures:iron_handle>, wood],
+		[wood, null, wood],
 		[wood, wood, wood]
 	]);
 

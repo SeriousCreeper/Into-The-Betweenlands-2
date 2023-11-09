@@ -95,7 +95,7 @@ val itemsToRemove = [
 	<pyrotech:stone_tank>,
 	<pyrotech:brick_tank>,
 	//<pyrotech:kiln_pit>,
-	//<pyrotech:worktable>,
+	<pyrotech:worktable>,
 	<pyrotech:worktable_stone>,
 	<pyrotech:compost_bin>,
 	<pyrotech:mulch>,
@@ -151,7 +151,7 @@ val itemsToRemove = [
 	<pyrotech:rock:1>,
 	<pyrotech:rock>,
 	<pyrotech:fluid.liquid_clay>,
-	//<pyrotech:crude_hammer>,
+	<pyrotech:crude_hammer>,
 	<pyrotech:stone_hammer>,
 	<pyrotech:flint_hammer>,
 	<pyrotech:iron_hammer>,
@@ -542,17 +542,17 @@ scripts.utils.addShaped("tool/crude_axe", <pyrotech:crude_axe>, [
 	[<thebetweenlands:items_misc:20>, null]
 ]);
 
-recipes.remove(<pyrotech:crude_hammer>);
-scripts.utils.addShaped("crude_hammer", <pyrotech:crude_hammer>, [
-	[<thebetweenlands:items_misc:50>, <thebetweenlands:swamp_reed_item>], 
-	[<thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:50>]
-]);
+//recipes.remove(<pyrotech:crude_hammer>);
+//scripts.utils.addShaped("crude_hammer", <pyrotech:crude_hammer>, [
+//	[<thebetweenlands:items_misc:50>, <thebetweenlands:swamp_reed_item>], 
+//	[<thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:50>]
+//]);
 
-recipes.remove(<pyrotech:worktable>);
-scripts.utils.addShaped("worktable", <pyrotech:worktable>, [
-	[<thebetweenlands:weedwood_plank_slab>], 
-	[<thebetweenlands:log_weedwood:*>]
-]);
+//recipes.remove(<pyrotech:worktable>);
+//scripts.utils.addShaped("worktable", <pyrotech:worktable>, [
+//	[<thebetweenlands:weedwood_plank_slab>], 
+//	[<thebetweenlands:log_weedwood:*>]
+//]);
 
 recipes.remove(<pyrotech:brick_kiln>);
 scripts.utils.addShaped("tech/machine/brick_kiln", <pyrotech:brick_kiln>, [

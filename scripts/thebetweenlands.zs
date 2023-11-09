@@ -76,19 +76,19 @@ scripts.utils.addShaped("unlit_sulfur_torchers", <thebetweenlands:sulfur_torch_e
 	[<ore:stickWood>]
 ]);
 
-recipes.remove(<thebetweenlands:weedwood_chest>);
-scripts.utils.addShaped("weedwood_chest", <thebetweenlands:weedwood_chest>, [
-	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>],
-	[<thebetweenlands:weedwood_planks>, <mcwfurnitures:iron_handle>, <thebetweenlands:weedwood_planks>],
-	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
-]);
+//recipes.remove(<thebetweenlands:weedwood_chest>);
+//scripts.utils.addShaped("weedwood_chest", <thebetweenlands:weedwood_chest>, [
+//	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>],
+//	[<thebetweenlands:weedwood_planks>, <mcwfurnitures:iron_handle>, <thebetweenlands:weedwood_planks>],
+//	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
+//]);
 
-recipes.remove(<thebetweenlands:weedwood_workbench>);
-scripts.utils.addShaped("weedwood_workbench", <thebetweenlands:weedwood_workbench>, [
-	[<thebetweenlands:weedwood_planks>, <ore:ingotOctine>, <thebetweenlands:weedwood_planks>],
-	[<ore:ingotOctine>, <pyrotech:worktable>, <ore:ingotOctine>],
-	[<thebetweenlands:weedwood_planks>, <ore:ingotOctine>, <thebetweenlands:weedwood_planks>]
-]);
+//recipes.remove(<thebetweenlands:weedwood_workbench>);
+//scripts.utils.addShaped("weedwood_workbench", <thebetweenlands:weedwood_workbench>, [
+//	[<thebetweenlands:weedwood_planks>, <ore:ingotOctine>, <thebetweenlands:weedwood_planks>],
+//	[<ore:ingotOctine>, <pyrotech:worktable>, <ore:ingotOctine>],
+//	[<thebetweenlands:weedwood_planks>, <ore:ingotOctine>, <thebetweenlands:weedwood_planks>]
+//]);
 
 recipes.addShaped("lantern_paper_1_candle", <thebetweenlands:lantern_paper_1>, [
 	[<thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>], 
