@@ -18,37 +18,13 @@ setAbsoluteMinMax:
     Notes:
         Sets the min and max distances for all directions combined.
 
-setAbsoluteMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max distance for all directions combined.
-
-setYMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max distance on the Y axis.
-
-setYMinMax:
+setZMinMax:
     Arguments:
         float, float
     Usage:
         min, max
     Notes:
-        Sets the min and max distances on the Y axis.
-
-setXMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max distance on the X axis.
+        Sets the min and max distances on the Z axis.
 
 setZMax:
     Arguments:
@@ -58,29 +34,13 @@ setZMax:
     Notes:
         Sets the max distance on the Z axis.
 
-setZMinMax:
+setYMinMax:
     Arguments:
         float, float
     Usage:
         min, max
     Notes:
-        Sets the min and max distances on the Z axis.
-
-setHorizontalMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min distance on the horizontal axis.
-
-setYMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min distance on the Y axis.
+        Sets the min and max distances on the Y axis.
 
 setXMinMax:
     Arguments:
@@ -90,6 +50,14 @@ setXMinMax:
     Notes:
         Sets the min and max distances on the X axis.
 
+setYMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min distance on the Y axis.
+
 setZMin:
     Arguments:
         float
@@ -97,6 +65,30 @@ setZMin:
         min
     Notes:
         Sets the min distance on the Z axis.
+
+setXMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max distance on the X axis.
+
+setXMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min distance on the X axis.
+
+setYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max distance on the Y axis.
 
 setHorizontalMax:
     Arguments:
@@ -114,11 +106,19 @@ setAbsoluteMin:
     Notes:
         Sets the min distance for all directions combined.
 
-setXMin:
+setAbsoluteMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max distance for all directions combined.
+
+setHorizontalMin:
     Arguments:
         float
     Usage:
         min
     Notes:
-        Sets the min distance on the X axis.
+        Sets the min distance on the horizontal axis.
 

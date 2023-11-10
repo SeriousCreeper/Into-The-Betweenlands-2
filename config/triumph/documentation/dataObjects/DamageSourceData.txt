@@ -2,18 +2,6 @@ These are the functions which can be called on a DamageSourceData object.
 
 
 
-getImmediateSourceData:
-    Notes:
-        Returns the EntityData object for the immediate source entity (This would be for things like projectiles.) so functions can be called on it.
-
-bypassesInvulnerability:
-    Arguments:
-        boolean
-    Usage:
-        true/false
-    Notes:
-        Sets if the damage source bypasses invulerability.
-
 damageType:
     Arguments:
         String
@@ -38,6 +26,34 @@ isProjectile:
     Notes:
         Sets if the damage source is a projectile.
 
+bypassesInvulnerability:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source bypasses invulerability.
+
+getImmediateSourceData:
+    Notes:
+        Returns the EntityData object for the immediate source entity (This would be for things like projectiles.) so functions can be called on it.
+
+bypassesMagic:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source bypasses magic.
+
+isFire:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source is fire.
+
 isMagic:
     Arguments:
         boolean
@@ -57,20 +73,4 @@ bypassesArmor:
         true/false
     Notes:
         Sets if the damage source bypasses armor.
-
-isFire:
-    Arguments:
-        boolean
-    Usage:
-        true/false
-    Notes:
-        Sets if the damage source is fire.
-
-bypassesMagic:
-    Arguments:
-        boolean
-    Usage:
-        true/false
-    Notes:
-        Sets if the damage source bypasses magic.
 

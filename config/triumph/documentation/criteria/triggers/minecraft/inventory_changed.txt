@@ -19,14 +19,6 @@ setOccupiedMinMax:
     Notes:
         Sets the min and max values for occupied inventory slots.
 
-setEmptyMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max value for empty inventory slots.
-
 setFullMax:
     Arguments:
         float
@@ -34,22 +26,6 @@ setFullMax:
         max
     Notes:
         Sets the max value for full inventory slots.
-
-setOccupiedMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min value for occupied inventory slots.
-
-setFullMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min value for full inventory slots.
 
 setEmptyMin:
     Arguments:
@@ -59,14 +35,6 @@ setEmptyMin:
     Notes:
         Sets the min value for empty inventory slots.
 
-setOccupiedMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max value for occupied inventory slots.
-
 setFullMinMax:
     Arguments:
         float, float
@@ -75,6 +43,22 @@ setFullMinMax:
     Notes:
         Sets the min and max values for full inventory slots.
 
+setOccupiedMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min value for occupied inventory slots.
+
+setOccupiedMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max value for occupied inventory slots.
+
 setEmptyMinMax:
     Arguments:
         float, float
@@ -82,6 +66,22 @@ setEmptyMinMax:
         min, max
     Notes:
         Sets the min and max values for empty inventory slots.
+
+setEmptyMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max value for empty inventory slots.
+
+setFullMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min value for full inventory slots.
 
 setCount:
     Arguments:

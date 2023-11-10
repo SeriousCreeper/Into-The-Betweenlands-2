@@ -3,9 +3,13 @@ trigger.
 
 
 
-getEntityData:
+setItem:
+    Arguments:
+        ItemBlockData
+    Usage:
+        item data
     Notes:
-        Returns the EntityData object so functions can be called on it.
+        Sets the required item that must be traded for from the villager.
 
 setEntityType:
     Arguments:
@@ -15,13 +19,9 @@ setEntityType:
     Notes:
         Sets the entity type.
 
-setItem:
-    Arguments:
-        ItemBlockData
-    Usage:
-        item data
+getEntityData:
     Notes:
-        Sets the required item that must be traded for from the villager.
+        Returns the EntityData object so functions can be called on it.
 
 setCount:
     Arguments:

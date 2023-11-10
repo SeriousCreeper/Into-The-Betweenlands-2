@@ -1,0 +1,8 @@
+printDefaultConfigs(false)
+printDocumentation(false)
+removeVanillaAdvancements(true)
+removeModAdvancements(false)
+keepAdvancements([""])
+removeAdvancements(["mysticalworld", "mod_lavacow"])
+allowDragging(true)
+useNewParentCompletionCriteriaNames()

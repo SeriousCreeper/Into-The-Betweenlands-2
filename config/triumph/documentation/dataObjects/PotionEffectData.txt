@@ -26,14 +26,6 @@ setDurationMinMax:
     Notes:
         Sets the min and max duration for the effect.
 
-setAmbient:
-    Arguments:
-        boolean
-    Usage:
-        true/false
-    Notes:
-        Sets if the effect is ambient.
-
 setAmplifierMax:
     Arguments:
         float
@@ -42,13 +34,13 @@ setAmplifierMax:
     Notes:
         Sets the max amplifier for the effect.
 
-setDurationMin:
+setAmbient:
     Arguments:
-        float
+        boolean
     Usage:
-        min
+        true/false
     Notes:
-        Sets the min duration for the effect.
+        Sets if the effect is ambient.
 
 setAmplifierMin:
     Arguments:
@@ -57,6 +49,14 @@ setAmplifierMin:
         min
     Notes:
         Sets the min amplifier for the effect.
+
+setDurationMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min duration for the effect.
 
 setDurationMax:
     Arguments:

@@ -3,15 +3,7 @@ trigger.
 
 
 
-setEnteredWorldType:
-    Arguments:
-        String
-    Usage:
-        WorldType id
-    Notes:
-        Sets the WorldType id.
-
-setEnteredGeneratorOptions:
+setExitedGeneratorOptions:
     Arguments:
         String
     Usage:
@@ -22,38 +14,6 @@ setEnteredGeneratorOptions:
 getDistanceData:
     Notes:
         Returns the DistanceData object so functions can be called on it.
-
-setExitedBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome id
-    Notes:
-        Sets the biome id for the exited location. Can be an int or String.
-
-setExitedFeature:
-    Arguments:
-        String
-    Usage:
-        feature id
-    Notes:
-        Sets the feature id for the exited location. Used for things like structures.
-
-setEnteredBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome id
-    Notes:
-        Sets the biome id for the entered location. Can be an int or String.
-
-setExitedDimID:
-    Arguments:
-        int
-    Usage:
-        dimension id
-    Notes:
-        Sets the dimension id.
 
 getEnteredData:
     Notes:
@@ -71,21 +31,37 @@ getExitedData:
     Notes:
         Returns the LocationData object for the exited location so functions can be called on it.
 
-setEnteredFeature:
+setEnteredBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id for the entered location. Can be an int or String.
+
+setExitedBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id for the exited location. Can be an int or String.
+
+setExitedFeature:
     Arguments:
         String
     Usage:
         feature id
     Notes:
-        Sets the feature id for the entered location. Used for things like structures.
+        Sets the feature id for the exited location. Used for things like structures.
 
-setExitedGeneratorOptions:
+setExitedDimID:
     Arguments:
-        String
+        int
     Usage:
-        generator string
+        dimension id
     Notes:
-        Sets the generator options string.
+        Sets the dimension id.
 
 setExitedWorldType:
     Arguments:
@@ -94,6 +70,30 @@ setExitedWorldType:
         WorldType id
     Notes:
         Sets the WorldType id.
+
+setEnteredWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType id
+    Notes:
+        Sets the WorldType id.
+
+setEnteredFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id for the entered location. Used for things like structures.
+
+setEnteredGeneratorOptions:
+    Arguments:
+        String
+    Usage:
+        generator string
+    Notes:
+        Sets the generator options string.
 
 setCount:
     Arguments:

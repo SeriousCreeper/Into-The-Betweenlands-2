@@ -3,6 +3,14 @@ trigger.
 
 
 
+getParentData:
+    Notes:
+        Returns the EntityData object for the parent so functions can be called on it.
+
+getChildData:
+    Notes:
+        Returns the EntityData object for the child so functions can be called on it.
+
 setChildType:
     Arguments:
         String
@@ -10,14 +18,6 @@ setChildType:
         entity type
     Notes:
         Sets the child entity type.
-
-getChildData:
-    Notes:
-        Returns the EntityData object for the child so functions can be called on it.
-
-getParentData:
-    Notes:
-        Returns the EntityData object for the parent so functions can be called on it.
 
 getPartnerData:
     Notes:
