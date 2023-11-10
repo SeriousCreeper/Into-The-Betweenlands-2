@@ -2,6 +2,16 @@
   "pestle_and_mortar": [
     {
       "input": {
+        "id": "thebetweenlands:items_misc",
+        "meta": 7
+      },
+      "output": {
+        "id": "betweenlandsredstone:scabyst_tripwire",
+        "size": 3
+      }
+    },
+    {
+      "input": {
         "id": "thebetweenlands:nettle_flowered"
       },
       "output": {

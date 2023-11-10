@@ -69,9 +69,9 @@ scripts.utils.addShaped("mystgears_recipe_windup_box_modified", <mystgears:windu
 
 recipes.remove(<mysticalmechanics:gear_gold_on>);
 scripts.utils.addShaped("mysticalmechanics_gear_gold_on_modified", <mysticalmechanics:gear_gold_on>, [
-	[<minecraft:redstone_torch>, <minecraft:redstone_torch>, <minecraft:redstone_torch>], 
-	[<minecraft:redstone_torch>, <mystgears:gear_octine>, <minecraft:redstone_torch>], 
-	[<minecraft:redstone_torch>, <minecraft:redstone_torch>, <minecraft:redstone_torch>]
+	[<betweenlandsredstone:scabyst_torch>, <betweenlandsredstone:scabyst_torch>, <betweenlandsredstone:scabyst_torch>], 
+	[<betweenlandsredstone:scabyst_torch>, <mystgears:gear_octine>, <betweenlandsredstone:scabyst_torch>], 
+	[<betweenlandsredstone:scabyst_torch>, <betweenlandsredstone:scabyst_torch>, <betweenlandsredstone:scabyst_torch>]
 ]);
 
 recipes.remove(<mysticalmechanics:gear_gold_off>);

@@ -430,7 +430,7 @@ scripts.utils.addShaped("tech/machine/mechanical_compacting_bin", <pyrotech:mech
 recipes.remove(<pyrotech:mechanical_mulch_spreader>);
 scripts.utils.addShaped("tech/machine/mechanical_mulch_spreader", <pyrotech:mechanical_mulch_spreader>, [
 	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>], 
-	[<pyrotech:mechanical_hopper>, <minecraft:dispenser>, <pyrotech:mechanical_hopper>], 
+	[<pyrotech:mechanical_hopper>, <betweenlandsredstone:scabyst_dispenser>, <pyrotech:mechanical_hopper>], 
 	[<pyrotech:masonry_brick_block>, <pyrotech:planks_tarred>, <pyrotech:masonry_brick_block>]
 ]);
 

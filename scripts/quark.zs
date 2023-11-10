@@ -82,9 +82,9 @@ scripts.utils.addShapeless("quark-lit_lamp-modified", <quark:lit_lamp>, [<minecr
 
 recipes.remove(<quark:redstone_randomizer>);
 scripts.utils.addShaped("redstone_randomizer", <quark:redstone_randomizer>, [
-	[null, <minecraft:redstone_torch>, null],
-	[<minecraft:redstone_torch>, <thebetweenlands:items_misc:47>, <minecraft:redstone_torch>],
-	[<thebetweenlands:smooth_cragrock>, <thebetweenlands:smooth_cragrock>, <thebetweenlands:smooth_cragrock>]
+	[null, <betweenlandsredstone:scabyst_torch>, null],
+	[<betweenlandsredstone:scabyst_torch>, <thebetweenlands:items_misc:47>, <betweenlandsredstone:scabyst_torch>],
+	[<thebetweenlands:mud_bricks>, <thebetweenlands:mud_bricks>, <thebetweenlands:mud_bricks>]
 ]);
 
 recipes.remove(<quark:tiny_potato>);

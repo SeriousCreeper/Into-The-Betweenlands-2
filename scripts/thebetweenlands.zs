@@ -90,6 +90,18 @@ scripts.utils.addShaped("unlit_sulfur_torchers", <thebetweenlands:sulfur_torch_e
 //	[<thebetweenlands:weedwood_planks>, <ore:ingotOctine>, <thebetweenlands:weedwood_planks>]
 //]);
 
+recipes.addShaped("bucket_weedwood", <thebetweenlands:bl_bucket>.withTag({Fluid: {}}), [
+	[null, <thebetweenlands:items_misc:7>, null],
+	[<thebetweenlands:weedwood_planks>, null, <thebetweenlands:weedwood_planks>],
+	[null, <thebetweenlands:weedwood_planks>, null]
+]);
+
+recipes.addShaped("bucket_syrmorite", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), [
+	[null, <thebetweenlands:items_misc:7>, null],
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>],
+	[null, <ore:ingotSyrmorite>, null]
+]);
+
 recipes.addShaped("lantern_paper_1_candle", <thebetweenlands:lantern_paper_1>, [
 	[<thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>, <thebetweenlands:weedwood_plank_slab>], 
 	[<thebetweenlands:amate_paper_pane_1> | <thebetweenlands:amate_paper_pane_2> | <thebetweenlands:amate_paper_pane_3>, <ore:candles>, <thebetweenlands:amate_paper_pane_1> | <thebetweenlands:amate_paper_pane_2> | <thebetweenlands:amate_paper_pane_3>], 

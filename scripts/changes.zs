@@ -35,31 +35,32 @@ recipes.replaceAllOccurences(<minecraft:redstone_torch>, <betweenlandsredstone:s
 recipes.replaceAllOccurences(<minecraft:repeater>, <betweenlandsredstone:scabyst_repeater>);
 recipes.replaceAllOccurences(<minecraft:comparator>, <betweenlandsredstone:scabyst_comparator>);
 recipes.replaceAllOccurences(<minecraft:piston>, <betweenlandsredstone:scabyst_piston>);
+recipes.replaceAllOccurences(<minecraft:tripwire_hook>, <betweenlandsredstone:scabyst_tripwire_hook>);
 
 
 // VANILLA
 val minecraftItems = loadedMods["minecraft"].items;
 
 val itemsToKeep = [
-	<minecraft:golden_rail>,
-	<minecraft:detector_rail>,
-	<minecraft:dispenser>,
-	<minecraft:sticky_piston>,
-	<minecraft:piston>,
-	<minecraft:observer>,
-	<minecraft:dropper>,
+	//<minecraft:golden_rail>,
+	//<minecraft:detector_rail>,
+	//<minecraft:dispenser>,
+	//<minecraft:sticky_piston>,
+	//<minecraft:piston>,
+	//<minecraft:observer>,
+	//<minecraft:dropper>,
 	<minecraft:lead>,
 	<minecraft:armor_stand>,
-	<minecraft:minecart>,
-	<minecraft:chest_minecart>,
-	<minecraft:hopper_minecart>,
+	//<minecraft:minecart>,
+	//<minecraft:chest_minecart>,
+	//<minecraft:hopper_minecart>,
 	<minecraft:iron_bars>,
 	<minecraft:trapped_chest>,
 	//<minecraft:item_frame>,
-	<minecraft:activator_rail>,
-	<minecraft:rail>,
+	//<minecraft:activator_rail>,
+	//<minecraft:rail>,
 	//<minecraft:flint_and_steel>,
-	<minecraft:tripwire_hook>,
+	//<minecraft:tripwire_hook>,
 	<minecraft:string>,
 	<minecraft:slime>,
 	//<minecraft:anvil>,
@@ -75,8 +76,8 @@ val itemsToKeep = [
 	<minecraft:spawn_egg>,
 	//<minecraft:redstone_torch>,
 	//<minecraft:redstone>,
-	<minecraft:repeater>,
-	<minecraft:comparator>,
+	//<minecraft:repeater>,
+	//<minecraft:comparator>,
 	//<minecraft:redstone_block>,
 	//<minecraft:redstone_lamp>,
 	<minecraft:glass_bottle>,
@@ -145,7 +146,7 @@ recipes.remove(<minecraft:hopper_minecart>);
 scripts.utils.addShaped("hopper_minecart", <minecraft:hopper_minecart>, [[<thebetweenlands:syrmorite_hopper>], [<minecraft:minecart>]]);
 
 recipes.remove(<minecraft:trapped_chest>);
-scripts.utils.addShapeless("trapped_chest", <minecraft:trapped_chest>, [<thebetweenlands:weedwood_chest>, <minecraft:tripwire_hook>]);
+scripts.utils.addShapeless("trapped_chest", <minecraft:trapped_chest>, [<thebetweenlands:weedwood_chest>, <betweenlandsredstone:scabyst_tripwire_hook>]);
 
 recipes.remove(<minecraft:item_frame>);
 scripts.utils.addShaped("item_frame", <minecraft:item_frame> * 2, [
