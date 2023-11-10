@@ -423,7 +423,7 @@ scripts.utils.addShaped("tech/machine/brick_sawmill", <pyrotech:brick_sawmill>, 
 recipes.remove(<pyrotech:mechanical_compacting_bin>);
 scripts.utils.addShaped("tech/machine/mechanical_compacting_bin", <pyrotech:mechanical_compacting_bin>, [
 	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>], 
-	[<pyrotech:mechanical_hopper>, <pyrotech:compacting_bin>, <minecraft:piston>], 
+	[<pyrotech:mechanical_hopper>, <pyrotech:compacting_bin>, <betweenlandsredstone:scabyst_piston>], 
 	[<pyrotech:masonry_brick_block>, <pyrotech:planks_tarred>, <pyrotech:masonry_brick_block>]
 ]);
 
@@ -450,7 +450,7 @@ scripts.utils.addShaped("tech/machine/bellows", <pyrotech:bellows>, [
 
 recipes.remove(<pyrotech:mechanical_bellows>);
 scripts.utils.addShaped("tech/machine/mechanical_bellows", <pyrotech:mechanical_bellows>, [
-	[<pyrotech:material:23>, <minecraft:piston>, <pyrotech:material:23>], 
+	[<pyrotech:material:23>, <betweenlandsredstone:scabyst_piston>, <pyrotech:material:23>], 
 	[<ore:stickStone>, <pyrotech:bellows>, <ore:stickStone>], 
 	[<pyrotech:planks_tarred>, null, <pyrotech:planks_tarred>]
 ]);
@@ -724,8 +724,8 @@ for metal in metals {
 }
 
 GraniteAnvil.addRecipe("stick_stone", <pyrotech:material:27> * 4, <pyrotech:material:16>, 4, "pickaxe", true);
-IroncladAnvil.addRecipe("redstone_dust_from_dense_redstone", <minecraft:redstone> * 2, <pyrotech:material:36>, 2, "hammer");
-IroncladAnvil.addRecipe("redstone_from_redstone_block", <minecraft:redstone> * 9, <ore:blockRedstone>, 8, "hammer");
+IroncladAnvil.addRecipe("redstone_dust_from_dense_redstone", <betweenlandsredstone:scabyst_dust> * 2, <pyrotech:material:36>, 2, "hammer");
+//IroncladAnvil.addRecipe("redstone_from_redstone_block", <minecraft:redstone> * 9, <ore:blockRedstone>, 8, "hammer");
 IroncladAnvil.addRecipe("valonite_block_to_gem", <thebetweenlands:items_misc:19> * 9, <thebetweenlands:valonite_block>, 8, "pickaxe");
 
 

@@ -19,21 +19,21 @@ scripts.utils.addShaped("embers-blend_caminite", <embers:blend_caminite> * 5, [
 
 recipes.remove(<embers:mech_core>);
 scripts.utils.addShaped("embers-mech_core", <embers:mech_core>, [
-	[<ore:ingotIron>, <embers:plate_lead>, <ore:ingotIron>], 
+	[<ore:ingotSyrmorite>, <embers:plate_lead>, <ore:ingotSyrmorite>], 
 	[<embers:plate_lead>, <ore:plateLead>, <embers:plate_lead>], 
-	[<ore:ingotIron>, <embers:plate_lead>, <ore:ingotIron>]
+	[<ore:ingotSyrmorite>, <embers:plate_lead>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:stamper_base>);
 recipes.addShaped("embers-stamp_base", <embers:stamper_base>, [
-	[<ore:ingotIron>, null, <ore:ingotIron>], 
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
 	[<embers:block_caminite_brick:*>, <thebetweenlands:bl_bucket:1>.noReturn(), <embers:block_caminite_brick:*>]]);
 
 
 recipes.remove(<embers:stamper>);
 scripts.utils.addShaped("embers-stamper", <embers:stamper>, [
-	[<embers:brick_caminite:*>, <ore:ingotIron>, <embers:brick_caminite:*>], 
-	[<embers:brick_caminite:*>, <ore:blockIron>, <embers:brick_caminite:*>], 
+	[<embers:brick_caminite:*>, <ore:ingotSyrmorite>, <embers:brick_caminite:*>], 
+	[<embers:brick_caminite:*>, <ore:blockSyrmorite>, <embers:brick_caminite:*>], 
 	[<embers:brick_caminite:*>, null, <embers:brick_caminite:*>]
 ]);
 
@@ -54,15 +54,15 @@ scripts.utils.addShaped("embers-ashen_brick", <embers:ashen_brick> * 4, [
 recipes.remove(<embers:auto_hammer>);
 scripts.utils.addShaped("auto_hammer", <embers:auto_hammer>, [
 	[<embers:stairs_caminite_brick:*>, <embers:stairs_caminite_brick:*>, null], 
-	[<ore:blockCopper>, <ore:ingotIron>, <ore:blockIron>], 
+	[<ore:blockCopper>, <ore:ingotSyrmorite>, <ore:blockSyrmorite>], 
 	[<embers:stairs_caminite_brick:*>, <embers:stairs_caminite_brick:*>, null]
 ]);
 
 recipes.remove(<embers:block_furnace>);
 scripts.utils.addShaped("embers_block_furnace", <embers:block_furnace>, [
 	[<embers:brick_caminite:*>, <embers:plate_caminite:*>, <embers:brick_caminite:*>], 
-	[<embers:brick_caminite:*>, <ore:ingotIron>, <embers:brick_caminite:*>], 
-	[<ore:ingotIron>, <thebetweenlands:sulfur_furnace>, <ore:ingotIron>]
+	[<embers:brick_caminite:*>, <ore:ingotSyrmorite>, <embers:brick_caminite:*>], 
+	[<ore:ingotSyrmorite>, <thebetweenlands:sulfur_furnace>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:cinder_plinth>);
@@ -74,94 +74,94 @@ scripts.utils.addShaped("embers_cinder_plinth", <embers:cinder_plinth>, [
 
 recipes.remove(<embers:boiler>);
 scripts.utils.addShaped("embers_boiler_modified", <embers:boiler>, [
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <thebetweenlands:sulfur_furnace>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <ore:blockCopper>, <ore:ingotIron>]
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <thebetweenlands:sulfur_furnace>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:blockCopper>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:ember_bore>);
 scripts.utils.addShaped("ember_bore", <embers:ember_bore>, [
-	[<embers:stairs_caminite_brick:*>, <ore:ingotIron>, <embers:stairs_caminite_brick:*>], 
+	[<embers:stairs_caminite_brick:*>, <ore:ingotSyrmorite>, <embers:stairs_caminite_brick:*>], 
 	[<embers:stairs_caminite_brick:*>, <embers:mech_core:*>, <embers:stairs_caminite_brick:*>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:pipe>);
 scripts.utils.addShaped("pipe", <embers:pipe> * 8, [
-	[<ore:ingotIron>, <ore:plateIron>, <ore:ingotIron>]
+	[<ore:ingotSyrmorite>, <ore:plateSyrmorite>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:ember_receiver>);
 scripts.utils.addShaped("ember_receiver", <embers:ember_receiver> * 4, [
-	[<ore:ingotIron>, null, <ore:ingotIron>], 
-	[<ore:ingotIron>, <embers:plate_caminite:*>, <ore:ingotIron>]
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <embers:plate_caminite:*>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:ember_emitter>);
 scripts.utils.addShaped("ember_emitter", <embers:ember_emitter> * 4, [
-	[null, <ore:ingotIron>, null], 
-	[null, <ore:ingotIron>, null], 
-	[<ore:ingotIron>, <embers:plate_caminite:*>, <ore:ingotIron>]
+	[null, <ore:ingotSyrmorite>, null], 
+	[null, <ore:ingotSyrmorite>, null], 
+	[<ore:ingotSyrmorite>, <embers:plate_caminite:*>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:ember_activator>);
 scripts.utils.addShaped("ember_activator", <embers:ember_activator>, [
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:plateIron>, <thebetweenlands:sulfur_furnace>, <ore:plateIron>]
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>], 
+	[<ore:plateSyrmorite>, <thebetweenlands:sulfur_furnace>, <ore:plateSyrmorite>]
 ]);
 
 recipes.remove(<embers:block_tank>);
 scripts.utils.addShaped("block_tank", <embers:block_tank>, [
 	[<embers:brick_caminite:*>, null, <embers:brick_caminite:*>], 
-	[<ore:plateIron>, null, <ore:plateIron>], 
-	[<embers:brick_caminite:*>, <ore:ingotIron>, <embers:brick_caminite:*>]
+	[<ore:plateSyrmorite>, null, <ore:plateSyrmorite>], 
+	[<embers:brick_caminite:*>, <ore:ingotSyrmorite>, <embers:brick_caminite:*>]
 ]);
 scripts.utils.addShapeless("block_tank_clear", <embers:block_tank>, [<embers:block_tank>]);
 
 recipes.remove(<embers:copper_cell>);
 scripts.utils.addShaped("copper_cell", <embers:copper_cell>.withTag({emberCapacity: 24000.0, ember: 0.0}), [
-	[<embers:block_caminite_brick:*>, <ore:ingotIron>, <embers:block_caminite_brick:*>], 
-	[<ore:ingotIron>, <ore:blockCopper>, <ore:ingotIron>], 
-	[<embers:block_caminite_brick:*>, <ore:ingotIron>, <embers:block_caminite_brick:*>]
+	[<embers:block_caminite_brick:*>, <ore:ingotSyrmorite>, <embers:block_caminite_brick:*>], 
+	[<ore:ingotSyrmorite>, <ore:blockCopper>, <ore:ingotSyrmorite>], 
+	[<embers:block_caminite_brick:*>, <ore:ingotSyrmorite>, <embers:block_caminite_brick:*>]
 ]);
 
 recipes.remove(<embers:bin>);
 scripts.utils.addShaped("bin", <embers:bin>, [
-	[<ore:ingotIron>, null, <ore:ingotIron>], 
-	[<ore:ingotIron>, null, <ore:ingotIron>], 
-	[<ore:ingotIron>, <ore:plateIron>, <ore:ingotIron>]
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:plateSyrmorite>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:mech_accessor>);
 scripts.utils.addShaped("mech_accessor", <embers:mech_accessor>, [
-	[<embers:stairs_caminite_brick:*>, <ore:plateIron>, <ore:ingotIron>]
+	[<embers:stairs_caminite_brick:*>, <ore:plateSyrmorite>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:mixer>);
 scripts.utils.addShaped("mixer", <embers:mixer>, [
-	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
-	[<ore:plateIron>, <ore:ingotIron>, <ore:plateIron>], 
-	[<ore:ingotIron>, <embers:mech_core:*>, <ore:ingotIron>]
+	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateSyrmorite>], 
+	[<ore:plateSyrmorite>, <ore:ingotSyrmorite>, <ore:plateSyrmorite>], 
+	[<ore:ingotSyrmorite>, <embers:mech_core:*>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:heat_coil>);
 scripts.utils.addShaped("heat_coil", <embers:heat_coil>, [
 	[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], 
-	[<ore:ingotIron>, <ore:blockCopper>, <ore:ingotIron>], 
+	[<ore:ingotSyrmorite>, <ore:blockCopper>, <ore:ingotSyrmorite>], 
 	[null, <embers:mech_core:*>, null]
 ]);
 
 recipes.remove(<embers:fluid_dropper>);
 scripts.utils.addShaped("fluid_dropper", <embers:fluid_dropper>, [
 	[null, <embers:pipe:*>, null], 
-	[<ore:ingotIron>, null, <ore:ingotIron>]
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:large_tank>);
 scripts.utils.addShaped("large_tank", <embers:large_tank>, [
 	[<embers:stairs_caminite_brick:*>, null, <embers:stairs_caminite_brick:*>], 
-	[<ore:ingotIron>, null, <ore:ingotIron>], 
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
 	[<embers:stairs_caminite_brick:*>, <embers:block_tank:*>, <embers:stairs_caminite_brick:*>]
 ]);
 
@@ -176,40 +176,40 @@ recipes.remove(<embers:fluid_gauge>);
 scripts.utils.addShaped("fluid_gauge", <embers:fluid_gauge>, [
 	[<ore:dustRedstone>], 
 	[<thebetweenlands:items_misc:32>], 
-	[<ore:plateIron>]
+	[<ore:plateSyrmorite>]
 ]);
 
 recipes.remove(<embers:block_lantern>);
 scripts.utils.addShaped("block_lantern", <embers:block_lantern> * 4, [
-	[<ore:plateIron>], 
+	[<ore:plateSyrmorite>], 
 	[<embers:shard_ember:*>], 
-	[<ore:ingotIron>]
+	[<ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:beam_splitter>);
 scripts.utils.addShaped("beam_splitter", <embers:beam_splitter>, [
 	[null, <ore:ingotDawnstone>, null], 
-	[<ore:ingotIron>, <ore:plateIron>, <ore:ingotIron>], 
-	[null, <ore:ingotIron>, null]
+	[<ore:ingotSyrmorite>, <ore:plateSyrmorite>, <ore:ingotSyrmorite>], 
+	[null, <ore:ingotSyrmorite>, null]
 ]);
 
 recipes.remove(<embers:ember_relay>);
 scripts.utils.addShaped("ember_relay", <embers:ember_relay> * 4, [
-	[null, <ore:ingotIron>, null], 
-	[<ore:ingotIron>, null, <ore:ingotIron>], 
-	[null, <ore:plateIron>, null]
+	[null, <ore:ingotSyrmorite>, null], 
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
+	[null, <ore:plateSyrmorite>, null]
 ]);
 
 recipes.remove(<embers:charger>);
 scripts.utils.addShaped("charger", <embers:charger>, [
-	[null, <ore:plateIron>, null], 
-	[<ore:ingotDawnstone>, <ore:ingotIron>, <ore:ingotDawnstone>], 
-	[<ore:ingotIron>, <ore:plateCopper>, <ore:ingotIron>]
+	[null, <ore:plateSyrmorite>, null], 
+	[<ore:ingotDawnstone>, <ore:ingotSyrmorite>, <ore:ingotDawnstone>], 
+	[<ore:ingotSyrmorite>, <ore:plateCopper>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:breaker>);
 scripts.utils.addShaped("breaker", <embers:breaker>, [
-	[<ore:plateIron>, <ore:ingotIron>, <ore:plateIron>], 
+	[<ore:plateSyrmorite>, <ore:ingotSyrmorite>, <ore:plateSyrmorite>], 
 	[<ore:ingotLead>, <ore:dustRedstone>, <ore:ingotLead>], 
 	[<ore:ingotLead>, null, <ore:ingotLead>]
 ]);
@@ -218,35 +218,35 @@ recipes.remove(<embers:ember_pulser>);
 scripts.utils.addShaped("ember_pulser", <embers:ember_pulser>, [
 	[<ore:plateDawnstone>], 
 	[<embers:ember_emitter:*>], 
-	[<ore:ingotIron>]
+	[<ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:inferno_forge>);
 scripts.utils.addShaped("inferno_forge", <embers:inferno_forge>, [
-	[<embers:block_dawnstone:*>, <ore:plateIron>, <embers:block_dawnstone:*>], 
+	[<embers:block_dawnstone:*>, <ore:plateSyrmorite>, <embers:block_dawnstone:*>], 
 	[<ore:ingotDawnstone>, <ore:blockCopper>, <ore:ingotDawnstone>], 
 	[<embers:block_caminite_brick:*>, <embers:wildfire_core:*>, <embers:block_caminite_brick:*>]
 ]);
 
 recipes.remove(<embers:mechanical_pump>);
 scripts.utils.addShaped("mechanical_pump", <embers:mechanical_pump>, [
-	[<embers:pipe:*>, <ore:plateIron>, <embers:pipe:*>], 
-	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
+	[<embers:pipe:*>, <ore:plateSyrmorite>, <embers:pipe:*>], 
+	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateSyrmorite>], 
 	[<embers:brick_caminite:*>, <embers:pump:*>, <embers:brick_caminite:*>]
 ]);
 
 recipes.remove(<embers:mini_boiler>);
 scripts.utils.addShaped("mini_boiler", <embers:mini_boiler>, [
-	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
-	[<ore:ingotIron>, null, <ore:plateIron>], 
-	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
+	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateSyrmorite>], 
+	[<ore:ingotSyrmorite>, null, <ore:plateSyrmorite>], 
+	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateSyrmorite>]
 ]);
 
 recipes.remove(<embers:fluid_transfer>);
 scripts.utils.addShaped("fluid_transfer", <embers:fluid_transfer> * 4, [
-	[<ore:plateIron>, <embers:pipe:*>, <ore:plateIron>], 
-	[<ore:ingotIron>, <embers:pipe:*>, <ore:ingotIron>], 
-	[<ore:ingotIron>, null, <ore:ingotIron>]
+	[<ore:plateSyrmorite>, <embers:pipe:*>, <ore:plateSyrmorite>], 
+	[<ore:ingotSyrmorite>, <embers:pipe:*>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:clockwork_attenuator>);
@@ -260,7 +260,7 @@ recipes.remove(<embers:steam_engine>);
 scripts.utils.addShaped("steam_engine", <embers:steam_engine>, [
 	[null, <embers:pipe:*>, <embers:pipe:*>], 
 	[<mysticalmechanics:axle_iron:*>, <mysticalmechanics:gear_iron>, <ore:plateCopper>], 
-	[<ore:plateIron>, <ore:plateIron>, <ore:plateCopper>]
+	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateCopper>]
 ]);
 
 recipes.remove(<embers:mech_actuator>);
@@ -277,28 +277,28 @@ scripts.utils.addShaped("mech_actuator_single", <embers:mech_actuator_single>, [
 
 recipes.remove(<embers:tinker_hammer>);
 scripts.utils.addShaped("tinker_hammer", <embers:tinker_hammer>, [
-	[<ore:ingotIron>, <ore:ingotLead>, <ore:ingotIron>],
-	[<ore:ingotIron>, <ore:stickWood>, <ore:ingotIron>],
+	[<ore:ingotSyrmorite>, <ore:ingotLead>, <ore:ingotSyrmorite>],
+	[<ore:ingotSyrmorite>, <ore:stickWood>, <ore:ingotSyrmorite>],
 	[null, <ore:stickWood>, null]
 ]);
 
 recipes.remove(<embers:ember_detector>);
 scripts.utils.addShaped("ember_detector", <embers:ember_detector>, [
-	[null, <ore:ingotIron>, null], 
-	[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+	[null, <ore:ingotSyrmorite>, null], 
+	[<ore:ingotSyrmorite>, <ore:dustRedstone>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:ember_jar>);
 scripts.utils.addShaped("ember_jar", <embers:ember_jar>.withTag({emberCapacity: 2000.0, ember: 0.0}), [
-	[null, <ore:ingotIron>, null], 
-	[<ore:ingotIron>, <embers:shard_ember:*>, <ore:ingotIron>], 
+	[null, <ore:ingotSyrmorite>, null], 
+	[<ore:ingotSyrmorite>, <embers:shard_ember:*>, <ore:ingotSyrmorite>], 
 	[null, <ore:blockGlass>, null]
 ]);
 
 recipes.remove(<embers:ember_cartridge>);
 scripts.utils.addShaped("ember_cartridge", <embers:ember_cartridge>.withTag({emberCapacity: 6000.0, ember: 0.0}), [
-	[<ore:ingotIron>, <ore:plateCopper>, <ore:ingotIron>], 
+	[<ore:ingotSyrmorite>, <ore:plateCopper>, <ore:ingotSyrmorite>], 
 	[<ore:blockGlass>, <embers:crystal_ember:*>, <ore:blockGlass>], 
 	[null, <ore:blockGlass>, null]
 ]);
@@ -306,7 +306,7 @@ scripts.utils.addShaped("ember_cartridge", <embers:ember_cartridge>.withTag({emb
 recipes.remove(<embers:ignition_cannon>);
 scripts.utils.addShaped("ignition_cannon", <embers:ignition_cannon>.withTag({cooldown: 0}), [
 	[null, <ore:ingotDawnstone>, <embers:plate_dawnstone>], 
-	[<ore:ingotDawnstone>, <embers:plate_dawnstone>, <ore:ingotIron>], 
+	[<ore:ingotDawnstone>, <embers:plate_dawnstone>, <ore:ingotSyrmorite>], 
 	[<embers:shard_ember>, <ore:stickWood>, null]
 ]);
 
@@ -319,41 +319,41 @@ scripts.utils.addShaped("ashen_cloak_head", <embers:ashen_cloak_head>, [
 
 recipes.remove(<embers:glimmer_lamp>);
 scripts.utils.addShaped("glimmer_lamp", <embers:glimmer_lamp>.withTag({light: 1200}), [
-	[null, <ore:plateIron>, null], 
+	[null, <ore:plateSyrmorite>, null], 
 	[<minecraft:iron_bars>, <embers:glimmer_shard>, <minecraft:iron_bars>], 
-	[null, <ore:plateIron>, null]
+	[null, <ore:plateSyrmorite>, null]
 ]);
 
 recipes.remove(<embers:jet_augment>);
 scripts.utils.addShaped("jet_augment", <embers:jet_augment>, [
 	[<ore:plateDawnstone>, <ore:plateDawnstone>, null], 
-	[<ore:ingotIron>, <embers:shard_ember:*>, <ore:ingotDawnstone>],
+	[<ore:ingotSyrmorite>, <embers:shard_ember:*>, <ore:ingotDawnstone>],
 	[<ore:plateDawnstone>, <ore:plateDawnstone>, null]
 ]);
 
 recipes.remove(<embers:resonating_bell>);
 scripts.utils.addShaped("resonating_bell", <embers:resonating_bell>, [
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:plateIron>], 
-	[null, <ore:ingotSilver>, <ore:ingotIron>], 
-	[<ore:plateSilver>, null, <ore:ingotIron>]
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:plateSyrmorite>], 
+	[null, <ore:ingotSilver>, <ore:ingotSyrmorite>], 
+	[<ore:plateSilver>, null, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:diffraction_barrel>);
 scripts.utils.addShaped("diffraction_barrel", <embers:diffraction_barrel>, [
-	[<minecraft:iron_bars:*>, <ore:plateIron>, <embers:superheater:*>]
+	[<minecraft:iron_bars:*>, <ore:plateSyrmorite>, <embers:superheater:*>]
 ]);
 
 recipes.remove(<embers:tinker_lens>);
 scripts.utils.addShaped("tinker_lens", <embers:tinker_lens>, [
-	[<ore:ingotIron>, <ore:nuggetLead>, null], 
+	[<ore:ingotSyrmorite>, <ore:nuggetLead>, null], 
 	[<ore:plateLead>, <ore:paneGlass>, <ore:nuggetLead>], 
-	[<ore:ingotIron>, <ore:nuggetLead>, null]
+	[<ore:ingotSyrmorite>, <ore:nuggetLead>, null]
 ]);
 
 recipes.remove(<embers:spark_plug>);
 scripts.utils.addShaped("spark_plug", <embers:spark_plug>, [
 	[<ore:ingotAluminium>, null, <ore:ingotAluminium>], 
-	[null, <ore:plateIron>, null], 
+	[null, <ore:plateSyrmorite>, null], 
 	[null, <embers:aspectus_silver:*>, null]
 ]);
 
@@ -401,43 +401,43 @@ scripts.utils.addShaped("grandhammer", <embers:grandhammer>, [
 
 recipes.remove(<embers:reactor>);
 scripts.utils.addShaped("reactor", <embers:reactor>, [
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <embers:wildfire_core:*>, <ore:ingotIron>], 
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <embers:wildfire_core:*>, <ore:ingotSyrmorite>], 
 	[<ore:plateSilver>, <embers:block_caminite_brick:*>, <ore:plateSilver>]
 ]);
 
 recipes.remove(<embers:combustor>);
 scripts.utils.addShaped("combustor", <embers:combustor>, [
-	[null, <ore:ingotIron>, null], 
+	[null, <ore:ingotSyrmorite>, null], 
 	[<ore:plateGold>, <embers:ember_cluster:*>, <ore:plateGold>], 
-	[<ore:ingotIron>, <embers:mech_core:*>, <ore:ingotIron>]
+	[<ore:ingotSyrmorite>, <embers:mech_core:*>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:archaic_circuit>);
 scripts.utils.addShaped("archaic_circuit", <embers:archaic_circuit>, [
 	[null, <embers:archaic_brick:*>, null], 
-	[<embers:archaic_brick:*>, <ore:ingotIron>, <embers:archaic_brick:*>], 
+	[<embers:archaic_brick:*>, <ore:ingotSyrmorite>, <embers:archaic_brick:*>], 
 	[null, <embers:archaic_brick:*>, null]
 ]);
 
 recipes.remove(<embers:superheater>);
 scripts.utils.addShaped("superheater", <embers:superheater>, [
 	[null, <ore:ingotDawnstone>, <ore:plateDawnstone>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotDawnstone>], 
-	[<ore:ingotIron>, <ore:ingotIron>, null]
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotDawnstone>], 
+	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, null]
 ]);
 
 recipes.remove(<embers:ember_funnel>);
 scripts.utils.addShaped("ember_funnel", <embers:ember_funnel>, [
 	[<ore:plateDawnstone>, null, <ore:plateDawnstone>], 
-	[<ore:ingotIron>, <embers:ember_receiver:*>, <ore:ingotIron>], 
+	[<ore:ingotSyrmorite>, <embers:ember_receiver:*>, <ore:ingotSyrmorite>], 
 	[null, <ore:plateDawnstone>, null]
 ]);
 
 recipes.remove(<embers:ember_siphon>);
 scripts.utils.addShaped("ember_siphon", <embers:ember_siphon>, [
-	[<embers:wall_caminite_brick>, <ore:ingotIron>, <embers:wall_caminite_brick>], 
-	[<ore:plateNickel>, <ore:ingotIron>, <ore:plateNickel>], 
+	[<embers:wall_caminite_brick>, <ore:ingotSyrmorite>, <embers:wall_caminite_brick>], 
+	[<ore:plateNickel>, <ore:ingotSyrmorite>, <ore:plateNickel>], 
 	[<embers:brick_caminite:*>, <embers:brick_caminite:*>, <embers:brick_caminite:*>]
 ]);
 
@@ -478,11 +478,8 @@ scripts.utils.addShaped("stirling", <embers:stirling>, [
 
 
 
-
-
-
 recipes.remove(<embers:plate_iron>);
-scripts.utils.addShapeless("plate_iron", <embers:plate_iron>, [<ore:ingotIron>, <ore:ingotIron>, <embers:tinker_hammer:*>]);
+//scripts.utils.addShapeless("plate_iron", <embers:plate_iron>, [<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <embers:tinker_hammer:*>]);
 
 recipes.remove(<embers:plate_gold>);
 //scripts.utils.addShapeless("plate_gold", <embers:plate_gold>, [<ore:ingotOctine>, <ore:ingotOctine>, <embers:tinker_hammer:*>]);
@@ -527,7 +524,7 @@ Alchemy.add(<embers:eldritch_insignia>, [<embers:archaic_circuit>, <thebetweenla
 );
 
 Alchemy.remove(<embers:blasting_core>);
-Alchemy.add(<embers:blasting_core>, [<thebetweenlands:angry_pebble>, <embers:plate_iron>, <embers:plate_iron>, <ore:ingotIron>, <embers:plate_iron>], 
+Alchemy.add(<embers:blasting_core>, [<thebetweenlands:angry_pebble>, <embers:plate_iron>, <embers:plate_iron>, <ore:ingotSyrmorite>, <embers:plate_iron>], 
 	{
 		"copper" : 16 to 24
 	}
@@ -559,14 +556,14 @@ Alchemy.add(<embers:adhesive> * 6, [<thebetweenlands:sludge_ball>, <thebetweenla
 );
 
 Alchemy.remove(<embers:isolated_materia>);
-Alchemy.add(<embers:isolated_materia>, [<ore:ingotIron>, <thebetweenlands:sludge_ball>, <thebetweenlands:dentrothyst_shard_orange>, <thebetweenlands:dentrothyst_shard_green>, null], 
+Alchemy.add(<embers:isolated_materia>, [<ore:ingotSyrmorite>, <thebetweenlands:sludge_ball>, <thebetweenlands:dentrothyst_shard_orange>, <thebetweenlands:dentrothyst_shard_green>, null], 
 	{
 		"iron" : 24 to 36
 	}
 );
 
 Alchemy.remove(<embers:isolated_materia>);
-Alchemy.add(<embers:isolated_materia>, [<ore:ingotIron>, <thebetweenlands:sludge_ball>, <thebetweenlands:dentrothyst_shard_orange>, <thebetweenlands:dentrothyst_shard_green>, null], 
+Alchemy.add(<embers:isolated_materia>, [<ore:ingotSyrmorite>, <thebetweenlands:sludge_ball>, <thebetweenlands:dentrothyst_shard_orange>, <thebetweenlands:dentrothyst_shard_green>, null], 
 	{
 		"iron" : 24 to 36
 	}
@@ -602,7 +599,7 @@ Alchemy.add(<embers:seed_syrmorite>, [<thebetweenlands:dentrothyst_shard_orange>
 );
 
 Alchemy.remove(<embers:seed_iron>);
-Alchemy.add(<embers:seed_iron>, [<thebetweenlands:dentrothyst_shard_orange>, <ore:ingotIron>, <ore:ingotIron>, <embers:shard_ember>, <embers:shard_ember>], 
+Alchemy.add(<embers:seed_iron>, [<thebetweenlands:dentrothyst_shard_orange>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <embers:shard_ember>, <embers:shard_ember>], 
 	{
 		"iron" : 96 to 128
 	}
@@ -690,7 +687,7 @@ Alchemy.add(<soot:eitr>, [<thaumcraft:void_pick>, <ore:ingotAntimony>, <soot:sul
 EmberGeneration.addMetalCoefficient(<thaumcraft:metal_void>, 1);
 EmberGeneration.addMetalCoefficient(<thaumcraft:metal_thaumium>, 0.9);
 EmberGeneration.addMetalCoefficient(<thebetweenlands:octine_block>, 0.8);
-EmberGeneration.addMetalCoefficient(<ore:blockIron>, 0.7);
+EmberGeneration.addMetalCoefficient(<ore:blockSyrmorite>, 0.7);
 
 
 

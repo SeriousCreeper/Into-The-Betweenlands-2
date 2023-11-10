@@ -20,44 +20,6 @@ JEI.hideCategory("minecraft.brewing");
 JEI.hideCategory("minecraft.anvil");
 //JEI.hideCategory("jei.information");
 
-
-/*
-// Colored Redstone
-val redstoneItems = [
-	<coloredredstone:colored_redstone_dust>,
-	<coloredredstone:colored_redstone_block>,
-	<coloredredstone:colored_redstone_torch_item>,
-	<coloredredstone:colored_redstone_repeater_item>,
-	<coloredredstone:colored_redstone_comparator_item>,
-	<coloredredstone:colored_redstone_lamp>,
-] as IItemStack[];
-
-
-for item in redstoneItems {
-	for i in 0 to 16 {
-		val itemDef = item.definition;
-
-		if(i != 12) {
-			JEI.removeAndHide(itemDef.makeStack(i));
-			itemDef.makeStack(i).removeAspects(allAspects);
-		}
-	}
-}
-*/
-
-//JEI.removeAndHide(<coloredredstone:colored_redstone_lamp:12>);
-
-//recipes.removeByRecipeName("coloredredstone-golden_rail-modified");
-//recipes.removeByRecipeName("coloredredstone-detector_rail-modified");
-//recipes.removeByRecipeName("coloredredstone:light_blue_colored_redstone_dust");
-//recipes.removeByRecipeName("coloredredstone:light_blue_colored_redstone_block_with_dye");
-//recipes.removeByRecipeName("coloredredstone:light_blue_colored_redstone_torch_with_dye");
-//recipes.removeByRecipeName("coloredredstone:light_blue_colored_redstone_repeater_with_dye");
-//recipes.removeByRecipeName("coloredredstone:light_blue_colored_redstone_comparator_with_dye");
-//recipes.removeByRecipeName("coloredredstone:light_blue_colored_redstone_lamp_with_dye");
-
-
-//recipes.replaceAllOccurences(<minecraft:iron_ingot>, <thebetweenlands:items_misc:11>);
 //recipes.replaceAllOccurences(<minecraft:iron_nugget>, <thebetweenlands:items_misc:41>);
 //recipes.replaceAllOccurences(<thaumcraft:nugget>, <thebetweenlands:items_misc:41>);
 //recipes.replaceAllOccurences(<minecraft:gold_ingot>, <thebetweenlands:octine_ingot>);
@@ -65,12 +27,14 @@ for item in redstoneItems {
 //recipes.replaceAllOccurences(<minecraft:redstone>, <ore:dustRedstone>);
 //recipes.replaceAllOccurences(<minecraft:redstone_torch>, <coloredredstone:colored_redstone_torch_item:12>);
 //recipes.replaceAllOccurences(<minecraft:paper>, <thebetweenlands:items_misc:32>);
-
-
-
-
 //recipes.replaceAllOccurences(<minecraft:string>, <thebetweenlands:items_misc:7>);
 
+recipes.replaceAllOccurences(<minecraft:redstone>, <betweenlandsredstone:scabyst_dust>);
+recipes.replaceAllOccurences(<minecraft:redstone_block>, <betweenlandsredstone:scabyst_block>);
+recipes.replaceAllOccurences(<minecraft:redstone_torch>, <betweenlandsredstone:scabyst_torch>);
+recipes.replaceAllOccurences(<minecraft:repeater>, <betweenlandsredstone:scabyst_repeater>);
+recipes.replaceAllOccurences(<minecraft:comparator>, <betweenlandsredstone:scabyst_comparator>);
+recipes.replaceAllOccurences(<minecraft:piston>, <betweenlandsredstone:scabyst_piston>);
 
 
 // VANILLA
@@ -109,12 +73,12 @@ val itemsToKeep = [
 	//<minecraft:water_bucket>,
 	//<minecraft:paper>,
 	<minecraft:spawn_egg>,
-	<minecraft:redstone_torch>,
-	<minecraft:redstone>,
+	//<minecraft:redstone_torch>,
+	//<minecraft:redstone>,
 	<minecraft:repeater>,
 	<minecraft:comparator>,
-	<minecraft:redstone_block>,
-	<minecraft:redstone_lamp>,
+	//<minecraft:redstone_block>,
+	//<minecraft:redstone_lamp>,
 	<minecraft:glass_bottle>,
 	<minecraft:snowball>,
 	<minecraft:iron_nugget>,
