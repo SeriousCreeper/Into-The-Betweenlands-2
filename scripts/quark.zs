@@ -1,11 +1,5 @@
 import crafttweaker.item.IItemStack;
 
-recipes.remove(<quark:pickarang>);
-scripts.utils.addShaped("pickarang", <quark:pickarang>, [
-	[<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:4>, <thebetweenlands:life_crystal>], 
-	[null, null, <thebetweenlands:items_misc:4>], 
-	[null, null, <thebetweenlands:items_misc:19>]
-]);
 recipes.remove(<quark:paper_lantern>);
 scripts.utils.addShaped("paper_lantern", <quark:paper_lantern>, [
 	[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>], 

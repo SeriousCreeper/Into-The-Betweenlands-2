@@ -1,7 +1,7 @@
 {
 	title: "Syrmorite Anvil",
-	x: 3.0d,
-	y: 13.0d,
+	x: -4.5d,
+	y: 6.0d,
 	text: [
 		"Certain recipes, such as breaking down blocks into ingots, or ingots into nuggets, require a Syrmorite Anvil.",
 		"",

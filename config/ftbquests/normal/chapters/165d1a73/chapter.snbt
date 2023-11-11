@@ -1,7 +1,18 @@
 {
-	title: "Mystical Discoveries",
-	icon: "roots:pyre",
+	title: "The Magic of the Wilds",
+	icon: "roots:roots_guide",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 15.5d,
+		y: 9.0d,
+		width: 51.2d,
+		height: 25.6d,
+		rotation: 0.0d,
+		image: "roots:textures/gui/book.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

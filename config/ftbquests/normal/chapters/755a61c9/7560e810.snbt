@@ -1,7 +1,7 @@
 {
 	title: "Fire Starter",
-	x: 2.0d,
-	y: 3.0d,
+	x: -5.5d,
+	y: -3.0d,
 	text: [
 		"Starting fires are difficult in this dimensions, but this little fire starter should do the trick for now."
 	],

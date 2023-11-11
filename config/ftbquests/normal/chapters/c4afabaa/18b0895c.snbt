@@ -6,7 +6,7 @@
 			Potion: "minecraft:healing"
 		}
 	},
-	x: 1.0d,
+	x: 0.5d,
 	y: -1.0d,
 	tasks: [{
 		uid: "5745f6d7",

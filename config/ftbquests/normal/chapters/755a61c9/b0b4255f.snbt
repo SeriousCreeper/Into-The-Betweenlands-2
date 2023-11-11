@@ -1,7 +1,7 @@
 {
 	title: "Baskets",
-	x: -2.0d,
-	y: 2.0d,
+	x: -8.5d,
+	y: -4.0d,
 	text: [
 		"Baskets are a cheap portable storage solution. ",
 		"",

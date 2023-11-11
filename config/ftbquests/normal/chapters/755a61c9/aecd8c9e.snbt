@@ -1,6 +1,6 @@
 {
-	x: 1.0d,
-	y: 13.0d,
+	x: -6.5d,
+	y: 6.0d,
 	text: [
 		"I have developed an automated bellow that will keep blowing air as long as it has a cog attached to it.",
 		"",

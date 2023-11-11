@@ -1,6 +1,6 @@
 {
 	title: "Technology",
-	icon: "embers:tinker_hammer",
+	icon: "embers:codex",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

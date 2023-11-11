@@ -1,0 +1,45 @@
+{
+	x: 5.0d,
+	y: 2.0d,
+	dependencies: [
+		"0f3f0367"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "632d86bd",
+		type: "gamestage",
+		title: "Knowledge of Malice",
+		icon: "embers:codex",
+		stage: "knowledge_of_malice"
+	}],
+	rewards: [{
+		uid: "cc3914b4",
+		type: "item",
+		auto: "enabled",
+		item: "embers:codex"
+	},
+	{
+		uid: "922bf5af",
+		type: "command",
+		auto: "enabled",
+		command: "/title @p times 20 100 20"
+	},
+	{
+		uid: "ee117967",
+		type: "command",
+		auto: "enabled",
+		command: "/title @p title {\"text\":\"Mineral Knowledge\",\"bold\":true}"
+	},
+	{
+		uid: "112036b6",
+		type: "command",
+		auto: "enabled",
+		command: "/title @p subtitle {\"text\":\"You sense there must be more ores out there\",\"italic\":true}"
+	},
+	{
+		uid: "4610fdf9",
+		type: "command",
+		auto: "enabled",
+		command: "/playsound ui.toast.challenge_complete master @p"
+	}]
+}

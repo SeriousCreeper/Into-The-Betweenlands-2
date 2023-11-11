@@ -12,18 +12,23 @@
 		uid: "9c6da6f8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "oreBucketSwampWater",
-					id: "ore"
-				}
-			},
-			id: "itemfilters:filter",
+			id: "thebetweenlands:bl_bucket",
 			tag: {
-				display: {
-					Name: "Any oreBucketSwampWater"
+				Fluid: {
+					FluidName: "swamp_water",
+					Amount: 1000
 				}
 			}
+		},
+		{
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "swamp_water",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
 		}],
 		ignore_nbt: 1b
 	}]

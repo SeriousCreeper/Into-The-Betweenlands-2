@@ -1,6 +1,6 @@
 {
-	x: 3.0d,
-	y: 7.0d,
+	x: -4.5d,
+	y: 1.0d,
 	text: [
 		"Mechanical Hoppers can transfer items from one storage container to another. ",
 		"",

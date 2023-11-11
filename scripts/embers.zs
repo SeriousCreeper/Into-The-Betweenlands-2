@@ -484,11 +484,6 @@ recipes.remove(<embers:plate_iron>);
 recipes.remove(<embers:plate_gold>);
 //scripts.utils.addShapeless("plate_gold", <embers:plate_gold>, [<ore:ingotOctine>, <ore:ingotOctine>, <embers:tinker_hammer:*>]);
 
-scripts.utils.addShapeless("plate_brass", <thaumcraft:plate:0>, [<ore:ingotBrass>, <ore:ingotBrass>, <embers:tinker_hammer:*>]);
-scripts.utils.addShapeless("plate_thaumium", <thaumcraft:plate:2>, [<ore:ingotThaumium>, <ore:ingotThaumium>, <embers:tinker_hammer:*>]);
-scripts.utils.addShapeless("plate_void", <thaumcraft:plate:3>, [<ore:ingotVoid>, <ore:ingotVoid>, <embers:tinker_hammer:*>]);
-
-
 
 
 
@@ -768,11 +763,17 @@ recipes.remove(<thebetweenlands:octine_pickaxe>);
 recipes.remove(<thebetweenlands:octine_axe>);
 recipes.remove(<thebetweenlands:octine_shovel>);
 recipes.remove(<thebetweenlands:octine_sword>);
+recipes.remove(<pyrotech:gold_hammer>);
+recipes.remove(<pyrotech:tongs_gold>);
 Stamper.add(<thebetweenlands:octine_pickaxe>, <liquid:octine> * 432, <embers:stamp_flat>, <thebetweenlands:bone_pickaxe>);
 Stamper.add(<thebetweenlands:octine_axe>, <liquid:octine> * 432, <embers:stamp_flat>, <thebetweenlands:bone_axe>);
 Stamper.add(<thebetweenlands:octine_shovel>, <liquid:octine> * 144, <embers:stamp_flat>, <thebetweenlands:bone_shovel>);
 Stamper.add(<thebetweenlands:octine_sword>, <liquid:octine> * 288, <embers:stamp_flat>, <thebetweenlands:bone_sword>);
 Stamper.add(<roots:iron_knife>, <liquid:octine> * 288, <embers:stamp_flat>, <roots:stone_knife>);
+Stamper.add(<pyrotech:gold_hammer>, <liquid:octine> * 288, <embers:stamp_flat>, <pyrotech:bone_hammer>);
+Stamper.add(<pyrotech:tongs_gold>, <liquid:octine>, <embers:stamp_flat>, <pyrotech:tongs_bone>);
+
+
 
 // Bullet mold
 Stamper.add(<immersiveengineering:bullet>, <liquid:copper> * 144, <immersiveengineering:mold:3>);

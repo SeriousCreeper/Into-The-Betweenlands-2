@@ -1,0 +1,13 @@
+{
+	title: "Investigate: Sludgeon",
+	x: 9.0d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "c57b64f1",
+		type: "advancement",
+		title: "Investigate: Sludgeon",
+		advancement: "thebetweenlands:fighter/not_a_boss",
+		criterion: ""
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 7.0d,
+	y: 2.0d,
+	dependencies: [
+		"1a2a3eb3"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "dcedefc7",
+		type: "gamestage",
+		title: "Knowledge of Decay",
+		icon: "thaumcraft:thaumonomicon",
+		stage: "knowledge_of_decay"
+	}]
+}

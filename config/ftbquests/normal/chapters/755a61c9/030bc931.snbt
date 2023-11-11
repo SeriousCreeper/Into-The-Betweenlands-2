@@ -1,6 +1,6 @@
 {
-	x: -3.0d,
-	y: 2.0d,
+	x: -8.5d,
+	y: -3.0d,
 	text: [
 		"A stash can only store one type of item/block, but a large amount of it."
 	],

@@ -1,7 +1,18 @@
 {
-	title: "First Steps",
-	icon: "thebetweenlands:log_weedwood",
+	title: "\"How to settle anywhere!\" by Sir V. Ival",
+	icon: "minecraft:book",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: 0.0d,
+		width: 27.2d,
+		height: 18.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/background_book_brown.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

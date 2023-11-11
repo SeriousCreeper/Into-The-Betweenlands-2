@@ -349,7 +349,7 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifying_fluid", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "sugar", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "antimony", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
-<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "clean_water", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "void", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "thaumium", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "brass", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
@@ -378,6 +378,22 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "lead", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "copper", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
 <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "silver", Amount: 1000}}).setAspects(<aspect:herba> * 1, <aspect:metallum> * 33);
+
+// Manual fixes
+<thebetweenlands:weedwood_planks>.setAspects(<aspect:herba> * 3);
+<thebetweenlands:rubber_tree_planks>.setAspects(<aspect:herba> * 3);
+<thebetweenlands:giant_root_planks>.setAspects(<aspect:herba> * 3);
+<thebetweenlands:hearthgrove_planks>.setAspects(<aspect:herba> * 3);
+<thebetweenlands:nibbletwig_planks>.setAspects(<aspect:herba> * 3);
+
+<thebetweenlands:items_misc:20>.setAspects(<aspect:herba> * 1);
+
+<thebetweenlands:weedwood_plank_slab>.setAspects(<aspect:herba> * 1);
+<thebetweenlands:rubber_tree_plank_slab>.setAspects(<aspect:herba> * 1);
+<thebetweenlands:giant_root_plank_slab>.setAspects(<aspect:herba> * 1);
+<thebetweenlands:hearthgrove_plank_slab>.setAspects(<aspect:herba> * 1);
+<thebetweenlands:nibbletwig_plank_slab>.setAspects(<aspect:herba> * 1);
+
 
 <pyrotech:material:27>.setAspects( <aspect:instrumentum> * 1);
 

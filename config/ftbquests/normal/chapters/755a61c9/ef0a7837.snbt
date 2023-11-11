@@ -1,13 +1,7 @@
 {
 	title: "Getting Wood",
-	x: 0.0d,
-	y: 0.0d,
-	text: [
-		"Get weedwood logs by using an axe"
-	],
-	dependencies: [
-		"135fbb10"
-	],
+	x: -7.5d,
+	y: -6.0d,
 	tasks: [{
 		uid: "cd6a1e69",
 		type: "item",

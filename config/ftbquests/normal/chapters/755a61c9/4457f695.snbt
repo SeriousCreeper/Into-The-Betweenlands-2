@@ -1,14 +1,14 @@
 {
 	title: "Soaking Pot",
-	x: 2.0d,
-	y: 9.0d,
+	x: -5.5d,
+	y: 2.0d,
 	text: [
 		"A soaking pot will let me, well, soak items in liquid to further process them. ",
 		"",
 		"If need to heat up something, i can also just place it on top of a campfire."
 	],
 	dependencies: [
-		"ebb041d1",
+		"f4488f2a",
 		"f77c3423"
 	],
 	tasks: [{

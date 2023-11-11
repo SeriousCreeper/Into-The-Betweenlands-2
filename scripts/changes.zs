@@ -141,9 +141,8 @@ recipes.remove(<minecraft:noteblock>);
 scripts.utils.addShaped("minecraft_noteblock_modified", <minecraft:noteblock>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <ore:dustRedstone>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
 
-
-recipes.remove(<minecraft:hopper_minecart>);
-scripts.utils.addShaped("hopper_minecart", <minecraft:hopper_minecart>, [[<thebetweenlands:syrmorite_hopper>], [<minecraft:minecart>]]);
+//recipes.remove(<minecraft:hopper_minecart>);
+//scripts.utils.addShaped("hopper_minecart", <minecraft:hopper_minecart>, [[<thebetweenlands:syrmorite_hopper>], [<minecraft:minecart>]]);
 
 recipes.remove(<minecraft:trapped_chest>);
 scripts.utils.addShapeless("trapped_chest", <minecraft:trapped_chest>, [<thebetweenlands:weedwood_chest>, <betweenlandsredstone:scabyst_tripwire_hook>]);
@@ -162,6 +161,7 @@ scripts.utils.addShaped("armor_stand", <minecraft:armor_stand>, [
 	[<ore:stickWood>, <thebetweenlands:smooth_cragrock_slab>, <ore:stickWood>]
 ]);
 
+/*
 recipes.remove(<minecraft:observer>);
 scripts.utils.addShaped("observer_1", <minecraft:observer>, [
 	[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], 
@@ -191,6 +191,7 @@ scripts.utils.addShapedMirrored("easier_dispenser", <minecraft:dispenser>, [
 	[<thebetweenlands:items_misc:20>, <minecraft:dropper>, <thebetweenlands:items_misc:7>], 
 	[null, <thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:7>]
 ]);
+*/
 
 recipes.remove(<minecraft:lead>);
 scripts.utils.addShaped("lead", <minecraft:lead> * 2, [
@@ -204,11 +205,14 @@ scripts.utils.addShaped("lead_2", <minecraft:lead> * 2, [
 	[null, null, <thebetweenlands:items_misc:7>]
 ]);
 
+/*
 recipes.remove(<minecraft:minecart>);
 scripts.utils.addShaped("minecraft-minecart-modified", <minecraft:minecart>, [
 	[<thebetweenlands:weedwood_planks>, null, <thebetweenlands:weedwood_planks>], 
 	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>],
-	[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>]]);
+	[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>]
+]);
+*/
 
 recipes.remove(<minecraft:slime>);
 scripts.utils.addShaped("slime", <minecraft:slime>, [
@@ -238,6 +242,7 @@ scripts.utils.addShaped("iron_bars", <minecraft:iron_bars> * 16, [
 	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>]
 ]);
 
+/*
 recipes.remove(<minecraft:golden_rail>);
 scripts.utils.addShaped("golden_rail", <minecraft:golden_rail> * 6, [
 	[<ore:ingotOctine>, null, <ore:ingotOctine>], 
@@ -284,6 +289,7 @@ scripts.utils.addShaped("comparator_2", <minecraft:comparator>, [
 	[<minecraft:redstone_torch>, <thebetweenlands:dentrothyst_shard_orange>, <minecraft:redstone_torch>], 
 	[<ore:stone>, <ore:stone>, <ore:stone>]
 ]);
+*/
 
 recipes.remove(<minecraft:glass_bottle>);
 scripts.utils.addShaped("glass_bottle", <minecraft:glass_bottle>, [

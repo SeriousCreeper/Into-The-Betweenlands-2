@@ -1,0 +1,14 @@
+{
+	title: "Investigation: Wight Fortress",
+	x: 5.0d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "ca21dd9e",
+		type: "advancement",
+		title: "Advancement: Staring Contest",
+		icon: "thebetweenlands:amulet_slot",
+		advancement: "thebetweenlands:fighter/staring_contest",
+		criterion: ""
+	}]
+}

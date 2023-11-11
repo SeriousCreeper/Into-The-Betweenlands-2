@@ -39,6 +39,9 @@ val embersItemsNotToStage = [
 val thaumcraftItemsNotToStage = [
 ] as IItemStack[];
 
+val thaumicaugmentationItemsNotToStage = [
+] as IItemStack[];
+
 val ieItemsNotToStage = [
 	<immersiveengineering:ore>,
 	<immersiveengineering:ore:1>,
@@ -106,9 +109,10 @@ stageMods("soot", "knowledge_of_malice", embersItemsNotToStage);
 
 stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 
-stageMods("immersiveengineering", "knowledge_of_technology", scripts.immersiveengineering.itemsToRemove);
+stageMods("thaumicaugmentation", "knowledge_of_technology", thaumicaugmentationItemsNotToStage);
 
-stageMods("thaumicaugmentation", "unstaged", thaumcraftItemsNotToStage);
+stageMods("immersiveengineering", "unstaged", scripts.immersiveengineering.itemsToRemove);
+
 stageMods("aetherworks", "unstaged", thaumcraftItemsNotToStage);
 
 

@@ -1,7 +1,7 @@
 {
 	title: "Refined Bricks",
-	x: 2.0d,
-	y: 7.0d,
+	x: -5.5d,
+	y: 1.0d,
 	text: [
 		"Bricks are required for the first set of machines.",
 		"Place betweenstone slabs onto the anvil and hit it with a pickaxe."

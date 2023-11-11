@@ -1,0 +1,13 @@
+{
+	title: "Investigate: Spirit Tree",
+	x: 7.0d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "6b8362ec",
+		type: "advancement",
+		title: "Investigate: Spirit Tree",
+		advancement: "thebetweenlands:fighter/illegal_logging",
+		criterion: ""
+	}]
+}

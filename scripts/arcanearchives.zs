@@ -3,7 +3,7 @@ import mods.arcanearchives.GCT;
 recipes.remove(<arcanearchives:radiant_resonator>);
 recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>, [
 	[<thebetweenlands:octine_ingot>, <minecraft:iron_bars>, <thebetweenlands:octine_ingot>], 
-	[<roots:wildwood_log>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}).giveBack(<thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})), <roots:wildwood_log>], 
+	[<roots:wildwood_log>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "clean_water", Amount: 1000}}).giveBack(<thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})), <roots:wildwood_log>], 
 	[<roots:wildwood_log>, null, <roots:wildwood_log>]
 ]);
 
@@ -84,5 +84,22 @@ GCT.addRecipe("valonite_shield", <thebetweenlands:valonite_shield>, [<ore:gemVal
 recipes.remove(<thebetweenlands:valonite_greataxe>);
 GCT.addRecipe("valonite_greataxe", <thebetweenlands:valonite_greataxe>, [<ore:gemValonite> * 2, <ore:stickWood> * 2, <thebetweenlands:valonite_axe>]);
 
+recipes.remove(<quark:pickarang>);
+GCT.addRecipe("pickarang", <quark:pickarang>, [<thebetweenlands:items_misc:19> * 2, <thebetweenlands:items_misc:4> * 2, <thebetweenlands:life_crystal>]);
+
+recipes.remove(<thaumcraft:baubles:6>);
+GCT.addRecipe("baublegirdlefancy", <thaumcraft:baubles:6>, [<ore:leather> * 3, <thebetweenlands:items_misc:19>, <thebetweenlands:octine_ingot>]);
+
+recipes.remove(<thaumcraft:baubles:4>);
+GCT.addRecipe("baublegirdlefancy", <thaumcraft:baubles:4>, [<ore:string> * 3, <thebetweenlands:items_misc:19>, <thebetweenlands:octine_ingot>]);
+
+recipes.remove(<thaumcraft:baubles:5>);
+GCT.addRecipe("baubleringfancy", <thaumcraft:baubles:5>, [<thebetweenlands:items_misc:42> * 7, <thebetweenlands:items_misc:19>]);
+
+recipes.remove(<storagedrawers:upgrade_storage:3>);
+GCT.addRecipe("storagedrawers-upgrade_storage_diamond", <storagedrawers:upgrade_storage:3>, [<ore:stickWood> * 6, <thebetweenlands:items_misc:19> * 2, <storagedrawers:upgrade_template>]);
+
+recipes.remove(<storagedrawers:upgrade_storage:4>);
+GCT.addRecipe("storagedrawers-upgrade_storage_emerald", <storagedrawers:upgrade_storage:4>, [<ore:stickWood> * 6, <thebetweenlands:items_misc:47> * 2, <storagedrawers:upgrade_template>]);
 
 scripts.utils.addInfoTooltip(<arcanearchives:radiant_resonator>, "Only 1 per player");

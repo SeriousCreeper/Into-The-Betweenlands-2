@@ -1,7 +1,7 @@
 {
 	title: "Limestone",
-	x: 1.0d,
-	y: 5.0d,
+	x: -6.5d,
+	y: -1.0d,
 	text: [
 		"Limestone has many uses and is required for the tier 1 anvil to process blooms."
 	],

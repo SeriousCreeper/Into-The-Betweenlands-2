@@ -1,10 +1,8 @@
 {
 	title: "Crude Axe",
-	x: 0.0d,
-	y: -1.0d,
+	x: -6.5d,
+	y: -6.0d,
 	text: [
-		"With all these giant trees around, i should make an axe to use their materia to my advantage.",
-		"",
 		"Sticks drop from leaves and weedwood bushes.",
 		"Pebbles can be found on the ground throughout the dimension."
 	],

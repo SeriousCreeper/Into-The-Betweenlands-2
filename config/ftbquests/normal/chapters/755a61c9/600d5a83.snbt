@@ -1,7 +1,7 @@
 {
 	title: "Pit Kiln",
-	x: 2.0d,
-	y: 5.0d,
+	x: -5.5d,
+	y: -1.0d,
 	text: [
 		"The pit kiln is an early way of refining certain items and blocks. ",
 		"",

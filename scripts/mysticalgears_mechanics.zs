@@ -81,11 +81,11 @@ scripts.utils.addShaped("mysticalmechanics_gear_gold_off_modified", <mysticalmec
 	[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]
 ]);
 
-scripts.utils.addShaped("gear_valonite", <mystgears:gear_valonite>, [
-	[null, <thebetweenlands:items_misc:19>, null],
-	[<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:43>, <thebetweenlands:items_misc:19>],
-	[null, <thebetweenlands:items_misc:19>, null]
-]);
+//scripts.utils.addShaped("gear_valonite", <mystgears:gear_valonite>, [
+//	[null, <thebetweenlands:items_misc:19>, null],
+//	[<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:43>, <thebetweenlands:items_misc:19>],
+//	[null, <thebetweenlands:items_misc:19>, null]
+//]);
 
 recipes.remove(<mysticalmechanics:axle_iron>);
 scripts.utils.addShaped("axle_iron", <mysticalmechanics:axle_iron> * 8, [

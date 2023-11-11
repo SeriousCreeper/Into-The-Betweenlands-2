@@ -1,7 +1,7 @@
 {
 	title: "Sawdust",
-	x: 4.0d,
-	y: 1.0d,
+	x: -3.5d,
+	y: -5.0d,
 	text: [
 		"When using the chopping board, small piles of wood chips are left behind.",
 		"",

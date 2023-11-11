@@ -12,7 +12,7 @@ recipes.remove(<thaumcraft:nugget:3>);
 recipes.remove(<thaumcraft:nugget:4>);
 
 recipes.remove(<thaumcraft:plate:*>);
-<ore:plateIron>.remove(<thaumcraft:plate:1>);
+<ore:plateSyrmorite>.remove(<thaumcraft:plate:1>);
 
 
 //scripts.utils.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <ore:dustRedstone>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
@@ -53,27 +53,6 @@ recipes.remove(<thaumcraft:table_stone>);
 scripts.utils.addShaped("tablestone", <thaumcraft:table_stone>, [
 	[<thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>], 
 	[<thebetweenlands:smooth_cragrock>, null, <thebetweenlands:smooth_cragrock>]
-]);
-
-recipes.remove(<thaumcraft:baubles:5>);
-scripts.utils.addShaped("baubleringfancy", <thaumcraft:baubles:5>, [
-	[<thebetweenlands:items_misc:42>, <thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:42>], 
-	[<thebetweenlands:items_misc:42>, null, <thebetweenlands:items_misc:42>], 
-	[<thebetweenlands:items_misc:42>, <thebetweenlands:items_misc:42>, <thebetweenlands:items_misc:42>]
-]);
-
-recipes.remove(<thaumcraft:baubles:4>);
-scripts.utils.addShaped("baubleamuletfancy", <thaumcraft:baubles:4>, [
-	[null, <ore:string>, null], 
-	[<ore:string>, <thebetweenlands:items_misc:19>, <ore:string>], 
-	[null, <thebetweenlands:octine_ingot>, null]
-]);
-
-recipes.remove(<thaumcraft:baubles:6>);
-scripts.utils.addShaped("baublegirdlefancy", <thaumcraft:baubles:6>, [
-	[null, <ore:leather>, null], 
-	[<ore:leather>, <thebetweenlands:items_misc:19>, <ore:leather>], 
-	[null, <thebetweenlands:octine_ingot>, null]
 ]);
 
 recipes.remove(<thaumcraft:golem_bell>);
@@ -189,7 +168,7 @@ ArcaneWorkbench.registerShapedRecipe("vis_resonator", "UNLOCKAUROMANCY@2", 50, [
 ], 
 <thaumcraft:vis_resonator>, 
 [
-	[<ore:plateIron>, <ore:dentrothystShard>]
+	[<ore:plateSyrmorite>, <ore:dentrothystShard>]
 ]);
 
 
@@ -244,8 +223,8 @@ ArcaneWorkbench.registerShapedRecipe("resonator", "ESSENTIASMELTER@3", 50, [
 ], 
 <thaumcraft:resonator>, 
 [
-	[<ore:plateIron>, null, <ore:plateIron>], 
-	[<ore:plateIron>, <ore:dentrothystShard>, <ore:plateIron>], 
+	[<ore:plateSyrmorite>, null, <ore:plateSyrmorite>], 
+	[<ore:plateSyrmorite>, <ore:dentrothystShard>, <ore:plateSyrmorite>], 
 	[null, <ore:stickWood>, null]
 ]);
 
@@ -322,7 +301,7 @@ ArcaneWorkbench.registerShapedRecipe("wand_workbench", "BASEAUROMANCY@2", 100, [
 ], 
 <thaumcraft:wand_workbench>, 
 [
-	[<ore:plateIron>, <thaumcraft:slab_arcane_stone>, <ore:plateIron>], 
+	[<ore:plateSyrmorite>, <thaumcraft:slab_arcane_stone>, <ore:plateSyrmorite>], 
 	[<thaumcraft:stone_arcane>, <thaumcraft:vis_resonator>, <thaumcraft:stone_arcane>], 
 	[<thebetweenlands:octine_ingot>, <thaumcraft:table_stone>, <thebetweenlands:octine_ingot>]
 ]);
@@ -434,7 +413,7 @@ ArcaneWorkbench.registerShapedRecipe("essentiatransportout", "ESSENTIATRANSPORT@
 <thaumcraft:essentia_output>, 
 [
 	[<ore:plateBrass>, <thebetweenlands:syrmorite_hopper>, <ore:plateBrass>], 
-	[<ore:plateIron>, <thaumcraft:metal_alchemical>, <ore:plateIron>]
+	[<ore:plateSyrmorite>, <thaumcraft:metal_alchemical>, <ore:plateSyrmorite>]
 ]);
 
 
@@ -493,7 +472,7 @@ ArcaneWorkbench.registerShapedRecipe("automatedcrossbow", "BASICTURRET@2", 100, 
 ], 
 <thaumcraft:turret>, 
 [
-	[<ore:bow>, <thaumcraft:mechanism_simple>, <ore:plateIron>], 
+	[<ore:bow>, <thaumcraft:mechanism_simple>, <ore:plateSyrmorite>], 
 	[<thaumcraft:plank_greatwood>, <thaumcraft:mind>, <thaumcraft:plank_greatwood>], 
 	[<ore:stickWood>, null, <ore:stickWood>]
 ]);

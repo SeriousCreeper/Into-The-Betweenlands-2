@@ -1,4 +1,6 @@
 import moretweaker.betweenlands.Animator;
+import crafttweaker.player.IPlayer;
+import crafttweaker.events.IEventManager;
 
 val weedWoodLogs = <thebetweenlands:weedwood> | <thebetweenlands:log_weedwood:12> | <thebetweenlands:log_weedwood:0>;
 
@@ -163,3 +165,29 @@ scripts.utils.addInfoTooltip(<thebetweenlands:sulfur_torch_extinguished>, "Can b
 
 <thebetweenlands:moss_filter>.maxDamage = 4000;
 <thebetweenlands:silk_filter>.maxDamage = 20000;
+
+events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
+    if(event.player.name == "VallenFrostweavr") {
+		<thebetweenlands:items_misc:19>.displayName = "Vallenite Shard";
+		<mystgears:gear_valonite:*>.displayName = "Vallenite Gear";
+		<pyrotech:diamond_hammer:*>.displayName = "Vallenite Hammer";
+		<pyrotech:tongs_diamond:*>.displayName = "Vallenite Tongs";
+		<pyrotech:sawmill_blade_diamond:*>.displayName = "Vallenite Sawmill Blade";
+		<pyrotech:cog_diamond:*>.displayName = "Vallenite Cog";
+		<roots:diamond_knife:*>.displayName = "Vallenite Knife";
+		<thebetweenlands:valonite_ore>.displayName = "Vallenite Ore";
+		<thebetweenlands:valonite_block>.displayName = "Block of Vallenite";
+		<thebetweenlands:items_misc:43>.displayName = "Vallenite Splinter";
+		<thebetweenlands:valonite_helmet:*>.displayName = "Vallenite Helmet";
+		<thebetweenlands:valonite_chestplate:*>.displayName = "Vallenite Chestplate";
+		<thebetweenlands:valonite_leggings:*>.displayName = "Vallenite Leggings";
+		<thebetweenlands:valonite_boots:*>.displayName = "Vallenite Boots";
+		<thebetweenlands:valonite_sword:*>.displayName = "Vallenite Sword";
+		<thebetweenlands:valonite_shovel:*>.displayName = "Vallenite Shovel";
+		<thebetweenlands:valonite_axe:*>.displayName = "Vallenite Axe";
+		<thebetweenlands:valonite_greataxe:*>.displayName = "Vallenite Greataxe";
+		<thebetweenlands:valonite_pickaxe:*>.displayName = "Vallenite Pickaxe";
+		<thebetweenlands:valonite_shield:*>.displayName = "Vallenite Shield";
+	}
+});
+

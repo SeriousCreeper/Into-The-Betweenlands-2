@@ -48,8 +48,8 @@ for item in itemsToRemove {
 	item.removeAspects(allAspects);
 }
 
-val waterBucket = <thebetweenlands:bl_bucket:0>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:0>) |
-				  <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:1>);
+val waterBucket = <thebetweenlands:bl_bucket:0>.withTag({Fluid: {FluidName: "clean_water", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:0>) |
+				  <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "clean_water", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:1>);
 
 
 recipes.remove(<pizzacraft:pizza_oven>);

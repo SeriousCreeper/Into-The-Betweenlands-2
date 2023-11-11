@@ -1,7 +1,7 @@
 {
 	title: "Caminite Blend",
-	x: 3.0d,
-	y: 10.0d,
+	x: -4.5d,
+	y: 3.0d,
 	text: [
 		"Mixing slaked lime, ash, mud, and silt, creates a new blend called caminite.",
 		"",

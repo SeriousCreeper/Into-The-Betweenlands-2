@@ -387,13 +387,6 @@ scripts.utils.addShaped("bone_hammer", <pyrotech:bone_hammer>, [
 	[<ore:stickWood>, null, null]
 ]);
 
-recipes.remove(<pyrotech:gold_hammer>);
-scripts.utils.addShaped("gold_hammer", <pyrotech:gold_hammer>, [
-	[null, <thebetweenlands:octine_ingot>, <thebetweenlands:items_misc:7>], 
-	[null, <ore:stickWood>, <thebetweenlands:octine_ingot>], 
-	[<ore:stickWood>, null, null]
-]);
-
 recipes.remove(<pyrotech:faucet_stone>);
 scripts.utils.addShaped("storage/faucet_stone", <pyrotech:faucet_stone>, [
 	[<pyrotech:material:16>, null, <pyrotech:material:16>], 
@@ -488,13 +481,6 @@ scripts.utils.addShaped("tech/machine/sawmill_blade_bone", <pyrotech:sawmill_bla
 	[<thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:14>], 
 	[<thebetweenlands:items_misc:14>, <pyrotech:material:16>, <thebetweenlands:items_misc:14>], 
 	[<thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:14>]
-]);
-
-recipes.remove(<pyrotech:tongs_gold>);
-scripts.utils.addShaped("tech/bloomery/tongs_gold", <pyrotech:tongs_gold>, [
-	[null, <thebetweenlands:items_misc:42>, null], 
-	[<pyrotech:material:27>, <thebetweenlands:items_misc:42>, <thebetweenlands:items_misc:42>], 
-	[null, <pyrotech:material:27>, null]
 ]);
 
 recipes.remove(<pyrotech:cog_gold>);
@@ -621,7 +607,7 @@ Campfire.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, defaultCookTime 
 Campfire.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, 40);
 Campfire.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, defaultCookTime);
 Campfire.addRecipe("purified_water", <simpledifficulty:purified_water_bottle>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), defaultCookTime);
-Campfire.addRecipe("purified_bucket", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}), defaultCookTime * 4);
+//Campfire.addRecipe("purified_bucket", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}), defaultCookTime * 4);
 
 StoneOven.addRecipe("frog_legs_cooked", <thebetweenlands:frog_legs_cooked>, <thebetweenlands:frog_legs_raw>, true);
 StoneOven.addRecipe("fried_swamp_kelp", <thebetweenlands:fried_swamp_kelp>, <thebetweenlands:swamp_kelp_item>, true);
@@ -637,7 +623,7 @@ StoneOven.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, true);
 StoneOven.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, true);
 StoneOven.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, true);
 StoneOven.addRecipe("purified_water", <simpledifficulty:purified_water_bottle>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), true);
-StoneOven.addRecipe("purified_bucket", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}), true);
+//StoneOven.addRecipe("purified_bucket", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}), true);
 
 
 
@@ -664,7 +650,7 @@ for item in compactingToRemove {
 	MechanicalCompactor.removeRecipes(item);
 }
 
-CompactingBin.addRecipe("redstone_block", <minecraft:redstone_block>, <ore:dustRedstone>, 9, true);
+CompactingBin.addRecipe("redstone_block", <betweenlandsredstone:scabyst_block>, <ore:dustRedstone>, 9, true);
 //CompactingBin.addRecipe("sulfur", <thebetweenlands:items_misc:18>, <immersiveengineering:material:25>, 8, true);
 
 recipes.remove(<thebetweenlands:sulfur_block>);
@@ -722,6 +708,24 @@ for metal in metals {
 	IroncladAnvil.addRecipe(metal ~ "_nugget", metals[metal].nugget * 9, metals[metal].ingot, 8, "pickaxe");
 	IroncladAnvil.addRecipe(metal ~ "_ingot", metals[metal].ingot * 9, metals[metal].block, 8, "pickaxe");
 }
+
+val extraPlates = {
+	<embers:plate_electrum> : <embers:ingot_electrum>,
+	<embers:plate_bronze> : <embers:ingot_bronze>,
+	<embers:plate_dawnstone> : <embers:ingot_dawnstone>,
+	<thaumcraft:plate:0> : <thaumcraft:ingot:2>,
+	<thaumcraft:plate:2> : <thaumcraft:ingot:0>,
+	<thaumcraft:plate:3> : <thaumcraft:ingot:1>,
+} as IIngredient[IItemStack];
+
+var plateCount = 0;
+
+for plate in extraPlates {
+	recipes.remove(plate);
+	IroncladAnvil.addRecipe("plate_" ~ plateCount, plate, extraPlates[plate], 32, "hammer");
+	plateCount += 1;
+}
+
 
 GraniteAnvil.addRecipe("stick_stone", <pyrotech:material:27> * 4, <pyrotech:material:16>, 4, "pickaxe", true);
 IroncladAnvil.addRecipe("redstone_dust_from_dense_redstone", <betweenlandsredstone:scabyst_dust> * 2, <pyrotech:material:36>, 2, "hammer");
@@ -1081,7 +1085,7 @@ function recreateBloomeryRecipe(oreName as string, inputOre as IItemStack, input
 
     recipes.remove(plate);
 
-    IroncladAnvil.addRecipe(oreName.toLowerCase() ~ "_plate", plate, ingot, 8, "hammer");
+    IroncladAnvil.addRecipe(oreName.toLowerCase() ~ "_plate", plate, ingot, 32, "hammer");
 }
 
 recreateBloomeryRecipe("Iron", metals["iron"].ore, <pyrotech:generated_pile_slag_iron>, metals["iron"].nugget, <pyrotech:generated_slag_iron>, ["ironclad"]);

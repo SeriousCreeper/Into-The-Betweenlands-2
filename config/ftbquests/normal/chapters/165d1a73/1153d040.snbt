@@ -1,29 +1,17 @@
 {
+	title: "Druidic Wisdom",
 	icon: "roots:roots_guide",
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"Upon this dark druids death, they dropped a book containing all kinds of knowledge about nature and its power. ",
-		"",
 		"I will have to study this..."
 	],
 	dependencies: [
-		"33b5a7fd"
+		"ccbdfca2"
 	],
+	hide: true,
 	tasks: [{
-		uid: "8fa9968d",
-		type: "gamestage",
-		title: "Defeat the Dark Druid",
-		icon: "roots:roots_guide",
-		stage: "temp_roots_invasion_completed"
-	},
-	{
 		uid: "86e553e2",
 		type: "checkmark"
-	}],
-	rewards: [{
-		uid: "98dc4964",
-		type: "item",
-		item: "roots:roots_guide"
 	}]
 }

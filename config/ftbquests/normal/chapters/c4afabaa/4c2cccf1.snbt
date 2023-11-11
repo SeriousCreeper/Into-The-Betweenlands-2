@@ -1,7 +1,7 @@
 {
-	title: "Wall-Jump!",
+	title: "Climbing Up Walls",
 	icon: "thebetweenlands:syrmorite_boots",
-	x: -1.0d,
+	x: -1.5d,
 	y: 2.5d,
 	text: [
 		"If you jump against a wall, you can jump one more time by pressing the wall-jump button (Space by default).",

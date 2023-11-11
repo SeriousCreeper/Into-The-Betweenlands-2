@@ -1,12 +1,11 @@
 {
 	title: "Bone Tools",
-	x: 1.0d,
-	y: 3.0d,
+	x: -6.5d,
+	y: -2.0d,
 	text: [
 		"If you found some bones, you can make even better tools right away!"
 	],
 	dependencies: [
-		"f5b90f01",
 		"742a6eec"
 	],
 	tasks: [{

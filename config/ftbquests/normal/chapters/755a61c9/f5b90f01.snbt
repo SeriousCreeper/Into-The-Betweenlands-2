@@ -1,8 +1,8 @@
 {
 	title: "Worktable",
-	icon: "pyrotech:worktable",
-	x: 0.0d,
-	y: 2.0d,
+	icon: "thebetweenlands:weedwood_workbench",
+	x: -7.5d,
+	y: -4.0d,
 	text: [
 		"Use logs and slabs to craft a simple work table.",
 		"To craft items, place the ingredients on the grid, and right click with a hammer.",
@@ -15,16 +15,7 @@
 		uid: "93bde08c",
 		type: "item",
 		items: [{
-			item: "pyrotech:worktable"
+			item: "thebetweenlands:weedwood_workbench"
 		}]
-	},
-	{
-		uid: "ec8bb958",
-		type: "item",
-		items: [{
-			item: "pyrotech:crude_hammer"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
 	}]
 }

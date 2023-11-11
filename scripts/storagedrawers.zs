@@ -73,20 +73,6 @@ scripts.utils.addShaped("storagedrawers-upgrade_storage_gold", <storagedrawers:u
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
-recipes.remove(<storagedrawers:upgrade_storage:3>);
-scripts.utils.addShaped("storagedrawers-upgrade_storage_diamond", <storagedrawers:upgrade_storage:3>, [
-	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
-	[<thebetweenlands:items_misc:19>, <storagedrawers:upgrade_template>, <thebetweenlands:items_misc:19>], 
-	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
-]);
-
-recipes.remove(<storagedrawers:upgrade_storage:4>);
-scripts.utils.addShaped("storagedrawers-upgrade_storage_emerald", <storagedrawers:upgrade_storage:4>, [
-	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
-	[<thebetweenlands:items_misc:47>, <storagedrawers:upgrade_template>, <thebetweenlands:items_misc:47>], 
-	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
-]);
-
 recipes.remove(<storagedrawers:upgrade_one_stack>);
 scripts.utils.addShaped("storagedrawers-upgrade_one_stack", <storagedrawers:upgrade_one_stack>, [
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 

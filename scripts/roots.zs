@@ -204,7 +204,7 @@ Mortar.changeSpell("spell_rose_thorns", [
 ]);
 
 Mortar.changeSpell("spell_aqua_bubble", [
-	<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}),
+	<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "clean_water", Amount: 1000}}),
 	<roots:dewgonia>,
 	<minecraft:snowball>,
 	<thebetweenlands:filtered_silt_glass>,
@@ -343,19 +343,19 @@ Fey.removeRecipe(<roots:living_hoe>);
 
 Fey.removeRecipe(<roots:living_pickaxe>);
 Fey.addRecipe("living_pickaxe", <roots:living_pickaxe>, 
-	[<ore:ingotSyrmorite>, <thebetweenlands:weedwood_pickaxe>, <roots:wildroot>, <roots:bark_oak>, <roots:bark_oak>]);
+	[<thebetweenlands:items_misc:14>, <thebetweenlands:weedwood_pickaxe>, <roots:wildroot>, <roots:bark_oak>, <roots:bark_oak>]);
 
 Fey.removeRecipe(<roots:living_axe>);
 Fey.addRecipe("living_axe", <roots:living_axe>, 
-	[<ore:ingotSyrmorite>, <thebetweenlands:weedwood_axe>, <roots:wildroot>, <roots:bark_oak>, <roots:bark_oak>]);
+	[<thebetweenlands:items_misc:14>, <thebetweenlands:weedwood_axe>, <roots:wildroot>, <roots:bark_oak>, <roots:bark_oak>]);
 
 Fey.removeRecipe(<roots:living_shovel>);
 Fey.addRecipe("living_shovel", <roots:living_shovel>, 
-	[<ore:ingotSyrmorite>, <thebetweenlands:weedwood_shovel>, <roots:wildroot>, <roots:bark_oak>, <roots:bark_oak>]);
+	[<thebetweenlands:items_misc:14>, <thebetweenlands:weedwood_shovel>, <roots:wildroot>, <roots:bark_oak>, <roots:bark_oak>]);
 
 Fey.removeRecipe(<roots:living_sword>);
 Fey.addRecipe("living_sword", <roots:living_sword>, 
-	[<ore:ingotSyrmorite>, <thebetweenlands:weedwood_sword>, <roots:wildroot>, <roots:bark_oak>, <roots:bark_oak>]);
+	[<thebetweenlands:items_misc:14>, <thebetweenlands:weedwood_sword>, <roots:wildroot>, <roots:bark_oak>, <roots:bark_oak>]);
 
 
 

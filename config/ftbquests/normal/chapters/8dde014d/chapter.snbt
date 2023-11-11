@@ -1,6 +1,6 @@
 {
-	title: "Survival",
-	icon: "thebetweenlands:sap_ball",
+	title: "Guide: Betweenlands",
+	icon: "thebetweenlands:manual_hl",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

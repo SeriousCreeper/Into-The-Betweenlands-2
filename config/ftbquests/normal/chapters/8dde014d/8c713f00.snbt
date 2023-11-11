@@ -1,14 +1,11 @@
 {
 	title: "Crabby Shears",
-	x: 2.0d,
+	x: 1.0d,
 	y: 1.0d,
 	text: [
 		"In order for you to get fallen leaves to craft silk worm hatcheries, you need shears. ",
 		"",
 		"If you have not acquired syrmorite ingots yet, you can use crab claws as a one-time shear as well."
-	],
-	dependencies: [
-		"d7eb381c"
 	],
 	tasks: [{
 		uid: "8f38be4b",

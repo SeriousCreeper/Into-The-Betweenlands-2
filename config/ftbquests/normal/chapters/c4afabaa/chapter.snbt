@@ -1,5 +1,5 @@
 {
-	title: "General Knowledge",
+	title: "Introduction",
 	icon: "thebetweenlands:lore_scrap 1 2",
 	always_invisible: false,
 	group: 0,

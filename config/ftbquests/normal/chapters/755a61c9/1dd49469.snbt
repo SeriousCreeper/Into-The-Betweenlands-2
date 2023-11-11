@@ -1,13 +1,14 @@
 {
 	title: "Chopping Block",
 	icon: "pyrotech:chopping_block",
-	x: 0.0d,
-	y: 1.0d,
+	x: -7.5d,
+	y: -5.0d,
 	text: [
 		"Craft a chopping block, place logs on it, and right click with an axe to get planks"
 	],
 	dependencies: [
-		"ef0a7837"
+		"ef0a7837",
+		"135fbb10"
 	],
 	tasks: [{
 		uid: "53dbe07e",

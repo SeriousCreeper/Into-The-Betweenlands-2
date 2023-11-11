@@ -1,7 +1,7 @@
 {
 	title: "Founding Bricks",
-	x: 2.0d,
-	y: 10.0d,
+	x: -5.5d,
+	y: 3.0d,
 	text: [
 		"Caminite bricks are required to create a bloomery, the first step in processing ores."
 	],

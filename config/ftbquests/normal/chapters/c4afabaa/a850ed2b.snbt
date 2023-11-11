@@ -1,7 +1,7 @@
 {
 	title: "Bugs?",
 	icon: "waterstrainer:worm",
-	x: 1.0d,
+	x: 0.5d,
 	y: 2.5d,
 	text: [
 		"If you encounter any bugs, report them directly to SeriousCreeper, and not the author of the mod in question. ",
