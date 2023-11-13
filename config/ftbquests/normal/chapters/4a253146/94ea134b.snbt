@@ -1,7 +1,8 @@
 {
 	title: "More Info",
-	x: 1.0d,
-	y: 2.0d,
+	x: -7.0d,
+	y: -4.0d,
+	shape: "diamond",
 	text: [
 		"When working with Embers, it can be very helpful to see what each side of a machine does. ",
 		"",

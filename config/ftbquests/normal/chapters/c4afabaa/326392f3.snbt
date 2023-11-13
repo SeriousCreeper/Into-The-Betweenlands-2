@@ -8,8 +8,8 @@
 			}
 		}
 	},
-	x: 1.5d,
-	y: 2.5d,
+	x: 2.0d,
+	y: 0.0d,
 	text: [
 		"There is an optional pacifist challenge that even gives you some benefits. ",
 		"",

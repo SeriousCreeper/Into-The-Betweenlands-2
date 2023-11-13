@@ -7,7 +7,7 @@
 		"",
 		"Just place the item on the campfire and wait for it to finish cooking.",
 		"",
-		"Don't wait too long or the item might burn!"
+		"Don't wait too long or your food might burn!"
 	],
 	dependencies: [
 		"704d5290"

@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	text: [
+		"A lectern is a manifest in block form."
+	],
+	dependencies: [
+		"529e95f8"
+	],
+	tasks: [{
+		uid: "f6d6b24a",
+		type: "item",
+		items: [{
+			item: "arcanearchives:lectern_manifest"
+		}]
+	}]
+}

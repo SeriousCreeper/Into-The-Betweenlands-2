@@ -1,8 +1,8 @@
 {
 	title: "Knowledge of Technology",
 	icon: "thaumicaugmentation:eldritch_lock_key 1 2",
-	x: 9.0d,
-	y: 2.0d,
+	x: 7.0d,
+	y: 2.5d,
 	dependencies: [
 		"788d078e"
 	],

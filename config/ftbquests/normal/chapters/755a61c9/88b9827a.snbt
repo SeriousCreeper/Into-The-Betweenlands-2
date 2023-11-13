@@ -1,0 +1,20 @@
+{
+	title: "Silky Gift",
+	x: 1.0d,
+	y: -4.0d,
+	text: [
+		"When worms stay inside a bush for a while, they will create silk cocoons. ",
+		"",
+		"These can be removed using shears."
+	],
+	dependencies: [
+		"c99cd771"
+	],
+	tasks: [{
+		uid: "9c8d7170",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 62"
+		}]
+	}]
+}

@@ -3,9 +3,9 @@
 	x: -5.5d,
 	y: 2.0d,
 	text: [
-		"A soaking pot will let me, well, soak items in liquid to further process them. ",
+		"A soaking pot wil soak items in liquid to further process them. ",
 		"",
-		"If need to heat up something, i can also just place it on top of a campfire."
+		"If a recipes requires heat, it can be placed on top of a campfire."
 	],
 	dependencies: [
 		"f4488f2a",

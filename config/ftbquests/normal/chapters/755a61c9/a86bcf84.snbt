@@ -5,15 +5,11 @@
 	text: [
 		"The bloomery takes fuel, and either ores or slag to create blooms.",
 		"",
-		"Insert the ore or slag into the top of the bloomery.",
+		"- Insert the ore or slag into the top of the bloomery.",
+		"- Right click it with fuel. ",
+		"- Set the top on fire using a fire starter.",
 		"",
-		"Then right click it with fuel (for example sulfur). ",
-		"",
-		"Then right click the top with either a fire starter or an octine ingot to light it up. ",
-		"",
-		"It can take quite a while to create the bloom, but this process can be sped up later on.",
-		"",
-		"You only need 1 fuel item per operation, but the more you use, the faster it processes items."
+		"Only 1 fuel item is required per operation, but using more speeds up the process by a lot."
 	],
 	dependencies: [
 		"16fa265a"

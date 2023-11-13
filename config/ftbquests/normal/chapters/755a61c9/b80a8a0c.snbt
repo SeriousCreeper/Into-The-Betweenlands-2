@@ -18,11 +18,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "79c7fb6b",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: ""
 	}]
 }

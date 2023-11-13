@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"A manifest that shows a list of every item stored inside radiant chests.",
+		"",
+		"Clicking an item in that list will highlight the container its stored in."
+	],
+	dependencies: [
+		"3dc1968f"
+	],
+	tasks: [{
+		uid: "2f591ed1",
+		type: "item",
+		items: [{
+			item: "arcanearchives:manifest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

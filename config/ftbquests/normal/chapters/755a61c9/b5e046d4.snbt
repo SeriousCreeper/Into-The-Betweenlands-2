@@ -1,0 +1,18 @@
+{
+	title: "Silky Friends",
+	x: 2.0d,
+	y: -4.0d,
+	text: [
+		"If you can see several silk worms housing inside a bush, use some shears to carefully remove your new friends."
+	],
+	dependencies: [
+		"c99cd771"
+	],
+	tasks: [{
+		uid: "8a3dcb4d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:silk_grub"
+		}]
+	}]
+}

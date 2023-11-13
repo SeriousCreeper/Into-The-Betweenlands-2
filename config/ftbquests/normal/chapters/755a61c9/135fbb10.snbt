@@ -3,8 +3,9 @@
 	x: -6.5d,
 	y: -6.0d,
 	text: [
-		"Sticks drop from leaves and weedwood bushes.",
-		"Pebbles can be found on the ground throughout the dimension."
+		"Sticks drop from leaves and bushes.",
+		"",
+		"Pebbles can be found on the ground."
 	],
 	dependencies: [
 		"b55694eb"

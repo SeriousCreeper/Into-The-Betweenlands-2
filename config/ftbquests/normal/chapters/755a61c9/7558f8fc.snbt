@@ -4,6 +4,7 @@
 	y: 0.0d,
 	text: [
 		"With the mortar and pestle, limestone can be turned into limestone flux.",
+		"",
 		"This is used to turn ores into slags, which yield more nuggets than the ore itself."
 	],
 	dependencies: [

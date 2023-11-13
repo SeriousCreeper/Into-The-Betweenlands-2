@@ -24,6 +24,7 @@ val items = [
 	//"boss_item_6",
 	"inert_boneway_finder",
 	"silk",
+	"access_crystal",
 	//"plate_syrmorite"
 ] as string[];
 

@@ -2,13 +2,11 @@
 	x: -7.5d,
 	y: 6.0d,
 	text: [
-		"Keeping my farmland composted is a bit of a task. ",
+		"An automatic way of applying compost to farmland. ",
 		"",
-		"I came up with a machine, the muclher, which will automatically turn dirt into its composted version, as long as i provide it with compost at the top, and attach a cog at the back.",
+		"Insert compost at the top, and apply a cog. ",
 		"",
-		"Depending on the cog it can take care of a larger area.",
-		"",
-		"The cog only gets damaged if it actually placed any compost."
+		"The quality of the cog determins the range the Mulcher can cover."
 	],
 	dependencies: [
 		"33b5a7fd"

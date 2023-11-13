@@ -1,0 +1,32 @@
+{
+    "name": "Better Tools",
+    "icon": "thebetweenlands:weedwood_pickaxe",
+    "category": "01_discoveries",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Better Tools",
+            "text": "The first thing i decided to create using my new worktable was a set of better tools. This little crude axe is not terrible, but it won't get me very far."
+        },
+        {
+            "type": "text",
+            "text": "Wooden tools should do for now, though if i could find more of those bones i've seen around, i could make even better tools..."
+        },
+        {
+            "type": "checklist_end",
+            "suffix": " (Any)",
+            "item1": "thebetweenlands:weedwood_pickaxe#1",
+            "item2": "thebetweenlands:weedwood_axe#1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "thebetweenlands:weedwood_pickaxe",
+            "recipe2": "thebetweenlands:weedwood_axe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "thebetweenlands:weedwood_shovel"
+        }
+    ]
+}

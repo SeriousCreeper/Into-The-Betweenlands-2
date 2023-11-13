@@ -1,7 +1,8 @@
 {
 	title: "Stamping",
-	x: 2.0d,
-	y: 5.0d,
+	x: -6.0d,
+	y: -1.0d,
+	shape: "diamond",
 	text: [
 		"The Stamper can take either liquids or solids and stamp them into form.",
 		"",

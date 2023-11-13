@@ -1,0 +1,25 @@
+{
+    "name": "Primitive Worktable",
+    "icon": "pyrotech:worktable",
+    "category": "01_discoveries",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Primitive Worktable",
+            "text": "Before i could make any more complex tools i had to create a $(item)table$() for me to tinker on. It's a bit primitive, but it should do for now, until i come up with a better design."
+        },
+        {
+            "type": "text",
+            "text": "At least it has a little area below the table for me to store some of my current possessions."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "pyrotech:worktable#1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:worktable"
+        }
+    ]
+}

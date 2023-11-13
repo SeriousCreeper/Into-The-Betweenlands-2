@@ -3,9 +3,9 @@
 	x: -3.5d,
 	y: -5.0d,
 	text: [
-		"When using the chopping board, small piles of wood chips are left behind.",
+		"When using the chopping block, small piles of wood chips are left behind.",
 		"",
-		"I should pick them up using a shovel, i'm sure i can reuse them later."
+		"These can be picked up with a shovel."
 	],
 	dependencies: [
 		"1dd49469"

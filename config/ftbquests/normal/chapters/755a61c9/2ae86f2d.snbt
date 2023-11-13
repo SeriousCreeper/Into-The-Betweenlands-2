@@ -1,18 +1,14 @@
 {
 	title: "Refractory Machines",
-	x: -2.5d,
-	y: 6.0d,
+	x: -6.5d,
+	y: 3.0d,
 	text: [
-		"Now that i have access to metals, it's time to make some of the more tedious processes a bit less so. ",
-		"",
-		"Refractory machnes allow me to automate the campfire, chopping block, and pitkiln. ",
-		"",
-		"All i have to do is add the desired item at the top and fuel at the bottom, and light it up. Even an octine ingot is hot enough to light these machines.",
+		"Refractory machnes can be used to process several items and blocks.",
 		"",
 		"They will automatically stop burning fuel once they finished crafting."
 	],
 	dependencies: [
-		"33b5a7fd"
+		"16fa265a"
 	],
 	tasks: [{
 		uid: "dd411280",

@@ -1,0 +1,37 @@
+{
+	title: "Advanced Filtering",
+	x: -1.5d,
+	y: -5.0d,
+	text: [
+		"Place a filter with a mesh on top of a barrel to filter dirty water into clean water."
+	],
+	dependencies: [
+		"d14845a8"
+	],
+	tasks: [{
+		uid: "499d90c5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:water_filter"
+		}]
+	},
+	{
+		uid: "ae32e919",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_barrel"
+		}]
+	},
+	{
+		uid: "f6dfd58b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:moss_filter"
+		},
+		{
+			item: "thebetweenlands:silk_filter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -5,9 +5,9 @@
 	text: [
 		"Campfires are fantastic to have around your base.",
 		"",
-		"Not only do they provide light and burn for really long, they also give you buffs that will reduce how much food you need, and even heal you.",
+		"Not only do they provide light and burn for really a long time, they also provide buffs that will slows down hunger, and heals.",
 		"",
-		"Place tinder on the ground and add up to 8 logs, then light it up."
+		"Place tinder on the ground, add up to 8 logs, then light it up."
 	],
 	tasks: [{
 		uid: "f9803986",

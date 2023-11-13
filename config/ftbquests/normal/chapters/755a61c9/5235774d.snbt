@@ -1,0 +1,39 @@
+{
+	x: 4.5d,
+	y: -6.0d,
+	text: [
+		"Clothlines can be used to transport items around by using a hand crank."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"33b5a7fd"
+	],
+	tasks: [{
+		uid: "5c9ff2ef",
+		type: "item",
+		items: [{
+			item: "clothesline:clothesline"
+		}]
+	},
+	{
+		uid: "516d200b",
+		type: "item",
+		items: [{
+			item: "clothesline:clothesline_anchor"
+		}]
+	},
+	{
+		uid: "de753e8a",
+		type: "item",
+		items: [{
+			item: "clothesline:crank"
+		}]
+	},
+	{
+		uid: "cd4502da",
+		type: "item",
+		items: [{
+			item: "clothesline:spinner"
+		}]
+	}]
+}

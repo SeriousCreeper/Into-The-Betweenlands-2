@@ -1,5 +1,5 @@
 {
-	title: "Emergency Light",
+	title: "Primitive Torches",
 	x: -4.5d,
 	y: -3.0d,
 	text: [
@@ -7,7 +7,7 @@
 		"",
 		"Fiibre torches can help until you get proper sulfur torches. ",
 		"",
-		"Once crafted, place the torch down and light it using a firestarter."
+		"Once crafted, place the torch down and light it using a fire starter."
 	],
 	dependencies: [
 		"7560e810"

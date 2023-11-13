@@ -3,7 +3,7 @@
 	x: -5.5d,
 	y: 6.0d,
 	text: [
-		"Once you get enough nuggets, you can craft your first ingot!"
+		"First metal, used in many recipes."
 	],
 	dependencies: [
 		"86433358"

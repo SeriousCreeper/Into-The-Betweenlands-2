@@ -1,11 +1,18 @@
 {
 	title: "Investigate: Cragrock Tower",
-	x: 3.0d,
-	y: 0.0d,
+	x: 1.0d,
+	y: 0.5d,
+	text: [
+		"A tall tower found in Corase Islands and Raised Isles.",
+		"",
+		"Probably should explore this one first."
+	],
 	size: 2.0d,
 	tasks: [{
 		uid: "717bd1e4",
 		type: "advancement",
+		title: "Advancement: How The Cookie Crumbles",
+		icon: "thebetweenlands:mob_spawner",
 		advancement: "thebetweenlands:adventurer/cookie_crumbles",
 		criterion: ""
 	}],

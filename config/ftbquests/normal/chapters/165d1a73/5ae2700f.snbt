@@ -1,7 +1,8 @@
 {
 	title: "Living Tools",
-	x: 0.0d,
-	y: 4.0d,
+	x: -8.5d,
+	y: 1.0d,
+	shape: "gear",
 	text: [
 		"Living tools are much more convenient than bone tools. ",
 		"",
@@ -15,20 +16,17 @@
 		type: "item",
 		items: [{
 			item: "roots:living_pickaxe"
+		},
+		{
+			item: "roots:living_axe"
+		},
+		{
+			item: "roots:living_shovel"
+		},
+		{
+			item: "roots:living_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "56a59ce0",
-		type: "gamestage",
-		auto: "invisible",
-		stage: "temp_embers_invasion"
-	},
-	{
-		uid: "b56b86ac",
-		type: "command",
-		auto: "invisible",
-		command: "/ostart embers_invasion @p"
 	}]
 }

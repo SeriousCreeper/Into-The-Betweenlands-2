@@ -1,7 +1,8 @@
 {
 	title: "No Profession",
-	x: 2.5d,
-	y: -1.0d,
+	x: 3.0d,
+	y: -1.5d,
+	shape: "gear",
 	tasks: [{
 		uid: "b103f10a",
 		type: "item",

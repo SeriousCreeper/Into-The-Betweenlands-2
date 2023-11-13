@@ -3,12 +3,13 @@
 	x: -6.5d,
 	y: 1.0d,
 	text: [
-		"While ore can be directly put into a bloomery to process, putting it into a sulfur furnace with some limestone flux first yields better results."
+		"While ore can be directly put into a bloomery to process, putting it first into a sulfur furnace with some limestone flux yields better results."
 	],
 	dependencies: [
 		"7558f8fc",
 		"623be228"
 	],
+	optional: true,
 	tasks: [{
 		uid: "02310a85",
 		type: "item",

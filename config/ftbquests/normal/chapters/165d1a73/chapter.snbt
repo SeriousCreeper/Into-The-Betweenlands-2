@@ -5,12 +5,12 @@
 	group: 0,
 	default_quest_shape: "",
 	images: [{
-		x: 15.5d,
-		y: 9.0d,
-		width: 51.2d,
-		height: 25.6d,
+		x: 0.0d,
+		y: 0.0d,
+		width: 27.2d,
+		height: 18.0d,
 		rotation: 0.0d,
-		image: "roots:textures/gui/book.png",
+		image: "ftbquests:textures/background_book_roots.png",
 		hover: [],
 		click: "",
 		dev: false

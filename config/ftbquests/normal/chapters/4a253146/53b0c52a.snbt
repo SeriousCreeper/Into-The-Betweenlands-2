@@ -1,7 +1,8 @@
 {
 	title: "Item Transport",
-	x: -1.0d,
-	y: 3.0d,
+	x: -9.0d,
+	y: -3.0d,
+	shape: "diamond",
 	text: [
 		"Item Pipes are an easy way of moving items from one location to another. ",
 		"",

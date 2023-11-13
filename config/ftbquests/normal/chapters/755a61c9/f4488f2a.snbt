@@ -4,7 +4,7 @@
 	y: 1.0d,
 	text: [
 		"Bricks are required for the first set of machines.",
-		"Place betweenstone slabs onto the anvil and hit it with a pickaxe."
+		"Place Betweenstone Brick Slabs onto the anvil and hit it with a pickaxe."
 	],
 	dependencies: [
 		"7f2a2271"

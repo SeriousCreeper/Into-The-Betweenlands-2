@@ -1,9 +1,10 @@
 {
 	title: "Runic Shears",
-	x: 3.0d,
-	y: 2.0d,
+	x: -5.5d,
+	y: -1.0d,
+	shape: "gear",
 	text: [
-		"Runic Shears allows you convert items into other forms, as well as getting animal products without hurting the animal."
+		"Runic Shears allow you to convert items into others, as well as getting animal products without hurting the animal."
 	],
 	dependencies: [
 		"4f553b75"

@@ -1,0 +1,33 @@
+{
+	title: "Cutting Crystals",
+	x: -4.5d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"With a strong enough tool, it should be possible to mine crystals without destroying them."
+	],
+	dependencies: [
+		"d1c2bef7"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "81f24ac3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "visCrystals",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any visCrystals"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

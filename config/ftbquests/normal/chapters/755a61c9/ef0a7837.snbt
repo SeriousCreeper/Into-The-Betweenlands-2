@@ -1,6 +1,6 @@
 {
 	title: "Getting Wood",
-	x: -7.5d,
+	x: -8.5d,
 	y: -6.0d,
 	tasks: [{
 		uid: "cd6a1e69",

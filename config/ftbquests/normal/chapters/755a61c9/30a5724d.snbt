@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	dependencies: [
+		"72c2a18d"
+	],
+	tasks: [{
+		uid: "547fa540",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:steeping_pot"
+		}]
+	}]
+}

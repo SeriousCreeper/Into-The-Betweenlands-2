@@ -3,7 +3,7 @@
 	x: -5.5d,
 	y: -3.0d,
 	text: [
-		"Starting fires are difficult in this dimensions, but this little fire starter should do the trick for now."
+		"Fire starter used to light most things."
 	],
 	tasks: [{
 		uid: "4a37b563",

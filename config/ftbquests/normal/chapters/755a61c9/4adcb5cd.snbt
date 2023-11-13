@@ -1,0 +1,43 @@
+{
+	title: "Liquid Attraction",
+	x: 3.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"30a5724d"
+	],
+	tasks: [{
+		uid: "6547a4fb",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:drinkable_brew 1 2"
+		},
+		{
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "drinkable_brew",
+					Amount: 1000,
+					Tag: {
+						type: 2
+					}
+				}
+			}
+		},
+		{
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "drinkable_brew",
+					Amount: 1000,
+					Tag: {
+						type: 2
+					}
+				}
+			},
+			Damage: 1s
+		}]
+	}]
+}

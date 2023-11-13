@@ -109,8 +109,7 @@ stageMods("soot", "knowledge_of_malice", embersItemsNotToStage);
 
 stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 
-stageMods("thaumicaugmentation", "knowledge_of_technology", thaumicaugmentationItemsNotToStage);
-
+stageMods("thaumicaugmentation", "unstaged", thaumicaugmentationItemsNotToStage);
 stageMods("immersiveengineering", "unstaged", scripts.immersiveengineering.itemsToRemove);
 
 stageMods("aetherworks", "unstaged", thaumcraftItemsNotToStage);
@@ -131,7 +130,10 @@ function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack
 
 	    if(!skip) {
 	    	ItemStages.addItemStage(stageID, item);
-	    	//Recipes.setRecipeStage(stageID, item);
+
+	    	if(stageID == "unstaged") {
+	    		Recipes.setRecipeStage(stageID, item);
+	    	}
 	    }
 	}
 }

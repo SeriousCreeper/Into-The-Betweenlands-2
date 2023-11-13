@@ -1,0 +1,20 @@
+{
+	title: "Silky Attraction",
+	x: 1.0d,
+	y: -5.0d,
+	text: [
+		"Applying pheromone to a bush will slowly populate it with silk worms."
+	],
+	dependencies: [
+		"962983e5"
+	],
+	tasks: [{
+		uid: "2ad80245",
+		type: "observation",
+		title: "Infested Weedwood Bush",
+		icon: "thebetweenlands:weedwood_bush_infested_0",
+		match_type: "block_id",
+		match: "thebetweenlands:weedwood_bush_infested_0",
+		timer: 0L
+	}]
+}

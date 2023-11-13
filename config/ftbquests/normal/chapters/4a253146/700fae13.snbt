@@ -1,16 +1,18 @@
 {
 	title: "New Metals",
-	x: 0.0d,
-	y: 1.0d,
+	x: -8.0d,
+	y: -5.5d,
+	shape: "diamond",
 	text: [
 		"According to the stone table, there should be more metals that i can make use of.",
 		"",
 		"Dive deeper into the underground to acquire some of them."
 	],
 	dependencies: [
-		"71867314"
+		"e9e618c6"
 	],
 	hide: true,
+	size: 2.0d,
 	tasks: [{
 		uid: "c9f08a35",
 		type: "item",

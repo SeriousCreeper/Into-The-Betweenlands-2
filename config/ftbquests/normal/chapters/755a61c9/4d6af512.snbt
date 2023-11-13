@@ -3,8 +3,7 @@
 	x: -7.5d,
 	y: -3.0d,
 	text: [
-		"Craft simple but stronger tools using weedwood.",
-		"I recommend making an axe first!"
+		"Craft simple but stronger tools using weedwood."
 	],
 	dependencies: [
 		"f5b90f01"

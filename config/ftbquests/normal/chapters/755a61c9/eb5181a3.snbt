@@ -1,0 +1,21 @@
+{
+	title: "Not so silky fiends",
+	x: 2.0d,
+	y: -5.0d,
+	text: [
+		"If silk worms or cocoons aren't removed in time, the bush will decay and spawn more infestations."
+	],
+	dependencies: [
+		"c99cd771"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f82b6e5f",
+		type: "observation",
+		title: "Infested Bush",
+		icon: "thebetweenlands:weedwood_bush_infested_4",
+		match_type: "block_id",
+		match: "thebetweenlands:weedwood_bush_infested_4",
+		timer: 0L
+	}]
+}

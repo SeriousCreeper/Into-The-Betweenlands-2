@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"31978e64"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3823a2f5",
+		type: "item",
+		items: [{
+			item: "arcanearchives:gemcutters_table"
+		}]
+	}]
+}

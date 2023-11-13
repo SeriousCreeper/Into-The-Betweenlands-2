@@ -1,0 +1,12 @@
+{
+	title: "Mystical Storage",
+	icon: {
+		id: "arcanearchives:tome_arcana",
+		tag: {
+			Book: "arcanearchives:xml/tome.xml"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

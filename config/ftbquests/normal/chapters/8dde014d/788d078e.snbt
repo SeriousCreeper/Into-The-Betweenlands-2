@@ -1,7 +1,12 @@
 {
 	title: "Investigate: Sludgeon",
-	x: 9.0d,
-	y: 0.0d,
+	x: 7.0d,
+	y: 0.5d,
+	text: [
+		"A cylindrical structure inside the Sludge Plains Clearing. ",
+		"",
+		"Only observed from afar, looked very dangerous, approach with caution!"
+	],
 	size: 2.0d,
 	tasks: [{
 		uid: "c57b64f1",
@@ -9,5 +14,10 @@
 		title: "Investigate: Sludgeon",
 		advancement: "thebetweenlands:fighter/not_a_boss",
 		criterion: ""
+	}],
+	rewards: [{
+		uid: "5e65f008",
+		type: "item",
+		item: "gamestagebooks:knowledge_of_technology"
 	}]
 }

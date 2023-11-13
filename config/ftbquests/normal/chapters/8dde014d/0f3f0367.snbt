@@ -1,7 +1,12 @@
 {
 	title: "Investigation: Wight Fortress",
-	x: 5.0d,
-	y: 0.0d,
+	x: 3.0d,
+	y: 0.5d,
+	text: [
+		"A castle like structures found in Marshes. ",
+		"",
+		"Look pretty fortified, make sure to gear up first before exploring."
+	],
 	size: 2.0d,
 	tasks: [{
 		uid: "ca21dd9e",
@@ -10,5 +15,10 @@
 		icon: "thebetweenlands:amulet_slot",
 		advancement: "thebetweenlands:fighter/staring_contest",
 		criterion: ""
+	}],
+	rewards: [{
+		uid: "b56f9aa7",
+		type: "item",
+		item: "gamestagebooks:knowledge_of_malice"
 	}]
 }

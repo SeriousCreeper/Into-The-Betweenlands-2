@@ -1,12 +1,14 @@
 {
 	title: "Bugs?",
 	icon: "waterstrainer:worm",
-	x: 0.5d,
-	y: 2.5d,
+	x: 1.0d,
+	y: 0.0d,
 	text: [
 		"If you encounter any bugs, report them directly to SeriousCreeper, and not the author of the mod in question. ",
 		"",
-		"Much has been modified in this modpack, and the chance of the bug being caused by SeriousCreeper's changes is likely. "
+		"Much has been modified in this modpack, and chances are it's the packs fault, not the mods.",
+		"",
+		"Report on discord: https://discord.gg/0YO4xbpybfK86qSj"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

@@ -4,11 +4,11 @@
 	x: -5.5d,
 	y: 5.0d,
 	text: [
-		"Once the bloomer has finished, use a shovel to remove the ash on top, then use your tongs to grab the bloom.",
+		"Once the bloom is ready, use a shovel to remove any ash, and tongs to grab the bloom.",
 		"",
-		"Place the bloom onto your anvil and keep hitting it with your hammer. ",
+		"Place the bloom onto an anvil, and keep hitting it with a hammer. ",
 		"",
-		"Careful, blooms are VERY hot and will set nearby blocks (and yourself) on fire!"
+		"Careful, blooms are VERY hot and will set nearby things on fire!"
 	],
 	dependencies: [
 		"a86bcf84"

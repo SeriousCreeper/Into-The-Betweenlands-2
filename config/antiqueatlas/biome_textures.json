@@ -1,13 +1,6 @@
 {
   "version": 2,
   "data": {
-    "aether:aether_arctic_peaks": "MOUNTAINS_NAKED",
-    "aether:aether_forgotten_highlands": "PLAINS",
-    "aether:aether_highlands": "PLAINS",
-    "aether:aether_irradiated_forests": "DENSE_FOREST",
-    "aether:aether_magnetic_hills": "HILLS",
-    "aether:aether_void": "PLAINS",
-    "aether:instanced_zone": "PLAINS",
     "jeid:error_biome": "PLAINS",
     "minecraft:beaches": "SHORE",
     "minecraft:birch_forest": "BIRCH",

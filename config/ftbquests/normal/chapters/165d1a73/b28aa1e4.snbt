@@ -1,14 +1,14 @@
 {
 	icon: "roots:ritual_grove_supplication",
-	x: 0.0d,
-	y: 3.0d,
+	x: -8.5d,
+	y: 0.0d,
+	shape: "gear",
 	text: [
-		"Place a pyre near a grove stone, and add all required ingredients for this ritual onto a pyre.",
+		"Place a pyre near a grove stone, and add all required ingredients onto the pyre.",
 		"",
-		"Light the pyre using fire starter or octine ingots.",
-		"",
-		"You should see some particles once the grove stone is activated!"
+		"Light the pyre using fire starter or octine ingot."
 	],
+	guide_page: "roots:roots_guide:rituals/grove_supplication",
 	dependencies: [
 		"92983340",
 		"6e0c4ef5",

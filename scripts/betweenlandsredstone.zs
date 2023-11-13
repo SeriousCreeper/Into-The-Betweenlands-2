@@ -1,5 +1,7 @@
 <ore:dustRedstone>.add(<betweenlandsredstone:scabyst_dust>);
 
+recipes.remove(<betweenlandsredstone:scabyst_dust>);
+recipes.remove(<betweenlandsredstone:scabyst_block>);
 recipes.remove(<betweenlandsredstone:white_pear_block>);
 recipes.remove(<betweenlandsredstone:weedwood_chest_trapped>);
 recipes.remove(<betweenlandsredstone:scabyst_tripwire>);

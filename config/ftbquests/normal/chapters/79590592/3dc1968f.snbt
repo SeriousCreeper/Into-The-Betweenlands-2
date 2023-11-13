@@ -1,0 +1,23 @@
+{
+	title: "Organized Magic",
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		"Radiant Quartz has many magical properties. ",
+		"",
+		"Best to collect as many as possible."
+	],
+	dependencies: [
+		"654f6fcb",
+		"05929675"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "3291ae66",
+		type: "item",
+		items: [{
+			item: "arcanearchives:raw_quartz"
+		}]
+	}]
+}

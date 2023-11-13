@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"4c551c5e"
+	],
+	tasks: [{
+		uid: "cc66817a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:silk_bundle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

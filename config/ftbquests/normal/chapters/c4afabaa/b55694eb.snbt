@@ -1,8 +1,11 @@
 {
 	title: "Permission Granted",
 	icon: "minecraft:ghast_tear",
-	x: 4.5d,
-	y: -1.0d,
+	x: 5.0d,
+	y: -1.5d,
+	text: [
+		"Choose a profession before leaving!"
+	],
 	hide_dependency_lines: true,
 	min_required_dependencies: 1,
 	dependencies: [

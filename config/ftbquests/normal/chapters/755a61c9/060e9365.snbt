@@ -3,13 +3,9 @@
 	x: -4.5d,
 	y: -4.0d,
 	text: [
-		"Sulfur torches are one of the main light sources, at least early on. ",
+		"Torches are unlit when crafted.",
 		"",
-		"Once you craft extinguished sulfur torches, place them on a campfire to light them up. ",
-		"",
-		"Alternatively right clicking with an octine ingot works as well. ",
-		"",
-		"Torches burn out in rain and when held while being underwater."
+		"Light them in a campfire."
 	],
 	dependencies: [
 		"704d5290"

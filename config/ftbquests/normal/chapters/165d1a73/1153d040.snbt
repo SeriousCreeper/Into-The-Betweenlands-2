@@ -1,8 +1,9 @@
 {
 	title: "Druidic Wisdom",
 	icon: "roots:roots_guide",
-	x: 0.0d,
-	y: 0.0d,
+	x: -8.5d,
+	y: -3.5d,
+	shape: "gear",
 	text: [
 		"I will have to study this..."
 	],
@@ -10,6 +11,7 @@
 		"ccbdfca2"
 	],
 	hide: true,
+	size: 2.0d,
 	tasks: [{
 		uid: "86e553e2",
 		type: "checkmark"

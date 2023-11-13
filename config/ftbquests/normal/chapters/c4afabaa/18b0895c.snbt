@@ -6,8 +6,9 @@
 			Potion: "minecraft:healing"
 		}
 	},
-	x: 0.5d,
-	y: -1.0d,
+	x: 1.0d,
+	y: -1.5d,
+	shape: "gear",
 	tasks: [{
 		uid: "5745f6d7",
 		type: "item",

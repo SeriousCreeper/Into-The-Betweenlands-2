@@ -1,0 +1,21 @@
+{
+	title: "Silky Production",
+	x: 1.0d,
+	y: -6.0d,
+	text: [
+		"Acquire a pheromone to attract moths. ",
+		"",
+		"Drops from infestations."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"33b5a7fd"
+	],
+	tasks: [{
+		uid: "0d05f613",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:pheromone_thorax"
+		}]
+	}]
+}

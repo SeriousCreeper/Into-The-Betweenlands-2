@@ -4,7 +4,8 @@
 	y: 3.0d,
 	text: [
 		"Ash can be easily acquired by burning sawdust on a campfire.",
-		"You can also get it by right clicking an ash pile if it accumulated at a campfire."
+		"",
+		"It can also be acquired by right clicking an ash pile if it accumulated at a campfire."
 	],
 	dependencies: [
 		"704d5290",

@@ -1,8 +1,9 @@
 {
 	title: "Profession: Miner",
 	icon: "pyrotech:crude_pickaxe",
-	x: 1.5d,
-	y: -1.0d,
+	x: 2.0d,
+	y: -1.5d,
+	shape: "gear",
 	tasks: [{
 		uid: "d9da76aa",
 		type: "item",

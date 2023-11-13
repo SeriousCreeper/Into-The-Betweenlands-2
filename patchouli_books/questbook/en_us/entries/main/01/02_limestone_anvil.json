@@ -1,0 +1,21 @@
+{
+    "name": "Limestone Anvil",
+    "icon": "pyrotech:anvil_granite",
+    "category": "01_discoveries",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Limestone Anvil",
+            "text": "Anvil that helps breaking down items into smaller components.$(br2)Place down the item and hit it with either a hammer or pickaxe, depending on the recipe."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "pyrotech:anvil_granite#1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:tech/basic/anvil_granite"
+        }
+    ]
+}

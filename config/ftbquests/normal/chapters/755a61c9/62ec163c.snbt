@@ -1,8 +1,8 @@
 {
 	x: -8.5d,
-	y: -5.0d,
+	y: -4.0d,
 	text: [
-		"Instead of filling my already limited storage with logs, i should build a wood rack to keep my logs in one place."
+		"Can store 9 stacks of logs in a fancy looking way."
 	],
 	dependencies: [
 		"f5b90f01"

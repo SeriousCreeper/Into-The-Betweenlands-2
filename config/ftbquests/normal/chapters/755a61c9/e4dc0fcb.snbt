@@ -1,0 +1,21 @@
+{
+	title: "Grub Hub",
+	x: 3.0d,
+	y: -4.0d,
+	text: [
+		"A Grub Hub is a way to automatically produce and harvest more silky friends.",
+		"",
+		"By providing it with liquid pheromones, it will constantly spray pheromones onto any bush in a 3x3 area, 1 block below itself."
+	],
+	dependencies: [
+		"b5e046d4",
+		"4adcb5cd"
+	],
+	tasks: [{
+		uid: "784d9fb7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:grub_hub"
+		}]
+	}]
+}

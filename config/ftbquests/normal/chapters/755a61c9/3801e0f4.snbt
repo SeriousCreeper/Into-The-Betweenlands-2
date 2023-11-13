@@ -1,0 +1,24 @@
+{
+	title: "Silky Home",
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		"A moth house will provide a safe environment for our silky friends to produce their cocoons.",
+		"",
+		"Right click worms onto the house and be patient. ",
+		"",
+		"Nearby amate lanterns will improve the production rate.",
+		"",
+		"Once you see silk threads inside the house, remove them with a right click."
+	],
+	dependencies: [
+		"b5e046d4"
+	],
+	tasks: [{
+		uid: "c58fc6fd",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:moth_house"
+		}]
+	}]
+}

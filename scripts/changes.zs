@@ -597,3 +597,5 @@ scripts.utils.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<
 <minecraft:dye:13>.displayName = <minecraft:dye:13>.displayName + " Powder";
 <minecraft:dye:14>.displayName = <minecraft:dye:14>.displayName + " Powder";
 <minecraft:dye:15>.displayName = <minecraft:dye:15>.displayName + " Powder";
+
+<minecraft:paper>.displayName = "Identification Card";

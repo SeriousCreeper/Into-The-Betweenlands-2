@@ -1,7 +1,18 @@
 {
-	title: "Technology",
+	title: "Improvised Machinery",
 	icon: "embers:codex",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: 0.0d,
+		width: 25.4d,
+		height: 18.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/background_embers.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

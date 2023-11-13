@@ -5,7 +5,7 @@
 	text: [
 		"Blooms are very hot and are best handled using tongs.",
 		"",
-		"Once the bloomery is finished (no more fire), right click the top of it with a tong to get out the bloom."
+		"Once the bloomery is finished (no more fire), right click the top of it with tongs to remove the bloom."
 	],
 	dependencies: [
 		"a86bcf84"

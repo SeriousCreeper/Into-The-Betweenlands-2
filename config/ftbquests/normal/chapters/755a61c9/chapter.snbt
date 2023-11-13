@@ -1,6 +1,6 @@
 {
 	title: "\"How to settle anywhere!\" by Sir V. Ival",
-	icon: "minecraft:book",
+	icon: "ftbquests:book",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "",

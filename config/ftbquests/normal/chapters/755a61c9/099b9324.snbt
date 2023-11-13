@@ -3,9 +3,9 @@
 	x: -4.5d,
 	y: 2.0d,
 	text: [
-		"The first set of machines i want to build will require a strong but heat resistant brick. ",
+		"The first set of machines will require a sturdy brick. ",
 		"",
-		"I have something in mind which requires slaked lime. If i place 8 limestone flux into a soaking pot filled with swamp water, and give it some time, it should give me what i need."
+		"Slaked lime is the first step to produce such bricks."
 	],
 	dependencies: [
 		"4457f695"

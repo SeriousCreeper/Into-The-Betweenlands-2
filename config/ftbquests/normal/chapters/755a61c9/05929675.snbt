@@ -3,11 +3,11 @@
 	x: -3.5d,
 	y: 6.0d,
 	text: [
-		"Octine is a very hot metal that can be used to light your machines and blocks. ",
+		"Octine is a very hot metal that can be used to light your machines and blocks, like a fire starter would.",
 		"",
-		"Things like the sawmill, torches, campfire, can all be lit with an octine ingot. ",
+		"Things like the refractory machines, torches, campfires, can all be lit with an octine ingot. ",
 		"",
-		"You can also use it to create fires in-world by lighting up moss when it's placed on the ground."
+		"It can also be used to create fires in-world by lighting up placed down moss."
 	],
 	dependencies: [
 		"b35cdb03"

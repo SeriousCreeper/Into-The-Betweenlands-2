@@ -1,0 +1,18 @@
+{
+	title: "So smooth, so silky",
+	x: 1.0d,
+	y: -3.0d,
+	text: [
+		"Cocoons can be directly crafted into silk threads."
+	],
+	dependencies: [
+		"88b9827a"
+	],
+	tasks: [{
+		uid: "e312d4b1",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 63"
+		}]
+	}]
+}

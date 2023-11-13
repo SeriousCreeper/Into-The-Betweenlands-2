@@ -1,7 +1,8 @@
 {
 	title: "Pyre",
-	x: -1.0d,
-	y: 2.0d,
+	x: -9.5d,
+	y: -1.0d,
+	shape: "gear",
 	text: [
 		"Pyres are used to craft items and activate rituals.",
 		"",
@@ -9,7 +10,7 @@
 		"",
 		"This can be done by starting a fire NEXT to the pyre, or using a fire starter item on the pyre itself.",
 		"",
-		"You can also place the pyre onto a chest that contains the ingredients for the ritual, to keep automatically feeding the pyre the right ingredients, and keeping the ritual running."
+		"You can also place the pyre onto a chest that contains the ingredients for the ritual, to automatically feed the pyre the right ingredients, to keep the ritual running."
 	],
 	dependencies: [
 		"15494e7a"

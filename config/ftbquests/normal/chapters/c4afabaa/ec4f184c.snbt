@@ -4,8 +4,8 @@
 		id: "death_compass:death_compass",
 		tag: {}
 	},
-	x: -0.5d,
-	y: 2.5d,
+	x: 0.0d,
+	y: 0.0d,
 	text: [
 		"In this pack, dying is not as punishing as in normal minecraft.",
 		"",
