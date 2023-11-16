@@ -7,17 +7,17 @@ scripts.utils.addShaped("paper_lantern", <quark:paper_lantern>, [
 	[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>]
 ]);
 
-recipes.remove(<quark:color_slime>);
-scripts.utils.addShaped("color_slime", <quark:color_slime>, [
-	[<thebetweenlands:sap_spit>, <thebetweenlands:sap_spit>], 
-	[<thebetweenlands:sap_spit>, <thebetweenlands:sap_spit>]
-]);
+//recipes.remove(<quark:color_slime>);
+//scripts.utils.addShaped("color_slime", <quark:color_slime>, [
+//	[<thebetweenlands:sap_spit>, <thebetweenlands:sap_spit>], 
+//	[<thebetweenlands:sap_spit>, <thebetweenlands:sap_spit>]
+//]);
 
 scripts.utils.addShaped("paper_lantern_candle", <quark:paper_lantern>, [[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>], [<thebetweenlands:items_misc:32>, <ore:candles>, <thebetweenlands:items_misc:32>], [<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>]]);
 
 
 scripts.utils.addShaped("backpack", <quark:backpack>, [
-	[<ore:leather>, <minecraft:tripwire_hook>, <ore:leather>],
+	[<ore:leather>, <betweenlandsredstone:scabyst_tripwire_hook>, <ore:leather>],
 	[<ore:leather>, <ore:chest>, <ore:leather>],
 	[<ore:leather>, <ore:leather>, <ore:leather>]
 ]);
@@ -64,15 +64,15 @@ scripts.utils.addShaped("chain", <quark:chain> * 3, [
 	[null, null, <ore:ingotSyrmorite>]
 ]);
 
-recipes.remove(<quark:glass_item_frame>);
+//recipes.remove(<quark:glass_item_frame>);
 //scripts.utils.addShaped("glass_item_frame", <quark:glass_item_frame> * 2, [
 //	[<thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>], 
 //	[<thebetweenlands:silt_glass_pane>, <minecraft:item_frame>, <thebetweenlands:silt_glass_pane>], 
 //	[<thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>]
 //]);
 
-recipes.remove(<quark:lit_lamp>);
-scripts.utils.addShapeless("quark-lit_lamp-modified", <quark:lit_lamp>, [<minecraft:redstone_lamp>, <minecraft:redstone_torch>]);
+//recipes.remove(<quark:lit_lamp>);
+//scripts.utils.addShapeless("quark-lit_lamp-modified", <quark:lit_lamp>, [<minecraft:redstone_lamp>, <minecraft:redstone_torch>]);
 
 recipes.remove(<quark:redstone_randomizer>);
 scripts.utils.addShaped("redstone_randomizer", <quark:redstone_randomizer>, [
@@ -80,6 +80,14 @@ scripts.utils.addShaped("redstone_randomizer", <quark:redstone_randomizer>, [
 	[<betweenlandsredstone:scabyst_torch>, <thebetweenlands:items_misc:47>, <betweenlandsredstone:scabyst_torch>],
 	[<thebetweenlands:mud_bricks>, <thebetweenlands:mud_bricks>, <thebetweenlands:mud_bricks>]
 ]);
+
+recipes.remove(<quark:framed_glass>);
+scripts.utils.addShaped("framed_glass", <quark:framed_glass> * 5, [
+	[<thebetweenlands:filtered_silt_glass>, <ore:nuggetIron>, <thebetweenlands:filtered_silt_glass>], 
+	[<ore:nuggetIron>, <thebetweenlands:filtered_silt_glass>, <ore:nuggetIron>], 
+	[<thebetweenlands:filtered_silt_glass>, <ore:nuggetIron>, <thebetweenlands:filtered_silt_glass>]
+]);
+
 
 recipes.remove(<quark:tiny_potato>);
 recipes.addHiddenShapeless("tiny_pebble", <quark:tiny_potato>, [<thebetweenlands:items_misc:50>, <thebetweenlands:items_misc:19>]);
