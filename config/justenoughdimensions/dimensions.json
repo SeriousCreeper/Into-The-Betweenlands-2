@@ -9,7 +9,7 @@
       "temporary_dimension": false,
       "world_template": "spawn_world",
       "jed": {
-        "SkyRenderType": 2,
+        "SkyRenderType": 0,
         "CanSpawnHostiles": false,
         "ForceGameMode": true
       },
@@ -28,11 +28,13 @@
         "generatorName": "flat",
         "generatorOptions": "3;minecraft:air;127;",
         "GameRules": {
-            "keepInventory": "true"
+            "keepInventory": "true",
+            "doWeatherCycle": "false",
+            "doDaylightCycle": "false"
         },
-        "SpawnX": 0,
-        "SpawnY": 103,
-        "SpawnZ": 0
+        "SpawnX": -1,
+        "SpawnY": 109,
+        "SpawnZ": -1
       }
     },
     {

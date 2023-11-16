@@ -1,6 +1,7 @@
 {
 	version: 9,
 	title: "Into The Betweenlands 2",
+	icon: "thebetweenlands:swamp_talisman",
 	default_reward_team: true,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",

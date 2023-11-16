@@ -2,11 +2,10 @@
 	title: "Climbing Up Walls",
 	icon: "thebetweenlands:syrmorite_boots",
 	x: -1.0d,
-	y: 0.0d,
+	y: 2.0d,
+	shape: "gear",
 	text: [
-		"If you jump against a wall, you can jump one more time by pressing the wall-jump button (Space by default).",
-		"",
-		"You can also hold down the wall-jump button to slowly slide down walls."
+		"It's possible to climb 3 blocks tall walls by holding the sprint (CTRL by default) key when running up against a wall."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

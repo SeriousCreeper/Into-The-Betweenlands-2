@@ -1,0 +1,16 @@
+{
+	title: "Finding Biomes",
+	x: 9.5d,
+	y: -6.0d,
+	text: [
+		"A special compass that helps finding specific biomes."
+	],
+	tasks: [{
+		uid: "e4b1993d",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}]
+	}]
+}

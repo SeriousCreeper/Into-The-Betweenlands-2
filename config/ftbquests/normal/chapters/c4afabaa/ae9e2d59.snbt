@@ -1,9 +1,10 @@
 {
 	title: "Profession: Guard",
 	icon: "pyrotech:flint_sword",
-	x: 0.0d,
-	y: -1.5d,
+	x: -0.5d,
+	y: -2.0d,
 	shape: "gear",
+	optional: true,
 	tasks: [{
 		uid: "2d145a54",
 		type: "item",

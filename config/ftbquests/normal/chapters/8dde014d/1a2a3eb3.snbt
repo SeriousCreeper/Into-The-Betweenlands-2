@@ -12,6 +12,7 @@
 		uid: "6b8362ec",
 		type: "advancement",
 		title: "Investigate: Spirit Tree",
+		icon: "thebetweenlands:sapling_spirit_tree",
 		advancement: "thebetweenlands:fighter/illegal_logging",
 		criterion: ""
 	}],

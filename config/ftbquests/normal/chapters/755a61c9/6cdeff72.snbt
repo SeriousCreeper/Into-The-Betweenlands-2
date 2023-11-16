@@ -1,13 +1,13 @@
 {
 	title: "Bees",
-	x: 4.5d,
-	y: -2.5d,
+	x: 8.5d,
+	y: -6.0d,
 	text: [
-		"Beehives can be found rarily hanging from weedwood leaves.",
+		"Beehives can be found rarily hanging from leaves.",
 		"",
 		"Just keep an eye out for them while exploring.",
 		"",
-		"Breaking the hive will give you a swampbee."
+		"Breaking the hive will give you a bee."
 	],
 	tasks: [{
 		uid: "eee6dbc6",

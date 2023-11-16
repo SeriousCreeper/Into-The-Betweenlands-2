@@ -1,9 +1,10 @@
 {
 	title: "Profession: Fisherman",
 	icon: "thebetweenlands:fishing_spear",
-	x: -1.0d,
-	y: -1.5d,
+	x: -1.5d,
+	y: -2.0d,
 	shape: "gear",
+	optional: true,
 	tasks: [{
 		uid: "c2840c0f",
 		type: "item",

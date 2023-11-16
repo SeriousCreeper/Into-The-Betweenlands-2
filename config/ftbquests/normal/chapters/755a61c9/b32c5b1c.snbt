@@ -1,7 +1,7 @@
 {
 	title: "Mapping The Betweenlands",
-	x: 3.5d,
-	y: -2.5d,
+	x: 7.5d,
+	y: -6.0d,
 	text: [
 		"An amate map will not only show biome borders, but also reveal any nearby structures."
 	],

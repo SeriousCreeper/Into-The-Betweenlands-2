@@ -1,12 +1,13 @@
 {
 	title: "Profession: Explorer",
 	icon: "thebetweenlands:explorers_hat",
-	x: -2.0d,
-	y: -1.5d,
+	x: -2.5d,
+	y: -2.0d,
 	shape: "gear",
 	text: [
 		""
 	],
+	optional: true,
 	tasks: [{
 		uid: "4558f16f",
 		type: "item",

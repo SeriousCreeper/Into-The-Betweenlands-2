@@ -1,14 +1,13 @@
 {
 	title: "Bugs?",
-	icon: "waterstrainer:worm",
+	icon: "thebetweenlands:tiny_sludge_worm",
 	x: 1.0d,
-	y: 0.0d,
+	y: 2.0d,
+	shape: "gear",
 	text: [
-		"If you encounter any bugs, report them directly to SeriousCreeper, and not the author of the mod in question. ",
+		"If you encounter any bugs, report them directly to my §6discord§r, and not the author of the mod in question. ",
 		"",
-		"Much has been modified in this modpack, and chances are it's the packs fault, not the mods.",
-		"",
-		"Report on discord: https://discord.gg/0YO4xbpybfK86qSj"
+		"Much has been modified in this modpack, and chances are it's the packs fault, not the mods."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

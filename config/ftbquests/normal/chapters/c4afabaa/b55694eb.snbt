@@ -1,10 +1,11 @@
 {
 	title: "Permission Granted",
-	icon: "minecraft:ghast_tear",
-	x: 5.0d,
-	y: -1.5d,
+	icon: "contenttweaker:access_crystal",
+	x: 0.0d,
+	y: -0.5d,
+	shape: "gear",
 	text: [
-		"Choose a profession before leaving!"
+		"After having chosen your profession, grab an access crystal and use it on the portal to gain access."
 	],
 	hide_dependency_lines: true,
 	min_required_dependencies: 1,
@@ -17,10 +18,15 @@
 		"ae9e2d59"
 	],
 	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "9ce0999b",
+		type: "checkmark"
+	}],
 	rewards: [{
 		uid: "58c9022c",
 		type: "item",
 		auto: "enabled",
-		item: "minecraft:ghast_tear"
+		item: "contenttweaker:access_crystal"
 	}]
 }

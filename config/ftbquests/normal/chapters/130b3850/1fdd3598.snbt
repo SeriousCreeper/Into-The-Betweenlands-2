@@ -9,6 +9,7 @@
 		"2b2147a0",
 		"33f14f77"
 	],
+	hide: true,
 	size: 2.0d,
 	tasks: [{
 		uid: "48fdd93b",
