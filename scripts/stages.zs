@@ -44,6 +44,12 @@ val thaumcraftItemsNotToStage = [
 val thaumicaugmentationItemsNotToStage = [
 ] as IItemStack[];
 
+val aetherworksItemsNotToStage = [
+] as IItemStack[];
+
+val wormholeItemsNotToStage = [
+] as IItemStack[];
+
 val ieItemsNotToStage = [
 	<immersiveengineering:ore>,
 	<immersiveengineering:ore:1>,
@@ -113,8 +119,8 @@ stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 
 stageMods("thaumicaugmentation", "unstaged", thaumicaugmentationItemsNotToStage);
 stageMods("immersiveengineering", "unstaged", scripts.immersiveengineering.itemsToRemove);
-
-stageMods("aetherworks", "unstaged", thaumcraftItemsNotToStage);
+stageMods("aetherworks", "unstaged", aetherworksItemsNotToStage);
+stageMods("wormhole", "unstaged", wormholeItemsNotToStage);
 
 
 function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack[]) {

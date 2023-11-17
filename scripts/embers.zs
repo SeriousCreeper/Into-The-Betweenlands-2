@@ -122,7 +122,7 @@ scripts.utils.addShapeless("block_tank_clear", <embers:block_tank>, [<embers:blo
 recipes.remove(<embers:copper_cell>);
 scripts.utils.addShaped("copper_cell", <embers:copper_cell>.withTag({emberCapacity: 24000.0, ember: 0.0}), [
 	[<embers:block_caminite_brick:*>, <ore:ingotSyrmorite>, <embers:block_caminite_brick:*>], 
-	[<ore:ingotSyrmorite>, <ore:blockCopper>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:blockOctine>, <ore:ingotSyrmorite>], 
 	[<embers:block_caminite_brick:*>, <ore:ingotSyrmorite>, <embers:block_caminite_brick:*>]
 ]);
 
@@ -204,7 +204,7 @@ recipes.remove(<embers:charger>);
 scripts.utils.addShaped("charger", <embers:charger>, [
 	[null, <ore:plateSyrmorite>, null], 
 	[<ore:ingotDawnstone>, <ore:ingotSyrmorite>, <ore:ingotDawnstone>], 
-	[<ore:ingotSyrmorite>, <ore:plateCopper>, <ore:ingotSyrmorite>]
+	[<ore:ingotSyrmorite>, <ore:plateOctine>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:breaker>);

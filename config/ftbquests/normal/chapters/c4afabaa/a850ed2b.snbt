@@ -1,7 +1,7 @@
 {
 	title: "Bugs?",
 	icon: "thebetweenlands:tiny_sludge_worm",
-	x: 1.0d,
+	x: 0.5d,
 	y: 2.0d,
 	shape: "gear",
 	text: [
