@@ -303,13 +303,6 @@ scripts.utils.addShaped("ember_cartridge", <embers:ember_cartridge>.withTag({emb
 	[null, <ore:blockGlass>, null]
 ]);
 
-recipes.remove(<embers:ignition_cannon>);
-scripts.utils.addShaped("ignition_cannon", <embers:ignition_cannon>.withTag({cooldown: 0}), [
-	[null, <ore:ingotDawnstone>, <embers:plate_dawnstone>], 
-	[<ore:ingotDawnstone>, <embers:plate_dawnstone>, <ore:ingotSyrmorite>], 
-	[<embers:shard_ember>, <ore:stickWood>, null]
-]);
-
 recipes.remove(<embers:ashen_cloak_head>);
 scripts.utils.addShaped("ashen_cloak_head", <embers:ashen_cloak_head>, [
 	[null, <contenttweaker:silk>, null], 
@@ -376,27 +369,6 @@ scripts.utils.addShaped("ember_belt", <embers:ember_belt>, [
 	[<ore:leather>, <ore:ingotDawnstone>, <ore:leather>], 
 	[<ore:leather>, null, <ore:leather>], 
 	[<ore:plateDawnstone>, <embers:ember_cluster:*>, <ore:plateDawnstone>]
-]);
-
-recipes.remove(<embers:axe_clockwork>);
-scripts.utils.addShaped("axe_clockwork", <embers:axe_clockwork>, [
-	[<embers:plate_dawnstone>, <embers:plate_gold>, <embers:plate_dawnstone>], 
-	[<embers:ingot_dawnstone>, <embers:shard_ember>, <embers:ingot_dawnstone>], 
-	[null, <ore:stickWood>, null]
-]);
-
-recipes.remove(<embers:pickaxe_clockwork>);
-scripts.utils.addShaped("pickaxe_clockwork", <embers:pickaxe_clockwork>, [
-	[<embers:ingot_dawnstone>, <embers:shard_ember>, <embers:ingot_dawnstone>], 
-	[null, <ore:ingotCopper>, null], 
-	[null, <ore:stickWood>, null]
-]);
-
-recipes.remove(<embers:grandhammer>);
-scripts.utils.addShaped("grandhammer", <embers:grandhammer>, [
-	[<embers:block_dawnstone>, <embers:ingot_dawnstone>, <embers:block_dawnstone>], 
-	[null, <ore:ingotCopper>, null], 
-	[null, <ore:stickWood>, null]
 ]);
 
 recipes.remove(<embers:reactor>);
@@ -593,6 +565,12 @@ Alchemy.add(<embers:seed_syrmorite>, [<thebetweenlands:dentrothyst_shard_orange>
 	}
 );
 
+Alchemy.add(<embers:seed_octine>, [<thebetweenlands:dentrothyst_shard_orange>, <ore:ingotOctine>, <ore:ingotOctine>, <embers:shard_ember>, <embers:shard_ember>], 
+	{
+		"gold" : 96 to 128
+	}
+);
+
 Alchemy.remove(<embers:seed_iron>);
 Alchemy.add(<embers:seed_iron>, [<thebetweenlands:dentrothyst_shard_orange>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <embers:shard_ember>, <embers:shard_ember>], 
 	{
@@ -753,8 +731,8 @@ Stamper.add(<embers:plate_gold>, <liquid:octine> * 144, <embers:stamp_plate>);
 	
 Stamper.remove(<minecraft:blaze_powder>);
 
-//Stamper.remove(<embers:aspectus_iron>);
-//Stamper.add(<embers:aspectus_iron>, <liquid:syrmorite> * 144, <embers:stamp_plate>, <embers:shard_ember>);
+Stamper.remove(<embers:aspectus_iron>);
+Stamper.add(<embers:aspectus_iron>, <liquid:syrmorite> * 144, <embers:stamp_plate>, <embers:shard_ember>);
 
 //Stamper.remove(<embers:aspectus_copper>);
 //Stamper.add(<embers:aspectus_copper>, <liquid:octine> * 144, <embers:stamp_plate>, <embers:shard_ember>);
@@ -877,7 +855,7 @@ scripts.utils.addInfoTooltip(<embers:ember_bore>, "Has to be placed in the pitst
 
 <embers:plate_iron>.displayName = "Wrought Iron Plate";
 <embers:plate_gold>.displayName = "Octine Plate";
-//<embers:aspectus_iron>.displayName = "Syrmorite Aspectus";
+<embers:aspectus_iron>.displayName = "Syrmorite Aspectus";
 //<embers:aspectus_copper>.displayName = "Octine Aspectus";
 //<embers:seed_iron>.displayName = "Syrmorite Crystal Seed";
 //<embers:seed_gold>.displayName = "Octine Crystal Seed";

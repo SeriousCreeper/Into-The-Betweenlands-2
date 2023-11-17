@@ -590,6 +590,71 @@ ArcaneWorkbench.registerShapedRecipe("warding_sigil", "WARDED_ARCANA@1", 10, [
 	[null, <growthcraft_bees:bees_wax:*>, null]
 ]);
 
+recipes.remove(<embers:ignition_cannon>);
+ArcaneWorkbench.registerShapedRecipe("ignition_cannon", "UNLOCKARTIFICE@2", 100, [
+	<aspect:ignis> * 32,
+	<aspect:potentia> * 16,
+	<aspect:permutatio> * 8,
+], 
+<embers:ignition_cannon>.withTag({cooldown: 0}), 
+[
+	[null, <ore:ingotDawnstone>, <embers:plate_dawnstone>], 
+	[<ore:ingotDawnstone>, <embers:plate_dawnstone>, <ore:ingotSyrmorite>], 
+	[<embers:shard_ember>, <ore:stickWood>, null]
+]);
+
+recipes.remove(<embers:staff_ember>);
+ArcaneWorkbench.registerShapedRecipe("staff_ember", "UNLOCKARTIFICE@2", 100, [
+	<aspect:ignis> * 32,
+	<aspect:potentia> * 16,
+	<aspect:permutatio> * 8,
+], 
+<embers:staff_ember>.withTag({cooldown: 0}), 
+[
+	[<embers:plate_silver>, <embers:shard_ember>, <embers:plate_silver>], 
+	[<ore:ingotDawnstone>, <ore:stickWood>, <ore:ingotDawnstone>], 
+	[null, <ore:stickWood>, null]
+]);
+
+recipes.remove(<embers:axe_clockwork>);
+ArcaneWorkbench.registerShapedRecipe("axe_clockwork", "UNLOCKARTIFICE@2", 100, [
+	<aspect:ignis> * 32,
+	<aspect:potentia> * 16,
+	<aspect:permutatio> * 8,
+], 
+<embers:axe_clockwork>, 
+[
+	[<embers:plate_dawnstone>, <embers:plate_gold>, <embers:plate_dawnstone>], 
+	[<embers:ingot_dawnstone>, <embers:shard_ember>, <embers:ingot_dawnstone>], 
+	[null, <ore:stickWood>, null]
+]);
+
+recipes.remove(<embers:pickaxe_clockwork>);
+ArcaneWorkbench.registerShapedRecipe("pickaxe_clockwork", "UNLOCKARTIFICE@2", 100, [
+	<aspect:ignis> * 32,
+	<aspect:potentia> * 16,
+	<aspect:permutatio> * 8,
+], 
+<embers:pickaxe_clockwork>, 
+[
+	[<embers:ingot_dawnstone>, <embers:shard_ember>, <embers:ingot_dawnstone>], 
+	[null, <ore:ingotCopper>, null], 
+	[null, <ore:stickWood>, null]
+]);
+
+recipes.remove(<embers:grandhammer>);
+ArcaneWorkbench.registerShapedRecipe("grandhammer", "UNLOCKARTIFICE@2", 100, [
+	<aspect:ignis> * 32,
+	<aspect:potentia> * 16,
+	<aspect:permutatio> * 8,
+], 
+<embers:grandhammer>, 
+[
+	[<embers:block_dawnstone>, <embers:ingot_dawnstone>, <embers:block_dawnstone>], 
+	[null, <ore:ingotCopper>, null], 
+	[null, <ore:stickWood>, null]
+]);
+
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:banner_white>);
 ArcaneWorkbench.removeRecipe(<thaumcraft:banner_orange>);
