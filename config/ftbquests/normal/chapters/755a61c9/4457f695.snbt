@@ -5,7 +5,7 @@
 	text: [
 		"A soaking pot wil soak items in liquid to further process them. ",
 		"",
-		"If a recipes requires heat, it can be placed on top of a campfire."
+		"If a recipes requires heat, it can be placed on top of a campfire by sneak right-clicking."
 	],
 	dependencies: [
 		"f4488f2a",

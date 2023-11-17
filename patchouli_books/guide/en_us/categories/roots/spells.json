@@ -1,7 +1,0 @@
-{
-  "name": "Spells",
-  "sortnum" : 3,
-  "parent": "roots",
-  "description": "This section covers spells and provides an introduction to the crafting and casting of spells.",
-  "icon": "roots:gramary"
-}

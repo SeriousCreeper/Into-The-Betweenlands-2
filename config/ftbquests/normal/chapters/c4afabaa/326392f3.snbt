@@ -19,9 +19,6 @@
 		"By being a pacifisit, you gain small benefits, such as reduced cooldowns on Runic Shears."
 	],
 	hide_dependency_lines: true,
-	dependencies: [
-		"b55694eb"
-	],
 	hide: true,
 	tasks: [{
 		uid: "ea27dafd",

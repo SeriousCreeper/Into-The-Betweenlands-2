@@ -6,7 +6,9 @@
 		type: "item",
 		items: [{
 			id: "thebetweenlands:bl_bucket",
-			tag: {}
+			tag: {
+				Fluid: {}
+			}
 		}]
 	}]
 }

@@ -8,9 +8,6 @@
 		"It's possible to climb 3 blocks tall walls by holding the sprint (CTRL by default) key when running up against a wall."
 	],
 	hide_dependency_lines: true,
-	dependencies: [
-		"b55694eb"
-	],
 	hide: true,
 	tasks: [{
 		uid: "a000843d",

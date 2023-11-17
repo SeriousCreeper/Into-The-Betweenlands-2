@@ -17,7 +17,6 @@
 			item: "pyrotech:crude_axe"
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b,
-		only_from_crafting: true
+		ignore_nbt: 1b
 	}]
 }

@@ -12,7 +12,7 @@ recipes.remove(<thaumcraft:nugget:3>);
 recipes.remove(<thaumcraft:nugget:4>);
 
 recipes.remove(<thaumcraft:plate:*>);
-<ore:plateSyrmorite>.remove(<thaumcraft:plate:1>);
+//<ore:plateSyrmorite>.remove(<thaumcraft:plate:1>);
 
 
 //scripts.utils.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <ore:dustRedstone>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);

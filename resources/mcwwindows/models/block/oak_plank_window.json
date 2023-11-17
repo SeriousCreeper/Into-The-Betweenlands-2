@@ -1,0 +1,8 @@
+{
+	"parent": "mcwwindows:block/parent/window",
+	"textures": {
+		"0": "minecraft:blocks/planks_oak",
+		"1": "thebetweenlands:blocks/filtered_silt_glass_0",
+		"particle": "minecraft:blocks/planks_oak"      
+	}
+}

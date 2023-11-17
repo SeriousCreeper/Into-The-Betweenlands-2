@@ -6,9 +6,20 @@
   },
   {
     "mob": "embers:ancient_golem",
-    "mincount": 2,
+    "mincount": 5,
     "perplayer": true,
     "result": "deny"
+  },
+  {
+    "mob": "embers:ancient_golem",
+    "gamestage":"knowledge_of_malice",
+    "result":"default",
+    "onjoin":true
+  },
+  {
+    "mob": "embers:ancient_golem",
+    "result":"deny",
+    "onjoin":true
   },
   {
     "mob": "thaumcraft:wisp",

@@ -88,6 +88,11 @@ scripts.utils.addShaped("framed_glass", <quark:framed_glass> * 5, [
 	[<thebetweenlands:filtered_silt_glass>, <ore:nuggetIron>, <thebetweenlands:filtered_silt_glass>]
 ]);
 
+recipes.remove(<quark:framed_glass>);
+recipes.addShaped("trowel", <quark:trowel>, [
+	[<ore:stickWood>, null, null], 
+	[null, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>]
+]);
 
 recipes.remove(<quark:tiny_potato>);
 recipes.addHiddenShapeless("tiny_pebble", <quark:tiny_potato>, [<thebetweenlands:items_misc:50>, <thebetweenlands:items_misc:19>]);

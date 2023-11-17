@@ -10,9 +10,6 @@
 		"Much has been modified in this modpack, and chances are it's the packs fault, not the mods."
 	],
 	hide_dependency_lines: true,
-	dependencies: [
-		"b55694eb"
-	],
 	hide: true,
 	tasks: [{
 		uid: "76d59772",

@@ -1,7 +1,7 @@
 {
 	"parent": "mcwfurnitures:block/parent/desk_9",
 	"textures": {
-		"3": "minecraft:blocks/glass",
+		"3": "thebetweenlands:blocks/filtered_silt_glass_0",
 		"particle": "minecraft:blocks/log_spruce",
 		"texture": "minecraft:blocks/log_spruce"
 	}

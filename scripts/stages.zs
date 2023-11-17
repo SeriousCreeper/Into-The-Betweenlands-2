@@ -37,7 +37,8 @@ val embersItemsNotToStage = [
 ] as IItemStack[];
 
 val thaumcraftItemsNotToStage = [
-	<thaumcraft:brain>
+	<thaumcraft:brain>,
+	<thaumcraft:plate:1>
 ] as IItemStack[];
 
 val thaumicaugmentationItemsNotToStage = [

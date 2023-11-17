@@ -1,2 +1,4 @@
 roots.modifiers.modifiers.dewebbing.desc=Additionally harvests moss.
 roots.modifiers.modifiers.dewebbing=Demossing
+jei.roots.runic_shears.cooldown=Item can be obtained every %d seconds (or %d as a pacifist).
+roots.runic_shears.tooltip2=Pacifists can receive gifts more frequently.

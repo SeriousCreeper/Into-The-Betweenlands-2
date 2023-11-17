@@ -8,7 +8,7 @@
 		"",
 		"Light the pyre using fire starter or octine ingot."
 	],
-	guide_page: "roots:roots_guide:rituals/grove_supplication",
+	guide_page: "roots:roots_guide:rituals/ritual_grove_supplication",
 	dependencies: [
 		"92983340",
 		"6e0c4ef5",

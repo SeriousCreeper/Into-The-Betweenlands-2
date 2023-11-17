@@ -1,0 +1,8 @@
+{
+	"parent": "mcwwindows:block/parent/win_1x1",
+	"textures": {
+		"0": "thebetweenlands:blocks/rotten_planks",
+		"1": "thebetweenlands:blocks/filtered_silt_glass_0",
+		"particle": "thebetweenlands:blocks/rotten_planks"      
+	}
+}

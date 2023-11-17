@@ -504,6 +504,9 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 <ore:slimeball>.remove(<minecraft:slime_ball>);
 
+<ore:blockRedstone>.remove(<minecraft:redstone_block>);
+<ore:blockRedstone>.add(<betweenlandsredstone:scabyst_block>);
+
 val candles = [
 	<thaumcraft:candle_white>,
 	<thaumcraft:candle_orange>,

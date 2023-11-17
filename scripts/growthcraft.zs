@@ -122,9 +122,9 @@ scripts.utils.addShaped("culture_jar", <growthcraft_cellar:culture_jar>, [
 
 recipes.remove(<growthcraft_bees:beebox>);
 scripts.utils.addShaped("beebox", <growthcraft_bees:beebox>, [
-	[null, <pyrotech:material:20>, null], 
-	[<pyrotech:material:20>, null, <pyrotech:material:20>], 
-	[<pyrotech:material:20>, <pyrotech:material:20>, <pyrotech:material:20>]
+	[null, <pyrotech:material:23>, null], 
+	[<pyrotech:material:23>, null, <pyrotech:material:23>], 
+	[<pyrotech:material:23>, <pyrotech:material:23>, <pyrotech:material:23>]
 ]);
 
 

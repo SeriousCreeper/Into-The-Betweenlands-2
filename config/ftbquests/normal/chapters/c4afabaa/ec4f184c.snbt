@@ -13,9 +13,6 @@
 		"All other items will be placed inside a grave."
 	],
 	hide_dependency_lines: true,
-	dependencies: [
-		"b55694eb"
-	],
 	hide: true,
 	tasks: [{
 		uid: "c3554000",

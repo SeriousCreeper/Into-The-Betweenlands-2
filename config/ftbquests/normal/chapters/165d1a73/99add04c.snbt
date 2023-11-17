@@ -10,7 +10,7 @@
 		"There is an extra recipe that can craft spores from pacifist friendly ingredients."
 	],
 	dependencies: [
-		"4f553b75"
+		"c9eeb620"
 	],
 	optional: true,
 	tasks: [{

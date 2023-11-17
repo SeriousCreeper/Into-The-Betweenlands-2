@@ -9,12 +9,8 @@
 	custom_click: "https://discord.gg/0YO4xbpybfK86qSj",
 	optional: true,
 	tasks: [{
-		uid: "f8cc67ba",
-		type: "item",
-		items: [{
-			item: "thebetweenlands:bone_wayfinder"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		uid: "60acdfda",
+		type: "checkmark",
+		icon: "thebetweenlands:bone_wayfinder"
 	}]
 }
