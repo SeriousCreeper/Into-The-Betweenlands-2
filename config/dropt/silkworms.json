@@ -20,18 +20,6 @@
         {
           "selector": {
             "weight": {
-              "value": 1
-            }
-          },
-          "item": {
-            "items" : [
-              "dawnoftimebuilder:silk_worm_eggs"
-            ]
-          }
-        },
-        {
-          "selector": {
-            "weight": {
               "value": 20
             }
           },
