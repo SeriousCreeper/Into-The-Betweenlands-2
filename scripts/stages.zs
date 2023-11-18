@@ -139,7 +139,7 @@ function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack
 	    if(!skip) {
 	    	ItemStages.addItemStage(stageID, item);
 
-	    	if(stageID == "unstaged") {
+	    	if(stageID != "thaumcraft" && stageID != "thaumicaugmentation") {
 	    		Recipes.setRecipeStage(stageID, item);
 	    	}
 	    }
