@@ -322,6 +322,7 @@ addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "sapling_spi
 
 
 removeLootEntry("thebetweenlands:entities/infestation", "infestation", "thebetweenlands:pheromone_thorax");
+removeLootEntry("minecraft:entities/slime", "main", "minecraft:slime_ball");
 
 <entity:thebetweenlands:termite>.addPlayerOnlyDrop(<thebetweenlands:dentrothyst_shard_green>, 1, 1, 0.2);
 <entity:thebetweenlands:termite>.addPlayerOnlyDrop(<thebetweenlands:dentrothyst_shard_orange>, 1, 1, 0.05);
