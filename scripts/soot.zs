@@ -23,7 +23,7 @@ scripts.utils.addShaped("redstone_bin", <soot:redstone_bin>, [
 
 recipes.remove(<soot:scale>);
 scripts.utils.addShaped("scale", <soot:scale>, [
-	[<ore:ingotSilver>, <minecraft:redstone>, <ore:ingotSilver>], 
+	[<ore:ingotSilver>, <ore:dustRedstone>, <ore:ingotSilver>], 
 	[null, <ore:ingotSilver>, null], 
 	[null, <embers:block_caminite_brick_slab>, null]
 ]);
