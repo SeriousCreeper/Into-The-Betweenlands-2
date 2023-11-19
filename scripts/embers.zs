@@ -805,6 +805,10 @@ HeatCoil.add(<thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>);
 
 
 // ----------- MIXER ----------------------
+Mixer.remove(<liquid:iron>);
+Mixer.remove(<liquid:iron> * 4);
+Mixer.remove(<liquid:gold>);
+Mixer.remove(<liquid:gold> * 4);
 Mixer.remove(<liquid:antimony>);
 Mixer.remove(<liquid:dawnstone> * 8);
 Mixer.add(<liquid:dawnstone> * 8, [<liquid:copper> * 4, <liquid:octine> * 4]);

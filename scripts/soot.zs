@@ -46,7 +46,9 @@ scripts.utils.addShaped("insulation", <soot:insulation>, [
 
 AlchemicalMixer.remove(<liquid:iron>);
 AlchemicalMixer.remove(<liquid:gold>);
-AlchemicalMixer.remove(<liquid:antimony>);
+AlchemicalMixer.remove(<liquid:antimony> * 12);
+AlchemicalMixer.remove(<liquid:iron> * 4);
+AlchemicalMixer.remove(<liquid:gold> * 4);
 
 AlchemicalMixer.add(<liquid:syrmorite> * 4, [<liquid:tin> * 4, <liquid:alchemical_redstone> * 3], {"lead":16 to 32});
 AlchemicalMixer.add(<liquid:octine> * 4, [<liquid:silver> * 4, <liquid:alchemical_redstone> * 3], {"lead":32 to 64});
