@@ -724,7 +724,7 @@ ArcaneWorkbench.registerShapedRecipe("letter_invitation", "", 25, [
 <arcanearchives:letter_invitation>, 
 [
 	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>], 
-	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:32>, <thebetweenlands:items_misc:32>], 
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:45>, <thebetweenlands:items_misc:32>], 
 	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>]
 ]);
 
@@ -739,7 +739,7 @@ ArcaneWorkbench.registerShapedRecipe("letter_resignation", "", 25, [
 <arcanearchives:letter_resignation>, 
 [
 	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>], 
-	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:45>, <thebetweenlands:items_misc:32>], 
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:28>, <thebetweenlands:items_misc:32>], 
 	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>]
 ]);
 
@@ -754,7 +754,7 @@ ArcaneWorkbench.registerShapedRecipe("writ_expulsion", "", 25, [
 <arcanearchives:writ_expulsion>, 
 [
 	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>], 
-	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:28>, <thebetweenlands:items_misc:32>], 
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:45>, <thebetweenlands:items_misc:32>], 
 	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>]
 ]);
 
