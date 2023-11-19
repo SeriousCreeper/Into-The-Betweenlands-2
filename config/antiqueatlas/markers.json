@@ -33,6 +33,13 @@
     "antiqueatlas:sword": {},
     "antiqueatlas:tomb": {},
     "antiqueatlas:tower": {},
-    "antiqueatlas:village": {}
+    "antiqueatlas:village": {},
+    "bladditions:tile_cragrock_tower": {},
+    "bladditions:tile_giant_tree": {},
+    "bladditions:tile_idol_head": {},
+    "bladditions:tile_menhir": {},
+    "bladditions:tile_sludgeon": {},
+    "bladditions:tile_spirit_tree": {},
+    "bladditions:tile_wight_fortress": {}
   }
 }
