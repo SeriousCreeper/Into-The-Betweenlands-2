@@ -653,6 +653,14 @@ Rituals.modifyRitual("ritual_gathering", [
 	<minecraft:redstone>
 ]);
 
+Rituals.modifyRitual("ritual_frost_lands", [
+	<ore:sugarcane>,
+	<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "gelum"}]}),
+	<roots:dewgonia>,
+	<roots:bark_spruce>,
+	<roots:bark_spruce>
+]);
+
 var animal_harvest = Rituals.getRitual("animal_harvest") as Ritual;
 animal_harvest.setInteger("fish_count", 1);
 animal_harvest.setInteger("interval", 300);
