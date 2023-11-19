@@ -28,6 +28,10 @@ game.setLocalization("fluid.lead", "Molten Gloomsilver");
 game.setLocalization("fluid.silver", "Molten Mirrium");
 game.setLocalization("fluid.nickel", "Molten Nyxite");
 game.setLocalization("fluid.aluminum", "Molten Lumicite");
+game.setLocalization("fluid.boiling_beetroot_soup", "Boiling Pereskia Soup");
+game.setLocalization("fluid.boiling_potato_juice", "Boiling Root Soup");
+game.setLocalization("fluid.boiling_wort", "Boiling Swamp Reed Wort");
+game.setLocalization("fluid.vodka", "Root Vodka");
 
 <betweenores:copper_ore>.displayName = <betweenores:copper_ore>.displayName.replaceAll("Copper", "Russite");
 <embers:ingot_copper>.displayName = <embers:ingot_copper>.displayName.replaceAll("Copper", "Russite");

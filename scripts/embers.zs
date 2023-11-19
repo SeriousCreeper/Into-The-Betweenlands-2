@@ -675,6 +675,7 @@ val liquidsToRemove = [
 	<liquid:iron>,
 	<liquid:gold>,
 	<liquid:tin>,
+	<liquid:sugar>,
 ] as ILiquidStack[];
 
 for liquid in liquidsToRemove {
@@ -703,10 +704,22 @@ Melter.add(<liquid:alchemical_redstone> * 144, <ore:dustRedstone>);
 Melter.add(<liquid:alchemical_redstone> * 1296, <ore:blockRedstone>);
 
 Melter.remove(<liquid:oil_soul> * 100);
+Melter.add(<liquid:oil_soul> * 4, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}));
+
 Melter.add(<liquid:tar> * 16, <thebetweenlands:items_misc:26>);
 
+Melter.remove(<liquid:boiling_beetroot_soup> * 50);
+Melter.add(<liquid:boiling_beetroot_soup> * 50, <roots:pereskia_bulb>);
 
+Melter.remove(<liquid:boiling_potato_juice> * 50);
+Melter.add(<liquid:boiling_potato_juice> * 50, <thebetweenlands:tangled_root>);
 
+Melter.remove(<liquid:boiling_wort> * 100);
+Melter.add(<liquid:boiling_wort> * 100, <thebetweenlands:items_misc:6>);
+
+Melter.remove(<liquid:boiling_wormwood> * 50);
+Melter.remove(<liquid:boiling_wormwood> * 100);
+Melter.add(<liquid:boiling_wormwood> * 50, <thebetweenlands:swamp_double_tallgrass>);
 
 
 // ----------- STAMPER ----------------------
@@ -792,6 +805,7 @@ HeatCoil.add(<thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>);
 
 
 // ----------- MIXER ----------------------
+Mixer.remove(<liquid:antimony>);
 Mixer.remove(<liquid:dawnstone> * 8);
 Mixer.add(<liquid:dawnstone> * 8, [<liquid:copper> * 4, <liquid:octine> * 4]);
 
@@ -801,6 +815,8 @@ Mixer.add(<liquid:electrum> * 8, [<liquid:silver> * 4, <liquid:octine> * 4]);
 Mixer.remove(<liquid:bronze> * 8);
 Mixer.add(<liquid:bronze> * 8, [<liquid:syrmorite> * 4, <liquid:copper> * 4]);
 
+Mixer.remove(<liquid:inner_fire> * 4);
+Mixer.add(<liquid:inner_fire> * 4, [<liquid:fluid_booze_hopale_extended> * 4, <liquid:octine> * 1]);
 
 
 // ----------- EMBER GENERATION ----------------------
@@ -822,8 +838,6 @@ EmberGeneration.removeCatalysisFuel(<minecraft:glowstone_dust>);
 
 EmberGeneration.addCatalysisFuel(<thebetweenlands:items_misc:44>, 3);
 EmberGeneration.addCatalysisFuel(<thebetweenlands:wisp>, 4);
-
-
 
 
 // ----------- BORE ----------------------

@@ -1,4 +1,5 @@
 import mods.soot.AlchemicalMixer;
+import mods.soot.Still;
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 
@@ -43,10 +44,11 @@ scripts.utils.addShaped("insulation", <soot:insulation>, [
 ]);
 
 
-
-
 AlchemicalMixer.remove(<liquid:iron>);
 AlchemicalMixer.remove(<liquid:gold>);
+AlchemicalMixer.remove(<liquid:antimony>);
 
 AlchemicalMixer.add(<liquid:syrmorite> * 4, [<liquid:tin> * 4, <liquid:alchemical_redstone> * 3], {"lead":16 to 32});
-AlchemicalMixer.add(<liquid:octine> * 4, [<liquid:silver> * 4, <liquid:alchemical_redstone> * 3], {"lead":100 to 200});
+AlchemicalMixer.add(<liquid:octine> * 4, [<liquid:silver> * 4, <liquid:alchemical_redstone> * 3], {"lead":32 to 64});
+AlchemicalMixer.add(<liquid:antimony> * 12, [<liquid:lead> * 8, <liquid:fluid_honey> * 4], {"dawnstone":16 to 32, "silver":16 to 24});
+
