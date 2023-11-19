@@ -62,7 +62,7 @@ val itemsToKeep = [
 	//<minecraft:flint_and_steel>,
 	//<minecraft:tripwire_hook>,
 	<minecraft:string>,
-	<minecraft:slime>,
+	//<minecraft:slime>,
 	//<minecraft:anvil>,
 	<minecraft:book>,
 	<minecraft:writable_book>,
@@ -214,11 +214,11 @@ scripts.utils.addShaped("minecraft-minecart-modified", <minecraft:minecart>, [
 ]);
 */
 
-recipes.remove(<minecraft:slime>);
-scripts.utils.addShaped("slime", <minecraft:slime>, [
-	[<thebetweenlands:sludge_ball>, <thebetweenlands:sludge_ball>],
-	[<thebetweenlands:sludge_ball>, <thebetweenlands:sludge_ball>]
-]);
+//recipes.remove(<minecraft:slime>);
+//scripts.utils.addShaped("slime", <minecraft:slime>, [
+//	[<thebetweenlands:sludge_ball>, <thebetweenlands:sludge_ball>],
+//	[<thebetweenlands:sludge_ball>, <thebetweenlands:sludge_ball>]
+//]);
 
 /*
 scripts.utils.addShaped("slime_2", <minecraft:slime>, [
