@@ -21,6 +21,9 @@ game.setLocalization("gui.pyrotech.jei.info.pit.kiln", "To use a pit kiln, first
 game.setLocalization("gui.pyrotech.jei.category.anvil.granite", "Limestone Anvil");
 game.setLocalization("gui.pyrotech.jei.category.anvil.ironclad", "Syrmorite Anvil");
 
+game.setLocalization("roots.ritual.ritual_animal_harvest.name", "Fish Hatchery");
+game.setLocalization("roots.ritual.ritual_summon_creatures.name", "Force Spawner");
+
 game.setLocalization("tile.oreIron", "Wrought Iron");
 game.setLocalization("fluid.iron", "Molten Wrought Iron");
 game.setLocalization("fluid.copper", "Molten Russite");
@@ -75,7 +78,7 @@ game.setLocalization("fluid.vodka", "Root Vodka");
 <jaopca:item_clusternickel>.displayName = <jaopca:item_clusternickel>.displayName.replaceAll("Nickel", "Nyxite");
 <mystgears:gear_nickel>.displayName = <mystgears:gear_nickel>.displayName.replaceAll("Nickel", "Nyxite");
 
-<betweenores:aluminum_ore>.displayName = <betweenores:aluminum_ore>.displayName.replaceAll("Alumnium", "Lumicite");
+<betweenores:aluminum_ore>.displayName = <betweenores:aluminum_ore>.displayName.replaceAll("Aluminum", "Lumicite");
 <embers:ingot_aluminum>.displayName = <embers:ingot_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
 <embers:plate_aluminum>.displayName = <embers:plate_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
 <embers:nugget_aluminum>.displayName = <embers:nugget_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
