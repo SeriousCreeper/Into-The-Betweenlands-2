@@ -252,14 +252,41 @@ scripts.utils.addShaped("mcwfurnitures_dark_oak_furniture_4", <mcwfurnitures:dar
 scripts.utils.addShaped("mcwfurnitures_dark_oak_furniture_8", <mcwfurnitures:dark_oak_furniture_8>, [[<thebetweenlands:silt_glass_pane>, <mcwfurnitures:dark_oak_furniture_9>, <thebetweenlands:silt_glass_pane>]]);
 scripts.utils.addShaped("mcwfurnitures_darK_oak_pult", <mcwfurnitures:dark_oak_pult>, [[<mcwfurnitures:dark_oak_plate>], [log1]]);
 
+val itemsToNotAddTooltip = [
+	<mcwfurnitures:oak_plate>,
+	<mcwfurnitures:spruce_plate>,
+	<mcwfurnitures:birch_plate>,
+	<mcwfurnitures:jungle_plate>,
+	<mcwfurnitures:acacia_plate>,
+	<mcwfurnitures:dark_oak_plate>,
+	<mcwfurnitures:cabinet_door>,
+	<mcwfurnitures:drawer>,
+	<mcwfurnitures:iron_handle>,
+] as IItemStack[];
+
+
+
 
 for furniture in loadedMods["mcwfurnitures"].items {
+	var skip = false;
+
 	furniture.displayName = furniture.displayName.replace("Spruce", "Rubber Tree");
 	furniture.displayName = furniture.displayName.replace("Birch", "Giant Root");
 	furniture.displayName = furniture.displayName.replace("Jungle", "Hearthgrove");
 	furniture.displayName = furniture.displayName.replace("Acacia", "Nibbletwig");
 	furniture.displayName = furniture.displayName.replace("Dark Oak", "Rotten");
 	furniture.displayName = furniture.displayName.replace("Oak", "Weedwood");
+
+	for blItem in itemsToNotAddTooltip {
+    	if(blItem.matches(furniture)) {
+            skip = true;
+            break;
+        }
+    }
+
+    if(!skip) {
+		scripts.utils.addInfoTooltip(furniture, "Decorative Only");
+    }
 }
 
 
