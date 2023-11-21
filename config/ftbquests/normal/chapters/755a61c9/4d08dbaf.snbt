@@ -3,7 +3,7 @@
 	x: 7.5d,
 	y: -5.0d,
 	text: [
-		"An atlas is like a bigger amate map. While it doesn't show a limited area like the amate map, it does not show any structures (currently). ",
+		"An atlas is like a bigger amate map, and even shows structures (if enabled).",
 		"",
 		"You can keep the atlas on your hotbar to see a mini map and keep uncovering any location you explore. "
 	],
