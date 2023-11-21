@@ -4,18 +4,18 @@ mouseSensitivity:0.5
 fov:0.25
 gamma:1.0
 saturation:0.0
-renderDistance:10
+renderDistance:12
 guiScale:4
 particles:0
-bobView:true
+bobView:false
 anaglyph3d:false
-maxFps:260
+maxFps:120
 fboEnable:true
-difficulty:3
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Record+Resources+of+Tea+the+Story+v3.3.0+.zip","Betweenlands+Inventory+V2.1","EclecticTrove-1.12.2-1.0.1.zip"]
+resourcePacks:["Record+Resources+of+Tea+the+Story+v3.3.0+.zip","Betweenlands Inventory V5.zip","Arcane Wormhole.zip","Updated_Engineering_1.12.2_edition.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -53,7 +53,7 @@ autoJump:false
 narrator:0
 tutorialStep:none
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.20422535
 soundCategory_record:1.0
 soundCategory_weather:0.1056338
 soundCategory_block:1.0
