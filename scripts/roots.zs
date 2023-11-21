@@ -650,7 +650,7 @@ Rituals.modifyRitual("ritual_gathering", [
 	<thebetweenlands:items_misc:6>,
 	<roots:moonglow_seed>,
 	<thebetweenlands:items_misc:11>,
-	<minecraft:redstone>
+	<ore:dustRedstone>
 ]);
 
 Rituals.modifyRitual("ritual_frost_lands", [
