@@ -519,7 +519,7 @@ RunicShears.removeRecipe(<roots:fey_leather>);
 RunicShears.removeRecipe(<mysticalworld:aubergine>);
 RunicShears.removeRecipe(<roots:spirit_bag>);
 
-RunicShears.addEntityRecipe("pods_from_roots", <thebetweenlands:root_pod> * 2, <entity:thebetweenlands:root_sprite>, defaultDelay);
+RunicShears.addEntityRecipe("pods_from_roots", <thebetweenlands:root_pod>, <entity:thebetweenlands:root_sprite>, defaultDelay);
 RunicShears.addEntityRecipe("lurkerskin_from_roots", <thebetweenlands:items_misc:4>, <entity:thebetweenlands:lurker>, defaultDelay);
 //RunicShears.addEntityRecipe("feyleather_from_geckos", <roots:fey_leather>, <entity:thebetweenlands:gecko>, defaultDelay);
 RunicShears.addEntityRecipe("feyleather_from_toads", <roots:fey_leather>, <entity:thebetweenlands:toad>, defaultDelay);
@@ -661,8 +661,24 @@ Rituals.modifyRitual("ritual_frost_lands", [
 	<roots:bark_spruce>
 ]);
 
+Rituals.modifyRitual("ritual_heavy_rain", [
+	<embers:ingot_copper>,
+	<roots:dewgonia>,
+	<ore:vine>,
+	<roots:cloud_berry>,
+	<ore:snowball>
+]);
+
+Rituals.modifyRitual("ritual_animal_harvest", [
+	<thebetweenlands:anadia_meat_raw>,
+	<roots:dewgonia>,
+	<thebetweenlands:swamp_kelp_item>,
+	<thebetweenlands:algae>,
+	<thebetweenlands:mire_coral>
+]);
+
 var animal_harvest = Rituals.getRitual("animal_harvest") as Ritual;
-animal_harvest.setInteger("fish_count", 1);
+animal_harvest.setInteger("fish_count", 3);
 animal_harvest.setInteger("interval", 300);
 
 
