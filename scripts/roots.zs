@@ -661,7 +661,7 @@ Rituals.modifyRitual("ritual_frost_lands", [
 	<roots:bark_spruce>
 ]);
 
-Rituals.modifyRitual("ritual_heavy_rain", [
+Rituals.modifyRitual("ritual_heavy_storms", [
 	<embers:ingot_copper>,
 	<roots:dewgonia>,
 	<ore:vine>,
