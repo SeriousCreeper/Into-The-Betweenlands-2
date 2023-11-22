@@ -762,6 +762,7 @@ Pacifist.addEntity(<entity:thebetweenlands:greebling>);
 Pacifist.addEntity(<entity:thebetweenlands:emberling>);
 Pacifist.addEntity(<entity:thebetweenlands:chiromaw_tame>);
 Pacifist.addEntity(<entity:thebetweenlands:chiromaw_hatchling>);
+Pacifist.addEntity(<entity:mod_lavacow:raven>);
 
 
 // Flower Growth
