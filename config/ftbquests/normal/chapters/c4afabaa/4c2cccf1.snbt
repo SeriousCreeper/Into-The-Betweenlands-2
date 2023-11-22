@@ -1,7 +1,7 @@
 {
 	title: "Climbing Up Walls",
 	icon: "thebetweenlands:syrmorite_boots",
-	x: -1.5d,
+	x: -1.0d,
 	y: 2.0d,
 	shape: "gear",
 	text: [
