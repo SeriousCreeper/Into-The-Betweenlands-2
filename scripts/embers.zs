@@ -54,7 +54,7 @@ scripts.utils.addShaped("embers-ashen_brick", <embers:ashen_brick> * 4, [
 recipes.remove(<embers:auto_hammer>);
 scripts.utils.addShaped("auto_hammer", <embers:auto_hammer>, [
 	[<embers:stairs_caminite_brick:*>, <embers:stairs_caminite_brick:*>, null], 
-	[<ore:blockCopper>, <ore:ingotSyrmorite>, <ore:blockSyrmorite>], 
+	[<ore:blockOctine>, <ore:ingotSyrmorite>, <ore:blockSyrmorite>], 
 	[<embers:stairs_caminite_brick:*>, <embers:stairs_caminite_brick:*>, null]
 ]);
 
@@ -76,7 +76,7 @@ recipes.remove(<embers:boiler>);
 scripts.utils.addShaped("embers_boiler_modified", <embers:boiler>, [
 	[<ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>], 
 	[<ore:ingotSyrmorite>, <thebetweenlands:sulfur_furnace>, <ore:ingotSyrmorite>], 
-	[<ore:ingotSyrmorite>, <ore:blockCopper>, <ore:ingotSyrmorite>]
+	[<ore:ingotSyrmorite>, <ore:blockOctine>, <ore:ingotSyrmorite>]
 ]);
 
 recipes.remove(<embers:ember_bore>);
@@ -147,8 +147,8 @@ scripts.utils.addShaped("mixer", <embers:mixer>, [
 
 recipes.remove(<embers:heat_coil>);
 scripts.utils.addShaped("heat_coil", <embers:heat_coil>, [
-	[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], 
-	[<ore:ingotSyrmorite>, <ore:blockCopper>, <ore:ingotSyrmorite>], 
+	[<ore:plateOctine>, <ore:plateOctine>, <ore:plateOctine>], 
+	[<ore:ingotSyrmorite>, <ore:blockOctine>, <ore:ingotSyrmorite>], 
 	[null, <embers:mech_core:*>, null]
 ]);
 
@@ -224,7 +224,7 @@ scripts.utils.addShaped("ember_pulser", <embers:ember_pulser>, [
 recipes.remove(<embers:inferno_forge>);
 scripts.utils.addShaped("inferno_forge", <embers:inferno_forge>, [
 	[<embers:block_dawnstone:*>, <ore:plateSyrmorite>, <embers:block_dawnstone:*>], 
-	[<ore:ingotDawnstone>, <ore:blockCopper>, <ore:ingotDawnstone>], 
+	[<ore:ingotDawnstone>, <ore:blockOctine>, <ore:ingotDawnstone>], 
 	[<embers:block_caminite_brick:*>, <embers:wildfire_core:*>, <embers:block_caminite_brick:*>]
 ]);
 
@@ -259,8 +259,8 @@ scripts.utils.addShaped("clockwork_attenuator", <embers:clockwork_attenuator>, [
 recipes.remove(<embers:steam_engine>);
 scripts.utils.addShaped("steam_engine", <embers:steam_engine>, [
 	[null, <embers:pipe:*>, <embers:pipe:*>], 
-	[<mysticalmechanics:axle_iron:*>, <mysticalmechanics:gear_iron>, <ore:plateCopper>], 
-	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateCopper>]
+	[<mysticalmechanics:axle_iron:*>, <mysticalmechanics:gear_iron>, <ore:plateOctine>], 
+	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateOctine>]
 ]);
 
 recipes.remove(<embers:mech_actuator>);
@@ -416,7 +416,7 @@ scripts.utils.addShaped("ember_siphon", <embers:ember_siphon>, [
 recipes.remove(<embers:alchemy_tablet>);
 scripts.utils.addShaped("alchemy_tablet", <embers:alchemy_tablet>, [
 	[null, <ore:plateDawnstone>, null], 
-	[<embers:stairs_caminite_brick:*>, <ore:plateCopper>, <embers:stairs_caminite_brick:*>], 
+	[<embers:stairs_caminite_brick:*>, <ore:plateOctine>, <embers:stairs_caminite_brick:*>], 
 	[<embers:block_caminite_brick:*>, <ore:ingotDawnstone>, <embers:block_caminite_brick:*>]
 ]);
 
@@ -424,7 +424,7 @@ recipes.remove(<embers:alchemy_pedestal>);
 scripts.utils.addShaped("alchemy_pedestal", <embers:alchemy_pedestal>, [
 	[<ore:plateDawnstone>, null, <ore:plateDawnstone>], 
 	[<ore:ingotDawnstone>, <embers:crystal_ember:*>, <ore:ingotDawnstone>], 
-	[<embers:stairs_caminite_brick:*>, <ore:blockCopper>, <embers:stairs_caminite_brick:*>]
+	[<embers:stairs_caminite_brick:*>, <ore:blockOctine>, <embers:stairs_caminite_brick:*>]
 ]);
 
 recipes.remove(<embers:beam_cannon>);
@@ -438,13 +438,13 @@ recipes.remove(<embers:crystal_cell>);
 scripts.utils.addShaped("crystal_cell", <embers:crystal_cell>, [
 	[null, <embers:crystal_ember:*>, null], 
 	[<ore:plateDawnstone>, <embers:crystal_ember:*>, <ore:plateDawnstone>], 
-	[<ore:blockCopper>, <ore:blockDawnstone>, <ore:blockCopper>]
+	[<ore:blockOctine>, <ore:blockDawnstone>, <ore:blockOctine>]
 ]);
 
 recipes.remove(<embers:stirling>);
 scripts.utils.addShaped("stirling", <embers:stirling>, [
-	[<ore:plateDawnstone>, <ore:blockCopper>, <ore:plateDawnstone>], 
-	[<ore:plateDawnstone>, <ore:blockCopper>, <ore:plateDawnstone>], 
+	[<ore:plateDawnstone>, <ore:blockOctine>, <ore:plateDawnstone>], 
+	[<ore:plateDawnstone>, <ore:blockOctine>, <ore:plateDawnstone>], 
 	[<embers:shard_ember:*>, <embers:wildfire_core:*>, <embers:shard_ember:*>]
 ]);
 
