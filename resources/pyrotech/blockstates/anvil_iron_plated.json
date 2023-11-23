@@ -3,11 +3,11 @@
   "defaults": {
     "model": "pyrotech:anvil",
     "textures": {
-      "top": "thebetweenlands:blocks/syrmorite_block",
-      "top_side": "thebetweenlands:blocks/syrmorite_block",
+      "top": "pyrotech:blocks/syrmorite_block",
+      "top_side": "pyrotech:blocks/syrmorite_block",
       "bottom_side": "thebetweenlands:blocks/pitstone_bricks",
       "bottom": "thebetweenlands:blocks/pitstone_bricks",
-      "particle": "thebetweenlands:blocks/syrmorite_block"
+      "particle": "pyrotech:blocks/syrmorite_block"
     }
   },
   "variants": {
