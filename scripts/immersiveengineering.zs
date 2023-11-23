@@ -121,7 +121,6 @@ scripts.utils.addShaped("material/stick_aluminum", <immersiveengineering:materia
 	[<ore:ingotAluminum>]
 ]);
 
-
 recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
 recipes.addShaped("treated_wood_treated_wood", <immersiveengineering:treated_wood> * 8, [
 	[<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>], 
@@ -133,6 +132,11 @@ recipes.addShaped("treated_wood_treated_wood2", <immersiveengineering:treated_wo
 	[<roots:wildwood_planks>, <thebetweenlands:bl_bucket_fish_oil:1>.transformReplace(<thebetweenlands:bl_bucket:1>), <roots:wildwood_planks>], 
 	[<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>]
 ]);
+
+recipes.removeByRecipeName("immersiveengineering:stone_decoration/blastbrick_reinforced");
+scripts.utils.addShapeless("stone_decoration/blastbrick_reinforced", <immersiveengineering:stone_decoration:2>, 
+	[<ore:plateIron>, <embers:archaic_bricks>]
+);
 
 
 
@@ -147,10 +151,13 @@ BlastFurnace.addFuel(<embers:crystal_ember>, 4800);
 BlastFurnace.addFuel(<thebetweenlands:octine_ingot>, 8000);
 
 
-
 CokeOven.removeAll();
 CokeOven.addRecipe(<thebetweenlands:items_misc:18>, 4, <pyrotech:log_pile>, 6000);
 
+
+
+
+<immersiveengineering:stone_decoration:2>.displayName = "Reinforced Archaic Bricks";
 
 
 
