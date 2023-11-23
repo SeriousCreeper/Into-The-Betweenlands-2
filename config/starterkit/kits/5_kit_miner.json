@@ -1,0 +1,32 @@
+{
+  "claimlimit": 1,
+  "localizedname": "Miner Kit",
+  "stacks": [
+    {
+      "item": "contenttweaker:access_crystal",
+      "count": 1
+    },
+    {
+      "item": "pyrotech:crude_pickaxe",
+      "count": 1
+    },
+    {
+      "item": "baubles:ring",
+      "count": 1
+    },
+    {
+      "item": "minecraft:rabbit_stew",
+      "count": 3
+    },
+    {
+      "item": "minecraft:tnt",
+      "count": 1
+    }
+  ],
+  "r": 140,
+  "g": 117,
+  "b": 117,
+  "textR": 50,
+  "textG": 50,
+  "textB": 50
+}

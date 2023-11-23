@@ -1,7 +1,7 @@
 {
   "inventory": {
-    "0:1": "loreexpansion:lore_journal",
-    "0:0": "minecraft:paper",
-    "0:2": "ftbquests:book"
+    "0:2": "ftbquests:book",
+    "0:0": "starterkit:starterkit",
+    "0:1": "loreexpansion:lore_journal"
   }
 }

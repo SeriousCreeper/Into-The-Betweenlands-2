@@ -1,0 +1,32 @@
+{
+  "claimlimit": 1,
+  "localizedname": "Guard Kit",
+  "stacks": [
+    {
+      "item": "contenttweaker:access_crystal",
+      "count": 1
+    },
+    {
+      "item": "pyrotech:flint_sword",
+      "count": 1
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "count": 3
+    },
+    {
+      "item": "minecraft:leather_chestplate",
+      "count": 1
+    },
+    {
+      "item": "minecraft:leather_leggings",
+      "count": 1
+    }
+  ],
+  "r": 140,
+  "g": 117,
+  "b": 117,
+  "textR": 50,
+  "textG": 50,
+  "textB": 50
+}

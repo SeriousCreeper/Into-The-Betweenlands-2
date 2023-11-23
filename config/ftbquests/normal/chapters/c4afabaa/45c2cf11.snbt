@@ -4,43 +4,14 @@
 	x: 1.5d,
 	y: -2.0d,
 	shape: "gear",
+	text: [
+		"TODO: Info about this job",
+		"",
+		"Use your Starter Kit item to select this profession."
+	],
 	optional: true,
 	tasks: [{
-		uid: "d9da76aa",
-		type: "item",
-		items: [{
-			item: "minecraft:paper"
-		}],
-		consume_items: true
-	}],
-	rewards: [{
-		uid: "57a388a6",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: "pyrotech:crude_pickaxe"
-	},
-	{
-		uid: "26df69cd",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: "baubles:ring"
-	},
-	{
-		uid: "2b8245b5",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: "minecraft:rabbit_stew",
-		count: 3
-	},
-	{
-		uid: "e2d5a665",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: "minecraft:tnt",
-		count: 3
+		uid: "c49b6115",
+		type: "checkmark"
 	}]
 }

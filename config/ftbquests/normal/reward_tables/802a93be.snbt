@@ -1,0 +1,12 @@
+{
+	title: "Job Kits",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "job_kit_miner"
+			}
+		}
+	}]
+}

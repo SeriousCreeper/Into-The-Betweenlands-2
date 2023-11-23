@@ -1,0 +1,38 @@
+{
+  "claimlimit": 1,
+  "localizedname": "Alchemist Kit",
+  "stacks": [
+    {
+      "item": "contenttweaker:access_crystal",
+      "count": 1
+    },
+    {
+      "item": "minecraft:potion",
+      "count": 1,
+      "nbt": {
+        "Potion": "minecraft:healing"
+      }
+    },
+    {
+      "item": "minecraft:potion",
+      "count": 1,
+      "nbt": {
+        "Potion": "minecraft:long_night_vision"
+      }
+    },
+    {
+      "item": "minecraft:book",
+      "count": 1
+    },
+    {
+      "item": "minecraft:golden_carrot",
+      "count": 3
+    }
+  ],
+  "r": 140,
+  "g": 117,
+  "b": 117,
+  "textR": 50,
+  "textG": 50,
+  "textB": 50
+}

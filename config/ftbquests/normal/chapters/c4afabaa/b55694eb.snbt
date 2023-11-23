@@ -5,28 +5,19 @@
 	y: -0.5d,
 	shape: "gear",
 	text: [
-		"After having chosen your profession, grab an access crystal and §6right-click§r it on the §6portal§r to gain access."
+		"First choose a profession by right clicking the Starter Kit found in your inventory.",
+		"",
+		"Once you have chosen a kit, right click the Access Crystal onto the portal to gain access."
 	],
 	hide_dependency_lines: true,
 	min_required_dependencies: 1,
-	dependencies: [
-		"7b09e24b",
-		"45c2cf11",
-		"18b0895c",
-		"f49442b9",
-		"07176842",
-		"ae9e2d59"
-	],
 	dependency_requirement: "one_completed",
 	size: 2.0d,
 	tasks: [{
-		uid: "9ce0999b",
-		type: "checkmark"
-	}],
-	rewards: [{
-		uid: "58c9022c",
+		uid: "261e9a48",
 		type: "item",
-		auto: "enabled",
-		item: "contenttweaker:access_crystal"
+		items: [{
+			item: "contenttweaker:access_crystal"
+		}]
 	}]
 }

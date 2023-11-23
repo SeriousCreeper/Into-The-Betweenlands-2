@@ -9,52 +9,14 @@
 	x: 0.5d,
 	y: -2.0d,
 	shape: "gear",
+	text: [
+		"TODO: Info about this job",
+		"",
+		"Use your Starter Kit item to select this profession."
+	],
 	optional: true,
 	tasks: [{
-		uid: "5745f6d7",
-		type: "item",
-		items: [{
-			item: "minecraft:paper"
-		}],
-		consume_items: true
-	}],
-	rewards: [{
-		uid: "71999fba",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: {
-			id: "minecraft:potion",
-			tag: {
-				Potion: "minecraft:healing"
-			}
-		}
-	},
-	{
-		uid: "06b9e4a9",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: {
-			id: "minecraft:potion",
-			tag: {
-				Potion: "minecraft:long_night_vision"
-			}
-		}
-	},
-	{
-		uid: "c799a913",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: "minecraft:book"
-	},
-	{
-		uid: "11e63551",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: "minecraft:golden_carrot",
-		count: 3
+		uid: "32c16a87",
+		type: "checkmark"
 	}]
 }

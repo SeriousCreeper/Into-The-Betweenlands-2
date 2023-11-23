@@ -4,35 +4,14 @@
 	x: -1.5d,
 	y: -2.0d,
 	shape: "gear",
+	text: [
+		"TODO: Info about this job",
+		"",
+		"Use your Starter Kit item to select this profession."
+	],
 	optional: true,
 	tasks: [{
-		uid: "c2840c0f",
-		type: "item",
-		items: [{
-			item: "minecraft:paper"
-		}],
-		consume_items: true
-	}],
-	rewards: [{
-		uid: "ad47f9b3",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: "thebetweenlands:fishing_spear"
-	},
-	{
-		uid: "b9ee82fd",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: "mysticalworld:fish_and_chips",
-		count: 3
-	},
-	{
-		uid: "b2d06278",
-		type: "item",
-		team_reward: false,
-		auto: "enabled",
-		item: "thebetweenlands:fishing_tackle_box"
+		uid: "566f8f9c",
+		type: "checkmark"
 	}]
 }
