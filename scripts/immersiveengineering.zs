@@ -122,6 +122,19 @@ scripts.utils.addShaped("material/stick_aluminum", <immersiveengineering:materia
 ]);
 
 
+recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
+recipes.addShaped("treated_wood_treated_wood", <immersiveengineering:treated_wood> * 8, [
+	[<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>], 
+	[<roots:wildwood_planks>, <thebetweenlands:bl_bucket_fish_oil:0>.transformReplace(<thebetweenlands:bl_bucket:0>), <roots:wildwood_planks>], 
+	[<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>]
+]);
+recipes.addShaped("treated_wood_treated_wood2", <immersiveengineering:treated_wood> * 8, [
+	[<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>], 
+	[<roots:wildwood_planks>, <thebetweenlands:bl_bucket_fish_oil:1>.transformReplace(<thebetweenlands:bl_bucket:1>), <roots:wildwood_planks>], 
+	[<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>]
+]);
+
+
 
 BlastFurnace.removeAll();
 BlastFurnace.addRecipe(<immersiveengineering:metal:8>, <minecraft:iron_ingot>, 4000, <pyrotech:slag>);
