@@ -1,0 +1,41 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "pyrotech:torch_fiber:0",
+            "pyrotech:torch_fiber:1",
+            "pyrotech:torch_fiber:2",
+            "pyrotech:torch_fiber:3",
+            "pyrotech:torch_fiber:4"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 90
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 20
+            }
+          },
+          "item": {
+            "items": [
+              "thebetweenlands:items_misc:20"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
