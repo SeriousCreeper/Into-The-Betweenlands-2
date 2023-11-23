@@ -19,6 +19,6 @@
 	rewards: [{
 		uid: "4c6aac4c",
 		type: "item",
-		item: "gamestagebooks:knowledge_of_spirit"
+		item: "gamestagebooks:knowledge_of_decay"
 	}]
 }
