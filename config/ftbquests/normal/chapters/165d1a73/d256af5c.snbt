@@ -4,7 +4,7 @@
 	y: -1.0d,
 	shape: "gear",
 	text: [
-		"Use runic shears on fully grown middle fruits to get spirit herbs. ",
+		"Right click a fully grown White Pear plant with runic shears.",
 		"",
 		"Spirit herb seeds can be planted like any other crop."
 	],
