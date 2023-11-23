@@ -5,7 +5,7 @@
 	text: [
 		"Acquire a pheromone to attract moths. ",
 		"",
-		"Drops from infestations."
+		"Requires Runic Shears."
 	],
 	hide_dependency_lines: true,
 	dependencies: [
