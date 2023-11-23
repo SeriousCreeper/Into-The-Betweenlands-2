@@ -51,63 +51,6 @@ val wormholeItemsNotToStage = [
 ] as IItemStack[];
 
 val ieItemsNotToStage = [
-	<immersiveengineering:ore>,
-	<immersiveengineering:ore:1>,
-	<immersiveengineering:ore:2>,
-	<immersiveengineering:ore:3>,
-	<immersiveengineering:ore:4>,
-	<immersiveengineering:ore:5>,
-	<immersiveengineering:storage>,
-	<immersiveengineering:storage:1>,
-	<immersiveengineering:storage:2>,
-	<immersiveengineering:storage:3>,
-	<immersiveengineering:storage:4>,
-	<immersiveengineering:storage:7>,
-	<immersiveengineering:storage_slab>,
-	<immersiveengineering:storage_slab:1>,
-	<immersiveengineering:storage_slab:2>,
-	<immersiveengineering:storage_slab:3>,
-	<immersiveengineering:storage_slab:4>,
-	<immersiveengineering:storage_slab:7>,
-	<immersiveengineering:stone_decoration:3>,
-	<immersiveengineering:material:6>,
-	<immersiveengineering:material:7>,
-	<immersiveengineering:material:17>,
-	<immersiveengineering:material:24>,
-	<immersiveengineering:material:25>,
-	<immersiveengineering:metal>,
-	<immersiveengineering:metal:1>,
-	<immersiveengineering:metal:2>,
-	<immersiveengineering:metal:3>,
-	<immersiveengineering:metal:4>,
-	<immersiveengineering:metal:7>,
-	<immersiveengineering:metal:9>,
-	<immersiveengineering:metal:10>,
-	<immersiveengineering:metal:11>,
-	<immersiveengineering:metal:12>,
-	<immersiveengineering:metal:13>,
-	<immersiveengineering:metal:15>,
-	<immersiveengineering:metal:14>,
-	<immersiveengineering:metal:16>,
-	<immersiveengineering:metal:17>,
-	<immersiveengineering:metal:18>,
-	<immersiveengineering:metal:19>,
-	<immersiveengineering:metal:20>,
-	<immersiveengineering:metal:21>,
-	<immersiveengineering:metal:22>,
-	<immersiveengineering:metal:23>,
-	<immersiveengineering:metal:24>,
-	<immersiveengineering:metal:27>,
-	<immersiveengineering:metal:28>,
-	<immersiveengineering:metal:29>,
-	<immersiveengineering:metal:30>,
-	<immersiveengineering:metal:31>,
-	<immersiveengineering:metal:32>,
-	<immersiveengineering:metal:33>,
-	<immersiveengineering:metal:34>,
-	<immersiveengineering:metal:37>,
-	<immersiveengineering:metal:40>,
-	<immersiveengineering:metal:39>,
 ] as IItemStack[];
 
 stageMods("roots", "knowledge_of_spirit", rootsItemsNotToStage);
@@ -117,11 +60,14 @@ stageMods("soot", "knowledge_of_malice", embersItemsNotToStage);
 
 stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 
-stageMods("thaumicaugmentation", "unstaged", thaumicaugmentationItemsNotToStage);
-stageMods("immersiveengineering", "unstaged", scripts.immersiveengineering.itemsToRemove);
-stageMods("aetherworks", "unstaged", aetherworksItemsNotToStage);
-stageMods("wormhole", "unstaged", wormholeItemsNotToStage);
+stageMods("thaumicaugmentation", "knowledge_of_technology", thaumicaugmentationItemsNotToStage);
+stageMods("immersiveengineering", "knowledge_of_technology", ieItemsNotToStage);
+stageMods("wormhole", "knowledge_of_technology", wormholeItemsNotToStage);
 
+stageMods("aetherworks", "unstaged", aetherworksItemsNotToStage);
+
+ItemStages.addItemStage("knowledge_of_technology", <pyrotech:wither_forge>);
+Recipes.setRecipeStage("knowledge_of_technology", <pyrotech:wither_forge>);
 
 function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack[]) {
 	val modItems = loadedMods[modID].items;
