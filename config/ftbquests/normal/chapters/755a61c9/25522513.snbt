@@ -1,0 +1,18 @@
+{
+	title: "Reed Donuts",
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"Probably not the tastiest, but should be filling enough."
+	],
+	dependencies: [
+		"291d7a14"
+	],
+	tasks: [{
+		uid: "3704ee20",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:reed_donut"
+		}]
+	}]
+}

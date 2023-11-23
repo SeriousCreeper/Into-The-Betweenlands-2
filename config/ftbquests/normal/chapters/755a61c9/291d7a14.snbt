@@ -1,13 +1,9 @@
 {
-	title: "Donut Forget Food",
+	title: "Drying Reeds",
 	x: -4.5d,
 	y: -1.0d,
 	text: [
-		"Campfires let you cook food early on.",
-		"",
-		"Just place the item on the campfire and wait for it to finish cooking.",
-		"",
-		"Don't wait too long or your food might burn!"
+		"Reeds can be dried out by placing them into a campfire for a few seconds."
 	],
 	dependencies: [
 		"704d5290"
@@ -17,13 +13,6 @@
 		type: "item",
 		items: [{
 			item: "thebetweenlands:items_misc 1 6"
-		}]
-	},
-	{
-		uid: "322a4a87",
-		type: "item",
-		items: [{
-			item: "thebetweenlands:reed_donut"
 		}]
 	}]
 }
