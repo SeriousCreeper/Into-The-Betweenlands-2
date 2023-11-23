@@ -694,7 +694,7 @@ ArcaneWorkbench.registerShapedRecipe("radiant_chest", "", 10, [
 <arcanearchives:radiant_chest>, 
 [
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
-	[<ore:plankWood>, <arcanearchives:raw_quartz>, <ore:plankWood>], 
+	[<ore:plankWood>, <arcanearchives:raw_quartz>, <ore:plankWood>], 	
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
@@ -1047,6 +1047,25 @@ Infusion.registerRecipe("corrupted_bone_wayfinder_cragrock", "BASEINFUSION", <bl
 	<thebetweenlands:wisp>
 ]);
 
+recipes.remove(<pyrotech:wither_forge>);
+Infusion.registerRecipe("wither_forge", "BASEINFUSION", <pyrotech:wither_forge>, 5, [
+	<aspect:ignis> * 100,
+	<aspect:praecantatio> * 100,
+	<aspect:permutatio> * 100,
+], 
+<pyrotech:bloomery>, 
+[
+	<thaumcraft:ingot:1>,
+	<embers:wildfire_core>,
+	<roots:infernal_bulb>,
+	<thebetweenlands:items_misc:24>,
+	<roots:infernal_bulb>,
+	<embers:wildfire_core>,
+	<thaumcraft:ingot:1>,
+	<thebetweenlands:wight_heart>
+	
+]);
+
 
 
 
@@ -1074,6 +1093,6 @@ SmeltingBonus.addSmeltingBonus(<ore:clusterTin>, <embers:nugget_tin> % 10);
 
 
 // NAME CHANGES
-<thaumcraft:brain>.displayName = "Swamphag Brain";
+<thaumcraft:brain>.displayName = "Swamp Hag Brain";
 <thaumcraft:nugget:9>.displayName = "Dentrothyst Sliver";
 
