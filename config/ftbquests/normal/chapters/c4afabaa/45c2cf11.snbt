@@ -16,18 +16,21 @@
 	rewards: [{
 		uid: "57a388a6",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "pyrotech:crude_pickaxe"
 	},
 	{
 		uid: "26df69cd",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "baubles:ring"
 	},
 	{
 		uid: "2b8245b5",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "minecraft:rabbit_stew",
 		count: 3
@@ -35,6 +38,7 @@
 	{
 		uid: "e2d5a665",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "minecraft:tnt",
 		count: 3

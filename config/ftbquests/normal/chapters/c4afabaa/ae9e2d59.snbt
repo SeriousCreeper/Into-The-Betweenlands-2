@@ -16,12 +16,14 @@
 	rewards: [{
 		uid: "8b6afb2e",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "pyrotech:flint_sword"
 	},
 	{
 		uid: "4ae01aa4",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "minecraft:cooked_beef",
 		count: 3
@@ -29,12 +31,14 @@
 	{
 		uid: "24bffb70",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "minecraft:leather_chestplate"
 	},
 	{
 		uid: "58ba7d83",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "minecraft:leather_leggings"
 	}]

@@ -21,6 +21,7 @@
 	rewards: [{
 		uid: "71999fba",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: {
 			id: "minecraft:potion",
@@ -32,6 +33,7 @@
 	{
 		uid: "06b9e4a9",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: {
 			id: "minecraft:potion",
@@ -43,12 +45,14 @@
 	{
 		uid: "c799a913",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "minecraft:book"
 	},
 	{
 		uid: "11e63551",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "minecraft:golden_carrot",
 		count: 3

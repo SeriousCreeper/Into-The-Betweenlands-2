@@ -19,12 +19,14 @@
 	rewards: [{
 		uid: "6d981ab6",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "thebetweenlands:explorers_hat"
 	},
 	{
 		uid: "34309310",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "minecraft:torch",
 		count: 4
@@ -32,6 +34,7 @@
 	{
 		uid: "d872a12f",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "minecraft:bread",
 		count: 3
@@ -39,6 +42,7 @@
 	{
 		uid: "55d3567c",
 		type: "item",
+		team_reward: false,
 		auto: "enabled",
 		item: "pyrotech:crude_axe"
 	}]
