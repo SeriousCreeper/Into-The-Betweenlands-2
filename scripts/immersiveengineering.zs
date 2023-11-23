@@ -140,6 +140,10 @@ BlastFurnace.removeAll();
 BlastFurnace.addRecipe(<immersiveengineering:metal:8>, <minecraft:iron_ingot>, 4000, <pyrotech:slag>);
 
 BlastFurnace.removeFuel(<immersiveengineering:material:6>);
+
+BlastFurnace.addFuel(<embers:shard_ember>, 800);
+BlastFurnace.addFuel(<thebetweenlands:items_misc:45>, 2000);
+BlastFurnace.addFuel(<embers:crystal_ember>, 4800);
 BlastFurnace.addFuel(<thebetweenlands:octine_ingot>, 8000);
 
 
