@@ -87,11 +87,11 @@ scripts.utils.addShaped("wooden_devices/workbench", <immersiveengineering:wooden
 ]);
 
 recipes.remove(<immersiveengineering:stone_decoration:1>);
-scripts.utils.addShaped("stone_decoration/blastbrick", <immersiveengineering:stone_decoration:1> * 3, [
-	[<pyrotech:material:5>, <thebetweenlands:items_misc:10>, <pyrotech:material:5>], 
-	[<thebetweenlands:items_misc:10>, <thebetweenlands:wisp>, <thebetweenlands:items_misc:10>], 
-	[<pyrotech:material:5>, <thebetweenlands:items_misc:10>, <pyrotech:material:5>]
-]);
+//scripts.utils.addShaped("stone_decoration/blastbrick", <immersiveengineering:stone_decoration:1> * 3, [
+//	[<pyrotech:material:5>, <thebetweenlands:items_misc:10>, <pyrotech:material:5>], 
+//	[<thebetweenlands:items_misc:10>, <thebetweenlands:wisp>, <thebetweenlands:items_misc:10>], 
+//	[<pyrotech:material:5>, <thebetweenlands:items_misc:10>, <pyrotech:material:5>]
+//]);
 
 recipes.remove(<immersiveengineering:stone_decoration:8>);
 scripts.utils.addShaped("stone_decoration/insulating_glass", <immersiveengineering:stone_decoration:8> * 3, [
