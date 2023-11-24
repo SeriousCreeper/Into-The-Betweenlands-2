@@ -11,11 +11,11 @@ import mods.embers.HeatCoil;
 
 // ----------- NORMAL RECIPES ----------------------
 recipes.remove(<embers:blend_caminite>);
-scripts.utils.addShaped("embers-blend_caminite", <embers:blend_caminite> * 5, [
-	[<thebetweenlands:mud>, <ore:dustAsh>, <thebetweenlands:mud>], 
-	[<pyrotech:material:8>, <thebetweenlands:silt>, <pyrotech:material:8>], 
-	[<thebetweenlands:mud>, <ore:dustAsh>, <thebetweenlands:mud>]
-]);
+//scripts.utils.addShaped("embers-blend_caminite", <embers:blend_caminite> * 5, [
+//	[<thebetweenlands:mud>, <ore:dustAsh>, <thebetweenlands:mud>], 
+//	[<pyrotech:material:8>, <thebetweenlands:silt>, <pyrotech:material:8>], 
+//	[<thebetweenlands:mud>, <ore:dustAsh>, <thebetweenlands:mud>]
+//]);
 
 recipes.remove(<embers:mech_core>);
 scripts.utils.addShaped("embers-mech_core", <embers:mech_core>, [
