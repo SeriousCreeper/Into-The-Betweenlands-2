@@ -36,6 +36,8 @@ game.setLocalization("fluid.boiling_potato_juice", "Boiling Root Soup");
 game.setLocalization("fluid.boiling_wort", "Boiling Swamp Reed Wort");
 game.setLocalization("fluid.vodka", "Root Vodka");
 
+scripts.utils.addInfoTooltip(<contenttweaker:access_crystal>, "Right click crystal onto the portal to gain access.");
+
 <betweenores:copper_ore>.displayName = <betweenores:copper_ore>.displayName.replaceAll("Copper", "Russite");
 <embers:ingot_copper>.displayName = <embers:ingot_copper>.displayName.replaceAll("Copper", "Russite");
 <embers:nugget_copper>.displayName = <embers:nugget_copper>.displayName.replaceAll("Copper", "Russite");
