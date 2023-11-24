@@ -8,8 +8,7 @@
 		"Best to collect as many as possible."
 	],
 	dependencies: [
-		"654f6fcb",
-		"05929675"
+		"bdeb8a5e"
 	],
 	hide: true,
 	size: 2.0d,

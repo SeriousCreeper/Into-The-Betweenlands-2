@@ -3,7 +3,7 @@
 	x: -6.5d,
 	y: 3.0d,
 	text: [
-		"Caminite bricks are required to create a bloomery, the first step in processing ores."
+		"Refractory bricks are required to create a bloomery, the first step in processing ores, as well as refractory machines."
 	],
 	dependencies: [
 		"6e880cc9"
@@ -12,7 +12,7 @@
 		uid: "3a34c697",
 		type: "item",
 		items: [{
-			item: "embers:brick_caminite"
+			item: "pyrotech:material 1 5"
 		}]
 	}]
 }

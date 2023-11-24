@@ -1,0 +1,23 @@
+{
+	title: "Investigation: Wight Fortress",
+	x: -7.0d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"All these new discoveries are inspiring. ",
+		"",
+		"I should explore more of these structures to see what else i can discover. "
+	],
+	dependencies: [
+		"c9eeb620"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a783ca60",
+		type: "advancement",
+		title: "Advancement: Staring Contest",
+		disable_toast: true,
+		advancement: "thebetweenlands:fighter/staring_contest",
+		criterion: ""
+	}]
+}

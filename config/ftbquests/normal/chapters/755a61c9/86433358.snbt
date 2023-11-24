@@ -6,7 +6,10 @@
 	text: [
 		"Once the bloom is ready, use a shovel to remove any ash, and tongs to pickup the bloom.",
 		"",
-		"Place the bloom onto an anvil, and keep hitting it with a hammer. ",
+		"Place the bloom onto an anvil, and keep hitting it with a hammer.",
+		"",
+		"§6The closer you are to the anvil, the quicker you can break down the bloom!",
+		"Do not stand away further than 2 blocks, and be on the same y-level!§r",
 		"",
 		"Careful, blooms are VERY hot and will set nearby things on fire!"
 	],
@@ -14,13 +17,6 @@
 		"a86bcf84"
 	],
 	tasks: [{
-		uid: "45021a19",
-		type: "item",
-		items: [{
-			item: "thebetweenlands:items_misc 1 41"
-		}]
-	},
-	{
 		uid: "27e7bcdd",
 		type: "item",
 		items: [{

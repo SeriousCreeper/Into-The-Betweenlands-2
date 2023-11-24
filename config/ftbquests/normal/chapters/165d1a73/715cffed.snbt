@@ -1,6 +1,6 @@
 {
 	title: "Sylvan Armor",
-	x: -7.5d,
+	x: -9.5d,
 	y: 1.0d,
 	shape: "gear",
 	text: [
@@ -16,32 +16,14 @@
 		type: "item",
 		items: [{
 			item: "roots:sylvan_helmet"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "dfce5c9f",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "roots:sylvan_chestplate"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "8db70763",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "roots:sylvan_leggings"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "10bd4276",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "roots:sylvan_boots"
 		}],
 		ignore_damage: true,
