@@ -31,9 +31,6 @@ val rootsItemsNotToStage = [
 
 val embersItemsNotToStage = [
 	<embers:dust_ash>,
-	<embers:brick_caminite>,
-	<embers:blend_caminite>,
-	<embers:block_caminite_brick>
 ] as IItemStack[];
 
 val thaumcraftItemsNotToStage = [
@@ -62,12 +59,19 @@ stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 
 stageMods("thaumicaugmentation", "knowledge_of_technology", thaumicaugmentationItemsNotToStage);
 stageMods("immersiveengineering", "knowledge_of_technology", ieItemsNotToStage);
-stageMods("wormhole", "knowledge_of_technology", wormholeItemsNotToStage);
+stageMods("engineersdoors", "knowledge_of_technology", ieItemsNotToStage);
+stageMods("engineeredgolems", "knowledge_of_technology", ieItemsNotToStage);
+stageMods("immersivepetroleum", "knowledge_of_technology", ieItemsNotToStage);
 
-stageMods("aetherworks", "unstaged", aetherworksItemsNotToStage);
+stageMods("wormhole", "knowledge_of_technology", wormholeItemsNotToStage);
 
 ItemStages.addItemStage("knowledge_of_technology", <pyrotech:wither_forge>);
 Recipes.setRecipeStage("knowledge_of_technology", <pyrotech:wither_forge>);
+
+Recipes.setRecipeStageByMod("unstaged", "aetherworks");
+ItemStages.stageModItems("unstaged", "aetherworks");
+Recipes.setRecipeStageByMod("unstaged", "aetheriumashenarmor");
+ItemStages.stageModItems("unstaged", "aetheriumashenarmor");
 
 function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack[]) {
 	val modItems = loadedMods[modID].items;
