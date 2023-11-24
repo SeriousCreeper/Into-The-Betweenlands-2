@@ -724,6 +724,9 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 
 <ore:oreNickel>.remove(<immersiveengineering:ore:4>);
 
+<ore:plateIron>.remove(<thaumcraft:plate:1>);
+<ore:plateIron>.remove(<immersiveengineering:metal:39>);
+
 
 
 <ore:rock>.remove(<pyrotech:rock>);

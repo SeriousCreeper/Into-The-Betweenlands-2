@@ -5,6 +5,18 @@ import mods.thaumcraft.Infusion;
 import mods.thaumcraft.SmeltingBonus;
 
 
+val allItems = loadedMods["thaumcraft"].items;
+
+recipes.replaceAllOccurences(<ore:plateIron>, <ore:plateSyrmorite>, <*>.only(function(item) {
+    for tcItem in allItems {
+    	if(tcItem.matches(item)) {
+    		return true;
+    	}
+    }
+
+    return false;
+}));
+
 
 recipes.remove(<thaumcraft:nugget:1>);
 recipes.remove(<thaumcraft:nugget:2>);

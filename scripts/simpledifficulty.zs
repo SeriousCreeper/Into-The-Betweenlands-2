@@ -54,8 +54,8 @@ scripts.utils.addShaped("canteen_empty", <simpledifficulty:canteen>.withTag({Dos
 
 recipes.removeByRegex("simpledifficulty:iron_canteen_empty");
 scripts.utils.addShaped("iron_canteen_empty", <simpledifficulty:iron_canteen>.withTag({Doses: 0, CanteenType: 0}), [
-	[<ore:plateSyrmorite>, <simpledifficulty:canteen>.withTag({Doses: 0}), <ore:plateSyrmorite>], 
-	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateSyrmorite>]
+	[<ore:plateIron>, <simpledifficulty:canteen>.withTag({Doses: 0}), <ore:plateIron>], 
+	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
 ]);
 
 
