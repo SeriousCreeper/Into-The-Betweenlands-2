@@ -1,6 +1,6 @@
 {
 	icon: "roots:ritual_grove_supplication",
-	x: -8.5d,
+	x: -5.5d,
 	y: 0.0d,
 	shape: "gear",
 	text: [

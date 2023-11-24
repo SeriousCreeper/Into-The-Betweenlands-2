@@ -1,0 +1,36 @@
+{
+	title: "Special Plants Need Special Care",
+	x: -3.5d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"Some plants are infused with elements and require more care to grow. ",
+		"",
+		"In order for these plants to grow, an active §6Censer§r infused with the right aspect is required. ",
+		"",
+		"Aspects List:",
+		"Infernal Bulb: §6Firnalaz§r (Fire)",
+		"Cloud Berry: §6Yunugaz§r (Wind)",
+		"Dewgonia: §6Byrginaz§r (Water)",
+		"Stalicripe: §6Fergalaz§r (Earth)"
+	],
+	dependencies: [
+		"c9eeb620"
+	],
+	tasks: [{
+		uid: "339ceb84",
+		type: "item",
+		items: [{
+			item: "roots:infernal_bulb"
+		},
+		{
+			item: "roots:dewgonia"
+		},
+		{
+			item: "roots:cloud_berry"
+		},
+		{
+			item: "roots:stalicripe"
+		}]
+	}]
+}

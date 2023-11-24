@@ -1,6 +1,6 @@
 {
 	title: "Pyre",
-	x: -9.5d,
+	x: -6.5d,
 	y: -1.0d,
 	shape: "gear",
 	text: [

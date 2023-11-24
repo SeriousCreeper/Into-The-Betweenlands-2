@@ -1,7 +1,7 @@
 {
 	title: "Radiant Resonator",
 	x: -1.5d,
-	y: -1.0d,
+	y: 1.5d,
 	shape: "gear",
 	text: [
 		"The Radiant Resonator will slowly create radiant quartz over time. ",

@@ -1,7 +1,7 @@
 {
 	title: "Extinguish Thy Flame",
-	x: -9.5d,
-	y: 0.0d,
+	x: -6.5d,
+	y: -2.0d,
 	shape: "gear",
 	text: [
 		"If you want to stop a pyre/ritual, right click it with a bucket of swamp water."

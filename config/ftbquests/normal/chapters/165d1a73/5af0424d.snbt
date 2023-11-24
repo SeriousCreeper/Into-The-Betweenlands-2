@@ -1,7 +1,7 @@
 {
 	title: "Investigation: Wight Fortress",
-	x: -7.0d,
-	y: 1.0d,
+	x: -5.5d,
+	y: 2.5d,
 	shape: "gear",
 	text: [
 		"All these new discoveries are inspiring. ",
@@ -9,7 +9,8 @@
 		"I should explore more of these structures to see what else i can discover. "
 	],
 	dependencies: [
-		"c9eeb620"
+		"715cffed",
+		"5ae2700f"
 	],
 	size: 2.0d,
 	tasks: [{

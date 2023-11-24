@@ -1,6 +1,6 @@
 {
 	title: "Nature's Call",
-	x: -8.5d,
+	x: -5.5d,
 	y: -2.0d,
 	shape: "gear",
 	text: [
