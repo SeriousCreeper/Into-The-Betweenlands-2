@@ -980,7 +980,7 @@ PitKiln.addRecipe("brick_refractory", <pyrotech:material:5> * 2, <pyrotech:mater
 	<thebetweenlands:silt>
 ], true);
 
-furnace.remove(<pyrotech:material:5>);
+furnace.remove(<embers:brick_caminite>);
 PitKiln.addRecipe("brick_caminite", <embers:brick_caminite> * 2, <embers:blend_caminite>, 10 * 60 * 20, 0.33, [
 	<thebetweenlands:silt>
 ], true);
