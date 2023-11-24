@@ -3,8 +3,9 @@
 	x: -2.5d,
 	y: -6.0d,
 	text: [
-		"It's possible to drink rain water directly just by looking upwards, and it's even safe to drink!"
+		"Rain water is totally safe to drink, simply by looking up when it's raining!"
 	],
+	optional: true,
 	tasks: [{
 		uid: "6ce89c81",
 		type: "checkmark",

@@ -1,6 +1,6 @@
 {
 	title: "Bloomery",
-	x: -5.5d,
+	x: -6.5d,
 	y: 4.0d,
 	text: [
 		"The bloomery takes fuel, and either ores or slag to create blooms.",

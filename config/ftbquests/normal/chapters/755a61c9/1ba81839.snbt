@@ -1,24 +1,22 @@
 {
 	title: "Investigate: Cragrock Tower",
-	x: -0.5d,
-	y: 0.0d,
+	disable_toast: true,
+	x: -3.0d,
+	y: 5.0d,
 	text: [
-		"A tall tower found in Coarse Islands and Raised Isles.",
-		"",
-		"Probably should explore this one first."
+		"With better gear and armor, it would be a good idea to explore one of the structures we spotted in our initial survey."
+	],
+	dependencies: [
+		"ff0d2999"
 	],
 	size: 2.0d,
 	tasks: [{
-		uid: "717bd1e4",
+		uid: "ff75dbd9",
 		type: "advancement",
 		title: "Advancement: How The Cookie Crumbles",
 		icon: "thebetweenlands:mob_spawner",
+		disable_toast: true,
 		advancement: "thebetweenlands:adventurer/cookie_crumbles",
 		criterion: ""
-	}],
-	rewards: [{
-		uid: "e3e12cc4",
-		type: "item",
-		item: "gamestagebooks:knowledge_of_spirit"
 	}]
 }

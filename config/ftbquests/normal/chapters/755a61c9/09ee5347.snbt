@@ -1,6 +1,6 @@
 {
-	x: -7.5d,
-	y: 6.0d,
+	x: 6.5d,
+	y: -6.0d,
 	text: [
 		"An automatic way of applying compost to farmland. ",
 		"",
@@ -9,7 +9,7 @@
 		"The quality of the cog determins the range the Mulcher can cover."
 	],
 	dependencies: [
-		"33b5a7fd"
+		"654f6fcb"
 	],
 	hide: true,
 	tasks: [{

@@ -1,10 +1,10 @@
 {
-	title: "First Nuggets",
+	title: "Careful, hot!",
 	icon: "pyrotech:bloom",
 	x: -5.5d,
-	y: 5.0d,
+	y: 4.0d,
 	text: [
-		"Once the bloom is ready, use a shovel to remove any ash, and tongs to grab the bloom.",
+		"Once the bloom is ready, use a shovel to remove any ash, and tongs to pickup the bloom.",
 		"",
 		"Place the bloom onto an anvil, and keep hitting it with a hammer. ",
 		"",
@@ -25,6 +25,15 @@
 		type: "item",
 		items: [{
 			item: "pyrotech:bone_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0943d577",
+		type: "item",
+		items: [{
+			item: "pyrotech:tongs_bone"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

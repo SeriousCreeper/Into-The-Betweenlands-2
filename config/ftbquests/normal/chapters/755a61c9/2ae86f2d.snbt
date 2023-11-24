@@ -1,9 +1,9 @@
 {
 	title: "Refractory Machines",
-	x: -6.5d,
+	x: -7.5d,
 	y: 3.0d,
 	text: [
-		"Refractory machnes can be used to process several items and blocks.",
+		"Refractory machines can be used to process several items and blocks.",
 		"",
 		"They will automatically stop burning fuel once they finished crafting."
 	],

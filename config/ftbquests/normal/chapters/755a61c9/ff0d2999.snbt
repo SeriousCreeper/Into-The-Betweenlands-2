@@ -1,0 +1,32 @@
+{
+	title: "Gear Up",
+	x: -4.5d,
+	y: 5.0d,
+	text: [
+		"With stronger materials you can craft stronger armor."
+	],
+	dependencies: [
+		"33b5a7fd"
+	],
+	tasks: [{
+		uid: "4e023ad7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_helmet"
+		},
+		{
+			item: "thebetweenlands:syrmorite_chestplate"
+		},
+		{
+			item: "thebetweenlands:syrmorite_leggings"
+		},
+		{
+			item: "thebetweenlands:syrmorite_boots"
+		},
+		{
+			item: "thebetweenlands:syrmorite_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

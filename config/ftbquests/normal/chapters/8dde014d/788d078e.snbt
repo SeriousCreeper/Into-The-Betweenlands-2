@@ -1,11 +1,14 @@
 {
 	title: "Investigate: Sludgeon",
-	x: 7.0d,
-	y: 0.5d,
+	x: 8.5d,
+	y: 0.0d,
 	text: [
 		"A cylindrical structure inside the Sludge Plains Clearing. ",
 		"",
 		"Only observed from afar, looked very dangerous, approach with caution!"
+	],
+	dependencies: [
+		"1a2a3eb3"
 	],
 	size: 2.0d,
 	tasks: [{
