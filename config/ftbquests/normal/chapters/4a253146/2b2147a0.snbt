@@ -1,7 +1,7 @@
 {
 	title: "Cutting Crystals",
-	x: -4.5d,
-	y: 0.0d,
+	x: -5.0d,
+	y: -2.0d,
 	shape: "diamond",
 	text: [
 		"With a strong enough tool, it should be possible to mine crystals without destroying them."
@@ -9,7 +9,6 @@
 	dependencies: [
 		"d1c2bef7"
 	],
-	size: 2.0d,
 	tasks: [{
 		uid: "81f24ac3",
 		type: "item",

@@ -1,6 +1,9 @@
 {
 	x: -0.5d,
 	y: -1.0d,
+	text: [
+		"What knowledge might this book contain?"
+	],
 	dependencies: [
 		"1fdd3598"
 	],

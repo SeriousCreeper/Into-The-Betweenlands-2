@@ -8,7 +8,8 @@
 		"You can keep the atlas on your hotbar to see a mini map and keep uncovering any location you explore. "
 	],
 	dependencies: [
-		"b32c5b1c"
+		"b32c5b1c",
+		"1d04c5d3"
 	],
 	tasks: [{
 		uid: "0381a754",

@@ -14,7 +14,7 @@
 	tasks: [{
 		uid: "c57b64f1",
 		type: "advancement",
-		title: "Investigate: Sludgeon",
+		title: "Advancement: Not a Boss...?",
 		icon: "thebetweenlands:sludge_worm_egg_sac",
 		advancement: "thebetweenlands:fighter/not_a_boss",
 		criterion: ""

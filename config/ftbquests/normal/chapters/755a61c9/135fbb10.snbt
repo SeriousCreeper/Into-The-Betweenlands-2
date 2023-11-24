@@ -7,9 +7,6 @@
 		"",
 		"Pebbles can be found on the ground."
 	],
-	dependencies: [
-		"b55694eb"
-	],
 	tasks: [{
 		uid: "8a3ffe16",
 		type: "item",

@@ -1,6 +1,6 @@
 {
 	title: "Finding Biomes",
-	x: 9.5d,
+	x: 6.5d,
 	y: -6.0d,
 	text: [
 		"A special compass that helps finding specific biomes."

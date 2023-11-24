@@ -3,7 +3,7 @@
 	x: -0.5d,
 	y: -2.5d,
 	text: [
-		""
+		"I should follow the instructions i've written down right after i had this strange vision..."
 	],
 	dependencies: [
 		"2b2147a0",
