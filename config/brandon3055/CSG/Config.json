@@ -1,7 +1,8 @@
 {
   "inventory": {
-    "0:2": "ftbquests:book",
+    "0:3": "pouchofunknown:pouch,1,0,{Inventory:[]}",
+    "0:1": "loreexpansion:lore_journal",
     "0:0": "starterkit:starterkit",
-    "0:1": "loreexpansion:lore_journal"
+    "0:2": "ftbquests:book"
   }
 }

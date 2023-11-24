@@ -11,6 +11,8 @@
 		items: [{
 			id: "naturescompass:naturescompass",
 			tag: {}
-		}]
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

@@ -1,0 +1,22 @@
+{
+	title: "Pouch of Curiosity",
+	icon: {
+		id: "pouchofunknown:pouch",
+		tag: {
+			Inventory: []
+		}
+	},
+	x: -7.5d,
+	y: -6.0d,
+	text: [
+		"There are items in this world that you might not understand yet. ",
+		"",
+		"The Pouch of Curiosity can store these items until it's time to investigate them. ",
+		"",
+		"It can even be equipped in a bauble slot!"
+	],
+	tasks: [{
+		uid: "5da87ec8",
+		type: "checkmark"
+	}]
+}
