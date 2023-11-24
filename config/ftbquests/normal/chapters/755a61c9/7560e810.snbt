@@ -5,6 +5,9 @@
 	text: [
 		"Fire starter used to light most things."
 	],
+	dependencies: [
+		"704d5290"
+	],
 	tasks: [{
 		uid: "4a37b563",
 		type: "item",

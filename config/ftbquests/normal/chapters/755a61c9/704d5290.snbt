@@ -9,9 +9,6 @@
 		"",
 		"Place tinder on the ground, add up to 8 logs, then light it up."
 	],
-	dependencies: [
-		"7560e810"
-	],
 	tasks: [{
 		uid: "f9803986",
 		type: "item",
