@@ -9,9 +9,11 @@
 		"",
 		"Pipe the embers into an Ember Activator and attach an Ember Emitter.",
 		"",
-		"Attach an Ember Receptor on any machine, then hold the embers hammer in your main hand;",
+		"Attach an Ember Receptor on any machine that should receive energy.",
 		"",
-		"Sneak-right click the receptor  first, then normal (no sneak) right click the emitter. You now linked both the emitter and receptor.",
+		"With the Tinkers Hammer in your hand, sneak-right click the receptor first.",
+		"",
+		"Normal right click (no sneaking) the emitter to link both together.",
 		"",
 		"Attach a lever to the emitter and flip it to start sending energy."
 	],
@@ -38,5 +40,14 @@
 		items: [{
 			item: "embers:ember_emitter"
 		}]
+	},
+	{
+		uid: "3bb21476",
+		type: "item",
+		items: [{
+			item: "embers:tinker_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }
