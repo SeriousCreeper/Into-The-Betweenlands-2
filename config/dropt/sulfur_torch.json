@@ -1,0 +1,25 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:sulfur_torch:*"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "thebetweenlands:sulfur_torch_extinguished"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
