@@ -1,6 +1,6 @@
 {
 	title: "Living Tools",
-	x: -5.0d,
+	x: -5.5d,
 	y: 1.0d,
 	shape: "gear",
 	text: [

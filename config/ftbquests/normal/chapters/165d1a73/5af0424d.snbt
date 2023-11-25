@@ -9,7 +9,6 @@
 		"I should explore more of these structures to see what else i can discover. "
 	],
 	dependencies: [
-		"715cffed",
 		"5ae2700f"
 	],
 	size: 2.0d,
