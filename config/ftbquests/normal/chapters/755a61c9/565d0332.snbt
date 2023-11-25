@@ -9,6 +9,12 @@
 	tasks: [{
 		uid: "6ce89c81",
 		type: "checkmark",
-		title: "Helpful Rain"
+		title: "Helpful Rain",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ftbquests:textures/drop.png"
+			}
+		}
 	}]
 }
