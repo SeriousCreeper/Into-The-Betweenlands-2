@@ -837,7 +837,7 @@ ArcaneWorkbench.registerShapelessRecipe("tubevalve", "TUBES@2", 10, [
 
 // SALIS MUNDUS
 SalisMundus.removeSingleConversion(<thaumcraft:crucible>);
-SalisMundus.addSingleConversion(<ore:blockSyrmorite>, <thaumcraft:crucible>);
+SalisMundus.addSingleConversion(<growthcraft_cellar:brew_kettle>, <thaumcraft:crucible>);
 
 
 
