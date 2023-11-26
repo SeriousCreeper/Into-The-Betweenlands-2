@@ -1,40 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modifiers>
   <modifier value="eat">
-    <entry value="-0.6">minecraft:mushroom_stew</entry>
-    <entry value="4.0">minecraft:golden_apple</entry>
-    <entry value="0.15">minecraft:cookie</entry>
-    <entry value="0.6">minecraft:pumpkin_pie</entry>
-    <entry value="0.6">minecraft:beetroot_soup</entry>
-    <entry value="-7.0">minecraft:rotten_flesh</entry>
-    <entry value="-10.0">minecraft:spider_eye</entry>
-    <entry value="-20.0">sanity:specterbread</entry>
+    <entry value="-20.0">thebetweenlands:chiromaw_wing</entry>
+    <entry value="-3.0">thebetweenlands:frog_legs_raw</entry>
+    <entry value="-3.0">thebetweenlands:snail_flesh_raw</entry>
+    <entry value="-3.0">thebetweenlands:anadia_meat_raw</entry>
+    <entry value="-3.0">thebetweenlands:olm_egg_raw</entry>
+    <entry value="-5.0">thebetweenlands:wight_heart</entry>
+    <entry value="-1.0">thebetweenlands:silk_grub</entry>
+    <entry value="-1.0">thebetweenlands:barnacle</entry>
+    <entry value="-0.5">thebetweenlands:flat_head_mushroom_item</entry>
+    <entry value="-0.5">thebetweenlands:black_hat_mushroom_item</entry>
+    <entry value="1.0">thebetweenlands:candy_blue</entry>
+    <entry value="1.0">thebetweenlands:candy_red</entry>
+    <entry value="1.0">thebetweenlands:candy_yellow</entry>
+    <entry value="2.0">thebetweenlands:marshmallow_pink</entry>
+    <entry value="2.0">thebetweenlands:marshmallow</entry>
+    <entry value="-0.6">thebetweenlands:sludge_jello</entry>
+    <entry value="4.0">thebetweenlands:mince_pie</entry>
+    <entry value="4.0">thebetweenlands:christmas_pudding</entry>
+    <entry value="1.0">thebetweenlands:candy_cane</entry>
+    <entry value="-4.0">thebetweenlands:gerts_donut</entry>
+    <entry value="-1.0">thebetweenlands:mire_snail_egg</entry>
   </modifier>
   <modifier value="kill">
-    <entry value="-0.75">minecraft:chicken</entry>
-    <entry value="-0.2">minecraft:bat</entry>
-    <entry value="-7.5">minecraft:villager</entry>
-    <entry value="-3.0">minecraft:zombie_villager</entry>
-    <entry value="-1.0">minecraft:pig</entry>
-    <entry value="-1.0">minecraft:sheep</entry>
-    <entry value="-1.0">minecraft:cow</entry>
-    <entry value="-2.0">minecraft:mooshroom</entry>
-    <entry value="-2.0">minecraft:horse</entry>
-    <entry value="-2.0">minecraft:donkey</entry>
-    <entry value="-1.5">minecraft:llama</entry>
-    <entry value="-2.0">minecraft:mule</entry>
-    <entry value="-2.0">minecraft:ocelot</entry>
-    <entry value="-3.0">minecraft:wolf</entry>
-    <entry value="-2.0">minecraft:parrot</entry>
-    <entry value="-0.75">minecraft:rabbit</entry>
-    <entry value="-0.2">minecraft:squid</entry>
+    <entry value="-0.5">thebetweenlands:firefly</entry>
+    <entry value="-0.5">thebetweenlands:sporeling</entry>
+    <entry value="-0.5">thebetweenlands:dragonfly</entry>
+    <entry value="-0.5">thebetweenlands:mire_snail</entry>
+    <entry value="-1.0">thebetweenlands:gecko</entry>
+    <entry value="-5.0">thebetweenlands:toad</entry>
+    <entry value="-0.5">thebetweenlands:olm</entry>
+    <entry value="-0.5">thebetweenlands:frog</entry>
+    <entry value="-0.2">thebetweenlands:tarminion</entry>
+    <entry value="-5.0">thebetweenlands:greebling</entry>
+    <entry value="-0.5">thebetweenlands:root_sprite</entry>
+    <entry value="-5.0">thebetweenlands:wild_emberling</entry>
+    <entry value="-2.0">thebetweenlands:chiromaw_greebling_rider</entry>
+    <entry value="-0.5">thebetweenlands:cave_fish</entry>
+    <entry value="-1.0">mod_lavacow:raven</entry>
   </modifier>
   <modifier value="dimension">
-    <entry value="-8.333334E-5">nether</entry>
-    <entry value="-1.6666668E-4">midnight</entry>
   </modifier>
   <modifier value="misc">
-    <entry value="10.0">sleep</entry>
-    <entry value="0.25">fish</entry>
+    <entry value="0.5">fish</entry>
+    <entry value="-0.25">wight_possession</entry>
+    <entry value="-0.2">depth</entry>
+    <entry value="1">wellness</entry>
+    <entry value="-1">food_sickness</entry>
+    <entry value="-0.1">darkness</entry>
+  </modifier>
+  <modifier value="potions">
+    <entry value="0.1">teastory:excitement</entry>
+    <entry value="-0.05">simpledifficulty:parasites</entry>
+  </modifier>
+  <modifier value="bl_events">
+    <entry value="-0.1">blood_sky</entry>
+    <entry value="0.08">auroras</entry>
+    <entry value="0.02">rift</entry>
+  </modifier>
+  <modifier value="items">
+    <entry value="-0.5">mod_lavacow:intestine</entry>
   </modifier>
 </modifiers>
