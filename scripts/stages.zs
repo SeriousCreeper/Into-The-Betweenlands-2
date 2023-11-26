@@ -25,7 +25,6 @@ OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_so
 
 ItemStages.addItemStage("knowledge_of_technology", <thebetweenlands:swift_pick:*>);
 
-
 val rootsItemsNotToStage = [
 ] as IItemStack[];
 
@@ -57,16 +56,19 @@ stageMods("soot", "knowledge_of_malice", embersItemsNotToStage);
 
 stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 
-stageMods("thaumicaugmentation", "knowledge_of_technology", thaumicaugmentationItemsNotToStage);
-stageMods("immersiveengineering", "knowledge_of_technology", ieItemsNotToStage);
-stageMods("engineersdoors", "knowledge_of_technology", ieItemsNotToStage);
-stageMods("engineeredgolems", "knowledge_of_technology", ieItemsNotToStage);
-stageMods("immersivepetroleum", "knowledge_of_technology", ieItemsNotToStage);
+var ieStage = "knowledge_of_technology";
+//var ieStage = "unstaged";
 
-stageMods("wormhole", "knowledge_of_technology", wormholeItemsNotToStage);
+stageMods("thaumicaugmentation", ieStage, thaumicaugmentationItemsNotToStage);
+stageMods("immersiveengineering", ieStage, ieItemsNotToStage);
+stageMods("engineersdoors", ieStage, ieItemsNotToStage);
+stageMods("engineeredgolems", ieStage, ieItemsNotToStage);
+stageMods("immersivepetroleum", ieStage, ieItemsNotToStage);
 
-ItemStages.addItemStage("knowledge_of_technology", <pyrotech:wither_forge>);
-Recipes.setRecipeStage("knowledge_of_technology", <pyrotech:wither_forge>);
+stageMods("wormhole", ieStage, wormholeItemsNotToStage);
+
+ItemStages.addItemStage(ieStage, <pyrotech:wither_forge>);
+Recipes.setRecipeStage(ieStage, <pyrotech:wither_forge>);
 
 Recipes.setRecipeStageByMod("unstaged", "aetherworks");
 ItemStages.stageModItems("unstaged", "aetherworks");
