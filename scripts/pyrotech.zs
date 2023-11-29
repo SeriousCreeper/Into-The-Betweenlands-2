@@ -905,7 +905,7 @@ brickSawmillRecipeBuilder("storage_slab_0", <immersiveengineering:storage_slab:0
 
 slabRecipe("boards", <pyrotech:material:20>, <ore:slabWood>, 1, 2, 3); // boards
 stoneSawmillRecipeBuilder("treated_boards", <pyrotech:material:23>, <pyrotech:planks_tarred>, 1, 2, 3); // tarred boards
-stoneSawmillRecipeBuilder("sticks", <thebetweenlands:items_misc:20>, <pyrotech:material:20>, 1, 2, 3); // boards
+stoneSawmillRecipeBuilder("sticks", <thebetweenlands:items_misc:20>, <pyrotech:material:20>, 2, 3, 4); // boards
 
 Chopping.addRecipe("boards_to_sticks", <thebetweenlands:items_misc:20>, <pyrotech:material:20>);
 
