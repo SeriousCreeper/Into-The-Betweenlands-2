@@ -1375,6 +1375,26 @@
     {
       "input": {
         "item": {
+          "id": "pyrotech:rock",
+          "meta": 7
+        },
+        "composting_time": 5000
+      },
+      "output": 2
+    },
+    {
+      "input": {
+        "item": {
+          "id": "pyrotech:pile_wood_chips",
+          "meta": 0
+        },
+        "composting_time": 15000
+      },
+      "output": 16
+    },
+    {
+      "input": {
+        "item": {
           "id": "teastory:tea_residue"
         },
         "composting_time": 5000
