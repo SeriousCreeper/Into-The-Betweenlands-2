@@ -77,7 +77,6 @@ scripts.utils.addInfoTooltip(<contenttweaker:access_crystal>, "Right click cryst
 <embers:nugget_nickel>.displayName = <embers:nugget_nickel>.displayName.replaceAll("Nickel", "Nyxite");
 <embers:block_nickel>.displayName = <embers:block_nickel>.displayName.replaceAll("Nickel", "Nyxite");
 <embers:seed_nickel>.displayName = <embers:seed_nickel>.displayName.replaceAll("Nickel", "Nyxite");
-<jaopca:item_clusternickel>.displayName = <jaopca:item_clusternickel>.displayName.replaceAll("Nickel", "Nyxite");
 <mystgears:gear_nickel>.displayName = <mystgears:gear_nickel>.displayName.replaceAll("Nickel", "Nyxite");
 
 <betweenores:aluminum_ore>.displayName = <betweenores:aluminum_ore>.displayName.replaceAll("Aluminum", "Lumicite");
@@ -86,8 +85,5 @@ scripts.utils.addInfoTooltip(<contenttweaker:access_crystal>, "Right click cryst
 <embers:nugget_aluminum>.displayName = <embers:nugget_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
 <embers:block_aluminum>.displayName = <embers:block_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
 <embers:seed_aluminum>.displayName = <embers:seed_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
-<jaopca:item_clusteraluminium>.displayName = "Native Lumicite Cluster";
 <mystgears:gear_aluminium>.displayName = <mystgears:gear_aluminium>.displayName.replaceAll("Aluminium", "Lumicite");
 
-<jaopca:item_clusteroctine>.displayName = "Native Octine Cluster";
-<jaopca:item_clustersyrmorite>.displayName = "Native Syrmorite Cluster";
