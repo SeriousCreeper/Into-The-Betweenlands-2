@@ -86,5 +86,8 @@ scripts.utils.addInfoTooltip(<contenttweaker:access_crystal>, "Right click cryst
 <embers:nugget_aluminum>.displayName = <embers:nugget_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
 <embers:block_aluminum>.displayName = <embers:block_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
 <embers:seed_aluminum>.displayName = <embers:seed_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
-<jaopca:item_clusteraluminium>.displayName = <jaopca:item_clusteraluminium>.displayName.replaceAll("Aluminium", "Lumicite");
+<jaopca:item_clusteraluminium>.displayName = "Native Lumicite Cluster";
 <mystgears:gear_aluminium>.displayName = <mystgears:gear_aluminium>.displayName.replaceAll("Aluminium", "Lumicite");
+
+<jaopca:item_clusteroctine>.displayName = "Native Octine Cluster";
+<jaopca:item_clustersyrmorite>.displayName = "Native Syrmorite Cluster";
