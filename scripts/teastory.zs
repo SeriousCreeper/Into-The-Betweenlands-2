@@ -266,12 +266,12 @@ scripts.utils.addInfoTooltip(<teastory:white_tea_bag>, "Inspires Golemancy");
 scripts.utils.addInfoTooltip(<teastory:yellow_tea_bag>, "Inspires Alchemy");
 
 <teastory:cup>.displayName = "Weedwood Cup";
-<teastory:cup:2>.displayName = "Cragrock Cup";
+<teastory:cup:2>.displayName = "Betweenstone Cup";
 <teastory:cup:3>.displayName = "Dentrothyst Cup";
 <teastory:cup:4>.displayName = "Mud Brick Cup";
 <teastory:cup:5>.displayName = "Ancient Remnant Cup";
 
-<teastory:pot_stone>.displayName = "Cragrock Pot";
+<teastory:pot_stone>.displayName = "Betweenstone Pot";
 <teastory:pot_iron>.displayName = "Syrmorite Pot";
 <teastory:pot_porcelain>.displayName = "Mud Brick Pot";
 <teastory:pot_zisha>.displayName = "Ancient Remnant Pot";
@@ -280,12 +280,12 @@ scripts.utils.addInfoTooltip(<teastory:yellow_tea_bag>, "Inspires Alchemy");
 <teastory:cold_water_pot_zisha>.displayName = "Ancient Remnant Pot (Cold Water)";
 <teastory:cold_water_pot_porcelain>.displayName = "Mud Brick Pot (Cold Water)";
 <teastory:cold_water_pot_iron>.displayName = "Syrmorite Pot (Cold Water)";
-<teastory:cold_water_pot_stone>.displayName = "Cragrock Pot (Cold Water)";
+<teastory:cold_water_pot_stone>.displayName = "Betweenstone Pot (Cold Water)";
 
 <teastory:boiled_water_pot_zisha>.displayName = "Ancient Remnant Pot (Boiled Water)";
 <teastory:boiled_water_pot_porcelain>.displayName = "Mud Brick Pot (Boiled Water)";
 <teastory:boiled_water_pot_iron>.displayName = "Syrmorite Pot (Boiled Water)";
-<teastory:boiled_water_pot_stone>.displayName = "Cragrock Pot (Boiled Water)";
+<teastory:boiled_water_pot_stone>.displayName = "Betweenstone Pot (Boiled Water)";
 
 <teastory:green_tea>.displayName = "Green Tea";
 <teastory:green_tea:2>.displayName = "Green Tea";
