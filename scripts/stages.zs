@@ -57,8 +57,8 @@ stageMods("soot", "knowledge_of_malice", embersItemsNotToStage);
 
 stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 
-var ieStage = "knowledge_of_technology";
-//var ieStage = "unstaged";
+//var ieStage = "knowledge_of_technology";
+var ieStage = "unstaged";
 
 stageMods("thaumicaugmentation", ieStage, thaumicaugmentationItemsNotToStage);
 stageMods("immersiveengineering", ieStage, ieItemsNotToStage);
