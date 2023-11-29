@@ -1,0 +1,34 @@
+{
+	title: "Automatic Hammering",
+	x: -6.0d,
+	y: 1.0d,
+	shape: "diamond",
+	text: [
+		"The §6Dawnstone Anvil§r has several uses.",
+		"",
+		"In order for it to work, an §6Automatic Hammer§r has to be placed 1 block above and 1 block back, facing the anvil. ",
+		"",
+		"Additionally, the §6Hammer§r requires §6Ember§r and a bluedust signal to work.",
+		"",
+		"One use of the Dawnstone Anvil is to automatically hammer blooms into nuggets.",
+		"",
+		"A §6Bin§r can be placed underneath the anvil to collect any nuggets."
+	],
+	dependencies: [
+		"f1098d87"
+	],
+	tasks: [{
+		uid: "8ec212d0",
+		type: "item",
+		items: [{
+			item: "embers:dawnstone_anvil"
+		}]
+	},
+	{
+		uid: "4247aa1f",
+		type: "item",
+		items: [{
+			item: "embers:auto_hammer"
+		}]
+	}]
+}

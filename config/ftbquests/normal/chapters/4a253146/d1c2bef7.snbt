@@ -1,7 +1,7 @@
 {
 	title: "Octine Ingots",
-	x: -5.0d,
-	y: -1.0d,
+	x: -6.0d,
+	y: -2.0d,
 	shape: "diamond",
 	text: [
 		"The next tool tier is octine. ",

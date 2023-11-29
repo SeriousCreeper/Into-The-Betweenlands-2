@@ -18,19 +18,17 @@
 		type: "item",
 		items: [{
 			item: "betweenores:silver_ore"
-		}]
-	},
-	{
-		uid: "9f2090a1",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "betweenores:lead_ore"
-		}]
-	},
-	{
-		uid: "6a68ab3f",
-		type: "item",
-		items: [{
+		},
+		{
+			item: "betweenores:copper_ore"
+		},
+		{
+			item: "betweenores:aluminum_ore"
+		},
+		{
 			item: "betweenores:nickel_ore"
 		}]
 	}]

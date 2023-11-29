@@ -1,6 +1,6 @@
 {
-	x: -7.0d,
-	y: -2.0d,
+	x: -6.0d,
+	y: -1.0d,
 	shape: "diamond",
 	text: [
 		"To send molten metal from the melter (or other containers) to the stamper, fluid pipes and extractors are needed.",
