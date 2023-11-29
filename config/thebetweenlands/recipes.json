@@ -2,6 +2,42 @@
   "pestle_and_mortar": [
     {
       "input": {
+        "id": "roots:runestone"
+      },
+      "output": {
+        "id": "roots:runic_dust",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "roots:runestone_brick"
+      },
+      "output": {
+        "id": "roots:runic_dust",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "roots:runestone_brick_alt"
+      },
+      "output": {
+        "id": "roots:runic_dust",
+        "size": 1
+      }
+    },
+    {
+      "input": {
+        "id": "roots:chiseled_runestone"
+      },
+      "output": {
+        "id": "roots:runic_dust",
+        "size": 1
+      }
+    },
+    {
+      "input": {
         "id": "thebetweenlands:items_misc",
         "meta": 7
       },

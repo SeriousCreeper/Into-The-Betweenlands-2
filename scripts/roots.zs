@@ -184,6 +184,7 @@ Mortar.removeRecipe(<minecraft:magma_cream>);
 Mortar.removeRecipe(<minecraft:blaze_powder>);
 Mortar.removeRecipe(<roots:petals>);
 Mortar.removeRecipe(<mysticalworld:silk_thread>);
+Mortar.removeRecipe(<roots:runic_dust>);
 //Mortar.addRecipe("petals", <roots:petals>, [<ore:allFlowers>]);
 
 
