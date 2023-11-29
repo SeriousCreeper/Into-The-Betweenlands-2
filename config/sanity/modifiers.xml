@@ -61,6 +61,7 @@
     <entry value="1">wellness</entry>
     <entry value="-1">food_sickness</entry>
     <entry value="-0.1">darkness</entry>
+    <entry value="-0.1">smelly</entry>
   </modifier>
   <modifier value="potions">
     <entry value="0.1">teastory:excitement</entry>
