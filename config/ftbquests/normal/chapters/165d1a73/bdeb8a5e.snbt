@@ -9,7 +9,8 @@
 		"Each person can only place 1 resonator."
 	],
 	dependencies: [
-		"654f6fcb"
+		"654f6fcb",
+		"f1098d87"
 	],
 	size: 2.0d,
 	tasks: [{

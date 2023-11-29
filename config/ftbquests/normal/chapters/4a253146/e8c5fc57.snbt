@@ -1,8 +1,8 @@
 {
 	title: "Investigate: Spirit Tree",
 	disable_toast: true,
-	x: -3.5d,
-	y: -1.0d,
+	x: -5.0d,
+	y: -2.5d,
 	shape: "diamond",
 	text: [
 		"Those fiery tools and weapons might be useful when exploring this mysterious looking tree. ",

@@ -3,10 +3,9 @@
 	x: -0.5d,
 	y: -2.5d,
 	text: [
-		"I should follow the instructions i've written down right after i had this strange vision..."
+		"According to my visions, once i have assembled this new §6dust§r, i should sprinkle it onto a §6bookshelf§r and see what happens..."
 	],
 	dependencies: [
-		"2b2147a0",
 		"33f14f77"
 	],
 	hide: true,

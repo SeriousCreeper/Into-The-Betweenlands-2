@@ -4,7 +4,7 @@
 	y: -2.0d,
 	shape: "diamond",
 	text: [
-		"Now that the bore is running, it will eventuall produce ember. ",
+		"Now that the bore is running, it will eventually produce ember. ",
 		"",
 		"Ember comes in three different states - shards, crystal, and grit.",
 		"",

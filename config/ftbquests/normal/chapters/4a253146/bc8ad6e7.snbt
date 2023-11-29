@@ -6,11 +6,11 @@
 	text: [
 		"The Stamper can take either liquids or solids and stamp them into form.",
 		"",
-		"Place the stamper base at the bottom, and then place the stamper 2 blocks above. ",
+		"Place the Stamp Base at the §6bottom§r, and then place the Stamper 2 blocks §6above§r, leaving 1 block of air in between.",
 		"",
-		"The top blocks receives embers, while the bottom one receives liquids or items.",
+		"The §6top block§r receives §6Ember§r, while the §6bottom§r one receives §6liquids or items§r.",
 		"",
-		"Stamps and other items can be attached to the bottom side of the stamper (top block), depending on the recipe."
+		"Stamps and other items can be attached to the bottom side of the Stamper (top block), depending on the recipe."
 	],
 	dependencies: [
 		"2bdeba90"

@@ -1,0 +1,22 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"One of these combinations is §6Octine§r and §6Russite§r.",
+		"",
+		"Together they form a liquid named §6Dawnstone§r. ",
+		"",
+		"By pumping the liquid into a Stamper, it's possible to form Dawnstone Ingots."
+	],
+	dependencies: [
+		"8141d4a7"
+	],
+	tasks: [{
+		uid: "c8e1d40c",
+		type: "item",
+		items: [{
+			item: "embers:ingot_dawnstone"
+		}]
+	}]
+}

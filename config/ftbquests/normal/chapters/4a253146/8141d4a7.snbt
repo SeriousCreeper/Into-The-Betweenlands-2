@@ -1,0 +1,23 @@
+{
+	title: "Mixing Metals",
+	x: -7.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"The Mixer Centrifuge combines several liquids to form a new one.",
+		"",
+		"Each face of the §6bottom§r of the Centrifuge is its own tank. ",
+		"",
+		"When fluid is pumped into these tanks, and the §6top block§r of the Centrifuge is given §6Ember§r, a molten alloy will be created which can be §6pumped out§r of the §6top block§r."
+	],
+	dependencies: [
+		"2bdeba90"
+	],
+	tasks: [{
+		uid: "0719a6ef",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}]
+}
