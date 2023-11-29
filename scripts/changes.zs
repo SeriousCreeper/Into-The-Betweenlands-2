@@ -440,16 +440,6 @@ for i, wood in gateWoodTypes {
 recipes.remove(<base:wrench>);
 
 
-
-// EFFORTLESS BUILDING
-JEI.removeAndHide(<effortlessbuilding:randomizer_bag>);
-JEI.removeAndHide(<effortlessbuilding:reach_upgrade1>);
-JEI.removeAndHide(<effortlessbuilding:reach_upgrade2>);
-JEI.removeAndHide(<effortlessbuilding:reach_upgrade3>);
-
-
-
-
 // STATUES
 recipes.remove(<statues:palette>);
 scripts.utils.addShaped("palette", <statues:palette>, [[<thebetweenlands:items_crushed:32>, <thebetweenlands:items_crushed:45>], [<thebetweenlands:items_crushed:28>, <ore:plankWood>]]);
