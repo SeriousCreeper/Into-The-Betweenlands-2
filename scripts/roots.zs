@@ -364,19 +364,19 @@ Fey.removeRecipe(<roots:terrastone_hoe>);
 
 Fey.removeRecipe(<roots:terrastone_pickaxe>);
 Fey.addRecipe("terrastone_pickaxe", <roots:terrastone_pickaxe>, 
-	[<ore:runestone>, <thebetweenlands:octine_pickaxe>, <roots:terra_moss>, <thebetweenlands:items_misc:19>, <thebetweenlands:cragrock:2>]);
+	[<ore:runestone>, <thaumcraft:thaumium_pick>, <roots:terra_moss>, <thebetweenlands:items_misc:19>, <thebetweenlands:cragrock:2>]);
 
 Fey.removeRecipe(<roots:terrastone_axe>);
 Fey.addRecipe("terrastone_axe", <roots:terrastone_axe>, 
-	[<ore:runestone>, <thebetweenlands:octine_axe>, <roots:terra_moss>, <thebetweenlands:items_misc:19>, <thebetweenlands:cragrock:2>]);
+	[<ore:runestone>, <thaumcraft:thaumium_axe>, <roots:terra_moss>, <thebetweenlands:items_misc:19>, <thebetweenlands:cragrock:2>]);
 
 Fey.removeRecipe(<roots:terrastone_shovel>);
 Fey.addRecipe("terrastone_shovel", <roots:terrastone_shovel>, 
-	[<ore:runestone>, <thebetweenlands:octine_shovel>, <roots:terra_moss>, <thebetweenlands:items_misc:19>, <thebetweenlands:cragrock:2>]);
+	[<ore:runestone>, <thaumcraft:thaumium_shovel>, <roots:terra_moss>, <thebetweenlands:items_misc:19>, <thebetweenlands:cragrock:2>]);
 
 Fey.removeRecipe(<roots:terrastone_sword>);
 Fey.addRecipe("terrastone_sword", <roots:terrastone_sword>, 
-	[<ore:runestone>, <thebetweenlands:octine_sword>, <roots:terra_moss>, <thebetweenlands:items_misc:19>, <thebetweenlands:cragrock:2>]);
+	[<ore:runestone>, <thaumcraft:thaumium_sword>, <roots:terra_moss>, <thebetweenlands:items_misc:19>, <thebetweenlands:cragrock:2>]);
 
 
 
@@ -470,19 +470,19 @@ Fey.removeRecipe(<minecraft:mycelium>);
 // WILDROOT
 Fey.removeRecipe(<roots:wildwood_helmet>);
 Fey.addRecipe("wildwood_helmet", <roots:wildwood_helmet>, 
-	[<thebetweenlands:syrmorite_helmet>, <roots:bark_wildwood>, <roots:bark_wildwood>, <ore:plankWood>, <thebetweenlands:items_misc:19>]);
+	[<thaumcraft:thaumium_helm>, <roots:bark_wildwood>, <roots:bark_wildwood>, <ore:plankWood>, <thebetweenlands:items_misc:19>]);
 
 Fey.removeRecipe(<roots:wildwood_chestplate>);
 Fey.addRecipe("wildwood_chestplate", <roots:wildwood_chestplate>, 
-	[<thebetweenlands:syrmorite_chestplate>, <roots:bark_wildwood>, <roots:bark_wildwood>, <ore:plankWood>, <thebetweenlands:items_misc:19>]);
+	[<thaumcraft:thaumium_chest>, <roots:bark_wildwood>, <roots:bark_wildwood>, <ore:plankWood>, <thebetweenlands:items_misc:19>]);
 
 Fey.removeRecipe(<roots:wildwood_leggings>);
 Fey.addRecipe("wildwood_leggings", <roots:wildwood_leggings>, 
-	[<thebetweenlands:syrmorite_leggings>, <roots:bark_wildwood>, <roots:bark_wildwood>, <ore:plankWood>, <thebetweenlands:items_misc:19>]);
+	[<thaumcraft:thaumium_legs>, <roots:bark_wildwood>, <roots:bark_wildwood>, <ore:plankWood>, <thebetweenlands:items_misc:19>]);
 
 Fey.removeRecipe(<roots:wildwood_boots>);
 Fey.addRecipe("wildwood_boots", <roots:wildwood_boots>, 
-	[<thebetweenlands:syrmorite_boots>, <roots:bark_wildwood>, <roots:bark_wildwood>, <ore:plankWood>, <thebetweenlands:items_misc:19>]);
+	[<thaumcraft:thaumium_boots>, <roots:bark_wildwood>, <roots:bark_wildwood>, <ore:plankWood>, <thebetweenlands:items_misc:19>]);
 
 Fey.removeRecipe(<roots:wildwood_bow>);
 Fey.addRecipe("wildwood_bow", <roots:wildwood_bow>, 
