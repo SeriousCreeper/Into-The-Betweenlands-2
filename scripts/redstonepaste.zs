@@ -6,3 +6,5 @@ scripts.utils.addShapeless("stickyrepeater", <redstonepaste:stickyrepeater>, [<b
 
 recipes.remove(<redstonepaste:stickycomparator>);
 scripts.utils.addShapeless("stickycomparator", <redstonepaste:stickycomparator>, [<betweenlandsredstone:scabyst_comparator>, <thebetweenlands:sap_spit>]);
+
+<redstonepaste:redstonepaste>.displayName = "Bluedust Paste";

@@ -1277,3 +1277,8 @@ BrickCrucible.removeAllRecipes();
 <pyrotech:anvil_iron_plated:*>.displayName = "Syrmorite Anvil";
 
 <pyrotech:flint_and_tinder:*>.displayName = "Fire Starter";
+
+<pyrotech:dense_redstone_ore_large>.displayName = "Dense Bluedust Ore";
+<pyrotech:dense_redstone_ore_small>.displayName = "Dense Bluedust Ore";
+<pyrotech:dense_redstone_ore_rocks>.displayName = "Dense Bluedust Ore";
+<pyrotech:material:36>.displayName = "Dense Bluedust";

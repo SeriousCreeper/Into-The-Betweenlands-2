@@ -273,7 +273,7 @@ ArcaneWorkbench.registerShapedRecipe("redstonerelay", "REDSTONERELAY@2", 10, [
 ], 
 <thaumcraft:redstone_relay>, 
 [
-	[<minecraft:redstone_torch>, <thaumcraft:mechanism_simple>, <minecraft:redstone_torch>], 
+	[<betweenlandsredstone:scabyst_torch>, <thaumcraft:mechanism_simple>, <betweenlandsredstone:scabyst_torch>], 
 	[<thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>]
 ]);
 
@@ -1107,4 +1107,4 @@ SmeltingBonus.addSmeltingBonus(<ore:clusterTin>, <embers:nugget_tin> % 10);
 // NAME CHANGES
 <thaumcraft:brain>.displayName = "Swamp Hag Brain";
 <thaumcraft:nugget:9>.displayName = "Dentrothyst Sliver";
-
+<thaumcraft:redstone_relay>.displayName = "Bluedust Relay";

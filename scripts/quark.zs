@@ -156,3 +156,5 @@ for i, siding in sidingTypes {
 <quark:custom_bookshelf:4>.displayName = "Rotten Bark Bookshelf";
 
 <quark:color_slime>.displayName = "Block of Sap Spit";
+
+<quark:redstone_randomizer>.displayName = "Bluedust Randomizer";
