@@ -1,7 +1,7 @@
 {
 	title: "Investigate: Cragrock Tower",
-	x: -0.5d,
-	y: 0.0d,
+	x: 4.0d,
+	y: -2.0d,
 	text: [
 		"A tall tower found in Coarse Islands and Raised Isles.",
 		"",

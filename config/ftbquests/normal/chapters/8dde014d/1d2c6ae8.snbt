@@ -1,8 +1,8 @@
 {
 	title: "Knowledge of Technology",
 	icon: "immersiveengineering:tool 1 3",
-	x: 8.5d,
-	y: 2.0d,
+	x: 1.5d,
+	y: 2.5d,
 	dependencies: [
 		"788d078e"
 	],

@@ -1,0 +1,19 @@
+{
+	title: "Sanity",
+	x: 4.5d,
+	y: -3.5d,
+	text: [
+		"Not only does decay affect physical things, your mind is not safe either. ",
+		"",
+		"There are several things that affect your Mental Decay in a positive and negative way. ",
+		"",
+		"Keep an eye on the icon above your XP bar, it will indicate your current Mental State. ",
+		"",
+		"A low Mental State can be quite devastating, while a high Mental State can provide benefits. "
+	],
+	tasks: [{
+		uid: "d001f8f3",
+		type: "checkmark",
+		icon: "sanity:spectergoo"
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "Investigate: Sludgeon",
-	x: 8.5d,
-	y: 0.0d,
+	x: -0.5d,
+	y: 2.5d,
 	text: [
 		"A cylindrical structure inside the Sludge Plains Clearing. ",
 		"",

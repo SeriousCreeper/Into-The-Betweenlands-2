@@ -1,11 +1,11 @@
 {
 	title: "Investigation: Wight Fortress",
-	x: 2.5d,
-	y: 0.0d,
+	x: 8.5d,
+	y: 2.5d,
 	text: [
 		"A castle like structures found in Marshes. ",
 		"",
-		"Look pretty fortified, make sure to gear up first before exploring."
+		"Looks pretty fortified, make sure to gear up first before exploring."
 	],
 	dependencies: [
 		"59807ab6"

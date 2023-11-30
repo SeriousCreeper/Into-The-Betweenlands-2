@@ -1,0 +1,77 @@
+{
+	x: 4.0d,
+	y: 2.5d,
+	dependencies: [
+		"e9e618c6",
+		"1d2c6ae8",
+		"33f14f77",
+		"ccbdfca2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c9d1720e",
+		type: "custom",
+		title: "???",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ftbquests:textures/a.png"
+			}
+		}
+	},
+	{
+		uid: "6b2b3f30",
+		type: "custom",
+		title: "???",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ftbquests:textures/e.png"
+			}
+		}
+	},
+	{
+		uid: "4146d479",
+		type: "custom",
+		title: "???",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ftbquests:textures/t.png"
+			}
+		}
+	},
+	{
+		uid: "97b1da2b",
+		type: "custom",
+		title: "???",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ftbquests:textures/h.png"
+			}
+		}
+	},
+	{
+		uid: "733ac63e",
+		type: "custom",
+		title: "???",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ftbquests:textures/e.png"
+			}
+		}
+	},
+	{
+		uid: "eaaf53e8",
+		type: "custom",
+		title: "???",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ftbquests:textures/r.png"
+			}
+		}
+	}]
+}

@@ -6,7 +6,7 @@
 			Inventory: []
 		}
 	},
-	x: -4.5d,
+	x: -3.5d,
 	y: -6.0d,
 	text: [
 		"There are items in this world that you might not understand yet. ",
