@@ -1,0 +1,46 @@
+{
+  "data": {
+    "factors": [
+      {
+        "type": "limit",
+        "factor": {
+          "priority": 1.0,
+          "rays": [
+            {
+              "type": "dynpos",
+              "ray": {
+                "type": "world_height"
+              }
+            },
+            {
+              "type": "move",
+              "ray": {
+                "distance": -110
+              }
+            },
+            {
+              "type": "average",
+              "ray": {
+                "up": true,
+                "destExpression": "!is:air \u0026 (thebetweenlands:swamp_grass | (thebetweenlands:cragrock \u0026 property[variant]\u003dmossy_1))"
+              }
+            },
+            {
+              "type": "move",
+              "ray": {
+                "distance": 0,
+                "weight": 1.0239598
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Rustic Ruin",
+    "description": [
+      "Placed on Raised Isles"
+    ]
+  }
+}
