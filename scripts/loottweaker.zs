@@ -13,7 +13,7 @@ val swamp_hag_main = swamp_hag.getPool("swamp_hag");
 swamp_hag_main.addItemEntryHelper(<thaumcraft:brain>, 1, 1, [Functions.setCount(0, 1)], []);
 
 
-val mimic = LootTweaker.getTable("mod_lavacow:mimic");
+val mimic = LootTweaker.getTable("mod_lavacow:entities/mimic");
 mimic.clear();
 val mimic_pool = mimic.addPool("main", 1, 1, 0, 0);
 mimic_pool.addLootTableEntry("thebetweenlands:loot/common_chest_loot", 1, 0);

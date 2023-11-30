@@ -33,6 +33,8 @@
     <entry value="0.2">pizzacraft:slice_7</entry>
     <entry value="0.2">pizzacraft:slice_8</entry>
     <entry value="-1.0">pizzacraft:slice_9</entry>
+    <entry value="-2.0">mod_lavacow:parasite_item</entry>
+
   </modifier>
   <modifier value="kill">
     <entry value="-0.5">thebetweenlands:firefly</entry>
