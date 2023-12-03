@@ -5,7 +5,7 @@ import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.CokeOven;
 
 
-static itemsToRemove as IItemStack[] = [
+val itemsToRemove as IItemStack[] = [
 	<immersiveengineering:ore>,
 	<immersiveengineering:ore:1>,
 	<immersiveengineering:ore:2>,
@@ -63,12 +63,27 @@ static itemsToRemove as IItemStack[] = [
 	<immersiveengineering:metal:37>,
 	<immersiveengineering:metal:40>,
 	<immersiveengineering:metal:39>,
+	<immersiveengineering:pickaxe_steel>,
+	<immersiveengineering:shovel_steel>,
+	<immersiveengineering:axe_steel>,
+	<immersiveengineering:hoe_steel>,
+	<immersiveengineering:sword_steel>,
 ] as IItemStack[];
 
 for item in itemsToRemove {
 	JEI.removeAndHide(item);
 	item.removeAspects(allAspects);
 }
+
+furnace.remove(<immersiveengineering:metal:0>);
+furnace.remove(<immersiveengineering:metal:1>);
+furnace.remove(<immersiveengineering:metal:2>);
+furnace.remove(<immersiveengineering:metal:3>);
+furnace.remove(<immersiveengineering:metal:4>);
+furnace.remove(<immersiveengineering:metal:5>);
+furnace.remove(<immersiveengineering:metal:6>);
+furnace.remove(<immersiveengineering:metal:7>);
+furnace.remove(<immersiveengineering:metal:8>);
 
 //recipes.remove(<immersiveengineering:metal:29>);
 //recipes.remove(<immersiveengineering:stone_decoration>);
