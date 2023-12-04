@@ -26,8 +26,7 @@
         "betweenores:tile.betweenores.aluminum_ore"
       ],
       "output": [
-        "embers:nugget_aluminum:0",
-        "immersiveengineering:metal:21"
+        "embers:nugget_aluminum:0"
       ],
       "bloomYieldMinMax": [
         12,
@@ -44,8 +43,7 @@
         "betweenores:tile.betweenores.copper_ore"
       ],
       "output": [
-        "embers:nugget_copper:0",
-        "immersiveengineering:metal:20"
+        "embers:nugget_copper:0"
       ],
       "bloomYieldMinMax": [
         12,
@@ -97,8 +95,7 @@
         "betweenores:tile.betweenores.lead_ore"
       ],
       "output": [
-        "embers:nugget_lead:0",
-        "immersiveengineering:metal:22"
+        "embers:nugget_lead:0"
       ],
       "bloomYieldMinMax": [
         12,
@@ -116,8 +113,7 @@
         "embers:tile.ore_nickel"
       ],
       "output": [
-        "embers:nugget_nickel:0",
-        "immersiveengineering:metal:24"
+        "embers:nugget_nickel:0"
       ],
       "bloomYieldMinMax": [
         12,
@@ -151,8 +147,7 @@
         "betweenores:tile.betweenores.silver_ore"
       ],
       "output": [
-        "embers:nugget_silver:0",
-        "immersiveengineering:metal:23"
+        "embers:nugget_silver:0"
       ],
       "bloomYieldMinMax": [
         12,
