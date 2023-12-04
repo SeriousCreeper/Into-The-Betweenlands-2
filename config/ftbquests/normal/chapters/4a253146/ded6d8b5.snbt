@@ -1,0 +1,19 @@
+{
+	title: "Mass Renaming",
+	x: -7.0d,
+	y: -3.0d,
+	shape: "diamond",
+	text: [
+		"Using a Name Tag in the §6Stamper§r lets you rename other items inside the §6Stamp Base§r without consuming the Name Tag."
+	],
+	dependencies: [
+		"bc8ad6e7"
+	],
+	tasks: [{
+		uid: "23fda607",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bl_name_tag"
+		}]
+	}]
+}
