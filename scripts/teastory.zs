@@ -253,14 +253,14 @@ for teabag in teas {
 // NAMES
 scripts.utils.addInfoTooltip(<teastory:green_tea:*>, "Inspires Auromancy");
 scripts.utils.addInfoTooltip(<teastory:black_tea:*>, "Inspires Artifice");
-scripts.utils.addInfoTooltip(<teastory:oolong_tea:*>, "Inspires Arcane");
+scripts.utils.addInfoTooltip(<teastory:oolong_tea:*>, "Inspires Infusion");
 scripts.utils.addInfoTooltip(<teastory:puer_tea:*>, "Inspires Eldritch");
 scripts.utils.addInfoTooltip(<teastory:white_tea:*>, "Inspires Golemancy");
 scripts.utils.addInfoTooltip(<teastory:yellow_tea:*>, "Inspires Alchemy");
 
 scripts.utils.addInfoTooltip(<teastory:green_tea_bag>, "Inspires Auromancy");
 scripts.utils.addInfoTooltip(<teastory:black_tea_bag>, "Inspires Artifice");
-scripts.utils.addInfoTooltip(<teastory:oolong_tea_bag>, "Inspires Arcane");
+scripts.utils.addInfoTooltip(<teastory:oolong_tea_bag>, "Inspires Infusion");
 scripts.utils.addInfoTooltip(<teastory:puer_tea_bag>, "Inspires Eldritch");
 scripts.utils.addInfoTooltip(<teastory:white_tea_bag>, "Inspires Golemancy");
 scripts.utils.addInfoTooltip(<teastory:yellow_tea_bag>, "Inspires Alchemy");
