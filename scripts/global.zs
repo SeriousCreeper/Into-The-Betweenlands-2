@@ -387,11 +387,33 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 
 <ore:nuggetCopper>.remove(<thaumcraft:nugget:1>);
+<ore:nuggetCopper>.remove(<immersiveengineering:metal:20>);
+
 <ore:nuggetTin>.remove(<thaumcraft:nugget:2>);
+
 <ore:nuggetSilver>.remove(<thaumcraft:nugget:3>);
+<ore:nuggetSilver>.remove(<immersiveengineering:metal:23>);
+
 <ore:nuggetIron>.remove(<thaumcraft:nugget>);
 
-//<ore:ingotCopper>.remove(<tmechworks:ingots:1>);
+<ore:nuggetAluminum>.remove(<immersiveengineering:metal:21>);
+<ore:nuggetAluminium>.remove(<immersiveengineering:metal:21>);
+
+<ore:nuggetLead>.remove(<immersiveengineering:metal:22>);
+
+<ore:nuggetNickel>.remove(<immersiveengineering:metal:24>);
+
+<ore:nuggetElectrum>.remove(<immersiveengineering:metal:27>);
+
+
+
+<ore:ingotCopper>.remove(<immersiveengineering:metal:0>);
+<ore:ingotAluminum>.remove(<immersiveengineering:metal:1>);
+<ore:ingotAluminium>.remove(<immersiveengineering:metal:1>);
+<ore:ingotLead>.remove(<immersiveengineering:metal:2>);
+<ore:ingotSilver>.remove(<immersiveengineering:metal:3>);
+<ore:ingotNickel>.remove(<immersiveengineering:metal:4>);
+<ore:ingotElectrum>.remove(<immersiveengineering:metal:7>);
 
 <ore:string>.remove(<mysticalworld:silk_thread>);
 
@@ -411,6 +433,9 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 <ore:blockGlass>.remove(<minecraft:stained_glass:*>);
 <ore:blockGlass>.remove(<minecraft:glass>);
+
+<ore:blockLead>.remove(<immersiveengineering:storage:2>);
+
 
 //<ore:gemLapis>.remove(<minecraft:dye:4>);
 <ore:gemLapis>.add(<thebetweenlands:items_misc:47>);
@@ -726,6 +751,21 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 
 <ore:plateIron>.remove(<thaumcraft:plate:1>);
 <ore:plateIron>.remove(<immersiveengineering:metal:39>);
+
+<ore:plateGold>.remove(<immersiveengineering:metal:40>);
+
+<ore:plateCopper>.remove(<immersiveengineering:metal:30>);
+
+<ore:plateAluminum>.remove(<immersiveengineering:metal:31>);
+<ore:plateAluminium>.remove(<immersiveengineering:metal:31>);
+
+<ore:plateLead>.remove(<immersiveengineering:metal:32>);
+
+<ore:plateSilver>.remove(<immersiveengineering:metal:33>);
+
+<ore:plateNickel>.remove(<immersiveengineering:metal:34>);
+
+<ore:plateElectrum>.remove(<immersiveengineering:metal:37>);
 
 
 
