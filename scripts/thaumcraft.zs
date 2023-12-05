@@ -1046,6 +1046,7 @@ Infusion.registerRecipe("gemcuttertable", "BASEINFUSION", <arcanearchives:gemcut
 	<thebetweenlands:valonite_block>
 ]);
 
+/*
 Infusion.registerRecipe("corrupted_bone_wayfinder_cragrock", "BASEINFUSION", <bladditions:corrupted_bone_wayfinder>.withTag({dimension: 21}), 1, [
 	<aspect:fabrico> * 25,
 	<aspect:praecantatio> * 25,
@@ -1058,6 +1059,7 @@ Infusion.registerRecipe("corrupted_bone_wayfinder_cragrock", "BASEINFUSION", <bl
 	<thaumcraft:salis_mundus>,
 	<thebetweenlands:wisp>
 ]);
+*/
 
 recipes.remove(<pyrotech:wither_forge>);
 Infusion.registerRecipe("wither_forge", "BASEINFUSION", <pyrotech:wither_forge>, 5, [

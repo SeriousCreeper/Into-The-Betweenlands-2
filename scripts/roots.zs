@@ -452,6 +452,8 @@ Fey.addRecipe("caminite_brick", <embers:brick_caminite> * 2,
 Fey.addRecipe("caminite_bricks", <embers:block_caminite_brick>, 
 	[<roots:runic_dust>, <roots:runic_dust>, <roots:runic_dust>, <roots:runic_dust>, <pyrotech:refractory_brick_block>]);
 
+Fey.addRecipe("inert_cragrock_tower", <bladditions:corrupted_bone_wayfinder>.withTag({dimension: 21}), 
+	[<contenttweaker:inert_boneway_finder>, <thebetweenlands:glowing_smooth_cragrock>, <thebetweenlands:wisp>, <thebetweenlands:octine_block>, <thebetweenlands:dentrothyst:1>]);
 
 
 

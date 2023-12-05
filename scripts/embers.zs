@@ -482,6 +482,17 @@ Alchemy.add(<embers:dust_metallurgic> * 3, [<ore:crystalSeed>, <embers:dust_embe
 	}
 );
 
+Alchemy.add(<bladditions:corrupted_bone_wayfinder>.withTag({dimension: 22}), [<contenttweaker:inert_boneway_finder>, <thebetweenlands:glowing_betweenstone_tile>, <thebetweenlands:valonite_block>, <thebetweenlands:wight_heart>, <thebetweenlands:dentrothyst:1>], 
+	{
+		"dawnstone" : 16 to 32, 
+		"iron" : 16 to 32, 
+		"copper" : 16 to 32, 
+		"silver" : 16 to 32, 
+		"lead" : 16 to 32
+	}
+);
+
+
 Alchemy.remove(<embers:eldritch_insignia>);
 Alchemy.add(<embers:eldritch_insignia>, [<embers:archaic_circuit>, <thebetweenlands:items_misc:18>, <embers:archaic_brick>, <thebetweenlands:items_misc:18>, <embers:archaic_brick>], 
 	{
