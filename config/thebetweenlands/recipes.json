@@ -1429,18 +1429,16 @@
     {
       "input": {
         "item_1": {
-            "id": "thebetweenlands:smooth_cragrock"
+            "id": "thebetweenlands:shimmer_stone"
         },
         "item_2": {
-            "id": "thebetweenlands:items_misc",
-            "meta": 47
+            "id": "roots:runestone"
         },
         "item_3": {
-            "id": "roots:strange_ooze"
+            "id": "roots:bark_wildwood"
         },
         "item_4": {
-            "id": "thebetweenlands:items_misc",
-            "meta": 19
+            "id": "thebetweenlands:wight_heart"
         }
       },
       "output": {
