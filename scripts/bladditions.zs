@@ -1,17 +1,5 @@
 import crafttweaker.item.IItemStack;
 
-<bladditions:corrupted_bone_wayfinder>.addAdvancedTooltip(function(item) {   
-    if(item.withTag({dimension: 21})) {
-        return format.green("Destination: Cragrock Tower");
-    }
-
-    if(item.withTag({dimension: 22})) {
-        return format.green("Destination: Wight Fortress");
-    }
-
-    if(item.withTag({dimension: 23})) {
-        return format.green("Destination: Sludgeon");
-    }
-
-    return "";
-});
+scripts.utils.addInfoTooltip(<bladditions:corrupted_bone_wayfinder>.withTag({dimension: 21}), "Cragrock Tower Mirage");
+scripts.utils.addInfoTooltip(<bladditions:corrupted_bone_wayfinder>.withTag({dimension: 22}), "Wight Fortress Mirage");
+scripts.utils.addInfoTooltip(<bladditions:corrupted_bone_wayfinder>.withTag({dimension: 23}), "Sludgeon Mirage");
