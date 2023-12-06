@@ -67,6 +67,7 @@
   <modifier value="potions">
     <entry value="0.1">teastory:excitement</entry>
     <entry value="-0.05">simpledifficulty:parasites</entry>
+    <entry value="0.01">pyrotech:comfort</entry>
   </modifier>
   <modifier value="bl_events">
     <entry value="-0.1">blood_sky</entry>
