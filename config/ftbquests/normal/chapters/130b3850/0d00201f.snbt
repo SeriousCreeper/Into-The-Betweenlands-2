@@ -1,6 +1,9 @@
 {
 	x: 4.0d,
 	y: 0.0d,
+	text: [
+		"Work your way through the Thaumonomicon to unlock the Gem Cutter's Table"
+	],
 	dependencies: [
 		"31978e64"
 	],
