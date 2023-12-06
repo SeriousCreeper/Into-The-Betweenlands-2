@@ -167,6 +167,7 @@ Bark.addRecipe("saptree_bark_1", <thebetweenlands:log_sap:0>, <roots:bark_birch>
 Bark.addRecipe("giantroot_bark_1", <thebetweenlands:giant_root:0>, <roots:bark_dark_oak>);
 
 Bark.addRecipe("wildroot", <thebetweenlands:root>, <roots:wildroot>);
+Bark.addRecipe("wildroot", <thebetweenlands:root_underwater>, <roots:wildroot>);
 
 // Misc
 
