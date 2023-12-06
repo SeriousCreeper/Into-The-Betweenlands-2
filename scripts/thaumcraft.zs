@@ -173,6 +173,7 @@ ArcaneWorkbench.registerShapedRecipe("thaumometer", "FIRSTSTEPS@2", 20, [
 ]);
 
 
+recipes.remove(<thaumcraft:vis_resonator>);
 ArcaneWorkbench.removeRecipe("vis_resonator");
 ArcaneWorkbench.registerShapedRecipe("vis_resonator", "UNLOCKAUROMANCY@2", 50, [
 	<aspect:aer>, 
