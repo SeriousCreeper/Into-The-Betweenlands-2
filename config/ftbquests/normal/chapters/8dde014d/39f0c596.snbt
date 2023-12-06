@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"One of the druids had a drawing of a different kind of Wayfinder, crafted at this Altar.",
+		"",
+		"Perhaps creating one will reveal its purpose."
+	],
+	dependencies: [
+		"1a9c2084"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1fc26930",
+		type: "item",
+		items: [{
+			item: "contenttweaker:inert_boneway_finder"
+		}]
+	}]
+}

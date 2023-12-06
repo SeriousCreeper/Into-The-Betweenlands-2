@@ -1,0 +1,25 @@
+{
+	title: "Unstable Wayfinder - Cragrock Tower",
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"I know this sounds strange, but after having explored the Cragrock Tower, i do believe with the help of the Inert Wayfinder and the new knowledge i've gained at the tower, i can modify the Wayfinder to locate another Cragrock Tower."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"39f0c596",
+		"ccbdfca2"
+	],
+	tasks: [{
+		uid: "cf70d3f6",
+		type: "item",
+		items: [{
+			id: "bladditions:corrupted_bone_wayfinder",
+			tag: {
+				dimension: 21
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}
