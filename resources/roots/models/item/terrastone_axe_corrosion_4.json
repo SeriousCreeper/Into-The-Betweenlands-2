@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "roots:items/terrastone",
-    "layer1": "roots:items/terrastone_corrosion_4"
+    "layer0": "roots:items/terrastone_axe",
+    "layer1": "roots:items/terrastone_axe_corrosion_4"
   }
 }
