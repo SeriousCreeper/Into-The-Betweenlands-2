@@ -1,0 +1,22 @@
+{
+	x: -2.25d,
+	y: 0.0d,
+	text: [
+		"Other things that will improve gaining knowledge:",
+		"",
+		"§6Sitting Down§r",
+		"On a mat, a mount, boat, etc",
+		"",
+		"§6Greeblings playing Music§r",
+		"Has to be within 10 blocks of the player"
+	],
+	dependencies: [
+		"16569826"
+	],
+	tasks: [{
+		uid: "25757720",
+		type: "checkmark",
+		title: "Inspiration: Others",
+		icon: "thebetweenlands:reed_mat"
+	}]
+}

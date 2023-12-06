@@ -1,0 +1,18 @@
+{
+	x: -3.25d,
+	y: -0.5d,
+	text: [
+		"Following buffs improve the speed of gaining knowledge:",
+		"",
+		"§6Focused§r from a burning campfire."
+	],
+	dependencies: [
+		"16569826"
+	],
+	tasks: [{
+		uid: "6b90fa0f",
+		type: "checkmark",
+		title: "Inspiration: Buffs",
+		icon: "pyrotech:campfire"
+	}]
+}

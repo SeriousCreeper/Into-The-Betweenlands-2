@@ -1,0 +1,28 @@
+{
+	x: -2.25d,
+	y: -2.0d,
+	text: [
+		"Certain blocks near the player (within §69x3x9§r range) increase the chance of gaining knowledge. ",
+		"",
+		"However, some blocks only help with specific knowledge.",
+		"",
+		"§6Crucible§r - Increases §6Alchemy§r",
+		"§6Golem Builder§r - Increases §6Golemancy§r",
+		"§6Nitor§r - Increases §6Auromancy§r",
+		"§6Brain in a Jar§r - Increases §6Eldritch§r",
+		"§6Warded Jar§r - Increases §6Arcane§r",
+		"§6Magic Mirror§r - Increases §6Artifice§r",
+		"",
+		"§6Bookshelf§r - Increases §6any§r knowledge",
+		"§6Research Table§r - Increases §6any§r knowledge"
+	],
+	dependencies: [
+		"16569826"
+	],
+	tasks: [{
+		uid: "d372bf0a",
+		type: "checkmark",
+		title: "Inspiration: Blocks",
+		icon: "minecraft:bookshelf"
+	}]
+}

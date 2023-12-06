@@ -1,0 +1,22 @@
+{
+	title: "Inspiring Teas",
+	icon: "teastory:black_tea 1 2",
+	x: -2.25d,
+	y: -1.0d,
+	text: [
+		"To further gain more §6Observations§r and §6Theories§r, different types of §6Teas§r are required.",
+		"",
+		"Each tea has a specific school of knowledge associated with it (shown in its tooltip), and each tea also provides §6Fundamental§r knowledge. ",
+		"",
+		"While the Tea effect is active, and your inventory contains §6Scribing Tools§r and the §6Thaumonomicon§r, you will automatically gain knowledge over time. ",
+		"",
+		"The speed and chance at which knowledge is gained can be further increased through several means."
+	],
+	dependencies: [
+		"1d46e163"
+	],
+	tasks: [{
+		uid: "618e685f",
+		type: "checkmark"
+	}]
+}
