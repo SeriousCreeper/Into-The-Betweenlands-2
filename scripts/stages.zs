@@ -15,27 +15,29 @@ OreStages.addReplacement("knowledge_of_malice", <betweenores:copper_ore>, <thebe
 OreStages.addReplacement("knowledge_of_malice", <betweenores:lead_ore>, <thebetweenlands:pitstone>);
 OreStages.addReplacement("knowledge_of_malice", <betweenores:silver_ore>, <thebetweenlands:pitstone>);
 OreStages.addReplacement("knowledge_of_malice", <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement("knowledge_of_malice", <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
 OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_amber>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_cinnabar>, <thebetweenlands:pitstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
 
 OreStages.addReplacement("locked", <minecraft:dirt>, <thebetweenlands:swamp_dirt>);
 OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_solid>);
 //OreStages.addReplacement("locked", <pyrotech:material:0>, <embers:dust_ash>);
-
-ItemStages.addItemStage("knowledge_of_technology", <thebetweenlands:swift_pick:*>);
 
 val rootsItemsNotToStage = [
 ] as IItemStack[];
 
 val embersItemsNotToStage = [
 	<embers:dust_ash>,
+	<soot:sulfur_ore>,
+	<soot:sulfur_clump>,
 ] as IItemStack[];
 
 val thaumcraftItemsNotToStage = [
 	<thaumcraft:brain>,
 	<thaumcraft:plate:1>,
 	<thaumcraft:crystal_essence>,
+	<thaumcraft:ore_amber>,
+	<thaumcraft:ore_cinnabar>,
 ] as IItemStack[];
 
 val thaumicaugmentationItemsNotToStage = [
