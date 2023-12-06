@@ -1,0 +1,24 @@
+{
+	title: "Just a Mirage",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"While i was sort of correct in assuming that the Wayfinder helps me in locating another structure, i didn't quite expect it to be a in this.. pocket dimension?",
+		"",
+		"I can't explain why, but something tells me falling into the void will bring me back home safely..."
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	hide_text_until_complete: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "10dff81f",
+		type: "dimension",
+		dim: 21
+	},
+	{
+		uid: "c255d68c",
+		type: "dimension",
+		dim: 22
+	}]
+}

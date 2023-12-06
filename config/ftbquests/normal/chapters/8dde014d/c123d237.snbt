@@ -1,0 +1,17 @@
+{
+	title: "Just a Mirage",
+	icon: "thebetweenlands:sapling_weedwood",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"While i was sort of correct in assuming that the Wayfinder helps me in locating another structure, i didn't quite expect it to be a in this.. pocket dimension?",
+		"",
+		"I can't explain why, but something tells me falling into the void will bring me back home safely..."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"14d0e9de"
+	],
+	hide: true,
+	hide_text_until_complete: true
+}
