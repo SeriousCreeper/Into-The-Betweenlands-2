@@ -138,3 +138,15 @@ Store.addTrade(<thebetweenlands:aa_upgrade_vortex>, cur_3);
 addExchangeStore();
 
 
+// gamemaster
+Store.setProfile("light_blue_m");
+Store.setStoreIcon("_store", <betweencards:tab_icon>);
+
+Store.addTrade(<betweencards:booster_pack_disturbed_denizens>, cur_2 * 6);
+Store.addTrade(<betweencards:booster_pack_biting_waters>, cur_2 * 6);
+Store.addTrade(<betweencards:beloved_companions>, cur_2 * 6);
+Store.addTrade(<betweencards:curious_critters>, cur_2 * 6);
+Store.addTrade(<betweencards:haunted_deep>, cur_2 * 6);
+Store.addTrade(<betweencards:sludgeon_delver>, cur_2 * 6);
+
+addExchangeStore();
