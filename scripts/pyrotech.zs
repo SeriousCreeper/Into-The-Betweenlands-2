@@ -907,6 +907,9 @@ slabRecipe("boards", <pyrotech:material:20>, <ore:slabWood>, 1, 2, 3); // boards
 stoneSawmillRecipeBuilder("treated_boards", <pyrotech:material:23>, <pyrotech:planks_tarred>, 1, 2, 3); // tarred boards
 stoneSawmillRecipeBuilder("sticks", <thebetweenlands:items_misc:20>, <pyrotech:material:20>, 2, 3, 4); // boards
 
+recipes.remove(<immersiveengineering:material:0>);
+stoneSawmillRecipeBuilder("treated_sticks", <immersiveengineering:material:0>, <ore:slabTreatedWood>, 4, 5, 6);
+
 Chopping.addRecipe("boards_to_sticks", <thebetweenlands:items_misc:20>, <pyrotech:material:20>);
 
 //recipes.remove(<thebetweenlands:items_misc:20>); // sticks
@@ -1009,6 +1012,12 @@ PitKiln.addRecipe("stamp_gear", <embers:stamp_gear>, <embers:stamp_gear_raw>, 10
 
 furnace.remove(<soot:stamp_nugget>);
 PitKiln.addRecipe("stamp_nugget", <soot:stamp_nugget>, <soot:stamp_nugget_raw>, 10 * 60 * 20, 0.33, [
+], true);
+
+PitKiln.addRecipe("stamp_wire", <immersiveengineering:mold:4>, <contenttweaker:stamp_wires_raw>, 10 * 60 * 20, 0.33, [
+], true);
+
+PitKiln.addRecipe("stamp_rod", <immersiveengineering:mold:2>, <contenttweaker:stamp_rod_raw>, 10 * 60 * 20, 0.33, [
 ], true);
 
 furnace.remove(<thebetweenlands:silt_glass>);

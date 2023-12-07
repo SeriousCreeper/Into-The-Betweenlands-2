@@ -25,6 +25,8 @@ val items = [
 	"inert_boneway_finder",
 	"silk",
 	"access_crystal",
+	"stamp_wires_raw",
+	"stamp_rod_raw",
 	//"plate_syrmorite"
 ] as string[];
 

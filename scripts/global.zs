@@ -451,6 +451,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:trapdoorWood>.add(<thebetweenlands:nibbletwig_plank_trapdoor>);
 
 <ore:lever>.add(<thebetweenlands:weedwood_lever>);
+<ore:lever>.add(<embers:caminite_lever>);
 
 <ore:middleGems>.add(<thebetweenlands:green_middle_gem>);
 <ore:middleGems>.add(<thebetweenlands:crimson_middle_gem>);
