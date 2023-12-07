@@ -4,20 +4,6 @@ import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.SmeltingBonus;
 
-
-val allItems = loadedMods["thaumcraft"].items;
-
-recipes.replaceAllOccurences(<ore:plateIron>, <ore:plateSyrmorite>, <*>.only(function(item) {
-    for tcItem in allItems {
-    	if(tcItem.matches(item)) {
-    		return true;
-    	}
-    }
-
-    return false;
-}));
-
-
 recipes.remove(<thaumcraft:nugget:1>);
 recipes.remove(<thaumcraft:nugget:2>);
 recipes.remove(<thaumcraft:nugget:3>);
@@ -667,6 +653,157 @@ ArcaneWorkbench.registerShapedRecipe("grandhammer", "UNLOCKARTIFICE@2", 100, [
 	[null, <ore:ingotCopper>, null], 
 	[null, <ore:stickWood>, null]
 ]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:lamp_arcane>);
+ArcaneWorkbench.registerShapedRecipe("arcanelamp", "ARCANELAMP@1", 50, [
+	<aspect:aer> * 1,
+	<aspect:ignis> * 1
+], 
+<thaumcraft:lamp_arcane>, 
+[
+	[null, <ore:plateSyrmorite>, null], 
+	[<ore:plateSyrmorite>, <thaumcraft:amber_block>, <ore:plateSyrmorite>], 
+	[null, <ore:plateSyrmorite>, null]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:grapple_gun>);
+ArcaneWorkbench.registerShapedRecipe("grapplegun", "GRAPPLEGUN@1", 75, [
+	<aspect:aer> * 1,
+	<aspect:ignis> * 1
+], 
+<thaumcraft:grapple_gun>, 
+[
+	[null, null, <thaumcraft:grapple_gun_spool>], 
+	[<thaumcraft:grapple_gun_tip>, <ore:plateSyrmorite>, <ore:plateSyrmorite>], 
+	[null, <ore:plateBrass>, <ore:plankWood>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:turret:1>);
+ArcaneWorkbench.registerShapedRecipe("advancedcrossbow", "ADVANCEDTURRET@1", 75, [
+	<aspect:aer> * 2
+], 
+<thaumcraft:turret:1>, 
+[
+	[<ore:plateSyrmorite>, <thaumcraft:mind:1>, <ore:plateSyrmorite>], 
+	[<ore:plateSyrmorite>, <thaumcraft:turret>, <ore:plateSyrmorite>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:brain_box>);
+ArcaneWorkbench.registerShapedRecipe("mnemonicmatrix", "THAUMATORIUM@1", 50, [
+	<aspect:terra> * 1,
+	<aspect:ordo> * 1
+], 
+<thaumcraft:brain_box>, 
+[
+	[<ore:plateSyrmorite>, <ore:gemAmber>, <ore:plateSyrmorite>], 
+	[<ore:gemAmber>, <thaumcraft:mind>, <ore:gemAmber>], 
+	[<ore:plateSyrmorite>, <ore:gemAmber>, <ore:plateSyrmorite>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:essentia_input>);
+ArcaneWorkbench.registerShapedRecipe("essentiatransportin", "ESSENTIATRANSPORT@1", 100, [
+	<aspect:aer> * 1,
+	<aspect:aqua> * 1
+], 
+<thaumcraft:essentia_input>, 
+[
+	[<ore:plateBrass>, <minecraft:dispenser>, <ore:plateBrass>], 
+	[<ore:plateSyrmorite>, <thaumcraft:metal_alchemical>, <ore:plateSyrmorite>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:smelter_vent>);
+ArcaneWorkbench.registerShapedRecipe("smeltervent", "IMPROVEDSMELTING2@1", 150, [
+	<aspect:aer> * 1
+], 
+<thaumcraft:smelter_vent>, 
+[
+	[<ore:plateSyrmorite>, <ore:plateBrass>, <ore:plateSyrmorite>], 
+	[<thaumcraft:filter>, <thaumcraft:metal_alchemical>, <thaumcraft:filter>], 
+	[<ore:plateSyrmorite>, <ore:plateBrass>, <ore:plateSyrmorite>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:smelter_aux>);
+ArcaneWorkbench.registerShapedRecipe("smelteraux", "IMPROVEDSMELTING@1", 100, [
+	<aspect:aer> * 1,
+	<aspect:terra> * 1
+], 
+<thaumcraft:smelter_aux>, 
+[
+	[<thaumcraft:plank_greatwood>, <thaumcraft:tube_filter>, <thaumcraft:plank_greatwood>], 
+	[<ore:plateBrass>, <thaumcraft:metal_alchemical>, <ore:plateBrass>], 
+	[<ore:plateSyrmorite>, <thaumcraft:bellows>, <ore:plateSyrmorite>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:metal_alchemical>);
+ArcaneWorkbench.registerShapedRecipe("alchemicalconstruct", "TUBES@1", 75, [
+	<aspect:aqua> * 1,
+	<aspect:ordo> * 1,
+	<aspect:perditio> * 1
+], 
+<thaumcraft:metal_alchemical> * 2, 
+[
+	[<ore:plateSyrmorite>, <thaumcraft:tube_valve>, <ore:plateSyrmorite>], 
+	[<thaumcraft:tube>, <thaumcraft:plank_greatwood>, <thaumcraft:tube>], 
+	[<ore:plateSyrmorite>, <thaumcraft:tube_valve>, <ore:plateSyrmorite>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:dioptra>);
+ArcaneWorkbench.registerShapedRecipe("dioptra", "DIOPTRA@1", 50, [
+	<aspect:aer> * 1,
+	<aspect:aqua> * 1
+], 
+<thaumcraft:dioptra>, 
+[
+	[<thaumcraft:stone_arcane>, <thaumcraft:vis_resonator>, <thaumcraft:stone_arcane>], 
+	[<ore:plateSyrmorite>, <thaumcraft:thaumometer>, <ore:plateSyrmorite>], 
+	[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:levitator>);
+ArcaneWorkbench.registerShapedRecipe("levitator", "LEVITATOR@1", 35, [
+	<aspect:aer> * 1
+], 
+<thaumcraft:levitator>, 
+[
+	[<ore:plankWood>, <ore:plateThaumium>, <ore:plankWood>], 
+	[<ore:plateSyrmorite>, <ore:nitor>, <ore:plateSyrmorite>], 
+	[<ore:plankWood>, <thaumcraft:mechanism_simple>, <ore:plankWood>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:tube_buffer>);
+ArcaneWorkbench.registerShapedRecipe("tubebuffer", "TUBES@1", 25, [
+], 
+<thaumcraft:tube_buffer>, 
+[
+	[<thaumcraft:phial>, <thaumcraft:tube_valve>, <thaumcraft:phial>], 
+	[<thaumcraft:tube>, <ore:plateSyrmorite>, <thaumcraft:tube>], 
+	[<thaumcraft:phial>, <thaumcraft:tube_restrict>, <thaumcraft:phial>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:tube>);
+ArcaneWorkbench.registerShapedRecipe("tubebuffer", "TUBES@1", 10, [
+], 
+<thaumcraft:tube> * 8, 
+[
+	[null, <ore:nuggetQuicksilver>, null], 
+	[<ore:plateSyrmorite>, <ore:blockGlass>, <ore:plateSyrmorite>], 
+	[null, <ore:nuggetBrass>, null]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
+ArcaneWorkbench.registerShapedRecipe("mechanism_simple", "BASEARTIFICE@1", 10, [
+	<aspect:ignis> * 1,
+	<aspect:aqua> * 1
+], 
+<thaumcraft:mechanism_simple>, 
+[
+	[null, <ore:plateBrass>, null], 
+	[<ore:plateSyrmorite>, <ore:stickWood>, <ore:plateSyrmorite>], 
+	[null, <ore:plateBrass>, null]
+]);
+
+
+
 
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:banner_white>);
