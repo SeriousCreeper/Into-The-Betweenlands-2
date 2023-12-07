@@ -4,9 +4,9 @@
 	y: -2.0d,
 	shape: "gear",
 	text: [
-		"There are some mystical powers at play here, and you think you can take this to your advantage.",
+		"There are some mystical powers at play here, and you think you can use this to your advantage.",
 		"",
-		"First craft a knife and gather wildroots and terra moss."
+		"First craft a knife and gather Wildroot and Terra Moss."
 	],
 	dependencies: [
 		"1153d040"
