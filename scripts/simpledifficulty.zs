@@ -59,5 +59,8 @@ scripts.utils.addShaped("iron_canteen_empty", <simpledifficulty:iron_canteen>.wi
 ]);
 
 
+scripts.utils.addInfoTooltip(<simpledifficulty:dragon_canteen:*>, "Automatically purifies water.");
+
+
 
 <simpledifficulty:purified_water_bottle>.maxStackSize = 1;
