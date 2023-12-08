@@ -732,6 +732,12 @@ Melter.remove(<liquid:boiling_wormwood> * 50);
 Melter.remove(<liquid:boiling_wormwood> * 100);
 Melter.add(<liquid:boiling_wormwood> * 50, <thebetweenlands:swamp_double_tallgrass>);
 
+Melter.add(<liquid:syrmorite> * 144, <embers:aspectus_iron>);
+Melter.add(<liquid:copper> * 144, <embers:aspectus_copper>);
+Melter.add(<liquid:lead> * 144, <embers:aspectus_lead>);
+Melter.add(<liquid:silver> * 144, <embers:aspectus_silver>);
+Melter.add(<liquid:dawnstone> * 144, <embers:aspectus_dawnstone>);
+
 
 // ----------- STAMPER ----------------------
 //Stamper.remove(<embers:ingot_copper>);
