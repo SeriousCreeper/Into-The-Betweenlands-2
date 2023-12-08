@@ -3,7 +3,7 @@ import mods.arcanearchives.GCT;
 recipes.remove(<arcanearchives:radiant_resonator>);
 recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>, [
 	[<ore:ingotDawnstone>, <minecraft:iron_bars>, <ore:ingotDawnstone>], 
-	[<roots:wildwood_log>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "clean_water", Amount: 1000}}).giveBack(<thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})), <roots:wildwood_log>], 
+	[<roots:wildwood_log>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "clean_water", Amount: 1000}}), <roots:wildwood_log>], 
 	[<roots:wildwood_log>, null, <roots:wildwood_log>]
 ]);
 
