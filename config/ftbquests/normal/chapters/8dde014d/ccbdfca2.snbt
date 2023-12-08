@@ -2,13 +2,11 @@
 	title: "Knowledge of Spirit",
 	x: 4.0d,
 	y: 0.0d,
-	dependencies: [
-		"59807ab6"
-	],
 	size: 2.0d,
 	tasks: [{
 		uid: "2e4f191a",
 		type: "gamestage",
+		title: "Knowledge of Spirit",
 		icon: "roots:roots_guide",
 		stage: "knowledge_of_spirit"
 	}],
