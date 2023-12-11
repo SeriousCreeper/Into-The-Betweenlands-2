@@ -11,3 +11,5 @@ game.setLocalization("research.THEORYRESEARCH.stage.2", "Now that i have some te
 game.setLocalization("research.Firebat.stage.1", "Pyrads are interesting beings. Despite being mostly made out of wood, they defend themselves with fire.<BR>This could potentially be useful in the future. ");
 
 game.setLocalization("research.UNLOCKALCHEMY.stage.2", "My recent discoveries have given me a new insight into how the world is put together and I think I might know a way to transform matter by altering its Essentia.<BR>This will require experimentation and something to hold the alchemical substrate. A simple brewing stand will not do - what I need is a mystical crucible.<BR>A kettle is the right shape and size, but what is effectively a big metal bowl will never be able to hold the magical energies I wish to manipulate.<BR>Once again, applying some Salis Mundus to a kettle should resolve my problems.");
+
+game.setLocalization("entity.Firebat.name", "Pyrads");
