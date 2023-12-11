@@ -461,7 +461,7 @@ recipes.remove(<embers:plate_gold>);
 
 // ----------- ALCHEMY ----------------------
 Alchemy.remove(<embers:seed_copper>);
-
+Alchemy.remove(<embers:isolated_materia>);
 
 Alchemy.remove(<embers:tyrfing>);
 Alchemy.add(<embers:tyrfing>, [<thebetweenlands:valonite_sword>, <thebetweenlands:tar_solid>, <thebetweenlands:sulfur_block>, <embers:ingot_lead>, <embers:ingot_lead>], 
