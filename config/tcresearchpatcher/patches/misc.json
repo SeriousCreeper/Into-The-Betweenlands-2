@@ -13,6 +13,18 @@
                     ]
             }
         ]
+    },
+    {
+        "key": "THAUMIC_AUGMENTATION_BASE",
+        "ops": [
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": [
+                        "!unlockedta"
+                    ]
+            }
+        ]
     }
 ]
 
