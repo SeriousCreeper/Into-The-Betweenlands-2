@@ -1239,6 +1239,50 @@
         "min_life": 12,
         "max_life": 48
       }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "embers:ashen_cloak_head"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "embers:ashen_cloak_chest"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "embers:ashen_cloak_legs"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "embers:ashen_cloak_boots"
+        },
+        "min_fuel": 6,
+        "max_fuel": 16,
+        "min_life": 12,
+        "max_life": 48
+      }
     }
   ],
   "animator": [
