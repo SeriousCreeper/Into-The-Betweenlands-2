@@ -143,6 +143,15 @@ scripts.utils.addShaped("amate_paper", <thebetweenlands:items_misc:32>, [
 	[<pizzacraft:paper_mass>, <pizzacraft:paper_mass>, <pizzacraft:paper_mass>]
 ]);
 
+recipes.remove(<thebetweenlands:caving_rope>);
+recipes.addShaped("caving_rope", <thebetweenlands:caving_rope> * 64, [
+	[<thebetweenlands:rope_item>, <thebetweenlands:rope_item>, <thebetweenlands:rope_item>], 
+	[<thebetweenlands:rope_item>, <thebetweenlands:bulb_capped_mushroom_item>, <thebetweenlands:rope_item>], 
+	[<thebetweenlands:rope_item>, <thebetweenlands:rope_item>, <thebetweenlands:rope_item>]
+]);
+	
+
+
 
 scripts.utils.addShapeless("silk", <contenttweaker:silk>, [<thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <mysticalworld:spindle:*>.transformDamage(1)]);
 
