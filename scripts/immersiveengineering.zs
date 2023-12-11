@@ -75,6 +75,11 @@ val itemsToRemove as IItemStack[] = [
 	<immersiveengineering:metal_device1:3>,
 	<immersiveengineering:metal_device0:5>,
 	<immersiveengineering:metal_device1:6>,
+	<immersiveengineering:stone_decoration>,
+	<immersiveengineering:stone_decoration:10>,
+	<immersiveengineering:stone_decoration_slab>,
+	<immersiveengineering:stone_decoration_slab:1>,
+	<immersiveengineering:stone_decoration_slab:10>,
 ] as IItemStack[];
 
 for item in itemsToRemove {
@@ -247,10 +252,123 @@ scripts.utils.addShaped("connectors/connector_hv", <immersiveengineering:connect
 	[<thebetweenlands:mud_bricks>, <ore:ingotAluminum>, <thebetweenlands:mud_bricks>]
 ]);
 
+recipes.remove(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}));
+scripts.utils.addShapeless("conveyors/conveyor_dropper", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}), [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <thebetweenlands:syrmorite_trapdoor>]);
+
+recipes.remove(<immersiveengineering:connector:11>);
+scripts.utils.addShaped("connectors/current_transformer", <immersiveengineering:connector:11>, [
+	[null, <immersiveengineering:tool:2>, null], 
+	[<thebetweenlands:mud_bricks>, <immersiveengineering:metal_decoration0>, <thebetweenlands:mud_bricks>], 
+	[<ore:ingotIron>, <immersiveengineering:metal_decoration0>, <ore:ingotIron>]
+]);
+
+recipes.remove(<immersiveengineering:connector:12>);
+scripts.utils.addShaped("connectors/connector_redstone", <immersiveengineering:connector:12> * 4, [
+	[<ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>], 
+	[<thebetweenlands:mud_bricks>, null, <thebetweenlands:mud_bricks>]
+]);
+
+recipes.remove(<immersiveengineering:connector:13>);
+scripts.utils.addShaped("connectors/connector_probe", <immersiveengineering:connector:13>, [
+	[null, <immersiveengineering:connector:12>, null], 
+	[<ore:paneGlass>, <immersiveengineering:material:27>, <ore:paneGlass>],
+	[null, <thebetweenlands:dentrothyst_shard_orange>, null]
+]);
+
+recipes.remove(<immersiveengineering:toolupgrade:7>);
+scripts.utils.addShaped("toolupgrades/chemthrower_focus", <immersiveengineering:toolupgrade:7>, [
+	[null, <ore:ingotSteel>, <ore:ingotSteel>], 
+	[<embers:pipe>, <embers:pipe>, <thebetweenlands:syrmorite_hopper>], 
+	[null, <ore:ingotSteel>, <ore:ingotSteel>]
+]);
+
+recipes.remove(<immersiveengineering:toolupgrade:4>);
+scripts.utils.addShaped("toolupgrades/revolver_bayonet", <immersiveengineering:toolupgrade:4>, [
+	[<thebetweenlands:octine_sword>, <ore:ingotSteel>], 
+	[<ore:ingotSteel>, <ore:plankTreatedWood>]
+]);
+
+recipes.remove(<immersiveengineering:toolupgrade:3>);
+scripts.utils.addShaped("toolupgrades/drill_capacity", <immersiveengineering:toolupgrade:3>, [
+	[<immersiveengineering:material:8>, <ore:ingotSteel>, null], 
+	[<ore:ingotSteel>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), <ore:dyeRed>], 
+	[null, <ore:dyeRed>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})]
+]);
+
+recipes.remove(<immersiveengineering:toolupgrade:0>);
+scripts.utils.addShaped("toolupgrades/drill_waterproof", <immersiveengineering:toolupgrade>, [
+	[<thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), <ore:dyeBlue>, null], 
+	[<ore:dyeBlue>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), <ore:dyeBlue>], 
+	[null, <ore:dyeBlue>, <immersiveengineering:material:8>]
+]);
+
+recipes.remove(<immersiveengineering:chemthrower>);
+scripts.utils.addShaped("tool/chemthrower", <immersiveengineering:chemthrower>, [
+	[null, <immersiveengineering:toolupgrade>, <immersiveengineering:material:13>], 
+	[null, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:material:13>], 
+	[<embers:pipe>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), null]
+]);
+
+recipes.remove(<immersiveengineering:toolupgrade:13>);
+scripts.utils.addShaped("toolupgrades/chemthrower_multitank", <immersiveengineering:toolupgrade:13>, [
+	[null, <embers:pipe>, null], 
+	[<immersiveengineering:toolupgrade:3>, <immersiveengineering:material:9>, <immersiveengineering:toolupgrade:3>]
+]);
+
+recipes.remove(<immersiveengineering:jerrycan>);
+scripts.utils.addShaped("tool/jerrycan", <immersiveengineering:jerrycan>, [
+	[null, <ore:plateIron>, <ore:plateIron>], 
+	[<ore:plateIron>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})], 
+	[<ore:plateIron>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})]
+]);
+
+recipes.remove(<immersiveengineering:earmuffs>);
+scripts.utils.addShaped("armor/earmuffs", <immersiveengineering:earmuffs>, [
+	[null, <ore:stickIron>, null], 
+	[<ore:stickIron>, null, <ore:stickIron>], 
+	[<contenttweaker:silk>, null, <contenttweaker:silk>]
+]);
+
+recipes.remove(<immersiveengineering:shield>);
+scripts.utils.addShaped("tool/shield", <immersiveengineering:shield>, [
+	[<ore:plateSteel>, <ore:plankTreatedWood>, <ore:plateSteel>], 
+	[<ore:plateSteel>, <thebetweenlands:octine_shield>, <ore:plateSteel>], 
+	[<ore:plateSteel>, <ore:plankTreatedWood>, <ore:plateSteel>]
+]);
+
+recipes.remove(<immersiveengineering:shield>);
+scripts.utils.addShaped("wooden_devices/fluid_router", <immersiveengineering:wooden_device0:7>, [
+	[<ore:plankTreatedWood>, <ore:dustRedstone>, <ore:plankTreatedWood>], 
+	[<ore:ingotIron>, <embers:pipe>, <ore:ingotIron>], 
+	[<ore:plankTreatedWood>, <immersiveengineering:material:8>, <ore:plankTreatedWood>]
+]);
+
+recipes.remove(<immersiveengineering:metal_decoration2:4>);
+scripts.utils.addShaped("metal_decoration/lantern", <immersiveengineering:metal_decoration2:4> * 3, [
+	[null, <ore:plateIron>, null], 
+	[<ore:paneGlass>, <embers:archaic_light>, <ore:paneGlass>], 
+	[null, <ore:plateIron>, null]
+]);
+
+recipes.remove(<immersiveengineering:metal_decoration0:7>);
+scripts.utils.addShaped("metal_decoration/radiator", <immersiveengineering:metal_decoration0:7> * 2, [
+	[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>], 
+	[<ore:ingotCopper>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), <ore:ingotCopper>], 
+	[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]
+]);
 
 
 
-Blueprint.removeRecipe(<immersiveengineering:mold:*>);
+
+Blueprint.removeRecipe(<immersiveengineering:mold:0>);
+Blueprint.removeRecipe(<immersiveengineering:mold:1>);
+Blueprint.removeRecipe(<immersiveengineering:mold:2>);
+Blueprint.removeRecipe(<immersiveengineering:mold:3>);
+Blueprint.removeRecipe(<immersiveengineering:mold:4>);
+Blueprint.removeRecipe(<immersiveengineering:mold:5>);
+Blueprint.removeRecipe(<immersiveengineering:mold:6>);
+Blueprint.removeRecipe(<immersiveengineering:mold:7>);
+Blueprint.removeRecipe(<immersiveengineering:graphite_electrode>);
 
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:0> * 4, [<immersiveengineering:material>, <immersiveengineering:material:20>, <immersiveengineering:material:20>, <immersiveengineering:material:20>, <immersiveengineering:material:20>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:1> * 4, [<immersiveengineering:material>, <immersiveengineering:material:21>, <immersiveengineering:material:21>, <immersiveengineering:material:21>, <immersiveengineering:material:21>]);
@@ -277,6 +395,8 @@ CokeOven.addRecipe(<thebetweenlands:items_misc:18>, 4, <pyrotech:log_pile>, 6000
 
 
 MetalPress.removeRecipeByMold(<immersiveengineering:mold:0>);
+MetalPress.removeRecipeByMold(<immersiveengineering:mold:1>);
+MetalPress.removeRecipeByMold(<immersiveengineering:mold:2>);
 MetalPress.removeRecipeByMold(<immersiveengineering:mold:4>);
 MetalPress.removeRecipeByMold(<immersiveengineering:mold:7>);
 
@@ -284,8 +404,10 @@ MetalPress.removeRecipeByMold(<immersiveengineering:mold:7>);
 
 
 
-<immersiveengineering:stone_decoration:2>.displayName = "Reinforced Archaic Bricks";
 
+<immersiveengineering:stone_decoration:2>.displayName = "Reinforced Archaic Bricks";
+<immersiveengineering:mold:2>.displayName = "Rod Stamp";
+<immersiveengineering:mold:4>.displayName = "Wire Stamp";
 
 
 //val platesToReplace = {
