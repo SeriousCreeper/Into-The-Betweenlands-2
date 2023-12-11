@@ -791,12 +791,18 @@ Stamper.add(<pyrotech:tongs_gold>, <liquid:octine>, <embers:stamp_flat>, <pyrote
 // Bullet mold
 Stamper.add(<immersiveengineering:bullet>, <liquid:copper> * 144, <immersiveengineering:mold:3>);
 
-// Rod mold
+// Wires mold
 Stamper.add(<alternatingflux:material> * 2, <liquid:constantan> * 144, <immersiveengineering:mold:4>);
 Stamper.add(<immersiveengineering:material:20> * 2, <liquid:copper> * 144, <immersiveengineering:mold:4>);
 Stamper.add(<immersiveengineering:material:21> * 2, <liquid:electrum> * 144, <immersiveengineering:mold:4>);
 Stamper.add(<immersiveengineering:material:22> * 2, <liquid:aluminum> * 144, <immersiveengineering:mold:4>);
 Stamper.add(<immersiveengineering:material:23> * 2, <liquid:steel> * 144, <immersiveengineering:mold:4>);
+
+Stamper.add(<immersiveengineering:material:1> * 2, <liquid:iron> * 144, <immersiveengineering:mold:2>);
+Stamper.add(<immersiveengineering:material:2> * 2, <liquid:steel> * 144, <immersiveengineering:mold:2>);
+Stamper.add(<immersiveengineering:material:3> * 2, <liquid:aluminum> * 144, <immersiveengineering:mold:2>);
+
+Stamper.add(<immersiveengineering:graphite_electrode>, null, <immersiveengineering:mold:2>,<immersiveengineering:material:19> * 4);
 
 
 
