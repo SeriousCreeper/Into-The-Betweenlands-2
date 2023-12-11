@@ -802,6 +802,73 @@ ArcaneWorkbench.registerShapedRecipe("mechanism_simple", "BASEARTIFICE@1", 10, [
 	[null, <ore:plateBrass>, null]
 ]);
 
+ArcaneWorkbench.removeRecipe(<thaumcraft:mind>);
+recipes.remove(<thaumcraft:mind>);
+ArcaneWorkbench.registerShapedRecipe("mindclockwork", "MINDCLOCKWORK@1", 25, [
+	<aspect:ignis> * 1,
+	<aspect:ordo> * 1
+], 
+<thaumcraft:mind>, 
+[
+	[null, <ore:paneGlass>, null], 
+	[<ore:paneGlass>, <thaumcraft:mechanism_simple>, <ore:paneGlass>], 
+	[<ore:plateBrass>, <betweenlandsredstone:scabyst_comparator>, <ore:plateBrass>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumicaugmentation:impetus_gate>);
+recipes.remove(<thaumicaugmentation:impetus_gate>);
+ArcaneWorkbench.registerShapedRecipe("impetus_gate", "IMPETUS_GATE@2", 50, [
+	<aspect:terra> * 1,
+	<aspect:ordo> * 1,
+	<aspect:perditio> * 1
+], 
+<thaumicaugmentation:impetus_gate>, 
+[
+	[null, <thaumicaugmentation:material:1>, null], 
+	[<ore:plateVoid>, <thaumicaugmentation:impetus_relay>, <ore:plateVoid>], 
+	[null, <betweenlandsredstone:scabyst_comparator>, null]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumicaugmentation:impetus_generator>);
+recipes.remove(<thaumicaugmentation:impetus_generator>);
+ArcaneWorkbench.registerShapedRecipe("impetus_generator", "IMPETUS_GENERATOR@2", 100, [
+	<aspect:ignis> * 1,
+	<aspect:aer> * 1,
+	<aspect:ordo> * 1,
+	<aspect:perditio> * 1
+], 
+<thaumicaugmentation:impetus_generator>, 
+[
+	[<thaumcraft:stone_eldritch_tile>, <ore:dustRedstone>, <thaumcraft:stone_eldritch_tile>], 
+	[<thaumcraft:nugget:10>, <betweenlandsredstone:scabyst_piston>, <thaumcraft:nugget:10>], 
+	[<thaumcraft:stone_eldritch_tile>, <thaumicaugmentation:material:5>, <thaumcraft:stone_eldritch_tile>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:vis_generator>);
+recipes.remove(<thaumcraft:vis_generator>);
+ArcaneWorkbench.registerShapedRecipe("visgenerator", "VISGENERATOR@2", 25, [
+	<aspect:ignis> * 1,
+	<aspect:ordo> * 1
+], 
+<thaumcraft:vis_generator>, 
+[
+	[<ore:plankWood>, <ore:dustRedstone>, <ore:plankWood>], 
+	[<thaumcraft:nugget:10>, <betweenlandsredstone:scabyst_piston>, <thaumcraft:nugget:10>], 
+	[<ore:plankWood>, <thaumcraft:vis_resonator>, <ore:plankWood>]
+]);
+
+ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
+recipes.remove(<thaumcraft:mechanism_complex>);
+ArcaneWorkbench.registerShapedRecipe("mechanism_complex", "BASEARTIFICE@1", 50, [
+	<aspect:ignis> * 1,
+	<aspect:aqua> * 1
+], 
+<thaumcraft:mechanism_complex>, 
+[
+	[null, <thaumcraft:mechanism_simple>, null], 
+	[<ore:plateThaumium>, <betweenlandsredstone:scabyst_piston>, <ore:plateThaumium>], 
+	[null, <thaumcraft:mechanism_simple>, null]
+]);
 
 
 
@@ -1041,11 +1108,13 @@ Crucible.registerRecipe("everfullurn", "EVERFULLURN", <thaumcraft:everfull_urn>,
 
 
 Crucible.removeRecipe("liquiddeath");
+/*
 Crucible.registerRecipe("liquiddeath", "LIQUIDDEATH", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}), <thebetweenlands:bl_bucket:1>, [
 	<aspect:alkimia> * 20,
 	<aspect:mortuus> * 100,
 	<aspect:perditio> * 50,
 ]);
+*/
 
 
 Crucible.removeRecipe(<thaumcraft:sanity_soap>);
@@ -1214,8 +1283,7 @@ Infusion.registerRecipe("wither_forge", "BASEINFUSION", <pyrotech:wither_forge>,
 	<roots:infernal_bulb>,
 	<embers:wildfire_core>,
 	<thaumcraft:ingot:1>,
-	<thebetweenlands:wight_heart>
-	
+	<arcanearchives:containment_field>
 ]);
 
 
