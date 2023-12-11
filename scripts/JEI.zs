@@ -76,6 +76,7 @@ val itemsToRemove = [
 	<embers:shovel_tin:*>,
 	<embers:sword_tin:*>,
 	<embers:hoe_tin:*>,
+	<embers:isolated_materia>,
 
 	<jaopca:item_platedensealuminium>,
 	<jaopca:item_platedensecopper>,

@@ -23,6 +23,17 @@ OreStages.addReplacement("locked", <minecraft:dirt>, <thebetweenlands:swamp_dirt
 OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_solid>);
 //OreStages.addReplacement("locked", <pyrotech:material:0>, <embers:dust_ash>);
 
+val itemsToLock = [
+	<embers:isolated_materia>,
+	<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}),
+	<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}),
+] as IItemStack[];
+
+for item in itemsToLock {
+	ItemStages.addItemStage("locked", item);
+	Recipes.setRecipeStage("locked", item);
+}
+
 val rootsItemsNotToStage = [
 ] as IItemStack[];
 
