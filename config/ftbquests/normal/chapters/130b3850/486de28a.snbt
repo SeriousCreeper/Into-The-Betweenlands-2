@@ -2,7 +2,7 @@
 	x: -3.25d,
 	y: -1.5d,
 	text: [
-		"Depending on the current weather or even happening, gaining knowledge can either speed up or slow down.",
+		"Depending on the current weather or event happening, gaining knowledge can either speed up or slow down.",
 		"",
 		"§6Auroras§r will §6increase§r the speed.",
 		"§6Heavy Rain§r will §6decrease§r the speed."
