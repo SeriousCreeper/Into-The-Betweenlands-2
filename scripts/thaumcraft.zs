@@ -557,7 +557,7 @@ ArcaneWorkbench.registerShapedRecipe("potionsprayer", "POTIONSPRAYER@2", 75, [
 ], 
 <thaumcraft:potion_sprayer>, 
 [
-	[<ore:plateBrass>, <minecraft:dispenser>, <ore:plateBrass>], 
+	[<ore:plateBrass>, <betweenlandsredstone:scabyst_dispenser>, <ore:plateBrass>], 
 	[<ore:plateSyrmorite>, <thebetweenlands:infuser>, <ore:plateSyrmorite>], 
 	[<ore:plateSyrmorite>, <thaumcraft:metal_alchemical>, <ore:plateSyrmorite>]
 ]);
@@ -707,7 +707,7 @@ ArcaneWorkbench.registerShapedRecipe("essentiatransportin", "ESSENTIATRANSPORT@1
 ], 
 <thaumcraft:essentia_input>, 
 [
-	[<ore:plateBrass>, <minecraft:dispenser>, <ore:plateBrass>], 
+	[<ore:plateBrass>, <betweenlandsredstone:scabyst_dispenser>, <ore:plateBrass>], 
 	[<ore:plateSyrmorite>, <thaumcraft:metal_alchemical>, <ore:plateSyrmorite>]
 ]);
 
