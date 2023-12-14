@@ -1305,7 +1305,7 @@
         "item": {
           "id": "teastory:tea_leaf"
         },
-        "smoking_time": 3
+        "smoking_time": 1
       },
       "output": {
         "item": {
@@ -1318,7 +1318,7 @@
         "item": {
           "id": "teastory:half_dried_tea"
         },
-        "smoking_time": 3
+        "smoking_time": 1
       },
       "output": {
         "item": {
@@ -1332,7 +1332,7 @@
           "id": "pyrotech:material",
           "meta": 25
         },
-        "smoking_time": 3
+        "smoking_time": 1
       },
       "output": {
         "item": {
