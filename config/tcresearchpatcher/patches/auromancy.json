@@ -8,5 +8,35 @@
                 "value": ["oredict:shallowBreathVial"]
             }
         ]
+    },
+    {
+        "key": "FOCUSBREAK",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["thebetweenlands:angry_pebble", "thebetweenlands:silky_pebble"]
+            }
+        ]
+    },
+    {
+        "key": "FOCUSMINE",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["betweenlandsredstone:scabyst_tripwire_hook"]
+            }
+        ]
+    },
+    {
+        "key": "FOCUSCLOUD",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["thebetweenlands:dentrothyst_fluid_vial;1;0;{Fluid: {FluidName: \"shallowbreath\", Amount: 1000}}"]
+            }
+        ]
     }
 ]

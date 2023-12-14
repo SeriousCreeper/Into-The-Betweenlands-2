@@ -15,7 +15,7 @@
             {
                 "op": "replace",
                 "path": "stages/0/required_item",
-                "value": ["coloredredstone:colored_redstone_torch_item;1;12"]
+                "value": ["betweenlandsredstone:scabyst_torch"]
             }
         ]
     },
@@ -70,7 +70,7 @@
             {
                 "op": "replace",
                 "path": "stages/0/required_item",
-                "value": ["coloredredstone:colored_redstone_block;1;12","minecraft:piston"]
+                "value": ["betweenlandsredstone:scabyst_block","betweenlandsredstone:scabyst_piston"]
             }
         ]
     }

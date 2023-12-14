@@ -15,7 +15,7 @@
             {
                 "op": "replace",
                 "path": "stages/0/required_item",
-                "value": ["coloredredstone:colored_redstone_dust;1;12","thaumcraft:phial;1;1;{Aspects:[{amount:10,key:'vitium'}]}"]
+                "value": ["betweenlandsredstone:scabyst_dust","thaumcraft:phial;1;1;{Aspects:[{amount:10,key:'vitium'}]}"]
             }
         ]
     },
@@ -24,8 +24,28 @@
         "ops": [
             {
                 "op": "replace",
-                "path": "stages/0/recipes/1",
-                "value": ["thaumcraft:bannerwhite"]
+                "path": "stages/0/recipes",
+                "value": ["thaumcraft:bannerwhite","thaumcraft:baubles_stuff"]
+            }
+        ]
+    },
+    {
+        "key": "INFUSIONENCHANTMENT",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["arcanearchives:shaped_quartz"]
+            }
+        ]
+    },
+    {
+        "key": "RUNICSHIELDING",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "stages/0/required_item",
+                "value": ["thebetweenlands:octine_shield","thaumcraft:amber"]
             }
         ]
     }

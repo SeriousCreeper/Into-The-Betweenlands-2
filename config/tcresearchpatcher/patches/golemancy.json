@@ -25,7 +25,7 @@
             {
                 "op": "replace",
                 "path": "stages/0/required_item",
-                "value": ["thebetweenlands:items_misc;1;19","minecraft:piston"]
+                "value": ["thebetweenlands:items_misc;1;19","betweenlandsredstone:scabyst_piston"]
             }
         ]
     },
