@@ -394,8 +394,9 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:hearthgrove_plank_slab>.setAspects(<aspect:herba> * 1);
 <thebetweenlands:nibbletwig_plank_slab>.setAspects(<aspect:herba> * 1);
 
-
 <pyrotech:material:27>.setAspects( <aspect:instrumentum> * 1);
+
+<simpledifficulty:ice_chunk>.setAspects(<aspect:gelum> * 5);
 
 
 

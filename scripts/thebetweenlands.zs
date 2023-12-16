@@ -149,6 +149,12 @@ recipes.addShaped("caving_rope", <thebetweenlands:caving_rope> * 64, [
 	[<thebetweenlands:rope_item>, <thebetweenlands:bulb_capped_mushroom_item>, <thebetweenlands:rope_item>], 
 	[<thebetweenlands:rope_item>, <thebetweenlands:rope_item>, <thebetweenlands:rope_item>]
 ]);
+
+recipes.addShaped("black_ice", <thebetweenlands:black_ice>, [
+	[<simpledifficulty:ice_chunk>, <simpledifficulty:ice_chunk>], 
+	[<simpledifficulty:ice_chunk>, <simpledifficulty:ice_chunk>]
+]);
+
 	
 
 

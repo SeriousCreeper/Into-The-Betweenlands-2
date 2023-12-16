@@ -5,6 +5,7 @@ val itemsToKeep = [
 	<simpledifficulty:purified_water_bottle>,
 	<simpledifficulty:canteen>,
 	<simpledifficulty:iron_canteen>,
+	<simpledifficulty:ice_chunk>,
 	//<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}),
 	//<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}),
 	//<simpledifficulty:purifiedwater>,
