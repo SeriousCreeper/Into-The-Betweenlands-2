@@ -1257,9 +1257,9 @@ Infusion.registerRecipe("gemcuttertable", "BASEINFUSION", <arcanearchives:gemcut
 ], 
 <thebetweenlands:weedwood_workbench>, 
 [
-	<thebetweenlands:log_spirit_tree>,
-	<thebetweenlands:log_spirit_tree>,
-	<thebetweenlands:log_spirit_tree>,
+	<thebetweenlands:log_spirit_tree:*>,
+	<thebetweenlands:log_spirit_tree:*>,
+	<thebetweenlands:log_spirit_tree:*>,
 	<arcanearchives:storage_raw_quartz>,
 	<arcanearchives:storage_raw_quartz>,
 	<thebetweenlands:polished_dentrothyst_pane:1>,
