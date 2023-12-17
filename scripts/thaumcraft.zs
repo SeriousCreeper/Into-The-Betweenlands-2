@@ -1001,6 +1001,20 @@ ArcaneWorkbench.registerShapedRecipe("recipe_vis_motor", "VISMOTOR@2", 25, [
 	[<ore:nuggetSyrmorite>, <mysticalmechanics:axle_iron>, <ore:nuggetSyrmorite>]
 ]);
 
+recipes.remove(<thaumcraft:grapple_gun_tip>);
+ArcaneWorkbench.removeRecipe(<thaumcraft:grapple_gun_tip>);
+ArcaneWorkbench.registerShapedRecipe("grappleguntip", "GRAPPLEGUN@2", 25, [
+	<aspect:terra>
+], 
+<thaumcraft:grapple_gun_tip>, 
+[
+	[<ore:plateBrass>, <thaumcraft:nugget:10>, <ore:plateBrass>], 
+	[<thaumcraft:nugget:10>, <betweenlandsredstone:scabyst_tripwire_hook>, <thaumcraft:nugget:10>], 
+	[<ore:plateBrass>, <thaumcraft:nugget:10>, <ore:plateBrass>]
+]);
+
+
+
 
 
 
