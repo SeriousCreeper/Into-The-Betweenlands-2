@@ -534,18 +534,13 @@ Alchemy.add(<embers:adhesive> * 6, [<thebetweenlands:sludge_ball>, <thebetweenla
 );
 
 Alchemy.remove(<embers:isolated_materia>);
+/*
 Alchemy.add(<embers:isolated_materia>, [<ore:ingotSyrmorite>, <thebetweenlands:sludge_ball>, <thebetweenlands:dentrothyst_shard_orange>, <thebetweenlands:dentrothyst_shard_green>, null], 
 	{
 		"iron" : 24 to 36
 	}
 );
-
-Alchemy.remove(<embers:isolated_materia>);
-Alchemy.add(<embers:isolated_materia>, [<ore:ingotSyrmorite>, <thebetweenlands:sludge_ball>, <thebetweenlands:dentrothyst_shard_orange>, <thebetweenlands:dentrothyst_shard_green>, null], 
-	{
-		"iron" : 24 to 36
-	}
-);
+*/
 
 Alchemy.remove(<embers:glimmer_shard>);
 Alchemy.add(<embers:glimmer_shard>.withTag({light: 800}), [<thebetweenlands:dentrothyst_shard_orange>, <thebetweenlands:angry_pebble>, <thebetweenlands:angry_pebble>, <embers:shard_ember>, <embers:shard_ember>], 
