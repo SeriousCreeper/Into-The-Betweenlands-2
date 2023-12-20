@@ -632,6 +632,7 @@ StoneOven.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, true);
 StoneOven.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, true);
 StoneOven.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, true);
 StoneOven.addRecipe("purified_water", <simpledifficulty:purified_water_bottle>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), true);
+StoneOven.addRecipe("white_tea_leaf", <teastory:white_tea_leaf>, <teastory:half_dried_tea>, true);
 //StoneOven.addRecipe("purified_bucket", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}), true);
 
 
