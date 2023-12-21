@@ -592,8 +592,8 @@ ArcaneWorkbench.registerShapedRecipe("warding_sigil", "WARDED_ARCANA@1", 10, [
 recipes.remove(<embers:ignition_cannon>);
 ArcaneWorkbench.registerShapedRecipe("ignition_cannon", "UNLOCKARTIFICE@2", 100, [
 	<aspect:ignis> * 32,
-	<aspect:potentia> * 16,
-	<aspect:permutatio> * 8,
+	<aspect:ordo> * 16,
+	<aspect:perditio> * 8,
 ], 
 <embers:ignition_cannon>.withTag({cooldown: 0}), 
 [
@@ -605,8 +605,8 @@ ArcaneWorkbench.registerShapedRecipe("ignition_cannon", "UNLOCKARTIFICE@2", 100,
 recipes.remove(<embers:staff_ember>);
 ArcaneWorkbench.registerShapedRecipe("staff_ember", "UNLOCKARTIFICE@2", 100, [
 	<aspect:ignis> * 32,
-	<aspect:potentia> * 16,
-	<aspect:permutatio> * 8,
+	<aspect:ordo> * 16,
+	<aspect:perditio> * 8,
 ], 
 <embers:staff_ember>.withTag({cooldown: 0}), 
 [
@@ -618,8 +618,8 @@ ArcaneWorkbench.registerShapedRecipe("staff_ember", "UNLOCKARTIFICE@2", 100, [
 recipes.remove(<embers:axe_clockwork>);
 ArcaneWorkbench.registerShapedRecipe("axe_clockwork", "UNLOCKARTIFICE@2", 100, [
 	<aspect:ignis> * 32,
-	<aspect:potentia> * 16,
-	<aspect:permutatio> * 8,
+	<aspect:ordo> * 16,
+	<aspect:perditio> * 8,
 ], 
 <embers:axe_clockwork>, 
 [
@@ -631,8 +631,8 @@ ArcaneWorkbench.registerShapedRecipe("axe_clockwork", "UNLOCKARTIFICE@2", 100, [
 recipes.remove(<embers:pickaxe_clockwork>);
 ArcaneWorkbench.registerShapedRecipe("pickaxe_clockwork", "UNLOCKARTIFICE@2", 100, [
 	<aspect:ignis> * 32,
-	<aspect:potentia> * 16,
-	<aspect:permutatio> * 8,
+	<aspect:ordo> * 16,
+	<aspect:perditio> * 8,
 ], 
 <embers:pickaxe_clockwork>, 
 [
@@ -644,8 +644,8 @@ ArcaneWorkbench.registerShapedRecipe("pickaxe_clockwork", "UNLOCKARTIFICE@2", 10
 recipes.remove(<embers:grandhammer>);
 ArcaneWorkbench.registerShapedRecipe("grandhammer", "UNLOCKARTIFICE@2", 100, [
 	<aspect:ignis> * 32,
-	<aspect:potentia> * 16,
-	<aspect:permutatio> * 8,
+	<aspect:ordo> * 16,
+	<aspect:perditio> * 8,
 ], 
 <embers:grandhammer>, 
 [
