@@ -1175,14 +1175,22 @@ Infusion.registerRecipe("verdantheartlife", "VERDANTCHARMS", <thaumcraft:verdant
 <thaumcraft:verdant_charm>, 
 [<thebetweenlands:spirit_fruit>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]}), <thebetweenlands:wight_heart>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})]);
 
-
 Infusion.removeRecipe("verdantheartsustain");
 Infusion.registerRecipe("verdantheartsustain", "VERDANTCHARMS", <thaumcraft:verdant_charm>.withTag({type: 2 as byte}), 5, [
 	<aspect:desiderium> * 80, 
 	<aspect:aer> * 80,
 ], 
 <thaumcraft:verdant_charm>, 
-[<thaumcraft:triple_meat_treat>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]}), <thebetweenlands:wight_heart>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})]);
+[<pizzacraft:slice_9>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]}), <thebetweenlands:wight_heart>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})]);
+
+Infusion.removeRecipe("verdantheart");
+Infusion.registerRecipe("verdantheart", "VERDANTCHARMS", <thaumcraft:verdant_charm>, 5, [
+	<aspect:victus> * 60, 
+	<aspect:herba> * 60,
+	<aspect:ordo> * 30,
+], 
+<thaumcraft:baubles:4>, 
+[<thaumcraft:nugget:10>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_milk", Amount: 1000}}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]})]);
 
 
 Infusion.removeRecipe("bootstraveller");
