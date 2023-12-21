@@ -910,7 +910,7 @@ ArcaneWorkbench.registerShapedRecipe("radiant_chest", "", 10, [
 ], 
 <arcanearchives:radiant_chest>, 
 [
-	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
+	[<ore:plankWood>, <ore:plateOctine>, <ore:plankWood>], 
 	[<ore:plankWood>, <arcanearchives:raw_quartz>, <ore:plankWood>], 	
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);

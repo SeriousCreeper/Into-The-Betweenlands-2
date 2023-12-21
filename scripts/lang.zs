@@ -30,6 +30,8 @@ game.setLocalization("fluid.boiling_potato_juice", "Boiling Root Soup");
 game.setLocalization("fluid.boiling_wort", "Boiling Swamp Reed Wort");
 game.setLocalization("fluid.vodka", "Root Vodka");
 
+game.setLocalization("arcanearchives.tooltip.device.radiant_chest", "Storage. Used to contain items. Stack size increased to 4x.");
+
 scripts.utils.addInfoTooltip(<contenttweaker:access_crystal>, "Right click crystal onto the portal to gain access.");
 
 <betweenores:copper_ore>.displayName = <betweenores:copper_ore>.displayName.replaceAll("Copper", "Russite");
