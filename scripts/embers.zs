@@ -743,6 +743,9 @@ Melter.add(<liquid:dawnstone> * 144, <embers:aspectus_dawnstone>);
 //Stamper.remove(<minecraft:iron_ingot>);
 
 Stamper.add(<thebetweenlands:items_misc:11>, <liquid:syrmorite> * 144, <embers:stamp_bar>);
+Stamper.add(<thaumcraft:ingot:2>, <liquid:brass> * 144, <embers:stamp_bar>);
+
+Stamper.add(<thaumcraft:nugget:8>, <liquid:brass> * 16, <soot:stamp_nugget>);
 
 Stamper.remove(<minecraft:gold_ingot>);
 //Stamper.add(<ore:ingotCopper>, <liquid:octine> * 144, <embers:stamp_bar>);
