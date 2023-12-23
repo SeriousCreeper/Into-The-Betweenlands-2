@@ -20,9 +20,9 @@ scripts.utils.addShaped("scepter_revelation", <arcanearchives:scepter_revelation
 
 
 GCT.replaceRecipe("manifest", <arcanearchives:manifest>, [<thebetweenlands:items_misc:32>, <minecraft:dye:0>, <arcanearchives:radiant_dust> * 2]);
-GCT.replaceRecipe("letter_invitation", <arcanearchives:letter_invitation>, [<thebetweenlands:items_misc:32> * 3, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:45>]);
-GCT.replaceRecipe("letter_resignation", <arcanearchives:letter_resignation>, [<thebetweenlands:items_misc:32> * 3, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:28>]);
-GCT.replaceRecipe("writ_expulsion", <arcanearchives:writ_expulsion>, [<thebetweenlands:items_misc:32> * 3, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:45>]);
+//GCT.replaceRecipe("letter_invitation", <arcanearchives:letter_invitation>, [<thebetweenlands:items_misc:32> * 3, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:45>]);
+//GCT.replaceRecipe("letter_resignation", <arcanearchives:letter_resignation>, [<thebetweenlands:items_misc:32> * 3, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:28>]);
+//GCT.replaceRecipe("writ_expulsion", <arcanearchives:writ_expulsion>, [<thebetweenlands:items_misc:32> * 3, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:45>]);
 GCT.replaceRecipe("radiant_amphora", <arcanearchives:radiant_amphora>, [<arcanearchives:radiant_dust> * 4, <thebetweenlands:sludge_ball> * 4, <thebetweenlands:octine_ingot> * 4]);
 GCT.replaceRecipe("containment_field", <arcanearchives:containment_field>, [<arcanearchives:scintillating_inlay>, <thebetweenlands:octine_ingot> * 2, <arcanearchives:shaped_quartz> * 2]);
 GCT.replaceRecipe("matrix_brace", <arcanearchives:matrix_brace>, [<arcanearchives:scintillating_inlay>, <thebetweenlands:octine_ingot> * 2]);

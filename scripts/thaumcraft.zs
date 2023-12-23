@@ -930,6 +930,7 @@ ArcaneWorkbench.registerShapedRecipe("manifest", "", 25, [
 	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>]
 ]);
 
+/*
 ArcaneWorkbench.registerShapedRecipe("letter_invitation", "", 25, [
 	<aspect:terra>,
 	<aspect:aer>,
@@ -974,6 +975,7 @@ ArcaneWorkbench.registerShapedRecipe("writ_expulsion", "", 25, [
 	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:45>, <thebetweenlands:items_misc:32>], 
 	[<arcanearchives:radiant_dust>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>]
 ]);
+*/
 
 recipes.remove(<arcanearchives:lectern_manifest>);
 ArcaneWorkbench.registerShapedRecipe("lectern_manifest", "", 50, [
