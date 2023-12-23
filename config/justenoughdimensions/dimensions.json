@@ -50,6 +50,7 @@
       "post_deletion_command": "tellraw @a [\"\",{\"text\":\"The Cragrock Tower Mirage has disappeared\\n\",\"obfuscated\":true,\"color\":\"dark_purple\"},{\"text\":\"The Cragrock Tower Mirage has disappeared\\n\",\"color\":\"gold\"},{\"text\":\"The Cragrock Tower Mirage has disappeared\",\"obfuscated\":true,\"color\":\"dark_purple\"}]",
       "jed": {
         "SkyRenderType": 2,
+        "MusicType": "thaumicaugmentation:emptiness_music_noop",
         "void_teleport": {
           "dimension": 20,
           "trigger_y": 50,
