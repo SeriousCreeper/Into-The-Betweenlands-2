@@ -501,7 +501,7 @@ Pyre.addRecipe("cloud_berry", <roots:cloud_berry>,
 Pyre.removeRecipe(<roots:baffle_cap_mushroom> * 3);
 
 Pyre.removeRecipe(<roots:moonglow_leaf> * 3);
-Pyre.addRecipe("moonglow_leaf", <roots:moonglow_leaf> * 3, 
+Pyre.addRecipe("moonglow_leaf", <roots:moonglow_leaf>, 
 	[<ore:treeLeaves>, <thebetweenlands:dentrothyst:1>, <thebetweenlands:dentrothyst_shard_orange> | <thebetweenlands:dentrothyst_shard_green>, <roots:bark_birch>, <roots:bark_birch>]);
 
 Pyre.removeRecipe(<roots:pereskia> * 3);
@@ -509,11 +509,11 @@ Pyre.addRecipe("pereskia", <roots:pereskia> * 3,
 	[<roots:wildroot>, <thebetweenlands:yellow_dotted_fungus>, <thebetweenlands:items_misc:39>, <thebetweenlands:middle_fruit>, <thebetweenlands:swamp_reed_item>]);
 
 Pyre.removeRecipe(<roots:dewgonia> * 3);
-Pyre.addRecipe("dewgonia", <roots:dewgonia> * 3, 
+Pyre.addRecipe("dewgonia", <roots:dewgonia>, 
 	[<thebetweenlands:swamp_tallgrass>, <thebetweenlands:middle_fruit>, <thebetweenlands:items_misc:39>, <roots:terra_moss>, <thebetweenlands:algae>]);
 
 Pyre.removeRecipe(<roots:stalicripe> * 3);
-Pyre.addRecipe("stalicripe", <roots:stalicripe> * 3, 
+Pyre.addRecipe("stalicripe", <roots:stalicripe>, 
 	[<thebetweenlands:items_misc:27>, <thebetweenlands:smooth_betweenstone>, <roots:wildroot>, <thebetweenlands:items_misc:11>, <ore:dustRedstone>]);
 
 Pyre.removeRecipe(<roots:infernal_bulb> * 3);
