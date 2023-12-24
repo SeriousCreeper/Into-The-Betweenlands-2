@@ -14,8 +14,8 @@
       "identity": {
         "metadata": -1
       },
-      "amount": 1,
-      "saturation": 2.0,
+      "amount": 3,
+      "saturation": 6.0,
       "thirstyChance": 0.0
     }
   ],
@@ -113,6 +113,66 @@
     {
       "identity": {
         "metadata": 10
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "teastory:green_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "teastory:black_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "teastory:yellow_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "teastory:white_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "teastory:oolong_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "teastory:puer_tea": [
+    {
+      "identity": {
+        "metadata": -1
       },
       "amount": 6,
       "saturation": 4.0,
