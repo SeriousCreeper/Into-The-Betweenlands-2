@@ -18,5 +18,105 @@
       "saturation": 2.0,
       "thirstyChance": 0.0
     }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 0
+      },
+      "amount": 4,
+      "saturation": 6.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 3
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 4
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 5
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 6
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 7
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 8
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 9
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 10
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
   ]
 }
