@@ -1,7 +1,8 @@
 {
 	title: "Sanity",
-	x: 4.5d,
-	y: -3.5d,
+	x: -2.5d,
+	y: -5.0d,
+	shape: "gear",
 	text: [
 		"Not only does decay affect physical things, your mind is not safe either. ",
 		"",

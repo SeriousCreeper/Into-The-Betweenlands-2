@@ -1,9 +1,10 @@
 {
 	title: "Decay",
-	x: 3.5d,
-	y: -3.5d,
+	x: -3.5d,
+	y: -5.0d,
+	shape: "gear",
 	text: [
-		"Residing in the betweenlands will slowly decay your character (and tools) over time. ",
+		"Residing in the Betweenlands will slowly decay your character (and tools) over time. ",
 		"",
 		"Certain actions like being in water increases the speed of this decay. ",
 		"",
