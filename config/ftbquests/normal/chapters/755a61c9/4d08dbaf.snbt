@@ -2,6 +2,7 @@
 	title: "Bigger Map",
 	x: 7.5d,
 	y: -5.0d,
+	shape: "gear",
 	text: [
 		"An atlas is like a bigger amate map, and even shows structures.",
 		"",

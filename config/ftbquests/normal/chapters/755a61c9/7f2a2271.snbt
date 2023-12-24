@@ -1,7 +1,8 @@
 {
 	title: "Limestone Anvil",
-	x: -5.5d,
+	x: -8.0d,
 	y: 0.0d,
+	shape: "gear",
 	text: [
 		"The first tier of anvil is the limestone anvil.",
 		"It is needed to get nuggets out of ore blooms."

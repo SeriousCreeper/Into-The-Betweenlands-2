@@ -1,7 +1,8 @@
 {
 	title: "Sulfur Torches",
-	x: -2.5d,
-	y: -1.0d,
+	x: -5.0d,
+	y: -6.0d,
+	shape: "gear",
 	text: [
 		"Torches are unlit when crafted.",
 		"",

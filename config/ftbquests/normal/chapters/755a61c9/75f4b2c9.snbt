@@ -1,7 +1,8 @@
 {
 	title: "Early Defense",
-	x: -6.5d,
+	x: -8.0d,
 	y: -4.0d,
+	shape: "gear",
 	text: [
 		"Wooden shields are fantastic at blocking most attacks and can save your life more than once."
 	],

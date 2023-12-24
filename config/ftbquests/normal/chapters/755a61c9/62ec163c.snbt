@@ -1,15 +1,46 @@
 {
-	x: -8.5d,
-	y: -4.0d,
+	title: "Storage",
+	x: -8.0d,
+	y: -3.0d,
+	shape: "gear",
 	text: [
-		"Can store 9 stacks of logs in a fancy looking way."
+		"There are several ways of storing items. ",
+		"",
+		"The Wood Rack can store 9 different stacks of logs.",
+		"",
+		"The Stash can store a large quantity of 1 item type"
 	],
 	dependencies: [
 		"f5b90f01"
 	],
-	optional: true,
+	or_tasks: true,
 	tasks: [{
-		uid: "a678e8c2",
+		uid: "b9fe51e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "chestWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any chestWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "dc0225c1",
+		type: "item",
+		items: [{
+			item: "pyrotech:stash"
+		}]
+	},
+	{
+		uid: "d42026ad",
 		type: "item",
 		items: [{
 			item: "pyrotech:wood_rack"

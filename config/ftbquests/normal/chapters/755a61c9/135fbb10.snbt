@@ -1,7 +1,8 @@
 {
 	title: "Crude Axe",
-	x: -6.5d,
+	x: -8.5d,
 	y: -6.0d,
+	shape: "gear",
 	text: [
 		"Sticks drop from leaves and bushes.",
 		"",

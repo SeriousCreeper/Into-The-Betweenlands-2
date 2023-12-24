@@ -2,6 +2,7 @@
 	title: "Helpful Rain",
 	x: -2.5d,
 	y: -6.0d,
+	shape: "gear",
 	text: [
 		"Rain water is totally safe to drink, simply by looking up when it's raining!"
 	],

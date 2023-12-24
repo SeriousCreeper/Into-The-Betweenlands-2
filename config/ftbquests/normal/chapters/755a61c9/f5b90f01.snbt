@@ -1,8 +1,9 @@
 {
 	title: "Worktable",
 	icon: "thebetweenlands:weedwood_workbench",
-	x: -7.5d,
+	x: -9.0d,
 	y: -4.0d,
+	shape: "gear",
 	text: [
 		""
 	],

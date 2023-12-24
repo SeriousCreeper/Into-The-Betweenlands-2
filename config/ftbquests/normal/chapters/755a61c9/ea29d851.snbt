@@ -2,6 +2,7 @@
 	title: "More Bees",
 	x: 8.5d,
 	y: -5.0d,
+	shape: "gear",
 	text: [
 		"Placing bees in a hive and surrounding it with flowers will slowly produce more bees. ",
 		"",

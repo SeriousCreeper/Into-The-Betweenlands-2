@@ -1,7 +1,8 @@
 {
 	title: "Metals",
-	x: -7.5d,
-	y: 1.0d,
+	x: -10.0d,
+	y: -1.0d,
+	shape: "gear",
 	text: [
 		"Your first metal is Syrmorite. The ore can be found in the betweenstones cave layers."
 	],

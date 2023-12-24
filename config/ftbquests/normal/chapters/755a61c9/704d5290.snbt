@@ -1,13 +1,17 @@
 {
 	title: "Campfire",
-	x: -3.5d,
-	y: -1.0d,
+	x: -6.0d,
+	y: -6.0d,
+	shape: "gear",
 	text: [
 		"Campfires are fantastic to have around your base.",
 		"",
 		"Not only do they provide light and burn for really a long time, they also provide buffs that will slows down hunger, and heals.",
 		"",
 		"Place tinder on the ground, add up to 8 logs, then light it up with a fire starter."
+	],
+	dependencies: [
+		"7560e810"
 	],
 	tasks: [{
 		uid: "f9803986",

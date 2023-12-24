@@ -1,7 +1,8 @@
 {
 	title: "Bones",
-	x: -7.5d,
+	x: -9.0d,
 	y: -2.0d,
+	shape: "gear",
 	text: [
 		"Find bones to further progress.",
 		"These can drop from Swamp Hags, or mined from slimy bone ore."

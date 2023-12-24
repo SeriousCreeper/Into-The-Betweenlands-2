@@ -1,7 +1,8 @@
 {
 	title: "Gear Up",
-	x: -4.5d,
+	x: -5.0d,
 	y: 5.0d,
+	shape: "gear",
 	text: [
 		"With stronger materials you can craft stronger armor."
 	],

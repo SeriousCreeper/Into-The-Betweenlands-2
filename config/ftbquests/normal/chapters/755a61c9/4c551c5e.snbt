@@ -2,6 +2,7 @@
 	title: "So smooth, so silky",
 	x: 1.0d,
 	y: -3.0d,
+	shape: "gear",
 	text: [
 		"Cocoons can be directly crafted into silk threads."
 	],

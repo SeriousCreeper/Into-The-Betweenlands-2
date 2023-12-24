@@ -1,8 +1,9 @@
 {
 	title: "Chopping Block",
 	icon: "pyrotech:chopping_block",
-	x: -7.5d,
+	x: -9.0d,
 	y: -5.0d,
+	shape: "gear",
 	text: [
 		"Craft a chopping block, place logs on it, and right click with an axe to get planks"
 	],

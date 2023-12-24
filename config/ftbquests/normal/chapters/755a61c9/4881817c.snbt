@@ -8,6 +8,7 @@
 	},
 	x: -3.5d,
 	y: -6.0d,
+	shape: "gear",
 	text: [
 		"There are items in this world that you might not understand yet. ",
 		"",

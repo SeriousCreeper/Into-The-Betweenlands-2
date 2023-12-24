@@ -1,6 +1,7 @@
 {
 	x: 9.5d,
 	y: -6.0d,
+	shape: "gear",
 	text: [
 		"An automatic way of applying compost to farmland. ",
 		"",

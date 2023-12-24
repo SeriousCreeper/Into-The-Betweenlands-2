@@ -1,7 +1,8 @@
 {
 	title: "Primitive Torches",
-	x: -4.5d,
-	y: -3.0d,
+	x: -7.0d,
+	y: -5.0d,
+	shape: "gear",
 	text: [
 		"Depending on where you spawn, getting light sources can be tricky. ",
 		"",

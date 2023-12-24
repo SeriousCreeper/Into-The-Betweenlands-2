@@ -1,12 +1,14 @@
 {
 	title: "Sawdust",
-	x: -3.5d,
-	y: -5.0d,
+	x: -5.0d,
+	y: 3.0d,
+	shape: "gear",
 	text: [
 		"When using the chopping block, small piles of wood chips are left behind.",
 		"",
 		"These can be picked up with a shovel."
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"1dd49469"
 	],

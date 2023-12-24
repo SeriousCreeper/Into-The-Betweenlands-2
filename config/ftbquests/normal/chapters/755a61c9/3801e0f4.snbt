@@ -2,6 +2,7 @@
 	title: "Silky Home",
 	x: 2.0d,
 	y: -3.0d,
+	shape: "gear",
 	text: [
 		"A moth house will provide a safe environment for our silky friends to produce their cocoons.",
 		"",

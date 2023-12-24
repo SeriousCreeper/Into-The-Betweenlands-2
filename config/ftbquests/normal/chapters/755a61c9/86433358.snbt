@@ -1,8 +1,9 @@
 {
 	title: "Careful, hot!",
 	icon: "pyrotech:bloom",
-	x: -5.5d,
+	x: -6.0d,
 	y: 4.0d,
+	shape: "gear",
 	text: [
 		"Once the bloom is ready, use a shovel to remove any ash, and tongs to pickup the bloom.",
 		"",

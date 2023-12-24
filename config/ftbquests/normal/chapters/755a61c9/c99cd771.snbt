@@ -2,6 +2,7 @@
 	title: "Silky Attraction",
 	x: 1.0d,
 	y: -5.0d,
+	shape: "gear",
 	text: [
 		"Applying pheromone to a bush will slowly populate it with silk worms."
 	],

@@ -1,7 +1,8 @@
 {
 	title: "Octine",
-	x: -7.5d,
+	x: -8.0d,
 	y: 5.0d,
+	shape: "gear",
 	text: [
 		"Octine is a very hot metal that can be used to light your machines and blocks, like a fire starter would.",
 		"",

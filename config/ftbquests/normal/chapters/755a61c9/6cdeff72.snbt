@@ -2,6 +2,7 @@
 	title: "Bees",
 	x: 8.5d,
 	y: -6.0d,
+	shape: "gear",
 	text: [
 		"Beehives can be found rarely hanging from leaves.",
 		"",

@@ -1,6 +1,7 @@
 {
-	x: -8.5d,
-	y: 4.0d,
+	x: -9.0d,
+	y: 5.0d,
+	shape: "gear",
 	text: [
 		"Automatic bellow that will blow air into refractory machines, as long as a cog is attached."
 	],

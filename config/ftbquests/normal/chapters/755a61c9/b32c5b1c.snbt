@@ -2,6 +2,7 @@
 	title: "Mapping The Betweenlands",
 	x: 7.5d,
 	y: -6.0d,
+	shape: "gear",
 	text: [
 		"An amate map will not only show biome borders, but also reveal any nearby structures."
 	],

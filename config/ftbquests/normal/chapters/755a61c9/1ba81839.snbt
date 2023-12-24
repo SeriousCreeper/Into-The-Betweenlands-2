@@ -1,8 +1,9 @@
 {
 	title: "Investigate: Cragrock Tower",
 	disable_toast: true,
-	x: -3.0d,
+	x: -3.5d,
 	y: 5.0d,
+	shape: "gear",
 	text: [
 		"With better gear and armor, it would be a good idea to explore one of the structures we spotted in our initial survey."
 	],

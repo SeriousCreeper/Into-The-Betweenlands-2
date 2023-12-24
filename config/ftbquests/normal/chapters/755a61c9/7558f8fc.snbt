@@ -1,11 +1,14 @@
 {
 	title: "Mortar and Pestle",
-	x: -6.5d,
+	x: -9.0d,
 	y: 0.0d,
+	shape: "gear",
 	text: [
 		"With the mortar and pestle, limestone can be turned into limestone flux.",
 		"",
-		"This is used to turn ores into slags, which yield more nuggets than the ore itself."
+		"This is used to turn ores into slags, which yield more nuggets than the ore itself.",
+		"",
+		"Cragrock can be found in several locations, like the Deep Waters and Coarse Islands."
 	],
 	dependencies: [
 		"11cdd23c"

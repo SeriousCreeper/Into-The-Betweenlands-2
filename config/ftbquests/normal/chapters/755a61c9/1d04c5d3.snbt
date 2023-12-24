@@ -2,6 +2,7 @@
 	title: "Finding Biomes",
 	x: 6.5d,
 	y: -6.0d,
+	shape: "gear",
 	text: [
 		"A special compass that helps finding specific biomes."
 	],

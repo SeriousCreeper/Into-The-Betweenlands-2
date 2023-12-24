@@ -2,6 +2,7 @@
 	title: "Silky Gift",
 	x: 1.0d,
 	y: -4.0d,
+	shape: "gear",
 	text: [
 		"When worms stay inside a bush for a while, they will create silk cocoons. ",
 		"",

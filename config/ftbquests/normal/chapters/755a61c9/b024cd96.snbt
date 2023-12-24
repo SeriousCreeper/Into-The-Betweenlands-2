@@ -1,6 +1,7 @@
 {
-	x: -7.5d,
+	x: -9.0d,
 	y: 4.0d,
+	shape: "gear",
 	text: [
 		"Standing on a bellow will blow air into refractory machines, speeding them up."
 	],

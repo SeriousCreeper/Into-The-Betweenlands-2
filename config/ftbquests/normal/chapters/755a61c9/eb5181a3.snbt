@@ -2,6 +2,7 @@
 	title: "Not so silky fiends",
 	x: 2.0d,
 	y: -5.0d,
+	shape: "gear",
 	text: [
 		"If silk worms or cocoons aren't removed in time, the bush will decay and spawn more infestations."
 	],

@@ -2,6 +2,7 @@
 	title: "Silky Production",
 	x: 1.0d,
 	y: -6.0d,
+	shape: "gear",
 	text: [
 		"Acquire a pheromone to attract moths. ",
 		"",

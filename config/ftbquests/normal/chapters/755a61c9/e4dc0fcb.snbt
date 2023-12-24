@@ -2,6 +2,7 @@
 	title: "Grub Hub",
 	x: 3.0d,
 	y: -4.0d,
+	shape: "gear",
 	text: [
 		"A Grub Hub is a way to automatically produce and harvest more silky friends.",
 		"",

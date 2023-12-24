@@ -1,7 +1,8 @@
 {
 	title: "Simple Tools",
-	x: -7.5d,
+	x: -9.0d,
 	y: -3.0d,
+	shape: "gear",
 	text: [
 		"Craft simple but stronger tools using weedwood."
 	],

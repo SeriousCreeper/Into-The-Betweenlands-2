@@ -2,6 +2,7 @@
 	title: "Advanced Filtering",
 	x: -1.5d,
 	y: -5.0d,
+	shape: "gear",
 	text: [
 		"Place a filter with a mesh on top of a barrel to filter dirty water into clean water.",
 		"",

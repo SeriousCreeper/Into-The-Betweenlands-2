@@ -1,7 +1,8 @@
 {
 	title: "Refractory Machines",
-	x: -7.5d,
+	x: -8.0d,
 	y: 3.0d,
+	shape: "gear",
 	text: [
 		"Refractory machines can be used to process several items and blocks.",
 		"",

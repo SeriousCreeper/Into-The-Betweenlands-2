@@ -1,7 +1,7 @@
 {
 	title: "Investigation: Wight Fortress",
-	x: 8.5d,
-	y: 2.5d,
+	x: 7.0d,
+	y: -2.0d,
 	text: [
 		"A castle like structures found in Marshes. ",
 		"",

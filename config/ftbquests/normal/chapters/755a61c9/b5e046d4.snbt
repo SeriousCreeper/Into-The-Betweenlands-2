@@ -2,6 +2,7 @@
 	title: "Silky Friends",
 	x: 2.0d,
 	y: -4.0d,
+	shape: "gear",
 	text: [
 		"If you can see several silk worms housing inside a bush, use some shears to carefully remove your new friends."
 	],

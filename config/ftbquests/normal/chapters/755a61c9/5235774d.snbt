@@ -1,6 +1,7 @@
 {
 	x: 9.5d,
 	y: -5.0d,
+	shape: "gear",
 	text: [
 		"Clothlines can be used to transport items around by using a hand crank."
 	],

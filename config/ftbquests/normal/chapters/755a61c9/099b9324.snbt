@@ -1,7 +1,8 @@
 {
 	title: "Slaked Lime",
-	x: -4.5d,
+	x: -9.0d,
 	y: 2.0d,
+	shape: "gear",
 	text: [
 		"The first set of machines will require a sturdy brick. ",
 		"",
