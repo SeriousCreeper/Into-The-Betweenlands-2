@@ -1,6 +1,6 @@
 {
 	title: "Unstable Wayfinder - Cragrock Tower",
-	x: 2.0d,
+	x: 1.25d,
 	y: 1.5d,
 	text: [
 		"I know this sounds strange, but after having explored the Cragrock Tower, i do believe with the help of the Inert Wayfinder and the new knowledge i've gained at the tower, i can modify the Wayfinder to locate another Cragrock Tower."
@@ -10,6 +10,7 @@
 		"39f0c596",
 		"ccbdfca2"
 	],
+	hide: true,
 	tasks: [{
 		uid: "cf70d3f6",
 		type: "item",

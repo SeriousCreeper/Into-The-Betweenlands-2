@@ -1,6 +1,6 @@
 {
 	title: "Unstable Wayfinder - Wight Fortress",
-	x: 2.0d,
+	x: 1.25d,
 	y: 0.5d,
 	text: [
 		"I know this sounds strange, but after having explored the Wight Fortress, i do believe with the help of the Inert Wayfinder and the new knowledge i've gained at the fortress, i can modify the Wayfinder to locate another Wight Fortress."
