@@ -16,7 +16,11 @@
     },
     {
       "item": "mysticalworld:fish_and_chips",
-      "count": 3
+      "count": 1
+    },
+    {
+      "item": "mysticalworld:fish_and_chips",
+      "count": 1
     }
   ],
   "r": 115,

@@ -16,7 +16,11 @@
     },
     {
       "item": "minecraft:rabbit_stew",
-      "count": 3
+      "count": 1
+    },
+    {
+      "item": "minecraft:rabbit_stew",
+      "count": 1
     },
     {
       "item": "minecraft:tnt",
