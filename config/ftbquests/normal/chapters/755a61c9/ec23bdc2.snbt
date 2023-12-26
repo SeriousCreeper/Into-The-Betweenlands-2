@@ -1,0 +1,32 @@
+{
+	title: "Elixirs",
+	icon: "thebetweenlands:manual_hl",
+	x: 4.5d,
+	y: -6.0d,
+	shape: "gear",
+	text: [
+		"By using natural ingredients, strong §6Elixirs§r and §6Draughts§r can be created.",
+		"",
+		"Collecting the ingredients requires §6Sickle§r instead of simple Shears.",
+		"",
+		"Each ingredient contains various §6Aspects§r that are used to create Elixirs, however in order to know which item contains which aspect, some testing is required."
+	],
+	tasks: [{
+		uid: "9386312f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sickle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d91e3aaf",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:manual_hl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

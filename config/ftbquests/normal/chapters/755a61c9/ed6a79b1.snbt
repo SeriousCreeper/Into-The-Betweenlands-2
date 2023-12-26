@@ -1,0 +1,62 @@
+{
+	title: "Involuntary Volunteers",
+	icon: {
+		id: "thebetweenlands:critter",
+		tag: {
+			Entity: {
+				id: "thebetweenlands:gecko"
+			}
+		}
+	},
+	x: 4.5d,
+	y: -5.0d,
+	shape: "gear",
+	text: [
+		"Eating and testing the ingredients yourself seems rather dangeorus. ",
+		"",
+		"Surely the §6local fauna§r will have built up some resistance to anything poisonous. ",
+		"",
+		"Once you §6capture§r one of these animals, carefully feed them a §6ground§r down ingredient and take notes of any reactions in the §6Herblore Book§r."
+	],
+	dependencies: [
+		"ec23bdc2"
+	],
+	tasks: [{
+		uid: "6c8a4879",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:gecko_cage"
+		}]
+	},
+	{
+		uid: "ea7d96cc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:net"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6e7f8d76",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:gecko"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ffa17c04",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_crushed"
+		}],
+		ignore_damage: true
+	}]
+}

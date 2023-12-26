@@ -1,6 +1,6 @@
 {
 	title: "Grub Hub",
-	x: 3.0d,
+	x: 2.75d,
 	y: -4.0d,
 	shape: "gear",
 	text: [

@@ -1,0 +1,41 @@
+{
+	title: "Boiling Down",
+	icon: "thebetweenlands:infuser",
+	x: 4.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"Once you know which items contain which aspects, it's time to boil them down into liquid. ",
+		"",
+		"Start by placing the §6Infuser§r onto §6Smoldering Peat§r, and add up to 3 buckets of §6Swamp Water§r. ",
+		"",
+		"Once the water is boiling (indicated by the bubbles and steam), it's time to place up to 6 §6ground§r items.",
+		"",
+		"It's important to keep §6stearing occasionally§r by right-clicking the Infuser!",
+		"",
+		"There are 2 different outcomes that can happen:",
+		"",
+		"1) If the aspects on the items would be enough to form an Elixir, the color of the liquid will slowly turn into a §1dark indigo§r, and eventually drastically change into a different color, making a sound effect.",
+		"",
+		"2) If the aspects on the items would NOT create an Elixir, the liquid will immediately turn into a §5purple-pink§r color.",
+		"",
+		"Once either of these things happens, sneak right-clicking the Infuser with a bucket."
+	],
+	dependencies: [
+		"ed6a79b1"
+	],
+	tasks: [{
+		uid: "c9cea58d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:infuser"
+		}]
+	},
+	{
+		uid: "e2eb836e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:peat"
+		}]
+	}]
+}

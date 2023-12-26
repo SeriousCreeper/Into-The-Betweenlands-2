@@ -5,7 +5,9 @@
 	y: 5.0d,
 	shape: "gear",
 	text: [
-		"With better gear and armor, it would be a good idea to explore one of the structures we spotted in our initial survey."
+		"With better gear and armor, it would be a good idea to explore one of the structures we spotted in our initial survey.",
+		"",
+		"If you feel unprepared, §6Middle Gems§r and §6Elixirs§r can be quite useful!"
 	],
 	dependencies: [
 		"ff0d2999"

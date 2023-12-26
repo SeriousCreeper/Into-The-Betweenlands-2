@@ -1,6 +1,6 @@
 {
 	title: "So smooth, so silky",
-	x: 1.0d,
+	x: 0.75d,
 	y: -3.0d,
 	shape: "gear",
 	text: [

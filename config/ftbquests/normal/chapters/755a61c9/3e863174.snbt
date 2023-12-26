@@ -1,0 +1,36 @@
+{
+	title: "Chemistry",
+	icon: "thebetweenlands:alembic",
+	x: 4.5d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"When everything worked out, you should have an §6Infusion Bucket§r.",
+		"",
+		"To further refine the infusion, right click an §6Alembic§r with the bucket and give it some time. ",
+		"",
+		"Once it finishes (no more particles), right-click the Alembic with §6Vials§r to extract the final liquid. ",
+		"",
+		"You will either have a finished Elixir, or a vial of a specific Aspect.",
+		"",
+		"The §6Aspect Vials§r can be used like a ground ingredient in an Infuser."
+	],
+	dependencies: [
+		"17774fa3"
+	],
+	tasks: [{
+		uid: "c6177485",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:alembic"
+		}]
+	},
+	{
+		uid: "91e15f3f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dentrothyst_vial"
+		}],
+		ignore_damage: true
+	}]
+}

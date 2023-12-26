@@ -1,6 +1,6 @@
 {
 	title: "Liquid Attraction",
-	x: 3.0d,
+	x: 2.75d,
 	y: -1.0d,
 	shape: "gear",
 	text: [

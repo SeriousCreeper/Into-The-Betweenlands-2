@@ -1,0 +1,21 @@
+{
+	title: "Healthy Testers",
+	x: 5.5d,
+	y: -5.0d,
+	shape: "gear",
+	text: [
+		"Feeding unknown substances to these animals could cause some harm, therefore taking care of their well being should be priority number one. ",
+		"",
+		"§6Sap Spit§r seems to be having a positive effect on their §6health§r."
+	],
+	dependencies: [
+		"ed6a79b1"
+	],
+	tasks: [{
+		uid: "932d97ac",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_spit"
+		}]
+	}]
+}

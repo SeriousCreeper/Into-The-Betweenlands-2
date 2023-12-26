@@ -1,6 +1,6 @@
 {
 	title: "Silky Attraction",
-	x: 1.0d,
+	x: 0.75d,
 	y: -5.0d,
 	shape: "gear",
 	text: [
