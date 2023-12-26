@@ -16,6 +16,12 @@
 		type: "item",
 		items: [{
 			item: "pyrotech:brick_kiln"
+		},
+		{
+			item: "pyrotech:brick_oven"
+		},
+		{
+			item: "pyrotech:brick_sawmill"
 		}]
 	}]
 }

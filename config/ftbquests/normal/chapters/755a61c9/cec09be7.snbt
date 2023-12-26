@@ -1,0 +1,26 @@
+{
+	title: "Purifying",
+	x: -1.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"The §6Purifier§r has several uses:",
+		"",
+		"- Clean decayed tools",
+		"- Create clean water bottles",
+		"- Wash Middle Gem Ores",
+		"",
+		"All it needs it §6Sulfur§r and §6Swamp Water§r."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"05929675"
+	],
+	tasks: [{
+		uid: "6612bac6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:purifier"
+		}]
+	}]
+}

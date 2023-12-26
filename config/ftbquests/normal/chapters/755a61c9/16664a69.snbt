@@ -1,0 +1,28 @@
+{
+	title: "Rock, Paper, Scissor",
+	x: -9.0d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"§6Middle Gems§r can be used to gives armor, tools, or weapons additional powers. ",
+		"",
+		"The ores can be found in water, and need to be cleaned in a §6Purifier§r."
+	],
+	dependencies: [
+		"05929675"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2e3a4dcc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crimson_middle_gem"
+		},
+		{
+			item: "thebetweenlands:aqua_middle_gem"
+		},
+		{
+			item: "thebetweenlands:green_middle_gem"
+		}]
+	}]
+}

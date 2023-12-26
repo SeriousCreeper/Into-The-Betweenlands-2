@@ -1,7 +1,7 @@
 {
 	title: "Refractory Clay",
-	x: -9.0d,
-	y: 3.0d,
+	x: -7.0d,
+	y: 2.0d,
 	shape: "gear",
 	text: [
 		"Mixing slaked lime, ash, mud, and silt, creates refractory clay."

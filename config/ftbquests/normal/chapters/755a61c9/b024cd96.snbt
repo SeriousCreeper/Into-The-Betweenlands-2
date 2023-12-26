@@ -1,9 +1,13 @@
 {
-	x: -9.0d,
+	x: -8.0d,
 	y: 4.0d,
 	shape: "gear",
 	text: [
-		"Standing on a bellow will blow air into refractory machines, speeding them up."
+		"Standing on a bellow will blow air into refractory machines, speeding them up.",
+		"",
+		"Make sure the opening is facing the machine. ",
+		"",
+		"When placing the Bellows down, the opening will always be facing away from you."
 	],
 	dependencies: [
 		"a86bcf84"

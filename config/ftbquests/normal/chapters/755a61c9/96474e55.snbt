@@ -1,7 +1,7 @@
 {
 	title: "Sawdust",
 	x: -5.0d,
-	y: 3.0d,
+	y: 2.0d,
 	shape: "gear",
 	text: [
 		"When using the chopping block, small piles of wood chips are left behind.",

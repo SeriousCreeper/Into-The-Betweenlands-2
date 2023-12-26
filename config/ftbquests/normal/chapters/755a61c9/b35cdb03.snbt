@@ -4,7 +4,7 @@
 	y: 5.0d,
 	shape: "gear",
 	text: [
-		"Certain recipes, such as breaking down blocks into ingots, or ingots into nuggets, require a Syrmorite Anvil.",
+		"Certain recipes, such as breaking down §6blocks into ingots§r, or ingots into nuggets, require a §6Syrmorite Anvil§r.",
 		"",
 		"These also have much more durability than the limestone version."
 	],

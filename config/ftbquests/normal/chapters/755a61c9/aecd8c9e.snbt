@@ -1,6 +1,6 @@
 {
 	x: -9.0d,
-	y: 5.0d,
+	y: 4.0d,
 	shape: "gear",
 	text: [
 		"Automatic bellow that will blow air into refractory machines, as long as a cog is attached."
@@ -10,6 +10,7 @@
 		"b024cd96"
 	],
 	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "7034a7d4",
 		type: "item",
