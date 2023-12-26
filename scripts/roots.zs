@@ -308,10 +308,6 @@ Fey.removeRecipe(<roots:runic_shears>);
 Fey.addRecipe("runic_shears", <roots:runic_shears>, 
 	[<thebetweenlands:sickle>, <roots:pereskia>, <roots:pereskia>, <roots:runestone>, <roots:runestone>]);
 
-recipes.removeByRegex("thebetweenlands:sickle");
-Fey.addRecipe("sickle", <thebetweenlands:sickle>, 
-	[<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:7>, <ore:stickWood>]);
-
 Fey.addRecipe("sapling_silverwood", <thaumcraft:sapling_silverwood>, 
 	[<roots:bark_wildwood>, <roots:bark_wildwood>, <roots:bark_wildwood>, <thebetweenlands:sapling_sap>, <thaumcraft:salis_mundus>]);
 
