@@ -9,117 +9,7 @@
       "thirstyChance": 0.2
     }
   ],
-  "growthcraft_bees:bottlefluid_honey": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "amount": 3,
-      "saturation": 6.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "thebetweenlands:drinkable_brew": [
-    {
-      "identity": {
-        "metadata": 0
-      },
-      "amount": 4,
-      "saturation": 6.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "thebetweenlands:drinkable_brew": [
-    {
-      "identity": {
-        "metadata": 1
-      },
-      "amount": 6,
-      "saturation": 4.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "thebetweenlands:drinkable_brew": [
-    {
-      "identity": {
-        "metadata": 3
-      },
-      "amount": 5,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "thebetweenlands:drinkable_brew": [
-    {
-      "identity": {
-        "metadata": 4
-      },
-      "amount": 5,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "thebetweenlands:drinkable_brew": [
-    {
-      "identity": {
-        "metadata": 5
-      },
-      "amount": 5,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "thebetweenlands:drinkable_brew": [
-    {
-      "identity": {
-        "metadata": 6
-      },
-      "amount": 6,
-      "saturation": 4.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "thebetweenlands:drinkable_brew": [
-    {
-      "identity": {
-        "metadata": 7
-      },
-      "amount": 5,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "thebetweenlands:drinkable_brew": [
-    {
-      "identity": {
-        "metadata": 8
-      },
-      "amount": 5,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "thebetweenlands:drinkable_brew": [
-    {
-      "identity": {
-        "metadata": 9
-      },
-      "amount": 5,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "thebetweenlands:drinkable_brew": [
-    {
-      "identity": {
-        "metadata": 10
-      },
-      "amount": 6,
-      "saturation": 4.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "teastory:green_tea": [
+  "teastory:puer_tea": [
     {
       "identity": {
         "metadata": -1
@@ -139,7 +29,89 @@
       "thirstyChance": 0.0
     }
   ],
-  "teastory:yellow_tea": [
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": 0
+      },
+      "amount": 4,
+      "saturation": 6.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": 1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": 3
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": 4
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": 5
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": 6
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": 7
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": 8
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": 9
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": 10
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "teastory:oolong_tea": [
     {
       "identity": {
         "metadata": -1
@@ -159,7 +131,7 @@
       "thirstyChance": 0.0
     }
   ],
-  "teastory:oolong_tea": [
+  "teastory:green_tea": [
     {
       "identity": {
         "metadata": -1
@@ -169,7 +141,17 @@
       "thirstyChance": 0.0
     }
   ],
-  "teastory:puer_tea": [
+  "growthcraft_bees:bottlefluid_honey": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 3,
+      "saturation": 6.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "teastory:yellow_tea": [
     {
       "identity": {
         "metadata": -1
