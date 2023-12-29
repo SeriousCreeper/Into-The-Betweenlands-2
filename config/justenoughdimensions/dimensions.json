@@ -139,6 +139,13 @@
     {
       "dim": 23,
       "temporary_dimension": true,
+      "spawn_structure": {
+          "name": "sludgeon_platform.schematic",
+          "rotation": "none",
+          "mirror": "none",
+          "centered": false,
+          "offset": [-16, -75, -16]
+      },
       "post_deletion_command": "tellraw @a [\"\",{\"text\":\"The Sludgeon Mirage has disappeared\\n\",\"obfuscated\":true,\"color\":\"dark_purple\"},{\"text\":\"The Sludgeon Mirage has disappeared\\n\",\"color\":\"gold\"},{\"text\":\"The Sludgeon Mirage has disappeared\",\"obfuscated\":true,\"color\":\"dark_purple\"}]",
       "jed": {
         "SkyRenderType": 2,
@@ -171,7 +178,7 @@
             "spawnRadius": 0
         },
         "SpawnX": 0,
-        "SpawnY": 120,
+        "SpawnY": 125,
         "SpawnZ": 0
       }
     },
