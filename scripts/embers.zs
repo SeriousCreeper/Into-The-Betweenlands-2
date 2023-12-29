@@ -672,10 +672,6 @@ EmberGeneration.addMetalCoefficient(<thebetweenlands:octine_block>, 0.8);
 EmberGeneration.addMetalCoefficient(<ore:blockSyrmorite>, 0.7);
 
 
-
-
-
-
 // ----------- MELTER ----------------------
 val liquidsToRemove = [
 	<liquid:iron>,
@@ -860,9 +856,11 @@ EmberGeneration.addCombustionFuel(<thebetweenlands:items_misc:42>, 3);
 EmberGeneration.addCombustionFuel(<thebetweenlands:items_misc:45>, 4);
 
 
+EmberGeneration.removeCatalysisFuel(<minecraft:redstone>);
 EmberGeneration.removeCatalysisFuel(<minecraft:gunpowder>);
 EmberGeneration.removeCatalysisFuel(<minecraft:glowstone_dust>);
 
+EmberGeneration.addCatalysisFuel(<betweenlandsredstone:scabyst_dust>, 2);
 EmberGeneration.addCatalysisFuel(<thebetweenlands:items_misc:44>, 3);
 EmberGeneration.addCatalysisFuel(<thebetweenlands:wisp>, 4);
 
