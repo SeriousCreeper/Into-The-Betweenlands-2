@@ -27,7 +27,10 @@ val items = [
 	"access_crystal",
 	"stamp_wires_raw",
 	"stamp_rod_raw",
-	//"plate_syrmorite"
+	"broken_ancient_armor_helmet",
+	"broken_ancient_armor_chestplate",
+	"broken_ancient_armor_leggings",
+	"broken_ancient_armor_boots"
 ] as string[];
 
 

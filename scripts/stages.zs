@@ -89,6 +89,12 @@ ItemStages.stageModItems("unstaged", "aetherworks");
 Recipes.setRecipeStageByMod("unstaged", "aetheriumashenarmor");
 ItemStages.stageModItems("unstaged", "aetheriumashenarmor");
 
+ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_helmet>);
+ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_chestplate>);
+ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_leggings>);
+ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_boots>);
+
+
 function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack[]) {
 	val modItems = loadedMods[modID].items;
 

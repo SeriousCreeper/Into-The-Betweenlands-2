@@ -326,6 +326,19 @@ addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "spirit_frui
 addLoot("thaumicaugmentation:block/loot_uncommon", "loot_uncommon", "sapling_spirit_tree", <thebetweenlands:sapling_spirit_tree>, 10, 0, 1, 3);
 
 
+
+val ancientArmorChest = LootTweaker.getTable("bladditions:loot/ancient_armor_chest");
+ancientArmorChest.addPool("helmet", 1, 1, 0, 0);
+ancientArmorChest.addPool("chestplate", 1, 1, 0, 0);
+ancientArmorChest.addPool("leggings", 1, 1, 0, 0);
+ancientArmorChest.addPool("boots", 1, 1, 0, 0);
+
+addLoot("bladditions:loot/ancient_armor_chest", "helmet", "broken_ancient_armor_helmet", <contenttweaker:broken_ancient_armor_helmet>, 1, 0, 1, 1);
+addLoot("bladditions:loot/ancient_armor_chest", "chestplate", "broken_ancient_armor_chestplate", <contenttweaker:broken_ancient_armor_chestplate>, 1, 0, 1, 1);
+addLoot("bladditions:loot/ancient_armor_chest", "leggings", "broken_ancient_armor_leggings", <contenttweaker:broken_ancient_armor_leggings>, 1, 0, 1, 1);
+addLoot("bladditions:loot/ancient_armor_chest", "boots", "broken_ancient_armor_boots", <contenttweaker:broken_ancient_armor_boots>, 1, 0, 1, 1);
+
+
 removeLootEntry("thebetweenlands:entities/infestation", "infestation", "thebetweenlands:pheromone_thorax");
 removeLootEntry("minecraft:entities/slime", "main", "minecraft:slime_ball");
 
