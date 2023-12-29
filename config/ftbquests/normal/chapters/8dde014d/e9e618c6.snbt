@@ -18,25 +18,25 @@
 	{
 		uid: "922bf5af",
 		type: "command",
-		auto: "enabled",
+		auto: "invisible",
 		command: "/title @p times 20 100 20"
 	},
 	{
 		uid: "ee117967",
 		type: "command",
-		auto: "enabled",
+		auto: "invisible",
 		command: "/title @p title {\"text\":\"Mineral Knowledge\",\"bold\":true}"
 	},
 	{
 		uid: "112036b6",
 		type: "command",
-		auto: "enabled",
+		auto: "invisible",
 		command: "/title @p subtitle {\"text\":\"You sense there must be more ores out there\",\"italic\":true}"
 	},
 	{
 		uid: "4610fdf9",
 		type: "command",
-		auto: "enabled",
+		auto: "invisible",
 		command: "/playsound ui.toast.challenge_complete master @p"
 	}]
 }
