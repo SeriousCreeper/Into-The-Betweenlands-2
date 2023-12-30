@@ -142,7 +142,7 @@ scripts.utils.addShaped("mcwbridges-iron_bridge_middle", <mcwbridges:most1>, [
 ]);
 
 recipes.remove(<mcwbridges:iron_rod>);
-scripts.utils.addShaped("iron_rod", <mcwbridges:iron_rod> * 2, [
+scripts.utils.addShaped("iron_rod", <mcwbridges:iron_rod>, [
 	[<ore:nuggetSyrmorite>], [<ore:nuggetSyrmorite>]
 ]);
 
