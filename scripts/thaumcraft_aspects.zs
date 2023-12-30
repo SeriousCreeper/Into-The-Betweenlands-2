@@ -222,7 +222,7 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:puffshroom_tendril>.setAspects(<aspect:victus> * 5, <aspect:bestia> * 5);
 <thebetweenlands:middle_fruit>.setAspects(<aspect:victus> * 5, <aspect:herba> * 5);
 <thebetweenlands:weeping_blue_petal>.setAspects(<aspect:ordo> * 5, <aspect:herba> * 5);
-<thebetweenlands:wight_heart>.setAspects(<aspect:exanimis> * 5, <aspect:spiritus> * 10, <aspect:alienis> * 10);
+<thebetweenlands:wight_heart>.setAspects(<aspect:humanus> * 5, <aspect:exanimis> * 5, <aspect:spiritus> * 10, <aspect:alienis> * 10);
 <thebetweenlands:yellow_dotted_fungus>.setAspects(<aspect:terra> * 2, <aspect:herba> * 5, <aspect:tenebrae> * 2);
 <thebetweenlands:silt_crab_claw>.setAspects(<aspect:aqua> * 5, <aspect:victus> * 5, <aspect:bestia> * 5);
 <thebetweenlands:sludge_jello>.setAspects(<aspect:victus> * 5, <aspect:alkimia> * 1, <aspect:fabrico> * 1);
@@ -318,7 +318,7 @@ import thaumcraft.aspect.CTAspectStack;
 <thebetweenlands:items_misc:10>.setAspects(<aspect:ignis> * 1, <aspect:ordo> * 1, <aspect:terra> * 5);
 <thebetweenlands:items_misc:11>.setAspects(<aspect:metallum> * 15);
 <thebetweenlands:items_misc:13>.setAspects(<aspect:herba> * 10);
-<thebetweenlands:items_misc:14>.setAspects(<aspect:mortuus> * 5, <aspect:victus> * 5);
+<thebetweenlands:items_misc:14>.setAspects(<aspect:humanus> * 3, <aspect:mortuus> * 5, <aspect:victus> * 5);
 <thebetweenlands:items_misc:52>.setAspects(<aspect:mortuus> * 5, <aspect:bestia> * 5, <aspect:sensus> * 5);
 <thebetweenlands:items_misc:18>.setAspects(<aspect:ignis> * 10, <aspect:potentia> * 10);
 <thebetweenlands:items_misc:19>.setAspects(<aspect:vitreus> * 15, <aspect:desiderium> * 15);
@@ -398,7 +398,24 @@ import thaumcraft.aspect.CTAspectStack;
 
 <simpledifficulty:ice_chunk>.setAspects(<aspect:gelum> * 5);
 
+<growthcraft_bees:bees_wax:*>.setAspects(<aspect:sensus> * 3);
 
+<thaumcraft:candle_orange>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_magenta>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_lightblue>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_yellow>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_lime>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_pink>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_gray>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_silver>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_cyan>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_white>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_purple>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_blue>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_brown>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_green>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_red>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
+<thaumcraft:candle_black>.setAspects(<aspect:humanus> * 5, <aspect:lux> * 5, <aspect:sensus> * 4, <aspect:bestia> * 3);
 
 <minecraft:dye:0>.setAspects(<aspect:sensus> * 5, <aspect:perditio> * 2);
 <minecraft:dye:1>.setAspects(<aspect:sensus> * 5, <aspect:perditio> * 2);
@@ -417,6 +434,9 @@ import thaumcraft.aspect.CTAspectStack;
 <minecraft:dye:14>.setAspects(<aspect:sensus> * 5, <aspect:perditio> * 2);
 <minecraft:dye:15>.setAspects(<aspect:sensus> * 5, <aspect:perditio> * 2);
 
+<mod_lavacow:intestine>.setAspects(<aspect:mortuus> * 10, <aspect:vacuos> * 5, <aspect:humanus> * 10);
+
+<thaumcraft:brain>.setAspects(<aspect:cognitio> * 20, <aspect:exanimis> * 10, <aspect:humanus> * 5);
 
 for item in <ore:allFlowers>.items {
 	item.setAspects(<aspect:herba> * 5, <aspect:sensus> * 5, <aspect:victus> * 5);
