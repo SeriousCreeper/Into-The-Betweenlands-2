@@ -1310,7 +1310,7 @@ Infusion.registerRecipe("wither_forge", "BASEINFUSION", <pyrotech:wither_forge>,
 	<arcanearchives:containment_field>
 ]);
 
-Infusion.registerRecipe("sludgeon_wayfinder", "BASEINFUSION", <bladditions:corrupted_bone_wayfinder>.withTag({dimension: 23}), 3, [
+Infusion.registerRecipe("sludgeon_wayfinder", "BASEINFUSION", <bladditions:corrupted_bone_wayfinder>.withTag({dimension: 23}), 5, [
 	<aspect:permutatio> * 30,
 	<aspect:perditio> * 50,
 	<aspect:vinculum> * 20,
