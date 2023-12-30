@@ -169,7 +169,9 @@
         "id": 23,
         "name": "Sludgeon Mirage",
         "keeploaded": false,
-        "suffix": "_dim23"
+        "suffix": "_dim23",
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
       },
       "worldinfo": {},
       "worldinfo_onetime": {
