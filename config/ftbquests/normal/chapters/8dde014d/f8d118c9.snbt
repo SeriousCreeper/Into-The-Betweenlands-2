@@ -15,35 +15,25 @@
 		type: "item",
 		items: [{
 			item: "thebetweenlands:ancient_helmet"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "a3ed1f3e",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "thebetweenlands:ancient_chestplate"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "2d994070",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "thebetweenlands:ancient_leggings"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "50b04e13",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "thebetweenlands:ancient_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9714374d",
+		type: "gamestage",
+		title: "Granted: Ancient Armor",
+		icon: "thebetweenlands:ancient_helmet",
+		auto: "no_toast",
+		stage: "ancient_armor"
 	}]
 }
