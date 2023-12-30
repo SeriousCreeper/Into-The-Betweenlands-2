@@ -32,6 +32,7 @@ game.setLocalization("fluid.boiling_wort", "Boiling Swamp Reed Wort");
 game.setLocalization("fluid.vodka", "Root Vodka");
 
 game.setLocalization("arcanearchives.tooltip.device.radiant_chest", "Storage. Used to contain items. Stack size increased to 4x.");
+game.setLocalization("arcanearchives.tooltip.item.raw_quartz", "A crafting ingredient.");
 
 scripts.utils.addInfoTooltip(<contenttweaker:access_crystal>, "Right click crystal onto the portal to gain access.");
 
