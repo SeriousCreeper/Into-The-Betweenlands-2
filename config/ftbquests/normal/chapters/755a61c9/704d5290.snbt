@@ -1,5 +1,6 @@
 {
 	title: "Campfire",
+	icon: "pyrotech:campfire",
 	x: -6.0d,
 	y: -6.0d,
 	shape: "gear",
@@ -8,7 +9,7 @@
 		"",
 		"Not only do they provide light and burn for really a long time, they also provide buffs that will slows down hunger, and heals.",
 		"",
-		"Place tinder on the ground, add up to 8 logs, then light it up with a fire starter."
+		"Place §6Tinder§r on the ground, add up to §68 logs§r, then light it up with a §6Fire Starter§r."
 	],
 	dependencies: [
 		"7560e810"
@@ -16,7 +17,7 @@
 	tasks: [{
 		uid: "f9803986",
 		type: "item",
-		icon: "pyrotech:campfire",
+		icon: "pyrotech:tinder",
 		items: [{
 			item: "pyrotech:tinder"
 		}]
