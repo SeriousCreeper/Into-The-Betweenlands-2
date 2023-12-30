@@ -1,7 +1,7 @@
 {
 	title: "Unstable Wayfinder - Sludgeon",
-	x: 1.25d,
-	y: 2.5d,
+	x: 2.25d,
+	y: 0.5d,
 	text: [
 		"I know this sounds strange, but after having explored the §6Sludgeon§r, i do believe with the help of the §6Inert Wayfinder§r and the new knowledge i've gained at the dungeon, i can modify the Wayfinder to locate §6another Sludgeon§r."
 	],
