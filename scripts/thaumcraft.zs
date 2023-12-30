@@ -1310,7 +1310,18 @@ Infusion.registerRecipe("wither_forge", "BASEINFUSION", <pyrotech:wither_forge>,
 	<arcanearchives:containment_field>
 ]);
 
-
+Infusion.registerRecipe("sludgeon_wayfinder", "BASEINFUSION", <bladditions:corrupted_bone_wayfinder>.withTag({dimension: 23}), 3, [
+	<aspect:permutatio> * 30,
+	<aspect:perditio> * 50,
+	<aspect:vinculum> * 20,
+], 
+<contenttweaker:inert_boneway_finder>, 
+[
+	<thebetweenlands:dentrothyst:1>,
+	<thebetweenlands:mud_tower_brazier>,
+	<thebetweenlands:ancient_remnant_block>,
+	<thebetweenlands:items_misc:44>
+]);
 
 
 // INFERNAL FURNACE
