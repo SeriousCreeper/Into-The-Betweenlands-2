@@ -94,6 +94,11 @@ ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_chestplate>);
 ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_leggings>);
 ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_boots>);
 
+ItemStages.setUnfamiliarName("Ancient Helmet", <thebetweenlands:ancient_helmet>);
+ItemStages.setUnfamiliarName("Ancient Chestplate", <thebetweenlands:ancient_chestplate>);
+ItemStages.setUnfamiliarName("Ancient Leggings", <thebetweenlands:ancient_leggings>);
+ItemStages.setUnfamiliarName("Ancient Boots", <thebetweenlands:ancient_boots>);
+
 
 function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack[]) {
 	val modItems = loadedMods[modID].items;
