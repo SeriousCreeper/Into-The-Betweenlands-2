@@ -1,0 +1,29 @@
+{
+	title: "Ancient Armor - Stage 4",
+	x: 8.5d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2fd26d38"
+	],
+	tasks: [{
+		uid: "ddea51f6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:broken_ancient_armor_helmet_4"
+		},
+		{
+			item: "contenttweaker:broken_ancient_armor_chestplate_4"
+		},
+		{
+			item: "contenttweaker:broken_ancient_armor_leggings_4"
+		},
+		{
+			item: "contenttweaker:broken_ancient_armor_boots_4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -12,11 +12,11 @@
 	y: 2.0d,
 	shape: "gear",
 	text: [
-		"There is an optional Pacifist Challenge that gives benefits, but makes progression a bit more challenging.",
+		"There is an optional §6Pacifist Challenge§r that gives §6benefits§r, but makes progression a bit §6more challenging§r.",
 		"",
 		"The goal is to not kill any passive mobs, with the exception of fish.",
 		"",
-		"By being a pacifisit, you gain small benefits, such as reduced cooldowns on Runic Shears."
+		"By being a pacifisit, you gain small benefits, such as reduced cooldowns on §6Runic Shears§r."
 	],
 	hide_dependency_lines: true,
 	hide: true,

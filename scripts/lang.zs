@@ -1,4 +1,5 @@
 import crafttweaker.game.IGame;
+import crafttweaker.item.IItemStack;
 
 game.setLocalization("item.simpledifficulty:dragon_canteen_broken.name", "Broken Ancient Beast Canteen");
 game.setLocalization("item.simpledifficulty:dragon_canteen_empty.name", "Empty Ancient Beast Canteen");
@@ -82,4 +83,3 @@ scripts.utils.addInfoTooltip(<contenttweaker:access_crystal>, "Right click cryst
 <embers:block_aluminum>.displayName = <embers:block_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
 <embers:seed_aluminum>.displayName = <embers:seed_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
 <mystgears:gear_aluminium>.displayName = <mystgears:gear_aluminium>.displayName.replaceAll("Aluminium", "Lumicite");
-

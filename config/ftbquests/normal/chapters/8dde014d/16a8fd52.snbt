@@ -1,0 +1,26 @@
+{
+	title: "Unstable Wayfinder - Sludgeon",
+	x: 1.25d,
+	y: 2.5d,
+	text: [
+		"I know this sounds strange, but after having explored the §6Sludgeon§r, i do believe with the help of the §6Inert Wayfinder§r and the new knowledge i've gained at the dungeon, i can modify the Wayfinder to locate §6another Sludgeon§r."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1d2c6ae8",
+		"39f0c596"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b38da7d5",
+		type: "item",
+		items: [{
+			id: "bladditions:corrupted_bone_wayfinder",
+			tag: {
+				dimension: 23
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

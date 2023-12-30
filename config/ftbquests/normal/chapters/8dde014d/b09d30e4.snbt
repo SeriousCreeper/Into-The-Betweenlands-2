@@ -1,9 +1,9 @@
 {
 	title: "Unstable Wayfinder - Wight Fortress",
 	x: 1.25d,
-	y: 0.5d,
+	y: 1.5d,
 	text: [
-		"I know this sounds strange, but after having explored the Wight Fortress, i do believe with the help of the Inert Wayfinder and the new knowledge i've gained at the fortress, i can modify the Wayfinder to locate another Wight Fortress."
+		"I know this sounds strange, but after having explored the §6Wight Fortress§r, i do believe with the help of the §6Inert Wayfinder§r and the new knowledge i've gained at the fortress, i can modify the Wayfinder to locate another §6Wight Fortress§r."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

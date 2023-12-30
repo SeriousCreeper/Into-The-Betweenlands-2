@@ -2,9 +2,9 @@
 	x: 1.25d,
 	y: -0.5d,
 	text: [
-		"One of the druids had a drawing of a different kind of Wayfinder, crafted at this Altar.",
+		"Among the Druids, I discovered a drawing of a unique Wayfinder crafted at the Altar. ",
 		"",
-		"Perhaps creating one will reveal its purpose."
+		"Creating one might reveal its purpose."
 	],
 	dependencies: [
 		"1a9c2084"

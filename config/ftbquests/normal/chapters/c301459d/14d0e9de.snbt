@@ -20,5 +20,10 @@
 		uid: "c255d68c",
 		type: "dimension",
 		dim: 22
+	},
+	{
+		uid: "8d55c746",
+		type: "dimension",
+		dim: 23
 	}]
 }

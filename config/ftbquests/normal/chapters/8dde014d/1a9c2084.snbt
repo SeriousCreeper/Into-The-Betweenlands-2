@@ -3,9 +3,9 @@
 	x: 1.25d,
 	y: -2.0d,
 	text: [
-		"I came across a very old and mystical looking Altar, guarded by several Druids.",
+		"I stumbled upon a profoundly ancient and mystical Altar, diligently guarded by a cadre of Druids.",
 		"",
-		"It seems like it requires specific items in order for it to do anything..."
+		"Evidently, this enigmatic structure demands specific items for it to unveil its purpose and manifest its power..."
 	],
 	hide_text_until_complete: true,
 	size: 2.0d,

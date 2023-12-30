@@ -8,9 +8,9 @@
 	y: 2.0d,
 	shape: "gear",
 	text: [
-		"When you die, you keep everything that is in your hotbar, your armor slots, your cosmetic armor slots, your equipped lurker pouch, and your pouch of curiosity.",
+		"When you die, §6you keep§r everything that is in your §6hotbar§r, your §6armor§r slots, your §6cosmetic armor§r slots, your equipped §6lurker pouch§r, and your §6pouch of curiosity§r.",
 		"",
-		"All other items will be placed inside a grave."
+		"All other items will be placed inside a §6grave§r."
 	],
 	hide_dependency_lines: true,
 	hide: true,

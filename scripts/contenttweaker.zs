@@ -15,25 +15,42 @@ import mods.contenttweaker.AxisAlignedBB;
 
 
 val items = [
-	//"menhir_core",
-	//"boss_item_1",
-	//"boss_item_2",
-	//"boss_item_3",
-	//"boss_item_4",
-	//"boss_item_5",
-	//"boss_item_6",
 	"inert_boneway_finder",
 	"silk",
 	"access_crystal",
 	"stamp_wires_raw",
 	"stamp_rod_raw",
+] as string[];
+
+
+val brokenAncientArmor = [
 	"broken_ancient_armor_helmet",
 	"broken_ancient_armor_chestplate",
 	"broken_ancient_armor_leggings",
 	"broken_ancient_armor_boots"
 ] as string[];
 
+val armorRarityLevels = [
+	"common",
+	"common",
+	"uncommon",
+	"uncommon",
+	"uncommon",
+	"rare",
+	"rare",
+] as string[];
+
 
 for item in items {
 	VanillaFactory.createItem(item).register();
+}
+
+
+for armor in brokenAncientArmor {
+	for i in 0 to 7 {
+		var item = VanillaFactory.createItem(armor + "_" + i);
+		item.maxStackSize = 1;
+		item.rarity = armorRarityLevels[i];
+		item.register();
+	}
 }

@@ -5,7 +5,7 @@
 	y: 2.0d,
 	shape: "gear",
 	text: [
-		"It's possible to climb 3 blocks tall walls by holding the sprint (CTRL by default) key when running up against a wall."
+		"It's possible to §6climb 3 blocks tall walls§r by holding the §6sprint§r (CTRL by default) key when running up against a wall."
 	],
 	hide_dependency_lines: true,
 	hide: true,

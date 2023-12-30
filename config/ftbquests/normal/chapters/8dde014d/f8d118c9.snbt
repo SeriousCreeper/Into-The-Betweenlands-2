@@ -1,0 +1,49 @@
+{
+	title: "Ancient Armor - Final Stage",
+	x: 13.0d,
+	y: -4.0d,
+	text: [
+		"I've achieved it! The complete restoration of the §6Ancient Armor§r set is now a reality.",
+		"",
+		"This remarkable ensemble not only offers robust §6physical protection§r but also boasts an enchanting resilience against §6magical attacks§r!"
+	],
+	dependencies: [
+		"b25d7a16"
+	],
+	tasks: [{
+		uid: "bb0e0fea",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a3ed1f3e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d994070",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50b04e13",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
