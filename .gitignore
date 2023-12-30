@@ -10,7 +10,6 @@
 !/patchouli_books/**
 # You can be specific with these rules
 !.gitignore 
-config/thaumicjei_itemstack_aspects.json
 config/jei/worldSettings.cfg
 config/fantasticlib/reference
 config/.DS_Store
