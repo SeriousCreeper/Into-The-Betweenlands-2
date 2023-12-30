@@ -223,10 +223,10 @@
           "name": "betweenores:copper_ore"
         },
         "material": "thebetweenlands:betweenstone",
-        "cluster-size": 13
+        "cluster-size": 8
       },
-      "cluster-count": 10,
-      "min-height": 0,
+      "cluster-count": 5,
+      "min-height": 40,
       "max-height": 100,
       "retrogen": "true",
       "biome": "all",
