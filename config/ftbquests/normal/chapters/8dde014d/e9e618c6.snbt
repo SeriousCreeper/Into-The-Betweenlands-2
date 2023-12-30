@@ -38,5 +38,11 @@
 		type: "command",
 		auto: "invisible",
 		command: "/playsound ui.toast.challenge_complete master @p"
+	},
+	{
+		uid: "05c7f0f3",
+		type: "command",
+		auto: "invisible",
+		command: "/tellraw @p {\"text\":\"You sense there must be more ores out there\",\"italic\":true}"
 	}]
 }
