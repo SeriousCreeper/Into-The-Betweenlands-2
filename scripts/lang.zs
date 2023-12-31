@@ -84,3 +84,5 @@ scripts.utils.addInfoTooltip(<contenttweaker:access_crystal>, "Right click cryst
 <embers:block_aluminum>.displayName = <embers:block_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
 <embers:seed_aluminum>.displayName = <embers:seed_aluminum>.displayName.replaceAll("Aluminium", "Lumicite");
 <mystgears:gear_aluminium>.displayName = <mystgears:gear_aluminium>.displayName.replaceAll("Aluminium", "Lumicite");
+
+<betweenlandsredstone:syrmorite_bars>.displayName = "Syrmorite Wire Fence";
