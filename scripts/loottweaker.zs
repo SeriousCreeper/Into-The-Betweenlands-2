@@ -136,6 +136,10 @@ replaceLoot("thebetweenlands:loot/wight_fortress_pot", "pot_loot", "octine_nugge
 replaceLoot("thebetweenlands:animator/scroll", "scroll", "syrmorite_ingot", <thebetweenlands:syrmorite_ore>, 20, 0, 5, 12);
 replaceLoot("thebetweenlands:animator/scroll", "scroll", "thebetweenlands:octine_ingot", <thebetweenlands:octine_ore>, 20, 0, 5, 12);
 
+replaceLoot("thaumcraft:cultist", "main", "minecraft:gold_nugget", <thebetweenlands:items_misc:42>, 1, 0, 0, 2);
+
+
+
 val table = LootTweaker.getTable("thebetweenlands:entities/anadia_treasure");
 val pool = table.getPool("anadia_body");
 
