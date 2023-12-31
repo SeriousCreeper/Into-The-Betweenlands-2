@@ -55,16 +55,16 @@ recipes.remove(<mystgears:gear_valonite>);
 GCT.addRecipe("gear_valonite", <mystgears:gear_valonite>, [<ore:gemValonite> * 4, <ore:nuggetValonite>]);
 
 recipes.remove(<thebetweenlands:valonite_helmet>);
-GCT.addRecipe("valonite_helmet", <thebetweenlands:valonite_helmet>, [<ore:gemValonite> * 5]);
+GCT.addRecipe("valonite_helmet", <thebetweenlands:valonite_helmet>, [<ore:gemValonite> * 5, <immersiveengineering:steel_armor_head>]);
 
 recipes.remove(<thebetweenlands:valonite_chestplate>);
-GCT.addRecipe("valonite_chestplate", <thebetweenlands:valonite_chestplate>, [<ore:gemValonite> * 8]);
+GCT.addRecipe("valonite_chestplate", <thebetweenlands:valonite_chestplate>, [<ore:gemValonite> * 8, <immersiveengineering:steel_armor_chest>]);
 
 recipes.remove(<thebetweenlands:valonite_leggings>);
-GCT.addRecipe("valonite_leggings", <thebetweenlands:valonite_leggings>, [<ore:gemValonite> * 7]);
+GCT.addRecipe("valonite_leggings", <thebetweenlands:valonite_leggings>, [<ore:gemValonite> * 7, <immersiveengineering:steel_armor_legs>]);
 
 recipes.remove(<thebetweenlands:valonite_boots>);
-GCT.addRecipe("valonite_boots", <thebetweenlands:valonite_boots>, [<ore:gemValonite> * 4]);
+GCT.addRecipe("valonite_boots", <thebetweenlands:valonite_boots>, [<ore:gemValonite> * 4, <immersiveengineering:steel_armor_feet>]);
 
 recipes.remove(<thebetweenlands:valonite_sword>);
 GCT.addRecipe("valonite_sword", <thebetweenlands:valonite_sword>, [<ore:gemValonite> * 2, <ore:stickWood>]);
