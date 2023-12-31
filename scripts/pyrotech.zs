@@ -343,6 +343,8 @@ scripts.utils.addShapeless("matchstick", <pyrotech:matchstick>, [
 ]);
 */
 
+recipes.remove(<pyrotech:anvil_obsidian>);
+
 recipes.remove(<pyrotech:material:4>);
 scripts.utils.addShaped("refractory_clay", <pyrotech:material:4> * 5, [
 	[<thebetweenlands:mud>, <ore:dustAsh>, <thebetweenlands:mud>], 
@@ -691,9 +693,7 @@ SoakingPot.addRecipe("mossy_betweenstone_tiles", <thebetweenlands:mossy_betweens
 SoakingPot.addRecipe("mossy_limestone_bricks", <thebetweenlands:mossy_limestone_bricks>, <liquid:swamp_water> * 250, <thebetweenlands:limestone_bricks>, 7 * 60 * 20);
 SoakingPot.addRecipe("mossy_smooth_betweenstone", <thebetweenlands:mossy_smooth_betweenstone>, <liquid:swamp_water> * 250, <thebetweenlands:smooth_betweenstone>, 7 * 60 * 20);
 //SoakingPot.addRecipe("mortar", <contenttweaker:mortar> * 16, <liquid:lime_water> * 100, <thebetweenlands:silt>, 7 * 60 * 20);
-
-
-
+SoakingPot.addRecipe("treated_planks", <immersiveengineering:treated_wood>, <liquid:fish_oil> * 125, <pyrotech:planks_tarred>, 3 * 60 * 20);
 
 
 
@@ -719,13 +719,13 @@ for metal in metals {
 	IroncladAnvil.addRecipe(metal ~ "_ingot", metals[metal].ingot * 9, metals[metal].block, 8, "pickaxe");
 }
 
+
 val extraPlates = {
 	<embers:plate_electrum> : <embers:ingot_electrum>,
 	<embers:plate_bronze> : <embers:ingot_bronze>,
 	<embers:plate_dawnstone> : <embers:ingot_dawnstone>,
 	<thaumcraft:plate:0> : <thaumcraft:ingot:2>,
 	<thaumcraft:plate:2> : <thaumcraft:ingot:0>,
-	<thaumcraft:plate:3> : <thaumcraft:ingot:1>,
 } as IIngredient[IItemStack];
 
 var plateCount = 0;
