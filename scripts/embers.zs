@@ -27,7 +27,7 @@ scripts.utils.addShaped("embers-mech_core", <embers:mech_core>, [
 recipes.remove(<embers:stamper_base>);
 recipes.addShaped("embers-stamp_base", <embers:stamper_base>, [
 	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
-	[<embers:block_caminite_brick:*>, <thebetweenlands:bl_bucket:1>.noReturn(), <embers:block_caminite_brick:*>]]);
+	[<embers:block_caminite_brick:*>, <thebetweenlands:bl_bucket:1>.noReturn() | <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}).noReturn(), <embers:block_caminite_brick:*>]]);
 
 
 recipes.remove(<embers:stamper>);
