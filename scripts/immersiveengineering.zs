@@ -73,8 +73,8 @@ val itemsToRemove as IItemStack[] = [
 	<immersiveengineering:hoe_steel>,
 	<immersiveengineering:sword_steel>,
 	<immersiveengineering:metal_device1:3>,
-	<immersiveengineering:metal_device0:5>,
-	<immersiveengineering:metal_device1:6>,
+	//<immersiveengineering:metal_device0:5>,
+	//<immersiveengineering:metal_device1:6>,
 	<immersiveengineering:stone_decoration>,
 	<immersiveengineering:stone_decoration:10>,
 	<immersiveengineering:stone_decoration_slab>,
@@ -133,16 +133,6 @@ recipes.remove(<immersiveengineering:material:3>);
 
 recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood_slab_back0");
 recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
-recipes.addShaped("treated_wood_treated_wood", <immersiveengineering:treated_wood> * 8, [
-	[<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>], 
-	[<roots:wildwood_planks>, <thebetweenlands:bl_bucket_fish_oil:0>.transformReplace(<thebetweenlands:bl_bucket:0>), <roots:wildwood_planks>], 
-	[<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>]
-]);
-recipes.addShaped("treated_wood_treated_wood2", <immersiveengineering:treated_wood> * 8, [
-	[<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>], 
-	[<roots:wildwood_planks>, <thebetweenlands:bl_bucket_fish_oil:1>.transformReplace(<thebetweenlands:bl_bucket:1>), <roots:wildwood_planks>], 
-	[<roots:wildwood_planks>, <roots:wildwood_planks>, <roots:wildwood_planks>]
-]);
 
 recipes.removeByRecipeName("immersiveengineering:stone_decoration/blastbrick_reinforced");
 scripts.utils.addShapeless("stone_decoration/blastbrick_reinforced", <immersiveengineering:stone_decoration:2>, 
@@ -214,7 +204,13 @@ scripts.utils.addShaped("blueprints/components", <immersiveengineering:blueprint
 
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}));
 scripts.utils.addShaped("blueprints/common_cartridges", <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), [
-	[<minecraft:gunpowder>, <ore:ingotCopper>, <minecraft:gunpowder>],
+	[<thebetweenlands:angry_pebble>, <ore:ingotCopper>, <thebetweenlands:angry_pebble>],
+	[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
+	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]
+]);
+
+scripts.utils.addShaped("blueprints/wires", <immersiveengineering:blueprint>.withTag({blueprint: "Wires"}), [
+	[<immersiveengineering:material:20>, <immersiveengineering:material:20>, <immersiveengineering:material:20>],
 	[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
 	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]
 ]);
@@ -278,7 +274,7 @@ scripts.utils.addShaped("connectors/connector_probe", <immersiveengineering:conn
 recipes.remove(<immersiveengineering:toolupgrade:7>);
 scripts.utils.addShaped("toolupgrades/chemthrower_focus", <immersiveengineering:toolupgrade:7>, [
 	[null, <ore:ingotSteel>, <ore:ingotSteel>], 
-	[<embers:pipe>, <embers:pipe>, <thebetweenlands:syrmorite_hopper>], 
+	[<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <thebetweenlands:syrmorite_hopper>], 
 	[null, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 
@@ -306,12 +302,12 @@ recipes.remove(<immersiveengineering:chemthrower>);
 scripts.utils.addShaped("tool/chemthrower", <immersiveengineering:chemthrower>, [
 	[null, <immersiveengineering:toolupgrade>, <immersiveengineering:material:13>], 
 	[null, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:material:13>], 
-	[<embers:pipe>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), null]
+	[<immersiveengineering:metal_device1:6>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), null]
 ]);
 
 recipes.remove(<immersiveengineering:toolupgrade:13>);
 scripts.utils.addShaped("toolupgrades/chemthrower_multitank", <immersiveengineering:toolupgrade:13>, [
-	[null, <embers:pipe>, null], 
+	[null, <immersiveengineering:metal_device1:6>, null], 
 	[<immersiveengineering:toolupgrade:3>, <immersiveengineering:material:9>, <immersiveengineering:toolupgrade:3>]
 ]);
 
@@ -339,7 +335,7 @@ scripts.utils.addShaped("tool/shield", <immersiveengineering:shield>, [
 recipes.remove(<immersiveengineering:shield>);
 scripts.utils.addShaped("wooden_devices/fluid_router", <immersiveengineering:wooden_device0:7>, [
 	[<ore:plankTreatedWood>, <ore:dustRedstone>, <ore:plankTreatedWood>], 
-	[<ore:ingotIron>, <embers:pipe>, <ore:ingotIron>], 
+	[<ore:ingotIron>, <immersiveengineering:metal_device1:6>, <ore:ingotIron>], 
 	[<ore:plankTreatedWood>, <immersiveengineering:material:8>, <ore:plankTreatedWood>]
 ]);
 
@@ -357,6 +353,19 @@ scripts.utils.addShaped("metal_decoration/radiator", <immersiveengineering:metal
 	[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]
 ]);
 
+recipes.remove(<immersiveengineering:metal_device1:4>);
+scripts.utils.addShaped("metal_devices/powered_lantern_modified", <immersiveengineering:metal_device1:4> * 3, [
+	[null, <ore:plateIron>, null], 
+	[<thebetweenlands:filtered_silt_glass_pane>, <immersiveengineering:material:26>, <thebetweenlands:filtered_silt_glass_pane>], 
+	[<ore:plateIron>, <betweenlandsredstone:scabyst_dust>, <ore:plateIron>]
+]);
+
+recipes.remove(<immersiveengineering:metal_device1:5>);
+scripts.utils.addShaped("metal_devices/charging_station", <immersiveengineering:metal_device1:5>, [
+	[<ore:ingotIron>, <immersiveengineering:connector:2>, <ore:ingotIron>], 
+	[<thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>],
+	[<ore:plankTreatedWood>, <immersiveengineering:metal_decoration0>, <ore:plankTreatedWood>]
+]);
 
 
 
