@@ -6,6 +6,7 @@ import mods.orestages.OreStages;
 import mods.MobStages;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import mods.multiblockstages.IEMultiBlockStages;
 
 
 MobStages.addStage("knowledge_of_malice", "embers:ancient_golem");
@@ -98,6 +99,11 @@ ItemStages.setUnfamiliarName("Ancient Helmet", <thebetweenlands:ancient_helmet>)
 ItemStages.setUnfamiliarName("Ancient Chestplate", <thebetweenlands:ancient_chestplate>);
 ItemStages.setUnfamiliarName("Ancient Leggings", <thebetweenlands:ancient_leggings>);
 ItemStages.setUnfamiliarName("Ancient Boots", <thebetweenlands:ancient_boots>);
+
+IEMultiBlockStages.addStage("removed", "IE:CokeOven", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:AlloySmelter", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:BlastFurnace", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:MetalPress", "This multiblock is not available.");
 
 
 function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack[]) {
