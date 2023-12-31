@@ -4,7 +4,9 @@
 	y: 3.0d,
 	shape: "gear",
 	text: [
-		"Refractory machines can be used to process several items and blocks.",
+		"Refractory machines can be used to process several items and blocks more easily and faster.",
+		"",
+		"For example the §6Sawmill§r can cut down wooden and stone items similar to a §6Chopping Block§r or §6Anvil§r.",
 		"",
 		"They will automatically stop burning fuel once they finished crafting."
 	],
