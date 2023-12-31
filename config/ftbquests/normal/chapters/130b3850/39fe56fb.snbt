@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"Goggles of Revealing also show more info about the world, like what tools are required to break blocks efficiently, or information about machines like the Bloomery."
+	],
+	dependencies: [
+		"31978e64"
+	],
+	tasks: [{
+		uid: "6c11c028",
+		type: "item",
+		items: [{
+			item: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
