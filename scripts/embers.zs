@@ -729,6 +729,10 @@ Melter.add(<liquid:lead> * 144, <embers:aspectus_lead>);
 Melter.add(<liquid:silver> * 144, <embers:aspectus_silver>);
 Melter.add(<liquid:dawnstone> * 144, <embers:aspectus_dawnstone>);
 
+Melter.add(<liquid:steel> * 16, <immersiveengineering:metal:28>);
+Melter.add(<liquid:steel> * 144, <immersiveengineering:metal:8>);
+Melter.add(<liquid:steel> * 1296, <immersiveengineering:storage:8>);
+
 
 // ----------- STAMPER ----------------------
 //Stamper.remove(<embers:ingot_copper>);
@@ -751,7 +755,16 @@ Stamper.add(<thaumcraft:plate:1>, <liquid:syrmorite> * 144, <embers:stamp_plate>
 
 Stamper.add(<thaumcraft:plate:0>, <liquid:brass> * 144, <embers:stamp_plate>);
 Stamper.add(<thaumcraft:plate:2>, <liquid:thaumium> * 144, <embers:stamp_plate>);
-Stamper.add(<thaumcraft:plate:3>, <liquid:void> * 144, <embers:stamp_plate>);
+Stamper.add(<thaumcraft:plate:3>, <liquid:void> * 144, <immersiveengineering:metal:38>);
+
+recipes.remove(<immersiveengineering:metal:38>);
+recipes.remove(<immersiveengineering:metal:8>);
+recipes.remove(<immersiveengineering:storage:8>);
+recipes.remove(<immersiveengineering:storage:28>);
+Stamper.add(<immersiveengineering:metal:38>, <liquid:steel> * 144, <embers:stamp_plate>);
+Stamper.add(<immersiveengineering:metal:8>, <liquid:steel> * 144, <embers:stamp_bar>);
+Stamper.add(<immersiveengineering:storage:8>, <liquid:steel> * 1296, <embers:stamp_flat>);
+Stamper.add(<immersiveengineering:metal:28>, <liquid:steel> * 16, <soot:stamp_nugget>);
 
 Stamper.remove(<embers:plate_gold>);
 Stamper.add(<embers:plate_gold>, <liquid:octine> * 144, <embers:stamp_plate>);
