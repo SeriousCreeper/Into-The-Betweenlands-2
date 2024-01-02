@@ -141,6 +141,8 @@ scripts.utils.addShaped("candle_black", <thaumcraft:candle_black>, [[<minecraft:
 
 
 // ARCANE WORKBENCH - SHAPED
+recipes.remove(<thaumicaugmentation:arcane_terraformer>);
+
 recipes.remove(<thaumcraft:thaumometer>);
 ArcaneWorkbench.removeRecipe("thaumometer");
 ArcaneWorkbench.registerShapedRecipe("thaumometer", "FIRSTSTEPS@2", 20, [
