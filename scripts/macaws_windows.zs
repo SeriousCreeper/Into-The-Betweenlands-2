@@ -3,16 +3,16 @@ import crafttweaker.item.IIngredient;
 
 recipes.remove(<mcwwindows:window_base>);
 scripts.utils.addShaped("mcwwindows_window_base", <mcwwindows:window_base> * 4, [
-	[<ore:stick>, <ore:stick>, <ore:stick>], 
-	[<ore:stick>, <thebetweenlands:silt_glass_pane>, <ore:stick>], 
-	[<ore:stick>, <ore:stick>, <ore:stick>]
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
+	[<ore:stickWood>, <thebetweenlands:silt_glass_pane>, <ore:stickWood>], 
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
 recipes.remove(<mcwwindows:window_centre_bar_base>);
 scripts.utils.addShaped("mcwwindows_window_centre_bar_base", <mcwwindows:window_centre_bar_base> * 2, [
-	[null, <ore:stick>, null], 
-	[<ore:stick>, <mcwwindows:window_base>, <ore:stick>], 
-	[null, <ore:stick>, null]
+	[null, <ore:stickWood>, null], 
+	[<ore:stickWood>, <mcwwindows:window_base>, <ore:stickWood>], 
+	[null, <ore:stickWood>, null]
 ]);
 
 
