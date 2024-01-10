@@ -5,6 +5,7 @@ import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Blueprint;
+import mods.immersiveengineering.BottlingMachine;
 
 
 val itemsToRemove as IItemStack[] = [
@@ -411,8 +412,10 @@ MetalPress.removeRecipeByMold(<immersiveengineering:mold:7>);
 
 
 
-
-
+// Bottling Machine
+BottlingMachine.addRecipe(<simpledifficulty:purified_water_bottle>, <minecraft:glass_bottle>, <liquid:clean_water> * 125);
+BottlingMachine.addRecipe(<simpledifficulty:canteen>.withTag({Doses: 3, CanteenType: 3}), <simpledifficulty:canteen>.withTag({Doses: 0, CanteenType: 0}), <liquid:clean_water> * 4000);
+BottlingMachine.addRecipe(<simpledifficulty:iron_canteen>.withTag({Doses: 7, CanteenType: 3}), <simpledifficulty:iron_canteen>.withTag({Doses: 0, CanteenType: 0}), <liquid:clean_water> * 8000);
 
 <immersiveengineering:stone_decoration:2>.displayName = "Reinforced Archaic Bricks";
 <immersiveengineering:mold:2>.displayName = "Rod Stamp";
