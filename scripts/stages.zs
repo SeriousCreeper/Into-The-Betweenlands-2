@@ -104,6 +104,14 @@ IEMultiBlockStages.addStage("removed", "IE:CokeOven", "This multiblock is not av
 IEMultiBlockStages.addStage("removed", "IE:AlloySmelter", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IE:BlastFurnace", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IE:MetalPress", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:Mixer", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:Squeezer", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:Fermenter", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:Refinery", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:DieselGenerator", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:ArcFurnace", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IP:DistillationTower", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IP:Pumpjack", "This multiblock is not available.");
 
 
 function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack[]) {
