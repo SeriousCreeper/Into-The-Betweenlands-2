@@ -2,7 +2,7 @@
 	title: "Permission Granted",
 	icon: "contenttweaker:access_crystal",
 	x: 0.0d,
-	y: -0.5d,
+	y: -1.5d,
 	shape: "gear",
 	text: [
 		"First choose a profession by right clicking the §6Starter Kit§r found in your inventory.",
