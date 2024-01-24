@@ -1,6 +1,6 @@
 {
 	title: "Ancient Armor - Stage 1",
-	x: 4.0d,
+	x: 3.25d,
 	y: -4.0d,
 	text: [
 		"I've come across fragments from what appears to be a once-majestic set of armor. ",
@@ -17,16 +17,16 @@
 		uid: "df9b7517",
 		type: "item",
 		items: [{
-			item: "contenttweaker:broken_ancient_armor_helmet_1"
+			item: "contenttweaker:broken_ancient_armor_helmet_0"
 		},
 		{
-			item: "contenttweaker:broken_ancient_armor_chestplate_1"
+			item: "contenttweaker:broken_ancient_armor_chestplate_0"
 		},
 		{
-			item: "contenttweaker:broken_ancient_armor_leggings_1"
+			item: "contenttweaker:broken_ancient_armor_leggings_0"
 		},
 		{
-			item: "contenttweaker:broken_ancient_armor_boots_1"
+			item: "contenttweaker:broken_ancient_armor_boots_0"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

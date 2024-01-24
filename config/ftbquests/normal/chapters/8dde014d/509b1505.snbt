@@ -1,12 +1,12 @@
 {
-	title: "Ancient Armor - Stage 2",
-	x: 5.5d,
+	title: "Ancient Armor - Stage 3",
+	x: 6.25d,
 	y: -4.0d,
 	text: [
 		""
 	],
 	dependencies: [
-		"919bca22"
+		"abb39171"
 	],
 	tasks: [{
 		uid: "96c30776",

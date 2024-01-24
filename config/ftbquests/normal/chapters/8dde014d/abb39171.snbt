@@ -1,0 +1,29 @@
+{
+	title: "Ancient Armor - Stage 2",
+	x: 4.75d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"919bca22"
+	],
+	tasks: [{
+		uid: "445ab60d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:broken_ancient_armor_helmet_1"
+		},
+		{
+			item: "contenttweaker:broken_ancient_armor_chestplate_1"
+		},
+		{
+			item: "contenttweaker:broken_ancient_armor_leggings_1"
+		},
+		{
+			item: "contenttweaker:broken_ancient_armor_boots_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
