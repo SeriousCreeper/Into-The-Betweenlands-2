@@ -90,10 +90,10 @@ ItemStages.stageModItems("unstaged", "aetherworks");
 Recipes.setRecipeStageByMod("unstaged", "aetheriumashenarmor");
 ItemStages.stageModItems("unstaged", "aetheriumashenarmor");
 
-ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_helmet>);
-ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_chestplate>);
-ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_leggings>);
-ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_boots>);
+ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_helmet:*>);
+ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_chestplate:*>);
+ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_leggings:*>);
+ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_boots:*>);
 
 ItemStages.addItemStage("unstaged", <thaumicaugmentation:gauntlet>.withTag({color: 8022208}));
 
