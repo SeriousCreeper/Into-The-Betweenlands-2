@@ -54,6 +54,7 @@
     <entry value="-1.0">mod_lavacow:raven</entry>
   </modifier>
   <modifier value="dimension">
+    <entry value="-0.1">thaumicaugmentation:emptiness</entry>
   </modifier>
   <modifier value="misc">
     <entry value="0.5">fish</entry>
