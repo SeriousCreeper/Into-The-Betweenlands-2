@@ -1296,7 +1296,6 @@ Infusion.registerRecipe("corrupted_bone_wayfinder_cragrock", "BASEINFUSION", <bl
 */
 
 recipes.remove(<pyrotech:wither_forge>);
-/*
 Infusion.registerRecipe("wither_forge", "BASEINFUSION", <pyrotech:wither_forge>, 5, [
 	<aspect:ignis> * 100,
 	<aspect:praecantatio> * 100,
@@ -1313,7 +1312,6 @@ Infusion.registerRecipe("wither_forge", "BASEINFUSION", <pyrotech:wither_forge>,
 	<thaumcraft:ingot:1>,
 	<arcanearchives:containment_field>
 ]);
-*/
 
 Infusion.registerRecipe("sludgeon_wayfinder", "BASEINFUSION", <bladditions:corrupted_bone_wayfinder>.withTag({dimension: 23}), 5, [
 	<aspect:permutatio> * 30,
