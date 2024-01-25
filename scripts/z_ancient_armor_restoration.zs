@@ -82,11 +82,11 @@ for i, item in armor_stage_3 {
 	Alchemy.add(armor_stage_4[i], 
 	[item, <thebetweenlands:ancient_remnant_block>, <thebetweenlands:octine_block>, <thebetweenlands:syrmorite_block>, <embers:block_dawnstone>], 
 		{
-			"dawnstone" : 32 to 64, 
-			"iron" : 32 to 64, 
-			"copper" : 32 to 64, 
-			"silver" : 32 to 64, 
-			"lead" : 32 to 64
+			"dawnstone" : 64 to 64, 
+			"iron" : 64 to 64, 
+			"copper" : 64 to 64, 
+			"silver" : 64 to 64, 
+			"lead" : 64 to 64
 		}
 	);
 }
