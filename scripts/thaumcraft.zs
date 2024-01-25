@@ -1126,6 +1126,7 @@ Crucible.registerRecipe("everfullurn", "EVERFULLURN", <thaumcraft:everfull_urn>,
 
 
 Crucible.removeRecipe("liquiddeath");
+Crucible.removeRecipe(<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}));
 /*
 Crucible.registerRecipe("liquiddeath", "LIQUIDDEATH", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}), <thebetweenlands:bl_bucket:1>, [
 	<aspect:alkimia> * 20,

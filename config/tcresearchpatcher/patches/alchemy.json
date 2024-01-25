@@ -1,5 +1,22 @@
 [
     {
+        "key": "LIQUIDDEATH",    
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/1/recipes"
+            },
+            {
+                "op": "remove",
+                "path": "category"
+            },
+            {
+                "op": "remove",
+                "path": "parents"
+            }
+        ]
+    },
+    {
         "key": "HEDGEALCHEMY",
         "ops": [
             {
