@@ -375,6 +375,9 @@ oreNSWebs.add(<thebetweenlands:lichen>);
 oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 
+<ore:dustWood>.remove(<prodigytech:sawdust>);
+<ore:dustWood>.add(<pyrotech:rock:7>);
+
 
 //<ore:ingotIron>.remove(<minecraft:iron_ingot>);
 //<ore:ingotIron>.add(<thebetweenlands:items_misc:11>);
@@ -511,7 +514,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:banner>.add(<thaumcraft:banner_black>);
 
 <ore:dustAsh>.add(<pyrotech:material:0>);
-<ore:dustAsh>.remove(<embers:dust_ash>);
+<ore:dustAsh>.remove(<prodigytech:ash>);
 <ore:dustAshes>.remove(<embers:dust_ash>);
 
 <ore:toolAxe>.add(<thebetweenlands:valonite_axe:*>);
