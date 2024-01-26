@@ -6,6 +6,7 @@
 !/config/**
 !/scripts/**
 !/resources/**
+!/oresources/**
 !/structures/**
 !/patchouli_books/**
 # You can be specific with these rules
