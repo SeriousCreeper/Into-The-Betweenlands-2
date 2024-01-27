@@ -783,7 +783,7 @@ ArcaneWorkbench.registerShapedRecipe("tubebuffer", "TUBES@1", 25, [
 ]);
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:tube>);
-ArcaneWorkbench.registerShapedRecipe("tubebuffer", "TUBES@1", 10, [
+ArcaneWorkbench.registerShapedRecipe("tube", "TUBES@1", 10, [
 ], 
 <thaumcraft:tube> * 8, 
 [
