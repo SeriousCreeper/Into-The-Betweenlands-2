@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/broken_ancient_armor_boots_1"
+    "layer0": "contenttweaker:items/broken_ancient_armor_boots"
   }
 }
