@@ -1,6 +1,8 @@
 {
   "version": 2,
   "data": {
+    "arcaneworld:arcane_dungeon": "PLAINS",
+    "arcaneworld:arcane_void": "PLAINS",
     "jeid:error_biome": "PLAINS",
     "minecraft:beaches": "SHORE",
     "minecraft:birch_forest": "BIRCH",
