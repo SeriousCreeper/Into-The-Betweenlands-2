@@ -94,9 +94,9 @@ recipes.addShaped("trowel", <quark:trowel>, [
 	[null, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>]
 ]);
 
-recipes.remove(<quark:tiny_potato>);
-recipes.addHiddenShapeless("tiny_pebble", <quark:tiny_potato>, [<thebetweenlands:items_misc:50>, <thebetweenlands:items_misc:19>]);
-recipes.addHiddenShapeless("angry_tiny_pebble", <quark:tiny_potato>.withTag({angery: 1 as byte}), [<thebetweenlands:angry_pebble>, <thebetweenlands:items_misc:19>]);
+//recipes.remove(<quark:tiny_potato>);
+//recipes.addHiddenShapeless("tiny_pebble", <quark:tiny_potato>, [<thebetweenlands:items_misc:50>, <thebetweenlands:items_misc:19>]);
+//recipes.addHiddenShapeless("angry_tiny_pebble", <quark:tiny_potato>.withTag({angery: 1 as byte}), [<thebetweenlands:angry_pebble>, <thebetweenlands:items_misc:19>]);
 
 val sidingTypes = [
 	<quark:vertical_planks>,
@@ -132,8 +132,8 @@ for i, siding in sidingTypes {
 <quark:vertical_planks:4>.displayName = "Nibbletwig Siding";
 <quark:vertical_planks:5>.displayName = "Rotten Siding";
 
-<quark:tiny_potato>.displayName = "Tiny Pebble";
-<quark:tiny_potato>.withTag({angery: 1 as byte}).displayName = "Angry Tiny Pebble";
+//<quark:tiny_potato>.displayName = "Tiny Pebble";
+//<quark:tiny_potato>.withTag({angery: 1 as byte}).displayName = "Angry Tiny Pebble";
 
 <quark:chain>.displayName = "Syrmorite Chain";
 
