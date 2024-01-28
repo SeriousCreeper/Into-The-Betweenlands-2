@@ -64,12 +64,22 @@ val wormholeItemsNotToStage = [
 val ieItemsNotToStage = [
 ] as IItemStack[];
 
+val botaniaItemsNotToStage = [
+] as IItemStack[];
+
+val bloodmagicItemsNotToStage = [
+] as IItemStack[];
+
+
 stageMods("roots", "knowledge_of_spirit", rootsItemsNotToStage);
 
 stageMods("embers", "knowledge_of_malice", embersItemsNotToStage);
 stageMods("soot", "knowledge_of_malice", embersItemsNotToStage);
 
 stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
+
+stageMods("bloodmagic", "bloodmagic", bloodmagicItemsNotToStage);
+stageMods("botania", "botania", botaniaItemsNotToStage);
 
 //var sludgeonStage = "knowledge_of_technology";
 var sludgeonStage = "unstaged";
