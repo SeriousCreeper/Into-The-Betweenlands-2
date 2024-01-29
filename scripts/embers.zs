@@ -259,7 +259,7 @@ scripts.utils.addShaped("clockwork_attenuator", <embers:clockwork_attenuator>, [
 recipes.remove(<embers:steam_engine>);
 scripts.utils.addShaped("steam_engine", <embers:steam_engine>, [
 	[null, <embers:pipe:*>, <embers:pipe:*>], 
-	[<mysticalmechanics:axle_iron:*>, <mysticalmechanics:gear_iron>, <ore:plateOctine>], 
+	[<mysticalmechanics:axle_iron:*>, <mystgears:gear_syrmorite>, <ore:plateOctine>], 
 	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateOctine>]
 ]);
 
