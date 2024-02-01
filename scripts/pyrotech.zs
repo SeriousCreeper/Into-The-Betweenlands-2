@@ -802,6 +802,7 @@ slabRecipe("giant_root_plank_slab_treated", <thebetweenlands:giant_root_plank_sl
 slabRecipe("hearthgrove_plank_slab_treated", <thebetweenlands:hearthgrove_plank_slab_treated>, <thebetweenlands:hearthgrove_planks_treated>, 2, 3, 3);
 slabRecipe("nibbletwig_plank_slab_treated", <thebetweenlands:nibbletwig_plank_slab_treated>, <thebetweenlands:nibbletwig_planks_treated>, 2, 3, 3);
 slabRecipe("rotten_plank_slab_treated", <thebetweenlands:rotten_plank_slab_treated>, <thebetweenlands:rotten_planks_treated>, 2, 3, 3);
+slabRecipe("livingwood_planks", <botania:livingwood1slab>, <botania:livingwood:1>, 2, 3, 3);
 
 //slabRecipe("treatedwood_slab_2", <immersiveengineering:treated_wood_slab:2>, <immersiveengineering:treated_wood:2>, 2, 3, 3);
 //slabRecipe("treatedwood_slab_1", <immersiveengineering:treated_wood_slab:1>, <immersiveengineering:treated_wood:1>, 2, 3, 3);
@@ -816,6 +817,8 @@ planksRecipe("rotten_planks", <thebetweenlands:rotten_planks>, <thebetweenlands:
 planksRecipe("greatwood_planks", <thaumcraft:plank_greatwood>, <thaumcraft:log_greatwood:*>, 4, 5, 6);
 planksRecipe("silverwood_planks", <thaumcraft:plank_silverwood>, <thaumcraft:log_silverwood:*>, 4, 5, 6);
 planksRecipe("wildwood_planks", <roots:wildwood_planks>, <roots:wildwood_log:*>, 4, 5, 6);
+planksRecipe("livingwood_planks", <botania:livingwood:1>, <botania:livingwood>, 4, 5, 6);
+
 
 brickSawmillRecipeBuilder("pyrotech_material_16", <pyrotech:material:16>, <thebetweenlands:betweenstone_brick_slab>, 2, 2, false);
 brickSawmillRecipeBuilder("mud_brick_slab_decay_4", <thebetweenlands:mud_brick_slab_decay_4>, <thebetweenlands:mud_bricks_carved:13>, 2, 2, false);

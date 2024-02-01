@@ -65,6 +65,7 @@ val ieItemsNotToStage = [
 ] as IItemStack[];
 
 val botaniaItemsNotToStage = [
+	<botania:lexicon>.withTag({})
 ] as IItemStack[];
 
 val bloodmagicItemsNotToStage = [
@@ -94,6 +95,7 @@ stageMods("wormhole", sludgeonStage, wormholeItemsNotToStage);
 
 ItemStages.addItemStage(sludgeonStage, <pyrotech:wither_forge>);
 Recipes.setRecipeStage(sludgeonStage, <pyrotech:wither_forge>);
+Recipes.setRecipeStage("botania", <botania:lexicon>.withTag({}));
 
 Recipes.setRecipeStageByMod("unstaged", "aetherworks");
 ItemStages.stageModItems("unstaged", "aetherworks");
