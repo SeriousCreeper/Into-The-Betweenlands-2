@@ -802,7 +802,7 @@ slabRecipe("giant_root_plank_slab_treated", <thebetweenlands:giant_root_plank_sl
 slabRecipe("hearthgrove_plank_slab_treated", <thebetweenlands:hearthgrove_plank_slab_treated>, <thebetweenlands:hearthgrove_planks_treated>, 2, 3, 3);
 slabRecipe("nibbletwig_plank_slab_treated", <thebetweenlands:nibbletwig_plank_slab_treated>, <thebetweenlands:nibbletwig_planks_treated>, 2, 3, 3);
 slabRecipe("rotten_plank_slab_treated", <thebetweenlands:rotten_plank_slab_treated>, <thebetweenlands:rotten_planks_treated>, 2, 3, 3);
-slabRecipe("livingwood_planks", <botania:livingwood1slab>, <botania:livingwood:1>, 2, 3, 3);
+slabRecipe("livingwood_slab", <botania:livingwood1slab>, <botania:livingwood:1>, 2, 3, 3);
 
 //slabRecipe("treatedwood_slab_2", <immersiveengineering:treated_wood_slab:2>, <immersiveengineering:treated_wood:2>, 2, 3, 3);
 //slabRecipe("treatedwood_slab_1", <immersiveengineering:treated_wood_slab:1>, <immersiveengineering:treated_wood:1>, 2, 3, 3);
