@@ -237,6 +237,8 @@ val itemsToRemove = [
 	<ftbquests:barrier>,
 	<ftbquests:reward_collector>,
 
+	<botania:petal:*>,
+
 	//<mystgears:gear_copper>,
 ] as IItemStack[];
 
