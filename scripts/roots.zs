@@ -304,6 +304,12 @@ Mortar.changeSpell("spell_petal_shell", [
 
 
 // Fey Crafting
+Fey.addRecipe("livingwood", <botania:livingwood> * 4, 
+	[<ore:petalWhite>, <roots:wildwood_log>, <roots:wildwood_log>, <roots:wildwood_log>, <roots:wildwood_log>]);
+
+Fey.addRecipe("livingrock", <botania:livingrock> * 4, 
+	[<ore:petalWhite>, <roots:runestone>, <roots:runestone>, <roots:runestone>, <roots:runestone>]);
+
 Fey.removeRecipe(<roots:runic_shears>);
 Fey.addRecipe("runic_shears", <roots:runic_shears>, 
 	[<thebetweenlands:sickle>, <roots:pereskia>, <roots:pereskia>, <roots:runestone>, <roots:runestone>]);
