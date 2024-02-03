@@ -175,7 +175,7 @@ scripts.utils.addShapeless("dragonfly_wings", <thebetweenlands:items_misc:3> * 2
 scripts.utils.addBLChangeTooltip(<thebetweenlands:octine_pickaxe:*>, "Chance to turn ore into slag heap");
 scripts.utils.addBLChangeTooltip(<thebetweenlands:octine_shovel:*>, "Chance to turn sand into glass, mud into bricks");
 
-scripts.utils.addInfoTooltip(<thebetweenlands:sulfur_torch_extinguished>, "Can be relit with an octine ingot or at a campfire.");
+scripts.utils.addInfoTooltip(<thebetweenlands:sulfur_torch_extinguished>, "Can be relit with an octine ingot or at a campfire.\nAutomatically lights when carrying an octine ingot.");
 
 <thebetweenlands:moss_filter>.maxDamage = 4000;
 <thebetweenlands:silk_filter>.maxDamage = 20000;
