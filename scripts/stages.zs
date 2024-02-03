@@ -102,18 +102,8 @@ ItemStages.stageModItems("unstaged", "aetherworks");
 Recipes.setRecipeStageByMod("unstaged", "aetheriumashenarmor");
 ItemStages.stageModItems("unstaged", "aetheriumashenarmor");
 
-ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_helmet:*>);
-ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_chestplate:*>);
-ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_leggings:*>);
-ItemStages.addItemStage("ancient_armor", <thebetweenlands:ancient_boots:*>);
-
 ItemStages.addItemStage("unstaged", <thaumicaugmentation:gauntlet>.withTag({color: 8022208}));
 
-
-ItemStages.setUnfamiliarName("Ancient Helmet", <thebetweenlands:ancient_helmet>);
-ItemStages.setUnfamiliarName("Ancient Chestplate", <thebetweenlands:ancient_chestplate>);
-ItemStages.setUnfamiliarName("Ancient Leggings", <thebetweenlands:ancient_leggings>);
-ItemStages.setUnfamiliarName("Ancient Boots", <thebetweenlands:ancient_boots>);
 
 //IEMultiBlockStages.addStage("removed", "IE:CokeOven", "This multiblock is not available.");
 //IEMultiBlockStages.addStage("removed", "IE:AlloySmelter", "This multiblock is not available.");

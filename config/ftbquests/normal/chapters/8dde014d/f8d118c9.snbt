@@ -27,13 +27,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "9714374d",
-		type: "gamestage",
-		title: "Granted: Ancient Armor",
-		icon: "thebetweenlands:ancient_helmet",
-		auto: "no_toast",
-		stage: "ancient_armor"
 	}]
 }
