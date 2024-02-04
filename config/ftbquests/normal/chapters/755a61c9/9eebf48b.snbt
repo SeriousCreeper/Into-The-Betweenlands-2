@@ -1,0 +1,48 @@
+{
+	title: "Rubber Boots",
+	x: 9.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"Rubber boots will make walking on mud easier.",
+		"",
+		"Place a bucket onto a Rubber Tree to collect liquid rubber.",
+		"",
+		"A wooden bucket will turn into rubber balls, but burn up in the process. ",
+		"",
+		"A syrmorite bucket needs to be right clicked to extract the dried up rubber."
+	],
+	tasks: [{
+		uid: "8ad381a9",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket_rubber",
+			tag: {}
+		},
+		{
+			id: "thebetweenlands:bl_bucket_rubber",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aba5f81a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 23"
+		},
+		{
+			item: "thebetweenlands:syrmorite_bucket_solid_rubber"
+		}]
+	},
+	{
+		uid: "8bfaba97",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:rubber_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
