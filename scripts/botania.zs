@@ -10,6 +10,14 @@ var defaultPureDaisyTime = 60 * 20; // make this faster as pacifisit
 
 recipes.remove(<botania:specialflower>.withTag({type: "puredaisy"}));
 recipes.remove(<botania:petal:*>);
+recipes.remove(<botania:dye:*>);
+recipes.remove(<botania:quartztypedark>);
+recipes.remove(<botania:quartztypemana>);
+recipes.remove(<botania:quartztypeblaze>);
+recipes.remove(<botania:quartztypelavender>);
+recipes.remove(<botania:quartztypered>);
+recipes.remove(<botania:quartztypeelf>);
+recipes.remove(<botania:quartztypesunny>);
 
 recipes.remove(<botania:altar>);
 scripts.utils.addShaped("altar_0", <botania:altar>, [
@@ -23,6 +31,49 @@ scripts.utils.addShapeless("botania_manaresource_6", <botania:manaresource:6>, [
 
 recipes.remove(<botania:fertilizer>);
 scripts.utils.addShapeless("fertilizer", <botania:fertilizer>, [<minecraft:dye:15>, <minecraft:dye:11>, <minecraft:dye:11>, <minecraft:dye:1>, <minecraft:dye:1>]);
+
+recipes.removeByRecipeName("botania:pavement_0");
+recipes.removeByRecipeName("botania:pavement_1");
+recipes.removeByRecipeName("botania:pavement_2");
+recipes.removeByRecipeName("botania:pavement_3");
+recipes.removeByRecipeName("botania:pavement_4");
+recipes.removeByRecipeName("botania:pavement_5");
+scripts.utils.addShapeless("pavement_0", <botania:pavement> * 3, [<ore:livingrock>, <ore:cobblestone>, <ore:sand>]);
+
+scripts.utils.addShaped("pavement_1", <botania:pavement:1> * 8, [
+	[<botania:pavement>, <botania:pavement>, <botania:pavement>],
+	[<botania:pavement>, <minecraft:dye:0>, <botania:pavement>],
+	[<botania:pavement>, <botania:pavement>, <botania:pavement>]
+]);
+
+scripts.utils.addShaped("pavement_2", <botania:pavement:2> * 8, [
+	[<botania:pavement>, <botania:pavement>, <botania:pavement>],
+	[<botania:pavement>, <minecraft:dye:4>, <botania:pavement>],
+	[<botania:pavement>, <botania:pavement>, <botania:pavement>]
+]);
+
+scripts.utils.addShaped("pavement_3", <botania:pavement:3> * 8, [
+	[<botania:pavement>, <botania:pavement>, <botania:pavement>],
+	[<botania:pavement>, <minecraft:dye:1>, <botania:pavement>],
+	[<botania:pavement>, <botania:pavement>, <botania:pavement>]
+]);
+
+scripts.utils.addShaped("pavement_4", <botania:pavement:4> * 8, [
+	[<botania:pavement>, <botania:pavement>, <botania:pavement>],
+	[<botania:pavement>, <minecraft:dye:11>, <botania:pavement>],
+	[<botania:pavement>, <botania:pavement>, <botania:pavement>]
+]);
+
+scripts.utils.addShaped("pavement_5", <botania:pavement:5> * 8, [
+	[<botania:pavement>, <botania:pavement>, <botania:pavement>],
+	[<botania:pavement>, <minecraft:dye:2>, <botania:pavement>],
+	[<botania:pavement>, <botania:pavement>, <botania:pavement>]
+]);
+
+recipes.remove(<botania:lexicon>);
+scripts.utils.addShapeless("lexicon", <botania:lexicon>.withTag({}), [<ore:petalAny>, <minecraft:book>]);
+
+
 
 
 // pure daisy recipes
@@ -40,6 +91,9 @@ PureDaisy.removeRecipe(<minecraft:snow>);
 
 
 // mana infusions
+
+ManaInfusion.removeRecipe(<botania:specialflower>.withTag({type: "bubbellChibi"}));
+ManaInfusion.removeRecipe(<botania:quartz:*>);
 
 ManaInfusion.removeRecipe(<botania:manaresource:0>);
 ManaInfusion.addInfusion(<botania:manaresource:0>, <thebetweenlands:items_misc:11>, 3000);
@@ -67,6 +121,8 @@ for i in 0 to 16 {
 		[<botania:mushroom>.withDamage(i), <botania:mushroom>.withDamage(i), <botania:mushroom>.withDamage(i)]
 	]);
 
+	scripts.utils.addShapeless("petal_from_block_" ~ i, <botania:mushroom>.withDamage(i) * 9, [<botania:petalblock>.withDamage(i)]);
+
 	scripts.utils.addShaped("cosmetic_" ~ i, <botania:cosmetic>.withDamage(i), [
 		[<botania:mushroom>.withDamage(i), <botania:mushroom>.withDamage(i), <botania:mushroom>.withDamage(i)],
 		[<botania:mushroom>.withDamage(i), <botania:manaresource:16>, <botania:mushroom>.withDamage(i)],
@@ -87,6 +143,11 @@ Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "endoflame"}));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "entropinnyum"}));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "shulk_me_not"}));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "thermalily"}));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "tigerseye"}));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "loonium"}));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "vinculotus"}));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "bubbell"}));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "exoflame"}));
 
 
 

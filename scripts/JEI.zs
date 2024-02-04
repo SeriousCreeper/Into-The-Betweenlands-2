@@ -238,6 +238,13 @@ val itemsToRemove = [
 	<ftbquests:reward_collector>,
 
 	<botania:petal:*>,
+	<botania:pestleandmortar>,
+	<botania:quartz:*>,
+	<botania:magnetring>,
+	<botania:magnetringgreater>,
+	<botania:magnetring>.withTag({}),
+	<botania:magnetringgreater>.withTag({}),
+
 
 	//<mystgears:gear_copper>,
 ] as IItemStack[];

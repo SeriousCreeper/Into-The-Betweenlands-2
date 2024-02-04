@@ -802,7 +802,11 @@ slabRecipe("giant_root_plank_slab_treated", <thebetweenlands:giant_root_plank_sl
 slabRecipe("hearthgrove_plank_slab_treated", <thebetweenlands:hearthgrove_plank_slab_treated>, <thebetweenlands:hearthgrove_planks_treated>, 2, 3, 3);
 slabRecipe("nibbletwig_plank_slab_treated", <thebetweenlands:nibbletwig_plank_slab_treated>, <thebetweenlands:nibbletwig_planks_treated>, 2, 3, 3);
 slabRecipe("rotten_plank_slab_treated", <thebetweenlands:rotten_plank_slab_treated>, <thebetweenlands:rotten_planks_treated>, 2, 3, 3);
-slabRecipe("livingwood_slab", <botania:livingwood1slab>, <botania:livingwood:1>, 2, 3, 3);
+slabRecipe("livingwood_slab_1", <botania:livingwood1slab>, <botania:livingwood:1>, 2, 3, 3);
+slabRecipe("livingwood_slab_0", <botania:livingwood0slab>, <botania:livingwood:0>, 2, 3, 3);
+slabRecipe("dreamwood0slab", <botania:dreamwood0slab>, <botania:dreamwood>, 2, 3, 3);
+slabRecipe("dreamwood1slab", <botania:dreamwood1slab>, <botania:dreamwood:1>, 2, 3, 3);
+
 
 //slabRecipe("treatedwood_slab_2", <immersiveengineering:treated_wood_slab:2>, <immersiveengineering:treated_wood:2>, 2, 3, 3);
 //slabRecipe("treatedwood_slab_1", <immersiveengineering:treated_wood_slab:1>, <immersiveengineering:treated_wood:1>, 2, 3, 3);
@@ -818,6 +822,8 @@ planksRecipe("greatwood_planks", <thaumcraft:plank_greatwood>, <thaumcraft:log_g
 planksRecipe("silverwood_planks", <thaumcraft:plank_silverwood>, <thaumcraft:log_silverwood:*>, 4, 5, 6);
 planksRecipe("wildwood_planks", <roots:wildwood_planks>, <roots:wildwood_log:*>, 4, 5, 6);
 planksRecipe("livingwood_planks", <botania:livingwood:1>, <botania:livingwood>, 4, 5, 6);
+planksRecipe("dreamwood_planks", <botania:dreamwood:1>, <botania:dreamwood>, 4, 5, 6);
+planksRecipe("shimmerwoodplanks0slab", <botania:shimmerwoodplanks0slab>, <botania:shimmerwoodplanks>, 4, 5, 6);
 
 
 brickSawmillRecipeBuilder("pyrotech_material_16", <pyrotech:material:16>, <thebetweenlands:betweenstone_brick_slab>, 2, 2, false);
@@ -872,6 +878,48 @@ brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_lavender_blue", <thebe
 brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_brown_rust", <thebetweenlands:mud_brick_shingle_slab_stained_brown_rust>, <thebetweenlands:mud_brick_shingle_stained:13>, 2, 2, false);
 brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_midnight_purple", <thebetweenlands:mud_brick_shingle_slab_stained_midnight_purple>, <thebetweenlands:mud_brick_shingle_stained:14>, 2, 2, false);
 brickSawmillRecipeBuilder("mud_brick_shingle_slab_stained_pewter_grey", <thebetweenlands:mud_brick_shingle_slab_stained_pewter_grey>, <thebetweenlands:mud_brick_shingle_stained:15>, 2, 2, false);
+brickSawmillRecipeBuilder("livingrock0slab", <botania:livingrock0slab>, <botania:livingrock>, 2, 2, false);
+brickSawmillRecipeBuilder("livingrock1slab", <botania:livingrock1slab>, <botania:livingrock:1>, 2, 2, false);
+brickSawmillRecipeBuilder("quartzslabdarkhalf", <botania:quartzslabdarkhalf>, <botania:quartztypedark>, 2, 2, false);
+brickSawmillRecipeBuilder("quartzslabmanahalf", <botania:quartzslabmanahalf>, <botania:quartztypemana>, 2, 2, false);
+brickSawmillRecipeBuilder("quartzslabblazehalf", <botania:quartzslabblazehalf>, <botania:quartztypeblaze>, 2, 2, false);
+brickSawmillRecipeBuilder("quartzslablavenderhalf", <botania:quartzslablavenderhalf>, <botania:quartztypelavender>, 2, 2, false);
+brickSawmillRecipeBuilder("quartzslabredhalf", <botania:quartzslabredhalf>, <botania:quartztypered>, 2, 2, false);
+brickSawmillRecipeBuilder("quartzslabelfhalf", <botania:quartzslabelfhalf>, <botania:quartztypeelf>, 2, 2, false);
+brickSawmillRecipeBuilder("quartzslabsunnyhalf", <botania:quartzslabsunnyhalf>, <botania:quartztypesunny>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea0slab", <botania:biomestonea0slab>, <botania:biomestonea>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea1slab", <botania:biomestonea1slab>, <botania:biomestonea:1>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea2slab", <botania:biomestonea2slab>, <botania:biomestonea:2>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea3slab", <botania:biomestonea3slab>, <botania:biomestonea:3>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea4slab", <botania:biomestonea4slab>, <botania:biomestonea:4>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea5slab", <botania:biomestonea5slab>, <botania:biomestonea:5>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea6slab", <botania:biomestonea6slab>, <botania:biomestonea:6>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea7slab", <botania:biomestonea7slab>, <botania:biomestonea:7>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea8slab", <botania:biomestonea8slab>, <botania:biomestonea:8>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea9slab", <botania:biomestonea9slab>, <botania:biomestonea:9>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea10slab", <botania:biomestonea10slab>, <botania:biomestonea:10>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea11slab", <botania:biomestonea11slab>, <botania:biomestonea:11>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea12slab", <botania:biomestonea12slab>, <botania:biomestonea:12>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea13slab", <botania:biomestonea13slab>, <botania:biomestonea:13>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea14slab", <botania:biomestonea14slab>, <botania:biomestonea:14>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestonea15slab", <botania:biomestonea15slab>, <botania:biomestonea:15>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestoneb0slab", <botania:biomestoneb0slab>, <botania:biomestoneb:0>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestoneb1slab", <botania:biomestoneb1slab>, <botania:biomestoneb:1>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestoneb2slab", <botania:biomestoneb2slab>, <botania:biomestoneb:2>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestoneb3slab", <botania:biomestoneb3slab>, <botania:biomestoneb:3>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestoneb4slab", <botania:biomestoneb4slab>, <botania:biomestoneb:4>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestoneb5slab", <botania:biomestoneb5slab>, <botania:biomestoneb:5>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestoneb6slab", <botania:biomestoneb6slab>, <botania:biomestoneb:6>, 2, 2, false);
+brickSawmillRecipeBuilder("biomestoneb7slab", <botania:biomestoneb7slab>, <botania:biomestoneb:7>, 2, 2, false);
+brickSawmillRecipeBuilder("pavement0slab", <botania:pavement0slab>, <botania:pavement:0>, 2, 2, false);
+brickSawmillRecipeBuilder("pavement1slab", <botania:pavement1slab>, <botania:pavement:1>, 2, 2, false);
+brickSawmillRecipeBuilder("pavement2slab", <botania:pavement2slab>, <botania:pavement:2>, 2, 2, false);
+brickSawmillRecipeBuilder("pavement3slab", <botania:pavement3slab>, <botania:pavement:3>, 2, 2, false);
+brickSawmillRecipeBuilder("pavement4slab", <botania:pavement4slab>, <botania:pavement:4>, 2, 2, false);
+brickSawmillRecipeBuilder("pavement5slab", <botania:pavement5slab>, <botania:pavement:5>, 2, 2, false);
+brickSawmillRecipeBuilder("shimmerrock0slab", <botania:shimmerrock0slab>, <botania:shimmerrock>, 2, 2, false);
+
+
 
 //brickSawmillRecipeBuilder("metal_decoration1_slab_7", <immersiveengineering:metal_decoration1_slab:7>, <immersiveengineering:metal_decoration1:7>, 2, 2, false);
 //brickSawmillRecipeBuilder("metal_decoration1_slab_6", <immersiveengineering:metal_decoration1_slab:6>, <immersiveengineering:metal_decoration1:6>, 2, 2, false);
