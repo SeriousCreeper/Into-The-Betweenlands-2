@@ -69,9 +69,9 @@ Store.addTrade("knowledge_of_technology", <thebetweenlands:mud_tower_brazier>, c
 Store.addTrade("knowledge_of_malice", <thebetweenlands:betweenstone_bricks_mirage>, cur_2 * 16);
 Store.addTrade("knowledge_of_malice", <thebetweenlands:possessed_block>, cur_2 * 32);
 
-Store.addTrade("knowledge_of_spirit", <thebetweenlands:glowing_betweenstone_tile>, cur_2 * 16);
-Store.addTrade("knowledge_of_spirit", <thebetweenlands:glowing_smooth_cragrock>, cur_2 * 16);
-Store.addTrade("knowledge_of_spirit", <thebetweenlands:inactive_glowing_smooth_cragrock>, cur_2 * 16);
+Store.addTrade("knowledge_of_druids", <thebetweenlands:glowing_betweenstone_tile>, cur_2 * 16);
+Store.addTrade("knowledge_of_druids", <thebetweenlands:glowing_smooth_cragrock>, cur_2 * 16);
+Store.addTrade("knowledge_of_druids", <thebetweenlands:inactive_glowing_smooth_cragrock>, cur_2 * 16);
 
 addExchangeStore();
 

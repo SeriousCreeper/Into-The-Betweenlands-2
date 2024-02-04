@@ -72,7 +72,7 @@ val bloodmagicItemsNotToStage = [
 ] as IItemStack[];
 
 
-stageMods("roots", "knowledge_of_spirit", rootsItemsNotToStage);
+stageMods("roots", "knowledge_of_druids", rootsItemsNotToStage);
 
 stageMods("embers", "knowledge_of_malice", embersItemsNotToStage);
 stageMods("soot", "knowledge_of_malice", embersItemsNotToStage);
@@ -142,7 +142,7 @@ function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack
 	}
 }
 
-Recipes.addShapeless("book_knowledge_of_spirit", "knowledge_of_spirit", <gamestagebooks:knowledge_of_spirit>, [
+Recipes.addShapeless("book_knowledge_of_druids", "knowledge_of_druids", <gamestagebooks:knowledge_of_druids>, [
 	<minecraft:book>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>
 ]);
 

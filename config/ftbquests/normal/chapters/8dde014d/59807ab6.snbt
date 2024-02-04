@@ -17,8 +17,8 @@
 		criterion: ""
 	}],
 	rewards: [{
-		uid: "e3e12cc4",
+		uid: "a1f30e38",
 		type: "item",
-		item: "gamestagebooks:knowledge_of_spirit"
+		item: "gamestagebooks:knowledge_of_technology"
 	}]
 }

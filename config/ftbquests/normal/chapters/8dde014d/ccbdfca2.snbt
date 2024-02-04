@@ -1,14 +1,17 @@
 {
-	title: "Knowledge of Spirit",
+	title: "Knowledge of Druids",
 	x: 4.0d,
 	y: 0.0d,
+	text: [
+		""
+	],
 	size: 2.0d,
 	tasks: [{
 		uid: "2e4f191a",
 		type: "gamestage",
-		title: "Knowledge of Spirit",
+		title: "Knowledge of Druids",
 		icon: "roots:roots_guide",
-		stage: "knowledge_of_spirit"
+		stage: "knowledge_of_druids"
 	}],
 	rewards: [{
 		uid: "1cbd9607",
