@@ -3,7 +3,7 @@
 	x: 0.25d,
 	y: -0.5d,
 	text: [
-		"Similar to a regular wayfinder, placing this unstable wayfinder onto an Offering Table and sneaking should teleport everyone around to the same place."
+		"Similar to a regular wayfinder, placing this unstable wayfinder onto an §6Offering Table§r and sneaking should teleport everyone around to the same place."
 	],
 	hide_dependency_lines: true,
 	dependencies: [
