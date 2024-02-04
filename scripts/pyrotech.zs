@@ -751,8 +751,9 @@ Chopping.removeAllRecipes();
 
 function stoneSawmillRecipeBuilder(name as string, itemOut as IItemStack, itemIn as IIngredient, countBone as int, countOctine as int, countDiamond as int) {
 	StoneSawmill.addRecipe(name ~ "_sawmill_bone", itemOut * countBone, itemIn, 200, <pyrotech:sawmill_blade_bone:*>, 2, true);
-	StoneSawmill.addRecipe(name ~ "_sawmill_octine", itemOut * countOctine, itemIn, 120, <pyrotech:sawmill_blade_gold:*>, 1, true);
-	StoneSawmill.addRecipe(name ~ "_sawmill_valonite", itemOut * countDiamond, itemIn, 180, <pyrotech:sawmill_blade_diamond:*>.or(<pyrotech:sawmill_blade_obsidian:*>), 1, true);
+	StoneSawmill.addRecipe(name ~ "_sawmill_octine", itemOut * countOctine, itemIn, 160, <pyrotech:sawmill_blade_gold:*>, 1, true);
+	StoneSawmill.addRecipe(name ~ "_sawmill_valonite", itemOut * countDiamond, itemIn, 120, <pyrotech:sawmill_blade_diamond:*>, 1, true);
+	StoneSawmill.addRecipe(name ~ "_sawmill_ancient", itemOut * countDiamond, itemIn, 80, <pyrotech:sawmill_blade_obsidian:*>, 0, true);
 }
 
 function brickSawmillRecipeBuilder(name as string, itemOut as IItemStack, itemIn as IIngredient, countOctine as int, countDiamond as int, dropSawDust as bool) {
@@ -768,7 +769,8 @@ function brickSawmillRecipeBuilder(name as string, itemOut as IItemStack, itemIn
 	GraniteAnvil.addRecipe(name ~ "_anvil", itemOut * 2, itemIn, 8, "pickaxe", true);
 
 	BrickSawmill.addRecipe(name ~ "_sawmill_octine", itemOut * countOctine, itemIn, 600, <pyrotech:sawmill_blade_gold:*>, 1 * multiplier);
-	BrickSawmill.addRecipe(name ~ "_sawmill_valonite", itemOut * countDiamond, itemIn, 300, <pyrotech:sawmill_blade_diamond:*>.or(<pyrotech:sawmill_blade_obsidian:*>), 1 * multiplier);
+	BrickSawmill.addRecipe(name ~ "_sawmill_valonite", itemOut * countDiamond, itemIn, 300, <pyrotech:sawmill_blade_diamond:*>, 1 * multiplier);
+	BrickSawmill.addRecipe(name ~ "_sawmill_ancient", itemOut * countDiamond, itemIn, 150, <pyrotech:sawmill_blade_obsidian:*>, 0);
 }
 
 
