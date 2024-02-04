@@ -1,0 +1,23 @@
+{
+	title: "Group Teleportation",
+	x: 0.25d,
+	y: -0.5d,
+	text: [
+		"Similar to a regular wayfinder, placing this unstable wayfinder onto an Offering Table and sneaking should teleport everyone around to the same place."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b09d30e4",
+		"16a8fd52",
+		"ff4494e7"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9649a223",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:offering_table"
+		}]
+	}]
+}
