@@ -1,7 +1,8 @@
 {
 	title: "Find a Druid Altar",
-	x: 1.25d,
-	y: -2.0d,
+	x: -0.25d,
+	y: -5.75d,
+	shape: "gear",
 	text: [
 		"I stumbled upon a profoundly ancient and mystical Altar, diligently guarded by a cadre of Druids.",
 		"",

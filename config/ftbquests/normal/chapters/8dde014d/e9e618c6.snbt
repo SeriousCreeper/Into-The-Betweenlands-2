@@ -1,6 +1,7 @@
 {
-	x: 7.0d,
-	y: 0.0d,
+	x: 12.5d,
+	y: 10.0d,
+	shape: "gear",
 	size: 2.0d,
 	tasks: [{
 		uid: "632d86bd",

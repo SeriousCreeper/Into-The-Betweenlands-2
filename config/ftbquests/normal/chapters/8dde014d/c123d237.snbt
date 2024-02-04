@@ -1,8 +1,9 @@
 {
 	title: "Just a Mirage",
 	icon: "thebetweenlands:sapling_weedwood",
-	x: 1.25d,
-	y: -3.5d,
+	x: -0.25d,
+	y: -7.25d,
+	shape: "gear",
 	text: [
 		"While I was sort of correct in assuming that the Wayfinder helps me in locating another structure, I didn't quite expect it to be in this... pocket dimension?",
 		"",

@@ -2,6 +2,7 @@
 	title: "Ancient Armor - Stage 2",
 	x: 4.75d,
 	y: -4.0d,
+	shape: "gear",
 	text: [
 		""
 	],

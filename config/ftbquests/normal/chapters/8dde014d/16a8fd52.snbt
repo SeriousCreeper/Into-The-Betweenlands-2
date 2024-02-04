@@ -1,13 +1,13 @@
 {
 	title: "Unstable Wayfinder - Sludgeon",
-	x: 2.25d,
-	y: 0.5d,
+	x: 0.75d,
+	y: -3.25d,
+	shape: "gear",
 	text: [
 		"I know this sounds strange, but after having explored the §6Sludgeon§r, i do believe with the help of the §6Inert Wayfinder§r and the new knowledge i've gained at the dungeon, i can modify the Wayfinder to locate §6another Sludgeon§r."
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"1d2c6ae8",
 		"39f0c596"
 	],
 	hide: true,

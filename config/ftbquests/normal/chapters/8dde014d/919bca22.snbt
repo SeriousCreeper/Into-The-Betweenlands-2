@@ -2,6 +2,7 @@
 	title: "Ancient Armor - Stage 1",
 	x: 3.25d,
 	y: -4.0d,
+	shape: "gear",
 	text: [
 		"I've come across fragments from what appears to be a once-majestic set of armor. ",
 		"",

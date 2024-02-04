@@ -1,6 +1,7 @@
 {
-	x: 1.25d,
-	y: -0.5d,
+	x: -0.25d,
+	y: -4.25d,
+	shape: "gear",
 	text: [
 		"Among the Druids, I discovered a drawing of a unique Wayfinder crafted at the Altar. ",
 		"",

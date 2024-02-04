@@ -1,7 +1,8 @@
 {
 	title: "Group Teleportation",
-	x: 0.25d,
-	y: -0.5d,
+	x: -1.25d,
+	y: -4.25d,
+	shape: "gear",
 	text: [
 		"Similar to a regular wayfinder, placing this unstable wayfinder onto an §6Offering Table§r and sneaking should teleport everyone around to the same place."
 	],

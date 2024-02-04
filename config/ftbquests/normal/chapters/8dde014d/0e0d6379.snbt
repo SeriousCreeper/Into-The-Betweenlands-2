@@ -1,9 +1,10 @@
 {
-	x: 8.5d,
-	y: 3.0d,
+	x: 9.0d,
+	y: -10.0d,
+	shape: "gear",
+	hide_dependency_lines: true,
 	dependencies: [
 		"e9e618c6",
-		"1d2c6ae8",
 		"33f14f77",
 		"ccbdfca2"
 	],
