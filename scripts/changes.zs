@@ -148,11 +148,11 @@ recipes.remove(<minecraft:trapped_chest>);
 scripts.utils.addShapeless("trapped_chest", <minecraft:trapped_chest>, [<thebetweenlands:weedwood_chest>, <betweenlandsredstone:scabyst_tripwire_hook>]);
 
 recipes.remove(<minecraft:item_frame>);
-scripts.utils.addShaped("item_frame", <minecraft:item_frame> * 2, [
-	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
-	[<ore:stickWood>, <thebetweenlands:items_misc:4>, <ore:stickWood>], 
-	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
-]);
+//scripts.utils.addShaped("item_frame", <minecraft:item_frame> * 2, [
+//	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
+//	[<ore:stickWood>, <thebetweenlands:items_misc:4>, <ore:stickWood>], 
+//	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
+//]);
 
 recipes.remove(<minecraft:armor_stand>);
 scripts.utils.addShaped("armor_stand", <minecraft:armor_stand>, [
