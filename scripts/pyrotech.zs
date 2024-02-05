@@ -742,6 +742,27 @@ IroncladAnvil.addRecipe("redstone_dust_from_dense_redstone", <betweenlandsredsto
 //IroncladAnvil.addRecipe("redstone_from_redstone_block", <minecraft:redstone> * 9, <ore:blockRedstone>, 8, "hammer");
 IroncladAnvil.addRecipe("valonite_block_to_gem", <thebetweenlands:items_misc:19> * 9, <thebetweenlands:valonite_block>, 8, "pickaxe");
 
+recipes.remove(<botania:manaresource:2>);
+IroncladAnvil.addRecipe("manadiamond_block_to_gem", <botania:manaresource:2> * 9, <botania:storage:3>, 8, "pickaxe");
+
+
+
+function setupMetalRecipe(name as string, itemNugget as IItemStack, itemIngot as IItemStack, itemBlock as IItemStack) {
+	recipes.remove(itemNugget);
+	recipes.remove(itemIngot);
+	recipes.remove(itemBlock);
+
+	IroncladAnvil.addRecipe(name ~ "_nugget", itemNugget * 9, itemIngot, 8, "pickaxe");
+	IroncladAnvil.addRecipe(name ~ "_ingot", itemIngot * 9, itemBlock, 8, "pickaxe");
+	
+	scripts.utils.addShapeless(name ~ "_ingot", itemIngot, [itemNugget, itemNugget, itemNugget, itemNugget, itemNugget, itemNugget, itemNugget, itemNugget, itemNugget]);
+	scripts.utils.addShapeless(name ~ "_block", itemBlock, [itemIngot, itemIngot, itemIngot, itemIngot, itemIngot, itemIngot, itemIngot, itemIngot, itemIngot]);
+}
+
+setupMetalRecipe("manasteel", <botania:manaresource:17>, <botania:manaresource>, <botania:storage>);
+setupMetalRecipe("terrasteel", <botania:manaresource:18>, <botania:manaresource:4>, <botania:storage:1>);
+setupMetalRecipe("elementium", <botania:manaresource:19>, <botania:manaresource:7>, <botania:storage:2>);
+
 
 
 // SAWMILL

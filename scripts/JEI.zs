@@ -245,6 +245,10 @@ val itemsToRemove = [
 	<botania:magnetring>.withTag({}),
 	<botania:magnetringgreater>.withTag({}),
 
+	<jaopca:block_blockelvenelementium>,
+	<jaopca:block_blockmanasteel>,
+	<jaopca:block_blockrawzorrasteel>,
+	<jaopca:block_blockterrasteel>,
 
 	//<mystgears:gear_copper>,
 ] as IItemStack[];
