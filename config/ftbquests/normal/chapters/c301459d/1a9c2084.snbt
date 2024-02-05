@@ -1,0 +1,23 @@
+{
+	title: "Find a Druid Altar",
+	x: -1.0d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"I stumbled upon a profoundly ancient and mystical Altar, diligently guarded by a cadre of Druids.",
+		"",
+		"Evidently, this enigmatic structure demands specific items for it to unveil its purpose and manifest its power..."
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "283355d6",
+		type: "observation",
+		title: "Druid Altar",
+		icon: "thebetweenlands:druid_altar",
+		match_type: "block_id",
+		match: "thebetweenlands:druid_altar",
+		timer: 0L
+	}]
+}

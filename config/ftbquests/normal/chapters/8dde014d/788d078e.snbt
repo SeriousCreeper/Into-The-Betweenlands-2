@@ -1,7 +1,7 @@
 {
 	title: "Investigate: Sludgeon",
-	x: 18.5d,
-	y: 13.5d,
+	x: 11.25d,
+	y: 6.5d,
 	shape: "gear",
 	text: [
 		"A cylindrical structure inside the Sludge Plains Clearing. ",
@@ -12,7 +12,6 @@
 	dependencies: [
 		"0f3f0367"
 	],
-	size: 2.0d,
 	tasks: [{
 		uid: "c57b64f1",
 		type: "advancement",
@@ -22,8 +21,8 @@
 		criterion: ""
 	}],
 	rewards: [{
-		uid: "5e65f008",
+		uid: "143056af",
 		type: "item",
-		item: "gamestagebooks:knowledge_of_technology"
+		item: "gamestagebooks:knowledge_of_decay"
 	}]
 }

@@ -1,8 +1,7 @@
 {
-	x: 21.0d,
-	y: 13.5d,
+	x: 12.25d,
+	y: 6.5d,
 	shape: "gear",
-	size: 2.0d,
 	tasks: [{
 		uid: "dcedefc7",
 		type: "gamestage",
