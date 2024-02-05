@@ -10,7 +10,7 @@
 		"- Create clean water bottles",
 		"- Wash Middle Gem Ores",
 		"",
-		"All it needs it §6Sulfur§r and §6Swamp Water§r."
+		"All it needs is §6Sulfur§r and §6Swamp Water§r."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

@@ -1,13 +1,12 @@
 {
-	title: "Investigate: Spirit Tree",
+	title: "Investigate: Sludgeon",
+	icon: "thebetweenlands:sludge_worm_egg_sac",
 	disable_toast: true,
 	x: -4.5d,
 	y: 0.0d,
 	shape: "diamond",
 	text: [
-		"Those fiery tools and weapons might be useful when exploring this mysterious looking tree. ",
-		"",
-		"I should head there next."
+		"I should head to the Sludgeon next."
 	],
 	dependencies: [
 		"f1098d87"
@@ -16,10 +15,10 @@
 	tasks: [{
 		uid: "5515c568",
 		type: "advancement",
-		title: "Advancement: Illegal Logging",
-		icon: "thebetweenlands:sapling_spirit_tree",
+		title: "Advancement: Not A Boss...?",
+		icon: "thebetweenlands:sludge_worm_egg_sac",
 		disable_toast: true,
-		advancement: "thebetweenlands:fighter/illegal_logging",
+		advancement: "thebetweenlands:fighter/not_a_boss",
 		criterion: ""
 	}]
 }

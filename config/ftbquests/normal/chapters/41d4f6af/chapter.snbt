@@ -1,0 +1,10 @@
+{
+	title: "Floramancy",
+	icon: {
+		id: "botania:lexicon",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
