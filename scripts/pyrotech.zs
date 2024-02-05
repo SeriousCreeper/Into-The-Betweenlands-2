@@ -595,7 +595,7 @@ val campfireRecipes = [
 	<thebetweenlands:snail_flesh_cooked>,
 	<thebetweenlands:anadia_meat_cooked>,
 	<thebetweenlands:olm_egg_cooked>,
-	<roots:cooked_pereskia>,
+	//<roots:cooked_pereskia>,
 ] as IItemStack[];
 
 for item in campfireRecipes {
@@ -629,7 +629,7 @@ StoneOven.addRecipe("mire_snail_egg_cooked", <thebetweenlands:mire_snail_egg_coo
 StoneOven.addRecipe("snail_flesh_cooked", <thebetweenlands:snail_flesh_cooked>, <thebetweenlands:snail_flesh_raw>, true);
 StoneOven.addRecipe("anadia_meat_cooked", <thebetweenlands:anadia_meat_cooked>, <thebetweenlands:anadia_meat_raw>, true);
 StoneOven.addRecipe("olm_egg_cooked", <thebetweenlands:olm_egg_cooked>, <thebetweenlands:olm_egg_raw>, true);
-StoneOven.addRecipe("cooked_pereskia", <roots:cooked_pereskia>, <roots:pereskia_bulb>, true);
+//StoneOven.addRecipe("cooked_pereskia", <roots:cooked_pereskia>, <roots:pereskia_bulb>, true);
 StoneOven.addRecipe("ash", <embers:dust_ash>, <pyrotech:rock:7>, true);
 StoneOven.addRecipe("sulfur_torch", <thebetweenlands:sulfur_torch>, <thebetweenlands:sulfur_torch_extinguished>, true);
 StoneOven.addRecipe("dried_swamp_kelp", <thebetweenlands:items_misc:6>, <thebetweenlands:swamp_reed_item>, true);
