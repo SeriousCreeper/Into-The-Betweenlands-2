@@ -2,6 +2,7 @@ import mods.botania.PureDaisy;
 import mods.botania.ManaInfusion;
 import mods.botania.Apothecary;
 import mods.botania.RuneAltar;
+import mods.botania.ElvenTrade;
 
 // variables
 var defaultPureDaisyTime = 60 * 20; // make this faster as pacifisit
@@ -119,7 +120,20 @@ scripts.utils.addShaped("lens_14", <botania:lens:14>, [
 	[null, <ore:ingotElvenElementium>, null]
 ]);
 
+recipes.remove(<botania:grassseeds:3>);
+scripts.utils.addShapeless("grassseeds_3", <botania:grassseeds:3>, [<botania:grassseeds>, <thebetweenlands:dead_weedwood_bush>]);
 
+recipes.remove(<botania:grassseeds:4>);
+scripts.utils.addShapeless("grassseeds_4", <botania:grassseeds:4>, [<botania:grassseeds>, <thebetweenlands:items_misc:6>]);
+
+recipes.remove(<botania:grassseeds:6>);
+scripts.utils.addShapeless("grassseeds_6", <botania:grassseeds:6>, [<botania:grassseeds>, <embers:shard_ember>]);
+
+recipes.remove(<botania:grassseeds:7>);
+scripts.utils.addShapeless("grassseeds_7", <botania:grassseeds:7>, [<botania:grassseeds>, <thebetweenlands:items_misc:47>]);
+
+recipes.remove(<botania:grassseeds:8>);
+scripts.utils.addShapeless("grassseeds_8", <botania:grassseeds:8>, [<botania:grassseeds>, <thebetweenlands:items_misc:30>]);
 
 
 
@@ -135,6 +149,9 @@ PureDaisy.removeRecipe(<minecraft:sand>);
 PureDaisy.removeRecipe(<minecraft:packed_ice>);
 PureDaisy.removeRecipe(<minecraft:obsidian>);
 PureDaisy.removeRecipe(<minecraft:snow>);
+
+
+
 
 
 // mana infusions
@@ -156,6 +173,16 @@ ManaInfusion.addInfusion(<botania:manaresource:23>, <betweenlandsredstone:scabys
 
 ManaInfusion.removeRecipe(<botania:storage>);
 ManaInfusion.addInfusion(<botania:storage>, <thebetweenlands:syrmorite_block>, 27000);
+
+
+ManaInfusion.removeRecipe(<botania:grassseeds>);
+ManaInfusion.addInfusion(<botania:grassseeds>, <thebetweenlands:swamp_tallgrass>, 2500);
+
+ManaInfusion.removeRecipe(<botania:grassseeds:1>);
+ManaInfusion.addInfusion(<botania:grassseeds:1>, <thebetweenlands:dead_weedwood_bush>, 2500);
+
+ManaInfusion.removeRecipe(<botania:grassseeds:2>);
+ManaInfusion.addInfusion(<botania:grassseeds:2>, <thebetweenlands:mud>, 6500);
 
 for i in 0 to 16 {
 	ManaInfusion.addInfusion(<botania:flower>.withDamage(i), <botania:mushroom>.withDamage(i), 200);
@@ -221,6 +248,16 @@ RuneAltar.addRecipe(<botania:rune:5>, [<ore:runeEarthB>, <ore:runeAirB>, <thebet
 RuneAltar.addRecipe(<botania:rune:6>, [<ore:runeFireB>, <ore:runeAirB>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <thebetweenlands:items_misc:30>], 8000);
 RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <thebetweenlands:samite:*>, <roots:dewgonia>], 8000);
 
+
+
+
+
+// trades
+
+ElvenTrade.removeRecipe(<botania:manaresource:7>);
+ElvenTrade.removeRecipe(<botania:storage:2>);
+ElvenTrade.addRecipe([<botania:manaresource:7>], [<ore:ingotDawnstone>, <ore:ingotDawnstone>]);
+ElvenTrade.addRecipe([<botania:storage:2>], [<ore:blockDawnstone>, <ore:blockDawnstone>]);
 
 
 

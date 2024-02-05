@@ -244,6 +244,10 @@ val itemsToRemove = [
 	<botania:magnetringgreater>,
 	<botania:magnetring>.withTag({}),
 	<botania:magnetringgreater>.withTag({}),
+	<botania:manasteelshears>,
+	<botania:terrasword>,
+	<botania:terrapick>,
+	<botania:terraaxe>,
 
 	<jaopca:block_blockelvenelementium>,
 	<jaopca:block_blockmanasteel>,
