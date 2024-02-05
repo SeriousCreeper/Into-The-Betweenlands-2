@@ -5,8 +5,8 @@
 	group: 0,
 	default_quest_shape: "",
 	images: [{
-		x: 2.5d,
-		y: 4.75d,
+		x: 2.25d,
+		y: -2.25d,
 		width: 8.0d,
 		height: 8.0d,
 		rotation: 0.0d,
@@ -16,8 +16,8 @@
 		dev: false
 	},
 	{
-		x: 7.0d,
-		y: 5.5d,
+		x: 6.75d,
+		y: -1.75d,
 		width: 8.0d,
 		height: 8.0d,
 		rotation: 0.0d,
@@ -27,8 +27,8 @@
 		dev: false
 	},
 	{
-		x: 11.75d,
-		y: 4.5d,
+		x: 11.25d,
+		y: -2.75d,
 		width: 8.0d,
 		height: 8.0d,
 		rotation: 0.0d,
@@ -38,8 +38,8 @@
 		dev: false
 	},
 	{
-		x: -0.25d,
-		y: 7.25d,
+		x: -0.75d,
+		y: 0.0d,
 		width: 4.0d,
 		height: 4.0d,
 		rotation: -12.0d,
@@ -49,8 +49,8 @@
 		dev: false
 	},
 	{
-		x: 10.25d,
-		y: 8.75d,
+		x: 9.75d,
+		y: 1.25d,
 		width: 4.0d,
 		height: 4.0d,
 		rotation: 5.0d,
