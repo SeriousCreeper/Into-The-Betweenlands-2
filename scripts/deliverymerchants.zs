@@ -45,6 +45,11 @@ Store.addTrade(<simpledifficulty:dragon_canteen>.withTag({Doses: 0, CanteenType:
 Store.addTrade("knowledge_of_technology", <thebetweenlands:rune_door_key>, cur_2 * 64);
 Store.addTrade("knowledge_of_technology", <pogosticks:pogo_stick>, cur_3 * 4);
 
+Store.addTrade("knowledge_of_decay", <pyrotech:obsidian_hammer>, cur_3 * 8);
+Store.addTrade("knowledge_of_decay", <pyrotech:tongs_obsidian>, cur_3 * 8);
+Store.addTrade("knowledge_of_decay", <pyrotech:sawmill_blade_obsidian>, cur_3 * 8);
+Store.addTrade("knowledge_of_decay", <pyrotech:cog_obsidian>, cur_3 * 8);
+
 addExchangeStore();
 
 
