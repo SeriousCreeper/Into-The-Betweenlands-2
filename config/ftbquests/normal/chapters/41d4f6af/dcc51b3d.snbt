@@ -1,0 +1,20 @@
+{
+	title: "Display Hint",
+	x: 6.0d,
+	y: -1.5d,
+	shape: "circle",
+	text: [
+		"Kill a music playing Greebling while being Insane (150 or less sanity)."
+	],
+	dependencies: [
+		"0d7e3578"
+	],
+	hide_text_until_complete: true,
+	optional: true,
+	tasks: [{
+		uid: "cd32ee33",
+		type: "checkmark",
+		title: "Display Hint",
+		icon: "botania:cosmetic 1 31"
+	}]
+}

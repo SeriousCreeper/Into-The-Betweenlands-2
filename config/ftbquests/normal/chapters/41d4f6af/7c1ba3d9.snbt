@@ -1,0 +1,19 @@
+{
+	icon: "botania:cosmetic 1 31",
+	x: -6.0d,
+	y: -1.5d,
+	shape: "circle",
+	text: [
+		"Hang out near an active Grove Stone while having high sanity (50 or higher)."
+	],
+	dependencies: [
+		"77283da4"
+	],
+	hide_text_until_complete: true,
+	optional: true,
+	tasks: [{
+		uid: "60848889",
+		type: "checkmark",
+		title: "Display Hint"
+	}]
+}

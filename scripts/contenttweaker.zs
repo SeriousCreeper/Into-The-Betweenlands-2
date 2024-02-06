@@ -20,6 +20,9 @@ val items = [
 	"access_crystal",
 	"stamp_wires_raw",
 	"stamp_rod_raw",
+	"book_stonetablet",
+	"book_stonetablet_top",
+	"book_stonetablet_bottom"
 ] as string[];
 
 

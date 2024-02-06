@@ -4,8 +4,10 @@
 	rewards: [{
 		title: "Botania",
 		icon: {
-			id: "botania:lexicon",
-			tag: {}
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
 		},
 		auto: "no_toast",
 		stage: "botania",
@@ -13,7 +15,7 @@
 	},
 	{
 		title: "Blood Magic",
-		icon: "bloodmagic:sanguine_book",
+		icon: "bloodmagic:blood_shard",
 		auto: "no_toast",
 		stage: "bloodmagic",
 		type: "gamestage"

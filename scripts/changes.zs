@@ -533,6 +533,8 @@ scripts.utils.addShapeless("upper_alt", <uppers:upper>, [<thebetweenlands:syrmor
 scripts.utils.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<uppers:upper>]);
 
 
+scripts.utils.addShapeless("ancient_tablet", <contenttweaker:book_stonetablet>, [<contenttweaker:book_stonetablet_top>, <contenttweaker:book_stonetablet_bottom>]);
+
 
 
 // THE BETWEENLANDS

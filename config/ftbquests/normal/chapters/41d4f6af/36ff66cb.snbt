@@ -1,0 +1,27 @@
+{
+	title: "Enter The Sanguine Archives",
+	x: 6.0d,
+	y: 5.0d,
+	shape: "circle",
+	text: [
+		""
+	],
+	dependencies: [
+		"f673cbb0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5ad9be69",
+		type: "item",
+		items: [{
+			item: "bladditions:corrupted_bone_wayfinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc227eda",
+		type: "xp",
+		xp: 100
+	}]
+}

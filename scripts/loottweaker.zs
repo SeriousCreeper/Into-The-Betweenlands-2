@@ -342,6 +342,12 @@ addLoot("bladditions:loot/ancient_armor_chest", "chestplate", "broken_ancient_ar
 addLoot("bladditions:loot/ancient_armor_chest", "leggings", "broken_ancient_armor_leggings", <contenttweaker:broken_ancient_armor_leggings_0>, 1, 0, 1, 1);
 addLoot("bladditions:loot/ancient_armor_chest", "boots", "broken_ancient_armor_boots", <contenttweaker:broken_ancient_armor_boots_0>, 1, 0, 1, 1);
 
+LootTweaker.getTable("thebetweenlands:entities/spirit_tree_face_large").addPool("tablet", 1, 1, 0, 0);
+LootTweaker.getTable("thebetweenlands:entities/dreadful_peat_mummy").addPool("tablet", 1, 1, 0, 0);
+
+addLoot("thebetweenlands:entities/spirit_tree_face_large", "tablet", "tablet", <contenttweaker:book_stonetablet_top>, 1, 0, 1, 1);
+addLoot("thebetweenlands:entities/dreadful_peat_mummy", "tablet", "tablet", <contenttweaker:book_stonetablet_bottom>, 1, 0, 1, 1);
+
 
 removeLootEntry("thebetweenlands:entities/infestation", "infestation", "thebetweenlands:pheromone_thorax");
 removeLootEntry("minecraft:entities/slime", "main", "minecraft:slime_ball");

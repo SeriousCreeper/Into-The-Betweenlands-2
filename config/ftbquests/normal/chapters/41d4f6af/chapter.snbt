@@ -6,5 +6,16 @@
 	},
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 0.04d,
+		y: 0.0d,
+		width: 10.5d,
+		height: 10.5d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/yinyang.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

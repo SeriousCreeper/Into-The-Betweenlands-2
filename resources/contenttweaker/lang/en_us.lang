@@ -5,6 +5,10 @@ item.contenttweaker.access_crystal.name=Access Crystal
 item.contenttweaker.stamp_wires_raw.name=Raw Wire Stamp
 item.contenttweaker.stamp_rod_raw.name=Raw Rod Stamp
 
+item.contenttweaker.book_stonetablet_top.name=Ancient Tablet Top Half
+item.contenttweaker.book_stonetablet_bottom.name=Ancient Tablet Bottom Half
+item.contenttweaker.book_stonetablet.name=Ancient Tablet
+
 item.contenttweaker.broken_ancient_armor_helmet_0.name=Decayed Ancient Armor Helmet
 item.contenttweaker.broken_ancient_armor_chestplate_0.name=Decayed Ancient Armor Chestplate
 item.contenttweaker.broken_ancient_armor_leggings_0.name=Decayed Ancient Armor Leggings

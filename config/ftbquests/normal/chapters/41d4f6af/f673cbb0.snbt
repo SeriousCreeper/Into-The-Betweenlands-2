@@ -1,0 +1,22 @@
+{
+	title: "What Was That?!",
+	x: 6.0d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		""
+	],
+	dependencies: [
+		"0d7e3578"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "07502673",
+		type: "gamestage",
+		title: "Cruelty's Gift",
+		icon: "bloodmagic:blood_shard",
+		stage: "bloodmagic"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "A Moment Of Cruelty",
+	icon: "thebetweenlands:lore_scrap 1 2",
+	x: 6.0d,
+	y: 0.0d,
+	shape: "circle",
+	hide_dependency_lines: true,
+	dependencies: [
+		"94e7d6d0"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "70c96744",
+		type: "gamestage",
+		title: "Chose Blood Magic",
+		icon: "thebetweenlands:lore_scrap 1 2",
+		stage: "chose_bloodmagic"
+	}],
+	rewards: [{
+		uid: "a1101129",
+		type: "xp",
+		xp: 100
+	}]
+}

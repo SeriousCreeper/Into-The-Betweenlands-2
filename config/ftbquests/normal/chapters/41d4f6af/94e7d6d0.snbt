@@ -1,17 +1,19 @@
 {
-	x: 0.4642857142857153d,
-	y: -1.0892857142857153d,
-	shape: "gear",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "circle",
 	dependencies: [
 		"e0b5020e",
 		"8bb119c2"
 	],
-	dependency_requirement: "one_completed",
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
-		uid: "ba86b5a9",
-		type: "checkmark",
-		title: "I'm ready to make a choice"
+		uid: "3d0be1bb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:book_stonetablet"
+		}],
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "7d1bfbbd",

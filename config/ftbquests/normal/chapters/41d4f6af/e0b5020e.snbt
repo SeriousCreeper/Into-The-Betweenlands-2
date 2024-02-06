@@ -1,11 +1,25 @@
 {
-	x: 1.25d,
-	y: 1.5d,
+	x: 0.0d,
+	y: -2.21d,
+	shape: "circle",
+	dependencies: [
+		"9bd3946b",
+		"7f3e2df0"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	hide_text_until_complete: true,
+	size: 3.0d,
 	tasks: [{
-		uid: "eaedb545",
-		type: "advancement",
-		title: "Killed DPM",
-		advancement: "",
-		criterion: ""
+		uid: "be0adfed",
+		type: "item",
+		items: [{
+			item: "contenttweaker:book_stonetablet_top"
+		}]
+	}],
+	rewards: [{
+		uid: "76c60266",
+		type: "xp",
+		xp: 100
 	}]
 }

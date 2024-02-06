@@ -1,11 +1,25 @@
 {
-	x: -0.25d,
-	y: 1.5d,
+	x: 0.0d,
+	y: 2.2142857142857153d,
+	shape: "circle",
+	dependencies: [
+		"9bd3946b",
+		"7f3e2df0"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	hide_text_until_complete: true,
+	size: 3.0d,
 	tasks: [{
-		uid: "e42a603e",
-		type: "advancement",
-		title: "Killed Spirit Tree",
-		advancement: "",
-		criterion: ""
+		uid: "b2c4bf69",
+		type: "item",
+		items: [{
+			item: "contenttweaker:book_stonetablet_bottom"
+		}]
+	}],
+	rewards: [{
+		uid: "f6b73c2f",
+		type: "xp",
+		xp: 100
 	}]
 }

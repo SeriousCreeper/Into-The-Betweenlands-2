@@ -1,20 +1,29 @@
 {
-	title: "Chosen Botania",
-	x: -0.25d,
-	y: -3.75d,
-	shape: "gear",
+	title: "A Moment Of Purity",
+	x: -6.0d,
+	y: 0.0d,
+	shape: "circle",
 	text: [
-		"Info about what to do to unlock botania, in form of a journal entry"
+		"To unlock the botanical knowledge, the Ancient Tablet mentions the following:",
+		"",
+		"\"In nature's grove, sane minds find Purity's trove.\""
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"94e7d6d0"
 	],
 	hide: true,
+	size: 2.0d,
 	tasks: [{
 		uid: "76b661e1",
 		type: "gamestage",
 		title: "Chose Botania",
 		icon: "thebetweenlands:lore_scrap 1 2",
 		stage: "chosen_botania"
+	}],
+	rewards: [{
+		uid: "90a6a500",
+		type: "xp",
+		xp: 100
 	}]
 }
