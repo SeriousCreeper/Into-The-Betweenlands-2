@@ -266,13 +266,13 @@ scripts.utils.addShaped("steam_engine", <embers:steam_engine>, [
 recipes.remove(<embers:mech_actuator>);
 scripts.utils.addShaped("mech_actuator", <embers:mech_actuator>, [
 	[null, <mysticalmechanics:axle_iron:*>, null], 
-	[<mysticalmechanics:axle_iron:*>, <mysticalmechanics:gear_iron>, <mysticalmechanics:axle_iron:*>], 
+	[<mysticalmechanics:axle_iron:*>, <mystgears:gear_syrmorite>, <mysticalmechanics:axle_iron:*>], 
 	[<embers:mech_accessor:*>, <mysticalmechanics:axle_iron:*>, null]
 ]);
 
 recipes.remove(<embers:mech_actuator_single>);
 scripts.utils.addShaped("mech_actuator_single", <embers:mech_actuator_single>, [
-	[<embers:mech_accessor:*>, <mysticalmechanics:gear_iron>, <mysticalmechanics:axle_iron:*>]
+	[<embers:mech_accessor:*>, <mystgears:gear_syrmorite>, <mysticalmechanics:axle_iron:*>]
 ]);
 
 recipes.remove(<embers:tinker_hammer>);
