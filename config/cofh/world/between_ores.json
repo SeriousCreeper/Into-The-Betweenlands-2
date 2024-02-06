@@ -58,7 +58,7 @@
         "cluster-size": 9
       },
       "cluster-count": 8,
-      "min-height": 0,
+      "min-height": 40,
       "max-height": 75,
       "retrogen": "true",
       "biome": "all",
@@ -104,7 +104,7 @@
         "cluster-size": 6
       },
       "cluster-count": 4,
-      "min-height": 0,
+      "min-height": 40,
       "max-height": 80,
       "retrogen": "true",
       "biome": "all",
@@ -151,7 +151,7 @@
         "cluster-size": 3
       },
       "cluster-count": 1000,
-      "min-height": 0,
+      "min-height": 40,
       "max-height": 100,
       "retrogen": false,
       "chunk-chance": 1,
@@ -176,7 +176,7 @@
         "cluster-size": 3
       },
       "cluster-count": 1000,
-      "min-height": 0,
+      "min-height": 40,
       "max-height": 100,
       "retrogen": false,
       "chunk-chance": 1,
