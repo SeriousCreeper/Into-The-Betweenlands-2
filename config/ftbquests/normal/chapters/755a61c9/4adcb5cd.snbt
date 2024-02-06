@@ -40,5 +40,10 @@
 			},
 			Damage: 1s
 		}]
+	}],
+	rewards: [{
+		uid: "9d4a892d",
+		type: "xp",
+		xp: 100
 	}]
 }

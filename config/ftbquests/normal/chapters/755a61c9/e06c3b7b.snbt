@@ -20,5 +20,10 @@
 		items: [{
 			item: "thebetweenlands:sap_ball"
 		}]
+	}],
+	rewards: [{
+		uid: "213829e1",
+		type: "xp",
+		xp: 100
 	}]
 }

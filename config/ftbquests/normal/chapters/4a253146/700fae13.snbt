@@ -31,5 +31,10 @@
 		{
 			item: "betweenores:nickel_ore"
 		}]
+	}],
+	rewards: [{
+		uid: "d78f1145",
+		type: "xp",
+		xp: 100
 	}]
 }

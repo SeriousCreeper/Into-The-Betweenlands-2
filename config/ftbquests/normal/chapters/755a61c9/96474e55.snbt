@@ -18,5 +18,10 @@
 		items: [{
 			item: "pyrotech:rock 1 7"
 		}]
+	}],
+	rewards: [{
+		uid: "f00137c5",
+		type: "xp",
+		xp: 100
 	}]
 }

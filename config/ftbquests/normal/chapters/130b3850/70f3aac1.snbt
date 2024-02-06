@@ -14,5 +14,10 @@
 		type: "checkmark",
 		title: "Inspiration: Buffs",
 		icon: "pyrotech:campfire"
+	}],
+	rewards: [{
+		uid: "2d942fc3",
+		type: "xp",
+		xp: 100
 	}]
 }

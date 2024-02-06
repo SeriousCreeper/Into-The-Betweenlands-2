@@ -18,5 +18,10 @@
 		items: [{
 			item: "thebetweenlands:grub_hub"
 		}]
+	}],
+	rewards: [{
+		uid: "123b8f0c",
+		type: "xp",
+		xp: 100
 	}]
 }

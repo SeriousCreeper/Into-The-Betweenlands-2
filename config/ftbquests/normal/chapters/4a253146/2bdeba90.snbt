@@ -19,5 +19,10 @@
 		items: [{
 			item: "embers:block_furnace"
 		}]
+	}],
+	rewards: [{
+		uid: "07299c28",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -16,5 +16,10 @@
 		items: [{
 			item: "growthcraft_bees:bee"
 		}]
+	}],
+	rewards: [{
+		uid: "424598e9",
+		type: "xp",
+		xp: 100
 	}]
 }

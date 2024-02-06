@@ -18,5 +18,10 @@
 		items: [{
 			item: "antiqueatlas:empty_antique_atlas"
 		}]
+	}],
+	rewards: [{
+		uid: "fc830b25",
+		type: "xp",
+		xp: 100
 	}]
 }

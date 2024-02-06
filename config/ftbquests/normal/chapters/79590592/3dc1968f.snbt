@@ -18,5 +18,10 @@
 		items: [{
 			item: "arcanearchives:raw_quartz"
 		}]
+	}],
+	rewards: [{
+		uid: "f7bbe101",
+		type: "xp",
+		xp: 100
 	}]
 }

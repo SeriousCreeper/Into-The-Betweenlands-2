@@ -25,5 +25,10 @@
 		{
 			item: "pyrotech:brick_sawmill"
 		}]
+	}],
+	rewards: [{
+		uid: "b0168112",
+		type: "xp",
+		xp: 100
 	}]
 }

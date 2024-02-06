@@ -20,5 +20,10 @@
 		disable_toast: true,
 		advancement: "thebetweenlands:fighter/not_a_boss",
 		criterion: ""
+	}],
+	rewards: [{
+		uid: "5e64f6a0",
+		type: "xp",
+		xp: 100
 	}]
 }

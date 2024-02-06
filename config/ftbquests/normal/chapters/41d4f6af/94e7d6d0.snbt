@@ -1,0 +1,21 @@
+{
+	x: 0.4642857142857153d,
+	y: -1.0892857142857153d,
+	shape: "gear",
+	dependencies: [
+		"e0b5020e",
+		"8bb119c2"
+	],
+	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "ba86b5a9",
+		type: "checkmark",
+		title: "I'm ready to make a choice"
+	}],
+	rewards: [{
+		uid: "7d1bfbbd",
+		type: "choice",
+		table: 2
+	}]
+}

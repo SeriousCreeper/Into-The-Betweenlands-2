@@ -15,5 +15,10 @@
 		items: [{
 			item: "roots:wildwood_log"
 		}]
+	}],
+	rewards: [{
+		uid: "c84ef3e9",
+		type: "xp",
+		xp: 100
 	}]
 }

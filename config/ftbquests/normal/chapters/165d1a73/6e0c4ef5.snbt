@@ -21,5 +21,10 @@
 		items: [{
 			item: "roots:pyre"
 		}]
+	}],
+	rewards: [{
+		uid: "93572c8e",
+		type: "xp",
+		xp: 100
 	}]
 }

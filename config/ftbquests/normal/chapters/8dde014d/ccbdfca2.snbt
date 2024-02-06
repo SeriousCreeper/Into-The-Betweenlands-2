@@ -1,12 +1,13 @@
 {
 	title: "Knowledge of Druids",
-	x: 2.75d,
-	y: -0.25d,
+	x: 0.75d,
+	y: 0.375d,
 	shape: "gear",
 	text: [
 		""
 	],
 	hide_dependency_lines: true,
+	size: 1.5d,
 	tasks: [{
 		uid: "2e4f191a",
 		type: "gamestage",

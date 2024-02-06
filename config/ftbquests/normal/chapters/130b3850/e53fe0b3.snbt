@@ -18,5 +18,10 @@
 		type: "checkmark",
 		title: "Inspiration: Others",
 		icon: "thebetweenlands:reed_mat"
+	}],
+	rewards: [{
+		uid: "c78a8412",
+		type: "xp",
+		xp: 100
 	}]
 }

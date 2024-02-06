@@ -13,5 +13,10 @@
 		items: [{
 			item: "thaumcraft:arcane_workbench"
 		}]
+	}],
+	rewards: [{
+		uid: "5e409b1b",
+		type: "xp",
+		xp: 100
 	}]
 }

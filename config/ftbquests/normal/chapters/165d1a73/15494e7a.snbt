@@ -37,5 +37,10 @@
 		items: [{
 			item: "roots:wildroot"
 		}]
+	}],
+	rewards: [{
+		uid: "aeedc7ff",
+		type: "xp",
+		xp: 100
 	}]
 }

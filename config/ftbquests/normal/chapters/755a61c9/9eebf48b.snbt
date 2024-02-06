@@ -12,6 +12,7 @@
 		"",
 		"A syrmorite bucket needs to be right clicked to extract the dried up rubber."
 	],
+	optional: true,
 	tasks: [{
 		uid: "8ad381a9",
 		type: "item",
@@ -44,5 +45,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fe72d47f",
+		type: "xp",
+		xp: 100
 	}]
 }

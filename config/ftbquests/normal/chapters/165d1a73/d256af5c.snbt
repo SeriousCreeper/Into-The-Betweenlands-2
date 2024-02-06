@@ -17,5 +17,10 @@
 		items: [{
 			item: "roots:spirit_herb"
 		}]
+	}],
+	rewards: [{
+		uid: "58c3ac54",
+		type: "xp",
+		xp: 100
 	}]
 }

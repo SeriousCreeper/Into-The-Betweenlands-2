@@ -19,5 +19,10 @@
 		items: [{
 			item: "thebetweenlands:octine_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "0e3c7926",
+		type: "xp",
+		xp: 100
 	}]
 }

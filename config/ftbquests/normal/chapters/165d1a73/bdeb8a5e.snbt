@@ -19,5 +19,10 @@
 		items: [{
 			item: "arcanearchives:radiant_resonator"
 		}]
+	}],
+	rewards: [{
+		uid: "707dd9e1",
+		type: "xp",
+		xp: 100
 	}]
 }

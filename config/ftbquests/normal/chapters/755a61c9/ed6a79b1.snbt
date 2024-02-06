@@ -58,5 +58,10 @@
 			item: "thebetweenlands:items_crushed"
 		}],
 		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "672f84c4",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -16,5 +16,10 @@
 		items: [{
 			item: "arcanearchives:quartz_sliver"
 		}]
+	}],
+	rewards: [{
+		uid: "7e8a2285",
+		type: "xp",
+		xp: 100
 	}]
 }

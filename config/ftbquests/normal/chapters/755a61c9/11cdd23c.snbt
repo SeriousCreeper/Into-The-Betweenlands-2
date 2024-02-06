@@ -15,5 +15,10 @@
 		items: [{
 			item: "thebetweenlands:limestone"
 		}]
+	}],
+	rewards: [{
+		uid: "753edd6b",
+		type: "xp",
+		xp: 100
 	}]
 }

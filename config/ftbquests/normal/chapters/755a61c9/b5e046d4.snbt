@@ -15,5 +15,10 @@
 		items: [{
 			item: "thebetweenlands:silk_grub"
 		}]
+	}],
+	rewards: [{
+		uid: "19bd9658",
+		type: "xp",
+		xp: 100
 	}]
 }

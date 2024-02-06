@@ -19,5 +19,10 @@
 		items: [{
 			item: "thebetweenlands:spores"
 		}]
+	}],
+	rewards: [{
+		uid: "2c3a4c18",
+		type: "xp",
+		xp: 100
 	}]
 }

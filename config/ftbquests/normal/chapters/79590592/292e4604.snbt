@@ -20,5 +20,10 @@
 		items: [{
 			item: "arcanearchives:radiant_chest"
 		}]
+	}],
+	rewards: [{
+		uid: "4f0a1ae7",
+		type: "xp",
+		xp: 100
 	}]
 }

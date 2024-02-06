@@ -14,5 +14,10 @@
 		items: [{
 			item: "arcanearchives:gemcutters_table"
 		}]
+	}],
+	rewards: [{
+		uid: "de0850c2",
+		type: "xp",
+		xp: 100
 	}]
 }

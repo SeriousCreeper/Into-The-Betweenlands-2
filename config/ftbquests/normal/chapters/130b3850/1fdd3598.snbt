@@ -17,5 +17,10 @@
 		items: [{
 			item: "thaumcraft:salis_mundus"
 		}]
+	}],
+	rewards: [{
+		uid: "095958cc",
+		type: "xp",
+		xp: 100
 	}]
 }

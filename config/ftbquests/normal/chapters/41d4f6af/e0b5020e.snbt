@@ -1,0 +1,11 @@
+{
+	x: 1.25d,
+	y: 1.5d,
+	tasks: [{
+		uid: "eaedb545",
+		type: "advancement",
+		title: "Killed DPM",
+		advancement: "",
+		criterion: ""
+	}]
+}

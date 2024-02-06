@@ -17,5 +17,10 @@
 				icon: "ftbquests:textures/drop.png"
 			}
 		}
+	}],
+	rewards: [{
+		uid: "2ae09859",
+		type: "xp",
+		xp: 100
 	}]
 }

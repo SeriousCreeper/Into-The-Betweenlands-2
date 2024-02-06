@@ -24,5 +24,10 @@
 		type: "checkmark",
 		title: "Inspiration: Blocks",
 		icon: "minecraft:bookshelf"
+	}],
+	rewards: [{
+		uid: "55b0b128",
+		type: "xp",
+		xp: 100
 	}]
 }

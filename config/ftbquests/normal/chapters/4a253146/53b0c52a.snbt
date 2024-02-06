@@ -28,5 +28,10 @@
 		items: [{
 			item: "embers:item_pump"
 		}]
+	}],
+	rewards: [{
+		uid: "bbea8f82",
+		type: "xp",
+		xp: 100
 	}]
 }

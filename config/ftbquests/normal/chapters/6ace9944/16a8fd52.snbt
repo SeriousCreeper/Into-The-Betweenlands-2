@@ -22,5 +22,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aac4ad62",
+		type: "xp",
+		xp: 100
 	}]
 }

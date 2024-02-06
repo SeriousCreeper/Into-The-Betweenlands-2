@@ -16,5 +16,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bade5ddb",
+		type: "xp",
+		xp: 100
 	}]
 }

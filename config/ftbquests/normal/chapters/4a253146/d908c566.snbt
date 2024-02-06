@@ -25,5 +25,10 @@
 		{
 			item: "embers:dust_ember"
 		}]
+	}],
+	rewards: [{
+		uid: "3a01d5df",
+		type: "xp",
+		xp: 100
 	}]
 }

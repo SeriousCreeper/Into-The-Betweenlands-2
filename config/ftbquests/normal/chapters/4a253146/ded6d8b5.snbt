@@ -15,5 +15,10 @@
 		items: [{
 			item: "thebetweenlands:bl_name_tag"
 		}]
+	}],
+	rewards: [{
+		uid: "a89ba4f7",
+		type: "xp",
+		xp: 100
 	}]
 }

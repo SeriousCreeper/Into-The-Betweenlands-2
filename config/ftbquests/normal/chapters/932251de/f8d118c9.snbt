@@ -29,5 +29,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fd12277a",
+		type: "xp",
+		xp: 100
 	}]
 }

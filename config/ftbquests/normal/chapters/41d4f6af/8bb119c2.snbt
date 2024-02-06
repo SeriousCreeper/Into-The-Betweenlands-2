@@ -1,0 +1,11 @@
+{
+	x: -0.25d,
+	y: 1.5d,
+	tasks: [{
+		uid: "e42a603e",
+		type: "advancement",
+		title: "Killed Spirit Tree",
+		advancement: "",
+		criterion: ""
+	}]
+}

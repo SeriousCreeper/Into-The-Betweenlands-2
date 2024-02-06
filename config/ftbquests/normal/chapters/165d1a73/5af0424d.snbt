@@ -19,5 +19,10 @@
 		disable_toast: true,
 		advancement: "thebetweenlands:fighter/staring_contest",
 		criterion: ""
+	}],
+	rewards: [{
+		uid: "cd1d8b3b",
+		type: "xp",
+		xp: 100
 	}]
 }

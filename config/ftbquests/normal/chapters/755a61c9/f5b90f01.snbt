@@ -16,5 +16,10 @@
 		items: [{
 			item: "thebetweenlands:weedwood_workbench"
 		}]
+	}],
+	rewards: [{
+		uid: "bd37ab64",
+		type: "xp",
+		xp: 100
 	}]
 }

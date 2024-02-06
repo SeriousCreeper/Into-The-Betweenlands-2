@@ -22,5 +22,10 @@
 		items: [{
 			item: "thebetweenlands:purifier"
 		}]
+	}],
+	rewards: [{
+		uid: "450782a4",
+		type: "xp",
+		xp: 100
 	}]
 }

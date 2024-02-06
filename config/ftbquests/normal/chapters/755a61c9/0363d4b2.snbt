@@ -20,5 +20,10 @@
 		items: [{
 			item: "pyrotech:torch_fiber"
 		}]
+	}],
+	rewards: [{
+		uid: "02502a40",
+		type: "xp",
+		xp: 100
 	}]
 }

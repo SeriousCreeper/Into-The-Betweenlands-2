@@ -11,5 +11,10 @@
 		items: [{
 			item: "thebetweenlands:steeping_pot"
 		}]
+	}],
+	rewards: [{
+		uid: "06903959",
+		type: "xp",
+		xp: 100
 	}]
 }

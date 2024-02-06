@@ -10,5 +10,10 @@
 		items: [{
 			item: "arcanearchives:radiant_crafting_table"
 		}]
+	}],
+	rewards: [{
+		uid: "85074ecb",
+		type: "xp",
+		xp: 100
 	}]
 }

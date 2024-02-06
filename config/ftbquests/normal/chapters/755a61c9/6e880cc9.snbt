@@ -16,5 +16,10 @@
 		items: [{
 			item: "pyrotech:material 1 4"
 		}]
+	}],
+	rewards: [{
+		uid: "a0261c5d",
+		type: "xp",
+		xp: 100
 	}]
 }

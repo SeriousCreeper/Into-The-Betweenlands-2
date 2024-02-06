@@ -19,5 +19,10 @@
 		items: [{
 			item: "embers:mixer"
 		}]
+	}],
+	rewards: [{
+		uid: "b7f83859",
+		type: "xp",
+		xp: 100
 	}]
 }

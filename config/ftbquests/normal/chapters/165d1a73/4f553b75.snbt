@@ -17,5 +17,10 @@
 		items: [{
 			item: "roots:pereskia"
 		}]
+	}],
+	rewards: [{
+		uid: "32d030db",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -1,6 +1,6 @@
 {
 	title: "Investigate: Sludgeon",
-	x: 10.75d,
+	x: 13.125d,
 	y: -0.75d,
 	shape: "gear",
 	text: [
@@ -12,6 +12,7 @@
 	dependencies: [
 		"0f3f0367"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "c57b64f1",
 		type: "advancement",

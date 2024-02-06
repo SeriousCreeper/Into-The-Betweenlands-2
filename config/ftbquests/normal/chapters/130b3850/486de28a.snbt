@@ -15,5 +15,10 @@
 		type: "checkmark",
 		title: "Inspiration: Events",
 		icon: "thebetweenlands:wind_chime"
+	}],
+	rewards: [{
+		uid: "6bde0576",
+		type: "xp",
+		xp: 100
 	}]
 }

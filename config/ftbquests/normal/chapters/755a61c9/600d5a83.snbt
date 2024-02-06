@@ -31,5 +31,10 @@
 		items: [{
 			item: "thebetweenlands:thatch"
 		}]
+	}],
+	rewards: [{
+		uid: "2878b3a2",
+		type: "xp",
+		xp: 100
 	}]
 }

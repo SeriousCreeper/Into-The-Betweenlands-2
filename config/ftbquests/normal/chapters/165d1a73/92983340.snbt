@@ -17,5 +17,10 @@
 		items: [{
 			item: "roots:grove_stone"
 		}]
+	}],
+	rewards: [{
+		uid: "8058769e",
+		type: "xp",
+		xp: 100
 	}]
 }

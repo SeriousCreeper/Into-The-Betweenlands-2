@@ -24,5 +24,10 @@
 		items: [{
 			item: "thebetweenlands:weedwood_planks"
 		}]
+	}],
+	rewards: [{
+		uid: "87aff1ff",
+		type: "xp",
+		xp: 100
 	}]
 }

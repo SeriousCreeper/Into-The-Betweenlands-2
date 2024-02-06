@@ -22,5 +22,10 @@
 			}
 		}],
 		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "9ce670fa",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -23,5 +23,10 @@
 		items: [{
 			item: "embers:pipe"
 		}]
+	}],
+	rewards: [{
+		uid: "ad3bb9a9",
+		type: "xp",
+		xp: 100
 	}]
 }

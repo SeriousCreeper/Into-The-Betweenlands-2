@@ -17,5 +17,10 @@
 		items: [{
 			item: "thebetweenlands:sulfur_torch"
 		}]
+	}],
+	rewards: [{
+		uid: "1f0301a3",
+		type: "xp",
+		xp: 100
 	}]
 }

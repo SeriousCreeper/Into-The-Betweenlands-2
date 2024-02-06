@@ -21,5 +21,10 @@
 		items: [{
 			item: "thebetweenlands:moth_house"
 		}]
+	}],
+	rewards: [{
+		uid: "a6839158",
+		type: "xp",
+		xp: 100
 	}]
 }

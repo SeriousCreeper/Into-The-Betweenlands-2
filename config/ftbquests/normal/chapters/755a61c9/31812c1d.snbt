@@ -16,5 +16,10 @@
 		uid: "d001f8f3",
 		type: "checkmark",
 		icon: "sanity:spectergoo"
+	}],
+	rewards: [{
+		uid: "d91980e6",
+		type: "xp",
+		xp: 100
 	}]
 }

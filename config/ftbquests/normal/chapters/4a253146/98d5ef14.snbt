@@ -24,5 +24,10 @@
 		items: [{
 			item: "embers:ember_bore"
 		}]
+	}],
+	rewards: [{
+		uid: "ad6faa3e",
+		type: "xp",
+		xp: 100
 	}]
 }

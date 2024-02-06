@@ -11,5 +11,10 @@
 		items: [{
 			item: "arcanearchives:letter_resignation"
 		}]
+	}],
+	rewards: [{
+		uid: "d0aab332",
+		type: "xp",
+		xp: 100
 	}]
 }

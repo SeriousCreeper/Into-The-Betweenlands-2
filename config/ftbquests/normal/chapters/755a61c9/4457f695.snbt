@@ -18,5 +18,10 @@
 		items: [{
 			item: "pyrotech:soaking_pot"
 		}]
+	}],
+	rewards: [{
+		uid: "74ff7ead",
+		type: "xp",
+		xp: 100
 	}]
 }

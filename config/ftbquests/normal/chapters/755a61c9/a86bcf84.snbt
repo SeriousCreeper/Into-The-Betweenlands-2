@@ -21,5 +21,10 @@
 		items: [{
 			item: "pyrotech:bloomery"
 		}]
+	}],
+	rewards: [{
+		uid: "d061d61b",
+		type: "xp",
+		xp: 100
 	}]
 }

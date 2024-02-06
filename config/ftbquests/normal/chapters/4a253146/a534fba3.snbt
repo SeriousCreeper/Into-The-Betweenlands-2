@@ -26,5 +26,10 @@
 		items: [{
 			item: "embers:mech_core"
 		}]
+	}],
+	rewards: [{
+		uid: "3f9df295",
+		type: "xp",
+		xp: 100
 	}]
 }

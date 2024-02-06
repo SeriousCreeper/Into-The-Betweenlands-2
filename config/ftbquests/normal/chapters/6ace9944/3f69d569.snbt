@@ -20,5 +20,10 @@
 		items: [{
 			item: "thebetweenlands:offering_table"
 		}]
+	}],
+	rewards: [{
+		uid: "7ab35634",
+		type: "xp",
+		xp: 100
 	}]
 }

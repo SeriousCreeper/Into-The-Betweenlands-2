@@ -1,0 +1,21 @@
+{
+	title: "Path Choice",
+	loot_size: 1,
+	rewards: [{
+		title: "Botania",
+		icon: {
+			id: "botania:lexicon",
+			tag: {}
+		},
+		auto: "no_toast",
+		stage: "botania",
+		type: "gamestage"
+	},
+	{
+		title: "Blood Magic",
+		icon: "bloodmagic:sanguine_book",
+		auto: "no_toast",
+		stage: "bloodmagic",
+		type: "gamestage"
+	}]
+}

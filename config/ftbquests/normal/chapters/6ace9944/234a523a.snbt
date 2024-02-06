@@ -23,5 +23,10 @@
 		match_type: "block_id",
 		match: "thebetweenlands:druid_altar",
 		timer: 0L
+	}],
+	rewards: [{
+		uid: "8e9e6d29",
+		type: "xp",
+		xp: 100
 	}]
 }

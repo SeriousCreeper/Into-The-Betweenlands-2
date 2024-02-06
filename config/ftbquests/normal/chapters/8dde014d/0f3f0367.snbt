@@ -1,7 +1,7 @@
 {
 	title: "Investigation: Wight Fortress",
-	x: 6.25d,
-	y: 0.25d,
+	x: 6.0d,
+	y: 1.5d,
 	shape: "gear",
 	text: [
 		"A castle-like structure found in the Marshes. ",
@@ -12,6 +12,7 @@
 	dependencies: [
 		"59807ab6"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "ca21dd9e",
 		type: "advancement",

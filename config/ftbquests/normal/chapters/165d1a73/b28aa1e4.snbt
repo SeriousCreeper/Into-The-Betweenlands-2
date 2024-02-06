@@ -74,5 +74,10 @@
 		items: [{
 			item: "thebetweenlands:cragrock 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "ebced3c9",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -23,5 +23,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e3ec232e",
+		type: "xp",
+		xp: 100
 	}]
 }

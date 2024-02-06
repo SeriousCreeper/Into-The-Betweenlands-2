@@ -15,5 +15,10 @@
 		items: [{
 			item: "thebetweenlands:reed_donut"
 		}]
+	}],
+	rewards: [{
+		uid: "c56c2774",
+		type: "xp",
+		xp: 100
 	}]
 }

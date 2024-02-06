@@ -21,5 +21,10 @@
 				ember: 0.0d
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "7d16c314",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -15,5 +15,10 @@
 		items: [{
 			item: "thebetweenlands:items_misc 1 63"
 		}]
+	}],
+	rewards: [{
+		uid: "e16d8aca",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -11,5 +11,10 @@
 		items: [{
 			item: "arcanearchives:letter_invitation"
 		}]
+	}],
+	rewards: [{
+		uid: "6110e59e",
+		type: "xp",
+		xp: 100
 	}]
 }

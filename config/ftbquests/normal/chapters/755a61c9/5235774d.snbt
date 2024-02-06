@@ -36,5 +36,10 @@
 		items: [{
 			item: "clothesline:spinner"
 		}]
+	}],
+	rewards: [{
+		uid: "16f2b9d8",
+		type: "xp",
+		xp: 100
 	}]
 }

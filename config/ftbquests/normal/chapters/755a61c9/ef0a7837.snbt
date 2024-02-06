@@ -15,5 +15,10 @@
 		{
 			item: "thebetweenlands:weedwood"
 		}]
+	}],
+	rewards: [{
+		uid: "04f8fbf9",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -14,5 +14,10 @@
 		"14d0e9de"
 	],
 	hide: true,
-	hide_text_until_complete: true
+	hide_text_until_complete: true,
+	rewards: [{
+		uid: "51f15876",
+		type: "xp",
+		xp: 100
+	}]
 }

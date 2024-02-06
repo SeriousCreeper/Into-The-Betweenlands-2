@@ -11,5 +11,10 @@
 				Fluid: {}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "e79350d3",
+		type: "xp",
+		xp: 100
 	}]
 }

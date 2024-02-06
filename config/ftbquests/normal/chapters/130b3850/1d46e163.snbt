@@ -14,5 +14,10 @@
 			item: "thaumcraft:thaumonomicon"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f4c911c",
+		type: "xp",
+		xp: 100
 	}]
 }

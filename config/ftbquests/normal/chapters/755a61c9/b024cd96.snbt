@@ -18,5 +18,10 @@
 		items: [{
 			item: "pyrotech:bellows"
 		}]
+	}],
+	rewards: [{
+		uid: "53b8fdf5",
+		type: "xp",
+		xp: 100
 	}]
 }

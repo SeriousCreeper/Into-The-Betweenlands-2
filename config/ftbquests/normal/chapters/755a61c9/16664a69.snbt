@@ -24,5 +24,10 @@
 		{
 			item: "thebetweenlands:green_middle_gem"
 		}]
+	}],
+	rewards: [{
+		uid: "18a8a3c1",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -18,5 +18,10 @@
 		items: [{
 			item: "roots:fey_crafter"
 		}]
+	}],
+	rewards: [{
+		uid: "cc6786c1",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -21,5 +21,10 @@
 		disable_toast: true,
 		advancement: "thebetweenlands:adventurer/cookie_crumbles",
 		criterion: ""
+	}],
+	rewards: [{
+		uid: "ef0e2068",
+		type: "xp",
+		xp: 100
 	}]
 }

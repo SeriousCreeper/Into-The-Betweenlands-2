@@ -17,5 +17,10 @@
 		items: [{
 			item: "embers:tinker_lens"
 		}]
+	}],
+	rewards: [{
+		uid: "bda656db",
+		type: "xp",
+		xp: 100
 	}]
 }

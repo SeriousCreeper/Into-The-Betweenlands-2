@@ -1,7 +1,7 @@
 {
 	title: "Investigate: Cragrock Tower",
-	x: 1.75d,
-	y: -0.25d,
+	x: -0.75d,
+	y: 0.375d,
 	shape: "gear",
 	text: [
 		"A tall tower found in Coarse Islands and Raised Isles.",
@@ -9,6 +9,7 @@
 		"Probably should explore this one first."
 	],
 	hide_dependency_lines: true,
+	size: 1.5d,
 	tasks: [{
 		uid: "717bd1e4",
 		type: "advancement",

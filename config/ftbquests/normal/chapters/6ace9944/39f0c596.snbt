@@ -17,5 +17,10 @@
 		items: [{
 			item: "contenttweaker:inert_boneway_finder"
 		}]
+	}],
+	rewards: [{
+		uid: "adff1ad0",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -32,5 +32,10 @@
 		{
 			item: "roots:stalicripe"
 		}]
+	}],
+	rewards: [{
+		uid: "e2c06902",
+		type: "xp",
+		xp: 100
 	}]
 }

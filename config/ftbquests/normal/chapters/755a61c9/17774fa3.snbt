@@ -37,5 +37,10 @@
 		items: [{
 			item: "thebetweenlands:peat"
 		}]
+	}],
+	rewards: [{
+		uid: "c9a54e37",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -28,5 +28,10 @@
 		items: [{
 			item: "embers:stamper"
 		}]
+	}],
+	rewards: [{
+		uid: "aa12e10a",
+		type: "xp",
+		xp: 100
 	}]
 }

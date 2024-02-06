@@ -18,5 +18,10 @@
 		match_type: "block_id",
 		match: "thebetweenlands:weedwood_bush_infested_4",
 		timer: 0L
+	}],
+	rewards: [{
+		uid: "51f59f83",
+		type: "xp",
+		xp: 100
 	}]
 }

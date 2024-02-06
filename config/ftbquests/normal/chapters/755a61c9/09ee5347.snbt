@@ -18,5 +18,10 @@
 		items: [{
 			item: "pyrotech:mechanical_mulch_spreader"
 		}]
+	}],
+	rewards: [{
+		uid: "c3255d52",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -12,5 +12,10 @@
 		items: [{
 			item: "thebetweenlands:empty_amate_map"
 		}]
+	}],
+	rewards: [{
+		uid: "1e6e63bf",
+		type: "xp",
+		xp: 100
 	}]
 }

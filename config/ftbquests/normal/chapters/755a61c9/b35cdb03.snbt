@@ -17,5 +17,10 @@
 		items: [{
 			item: "pyrotech:anvil_iron_plated"
 		}]
+	}],
+	rewards: [{
+		uid: "6e118ba9",
+		type: "xp",
+		xp: 100
 	}]
 }

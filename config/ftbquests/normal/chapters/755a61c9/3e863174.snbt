@@ -32,5 +32,10 @@
 			item: "thebetweenlands:dentrothyst_vial"
 		}],
 		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "445cefa7",
+		type: "xp",
+		xp: 100
 	}]
 }

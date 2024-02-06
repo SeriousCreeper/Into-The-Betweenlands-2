@@ -15,5 +15,10 @@
 		items: [{
 			item: "thebetweenlands:syrmorite_ore"
 		}]
+	}],
+	rewards: [{
+		uid: "317b7a60",
+		type: "xp",
+		xp: 100
 	}]
 }

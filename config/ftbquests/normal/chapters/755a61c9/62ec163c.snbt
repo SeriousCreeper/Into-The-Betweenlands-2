@@ -45,5 +45,10 @@
 		items: [{
 			item: "pyrotech:wood_rack"
 		}]
+	}],
+	rewards: [{
+		uid: "2162cae3",
+		type: "xp",
+		xp: 100
 	}]
 }

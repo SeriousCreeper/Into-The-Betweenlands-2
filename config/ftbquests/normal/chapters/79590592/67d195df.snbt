@@ -11,5 +11,10 @@
 		items: [{
 			item: "arcanearchives:writ_expulsion"
 		}]
+	}],
+	rewards: [{
+		uid: "93ebf163",
+		type: "xp",
+		xp: 100
 	}]
 }

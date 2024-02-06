@@ -17,5 +17,10 @@
 		items: [{
 			item: "thebetweenlands:sap_spit"
 		}]
+	}],
+	rewards: [{
+		uid: "3180d132",
+		type: "xp",
+		xp: 100
 	}]
 }
