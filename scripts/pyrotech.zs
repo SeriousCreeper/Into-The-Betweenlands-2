@@ -595,7 +595,7 @@ val campfireRecipes = [
 	<thebetweenlands:snail_flesh_cooked>,
 	<thebetweenlands:anadia_meat_cooked>,
 	<thebetweenlands:olm_egg_cooked>,
-	//<roots:cooked_pereskia>,
+	<roots:cooked_pereskia>,
 ] as IItemStack[];
 
 for item in campfireRecipes {
