@@ -755,7 +755,7 @@ Stamper.add(<thaumcraft:plate:1>, <liquid:syrmorite> * 144, <embers:stamp_plate>
 
 Stamper.add(<thaumcraft:plate:0>, <liquid:brass> * 144, <embers:stamp_plate>);
 Stamper.add(<thaumcraft:plate:2>, <liquid:thaumium> * 144, <embers:stamp_plate>);
-//Stamper.add(<thaumcraft:plate:3>, <liquid:void> * 144, <immersiveengineering:metal:38>);
+Stamper.add(<thaumcraft:plate:3>, <liquid:void> * 144, <ore:plateIron>);
 
 //recipes.remove(<immersiveengineering:metal:38>);
 //recipes.remove(<immersiveengineering:metal:8>);
