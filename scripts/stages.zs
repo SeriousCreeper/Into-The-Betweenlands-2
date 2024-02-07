@@ -87,8 +87,8 @@ stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 stageMods("bloodmagic", "bloodmagic", bloodmagicItemsNotToStage);
 stageMods("botania", "botania", botaniaItemsNotToStage);
 
-//var sludgeonStage = "knowledge_of_technology";
-var sludgeonStage = "unstaged";
+var sludgeonStage = "knowledge_of_decay";
+//var sludgeonStage = "unstaged";
 
 stageMods("thaumicaugmentation", sludgeonStage, thaumicaugmentationItemsNotToStage);
 //stageMods("immersiveengineering", sludgeonStage, ieItemsNotToStage);
@@ -106,6 +106,14 @@ Recipes.setRecipeStageByMod("unstaged", "aetherworks");
 ItemStages.stageModItems("unstaged", "aetherworks");
 Recipes.setRecipeStageByMod("unstaged", "aetheriumashenarmor");
 ItemStages.stageModItems("unstaged", "aetheriumashenarmor");
+Recipes.setRecipeStageByMod("unstaged", "bloodmagic");
+ItemStages.stageModItems("unstaged", "bloodmagic");
+Recipes.setRecipeStageByMod("unstaged", "prodigytech");
+ItemStages.stageModItems("unstaged", "prodigytech");
+Recipes.setRecipeStageByMod("unstaged", "modularmachinery");
+ItemStages.stageModItems("unstaged", "modularmachinery");
+Recipes.setRecipeStageByMod("unstaged", "deepresonance");
+ItemStages.stageModItems("unstaged", "deepresonance");
 
 ItemStages.addItemStage("unstaged", <thaumicaugmentation:gauntlet>.withTag({color: 8022208}));
 

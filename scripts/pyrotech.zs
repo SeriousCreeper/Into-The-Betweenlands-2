@@ -1366,3 +1366,5 @@ BrickCrucible.removeAllRecipes();
 <pyrotech:dense_redstone_ore_small>.displayName = "Dense Bluedust Ore";
 <pyrotech:dense_redstone_ore_rocks>.displayName = "Dense Bluedust Ore";
 <pyrotech:material:36>.displayName = "Dense Bluedust";
+
+<pyrotech:wither_forge>.displayName = "Void Forge";
