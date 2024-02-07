@@ -16,7 +16,6 @@ recipes.remove(<thaumcraft:plate:*>);
 //scripts.utils.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <ore:dustRedstone>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
 
 recipes.remove(<thaumcraft:nugget:9>);
-recipes.remove(<thaumicaugmentation:material:4>);
 
 recipes.remove(<thaumcraft:table_wood>);
 scripts.utils.addShaped("tablewood", <thaumcraft:table_wood>, [
@@ -62,11 +61,11 @@ scripts.utils.addShaped("golembell", <thaumcraft:golem_bell>, [
 
 
 recipes.remove(<thaumicaugmentation:material:4>);
-scripts.utils.addShaped("harness_base", <thaumicaugmentation:material:4>, [
-	[<ore:plateBrass>], 
-	[<thebetweenlands:lurker_skin_chestplate:*>], 
-	[<thaumcraft:baubles:2>]
-]);
+//scripts.utils.addShaped("harness_base", <thaumicaugmentation:material:4>, [
+//	[<ore:plateBrass>], 
+//	[<thebetweenlands:lurker_skin_chestplate:*>], 
+//	[<thaumcraft:baubles:2>]
+//]);
 
 //recipes.remove(<thaumcraft:vis_generator>);
 //recipes.remove(<thaumicaugmentation:impetus_generator>);
@@ -142,8 +141,6 @@ scripts.utils.addShaped("candle_black", <thaumcraft:candle_black>, [[<minecraft:
 
 // ARCANE WORKBENCH - SHAPED
 recipes.remove(<thaumicaugmentation:arcane_terraformer>);
-
-recipes.addShaped("thaumicaugmentation:fortified_glass", <thaumicaugmentation:fortified_glass> * 8, []);
 
 recipes.remove(<thaumicaugmentation:fortified_glass>);
 ArcaneWorkbench.removeRecipe("fortified_glass");
