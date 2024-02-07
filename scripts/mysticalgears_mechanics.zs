@@ -16,6 +16,12 @@ recipes.remove(<mystgears:gear_octine>);
 recipes.remove(<mystgears:gear_valonite>);
 
 
+recipes.remove(<mystgears:ember_gatling_gun>);
+scripts.utils.addShaped("recipe_ember_gatling_gun", <mystgears:ember_gatling_gun>, [
+	[<ore:plateSyrmorite>, <ore:plateDawnstone>, <ore:plateDawnstone>], 
+	[<embers:shard_ember>, null, <ore:plateSyrmorite>], 
+	[<ore:plateSyrmorite>, <ore:plateDawnstone>, <ore:plateDawnstone>]
+]);
 
 recipes.remove(<mystgears:mechanical_dial>);
 scripts.utils.addShaped("recipe_mechanical_dial", <mystgears:mechanical_dial>, [
@@ -24,12 +30,11 @@ scripts.utils.addShaped("recipe_mechanical_dial", <mystgears:mechanical_dial>, [
 	[<ore:plateGold>]
 ]);
 
-
 recipes.remove(<mysticalmechanics:gear_fan>);
 scripts.utils.addShaped("mysticalmechanics-fan_iron", <mysticalmechanics:gear_fan>, [
-	[<embers:plate_iron>, null, <embers:plate_iron>], 
+	[<thaumcraft:plate:1>, null, <thaumcraft:plate:1>], 
 	[null, <thebetweenlands:items_misc:41>, null], 
-	[<embers:plate_iron>, null, <embers:plate_iron>]
+	[<thaumcraft:plate:1>, null, <thaumcraft:plate:1>]
 ]);
 
 recipes.remove(<mystgears:gear_black_hole>);

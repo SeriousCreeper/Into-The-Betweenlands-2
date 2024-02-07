@@ -254,6 +254,12 @@ val itemsToRemove = [
 	<jaopca:block_blockrawzorrasteel>,
 	<jaopca:block_blockterrasteel>,
 
+	<thaumicaugmentation:celestial_observer_placer>,
+	<thaumicaugmentation:biome_selector>,
+	<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_overworld"}),
+	<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_nether"}),
+	<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_end"}),
+
 	//<mystgears:gear_copper>,
 ] as IItemStack[];
 

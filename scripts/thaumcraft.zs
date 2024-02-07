@@ -30,7 +30,6 @@ scripts.utils.addShaped("phial", <thaumcraft:phial> * 8, [
 	[null, <thebetweenlands:silt_glass>, null]
 ]);
 
-
 recipes.remove(<thaumcraft:scribing_tools>);
 scripts.utils.addShapeless("scribingtoolscraft1", <thaumcraft:scribing_tools>, [<thaumcraft:phial>, <minecraft:dye>, <ore:feather>]);
 recipes.addHiddenShaped("scribingtoolscraft1_shaped", <thaumcraft:scribing_tools>, [[<thaumcraft:phial>, <minecraft:dye>, <ore:feather>]]);
@@ -142,6 +141,38 @@ scripts.utils.addShaped("candle_black", <thaumcraft:candle_black>, [[<minecraft:
 
 // ARCANE WORKBENCH - SHAPED
 recipes.remove(<thaumicaugmentation:arcane_terraformer>);
+
+recipes.addShaped("thaumicaugmentation:fortified_glass", <thaumicaugmentation:fortified_glass> * 8, []);
+
+recipes.remove(<thaumicaugmentation:fortified_glass>);
+ArcaneWorkbench.removeRecipe("fortified_glass");
+ArcaneWorkbench.registerShapedRecipe("fortified_glass", "FORTIFIED_GLASS@1", 20, [
+	<aspect:terra>, 
+	<aspect:aqua>, 
+	<aspect:ignis>, 
+	<aspect:ordo>
+],
+<thaumicaugmentation:fortified_glass> * 8,
+[
+	[<thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>], 
+	[<thebetweenlands:filtered_silt_glass>, <thaumicaugmentation:material:1>, <thebetweenlands:filtered_silt_glass>], 
+	[<thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>]
+]);
+
+recipes.remove(<thaumicaugmentation:key>);
+ArcaneWorkbench.removeRecipe("key_iron");
+ArcaneWorkbench.registerShapedRecipe("key_iron", "WARD_KEYS@1", 5, [
+	<aspect:terra>, 
+	<aspect:aqua>, 
+	<aspect:ignis>, 
+	<aspect:perditio>
+],
+<thaumicaugmentation:key>,
+[
+	[null, null, <thaumcraft:brain>], 
+	[null, <minecraft:iron_nugget>, <minecraft:iron_nugget>], 
+	[<minecraft:iron_nugget>, <minecraft:iron_nugget>, null]
+]);
 
 recipes.remove(<thaumcraft:thaumometer>);
 ArcaneWorkbench.removeRecipe("thaumometer");
