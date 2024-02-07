@@ -465,8 +465,8 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 <ore:shimmerstone>.add(<thebetweenlands:shimmer_stone>);
 
-//<ore:oreBucketSwampWater>.add(<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}));
-//<ore:oreBucketSwampWater>.add(<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}));
+<ore:oreBucketSwampWater>.add(<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}));
+<ore:oreBucketSwampWater>.add(<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "swamp_water", Amount: 1000}}));
 
 <ore:bow>.add(<roots:wildwood_bow:*>);
 <ore:bow>.add(<thebetweenlands:weedwood_bow:*>);
