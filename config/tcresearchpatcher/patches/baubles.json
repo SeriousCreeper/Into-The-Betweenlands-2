@@ -1,40 +1,103 @@
 [
     {
-        "key": "HARNESS_BASE",
-        "ops": [
-            {
-                "op": "replace",
-                "path": "stages/1/recipes",
-                "value": ["crafttweaker:harness_base"]
-            }
-        ]
-    },
-    {
-        "key": "HARNESS_BASE",
-        "ops": [
-            {
-                "op": "replace",
-                "path": "parents",
-                "value": ["IMPETUS"]
-            }
-        ]
-    },
-    {
-        "key": "HARNESS_BASE",
-        "ops": [
-            {
-                "op": "replace",
-                "path": "location",
-                "value": [2, 7]
-            }
-        ]
-    },
-    {
-        "key": "THAUMOSTATIC_HARNESS",
+        "key": "HARNESS_BASE",    
         "ops": [
             {
                 "op": "remove",
-                "path": "stages/0/required_research"
+                "path": "stages/1/recipes"
+            },
+            {
+                "op": "remove",
+                "path": "category"
+            },
+            {
+                "op": "remove",
+                "path": "parents"
+            }
+        ]
+    },
+    {
+        "key": "THAUMOSTATIC_HARNESS",    
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/1/recipes"
+            },
+            {
+                "op": "remove",
+                "path": "category"
+            },
+            {
+                "op": "remove",
+                "path": "parents"
+            }
+        ]
+    },
+    {
+        "key": "THAUMOSTATIC_GYROSCOPE",    
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/1/recipes"
+            },
+            {
+                "op": "remove",
+                "path": "category"
+            },
+            {
+                "op": "remove",
+                "path": "parents"
+            }
+        ]
+    },
+    {
+        "key": "THAUMOSTATIC_GIRDLE",    
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/1/recipes"
+            },
+            {
+                "op": "remove",
+                "path": "category"
+            },
+            {
+                "op": "remove",
+                "path": "parents"
+            }
+        ]
+    },
+    {
+        "key": "ELYTRA_HARNESS",    
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/1/recipes"
+            },
+            {
+                "op": "remove",
+                "path": "category"
+            },
+            {
+                "op": "remove",
+                "path": "parents"
+            }
+        ]
+    },
+    {
+        "key": "ELYTRA_BOOSTER",    
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/1/recipes"
+            },
+            {
+                "op": "remove",
+                "path": "category"
+            },
+            {
+                "op": "remove",
+                "path": "parents"
             }
         ]
     }

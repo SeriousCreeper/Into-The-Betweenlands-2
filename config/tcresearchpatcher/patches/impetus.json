@@ -27,11 +27,19 @@
         ]
     },
     {
-        "key": "ARCANE_TERRAFORMER",
+        "key": "ARCANE_TERRAFORMER",    
         "ops": [
             {
                 "op": "remove",
-                "path": "stages/0/required_research"
+                "path": "stages/1/recipes"
+            },
+            {
+                "op": "remove",
+                "path": "category"
+            },
+            {
+                "op": "remove",
+                "path": "parents"
             }
         ]
     }
