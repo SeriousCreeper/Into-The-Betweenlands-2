@@ -114,6 +114,8 @@ Recipes.setRecipeStageByMod("unstaged", "modularmachinery");
 ItemStages.stageModItems("unstaged", "modularmachinery");
 Recipes.setRecipeStageByMod("unstaged", "deepresonance");
 ItemStages.stageModItems("unstaged", "deepresonance");
+Recipes.setRecipeStageByMod("unstaged", "arcaneworld");
+ItemStages.stageModItems("unstaged", "arcaneworld");
 
 ItemStages.addItemStage("unstaged", <thaumicaugmentation:gauntlet>.withTag({color: 8022208}));
 
