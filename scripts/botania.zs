@@ -36,7 +36,7 @@ recipes.remove(<botania:manaresource:6>);
 scripts.utils.addShapeless("botania_manaresource_6", <botania:manaresource:6>, [<betweenlandsredstone:scabyst_dust>, <thebetweenlands:swamp_tallgrass>]);
 
 recipes.remove(<botania:fertilizer>);
-scripts.utils.addShapeless("fertilizer", <botania:fertilizer>, [<minecraft:dye:15>, <minecraft:dye:11>, <minecraft:dye:11>, <minecraft:dye:1>, <minecraft:dye:1>]);
+scripts.utils.addShapeless("fertilizer", <botania:fertilizer>, [<ore:petalAny>, <minecraft:dye:11>, <minecraft:dye:11>, <minecraft:dye:1>, <minecraft:dye:1>]);
 
 recipes.removeByRecipeName("botania:pavement_0");
 recipes.removeByRecipeName("botania:pavement_1");
@@ -135,6 +135,196 @@ scripts.utils.addShapeless("grassseeds_7", <botania:grassseeds:7>, [<botania:gra
 recipes.remove(<botania:grassseeds:8>);
 scripts.utils.addShapeless("grassseeds_8", <botania:grassseeds:8>, [<botania:grassseeds>, <thebetweenlands:items_misc:30>]);
 
+recipes.remove(<botania:spreader>);
+scripts.utils.addShaped("spreader_0", <botania:spreader>, [
+	[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], 
+	[<ore:ingotOctine>, <ore:petalAny>, null], 
+	[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]
+]);
+
+recipes.remove(<botania:pylon>);
+scripts.utils.addShaped("pylon_0", <botania:pylon>, [
+	[null, <ore:ingotOctine>, null], 
+	[<ore:ingotManasteel>, <ore:manaDiamond>, <ore:ingotManasteel>], 
+	[null, <ore:ingotOctine>, null]
+]);
+
+recipes.remove(<botania:pylon:1>);
+scripts.utils.addShaped("pylon_1", <botania:pylon:1>, [
+	[null, <ore:nuggetTerrasteel>, null], 
+	[<ore:nuggetTerrasteel>, <botania:pylon>, <ore:nuggetTerrasteel>], 
+	[null, <thebetweenlands:wight_heart>, null]
+]);
+
+recipes.remove(<botania:manavoid>);
+scripts.utils.addShaped("manavoid", <botania:manavoid>, [
+	[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], 
+	[<thebetweenlands:tar_solid>, null, <thebetweenlands:tar_solid>], 
+	[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]
+]);
+
+recipes.remove(<botania:turntable>);
+scripts.utils.addShaped("turntable", <botania:turntable>, [
+	[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], 
+	[<ore:livingwood>, <betweenlandsredstone:scabyst_sticky_piston>, <ore:livingwood>], 
+	[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]
+]);
+
+recipes.remove(<botania:alchemycatalyst>);
+scripts.utils.addShaped("alchemycatalyst", <botania:alchemycatalyst>, [
+	[<ore:livingrock>, <ore:ingotOctine>, <ore:livingrock>], 
+	[<thebetweenlands:alembic>, <ore:manaPearl>, <thebetweenlands:alembic>], 
+	[<ore:livingrock>, <ore:ingotOctine>, <ore:livingrock>]
+]);
+
+recipes.remove(<botania:foresteye>);
+scripts.utils.addShaped("foresteye", <botania:foresteye>, [
+	[<ore:ingotManasteel>, <ore:livingrock>, <ore:ingotManasteel>], 
+	[<ore:livingrock>, <thebetweenlands:wight_heart>, <ore:livingrock>], 
+	[<ore:ingotManasteel>, <ore:livingrock>, <ore:ingotManasteel>]
+]);
+
+recipes.remove(<botania:dreamwood:2>);
+scripts.utils.addShapeless("dreamwood_2", <botania:dreamwood:2>, [<botania:dreamwood:1>, <thebetweenlands:moss>]);
+
+recipes.remove(<botania:dreamwood:5>);
+scripts.utils.addShapeless("dreamwood_5", <botania:dreamwood:5>, [<ore:dreamwood>, <embers:shard_ember>]);
+
+recipes.removeByRecipeName("botania:custombrick_0");
+scripts.utils.addShapeless("custombrick_0", <botania:custombrick>, [<ore:gemLapis>, <thebetweenlands:polished_limestone>]);
+
+recipes.remove(<botania:endereyeblock>);
+scripts.utils.addShaped("endereyeblock", <botania:endereyeblock>, [
+	[null, <thebetweenlands:wight_heart>, null], 
+	[<thebetweenlands:wight_heart>, <thebetweenlands:tar_solid>, <thebetweenlands:wight_heart>], 
+	[null, <thebetweenlands:wight_heart>, null]
+]);
+
+recipes.remove(<botania:starfield>);
+scripts.utils.addShaped("starfield", <botania:starfield>, [
+	[<ore:ingotElvenElementium>, <ore:elvenPixieDust>, <ore:ingotElvenElementium>], 
+	[<ore:ingotElvenElementium>, <thaumicaugmentation:starfield_glass:*>, <ore:ingotElvenElementium>]
+]);
+
+recipes.remove(<botania:redstringdispenser>);
+scripts.utils.addShaped("redstringdispenser", <botania:redstringdispenser>, [
+	[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], 
+	[<ore:livingrock>, <betweenlandsredstone:scabyst_dispenser>, <ore:bRedString>], 
+	[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]
+]);
+
+recipes.remove(<botania:prism>);
+scripts.utils.addShaped("prism", <botania:prism>, [
+	[<thebetweenlands:filtered_silt_glass>, <thebetweenlands:shimmer_stone>, <thebetweenlands:filtered_silt_glass>], 
+	[<thebetweenlands:filtered_silt_glass>, <botania:platform:1>, <thebetweenlands:filtered_silt_glass>], 
+	[<thebetweenlands:filtered_silt_glass>, <thebetweenlands:shimmer_stone>, <thebetweenlands:filtered_silt_glass>]
+]);
+
+recipes.remove(<botania:corporeaindex>);
+scripts.utils.addShaped("corporeaindex", <botania:corporeaindex>, [
+	[<ore:bEnderAirBottle>, <thebetweenlands:tar_solid>, <ore:bEnderAirBottle>], 
+	[<thebetweenlands:tar_solid>, <botania:corporeaspark>, <thebetweenlands:tar_solid>], 
+	[<ore:elvenDragonstone>, <thebetweenlands:tar_solid>, <ore:elvenDragonstone>]
+]);
+
+recipes.remove(<botania:corporeafunnel>);
+scripts.utils.addShapeless("corporeafunnel", <botania:corporeafunnel>, [<betweenlandsredstone:scabyst_dropper>, <botania:corporeaspark>]);
+
+recipes.remove(<botania:pump>);
+scripts.utils.addShaped("pump", <botania:pump>, [
+	[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], 
+	[<ore:ingotManasteel>, <thebetweenlands:bl_bucket:1>, <ore:ingotManasteel>], 
+	[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]
+]);
+
+recipes.remove(<botania:hourglass>);
+scripts.utils.addShaped("hourglass", <botania:hourglass>, [
+	[<ore:ingotOctine>, <botania:managlass>, <ore:ingotOctine>],
+	[null, <ore:ingotManasteel>, null],
+	[<ore:ingotOctine>, <botania:managlass>, <ore:ingotOctine>]
+]);
+
+recipes.remove(<botania:ghostrail>);
+scripts.utils.addShapeless("ghostrail", <botania:ghostrail>, [<betweenlandsredstone:scabyst_rail>, <botania:platform:1>]);
+
+recipes.remove(<botania:lightrelay>);
+scripts.utils.addShapeless("lightrelay_0", <botania:lightrelay>, [<ore:bRedString>, <ore:elvenDragonstone>, <thebetweenlands:wisp>]);
+
+recipes.remove(<botania:lightrelay:3>);
+scripts.utils.addShapeless("lightrelay_3", <botania:lightrelay:3>, [<botania:lightrelay>, <ore:lever>]);
+
+recipes.remove(<botania:livingwood:2>);
+scripts.utils.addShapeless("livingwood_2", <botania:livingwood:2>, [<botania:livingwood:1>, <thebetweenlands:moss>]);
+
+recipes.remove(<botania:livingwood:5>);
+scripts.utils.addShapeless("livingwood_5", <botania:livingwood:5>, [<ore:livingwood>, <thebetweenlands:wisp>]);
+
+recipes.remove(<botania:livingrock:2>);
+scripts.utils.addShapeless("livingrock_2", <botania:livingrock:2>, [<botania:livingrock:1>, <thebetweenlands:moss>]);
+
+recipes.remove(<botania:cellblock>);
+scripts.utils.addShaped("cellblock", <botania:cellblock> * 3, [
+	[<thebetweenlands:swamp_reed_item>, <thebetweenlands:swamp_reed_item>, <thebetweenlands:swamp_reed_item>], 
+	[<thebetweenlands:middle_fruit>, <thebetweenlands:yellow_dotted_fungus>, <thebetweenlands:weeping_blue_petal>],
+	[<thebetweenlands:swamp_reed_item>, <thebetweenlands:swamp_reed_item>, <thebetweenlands:swamp_reed_item>]
+]);
+
+recipes.remove(<botania:redstringinterceptor>);
+scripts.utils.addShaped("redstringinterceptor", <botania:redstringinterceptor>, [
+	[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], 
+	[<ore:livingrock>, <thebetweenlands:betweenstone_button>, <ore:bRedString>], 
+	[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]
+]);
+
+recipes.remove(<botania:lens:17>);
+scripts.utils.addShaped("lens_17", <botania:lens:17>, [
+	[<thaumcraft:amber_block>, <thebetweenlands:pyrad_flame>, <thaumcraft:amber_block>], 
+	[<thebetweenlands:pyrad_flame>, <botania:lens>, <thebetweenlands:pyrad_flame>], 
+	[<thaumcraft:amber_block>, <thebetweenlands:pyrad_flame>, <thaumcraft:amber_block>]
+]);
+
+recipes.remove(<botania:firerod>);
+scripts.utils.addShaped("firerod", <botania:firerod>, [
+	[null, null, <embers:wildfire_core>], 
+	[null, <ore:livingwoodTwig>, null], 
+	[<ore:runeFireB>, null, null]
+]);
+
+recipes.remove(<botania:glasspick>);
+scripts.utils.addShaped("glasspick", <botania:glasspick>, [
+	[<thebetweenlands:filtered_silt_glass>, <ore:ingotManasteel>, <thebetweenlands:filtered_silt_glass>],
+	[null, <ore:livingwoodTwig>, null], 
+	[null, <ore:livingwoodTwig>, null]
+]);
+
+recipes.remove(<botania:spark>);
+scripts.utils.addShaped("spark", <botania:spark>, [
+	[null, <ore:petalAny>, null], 
+	[<embers:dust_ember>, <ore:nuggetOctine>, <embers:dust_ember>], 
+	[null, <ore:petalAny>, null]
+]);
+
+recipes.remove(<botania:monocle>);
+scripts.utils.addShaped("monocle", <botania:monocle>, [
+	[<botania:managlass>, <ore:ingotOctine>], 
+	[<ore:ingotManasteel>, <ore:ingotOctine>], 
+	[null, <ore:ingotOctine>]
+]);
+
+
+
+
+
+
+for i in 0 to 16 {
+	recipes.remove(<botania:shinyflower>.withDamage(i));
+	recipes.remove(<botania:miniisland>.withDamage(i));
+	scripts.utils.addShapeless("shinyflower_" ~ i, <botania:shinyflower>.withDamage(i), [<thebetweenlands:wisp>, <thebetweenlands:wisp>, <botania:flower>.withDamage(i)]);
+	scripts.utils.addShapeless("miniisland_0", <botania:miniisland>.withDamage(i), [<botania:shinyflower>.withDamage(i), <botania:grassseeds>, <thebetweenlands:swamp_dirt>]);
+}
+
+
+
 
 
 // pure daisy recipes
@@ -174,7 +364,6 @@ ManaInfusion.addInfusion(<botania:manaresource:23>, <betweenlandsredstone:scabys
 ManaInfusion.removeRecipe(<botania:storage>);
 ManaInfusion.addInfusion(<botania:storage>, <thebetweenlands:syrmorite_block>, 27000);
 
-
 ManaInfusion.removeRecipe(<botania:grassseeds>);
 ManaInfusion.addInfusion(<botania:grassseeds>, <thebetweenlands:swamp_tallgrass>, 2500);
 
@@ -183,6 +372,9 @@ ManaInfusion.addInfusion(<botania:grassseeds:1>, <thebetweenlands:dead_weedwood_
 
 ManaInfusion.removeRecipe(<botania:grassseeds:2>);
 ManaInfusion.addInfusion(<botania:grassseeds:2>, <thebetweenlands:mud>, 6500);
+
+ManaInfusion.removeRecipe(<botania:pistonrelay>);
+ManaInfusion.addInfusion(<botania:pistonrelay>, <betweenlandsredstone:scabyst_piston>, 15000);
 
 for i in 0 to 16 {
 	ManaInfusion.addInfusion(<botania:flower>.withDamage(i), <botania:mushroom>.withDamage(i), 200);
