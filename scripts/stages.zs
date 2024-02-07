@@ -28,6 +28,11 @@ val itemsToLock = [
 	<embers:isolated_materia>,
 	<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}),
 	<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}),
+	<thaumicaugmentation:thaumostatic_harness>,
+	<thaumicaugmentation:thaumostatic_harness_augment>,
+	<thaumicaugmentation:thaumostatic_harness_augment:1>,
+	<thaumicaugmentation:elytra_harness_augment>,
+	<thaumicaugmentation:elytra_harness>,
 ] as IItemStack[];
 
 for item in itemsToLock {

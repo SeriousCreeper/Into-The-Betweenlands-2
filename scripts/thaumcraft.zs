@@ -16,6 +16,7 @@ recipes.remove(<thaumcraft:plate:*>);
 //scripts.utils.addShapeless("salismundus", <thaumcraft:salis_mundus>, [<thebetweenlands:items_misc:22>.reuse(), <thebetweenlands:items_misc:14>.reuse(), <ore:dustRedstone>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
 
 recipes.remove(<thaumcraft:nugget:9>);
+recipes.remove(<thaumicaugmentation:material:4>);
 
 recipes.remove(<thaumcraft:table_wood>);
 scripts.utils.addShaped("tablewood", <thaumcraft:table_wood>, [
@@ -1184,6 +1185,12 @@ Crucible.registerRecipe("brassingot", "METALLURGY@1", <thaumcraft:ingot:2>, <ore
 
 
 // INFUSION
+Infusion.removeRecipe(<thaumicaugmentation:thaumostatic_harness>);
+Infusion.removeRecipe(<thaumicaugmentation:thaumostatic_harness_augment>);
+Infusion.removeRecipe(<thaumicaugmentation:thaumostatic_harness_augment:1>);
+Infusion.removeRecipe(<thaumicaugmentation:elytra_harness_augment>);
+Infusion.removeRecipe(<thaumicaugmentation:elytra_harness>);
+
 Infusion.removeRecipe("cloudring");
 Infusion.registerRecipe("cloudring", "CLOUDRING", <thaumcraft:cloud_ring>, 1, [
 	<aspect:aer> * 50, 
