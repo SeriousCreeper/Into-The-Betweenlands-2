@@ -526,7 +526,7 @@ Pyre.removeRecipe(<roots:cooked_pereskia> * 5);
 
 
 // Runic Shears
-val defaultDelay = 6000;
+val defaultDelay = 24000;
 
 
 RunicShears.removeRecipe(<roots:fey_leather>);
