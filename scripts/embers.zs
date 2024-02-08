@@ -472,7 +472,7 @@ Alchemy.add(<embers:tyrfing>, [<thebetweenlands:valonite_sword>, <thebetweenland
 );
 
 Alchemy.remove(<embers:dust_metallurgic>);
-Alchemy.add(<embers:dust_metallurgic> * 3, [<ore:crystalSeed>, <embers:dust_ember>, <ore:dustRedstone>, null, null], 
+Alchemy.add(<embers:dust_metallurgic> * 3, [<ore:crystalSeed>, <embers:dust_ember>, <ore:dustRedstone>, <thaumcraft:salis_mundus>, null], 
 	{
 		"dawnstone" : 0 to 16, 
 		"iron" : 0 to 16, 
