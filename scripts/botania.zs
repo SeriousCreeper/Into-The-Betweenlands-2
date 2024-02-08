@@ -311,8 +311,19 @@ scripts.utils.addShaped("monocle", <botania:monocle>, [
 	[null, <ore:ingotOctine>]
 ]);
 
+recipes.remove(<botania:itemfinder>);
+scripts.utils.addShaped("itemfinder", <botania:itemfinder>, [
+	[null, <minecraft:iron_ingot>, null], 
+	[<minecraft:iron_ingot>, <thebetweenlands:items_misc:52>, <minecraft:iron_ingot>], 
+	[<minecraft:iron_ingot>, <thebetweenlands:polished_dentrothyst>, <minecraft:iron_ingot>]
+]);
 
-
+recipes.remove(<botania:swapring>);
+scripts.utils.addShaped("swapring", <botania:swapring>, [
+	[<thebetweenlands:filtered_silt>, <botania:manaresource>, null], 
+	[<botania:manaresource>, null, <botania:manaresource>], 
+	[null, <botania:manaresource>, null]
+]);
 
 
 
