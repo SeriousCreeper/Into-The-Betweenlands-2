@@ -1331,7 +1331,7 @@ Infusion.registerRecipe("corrupted_bone_wayfinder_cragrock", "BASEINFUSION", <bl
 */
 
 recipes.remove(<pyrotech:wither_forge>);
-Infusion.registerRecipe("wither_forge", "BASEINFUSION", <pyrotech:wither_forge>, 5, [
+Infusion.registerRecipe("wither_forge", "GOINGHOME@2", <pyrotech:wither_forge>, 5, [
 	<aspect:ignis> * 100,
 	<aspect:praecantatio> * 100,
 	<aspect:permutatio> * 100,

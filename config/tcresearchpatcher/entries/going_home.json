@@ -1,0 +1,41 @@
+{
+    "entries": [
+        {
+            "key": "GOINGHOME",
+            "name": "bladditions.research.goinghome.title",
+            "icons": [
+                "pyrotech:wither_forge"
+            ],
+            "category": "THAUMIC_AUGMENTATION",
+            "parents": [
+                "IMPETUS"
+            ],
+            "meta": [
+                "HIDDEN"
+            ],
+            "location": [
+                18,
+                6
+            ],
+            "stages": [
+                {
+                    "text": "bladditions.research.goinghome.0",
+                    "required_item": [
+                        "pyrotech:bloomery",
+                        "embers:wildfire_core"
+                    ],
+                    "required_knowledge": [
+                        "OBSERVATION;ALCHEMY;2",
+                        "THEORY;ELDRITCH;2"
+                    ]
+                },
+                {
+                    "text": "bladditions.research.goinghome.1",
+                    "recipes": [
+                        "thaumcraft:wither_forge"
+                    ]
+                }
+            ]
+        }
+    ]
+}
