@@ -320,7 +320,7 @@ for i in 0 to 16 {
 	recipes.remove(<botania:shinyflower>.withDamage(i));
 	recipes.remove(<botania:miniisland>.withDamage(i));
 	scripts.utils.addShapeless("shinyflower_" ~ i, <botania:shinyflower>.withDamage(i), [<thebetweenlands:wisp>, <thebetweenlands:wisp>, <botania:flower>.withDamage(i)]);
-	scripts.utils.addShapeless("miniisland_0", <botania:miniisland>.withDamage(i), [<botania:shinyflower>.withDamage(i), <botania:grassseeds>, <thebetweenlands:swamp_dirt>]);
+	scripts.utils.addShapeless("miniisland_" ~ i, <botania:miniisland>.withDamage(i), [<botania:shinyflower>.withDamage(i), <botania:grassseeds>, <thebetweenlands:swamp_dirt>]);
 }
 
 
