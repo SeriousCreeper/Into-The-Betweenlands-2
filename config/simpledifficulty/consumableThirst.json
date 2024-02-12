@@ -14,8 +14,8 @@
       "identity": {
         "metadata": -1
       },
-      "amount": 6,
-      "saturation": 4.0,
+      "amount": 3,
+      "saturation": 2.0,
       "thirstyChance": 0.0
     }
   ],
@@ -24,8 +24,8 @@
       "identity": {
         "metadata": -1
       },
-      "amount": 6,
-      "saturation": 4.0,
+      "amount": 3,
+      "saturation": 2.0,
       "thirstyChance": 0.0
     }
   ],
@@ -116,8 +116,8 @@
       "identity": {
         "metadata": -1
       },
-      "amount": 6,
-      "saturation": 4.0,
+      "amount": 3,
+      "saturation": 2.0,
       "thirstyChance": 0.0
     }
   ],
@@ -126,8 +126,8 @@
       "identity": {
         "metadata": -1
       },
-      "amount": 6,
-      "saturation": 4.0,
+      "amount": 3,
+      "saturation": 2.0,
       "thirstyChance": 0.0
     }
   ],
@@ -136,8 +136,8 @@
       "identity": {
         "metadata": -1
       },
-      "amount": 6,
-      "saturation": 4.0,
+      "amount": 3,
+      "saturation": 2.0,
       "thirstyChance": 0.0
     }
   ],
@@ -156,8 +156,8 @@
       "identity": {
         "metadata": -1
       },
-      "amount": 6,
-      "saturation": 4.0,
+      "amount": 3,
+      "saturation": 2.0,
       "thirstyChance": 0.0
     }
   ]
