@@ -20,7 +20,7 @@ OreStages.addReplacement("knowledge_of_malice", <betweenores:nickel_ore>, <thebe
 OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_amber>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_cinnabar>, <thebetweenlands:pitstone>);
 
-OreStages.addReplacement("locked", <minecraft:dirt>, <thebetweenlands:swamp_dirt>);
+//OreStages.addReplacement("locked", <minecraft:dirt>, <thebetweenlands:swamp_dirt>);
 OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_solid>);
 //OreStages.addReplacement("locked", <pyrotech:material:0>, <embers:dust_ash>);
 
