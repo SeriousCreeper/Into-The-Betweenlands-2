@@ -469,3 +469,4 @@ ElvenTrade.addRecipe([<botania:storage:2>], [<ore:blockDawnstone>, <ore:blockDaw
 
 <botania:manaresource:2>.displayName = "Mana Stone";
 <botania:manaresource:2>.displayName = "Mana Gem";
+<botania:manaresource:15>.displayName = "Void Air Bottle";
