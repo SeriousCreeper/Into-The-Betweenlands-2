@@ -592,4 +592,6 @@ scripts.utils.addShapeless("ancient_tablet", <contenttweaker:book_stonetablet>, 
 
 <minecraft:paper>.displayName = "Identification Card";
 
+<minecraft:wool>.displayName = "Bookshelf";
+
 <minecraft:redstone_ore>.displayName = "Bluedust Ore";
