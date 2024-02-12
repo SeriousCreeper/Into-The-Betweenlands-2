@@ -233,6 +233,11 @@ removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncom
 removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:experience_bottle");
 removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:glowstone_dust");
 
+removeLootEntry("mod_lavacow:entities/swarmer", "main", "mod_lavacow:zombiepiranha_item");
+removeLootEntry("mod_lavacow:entities/swarmer", "main", "mod_lavacow:sharptooth");
+
+
+
 addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "ancient_debris", <thebetweenlands:items_misc:47>, 15, 0, [], []);
 addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "valonite_shard", <thebetweenlands:items_misc:19>, 10, 0, [], []);
 addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "octine_ingot", <thebetweenlands:octine_ingot>, 15, 0, [], []);
