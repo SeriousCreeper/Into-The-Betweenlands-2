@@ -234,7 +234,7 @@ removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncom
 removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncommon", "minecraft:glowstone_dust");
 
 removeLootEntry("mod_lavacow:entities/swarmer", "main", "mod_lavacow:zombiepiranha_item");
-removeLootEntry("mod_lavacow:entities/swarmer", "main", "mod_lavacow:sharptooth");
+removeLootEntry("mod_lavacow:entities/swarmer", "tooth", "mod_lavacow:sharptooth");
 
 
 

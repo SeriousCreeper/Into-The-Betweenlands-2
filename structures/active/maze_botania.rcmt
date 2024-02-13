@@ -120,6 +120,138 @@
             }
           ]
         }
+      },
+      {
+        "type": "replaceAll",
+        "transformer": {
+          "uniform": true,
+          "id": "replaceWoolWithBotaniaBarrel",
+          "sourceExpression": "minecraft:wool \u0026 metadata\u003d15",
+          "destination": [
+            {
+              "block": "futuremc:barrel",
+              "metadata": 0,
+              "tileEntity": "{\"nbtType\":\"compound\",\"nbt\":{\"id\":{\"nbtType\":\"string\",\"nbt\":\"futuremc:barrel\"},\"items\":{\"nbtType\":\"compound\",\"nbt\":{\"Size\":{\"nbtType\":\"int\",\"nbt\":27},\"Items\":{\"nbtType\":\"list\",\"nbt\":[{\"nbtType\":\"compound\",\"nbt\":{\"Slot\":{\"nbtType\":\"int\",\"nbt\":0},\"id\":{\"nbtType\":\"string\",\"nbt\":\"reccomplex:inventory_generation_tag\"},\"Count\":{\"nbtType\":\"byte\",\"nbt\":1},\"tag\":{\"nbtType\":\"compound\",\"nbt\":{\"itemCountMax\":{\"nbtType\":\"int\",\"nbt\":4},\"itemCollectionKey\":{\"nbtType\":\"string\",\"nbt\":\"botania_loot\"},\"itemCountMin\":{\"nbtType\":\"int\",\"nbt\":1}}},\"Damage\":{\"nbtType\":\"short\",\"nbt\":0}}}]}}}}}"
+            }
+          ]
+        }
+      },
+      {
+        "type": "worldscript",
+        "transformer": {
+          "id": "spawnMobsGeneric",
+          "sourceExpression": "minecraft:black_glazed_terracotta",
+          "script": {
+            "nbtType": "compound",
+            "nbt": {
+              "scripts": {
+                "nbtType": "list",
+                "nbt": [
+                  {
+                    "nbtType": "compound",
+                    "nbt": {
+                      "id": {
+                        "nbtType": "string",
+                        "nbt": "command"
+                      },
+                      "script": {
+                        "nbtType": "compound",
+                        "nbt": {
+                          "commands": {
+                            "nbtType": "list",
+                            "nbt": [
+                              {
+                                "nbtType": "compound",
+                                "nbt": {
+                                  "weight": {
+                                    "nbtType": "double",
+                                    "nbt": 1.0
+                                  },
+                                  "command": {
+                                    "nbtType": "string",
+                                    "nbt": "/summon Zombie ~ ~ ~ {PersistenceRequired:true}"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "nbtType": "compound",
+                    "nbt": {
+                      "id": {
+                        "nbtType": "string",
+                        "nbt": "command"
+                      },
+                      "script": {
+                        "nbtType": "compound",
+                        "nbt": {
+                          "commands": {
+                            "nbtType": "list",
+                            "nbt": [
+                              {
+                                "nbtType": "compound",
+                                "nbt": {
+                                  "weight": {
+                                    "nbtType": "double",
+                                    "nbt": 1.0
+                                  },
+                                  "command": {
+                                    "nbtType": "string",
+                                    "nbt": "/summon Skeleton ~ ~ ~ {PersistenceRequired:true}"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "nbtType": "compound",
+                    "nbt": {
+                      "id": {
+                        "nbtType": "string",
+                        "nbt": "command"
+                      },
+                      "script": {
+                        "nbtType": "compound",
+                        "nbt": {
+                          "commands": {
+                            "nbtType": "list",
+                            "nbt": [
+                              {
+                                "nbtType": "compound",
+                                "nbt": {
+                                  "weight": {
+                                    "nbtType": "double",
+                                    "nbt": 0.14805258810520172
+                                  },
+                                  "command": {
+                                    "nbtType": "string",
+                                    "nbt": "/summon Witch ~ ~ ~ {PersistenceRequired:true}"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "environmentMatcher": {
+                "nbtType": "string",
+                "nbt": ""
+              }
+            }
+          }
+        }
       }
     ]
   },
