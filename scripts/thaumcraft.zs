@@ -402,7 +402,7 @@ ArcaneWorkbench.registerShapedRecipe("grapplegunspool", "GRAPPLEGUN@2", 25, [
 ], 
 <thaumcraft:grapple_gun_spool>, 
 [
-	[<thebetweenlands:shambler_tongue>, <minecraft:tripwire_hook>, <thebetweenlands:shambler_tongue>], 
+	[<thebetweenlands:shambler_tongue>, <betweenlandsredstone:scabyst_tripwire_hook>, <thebetweenlands:shambler_tongue>], 
 	[<thebetweenlands:shambler_tongue>, <thaumcraft:mechanism_simple>, <thebetweenlands:shambler_tongue>], 
 	[<thebetweenlands:shambler_tongue>, <thebetweenlands:shambler_tongue>, <thebetweenlands:shambler_tongue>]
 ]);
