@@ -25,6 +25,11 @@ OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_so
 //OreStages.addReplacement("locked", <pyrotech:material:0>, <embers:dust_ash>);
 
 Recipes.setRecipeStageByMod("locked", "futuremc");
+Recipes.setRecipeStageByMod("locked", "grimoireofgaia");
+
+ItemStages.stageModItems("locked", "futuremc");
+ItemStages.stageModItems("locked", "grimoireofgaia");
+
 
 val itemsToLock = [
 	<embers:isolated_materia>,
