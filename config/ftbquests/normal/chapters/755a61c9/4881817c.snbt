@@ -12,9 +12,9 @@
 	text: [
 		"There are items in this world that you might not understand yet. ",
 		"",
-		"The Pouch of Curiosity can store these items until it's time to investigate them further. ",
+		"The §6Pouch of Curiosity§r can store these items until it's time to investigate them further. ",
 		"",
-		"It can even be equipped in a bauble slot!"
+		"It can even be equipped in a §6bauble§r slot!"
 	],
 	tasks: [{
 		uid: "5da87ec8",

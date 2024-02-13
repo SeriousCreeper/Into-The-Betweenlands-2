@@ -4,7 +4,7 @@
 	y: -6.0d,
 	shape: "gear",
 	text: [
-		"Water should be purified before consumption, to avoid things like parasites and such."
+		"Water should be purified before consumption, to avoid things like §6parasites§r and such."
 	],
 	optional: true,
 	tasks: [{
