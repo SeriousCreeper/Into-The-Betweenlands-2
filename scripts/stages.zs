@@ -30,6 +30,8 @@ Recipes.setRecipeStageByMod("locked", "grimoireofgaia");
 ItemStages.stageModItems("locked", "futuremc");
 ItemStages.stageModItems("locked", "grimoireofgaia");
 
+ItemStages.stageModItems("locked", "mowziesmobs");
+ItemStages.stageModItems("locked", "mowziesmobs");
 
 val itemsToLock = [
 	<embers:isolated_materia>,
