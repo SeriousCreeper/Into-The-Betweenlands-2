@@ -24,6 +24,8 @@ OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_cinnabar>, <theb
 OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_solid>);
 //OreStages.addReplacement("locked", <pyrotech:material:0>, <embers:dust_ash>);
 
+Recipes.setRecipeStageByMod("locked", "futuremc");
+
 val itemsToLock = [
 	<embers:isolated_materia>,
 	<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "liquid_death", Amount: 1000}}),
@@ -116,6 +118,8 @@ Recipes.setRecipeStageByMod("unstaged", "deepresonance");
 ItemStages.stageModItems("unstaged", "deepresonance");
 Recipes.setRecipeStageByMod("unstaged", "arcaneworld");
 ItemStages.stageModItems("unstaged", "arcaneworld");
+
+
 
 ItemStages.addItemStage("unstaged", <thaumicaugmentation:gauntlet>.withTag({color: 8022208}));
 
