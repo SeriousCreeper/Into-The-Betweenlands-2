@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "mcwfurnitures:block/oak/stripped_acacia_log",
 		"2": "thebetweenlands:blocks/syrmorite_block",
-		"particle": "minecraft:blocks/log_acacia",
-		"texture": "minecraft:blocks/log_acacia"
+		"particle": "thebetweenlands:blocks/log_nibbletwig_1",
+		"texture": "thebetweenlands:blocks/log_nibbletwig_1"
 	}
 }

@@ -1,0 +1,14 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "minecraft:cube_column",
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"variant=bookshelf_spruce": [{ "textures": { "side": "quark:blocks/bookshelf_spruce", "end": "thebetweenlands:blocks/rubber_tree_planks" } }],
+		"variant=bookshelf_birch": [{ "textures": { "side": "quark:blocks/bookshelf_birch", "end": "thebetweenlands:blocks/giant_root_planks" } }],
+		"variant=bookshelf_jungle": [{ "textures": { "side": "quark:blocks/bookshelf_jungle", "end": "thebetweenlands:blocks/hearthgrove_planks" } }],
+		"variant=bookshelf_acacia": [{ "textures": { "side": "quark:blocks/bookshelf_acacia", "end": "thebetweenlands:blocks/nibbletwig_planks" } }],
+		"variant=bookshelf_dark_oak": [{ "textures": { "side": "quark:blocks/bookshelf_dark_oak", "end": "thebetweenlands:blocks/rotten_planks" } }]
+	}
+}

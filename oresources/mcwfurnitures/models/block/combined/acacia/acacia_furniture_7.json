@@ -1,9 +1,9 @@
 {
 	"parent": "mcwfurnitures:block/parent/combined/furniture_7",
 	"textures": {
-		"3": "minecraft:blocks/log_acacia",
+		"3": "thebetweenlands:blocks/log_nibbletwig_1",
 		"6": "minecraft:blocks/bookshelf",
-		"particle": "minecraft:blocks/log_acacia",
-		"texture": "minecraft:blocks/log_acacia"
+		"particle": "thebetweenlands:blocks/log_nibbletwig_1",
+		"texture": "thebetweenlands:blocks/log_nibbletwig_1"
 	}
 }

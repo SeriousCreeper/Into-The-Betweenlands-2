@@ -1,7 +1,7 @@
 {
 	"parent": "mcwfurnitures:block/parent/desk_3",
 	"textures": {
-		"particle": "minecraft:blocks/log_acacia",
-		"texture": "minecraft:blocks/log_acacia"
+		"particle": "thebetweenlands:blocks/log_nibbletwig_1",
+		"texture": "thebetweenlands:blocks/log_nibbletwig_1"
 	}
 }

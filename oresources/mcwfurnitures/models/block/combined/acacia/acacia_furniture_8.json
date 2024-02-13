@@ -2,10 +2,10 @@
 	"parent": "mcwfurnitures:block/parent/combined/furniture_8",
 	"textures": {
 		"1": "mcwfurnitures:block/oak/stripped_acacia_log",
-		"3": "minecraft:blocks/log_acacia",
+		"3": "thebetweenlands:blocks/log_nibbletwig_1",
 		"5": "thebetweenlands:blocks/filtered_silt_glass_0",
 		"8": "mcwfurnitures:block/oak/furniture_glass2",
-		"particle": "minecraft:blocks/log_acacia",
+		"particle": "thebetweenlands:blocks/log_nibbletwig_1",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

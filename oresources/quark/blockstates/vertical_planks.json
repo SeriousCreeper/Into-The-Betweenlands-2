@@ -1,0 +1,15 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "quark:vertical_planks",
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"variant=vertical_oak_planks": [{ "textures": { "all": "thebetweenlands:blocks/weedwood_planks" } }],
+		"variant=vertical_spruce_planks": [{ "textures": { "all": "thebetweenlands:blocks/rubber_tree_planks" } }],
+		"variant=vertical_birch_planks": [{ "textures": { "all": "thebetweenlands:blocks/giant_root_planks" } }],
+		"variant=vertical_jungle_planks": [{ "textures": { "all": "thebetweenlands:blocks/hearthgrove_planks" } }],
+		"variant=vertical_acacia_planks": [{ "textures": { "all": "thebetweenlands:blocks/nibbletwig_planks" } }],
+		"variant=vertical_dark_oak_planks": [{ "textures": { "all": "thebetweenlands:blocks/rotten_planks" } }]
+	}
+}
