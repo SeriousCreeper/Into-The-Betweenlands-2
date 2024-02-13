@@ -32,7 +32,7 @@ GCT.replaceRecipe("devouring_charm", <arcanearchives:devouring_charm> * 4, [<the
 GCT.replaceRecipe("radiant_key", <arcanearchives:radiant_key>, [<thebetweenlands:octine_ingot>, <thebetweenlands:items_misc:42> * 6, <arcanearchives:shaped_quartz>]);
 GCT.replaceRecipe("radiant_lantern", <arcanearchives:radiant_lantern>, [<arcanearchives:raw_quartz> * 2, <thebetweenlands:octine_ingot>]);
 GCT.replaceRecipe("monitoring_crystal", <arcanearchives:monitoring_crystal>, [<arcanearchives:shaped_quartz>, <thebetweenlands:items_misc:42> * 2, <ore:stickWood> * 4]);
-GCT.replaceRecipe("radiant_tank", <arcanearchives:radiant_tank>, [<arcanearchives:shaped_quartz> * 2, <arcanearchives:containment_field>, <thebetweenlands:octine_ingot>]);
+GCT.replaceRecipe("radiant_tank", <arcanearchives:radiant_tank>, [<arcanearchives:shaped_quartz> * 4, <arcanearchives:containment_field>, <thebetweenlands:octine_ingot> * 4, <thebetweenlands:syrmorite_barrel>]);
 GCT.replaceRecipe("brazier_of_hoarding", <arcanearchives:brazier_of_hoarding>, [<arcanearchives:radiant_dust> * 4, <thebetweenlands:items_misc:18> * 8, <thebetweenlands:octine_ingot> * 2, <ore:logWood> * 3]);
 
 
