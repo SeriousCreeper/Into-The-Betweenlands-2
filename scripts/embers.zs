@@ -791,7 +791,7 @@ Stamper.add(<thebetweenlands:octine_sword>, <liquid:octine> * 288, <embers:stamp
 Stamper.add(<thebetweenlands:octine_shield>, <liquid:octine> * 1008, <embers:stamp_flat>, <thebetweenlands:bone_shield>);
 Stamper.add(<roots:iron_knife>, <liquid:octine> * 288, <embers:stamp_flat>, <roots:stone_knife>);
 Stamper.add(<pyrotech:gold_hammer>, <liquid:octine> * 288, <embers:stamp_flat>, <pyrotech:bone_hammer>);
-Stamper.add(<pyrotech:tongs_gold>, <liquid:octine>, <embers:stamp_flat>, <pyrotech:tongs_bone>);
+Stamper.add(<pyrotech:tongs_gold>, <liquid:octine> * 432, <embers:stamp_flat>, <pyrotech:tongs_bone>);
 
 
 
