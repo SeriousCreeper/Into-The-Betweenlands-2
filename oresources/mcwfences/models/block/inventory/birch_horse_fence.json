@@ -3,9 +3,9 @@
 {
 	"parent": "mcwfences:block/parent/inventory/horse_fence",
 	"textures": {
-		"1_texture": "minecraft:blocks/planks_birch",
-		"1_1_texture": "minecraft:blocks/planks_birch",
-		"particle": "minecraft:blocks/log_birch",
-		"wall": "minecraft:blocks/log_birch"
+		"1_texture": "thebetweenlands:blocks/giant_root_planks",
+		"1_1_texture": "thebetweenlands:blocks/giant_root_planks",
+		"particle": "thebetweenlands:blocks/root_top",
+		"wall": "thebetweenlands:blocks/root_top"
 	}
 }

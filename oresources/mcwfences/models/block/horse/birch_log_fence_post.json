@@ -3,7 +3,7 @@
 {
 	"parent": "mcwfences:block/parent/log_fence_post",
 	"textures": {
-		"5": "minecraft:blocks/log_birch",
-		"particle": "minecraft:blocks/log_birch"
+		"5": "thebetweenlands:blocks/root_top",
+		"particle": "thebetweenlands:blocks/root_top"
 	}
 }

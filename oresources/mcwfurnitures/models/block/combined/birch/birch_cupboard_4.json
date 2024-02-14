@@ -1,11 +1,11 @@
 {
 	"parent": "mcwfurnitures:block/parent/combined/cupboard_4",
 	"textures": {
-		"1": "minecraft:blocks/log_birch",
-		"3": "minecraft:blocks/log_birch",
+		"1": "thebetweenlands:blocks/root_top",
+		"3": "thebetweenlands:blocks/root_top",
 		"4": "mcwfurnitures:block/oak/stripped_birch_log",
 		"5": "mcwfurnitures:block/oak/stripped_birch_log",
-		"particle": "minecraft:blocks/log_birch",
+		"particle": "thebetweenlands:blocks/root_top",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

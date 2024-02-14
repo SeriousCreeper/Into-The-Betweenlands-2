@@ -2,9 +2,9 @@
 	"parent": "mcwfurnitures:block/parent/pult_4",
 	"textures": {
 		"0": "mcwfurnitures:block/oak/stripped_spruce_log",
-		"1": "minecraft:blocks/log_spruce",
-		"3": "minecraft:blocks/log_spruce",
-		"particle": "minecraft:blocks/log_spruce",
+		"1": "thebetweenlands:blocks/log_rubber_full",
+		"3": "thebetweenlands:blocks/log_rubber_full",
+		"particle": "thebetweenlands:blocks/log_rubber_full",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

@@ -2,8 +2,8 @@
 {
 	"parent": "mcwfences:block/parent/horse_fence_side",
 	"textures": {
-		"texture": "minecraft:blocks/planks_spruce",
-		"particle": "minecraft:blocks/planks_spruce",
-		"1_texture": "minecraft:blocks/planks_spruce"
+		"texture": "thebetweenlands:blocks/rubber_tree_planks",
+		"particle": "thebetweenlands:blocks/rubber_tree_planks",
+		"1_texture": "thebetweenlands:blocks/rubber_tree_planks"
 	}
 }

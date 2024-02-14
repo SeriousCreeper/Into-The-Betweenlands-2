@@ -1,7 +1,7 @@
 {
 	"parent": "mcwfurnitures:block/parent/desk_7",
 	"textures": {
-		"particle": "minecraft:blocks/log_jungle",
-		"texture": "minecraft:blocks/log_jungle"
+		"particle": "thebetweenlands:blocks/log_hearthgrove",
+		"texture": "thebetweenlands:blocks/log_hearthgrove"
 	}
 }

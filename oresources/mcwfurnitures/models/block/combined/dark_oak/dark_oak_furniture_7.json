@@ -1,9 +1,9 @@
 {
 	"parent": "mcwfurnitures:block/parent/combined/furniture_7",
 	"textures": {
-		"3": "minecraft:blocks/log_big_oak",
+		"3": "thebetweenlands:blocks/rotten_bark",
 		"6": "minecraft:blocks/bookshelf",
-		"particle": "minecraft:blocks/log_big_oak",
-		"texture": "minecraft:blocks/log_big_oak"
+		"particle": "thebetweenlands:blocks/rotten_bark",
+		"texture": "thebetweenlands:blocks/rotten_bark"
 	}
 }

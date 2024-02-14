@@ -2,8 +2,8 @@
 	"parent": "mcwfurnitures:block/parent/combined/cupboard_2",
 	"textures": {
         "0": "thebetweenlands:blocks/syrmorite_block",
-		"1": "minecraft:blocks/log_oak",
+		"1": "thebetweenlands:blocks/log_weedwood",
 		"2": "mcwfurnitures:block/oak/stripped_oak_log",
-		"particle": "minecraft:blocks/log_oak"
+		"particle": "thebetweenlands:blocks/log_weedwood"
 	}
 }

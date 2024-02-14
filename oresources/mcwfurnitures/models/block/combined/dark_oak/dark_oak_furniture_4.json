@@ -2,10 +2,10 @@
 	"parent": "mcwfurnitures:block/parent/combined/furniture_4",
 	"textures": {
 		"1": "mcwfurnitures:block/oak/stripped_dark_oak_log",
-		"3": "minecraft:blocks/log_big_oak",
+		"3": "thebetweenlands:blocks/rotten_bark",
 		"5": "thebetweenlands:blocks/filtered_silt_glass_0",
 		"8": "mcwfurnitures:block/oak/furniture_glass2",
-		"particle": "minecraft:blocks/log_big_oak",
+		"particle": "thebetweenlands:blocks/rotten_bark",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

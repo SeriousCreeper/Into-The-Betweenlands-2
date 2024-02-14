@@ -2,11 +2,11 @@
 	"parent": "mcwfurnitures:block/parent/combined/cupboard_7",
 	"textures": {
 		"0": "mcwfurnitures:block/oak/stripped_jungle_log",
-		"1": "minecraft:blocks/log_jungle",
-		"3": "minecraft:blocks/log_jungle",
+		"1": "thebetweenlands:blocks/log_hearthgrove",
+		"3": "thebetweenlands:blocks/log_hearthgrove",
 		"4": "mcwfurnitures:block/oak/stripped_jungle_log",
-		"6": "minecraft:blocks/log_jungle",
-		"particle": "minecraft:blocks/log_jungle",
+		"6": "thebetweenlands:blocks/log_hearthgrove",
+		"particle": "thebetweenlands:blocks/log_hearthgrove",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

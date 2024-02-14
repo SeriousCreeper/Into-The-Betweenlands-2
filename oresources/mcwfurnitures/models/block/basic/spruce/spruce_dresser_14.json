@@ -1,8 +1,8 @@
 {
 	"parent": "mcwfurnitures:block/parent/dresser_14",
 	"textures": {
-		"3": "minecraft:blocks/log_spruce",
-		"particle": "minecraft:blocks/log_spruce",
-		"texture": "minecraft:blocks/log_spruce"
+		"3": "thebetweenlands:blocks/log_rubber_full",
+		"particle": "thebetweenlands:blocks/log_rubber_full",
+		"texture": "thebetweenlands:blocks/log_rubber_full"
 	}
 }

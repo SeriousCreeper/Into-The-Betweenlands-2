@@ -2,13 +2,13 @@
 	"parent": "mcwfurnitures:block/parent/dresser_17",
 	"textures": {
 		"2": "mcwfurnitures:block/oak/stripped_jungle_log",
-		"3": "minecraft:blocks/log_jungle",
+		"3": "thebetweenlands:blocks/log_hearthgrove",
 		"4": "minecraft:blocks/sapling_jungle",
 		"5": "minecraft:blocks/flower_pot",
 		"7": "mcwfurnitures:block/oak/stripped_jungle_log",
 		"8": "thebetweenlands:blocks/swamp_dirt",
-		"particle": "minecraft:blocks/log_jungle",
-		"texture": "minecraft:blocks/log_jungle",
+		"particle": "thebetweenlands:blocks/log_hearthgrove",
+		"texture": "thebetweenlands:blocks/log_hearthgrove",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

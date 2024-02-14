@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:block/wall_side",
 	"textures": {
-		"wall": "minecraft:blocks/log_oak"
+		"wall": "thebetweenlands:blocks/log_weedwood"
 	}
 }

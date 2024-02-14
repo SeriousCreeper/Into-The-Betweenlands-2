@@ -1,8 +1,8 @@
 {
 	"parent": "mcwfurnitures:block/parent/dresser_14",
 	"textures": {
-		"3": "minecraft:blocks/log_jungle",
-		"particle": "minecraft:blocks/log_jungle",
-		"texture": "minecraft:blocks/log_jungle"
+		"3": "thebetweenlands:blocks/log_hearthgrove",
+		"particle": "thebetweenlands:blocks/log_hearthgrove",
+		"texture": "thebetweenlands:blocks/log_hearthgrove"
 	}
 }

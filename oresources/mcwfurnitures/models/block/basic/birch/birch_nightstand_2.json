@@ -2,9 +2,9 @@
 	"parent": "mcwfurnitures:block/parent/nightstand_2",
 	"textures": {
 		"0": "mcwfurnitures:block/oak/stripped_birch_log",
-		"1": "minecraft:blocks/log_birch",
-		"2": "minecraft:blocks/log_birch",
-		"particle": "minecraft:blocks/log_birch",
+		"1": "thebetweenlands:blocks/root_top",
+		"2": "thebetweenlands:blocks/root_top",
+		"particle": "thebetweenlands:blocks/root_top",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

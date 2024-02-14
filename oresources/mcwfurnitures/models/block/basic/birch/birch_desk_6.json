@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "mcwfurnitures:block/oak/stripped_birch_log",
 		"2": "thebetweenlands:blocks/syrmorite_block",
-		"particle": "minecraft:blocks/log_birch",
-		"texture": "minecraft:blocks/log_birch"
+		"particle": "thebetweenlands:blocks/root_top",
+		"texture": "thebetweenlands:blocks/root_top"
 	}
 }

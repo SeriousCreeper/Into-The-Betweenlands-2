@@ -2,8 +2,8 @@
 {
 	"parent": "mcwfences:block/parent/horse_fence_side",
 	"textures": {
-		"texture": "minecraft:blocks/planks_jungle",
-		"particle": "minecraft:blocks/planks_jungle",
-		"1_texture": "minecraft:blocks/planks_jungle"
+		"texture": "thebetweenlands:blocks/hearthgrove_planks",
+		"particle": "thebetweenlands:blocks/hearthgrove_planks",
+		"1_texture": "thebetweenlands:blocks/hearthgrove_planks"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"parent": "mcwfurnitures:block/parent/nightstand_9",
 	"textures": {
-		"1": "minecraft:blocks/log_big_oak",
-		"particle": "minecraft:blocks/log_big_oak"
+		"1": "thebetweenlands:blocks/rotten_bark",
+		"particle": "thebetweenlands:blocks/rotten_bark"
 	}
 }

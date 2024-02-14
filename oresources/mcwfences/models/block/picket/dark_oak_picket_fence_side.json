@@ -3,7 +3,7 @@
 {
 	"parent": "mcwfences:block/parent/picket_fence_side",
 	"textures": {
-		"2": "minecraft:blocks/log_big_oak",
+		"2": "thebetweenlands:blocks/rotten_bark",
 		"particle": "thebetweenlands:blocks/rotten_planks",
 		"texture": "thebetweenlands:blocks/rotten_planks"
 	}

@@ -2,10 +2,10 @@
 	"parent": "mcwfurnitures:block/parent/combined/cupboard_3",
 	"textures": {
 		"0": "mcwfurnitures:block/oak/stripped_dark_oak_log",
-		"1": "minecraft:blocks/log_big_oak",
-		"3": "minecraft:blocks/log_big_oak",
+		"1": "thebetweenlands:blocks/rotten_bark",
+		"3": "thebetweenlands:blocks/rotten_bark",
 		"5": "minecraft:blocks/bookshelf",
-		"particle": "minecraft:blocks/log_big_oak",
+		"particle": "thebetweenlands:blocks/rotten_bark",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

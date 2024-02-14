@@ -3,8 +3,8 @@
 {
 	"parent": "mcwfences:block/parent/stockade_fence_side",
 	"textures": {
-		"4": "minecraft:blocks/planks_spruce",
-		"5": "minecraft:blocks/log_spruce",
-		"particle": "minecraft:blocks/planks_spruce"
+		"4": "thebetweenlands:blocks/rubber_tree_planks",
+		"5": "thebetweenlands:blocks/log_rubber_full",
+		"particle": "thebetweenlands:blocks/rubber_tree_planks"
 	}
 }

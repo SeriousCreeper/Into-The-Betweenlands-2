@@ -2,7 +2,7 @@
 	"parent": "mcwfurnitures:block/parent/desk_9",
 	"textures": {
 		"3": "thebetweenlands:blocks/filtered_silt_glass_0",
-		"particle": "minecraft:blocks/log_jungle",
-		"texture": "minecraft:blocks/log_jungle"
+		"particle": "thebetweenlands:blocks/log_hearthgrove",
+		"texture": "thebetweenlands:blocks/log_hearthgrove"
 	}
 }

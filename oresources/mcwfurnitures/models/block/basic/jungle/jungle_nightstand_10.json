@@ -1,8 +1,8 @@
 {
 	"parent": "mcwfurnitures:block/parent/nightstand_10",
 	"textures": {
-		"1": "minecraft:blocks/log_jungle",
-		"2": "minecraft:blocks/log_jungle",
-		"particle": "minecraft:blocks/log_jungle"
+		"1": "thebetweenlands:blocks/log_hearthgrove",
+		"2": "thebetweenlands:blocks/log_hearthgrove",
+		"particle": "thebetweenlands:blocks/log_hearthgrove"
 	}
 }

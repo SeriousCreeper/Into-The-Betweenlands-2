@@ -3,7 +3,7 @@
 {
 	"parent": "mcwfences:block/parent/inventory/stockade_fence",
 	"textures": {
-		"5": "minecraft:blocks/log_jungle",
-		"particle": "minecraft:blocks/planks_jungle"
+		"5": "thebetweenlands:blocks/log_hearthgrove",
+		"particle": "thebetweenlands:blocks/hearthgrove_planks"
 	}
 }

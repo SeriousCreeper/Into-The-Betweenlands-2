@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:block/wall_inventory",
 	"textures": {
-		"wall": "minecraft:blocks/log_spruce"
+		"wall": "thebetweenlands:blocks/log_rubber_full"
 	}
 }

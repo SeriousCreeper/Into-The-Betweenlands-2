@@ -2,13 +2,13 @@
 	"parent": "mcwfurnitures:block/parent/dresser_17",
 	"textures": {
 		"2": "mcwfurnitures:block/oak/stripped_oak_log",
-		"3": "minecraft:blocks/log_oak",
+		"3": "thebetweenlands:blocks/log_weedwood",
 		"4": "thebetweenlands:blocks/sapling_weedwood",
 		"5": "minecraft:blocks/flower_pot",
 		"7": "mcwfurnitures:block/oak/stripped_oak_log",
 		"8": "thebetweenlands:blocks/swamp_dirt",
-		"particle": "minecraft:blocks/log_oak",
-		"texture": "minecraft:blocks/log_oak",
+		"particle": "thebetweenlands:blocks/log_weedwood",
+		"texture": "thebetweenlands:blocks/log_weedwood",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

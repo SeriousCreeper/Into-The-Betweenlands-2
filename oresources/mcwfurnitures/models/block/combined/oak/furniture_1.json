@@ -3,9 +3,9 @@
 	"textures": {
 		"1": "mcwfurnitures:block/oak/stripped_oak_log",
 		"2": "mcwfurnitures:block/oak/stripped_oak_log",
-		"3": "minecraft:blocks/log_oak",
-		"particle": "minecraft:blocks/log_oak",
-		"texture": "minecraft:blocks/log_oak",
+		"3": "thebetweenlands:blocks/log_weedwood",
+		"particle": "thebetweenlands:blocks/log_weedwood",
+		"texture": "thebetweenlands:blocks/log_weedwood",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

@@ -2,8 +2,8 @@
 	"parent": "mcwfurnitures:block/parent/dresser_7",
 	"textures": {
 		"1": "mcwfurnitures:block/oak/stripped_jungle_log",
-		"particle": "minecraft:blocks/log_jungle",
-		"texture": "minecraft:blocks/log_jungle",
+		"particle": "thebetweenlands:blocks/log_hearthgrove",
+		"texture": "thebetweenlands:blocks/log_hearthgrove",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

@@ -3,9 +3,9 @@
 {
 	"parent": "mcwfences:block/parent/inventory/horse_fence",
 	"textures": {
-		"1_texture": "minecraft:blocks/planks_oak",
-		"1_1_texture": "minecraft:blocks/planks_oak",
-		"particle": "minecraft:blocks/log_oak",
-		"wall": "minecraft:blocks/log_oak"
+		"1_texture": "thebetweenlands:blocks/weedwood_planks",
+		"1_1_texture": "thebetweenlands:blocks/weedwood_planks",
+		"particle": "thebetweenlands:blocks/log_weedwood",
+		"wall": "thebetweenlands:blocks/log_weedwood"
 	}
 }

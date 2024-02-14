@@ -2,10 +2,10 @@
 	"parent": "mcwfurnitures:block/parent/nightstand_3",
 	"textures": {
 		"0": "mcwfurnitures:block/oak/stripped_jungle_log",
-		"1": "minecraft:blocks/log_jungle",
-		"2": "minecraft:blocks/log_jungle",
+		"1": "thebetweenlands:blocks/log_hearthgrove",
+		"2": "thebetweenlands:blocks/log_hearthgrove",
 		"4": "minecraft:blocks/bookshelf",
-		"particle": "minecraft:blocks/log_jungle",
+		"particle": "thebetweenlands:blocks/log_hearthgrove",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

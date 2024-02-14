@@ -3,8 +3,8 @@
 {
 	"parent": "mcwfences:block/parent/stockade_fence_side",
 	"textures": {
-		"4": "minecraft:blocks/planks_birch",
-		"5": "minecraft:blocks/log_birch",
-		"particle": "minecraft:blocks/planks_birch"
+		"4": "thebetweenlands:blocks/giant_root_planks",
+		"5": "thebetweenlands:blocks/root_top",
+		"particle": "thebetweenlands:blocks/giant_root_planks"
 	}
 }

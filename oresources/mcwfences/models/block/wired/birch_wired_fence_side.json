@@ -3,9 +3,9 @@
 {
 	"parent": "mcwfences:block/parent/wired_fence_side",
 	"textures": {
-		"1": "minecraft:blocks/log_birch_top",
+		"1": "thebetweenlands:blocks/root_top",
 		"4": "mcwfences:block/wire_fence",
-		"particle": "minecraft:blocks/log_birch",
-		"1_texture": "minecraft:blocks/log_birch"
+		"particle": "thebetweenlands:blocks/root_top",
+		"1_texture": "thebetweenlands:blocks/root_top"
 	}
 }

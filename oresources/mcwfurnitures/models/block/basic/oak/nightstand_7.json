@@ -1,10 +1,10 @@
 {
 	"parent": "mcwfurnitures:block/parent/nightstand_7",
 	"textures": {
-		"1": "minecraft:blocks/log_oak",
-		"2": "minecraft:blocks/log_oak",
+		"1": "thebetweenlands:blocks/log_weedwood",
+		"2": "thebetweenlands:blocks/log_weedwood",
 		"3": "thebetweenlands:blocks/filtered_silt_glass_0",
-		"particle": "minecraft:blocks/log_oak",
+		"particle": "thebetweenlands:blocks/log_weedwood",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

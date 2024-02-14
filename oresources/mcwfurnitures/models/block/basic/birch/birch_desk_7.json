@@ -1,7 +1,7 @@
 {
 	"parent": "mcwfurnitures:block/parent/desk_7",
 	"textures": {
-		"particle": "minecraft:blocks/log_birch",
-		"texture": "minecraft:blocks/log_birch"
+		"particle": "thebetweenlands:blocks/root_top",
+		"texture": "thebetweenlands:blocks/root_top"
 	}
 }

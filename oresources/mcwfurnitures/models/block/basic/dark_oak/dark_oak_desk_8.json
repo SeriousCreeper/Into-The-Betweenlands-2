@@ -1,7 +1,7 @@
 {
 	"parent": "mcwfurnitures:block/parent/desk_8",
 	"textures": {
-		"particle": "minecraft:blocks/log_big_oak",
-		"texture": "minecraft:blocks/log_big_oak"
+		"particle": "thebetweenlands:blocks/rotten_bark",
+		"texture": "thebetweenlands:blocks/rotten_bark"
 	}
 }

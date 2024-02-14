@@ -1,7 +1,7 @@
 {
 	"parent": "mcwfurnitures:block/parent/desk_7",
 	"textures": {
-		"particle": "minecraft:blocks/log_oak",
-		"texture": "minecraft:blocks/log_oak"
+		"particle": "thebetweenlands:blocks/log_weedwood",
+		"texture": "thebetweenlands:blocks/log_weedwood"
 	}
 }

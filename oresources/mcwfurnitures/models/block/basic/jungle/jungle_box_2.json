@@ -2,8 +2,8 @@
 	"parent": "mcwfurnitures:block/parent/box_2",
 	"textures": {
 		"2": "thebetweenlands:blocks/syrmorite_block",
-		"3": "minecraft:blocks/log_jungle",
+		"3": "thebetweenlands:blocks/log_hearthgrove",
 		"4": "mcwfurnitures:block/oak/stripped_jungle_log",
-		"particle": "minecraft:blocks/log_jungle"
+		"particle": "thebetweenlands:blocks/log_hearthgrove"
 	}
 }

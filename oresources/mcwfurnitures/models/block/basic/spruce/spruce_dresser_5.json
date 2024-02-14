@@ -2,8 +2,8 @@
 	"parent": "mcwfurnitures:block/parent/dresser_5",
 	"textures": {
 		"1": "mcwfurnitures:block/oak/stripped_spruce_log",
-		"3": "minecraft:blocks/log_spruce",
-		"particle": "minecraft:blocks/log_spruce",
+		"3": "thebetweenlands:blocks/log_rubber_full",
+		"particle": "thebetweenlands:blocks/log_rubber_full",
 		"1_2": "thebetweenlands:blocks/syrmorite_block"
 	}
 }

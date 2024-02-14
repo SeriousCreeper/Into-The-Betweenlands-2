@@ -3,7 +3,7 @@
 {
 	"parent": "mcwfences:block/parent/inventory/picket_fence",
 	"textures": {
-		"5": "minecraft:blocks/log_oak",
-		"particle": "minecraft:blocks/planks_oak"
+		"5": "thebetweenlands:blocks/log_weedwood",
+		"particle": "thebetweenlands:blocks/weedwood_planks"
 	}
 }

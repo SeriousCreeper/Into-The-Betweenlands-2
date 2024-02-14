@@ -3,8 +3,8 @@
 {
 	"parent": "mcwfences:block/parent/wired_fence_post",
 	"textures": {
-		"1": "minecraft:blocks/log_spruce_top",
-		"particle": "minecraft:blocks/log_spruce",
-		"texture": "minecraft:blocks/log_spruce"
+		"1": "thebetweenlands:blocks/log_rubber_top",
+		"particle": "thebetweenlands:blocks/log_rubber_full",
+		"texture": "thebetweenlands:blocks/log_rubber_full"
 	}
 }

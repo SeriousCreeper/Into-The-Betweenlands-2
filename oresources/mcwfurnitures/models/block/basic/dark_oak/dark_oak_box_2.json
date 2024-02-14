@@ -2,8 +2,8 @@
 	"parent": "mcwfurnitures:block/parent/box_2",
 	"textures": {
 		"2": "thebetweenlands:blocks/syrmorite_block",
-		"3": "minecraft:blocks/log_big_oak",
+		"3": "thebetweenlands:blocks/rotten_bark",
 		"4": "mcwfurnitures:block/oak/stripped_dark_oak_log",
-		"particle": "minecraft:blocks/log_big_oak"
+		"particle": "thebetweenlands:blocks/rotten_bark"
 	}
 }

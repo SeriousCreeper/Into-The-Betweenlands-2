@@ -3,8 +3,8 @@
 {
 	"parent": "mcwfences:block/parent/highley_gate",
 	"textures": {
-		"2": "minecraft:blocks/planks_spruce",
-		"particle": "minecraft:blocks/planks_spruce",
-		"texture": "minecraft:blocks/log_spruce"
+		"2": "thebetweenlands:blocks/rubber_tree_planks",
+		"particle": "thebetweenlands:blocks/rubber_tree_planks",
+		"texture": "thebetweenlands:blocks/log_rubber_full"
 	}
 }

@@ -3,8 +3,8 @@
 {
 	"parent": "mcwfences:block/parent/picket_fence_side",
 	"textures": {
-		"2": "minecraft:blocks/log_spruce",
-		"particle": "minecraft:blocks/planks_spruce",
-		"texture": "minecraft:blocks/planks_spruce"
+		"2": "thebetweenlands:blocks/log_rubber_full",
+		"particle": "thebetweenlands:blocks/rubber_tree_planks",
+		"texture": "thebetweenlands:blocks/rubber_tree_planks"
 	}
 }

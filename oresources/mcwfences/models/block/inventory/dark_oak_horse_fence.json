@@ -5,7 +5,7 @@
 	"textures": {
 		"1_texture": "thebetweenlands:blocks/rotten_planks",
 		"1_1_texture": "thebetweenlands:blocks/rotten_planks",
-		"particle": "minecraft:blocks/log_big_oak",
-		"wall": "minecraft:blocks/log_big_oak"
+		"particle": "thebetweenlands:blocks/rotten_bark",
+		"wall": "thebetweenlands:blocks/rotten_bark"
 	}
 }
