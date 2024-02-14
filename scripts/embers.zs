@@ -915,7 +915,7 @@ scripts.utils.addInfoTooltip(<embers:ember_bore>, "Has to be placed in the pitst
 //<embers:seed_iron>.displayName = "Syrmorite Crystal Seed";
 //<embers:seed_gold>.displayName = "Octine Crystal Seed";
 <embers:copper_cell:*>.displayName = "Octine Cell";
-<embers:charger>.displayName = "Octine Cell";
+<embers:charger>.displayName = "Octine Charger";
 <embers:seed_syrmorite>.displayName = "Syrmorite Crystal Seed";
 <embers:seed_octine>.displayName = "Octine Crystal Seed";
 <embers:seed_iron>.displayName = "Wrought Iron Crystal Seed";
