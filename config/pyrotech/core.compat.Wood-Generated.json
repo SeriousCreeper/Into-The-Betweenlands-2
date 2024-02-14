@@ -10,6 +10,12 @@
     "Entry item strings are in the format: (domain):(path):(meta)"
   ],
   "entries": {
+    "futuremc:stripped_acacia_log:0": "minecraft:planks:4",
+    "futuremc:stripped_birch_log:0": "minecraft:planks:2",
+    "futuremc:stripped_dark_oak_log:0": "minecraft:planks:5",
+    "futuremc:stripped_jungle_log:0": "minecraft:planks:3",
+    "futuremc:stripped_oak_log:0": "minecraft:planks:0",
+    "futuremc:stripped_spruce_log:0": "minecraft:planks:1",
     "minecraft:log2:0": "minecraft:planks:4",
     "minecraft:log2:1": "minecraft:planks:5",
     "minecraft:log:0": "minecraft:planks:0",
