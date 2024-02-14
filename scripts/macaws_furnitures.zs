@@ -45,9 +45,8 @@ scripts.utils.addShaped("mcwfurnitures_dark_oak_plate", <mcwfurnitures:dark_oak_
 ]);
 
 scripts.utils.addShaped("mcwfurnitures_cabinet_door", <mcwfurnitures:cabinet_door>, [
-	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
-	[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>], 
-	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
+	[<pyrotech:material:20>], 
+	[<pyrotech:material:20>]
 ]);
 
 recipes.remove(<mcwfurnitures:iron_handle>);
