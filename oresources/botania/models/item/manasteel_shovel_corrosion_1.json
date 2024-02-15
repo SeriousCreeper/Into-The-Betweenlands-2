@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "botania:items/manasteel_shovel",
+    "layer1": "botania:items/manasteel_shovel_corrosion_1"
+  }
+}

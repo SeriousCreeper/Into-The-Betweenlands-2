@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": 
+    {
+        "layer0": "botania:items/elementium_sword"
+    },
+    "overrides": [
+        { "predicate": { "corrosion": 0.0 }, "model": "botania:item/elementium_sword_corrosion_0" },
+        { "predicate": { "corrosion": 1.0 }, "model": "botania:item/elementium_sword_corrosion_1" },
+        { "predicate": { "corrosion": 2.0 }, "model": "botania:item/elementium_sword_corrosion_2" },
+        { "predicate": { "corrosion": 3.0 }, "model": "botania:item/elementium_sword_corrosion_3" },
+        { "predicate": { "corrosion": 4.0 }, "model": "botania:item/elementium_sword_corrosion_4" },
+        { "predicate": { "corrosion": 5.0 }, "model": "botania:item/elementium_sword_corrosion_5" }
+    ]
+}

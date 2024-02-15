@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "botania:items/manasteel_axe",
+    "layer1": "botania:items/manasteel_axe_corrosion_4"
+  }
+}

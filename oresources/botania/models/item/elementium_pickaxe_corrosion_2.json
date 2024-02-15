@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "botania:items/elementium_pickaxe",
+    "layer1": "botania:items/elementium_pickaxe_corrosion_2"
+  }
+}

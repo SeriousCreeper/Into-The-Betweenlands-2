@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "botania:items/elementium_shovel",
+    "layer1": "botania:items/elementium_shovel_corrosion_5"
+  }
+}
