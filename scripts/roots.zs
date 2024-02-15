@@ -695,6 +695,9 @@ var animal_harvest = Rituals.getRitual("animal_harvest") as Ritual;
 animal_harvest.setInteger("fish_count", 3);
 animal_harvest.setInteger("interval", 300);
 
+var summon_creatures = Rituals.getRitual("summon_creatures") as Ritual;
+summon_creatures.setInteger("duration", 1200);
+
 
 
 
