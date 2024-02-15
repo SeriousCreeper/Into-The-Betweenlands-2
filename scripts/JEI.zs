@@ -266,6 +266,7 @@ val itemsToRemove = [
 	<botania:smeltrod>,
 	<botania:worldseed>,
 	<botania:flowerbag>,
+	<botania:teruterubozu>,
 
 	<jaopca:block_blockelvenelementium>,
 	<jaopca:block_blockmanasteel>,
