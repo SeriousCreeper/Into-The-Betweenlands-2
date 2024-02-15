@@ -1,8 +1,10 @@
+import crafttweaker.item.IIngredient;
 import mods.botania.PureDaisy;
 import mods.botania.ManaInfusion;
 import mods.botania.Apothecary;
 import mods.botania.RuneAltar;
 import mods.botania.ElvenTrade;
+import mods.botaniatweaks.Agglomeration;
 
 // variables
 var defaultPureDaisyTime = 60 * 20; // make this faster as pacifisit
@@ -477,6 +479,21 @@ ElvenTrade.removeRecipe(<botania:storage:2>);
 ElvenTrade.addRecipe([<botania:manaresource:7>], [<ore:ingotDawnstone>, <ore:ingotDawnstone>]);
 ElvenTrade.addRecipe([<botania:storage:2>], [<ore:blockDawnstone>, <ore:blockDawnstone>]);
 
+
+
+// agglomeration
+
+Agglomeration.removeRecipe(<botania:manaresource:4>, [<botania:manaresource>, <botania:manaresource:1>, <botania:manaresource:2>] as IIngredient[]);
+Agglomeration.addRecipe(
+	<botania:manaresource:4>, 
+	[<thaumcraft:void_seed>, <botania:manaresource>, <botania:manaresource:1>, <botania:manaresource:2>] as IIngredient[],
+	500000,
+	0xff8817,
+	0x00FF00,
+	<embers:block_dawnstone>,
+	<embers:archaic_light>,
+	<embers:archaic_edge>
+);
 
 
 
