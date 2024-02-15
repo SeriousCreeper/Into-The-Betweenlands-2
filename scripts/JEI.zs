@@ -270,6 +270,10 @@ val itemsToRemove = [
 	<botania:manaresource:11>,
 	<botania:craftpattern:*>,
 
+	<botanianeedsit:mana_capacitor_manasteel:*>,
+	<botanianeedsit:mana_capacitor_elementium:*>,
+	<botanianeedsit:mana_capacitor_terrasteel:*>,
+
 	<jaopca:block_blockelvenelementium>,
 	<jaopca:block_blockmanasteel>,
 	<jaopca:block_blockrawzorrasteel>,
