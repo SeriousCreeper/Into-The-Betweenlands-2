@@ -2,9 +2,9 @@
 	"__comment": "Designed by Wiiv with Cubik Studio - https://cubik.studio",
 	"textures": {
 		"particle": "blocks/repeater_off",
-		"slab": "thebetweenlands:blocks/smooth_cragrock",
+		"slab": "betweenlandsredstone:blocks/diode_side",
 		"top": "quark:blocks/randomizer_off",
-		"unlit": "coloredredstone:blocks/colored_redstone_torch_light_blue_off"
+		"unlit": "betweenlandsredstone:blocks/scabyst_torch_off"
 	},
 	"elements": [ 	 
 		{
