@@ -331,6 +331,15 @@ scripts.utils.addShapeless("mana_capacitor_manasteel", <botanianeedsit:mana_capa
 recipes.remove(<botanianeedsit:mana_capacitor_elementium:1>);
 scripts.utils.addShapeless("mana_capacitor_elementium", <botanianeedsit:mana_capacitor_elementium:1> * 25, [<botania:manaresource:7>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})]);
 
+recipes.remove(<botania:terraplate>);
+recipes.addShaped("terraplate", <botania:terraplate>, [
+	[<roots:chiseled_runed_obsidian>, <roots:chiseled_runed_obsidian>, <roots:chiseled_runed_obsidian>], 
+	[<ore:runeWaterB>, <botania:storage:2>, <ore:runeFireB>], 
+	[<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>]
+]);
+
+
+
 
 
 for i in 0 to 16 {
