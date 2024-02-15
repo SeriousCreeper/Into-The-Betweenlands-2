@@ -209,6 +209,18 @@
         "CanRespawnHere": true,
         "RespawnDimension": 20
       }
+    },
+    {
+      "dim": -546,
+      "override": true,
+      "jed": {
+        "SkyRenderType": 2,
+        "ForceGameMode": true
+      },
+      "worldinfo": {},
+      "worldinfo_onetime": {
+        "GameType": 2
+      }
     }
   ]
 }
