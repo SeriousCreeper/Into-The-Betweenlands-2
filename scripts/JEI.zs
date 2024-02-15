@@ -262,7 +262,6 @@ val itemsToRemove = [
 	<botania:enderhand>,
 	<botania:gravityrod>,
 	<botania:missilerod>,
-	<botania:cobblerod>,
 	<botania:smeltrod>,
 	<botania:worldseed>,
 	<botania:flowerbag>,
