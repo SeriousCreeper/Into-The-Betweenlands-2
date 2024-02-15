@@ -266,6 +266,9 @@ val itemsToRemove = [
 	<botania:worldseed>,
 	<botania:flowerbag>,
 	<botania:teruterubozu>,
+	<botania:opencrate:1>,
+	<botania:manaresource:11>,
+	<botania:craftpattern:*>,
 
 	<jaopca:block_blockelvenelementium>,
 	<jaopca:block_blockmanasteel>,
