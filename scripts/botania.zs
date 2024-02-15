@@ -325,6 +325,12 @@ scripts.utils.addShaped("swapring", <botania:swapring>, [
 	[null, <botania:manaresource>, null]
 ]);
 
+recipes.remove(<botanianeedsit:mana_capacitor_manasteel:1>);
+scripts.utils.addShapeless("mana_capacitor_manasteel", <botanianeedsit:mana_capacitor_manasteel:1> * 64, [<botania:manaresource>, <thebetweenlands:items_misc:22>]);
+
+recipes.remove(<botanianeedsit:mana_capacitor_elementium:1>);
+scripts.utils.addShapeless("mana_capacitor_elementium", <botanianeedsit:mana_capacitor_elementium:1> * 25, [<botania:manaresource:7>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})]);
+
 
 
 for i in 0 to 16 {
