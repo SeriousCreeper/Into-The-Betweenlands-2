@@ -275,6 +275,11 @@ val itemsToRemove = [
 	<jaopca:block_blockrawzorrasteel>,
 	<jaopca:block_blockterrasteel>,
 
+	<timeisup:timer_anchor>,
+	<timeisup:timer_bonus>,
+	<timeisup:timer_ward>,
+	<timeisup:timer_ward_head>,
+
 	<thaumicaugmentation:celestial_observer_placer>,
 	<thaumicaugmentation:biome_selector>,
 	<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_overworld"}),
