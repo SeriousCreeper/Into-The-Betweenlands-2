@@ -17,12 +17,12 @@ recipes.addShaped("reach_upgrade1", <effortlessbuilding:reach_upgrade1>, [
 
 recipes.addShaped("reach_upgrade2", <effortlessbuilding:reach_upgrade2>, [
 	[null, <effortlessbuilding:reach_upgrade1>, null],
-	[<effortlessbuilding:reach_upgrade1>, <botania:manaresource:4>, <effortlessbuilding:reach_upgrade1>],
+	[<effortlessbuilding:reach_upgrade1>, <minecraft:iron_ingot>, <effortlessbuilding:reach_upgrade1>],
 	[null, <effortlessbuilding:reach_upgrade1>, null]
 ]);
 
 recipes.addShaped("reach_upgrade3", <effortlessbuilding:reach_upgrade3>, [
 	[null, <effortlessbuilding:reach_upgrade2>, null],
-	[<effortlessbuilding:reach_upgrade2>, <minecraft:iron_ingot>, <effortlessbuilding:reach_upgrade2>],
+	[<effortlessbuilding:reach_upgrade2>, <botania:manaresource:4>, <effortlessbuilding:reach_upgrade2>],
 	[null, <effortlessbuilding:reach_upgrade2>, null]
 ]);
