@@ -441,7 +441,7 @@ scripts.utils.addShaped("tech/machine/mechanical_mulch_spreader", <pyrotech:mech
 recipes.remove(<pyrotech:mechanical_hopper>);
 scripts.utils.addShaped("tech/machine/mechanical_hopper", <pyrotech:mechanical_hopper>, [
 	[<pyrotech:material:16>, null, <pyrotech:material:16>], 
-	[<pyrotech:planks_tarred>, <pyrotech:material:27>, <pyrotech:planks_tarred>], 
+	[<ore:plankWood>, <pyrotech:material:27>, <ore:plankWood>], 
 	[null, <pyrotech:material:16>, null]
 ]);
 
