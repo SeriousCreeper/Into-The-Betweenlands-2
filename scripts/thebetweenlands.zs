@@ -155,12 +155,17 @@ recipes.addShaped("black_ice", <thebetweenlands:black_ice>, [
 	[<simpledifficulty:ice_chunk>, <simpledifficulty:ice_chunk>]
 ]);
 
-
 recipes.remove(<thebetweenlands:rubber_tree_planks_treated>);
 recipes.addShaped("rubber_tree_planks_treated", <thebetweenlands:rubber_tree_planks_treated> * 8, [
 	[<thebetweenlands:rubber_tree_planks>, <thebetweenlands:rubber_tree_planks>, <thebetweenlands:rubber_tree_planks>], 
 	[<thebetweenlands:rubber_tree_planks>, <thebetweenlands:bl_bucket_fish_oil:*>, <thebetweenlands:rubber_tree_planks>], 
 	[<thebetweenlands:rubber_tree_planks>, <thebetweenlands:rubber_tree_planks>, <thebetweenlands:rubber_tree_planks>]
+]);
+
+recipes.remove(<thebetweenlands:samite:7>);
+recipes.addShaped("samite", <thebetweenlands:samite:7>, [
+	[<thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>], 
+	[<thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>]
 ]);
 
 	
