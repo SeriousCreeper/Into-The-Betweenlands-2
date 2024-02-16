@@ -902,6 +902,20 @@ ArcaneWorkbench.registerShapedRecipe("mechanism_complex", "BASEARTIFICE@1", 50, 
 ]);
 
 
+ArcaneWorkbench.registerShapedRecipe("sharing_tome", "BASEARTIFICE@0", 50, [
+	<aspect:ignis> * 1,
+	<aspect:aqua> * 1,
+	<aspect:terra> * 1,
+	<aspect:ordo> * 1,
+	<aspect:perditio> * 1,
+	<aspect:aer> * 1
+], 
+<sharetome:sharing_tome>, 
+[
+	[null, <botania:spellcloth>, null], 
+	[<botania:spellcloth>, <thaumcraft:thaumonomicon>, <botania:spellcloth>], 
+	[null, <botania:spellcloth>, null]
+]);
 
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:banner_white>);
@@ -946,7 +960,7 @@ ArcaneWorkbench.registerShapedRecipe("radiant_chest", "", 10, [
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
-ArcaneWorkbench.registerShapedRecipe("manifest", "", 25, [
+ArcaneWorkbench.registerShapedRecipe("manifest", "FIRSTSTEPS@2", 25, [
 	<aspect:terra>,
 	<aspect:aer>,
 	<aspect:ignis>,
