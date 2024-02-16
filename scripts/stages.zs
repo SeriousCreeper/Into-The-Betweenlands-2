@@ -49,6 +49,9 @@ for item in itemsToLock {
 	Recipes.setRecipeStage("locked", item);
 }
 
+ItemStages.addItemStage("chose_botania", <bladditions:corrupted_bone_wayfinder>.withTag({dungeon_id: "maze_botania_start"}));
+
+
 val rootsItemsNotToStage = [
 ] as IItemStack[];
 
@@ -93,7 +96,9 @@ stageMods("soot", "knowledge_of_malice", embersItemsNotToStage);
 
 stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 
+stageMods("bloodmagic", "chose_bloodmagic", bloodmagicItemsNotToStage);
 stageMods("bloodmagic", "bloodmagic", bloodmagicItemsNotToStage);
+stageMods("botania", "chose_botania", botaniaItemsNotToStage);
 stageMods("botania", "botania", botaniaItemsNotToStage);
 
 var sludgeonStage = "knowledge_of_decay";
