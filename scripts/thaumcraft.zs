@@ -944,21 +944,21 @@ ArcaneWorkbench.registerShapedRecipe("bannerwhite", "BASEINFUSION", 10, [
 	[<thebetweenlands:shelf_fungus>, <ore:slabWood>]
 ]);
 
-recipes.remove(<arcanearchives:radiant_chest>);
-ArcaneWorkbench.registerShapedRecipe("radiant_chest", "", 10, [
-	<aspect:terra>,
-	<aspect:aer>,
-	<aspect:ignis>,
-	<aspect:aqua>,
-	<aspect:ordo>,
-	<aspect:perditio>,
-], 
-<arcanearchives:radiant_chest>, 
-[
-	[<ore:plankWood>, <ore:plateOctine>, <ore:plankWood>], 
-	[<ore:plankWood>, <arcanearchives:raw_quartz>, <ore:plankWood>], 	
-	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
-]);
+//recipes.remove(<arcanearchives:radiant_chest>);
+//ArcaneWorkbench.registerShapedRecipe("radiant_chest", "", 10, [
+//	<aspect:terra>,
+//	<aspect:aer>,
+//	<aspect:ignis>,
+//	<aspect:aqua>,
+//	<aspect:ordo>,
+//	<aspect:perditio>,
+//], 
+//<arcanearchives:radiant_chest>, 
+//[
+//	[<ore:plankWood>, <ore:plateOctine>, <ore:plankWood>], 
+//	[<ore:plankWood>, <arcanearchives:raw_quartz>, <ore:plankWood>], 	
+//	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+//]);
 
 ArcaneWorkbench.registerShapedRecipe("manifest", "FIRSTSTEPS@2", 25, [
 	<aspect:terra>,

@@ -18,6 +18,13 @@ scripts.utils.addShaped("scepter_revelation", <arcanearchives:scepter_revelation
 ]);
 
 
+recipes.remove(<arcanearchives:radiant_chest>);
+scripts.utils.addShaped("radiant_chest", <arcanearchives:radiant_chest>, [
+	[<ore:plankWood>, <ore:plateOctine>, <ore:plankWood>], 
+	[<ore:plankWood>, <arcanearchives:raw_quartz>, <ore:plankWood>], 	
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);
+
 
 GCT.replaceRecipe("manifest", <arcanearchives:manifest>, [<thebetweenlands:items_misc:32>, <minecraft:dye:0>, <arcanearchives:radiant_dust> * 2]);
 //GCT.replaceRecipe("letter_invitation", <arcanearchives:letter_invitation>, [<thebetweenlands:items_misc:32> * 3, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:45>]);
