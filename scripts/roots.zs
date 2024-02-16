@@ -524,6 +524,9 @@ Pyre.addRecipe("infernal_bulb", <roots:infernal_bulb>,
 
 Pyre.removeRecipe(<roots:cooked_pereskia> * 5);
 
+Pyre.addRecipe("botania_dungeon", <bladditions:corrupted_bone_wayfinder>.withTag({dungeon_id: "maze_botania_start"}), 
+	[<contenttweaker:inert_boneway_finder>, <thebetweenlands:syrmorite_block>, <thebetweenlands:bulb_capped_mushroom_cap>, <thebetweenlands:black_hat_mushroom_item>, <thebetweenlands:flat_head_mushroom_item>]);
+
 
 // Runic Shears
 val defaultDelay = 24000;
