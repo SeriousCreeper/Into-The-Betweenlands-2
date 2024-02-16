@@ -1,0 +1,29 @@
+{
+	title: "Sharing Is Caring",
+	x: 0.75d,
+	y: -1.0d,
+	text: [
+		"By infusing a §6Thaumonomicon§r with a bit of vis, it is possible to §6share§r the gained knowledge with a fellow Thaumaturge.",
+		"",
+		"Simply §6sneak-right click§r while holding the Tome to §6store§r all your knowledge in it. ",
+		"",
+		"Anyone §6right-clicking§r the Tome afterwards will §6gain§r any missing knowledge from the Tome."
+	],
+	dependencies: [
+		"1d46e163"
+	],
+	tasks: [{
+		uid: "0de010fc",
+		type: "item",
+		items: [{
+			item: "sharetome:sharing_tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c8d119c8",
+		type: "xp",
+		xp: 100
+	}]
+}

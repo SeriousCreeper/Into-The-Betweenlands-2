@@ -18,22 +18,22 @@
 		uid: "41357450",
 		type: "item",
 		items: [{
+			id: "basketcase:basket_small_generic",
 			ForgeCaps: {
 				Parent: []
-			},
-			id: "basketcase:basket_small_generic"
+			}
 		},
 		{
+			id: "basketcase:basket_medium_generic",
 			ForgeCaps: {
 				Parent: []
-			},
-			id: "basketcase:basket_medium_generic"
+			}
 		},
 		{
+			id: "basketcase:basket_large_generic",
 			ForgeCaps: {
 				Parent: []
-			},
-			id: "basketcase:basket_large_generic"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

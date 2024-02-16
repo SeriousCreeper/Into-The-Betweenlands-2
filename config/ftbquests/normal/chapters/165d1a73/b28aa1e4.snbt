@@ -22,16 +22,16 @@
 		uid: "a549dfb1",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "doorWood",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any doorWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "doorWood"
 				}
 			}
 		}]
@@ -40,16 +40,16 @@
 		uid: "87e1e909",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "treeSapling",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any treeSapling"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "treeSapling"
 				}
 			}
 		}]

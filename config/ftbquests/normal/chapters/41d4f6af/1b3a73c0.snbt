@@ -14,10 +14,12 @@
 		uid: "aae96288",
 		type: "item",
 		items: [{
-			item: "bladditions:corrupted_bone_wayfinder"
+			id: "bladditions:corrupted_bone_wayfinder",
+			tag: {
+				dungeon_id: "maze_botania_start"
+			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "9acc7e4b",

@@ -19,7 +19,7 @@
 		type: "gamestage",
 		title: "Chose Botania",
 		icon: "thebetweenlands:lore_scrap 1 2",
-		stage: "chosen_botania"
+		stage: "chose_botania"
 	}],
 	rewards: [{
 		uid: "90a6a500",

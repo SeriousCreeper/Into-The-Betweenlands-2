@@ -23,13 +23,13 @@
 		},
 		{
 			id: "thebetweenlands:bl_bucket",
+			Damage: 1s,
 			tag: {
 				Fluid: {
 					FluidName: "swamp_water",
 					Amount: 1000
 				}
-			},
-			Damage: 1s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

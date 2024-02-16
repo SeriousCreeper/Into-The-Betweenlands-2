@@ -18,16 +18,16 @@
 		uid: "b9fe51e4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "chestWood",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any chestWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "chestWood"
 				}
 			}
 		}]

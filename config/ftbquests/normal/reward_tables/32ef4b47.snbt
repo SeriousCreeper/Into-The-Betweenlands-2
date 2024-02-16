@@ -10,14 +10,14 @@
 			}
 		},
 		auto: "no_toast",
-		stage: "botania",
+		stage: "chose_botania",
 		type: "gamestage"
 	},
 	{
 		title: "Blood Magic",
 		icon: "bloodmagic:blood_shard",
 		auto: "no_toast",
-		stage: "bloodmagic",
+		stage: "chose_bloodmagic",
 		type: "gamestage"
 	}]
 }
