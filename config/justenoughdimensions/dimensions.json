@@ -215,10 +215,24 @@
       "override": true,
       "jed": {
         "SkyRenderType": 2,
-        "ForceGameMode": true
+        "CanRespawnHere": true,
+        "RespawnDimension": 20,
+        "ForceGameMode": true,
+        "void_teleport": {
+          "dimension": 20,
+          "trigger_y": 20,
+          "find_surface": true,
+          "remove_fall_damage": true,
+          "fall_distance": 2,
+          "min_health_left": 1,
+          "teleport_type": "spawn"
+        }
       },
       "worldinfo": {},
       "worldinfo_onetime": {
+        "GameRules": {
+            "keepInventory": "true"
+        },
         "GameType": 2
       }
     }
