@@ -94,12 +94,12 @@ scripts.utils.addShaped("storagedrawers-upgrade_void", <storagedrawers:upgrade_v
 	[<thebetweenlands:tar_solid>, <thebetweenlands:tar_solid>, <thebetweenlands:tar_solid>]
 ]);
 
-recipes.remove(<storagedrawers:upgrade_conversion>);
-scripts.utils.addShaped("storagedrawers-upgrade_conversion", <storagedrawers:upgrade_conversion>, [
-	[<thebetweenlands:items_misc:39>, <ore:stickWood>, <thebetweenlands:items_misc:39>], 
-	[<ore:stickWood>, <storagedrawers:upgrade_template>, <ore:stickWood>], 
-	[<thebetweenlands:items_misc:39>, <ore:stickWood>, <thebetweenlands:items_misc:39>]
-]);
+//recipes.remove(<storagedrawers:upgrade_conversion>);
+//scripts.utils.addShaped("storagedrawers-upgrade_conversion", <storagedrawers:upgrade_conversion>, [
+//	[<thebetweenlands:items_misc:39>, <ore:stickWood>, <thebetweenlands:items_misc:39>], 
+//	[<ore:stickWood>, <storagedrawers:upgrade_template>, <ore:stickWood>], 
+//	[<thebetweenlands:items_misc:39>, <ore:stickWood>, <thebetweenlands:items_misc:39>]
+//]);
 
 recipes.remove(<storagedrawers:drawer_key>);
 scripts.utils.addShaped("storagedrawers-key_drawer", <storagedrawers:drawer_key>, [
