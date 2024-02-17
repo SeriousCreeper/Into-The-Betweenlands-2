@@ -6,7 +6,7 @@ scripts.utils.addShaped("belt", <toolbelt:belt>, [
 ]);
 
 recipes.remove(<toolbelt:pouch>);
-scripts.utils.addShaped("pouch", <toolbelt:pouch>, [
+scripts.utils.addShaped("toolbelt_pouch", <toolbelt:pouch>, [
 	[<contenttweaker:silk>, <ore:ingotOctine>, <contenttweaker:silk>], 
 	[<ore:leather>, null, <ore:leather>], 
 	[<contenttweaker:silk>, <minecraft:leather>, <contenttweaker:silk>]
