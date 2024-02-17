@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "stonetablet_bottom",
+    "category": "journal"
+  },
+  "content": {
+    "title": "Stone Tablet Bottom",
+    "body": "Upon vanquishing the monstrous beast, it relinquished what seems to be the lower segment of a stone tablet.\n\nAlthough its full message remains elusive until restoration, the decipherable text alludes to the acquisition of dark, forbidden knowledge.\n\nTo fully unlock its mysteries, I must find the missing half.",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 11,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "stonetablet_restored",
+    "category": "journal"
+  },
+  "content": {
+    "title": "Restored Stone Tablet",
+    "body": "I've achieved it; I located both fragments of the shattered stone tablet and have meticulously restored it to its original form.\n\nThe tablet reveals the existence of two distinct types of knowledge: one embodies purity, while the other encapsulates cruelty, yet they exist in perfect harmony within its texts.\n\nIntriguingly, it suggests that to embark on either path, one must fracture the tablet anew, with intent focused on the chosen direction.\n\nThis presents a formidable decision, as it appears one must commit to a single path—though I'm determined to uncover a way to master both eventually.",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 12,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

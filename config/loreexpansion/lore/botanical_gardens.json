@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "botanical_garden",
+    "category": "journal"
+  },
+  "content": {
+    "title": "Botanical Garden",
+    "body": "Eureka! The moment of revelation struck me like a lightning bolt—or was it an actual bolt of lightning? Regardless, amidst this electrifying experience, I had a profound epiphany or vision, the details of which blur in my memory. (Perhaps it was indeed a genuine strike...)\n\nMiraculously, I've acquired knowledge of an ancient Botanical Garden, hidden away and holding the key to unlocking the secrets of nature's wisdom deep within its confines.\n\nWith the correct ingredient, I can calibrate a crafted wayfinder to guide me to this mystical location.\n\nPreparation is crucial; I must ensure I'm thoroughly equipped for what lies ahead.",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 20,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

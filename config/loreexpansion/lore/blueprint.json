@@ -1,7 +1,7 @@
 {
   "key": {
     "id": "blueprint",
-    "category": "journal"
+    "category": "notes"
   },
   "content": {
     "title": "Blueprints",
@@ -9,7 +9,7 @@
     "audio": "",
     "autoplay": false
   },
-  "sortingIndex": 1,
+  "sortingIndex": 0,
   "requirements": [],
   "autoAdd": true,
   "defaultLore": true,

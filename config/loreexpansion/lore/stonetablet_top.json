@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "stonetablet_top",
+    "category": "journal"
+  },
+  "content": {
+    "title": "Stone Tablet Top",
+    "body": "After removing the towering spirit tree, I stumbled upon a fragmented stone tablet.\n\nDespite being incomplete, with half of it missing, the remaining portions hint at methods to tap into the very essence of nature's knowledge.\n\nShould I manage to locate its missing counterpart, I will undoubtedly be able to unlock its secrets in full.",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 10,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}
