@@ -1,12 +1,12 @@
 {
 	title: "A Moment Of Purity",
 	x: -6.0d,
-	y: 0.0d,
+	y: -2.5d,
 	shape: "circle",
 	text: [
-		"To unlock the botanical knowledge, the Ancient Tablet mentions the following:",
+		"To unlock Nature's knowledge, the Ancient Tablet mentions the following:",
 		"",
-		"\"In nature's grove, sane minds find Purity's trove.\""
+		"§6\"In nature's grove, sane minds find Purity's trove.\"§r"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

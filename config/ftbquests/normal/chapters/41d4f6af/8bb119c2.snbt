@@ -2,6 +2,9 @@
 	x: 0.0d,
 	y: 2.2142857142857153d,
 	shape: "circle",
+	text: [
+		"Find the bottom half of the ancient stone tablet."
+	],
 	dependencies: [
 		"9bd3946b",
 		"7f3e2df0"
@@ -18,8 +21,17 @@
 		}]
 	}],
 	rewards: [{
-		uid: "f6b73c2f",
-		type: "xp",
-		xp: 100
+		uid: "7413dd17",
+		type: "item",
+		auto: "disabled",
+		item: {
+			id: "loreexpansion:lore_scrap",
+			tag: {
+				lore: {
+					id: "stonetablet_bottom",
+					category: "journal"
+				}
+			}
+		}
 	}]
 }

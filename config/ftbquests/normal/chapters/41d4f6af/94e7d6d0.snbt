@@ -2,6 +2,11 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "circle",
+	text: [
+		"Restore the Ancient Tablet.",
+		"",
+		"Note: Blood Magic is not yet available!"
+	],
 	dependencies: [
 		"e0b5020e",
 		"8bb119c2"
@@ -18,6 +23,21 @@
 	rewards: [{
 		uid: "7d1bfbbd",
 		type: "choice",
+		auto: "disabled",
 		table: 2
+	},
+	{
+		uid: "f2f74099",
+		type: "item",
+		auto: "disabled",
+		item: {
+			id: "loreexpansion:lore_scrap",
+			tag: {
+				lore: {
+					id: "stonetablet_restored",
+					category: "journal"
+				}
+			}
+		}
 	}]
 }

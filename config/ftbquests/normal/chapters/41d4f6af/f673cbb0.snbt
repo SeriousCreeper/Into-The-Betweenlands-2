@@ -1,7 +1,7 @@
 {
 	title: "What Was That?!",
 	x: 6.0d,
-	y: 2.5d,
+	y: 0.0d,
 	shape: "circle",
 	text: [
 		""
@@ -17,6 +17,6 @@
 		type: "gamestage",
 		title: "Cruelty's Gift",
 		icon: "bloodmagic:blood_shard",
-		stage: "bloodmagic"
+		stage: "unlocked_bloodmagic"
 	}]
 }

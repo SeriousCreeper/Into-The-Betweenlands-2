@@ -1,9 +1,6 @@
 {
-	title: "Floramancy",
-	icon: {
-		id: "botania:lexicon",
-		tag: {}
-	},
+	title: "Dichotomized Knowledge",
+	icon: "contenttweaker:book_stonetablet",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "",

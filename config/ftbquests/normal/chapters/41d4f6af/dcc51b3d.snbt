@@ -1,7 +1,7 @@
 {
 	title: "Display Hint",
 	x: 6.0d,
-	y: -1.5d,
+	y: -4.0d,
 	shape: "circle",
 	text: [
 		"Kill a music playing Greebling while being Insane (150 or less sanity)."
@@ -14,7 +14,7 @@
 	tasks: [{
 		uid: "cd32ee33",
 		type: "checkmark",
-		title: "Display Hint",
+		title: "View Solution",
 		icon: "botania:cosmetic 1 31"
 	}]
 }

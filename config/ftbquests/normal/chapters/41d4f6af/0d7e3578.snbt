@@ -2,7 +2,7 @@
 	title: "A Moment Of Cruelty",
 	icon: "thebetweenlands:lore_scrap 1 2",
 	x: 6.0d,
-	y: 0.0d,
+	y: -2.5d,
 	shape: "circle",
 	hide_dependency_lines: true,
 	dependencies: [

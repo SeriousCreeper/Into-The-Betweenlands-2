@@ -1,10 +1,10 @@
 {
 	title: "Enter the Botanical Gardens",
 	x: -6.0d,
-	y: 5.0d,
+	y: 2.5d,
 	shape: "circle",
 	text: [
-		"Armed with the knowledge I've gathered, I ought to craft a Wayfinder that will guide me to the Botanical Gardens, in pursuit of the wisdom that lies in wait there."
+		"Use the wayfinder to enter the §6Botanical Garden§r."
 	],
 	dependencies: [
 		"a6f103f5"
