@@ -99,7 +99,6 @@ stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 stageMods("bloodmagic", "chose_bloodmagic", bloodmagicItemsNotToStage);
 stageMods("bloodmagic", "bloodmagic", bloodmagicItemsNotToStage);
 stageMods("botania", "chose_botania", botaniaItemsNotToStage);
-stageMods("botania", "botania", botaniaItemsNotToStage);
 
 var sludgeonStage = "knowledge_of_decay";
 //var sludgeonStage = "unstaged";
