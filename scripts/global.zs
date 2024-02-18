@@ -647,8 +647,6 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 
 
 
-
-# OreDict Removal
 <ore:logWood>.remove(<mysticalworld:charred_log>);
 <ore:logWood>.remove(<primallib:log_stripped_oak>);
 <ore:logWood>.remove(<primallib:log_stripped_spruce>);
@@ -657,6 +655,11 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:logWood>.remove(<primallib:log_stripped_acacia>);
 <ore:logWood>.remove(<primallib:log_stripped_dark_oak>);
 <ore:logWood>.remove(<pizzacraft:olive_log>);
+
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark>);
+<ore:logWood>.add(<thebetweenlands:log_portal:*>);
+<ore:logWood>.add(<thaumcraft:taint_log>);
+
 
 <ore:plankWood>.remove(<mysticalworld:charred_planks>);
 <ore:plankWood>.remove(<growthcraft_apples:apple_planks>);
