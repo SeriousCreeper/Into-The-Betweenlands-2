@@ -1,7 +1,7 @@
 {
   "key": {
     "id": "blueprint",
-    "category": "notes"
+    "category": "Others"
   },
   "content": {
     "title": "Blueprints",
@@ -9,7 +9,7 @@
     "audio": "",
     "autoplay": false
   },
-  "sortingIndex": 0,
+  "sortingIndex": 1,
   "requirements": [],
   "autoAdd": true,
   "defaultLore": true,
