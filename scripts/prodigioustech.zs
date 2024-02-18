@@ -3,6 +3,7 @@ import mods.prodigytech.explosionfurnace.dampeners;
 
 
 recipes.remove(<prodigytech:energion_dust>);
+recipes.remove(<patchouli:guide_book>.withTag({"patchouli:book": "prodigytech:guide"}));
 
 
 mods.prodigytech.explosionfurnace.recipes.removeAll();
