@@ -1,5 +1,6 @@
 {
 	title: "Knowledge of Druids",
+	disable_toast: true,
 	x: 0.75d,
 	y: 0.375d,
 	shape: "gear",
