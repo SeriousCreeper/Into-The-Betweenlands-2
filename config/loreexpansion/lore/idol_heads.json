@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "Idol Heads",
+    "category": "notes"
+  },
+  "content": {
+    "title": "Idol Heads",
+    "body": "A note I found, written by someone else in the past:\n\n\"When I found that giant stone head, I thought I had alread stumbled upon an ancient idol relic.\n\nTurns out there is treasure under the head, but nothing of that sort.\n\nInstead I found what appear to be pebbles with unpleasant faces. They feel dangerous, as if they are pulsating fiercely with anger. I took them, but I don't know what harm they might give me, considering their nature.\n\nThe idol heads themselves are surprisingly not weathered in any way by the environment, as if they are relatively recent. Perhaps there are still normal people living here after all.\"",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 5,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

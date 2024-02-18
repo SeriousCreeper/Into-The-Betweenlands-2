@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "Marsh Ruins",
+    "category": "notes"
+  },
+  "content": {
+    "title": "Marsh Ruins",
+    "body": "A note I found, written by someone else in the past:\n\n\"Ancient history lies everywhere.\nThe empire that once resided here is no more, but I have found remnants of their existence to dot the landscape, both above and underground.\n\nOf their riches, I have found some pots with a few relics, but nothing particulary valueable. Danger is unceasing, nevertheless.\n\nThere are people that look like ghosts that stalk me, only they are definitely physical beings.\nI'm always threated by the decaying aura of the realm, which is slowly eating me alive.\n\nFortunate that I found some sap in one of those pots, which seems to make me feel better.\"",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 4,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

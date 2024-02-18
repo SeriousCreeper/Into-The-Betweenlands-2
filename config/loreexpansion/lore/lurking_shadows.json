@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "Lurking Shadows",
+    "category": "notes"
+  },
+  "content": {
+    "title": "Lurking Shadows",
+    "body": "A note I found, written by someone else in the past:\n\n\"It's them.\n\nThey're not done with my soul. I keep running farther and farther away, running blindly towards the looming fog, and yet they pursue faster than me, surrounding me, unending spirits, gazing ominously.\n\nI don't understand what they want from me.\nWhenever I seem to get too close to one of them they vanish into the mist.\n\nBut they're always following, close behind, driving me slowly insane.\"",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 1,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

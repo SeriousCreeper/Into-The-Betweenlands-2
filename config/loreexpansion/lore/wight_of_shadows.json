@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "Wight of Shadows",
+    "category": "notes"
+  },
+  "content": {
+    "title": "Wight of Shadows",
+    "body": "A note I found, written by someone else in the past:\n\n\"This is the first day I've managed to find time to write ever since evil was released upon the land.\nJust before, I was a scholar dedicated to the preservation of knowledge.\nThen, the nether destroyed everything I stood for... except for my memory.\n\nFor some reason, although I have transformed into this hideous shape, as my fellow people have, I am... different.\n\nThe evil energies remain dormant in me, turning me dark as a shadow, and they have preserved my memory.\n\nFor those that may read this one day, remember me... remember me as Wight of Shadows.\"",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 3,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

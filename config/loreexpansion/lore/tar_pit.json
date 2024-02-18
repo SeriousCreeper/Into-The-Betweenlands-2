@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "Tar Pit",
+    "category": "notes"
+  },
+  "content": {
+    "title": "Tar Pit",
+    "body": "A note I found, written by someone else in the past:\n\n\"That was quite a tussle, but well worth it.\n\nI had been in one of the expansive caverns underground when I came across a pool of black, liquid tar, with some ruins around it.\nIt was the perfect place to find submerged loot!\n\nOnly when I approached it, the tar suddenly rose into the air and molded into a red-eyed beast before my eyes.\nThe creature exploded, and I was hurt severely.\nIt began to clamber towards me, and it was only with a few lucky arrow shots that I was able to destroy it.\n\nI emptied the pool of tar and found pots solidified in tar at the bottom. One of them gave me shiny pink shards, and the other gave me a twisted dagger, which seemed to be imbued with magical power. The first real loot of the adventure.\"",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 6,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

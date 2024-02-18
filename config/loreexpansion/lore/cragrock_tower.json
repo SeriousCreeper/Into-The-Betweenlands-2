@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "Cragrock Tower",
+    "category": "notes"
+  },
+  "content": {
+    "title": "Cragrock Tower",
+    "body": "A note I found, written by someone else in the past:\n\n\"Holy... what is this? There was this massive tower that I found, and as foreboding as it looked, I figured it could be a place to settle down for a while to figure out what to do.\n\nNot a chance. The ghosts were in tremendous numbers. They flew through the walls before I could take a step into that place, and I was out of there in an instant.\n\nIt seemed to be a pretty major landmark, and I'm sure it had great loot, but... I can't do this anymore.\n\nI thought this would be an exciting search, but it's turning into absolute horror. I'm completely unwelcome anywhere here. I have to find a way out, before I go mad.\"",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 9,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

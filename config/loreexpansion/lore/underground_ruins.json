@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "Underground Ruins",
+    "category": "notes"
+  },
+  "content": {
+    "title": "Underground Ruins",
+    "body": "A note I found, written by someone else in the past:\n\n\"I'm not liking the vibes of this place. It was pretty terrible before, but now... I feel as if I'm always being watched everywhere I go.\n\nI've been down in the caverns again, quite deep now where there's lake of water and scattered ruins. Some of them had decent loot, but I was more worried about the things that were looking for me rather than the things I was looking for.\n\nThere's a thick fog surrounding me, and it keeps trying to close in. There's a presence beyond that fog that is eyeing me as prey. If I get out of here alive, I might want to call of the plunder.\"",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 8,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

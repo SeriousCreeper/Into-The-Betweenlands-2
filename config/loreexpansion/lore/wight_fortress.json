@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "Wight Fortress",
+    "category": "notes"
+  },
+  "content": {
+    "title": "Wight Fortress",
+    "body": "A note I found, written by someone else in the past:\n\n\"After my encounter in the tower, I crossed a muddy marshland. All I could see was a bleak flatness for the longest time... and then suddenly, there it was. No doubt one of the largest standing forts of the empire.\n\nI approached and entered warily, still very aware of the possibility that everything imaginable would instantly try to kill me. At first, there was a strange... quietness about the place. But just as I approached a pot to smash it, I heard a demented scream, and some skeletal creature burst out of the side of the wall, scratching me.\n\nIn horror shock, I quickly smashed the pot, which only had sme rope, and ran out. No more of this madness. I can't afford to be tempted by danger anymore.\"",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 10,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

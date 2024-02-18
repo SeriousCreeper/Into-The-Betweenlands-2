@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "Dungeon Shrines",
+    "category": "notes"
+  },
+  "content": {
+    "title": "Dungeon Shrines",
+    "body": "A note I found, written by someone else in the past:\n\n\"These shrines... are found in the most despicably creepy and frightening of places.\n\nVast flats of nothing but mud that wants to swallow you and sludge that clings to you, pulling you down... ugh. And the floating crystals at the center of these shrines - they seem to attract more of those ghosts and some rotting undead folk.\n\nI only just managed to take the loot before one of the ghosts suddenly turned into some sort of soul thing that flew towards me and chased me off.\n\nEither way, some interesting treasure was to be found here, some ingots of a blue metal and some odd music disc.\n\nI played it and it had a rather terrifying recording on it. Strange... what could have happened to whoever was in that?\"",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 7,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}
