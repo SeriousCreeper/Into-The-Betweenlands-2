@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Record+Resources+of+Tea+the+Story+v3.3.0+.zip","Betweenlands Inventory V5.zip","Arcane Wormhole.zip","Updated_Engineering_1.12.2_edition.zip"]
+resourcePacks:["Record+Resources+of+Tea+the+Story+v3.3.0+.zip","Arcane Wormhole.zip","Archaesium.zip","Better Prodigy v1.3.zip","Modernity-format3-v3.9.1.zip","Betweenlands Inventory V5.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
