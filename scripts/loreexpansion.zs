@@ -10,3 +10,6 @@ recipes.addShapeless("lore_scrap_6", <loreexpansion:lore_scrap>.withTag({lore: {
 recipes.addShapeless("lore_scrap_7", <loreexpansion:lore_scrap>.withTag({lore: {id: "Underground Ruins", category: "notes"}}), [<thebetweenlands:lore_scrap:7>]);
 recipes.addShapeless("lore_scrap_8", <loreexpansion:lore_scrap>.withTag({lore: {id: "Cragrock Tower", category: "notes"}}), [<thebetweenlands:lore_scrap:8>]);
 recipes.addShapeless("lore_scrap_9", <loreexpansion:lore_scrap>.withTag({lore: {id: "Wight Fortress", category: "notes"}}), [<thebetweenlands:lore_scrap:9>]);
+
+
+scripts.utils.addInfoTooltip(<loreexpansion:lore_scrap>, "Right-click to add to Journal");
