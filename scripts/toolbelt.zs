@@ -1,5 +1,5 @@
 recipes.removeByRecipeName("toolbelt:belt");
-scripts.utils.addShaped("belt", <toolbelt:belt>, [
+scripts.utils.addShaped("belt", <toolbelt:belt>.withTag({Size: 2}), [
 	[<contenttweaker:silk>, <ore:leather>, <contenttweaker:silk>],
 	[<ore:leather>, null, <ore:leather>],
 	[<ore:leather>, <ore:ingotSyrmorite>, <ore:leather>]
@@ -12,7 +12,7 @@ scripts.utils.addShaped("toolbelt_pouch", <toolbelt:pouch>, [
 	[<contenttweaker:silk>, <ore:leather>, <contenttweaker:silk>]
 ]);
 
-recipes.addShapeless("upgrade_1", <toolbelt:belt>.withTag({Size: 3}), [<toolbelt:belt>.withTag({}), <toolbelt:pouch>]);
+recipes.addShapeless("upgrade_1", <toolbelt:belt>.withTag({Size: 3}), [<toolbelt:belt>.withTag({Size: 2}), <toolbelt:pouch>]);
 recipes.addShapeless("upgrade_2", <toolbelt:belt>.withTag({Size: 4}), [<toolbelt:belt>.withTag({Size: 3}), <toolbelt:pouch>]);
 recipes.addShapeless("upgrade_3", <toolbelt:belt>.withTag({Size: 5}), [<toolbelt:belt>.withTag({Size: 4}), <toolbelt:pouch>]);
 recipes.addShapeless("upgrade_4", <toolbelt:belt>.withTag({Size: 6}), [<toolbelt:belt>.withTag({Size: 5}), <toolbelt:pouch>]);
