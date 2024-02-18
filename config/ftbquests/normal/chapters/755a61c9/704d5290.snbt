@@ -23,8 +23,17 @@
 		}]
 	}],
 	rewards: [{
-		uid: "35971a45",
-		type: "xp",
-		xp: 100
+		uid: "5c3ce1d4",
+		type: "item",
+		auto: "disabled",
+		item: {
+			id: "loreexpansion:lore_scrap",
+			tag: {
+				lore: {
+					id: "arrival",
+					category: "journal"
+				}
+			}
+		}
 	}]
 }

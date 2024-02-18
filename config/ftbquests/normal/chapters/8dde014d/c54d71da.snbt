@@ -1,0 +1,27 @@
+{
+	title: "Defeated the Cragrock Tower",
+	x: 0.1190476190476133d,
+	y: -3.4464285714285694d,
+	shape: "heart",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"59807ab6"
+	],
+	hide: true,
+	size: 4.0d,
+	optional: true,
+	tasks: [{
+		uid: "c9ba5ccb",
+		type: "custom",
+		title: " ",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ftbquests:textures/empty.png"
+			}
+		}
+	}]
+}

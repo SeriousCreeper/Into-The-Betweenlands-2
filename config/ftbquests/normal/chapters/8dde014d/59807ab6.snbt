@@ -22,5 +22,19 @@
 		uid: "a8bc9b71",
 		type: "item",
 		item: "gamestagebooks:knowledge_of_druids"
+	},
+	{
+		uid: "20ca96d0",
+		type: "item",
+		auto: "disabled",
+		item: {
+			id: "loreexpansion:lore_scrap",
+			tag: {
+				lore: {
+					id: "knowledge_of_druid",
+					category: "journal"
+				}
+			}
+		}
 	}]
 }

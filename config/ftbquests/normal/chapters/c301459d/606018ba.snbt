@@ -1,0 +1,15 @@
+{
+	title: "Investigate: Dreadful Peat Mummy",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "cbc51884",
+		type: "advancement",
+		title: "Advancement: Beating Dead Meat",
+		advancement: "thebetweenlands:fighter/beating_dead_meat",
+		criterion: ""
+	}]
+}

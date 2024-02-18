@@ -25,5 +25,19 @@
 		uid: "b56f9aa7",
 		type: "item",
 		item: "gamestagebooks:knowledge_of_malice"
+	},
+	{
+		uid: "951f542d",
+		type: "item",
+		auto: "disabled",
+		item: {
+			id: "loreexpansion:lore_scrap",
+			tag: {
+				lore: {
+					id: "knowledge_of_malice",
+					category: "journal"
+				}
+			}
+		}
 	}]
 }

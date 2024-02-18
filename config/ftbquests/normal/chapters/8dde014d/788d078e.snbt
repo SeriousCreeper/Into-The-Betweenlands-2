@@ -25,5 +25,19 @@
 		uid: "143056af",
 		type: "item",
 		item: "gamestagebooks:knowledge_of_decay"
+	},
+	{
+		uid: "c033f791",
+		type: "item",
+		auto: "disabled",
+		item: {
+			id: "loreexpansion:lore_scrap",
+			tag: {
+				lore: {
+					id: "knowledge_of_decay",
+					category: "journal"
+				}
+			}
+		}
 	}]
 }
