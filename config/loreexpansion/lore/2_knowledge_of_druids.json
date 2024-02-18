@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "knowledge_of_druid",
+    "category": "journal"
+  },
+  "content": {
+    "title": "Knowledge of Druids",
+    "body": "On my journey, I stumbled upon an imposing tower. There was an unmistakable aura about it, a sense that it was aware of me. As I drew near, glowing wisps sprung up, lighting the way forward as if to welcome me.\n\nThe ascent was tough, but I reached the summit.\n\nAt the top, I found an ancient, dust-covered book detailing the lore of a people known as the Druids. It's clear now that a society once thrived here, a revelation that fills me with wonder and a hint of dread. What became of them, these predecessors, and what does their absence mean for our safety?\n\nI need to pore over this tome, to absorb its secrets and understand more about this land.",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 2,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

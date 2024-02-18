@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "arrival",
+    "category": "journal"
+  },
+  "content": {
+    "title": "Arrival",
+    "body": "I've established a secure spot to catch my breath, which gives me the chance to document my experiences in this unfamiliar land.\n\nI was aware that swamps dominated the landscape here, yet seeing them with my own eyes is something else entirely.\n\nThe wildlife and plants don't seem too welcoming, but there's a certain charm to the place despite that.\n\nI'll need to be fully prepared before I explore more. This could be our last chance for a new beginning.",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 1,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}
