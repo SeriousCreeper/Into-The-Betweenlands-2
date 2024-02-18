@@ -43,8 +43,7 @@
         "betweenores:tile.betweenores.copper_ore"
       ],
       "output": [
-        "embers:nugget_copper:0",
-        "grimoireofgaia:shard:4"
+        "embers:nugget_copper:0"
       ],
       "bloomYieldMinMax": [
         12,
@@ -61,7 +60,6 @@
         "minecraft:tile.oreGold"
       ],
       "output": [
-        "grimoireofgaia:shard:1",
         "minecraft:gold_nugget:0"
       ],
       "bloomYieldMinMax": [
@@ -79,7 +77,6 @@
         "minecraft:tile.oreIron"
       ],
       "output": [
-        "grimoireofgaia:shard:0",
         "minecraft:iron_nugget:0"
       ],
       "bloomYieldMinMax": [
@@ -149,8 +146,7 @@
         "betweenores:tile.betweenores.silver_ore"
       ],
       "output": [
-        "embers:nugget_silver:0",
-        "grimoireofgaia:shard:5"
+        "embers:nugget_silver:0"
       ],
       "bloomYieldMinMax": [
         12,
