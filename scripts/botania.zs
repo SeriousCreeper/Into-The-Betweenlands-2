@@ -5,6 +5,8 @@ import mods.botania.Apothecary;
 import mods.botania.RuneAltar;
 import mods.botania.ElvenTrade;
 import mods.botaniatweaks.Agglomeration;
+import mods.botania.Orechid;
+import mods.botania.OrechidIgnem;
 
 // variables
 var defaultPureDaisyTime = 60 * 20; // make this faster as pacifisit
@@ -470,6 +472,85 @@ RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <mine
 
 
 
+
+// orechid
+val orechidToRemove = [
+	"oreAdamantium",
+	"oreAluminum",
+	"oreAmber",
+	"oreApatite",
+	"oreBlueTopaz",
+	"oreCertusQuartz",
+	"oreChimerite",
+	"oreCinnabar",
+	"oreCoal",
+	"oreCopper",
+	"oreDark",
+	"oreDarkIron",
+	"oreDiamond",
+	"oreEmerald",
+	"oreFzDarkIron",
+	"oreGalena",
+	"oreGold",
+	"oreInfusedAir",
+	"oreInfusedEarth",
+	"oreInfusedEntropy",
+	"oreInfusedFire",
+	"oreInfusedOrder",
+	"oreInfusedWater",
+	"oreIron",
+	"oreLapis",
+	"oreLead",
+	"oreMCropsEssence",
+	"oreMithril",
+	"oreMythril",
+	"oreNickel",
+	"oreOlivine",
+	"oreOsmium",
+	"orePlatinum",
+	"oreQuartzBlack",
+	"oreRedstone",
+	"oreRuby",
+	"oreSapphire",
+	"oreSilver",
+	"oreSulfur",
+	"oreTin",
+	"oreTungsten",
+	"oreUranium",
+	"oreVinteum",
+	"oreYellorite",
+	"oreZinc",
+] as string[];
+
+val ignemOrechidToRemove = [
+	"oreQuartz",
+	"oreNetherCoal"
+] as string[];
+
+
+
+for ore in orechidToRemove {
+	Orechid.removeOre(ore);
+}
+
+for ore in ignemOrechidToRemove {
+	OrechidIgnem.removeOre(ore);
+}
+
+Orechid.addOre(<ore:oreOctine>, 300);
+Orechid.addOre(<ore:oreBone>, 800);
+Orechid.addOre(<ore:oreSyrmorite>, 500);
+Orechid.addOre(<ore:oreCopper>, 400);
+Orechid.addOre(<ore:oreAluminum>, 400);
+Orechid.addOre(<ore:oreSulfur>, 1000);
+Orechid.addOre(<ore:oreAmber>, 200);
+
+OrechidIgnem.addOre(<ore:oreLead>, 1000);
+OrechidIgnem.addOre(<ore:oreNickel>, 900);
+OrechidIgnem.addOre(<ore:oreSilver>, 900);
+OrechidIgnem.addOre(<ore:oreCinnabar>, 500);
+OrechidIgnem.addOre(<ore:oreValonite>, 200);
+OrechidIgnem.addOre(<ore:oreScabyst>, 600);
 
 
 // trades
