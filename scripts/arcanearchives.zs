@@ -63,16 +63,16 @@ recipes.remove(<mystgears:gear_valonite>);
 GCT.addRecipe("gear_valonite", <mystgears:gear_valonite>, [<ore:gemValonite> * 4, <ore:nuggetValonite>]);
 
 recipes.remove(<thebetweenlands:valonite_helmet>);
-GCT.addRecipe("valonite_helmet", <thebetweenlands:valonite_helmet>, [<ore:gemValonite> * 5, <thaumcraft:plate:3>]);
+GCT.addRecipe("valonite_helmet", <thebetweenlands:valonite_helmet>, [<ore:gemValonite> * 5, <roots:wildwood_helmet>]);
 
 recipes.remove(<thebetweenlands:valonite_chestplate>);
-GCT.addRecipe("valonite_chestplate", <thebetweenlands:valonite_chestplate>, [<ore:gemValonite> * 8, <thaumcraft:plate:3> * 2]);
+GCT.addRecipe("valonite_chestplate", <thebetweenlands:valonite_chestplate>, [<ore:gemValonite> * 8, <roots:wildwood_chestplate>]);
 
 recipes.remove(<thebetweenlands:valonite_leggings>);
-GCT.addRecipe("valonite_leggings", <thebetweenlands:valonite_leggings>, [<ore:gemValonite> * 7, <thaumcraft:plate:3> * 2]);
+GCT.addRecipe("valonite_leggings", <thebetweenlands:valonite_leggings>, [<ore:gemValonite> * 7, <roots:wildwood_leggings>]);
 
 recipes.remove(<thebetweenlands:valonite_boots>);
-GCT.addRecipe("valonite_boots", <thebetweenlands:valonite_boots>, [<ore:gemValonite> * 4, <thaumcraft:plate:3>]);
+GCT.addRecipe("valonite_boots", <thebetweenlands:valonite_boots>, [<ore:gemValonite> * 4, <roots:wildwood_boots>]);
 
 recipes.remove(<thebetweenlands:valonite_sword>);
 GCT.addRecipe("valonite_sword", <thebetweenlands:valonite_sword>, [<ore:gemValonite> * 2, <ore:stickWood>]);
