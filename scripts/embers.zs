@@ -502,11 +502,13 @@ Alchemy.add(<embers:eldritch_insignia>, [<embers:archaic_circuit>, <thebetweenla
 );
 
 Alchemy.remove(<embers:blasting_core>);
+/*
 Alchemy.add(<embers:blasting_core>, [<thebetweenlands:angry_pebble>, <embers:plate_iron>, <embers:plate_iron>, <ore:ingotSyrmorite>, <embers:plate_iron>], 
 	{
 		"copper" : 16 to 24
 	}
 );
+*/
 
 Alchemy.remove(<embers:archaic_brick>);
 Alchemy.add(<embers:archaic_brick> * 5, [<embers:archaic_brick>, <thebetweenlands:mud>, <thebetweenlands:sludge_ball>, <thebetweenlands:mud>, <thebetweenlands:sludge_ball>], 

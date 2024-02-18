@@ -39,6 +39,7 @@ val itemsToLock = [
 	<thaumicaugmentation:thaumostatic_harness_augment:1>,
 	<thaumicaugmentation:elytra_harness_augment>,
 	<thaumicaugmentation:elytra_harness>,
+	<embers:blasting_core>,
 ] as IItemStack[];
 
 for item in itemsToLock {
