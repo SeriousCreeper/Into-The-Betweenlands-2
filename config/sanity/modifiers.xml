@@ -23,35 +23,21 @@
     <entry value="-4.0">thebetweenlands:gerts_donut</entry>
     <entry value="-1.0">thebetweenlands:mire_snail_egg</entry>
     <entry value="20.0">thebetweenlands:spirit_fruit</entry>
-    <entry value="0.2">pizzacraft:slice_0</entry>
-    <entry value="0.2">pizzacraft:slice_1</entry>
-    <entry value="0.2">pizzacraft:slice_2</entry>
-    <entry value="0.2">pizzacraft:slice_3</entry>
-    <entry value="0.2">pizzacraft:slice_4</entry>
-    <entry value="0.2">pizzacraft:slice_5</entry>
-    <entry value="0.2">pizzacraft:slice_6</entry>
-    <entry value="0.2">pizzacraft:slice_7</entry>
-    <entry value="0.2">pizzacraft:slice_8</entry>
-    <entry value="-1.0">pizzacraft:slice_9</entry>
+    <entry value="2">pizzacraft:slice_0</entry>
+    <entry value="2">pizzacraft:slice_1</entry>
+    <entry value="2">pizzacraft:slice_2</entry>
+    <entry value="2">pizzacraft:slice_3</entry>
+    <entry value="2">pizzacraft:slice_4</entry>
+    <entry value="2">pizzacraft:slice_5</entry>
+    <entry value="2">pizzacraft:slice_6</entry>
+    <entry value="2">pizzacraft:slice_7</entry>
+    <entry value="2">pizzacraft:slice_8</entry>
+    <entry value="-5.0">pizzacraft:slice_9</entry>
     <entry value="-2.0">mod_lavacow:parasite_item</entry>
     <entry value="-50.0">thaumcraft:brain</entry>
   </modifier>
   <modifier value="kill">
-    <entry value="-0.5">thebetweenlands:firefly</entry>
-    <entry value="-0.5">thebetweenlands:sporeling</entry>
-    <entry value="-0.5">thebetweenlands:dragonfly</entry>
-    <entry value="-0.5">thebetweenlands:mire_snail</entry>
-    <entry value="-1.0">thebetweenlands:gecko</entry>
-    <entry value="-5.0">thebetweenlands:toad</entry>
-    <entry value="-0.5">thebetweenlands:olm</entry>
-    <entry value="-0.5">thebetweenlands:frog</entry>
-    <entry value="-0.2">thebetweenlands:tarminion</entry>
-    <entry value="-5.0">thebetweenlands:greebling</entry>
-    <entry value="-0.5">thebetweenlands:root_sprite</entry>
-    <entry value="-5.0">thebetweenlands:wild_emberling</entry>
-    <entry value="-2.0">thebetweenlands:chiromaw_greebling_rider</entry>
-    <entry value="-0.5">thebetweenlands:cave_fish</entry>
-    <entry value="-1.0">mod_lavacow:raven</entry>
+    <entry value="0.5">thebetweenlands:wight</entry>
   </modifier>
   <modifier value="dimension">
     <entry value="-0.1">thaumicaugmentation:emptiness</entry>
@@ -68,7 +54,7 @@
   <modifier value="potions">
     <entry value="0.1">teastory:excitement</entry>
     <entry value="-0.05">simpledifficulty:parasites</entry>
-    <entry value="0.01">pyrotech:comfort</entry>
+    <entry value="0.05">pyrotech:comfort</entry>
   </modifier>
   <modifier value="bl_events">
     <entry value="-0.1">blood_sky</entry>
