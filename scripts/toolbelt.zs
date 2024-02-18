@@ -9,7 +9,7 @@ recipes.remove(<toolbelt:pouch>);
 scripts.utils.addShaped("toolbelt_pouch", <toolbelt:pouch>, [
 	[<contenttweaker:silk>, <ore:ingotOctine>, <contenttweaker:silk>], 
 	[<ore:leather>, null, <ore:leather>], 
-	[<contenttweaker:silk>, <minecraft:leather>, <contenttweaker:silk>]
+	[<contenttweaker:silk>, <ore:leather>, <contenttweaker:silk>]
 ]);
 
 recipes.addShapeless("upgrade_1", <toolbelt:belt>.withTag({Size: 3}), [<toolbelt:belt>.withTag({}), <toolbelt:pouch>]);
