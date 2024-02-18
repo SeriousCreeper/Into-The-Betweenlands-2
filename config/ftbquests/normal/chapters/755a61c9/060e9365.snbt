@@ -1,5 +1,4 @@
 {
-	title: "Sulfur Torches",
 	x: -5.0d,
 	y: -6.0d,
 	shape: "gear",
@@ -12,10 +11,10 @@
 		"704d5290"
 	],
 	tasks: [{
-		uid: "914ff5a9",
+		uid: "7326991c",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:sulfur_torch"
+			item: "thebetweenlands:sulfur_torch_extinguished"
 		}]
 	}],
 	rewards: [{

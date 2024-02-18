@@ -1,0 +1,26 @@
+{
+	icon: "thebetweenlands:sulfur_torch",
+	x: -5.0d,
+	y: -5.0d,
+	shape: "gear",
+	text: [
+		"Having an §6Octine Ingot§r in your inventory will automatically §6light§r any §6unlit§r sulfur torch when placed.§6null§r"
+	],
+	dependencies: [
+		"060e9365"
+	],
+	tasks: [{
+		uid: "88a743b7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_torch"
+		}]
+	},
+	{
+		uid: "f7f0c3a7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ingot"
+		}]
+	}]
+}

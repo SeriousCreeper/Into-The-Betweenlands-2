@@ -2,8 +2,9 @@
 	title: "More Storage",
 	x: 0.0d,
 	y: -1.5d,
+	shape: "gear",
 	text: [
-		"Radiant Chests are as big as a double chest, but only occupy one block space.",
+		"Radiant Chests are as big as a double chest, and hold §64 stacks§r in each slot.",
 		"",
 		"They have a few additional functions:",
 		"- Can still be opened when a block is above them",

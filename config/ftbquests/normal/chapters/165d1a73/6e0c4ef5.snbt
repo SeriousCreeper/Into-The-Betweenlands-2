@@ -4,13 +4,13 @@
 	y: -1.0d,
 	shape: "gear",
 	text: [
-		"Pyres are used to craft items and activate rituals.",
+		"Pyres are used to §6craft items§r and §6activate rituals§r.",
 		"",
-		"Simply throw the items for the ritual onto the pyre and light it on fire.",
+		"Simply throw the items for the ritual onto the pyre and §6light§r it on fire.",
 		"",
-		"This can be done by starting a fire NEXT to the pyre, or using a fire starter item on the pyre itself.",
+		"This can be done by starting a fire §6next§r to the pyre, or using a §6fire starter§r item on the pyre itself (including §6Octine Ingots§r).",
 		"",
-		"You can also place the pyre onto a chest that contains the ingredients for the ritual, to automatically feed the pyre the right ingredients, to keep the ritual running."
+		"You can also place the pyre onto a §6chest§r that contains the ingredients for the ritual, to §6automatically§r feed the pyre the right ingredients, to keep the ritual running."
 	],
 	dependencies: [
 		"15494e7a"

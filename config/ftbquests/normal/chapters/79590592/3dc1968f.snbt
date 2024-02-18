@@ -2,6 +2,7 @@
 	title: "Organized Magic",
 	x: 0.0d,
 	y: -3.0d,
+	shape: "gear",
 	text: [
 		"Radiant Quartz has many magical properties. ",
 		"",

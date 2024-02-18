@@ -6,7 +6,7 @@
 	text: [
 		"The Radiant Resonator will slowly create radiant quartz over time. ",
 		"",
-		"Each person can only place 1 resonator."
+		"§6Each person can only place 1 resonator.§r"
 	],
 	dependencies: [
 		"654f6fcb",

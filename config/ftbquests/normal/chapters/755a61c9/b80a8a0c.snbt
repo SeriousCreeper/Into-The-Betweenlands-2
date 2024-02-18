@@ -6,7 +6,7 @@
 	text: [
 		"Slingshots are a great way of dealing with enemies from afar. ",
 		"",
-		"They use pebbles as ammunition, which can be found everywhere. "
+		"They use §6pebbles§r as ammunition, which can be found everywhere. "
 	],
 	dependencies: [
 		"f5b90f01"

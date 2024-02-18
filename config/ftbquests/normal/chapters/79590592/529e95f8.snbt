@@ -1,6 +1,7 @@
 {
 	x: 0.0d,
 	y: -0.5d,
+	shape: "gear",
 	text: [
 		"A manifest that shows a list of every item stored inside radiant chests.",
 		"",

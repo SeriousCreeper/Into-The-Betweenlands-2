@@ -1,6 +1,7 @@
 {
 	x: 1.0d,
-	y: 1.5d,
+	y: 0.5d,
+	shape: "gear",
 	text: [
 		"Attaching this to a container lets the lectern see its contents as well."
 	],

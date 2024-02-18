@@ -2,6 +2,7 @@
 	title: "Better Lights",
 	x: -1.0d,
 	y: -1.5d,
+	shape: "gear",
 	text: [
 		"Radiant quartz can be ground down into slivers. ",
 		"",

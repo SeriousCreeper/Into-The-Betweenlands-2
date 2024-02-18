@@ -10,9 +10,9 @@
 		"",
 		"Additionally, the §6Hammer§r requires §6Ember§r and a bluedust signal to work.",
 		"",
-		"One use of the Dawnstone Anvil is to automatically hammer blooms into nuggets.",
+		"One use of the Dawnstone Anvil is to §6automatically hammer blooms into nuggets§r.",
 		"",
-		"A §6Bin§r can be placed underneath the anvil to collect any nuggets."
+		"A §6Bin§r can be placed §6underneath§r the anvil to collect any nuggets."
 	],
 	dependencies: [
 		"f1098d87"

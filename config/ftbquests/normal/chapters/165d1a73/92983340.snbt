@@ -4,9 +4,9 @@
 	y: -1.0d,
 	shape: "gear",
 	text: [
-		"Grove Stones are required in order for Fey Altars to work.",
+		"Grove Stones are required in order for §6Fey Altars§r to work.",
 		"",
-		"Once placed, activate it with the Grove Supplication Ritual."
+		"Once placed, §6activate§r it with the §6Grove Supplication Ritual§r."
 	],
 	dependencies: [
 		"15494e7a"

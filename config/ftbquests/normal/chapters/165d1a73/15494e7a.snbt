@@ -6,7 +6,7 @@
 	text: [
 		"There are some mystical powers at play here, and you think you can use this to your advantage.",
 		"",
-		"First craft a knife and gather Wildroot and Terra Moss."
+		"First craft a §6knife§r and gather §6Wildroot§r and §6Terra Moss§r."
 	],
 	dependencies: [
 		"1153d040"

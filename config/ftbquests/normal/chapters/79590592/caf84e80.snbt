@@ -1,6 +1,7 @@
 {
 	x: 0.0d,
 	y: 0.5d,
+	shape: "gear",
 	text: [
 		"A lectern is a manifest in block form."
 	],

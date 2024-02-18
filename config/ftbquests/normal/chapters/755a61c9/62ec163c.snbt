@@ -4,11 +4,13 @@
 	y: -3.0d,
 	shape: "gear",
 	text: [
-		"There are several ways of storing items. ",
+		"Certain items can not be stored inside chests, and have to be stored in other means. ",
 		"",
-		"The Wood Rack can store 9 different stacks of logs.",
+		"§6Logs§r can be stored in §6Wood Racks§r or §6Stashes§r.",
 		"",
-		"The Stash can store a large quantity of 1 item type"
+		"§6Armor and Tools§r can be stored in §6Shelves§r and §6Armor Stands§r.",
+		"",
+		"§6Ingots§r can be placed in the world by §6sneak-right clicking§r them onto a block."
 	],
 	dependencies: [
 		"f5b90f01"

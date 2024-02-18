@@ -5,7 +5,7 @@
 	y: -2.0d,
 	shape: "gear",
 	text: [
-		"If you are doing the pacifist challenge, you might have trouble getting spores to grow fungus. ",
+		"If you are doing the §6pacifist challenge§r, you might have trouble getting §6spores§r to grow fungus. ",
 		"",
 		"There is an extra recipe that can craft spores from pacifist friendly ingredients."
 	],
