@@ -336,12 +336,39 @@ recipes.remove(<botanianeedsit:mana_capacitor_elementium:1>);
 scripts.utils.addShapeless("mana_capacitor_elementium", <botanianeedsit:mana_capacitor_elementium:1> * 25, [<botania:manaresource:7>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}})]);
 
 recipes.remove(<botania:terraplate>);
-recipes.addShaped("terraplate", <botania:terraplate>, [
+scripts.utils.addShaped("terraplate", <botania:terraplate>, [
 	[<roots:chiseled_runed_obsidian>, <roots:chiseled_runed_obsidian>, <roots:chiseled_runed_obsidian>], 
 	[<ore:runeWaterB>, <botania:storage:2>, <ore:runeFireB>], 
 	[<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>]
 ]);
 
+recipes.removeByRecipeName("botania:terrasteelhelm");
+scripts.utils.addShaped("terrasteelhelm", <botania:terrasteelhelm>, [
+	[<ore:livingwoodTwig>, <ore:runeSpringB>, <ore:livingwoodTwig>], 
+	[<ore:ingotTerrasteel>, <thaumcraft:void_helm>, <ore:ingotTerrasteel>],
+	[null, <ore:ingotTerrasteel>, null]
+]);
+
+recipes.removeByRecipeName("botania:terrasteelchest");
+scripts.utils.addShaped("terrasteelchest", <botania:terrasteelchest>, [
+	[<ore:livingwoodTwig>, <ore:runeSummerB>, <ore:livingwoodTwig>], 
+	[<ore:ingotTerrasteel>, <thaumcraft:void_chest>, <ore:ingotTerrasteel>], 
+	[null, <ore:ingotTerrasteel>, null]
+]);
+
+recipes.removeByRecipeName("botania:terrasteellegs");
+scripts.utils.addShaped("terrasteellegs", <botania:terrasteellegs>, [
+	[<ore:livingwoodTwig>, <ore:runeAutumnB>, <ore:livingwoodTwig>], 
+	[<ore:ingotTerrasteel>, <thaumcraft:void_legs>, <ore:ingotTerrasteel>], 
+	[null, <ore:ingotTerrasteel>, null]
+]);
+
+recipes.removeByRecipeName("botania:terrasteelboots");
+scripts.utils.addShaped("terrasteelboots", <botania:terrasteelboots>, [
+	[<ore:livingwoodTwig>, <ore:runeWinterB>, <ore:livingwoodTwig>],
+	[<ore:ingotTerrasteel>, <thaumcraft:void_boots>, <ore:ingotTerrasteel>], 
+	[null, <ore:ingotTerrasteel>, null]
+]);
 
 
 
