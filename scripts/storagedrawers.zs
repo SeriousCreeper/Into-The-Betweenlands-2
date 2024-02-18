@@ -55,23 +55,26 @@ scripts.utils.addShapeless("storagedrawers-keybutton_quantify", <storagedrawers:
 recipes.remove(<storagedrawers:upgrade_storage:0>);
 scripts.utils.addShaped("storagedrawers-upgrade_storage_obsidian", <storagedrawers:upgrade_storage:0>, [
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
-	[<thebetweenlands:tar_solid>, <storagedrawers:upgrade_template>, <thebetweenlands:tar_solid>], 
+	[<ore:ingotSyrmorite>, <storagedrawers:upgrade_template>, <ore:ingotSyrmorite>], 
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
 recipes.remove(<storagedrawers:upgrade_storage:1>);
+recipes.remove(<storagedrawers:upgrade_storage:2>);
+
+/*
 scripts.utils.addShaped("storagedrawers-upgrade_storage_iron", <storagedrawers:upgrade_storage:1>, [
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
 	[<ore:ingotSyrmorite>, <storagedrawers:upgrade_template>, <ore:ingotSyrmorite>], 
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
-recipes.remove(<storagedrawers:upgrade_storage:2>);
 scripts.utils.addShaped("storagedrawers-upgrade_storage_gold", <storagedrawers:upgrade_storage:2>, [
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
 	[<ore:ingotOctine>, <storagedrawers:upgrade_template>, <ore:ingotOctine>], 
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
+*/
 
 recipes.remove(<storagedrawers:upgrade_one_stack>);
 scripts.utils.addShaped("storagedrawers-upgrade_one_stack", <storagedrawers:upgrade_one_stack>, [
