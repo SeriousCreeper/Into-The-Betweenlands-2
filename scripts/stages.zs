@@ -25,9 +25,11 @@ OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_so
 //OreStages.addReplacement("locked", <pyrotech:material:0>, <embers:dust_ash>);
 
 Recipes.setRecipeStageByMod("locked", "futuremc");
+Recipes.setRecipeStageByMod("locked", "wormhole");
+Recipes.setRecipeStageByMod("locked", "mowziesmobs");
 
 ItemStages.stageModItems("locked", "futuremc");
-ItemStages.stageModItems("locked", "mowziesmobs");
+ItemStages.stageModItems("locked", "wormhole");
 ItemStages.stageModItems("locked", "mowziesmobs");
 
 val itemsToLock = [
