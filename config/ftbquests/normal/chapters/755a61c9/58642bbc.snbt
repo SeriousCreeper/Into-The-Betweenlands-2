@@ -1,0 +1,40 @@
+{
+	title: "Rennet",
+	x: 6.5d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"To create Rennet, place a §6Brewing Kettle§r on a §6heat source§r, add §6swamp water§r, and §6flowering nettle§r."
+	],
+	dependencies: [
+		"92707597"
+	],
+	tasks: [{
+		uid: "980bbc39",
+		type: "item",
+		title: "Any Rennet",
+		items: [{
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "fluid_rennet",
+					Amount: 1000
+				}
+			}
+		},
+		{
+			id: "thebetweenlands:bl_bucket",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "fluid_rennet",
+					Amount: 1000
+				}
+			}
+		},
+		{
+			item: "growthcraft_milk:bottlefluid_rennet"
+		}],
+		ignore_nbt: 1b
+	}]
+}

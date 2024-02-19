@@ -1,0 +1,25 @@
+{
+	x: 8.5d,
+	y: -3.0d,
+	shape: "gear",
+	dependencies: [
+		"ea29d851"
+	],
+	tasks: [{
+		uid: "6a0d1956",
+		type: "item",
+		items: [{
+			item: "growthcraft_bees:honey_comb_filled"
+		},
+		{
+			item: "growthcraft_bees:honey_comb_empty"
+		}]
+	},
+	{
+		uid: "19dc2d44",
+		type: "item",
+		items: [{
+			item: "growthcraft_bees:bottlefluid_honey"
+		}]
+	}]
+}

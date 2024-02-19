@@ -1,0 +1,58 @@
+{
+	title: "Say Cheese!",
+	x: 6.5d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"Once the Cheese Cloth has fully dried up, §6right-click§r it to pick it up. ",
+		"",
+		"Place down a §6Cheese Press§r, and right-click the cheese cloth onto it. ",
+		"",
+		"Right-click the Cheese Press to close it. ",
+		"",
+		"After a while, right-click it again to open the Cheese Press, and then §6sneak-right click §rto take out the unaged cheese!"
+	],
+	dependencies: [
+		"ed15290c"
+	],
+	tasks: [{
+		uid: "f6c4b5ed",
+		type: "item",
+		items: [{
+			id: "growthcraft_milk:curds_waxed",
+			Damage: 24s,
+			tag: {
+				te_curd_block: {
+					cheese_modid: "growthcraft_milk",
+					cheese_name: "cheddar"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b9088b73",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:cheese_press"
+		}]
+	},
+	{
+		uid: "bdb5c0d9",
+		type: "item",
+		items: [{
+			id: "growthcraft_milk:cheese_waxed",
+			Damage: 27s,
+			tag: {
+				te_cheese_block: {
+					cheese_modid: "growthcraft_milk",
+					cheese_name: "cheddar",
+					cheese_stage_id: 3,
+					slices: 4
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

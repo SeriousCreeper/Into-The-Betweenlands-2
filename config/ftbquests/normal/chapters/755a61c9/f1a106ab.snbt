@@ -1,0 +1,73 @@
+{
+	icon: "growthcraft_milk:cheese_vat",
+	x: 6.5d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"Fill a vat with §65 buckets§r of Milk.",
+		"",
+		"Right click §61 starter culture§r onto it. ",
+		"",
+		"Right click §61 bottle§r of §6Rennet§r onto it.",
+		"",
+		"Right click the vat with a §6sword§r to start the process. ",
+		"",
+		"You know it's working when you hear bubbling sounds.",
+		"",
+		"Once it's finished, a layer of §6Whey§r will be on top of the Vat. ",
+		"",
+		"§6Right click§r a §6bucket§r or §6bottles§r to remove Whey."
+	],
+	dependencies: [
+		"58642bbc"
+	],
+	tasks: [{
+		uid: "bf74cdef",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:cheese_vat"
+		}]
+	},
+	{
+		uid: "f3f8ec2f",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:starter_culture"
+		}]
+	},
+	{
+		uid: "d69d9b17",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:bottlefluid_rennet"
+		}]
+	},
+	{
+		uid: "ebe16332",
+		type: "item",
+		title: "Whey",
+		items: [{
+			item: "growthcraft_milk:bottlefluid_whey"
+		},
+		{
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "fluid_whey",
+					Amount: 1000
+				}
+			}
+		},
+		{
+			id: "thebetweenlands:bl_bucket",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "fluid_whey",
+					Amount: 1000
+				}
+			}
+		}],
+		only_from_crafting: false
+	}]
+}

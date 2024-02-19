@@ -1,0 +1,24 @@
+{
+	title: "Different Flavors",
+	x: 6.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"Once the Whey has been removed, it is time to add ingredients that determine what cheese will be produced. ",
+		"",
+		"Each cheese needs different ingredients, but they all require §6salt§r.",
+		"",
+		"List of cheese recipes:",
+		"§6Cheddar§r: 1x salt, 1x orange dye"
+	],
+	dependencies: [
+		"f1a106ab"
+	],
+	tasks: [{
+		uid: "454bf39b",
+		type: "item",
+		items: [{
+			item: "growthcraft:salt"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Heat Sources",
+	icon: "thebetweenlands:peat_smouldering",
+	x: 5.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"Heat sources for Growthcraft include:",
+		"",
+		"- Octine Block",
+		"- Smoldering Peat",
+		"- Fire"
+	],
+	tasks: [{
+		uid: "ce2b1af2",
+		type: "checkmark"
+	}]
+}

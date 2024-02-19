@@ -1,0 +1,63 @@
+{
+	title: "Starter Cult-ure",
+	x: 6.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"In order to make cheese, one has to start with the §6Starter Culture§r.",
+		"",
+		"Put a bucket of §6milk§r into a §6Pancheon§r and give it some time. ",
+		"",
+		"Eventually the milk will separate into §6Skim Milk§r and §6Cream§r. ",
+		"",
+		"Use §6bottles§r to pick up both. ",
+		"",
+		"Fill a §6Cultur Jar§r over a §6heat source§r with skim milk, and wait."
+	],
+	tasks: [{
+		uid: "61eae306",
+		type: "item",
+		title: "Lurker \"Milk\"",
+		items: [{
+			id: "thebetweenlands:bl_bucket",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "liquid_milk",
+					Amount: 1000
+				}
+			}
+		},
+		{
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "liquid_milk",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ade53747",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:pancheon"
+		}]
+	},
+	{
+		uid: "e6e35e9d",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:bottlefluid_skim_milk"
+		}]
+	},
+	{
+		uid: "22170d18",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:starter_culture"
+		}]
+	}]
+}

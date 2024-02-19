@@ -1,0 +1,42 @@
+{
+	title: "Butter Up",
+	x: 7.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"Adding a bucket of §6Cream§r to a §6Butter Churn§r, and holding right-click on the Churn, will produce §6Butter§r and §6Butter Milk§r.",
+		"",
+		"The Butter Milk can be extracted with bottles/buckets."
+	],
+	dependencies: [
+		"92707597"
+	],
+	tasks: [{
+		uid: "4bdd58eb",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:churn"
+		}]
+	},
+	{
+		uid: "2e1ec320",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:bottlefluid_cream"
+		}]
+	},
+	{
+		uid: "d16856f4",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:bottlefluid_butter_milk"
+		}]
+	},
+	{
+		uid: "8144002b",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:butter"
+		}]
+	}]
+}

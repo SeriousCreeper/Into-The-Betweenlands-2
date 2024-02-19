@@ -1,0 +1,32 @@
+{
+	title: "Mama Mia!",
+	x: 7.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"Craft a §6Pizza Oven§r, place it down, fill it with §6sticks§r, and light it on §6fire§r. ",
+		"",
+		"Any Pizza placed on top of it will slowly cook, but be careful to not burn it!",
+		"",
+		"Once it's done cooking, use a §6Peel§r to pick it up."
+	],
+	dependencies: [
+		"25fba43a"
+	],
+	tasks: [{
+		uid: "56981716",
+		type: "item",
+		items: [{
+			item: "pizzacraft:pizza_oven"
+		}]
+	},
+	{
+		uid: "b88f1ec9",
+		type: "item",
+		items: [{
+			item: "pizzacraft:peel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,70 @@
+{
+	title: "Tasty Triangle",
+	icon: "pizzacraft:slice_7",
+	x: 7.5d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"Once the Pizza has been fully cooked and picked up, place it down on a surface or §6Cutting Board§r, and use a §6knife§r to cut it into slices.",
+		"",
+		"It can also be placed into §6Pizza Boxes§r."
+	],
+	dependencies: [
+		"f270c6c0"
+	],
+	tasks: [{
+		uid: "b856c2d8",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any knife"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "knife"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "013b7db2",
+		type: "item",
+		title: "Slice of Pizza",
+		items: [{
+			item: "pizzacraft:slice_0"
+		},
+		{
+			item: "pizzacraft:slice_1"
+		},
+		{
+			item: "pizzacraft:slice_2"
+		},
+		{
+			item: "pizzacraft:slice_4"
+		},
+		{
+			item: "pizzacraft:slice_5"
+		},
+		{
+			item: "pizzacraft:slice_6"
+		},
+		{
+			item: "pizzacraft:slice_7"
+		},
+		{
+			item: "pizzacraft:slice_8"
+		},
+		{
+			item: "pizzacraft:slice_9"
+		},
+		{
+			item: "pizzacraft:slice_10"
+		}]
+	}]
+}

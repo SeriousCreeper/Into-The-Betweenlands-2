@@ -1,0 +1,36 @@
+{
+	title: "Wax On",
+	x: 8.5d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"Some cheese require a §6wax§r layer, by simply placing down the §6unaged§r cheese, and §6right-clicking§r the wax item. ",
+		"",
+		"Once the cheese has aged, use a §6Knife§r to cut it into pieces!",
+		"",
+		"The aging process can take quite a while.",
+		"",
+		"§6Cheddar§r: Red Wax",
+		"§6Monterey§r: Black Wax",
+		"§6Provolone§r: White Wax",
+		"§6Gouda§r: Yellow Wax"
+	],
+	dependencies: [
+		"876a4656",
+		"675d0714"
+	],
+	tasks: [{
+		uid: "d438dac1",
+		type: "item",
+		items: [{
+			item: "growthcraft_bees:bees_wax 1 14"
+		}]
+	},
+	{
+		uid: "73b05781",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:cheese_waxed_slice"
+		}]
+	}]
+}

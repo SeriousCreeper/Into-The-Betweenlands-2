@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"Once the milk has changed colors, right-click the Vat with a §6Cheese Cloth§r, and place it onto the §6ceiling§r. ",
+		"",
+		"It will slowly drip any remaining Whey out of it, until it's fully §6dry§r. ",
+		"",
+		"The §6Whey§r can be collected by placing a §6Pancheon§r underneath the hanging cheese cloth."
+	],
+	dependencies: [
+		"4dd27425"
+	],
+	tasks: [{
+		uid: "68be6365",
+		type: "item",
+		items: [{
+			item: "growthcraft_milk:cheese_cloth"
+		}]
+	}]
+}
