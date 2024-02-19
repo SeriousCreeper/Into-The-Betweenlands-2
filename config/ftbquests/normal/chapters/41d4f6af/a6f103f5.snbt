@@ -4,13 +4,12 @@
 	y: 0.0d,
 	shape: "circle",
 	text: [
-		"Get enlightened"
+		"Solve Nature's Riddle."
 	],
 	dependencies: [
 		"77283da4"
 	],
 	hide: true,
-	hide_text_until_complete: true,
 	size: 3.0d,
 	tasks: [{
 		uid: "84992193",
