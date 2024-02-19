@@ -22,6 +22,7 @@
 	rewards: [{
 		uid: "876d2ea1",
 		type: "gamestage",
+		title: "Unlock Botania",
 		icon: {
 			id: "botania:twigwand",
 			tag: {
