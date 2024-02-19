@@ -38,7 +38,15 @@
       "mod_id": "thebetweenlands",
       "block_name": "octine_block",
       "states": {
-        "32767": 0.7
+        "32767": 1
+      }
+    },
+    {
+      "comment": "Smoldering Peat",
+      "mod_id": "thebetweenlands",
+      "block_name": "peat_smouldering",
+      "states": {
+        "32767": 1
       }
     }
   ]
