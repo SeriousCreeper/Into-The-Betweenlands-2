@@ -21,8 +21,7 @@
 				dimension: 21
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 2b
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "c1bcad28",

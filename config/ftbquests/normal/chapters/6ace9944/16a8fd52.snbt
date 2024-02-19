@@ -20,8 +20,7 @@
 				dimension: 23
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "aac4ad62",
