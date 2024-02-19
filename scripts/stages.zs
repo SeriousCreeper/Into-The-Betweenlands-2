@@ -49,7 +49,7 @@ for item in itemsToLock {
 	Recipes.setRecipeStage("locked", item);
 }
 
-ItemStages.addItemStage("chose_botania", <bladditions:corrupted_bone_wayfinder>.withTag({dungeon_id: "maze_botania_start"}));
+ItemStages.addItemStage("unlocked_botania", <bladditions:corrupted_bone_wayfinder>.withTag({dungeon_id: "maze_botania_start"}));
 
 
 val rootsItemsNotToStage = [
