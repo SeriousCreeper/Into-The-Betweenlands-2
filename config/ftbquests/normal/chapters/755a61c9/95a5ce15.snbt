@@ -1,0 +1,29 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"With the §6Tool Belt§r you can store and swap tools on the fly. ",
+		"",
+		"It can go into the default §6bauble belt§r slot, or into it's own §6special§r one that can be access by pressing '§6V§r' by default.",
+		"",
+		"Once equipped, hold the Tool Belt hotkey ('§6X§r' by default) to insert the currently held tool, or extract a stored one. ",
+		"Alternatively it can be opened up while holding it in your hand.",
+		"",
+		"It can be further upgraded with §6pouches§r. ",
+		"",
+		"§6NOTE: Take out all items from the belt before upgrading! §r"
+	],
+	dependencies: [
+		"14564808"
+	],
+	tasks: [{
+		uid: "182c8e38",
+		type: "item",
+		items: [{
+			item: "toolbelt:belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

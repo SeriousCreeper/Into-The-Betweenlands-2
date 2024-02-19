@@ -9,7 +9,12 @@
 		"Each cheese needs different ingredients, but they all require §6salt§r.",
 		"",
 		"List of cheese recipes:",
-		"§6Cheddar§r: 1x salt, 1x orange dye"
+		"§6Cheddar§r: 1x salt, 1x orange dye",
+		"§6Asiago§r: 2x salt, 1x yellow dye",
+		"§6Parmesan§r: 1x salt, 1x white dye",
+		"§6Monterey§r: 1x salt, 1x red dye,",
+		"§6Provolone§r: 1x salt, 1x yellow dye",
+		"§6Gouda§r: 1x salt, 1x gray dye"
 	],
 	dependencies: [
 		"f1a106ab"
