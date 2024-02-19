@@ -4,7 +4,7 @@
 	y: 1.5d,
 	shape: "gear",
 	text: [
-		"Similar to a regular wayfinder, placing this unstable wayfinder onto an §6Offering Table§r and sneaking should teleport everyone around to the same place."
+		"Similar to a regular wayfinder, placing this unstable wayfinder onto an §6Offering Table§r will let people standing around it teleport together, by simply holding §6sneak§r for a few seconds."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

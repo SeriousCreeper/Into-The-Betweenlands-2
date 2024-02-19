@@ -4,7 +4,9 @@
 	y: 2.5d,
 	shape: "gear",
 	text: [
-		"I know this sounds strange, but after having explored the §6Sludgeon§r, i do believe with the help of the §6Inert Wayfinder§r and the new knowledge i've gained at the dungeon, i can modify the Wayfinder to locate §6another Sludgeon§r."
+		"I know this sounds strange, but after having explored the §6Sludgeon§r, I do believe with the help of the §6Inert Wayfinder§r and the new knowledge I've gained at the dungeon, I can modify the Wayfinder to locate §6another Sludgeon§r.",
+		"",
+		"Note: Using the Wayfinder will teleport you to another dimension, and the wayfinder will get consumed. In order for multiple people to teleport, find an §6offering table§r."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

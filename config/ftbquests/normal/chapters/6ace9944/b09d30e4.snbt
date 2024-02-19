@@ -4,7 +4,9 @@
 	y: 2.5d,
 	shape: "gear",
 	text: [
-		"I know this sounds strange, but after having explored the §6Wight Fortress§r, i do believe with the help of the §6Inert Wayfinder§r and the new knowledge i've gained at the fortress, i can modify the Wayfinder to locate another §6Wight Fortress§r."
+		"I know this sounds strange, but after having explored the §6Wight Fortress§r, I do believe with the help of the §6Inert Wayfinder§r and the new knowledge I've gained at the fortress, I can modify the Wayfinder to locate another §6Wight Fortress§r.",
+		"",
+		"Note: Using the Wayfinder will teleport you to another dimension, and the wayfinder will get consumed. In order for multiple people to teleport, find an §6offering table§r."
 	],
 	hide_dependency_lines: true,
 	dependencies: [
