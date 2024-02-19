@@ -10,8 +10,7 @@
 		"It can also be placed into §6Pizza Boxes§r."
 	],
 	dependencies: [
-		"f270c6c0",
-		"dd26907e"
+		"f270c6c0"
 	],
 	tasks: [{
 		uid: "b856c2d8",
