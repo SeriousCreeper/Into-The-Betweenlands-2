@@ -236,6 +236,21 @@ removeLootEntry("thaumicaugmentation:generic/pedestal_uncommon", "pedestal_uncom
 removeLootEntry("mod_lavacow:entities/swarmer", "main", "mod_lavacow:zombiepiranha_item");
 removeLootEntry("mod_lavacow:entities/swarmer", "tooth", "mod_lavacow:sharptooth");
 
+removeLootEntry("minecraft:entities/zombie", "main", "minecraft:rotten_flesh");
+removeLootEntry("minecraft:entities/zombie", "pool1", "minecraft:iron_ingot");
+removeLootEntry("minecraft:entities/zombie", "pool1", "minecraft:carrot");
+removeLootEntry("minecraft:entities/zombie", "pool1", "minecraft:potato");
+
+removeLootEntry("minecraft:entities/skeleton", "main", "minecraft:arrow");
+removeLootEntry("minecraft:entities/skeleton", "pool1", "minecraft:bone");
+
+removeLootEntry("minecraft:entities/witch", "main", "minecraft:glowstone_dust");
+removeLootEntry("minecraft:entities/witch", "main", "minecraft:sugar");
+removeLootEntry("minecraft:entities/witch", "main", "minecraft:redstone");
+removeLootEntry("minecraft:entities/witch", "main", "minecraft:spider_eye");
+removeLootEntry("minecraft:entities/witch", "main", "minecraft:glass_bottle");
+removeLootEntry("minecraft:entities/witch", "main", "minecraft:gunpowder");
+removeLootEntry("minecraft:entities/witch", "main", "minecraft:stick");
 
 
 addLootComplex("thaumicaugmentation:generic/pedestal_common", "pedestal_common", "ancient_debris", <thebetweenlands:items_misc:47>, 15, 0, [], []);
