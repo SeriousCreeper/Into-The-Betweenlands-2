@@ -1354,11 +1354,11 @@ Infusion.registerRecipe("wither_forge", "GOINGHOME@2", <pyrotech:wither_forge>, 
 [
 	<roots:infernal_bulb>,
 	<embers:wildfire_core>,
-	<thaumcraft:ingot:1>,
+	<thaumcraft:plate:3>,
 	<thebetweenlands:items_misc:24>,
 	<roots:infernal_bulb>,
 	<embers:wildfire_core>,
-	<thaumcraft:ingot:1>,
+	<thaumcraft:plate:3>,
 	<arcanearchives:containment_field>
 ]);
 
