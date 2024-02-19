@@ -132,9 +132,6 @@ ItemStages.stageModItems("unstaged", "arcaneworld");
 
 
 
-ItemStages.addItemStage("unstaged", <thaumicaugmentation:gauntlet>.withTag({color: 8022208}));
-
-
 //IEMultiBlockStages.addStage("removed", "IE:CokeOven", "This multiblock is not available.");
 //IEMultiBlockStages.addStage("removed", "IE:AlloySmelter", "This multiblock is not available.");
 //IEMultiBlockStages.addStage("removed", "IE:BlastFurnace", "This multiblock is not available.");
