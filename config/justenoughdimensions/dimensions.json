@@ -228,10 +228,16 @@
           "teleport_type": "spawn"
         }
       },
-      "worldinfo": {},
+      "worldinfo": {
+        "GameRules": {
+              "keepInventory": "true",
+              "doMobLoot": "false"
+          }
+      },
       "worldinfo_onetime": {
         "GameRules": {
-            "keepInventory": "true"
+            "keepInventory": "true",
+            "doMobLoot": "false"
         },
         "GameType": 2
       }
