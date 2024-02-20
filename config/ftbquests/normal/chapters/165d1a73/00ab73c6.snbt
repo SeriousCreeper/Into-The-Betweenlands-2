@@ -1,0 +1,18 @@
+{
+	title: "Noteworthy Rituals",
+	icon: "roots:pyre",
+	x: -7.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"Some rituals have been adjusted and behave differently from how you might be used to."
+	],
+	dependencies: [
+		"6e0c4ef5"
+	],
+	tasks: [{
+		uid: "7249c1b6",
+		type: "checkmark",
+		title: "Understood"
+	}]
+}

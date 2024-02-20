@@ -1,0 +1,20 @@
+{
+	title: "Ritual: Frost Lands",
+	icon: "roots:ritual_frost_lands",
+	x: -8.5d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"This ritual hasn't changed much, but it's worth noting that this is required for accessing things like ice and snow. ",
+		"",
+		"It will turn water into black ice, as well as summon snowmen."
+	],
+	guide_page: "roots:roots_guide:rituals/ritual_frost_lands",
+	dependencies: [
+		"00ab73c6"
+	],
+	tasks: [{
+		uid: "ef35c82a",
+		type: "checkmark"
+	}]
+}

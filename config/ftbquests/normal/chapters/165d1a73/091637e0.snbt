@@ -1,0 +1,17 @@
+{
+	title: "Ritual: Animal Harvest",
+	icon: "roots:ritual_animal_harvest",
+	x: -8.5d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"This ritual spawns §6Anadia§r fish in nearby water."
+	],
+	dependencies: [
+		"00ab73c6"
+	],
+	tasks: [{
+		uid: "3c1d0521",
+		type: "checkmark"
+	}]
+}
