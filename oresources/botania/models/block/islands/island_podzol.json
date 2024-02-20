@@ -1,0 +1,7 @@
+{
+  "parent": "botania:block/shapes/miniisland",
+  "textures": {
+    "top": "thebetweenlands:blocks/dead_grass_top",
+	"side": "thebetweenlands:blocks/dead_grass_side"
+  }
+}

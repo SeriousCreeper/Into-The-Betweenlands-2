@@ -1,0 +1,7 @@
+{
+  "parent": "botania:block/shapes/miniisland",
+  "textures": {
+    "top": "thebetweenlands:blocks/mud",
+	"side": "thebetweenlands:blocks/mud"
+  }
+}

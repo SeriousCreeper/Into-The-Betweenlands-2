@@ -686,3 +686,5 @@ Agglomeration.addRecipe(
 <botania:manaresource:2>.displayName = "Mana Stone";
 <botania:manaresource:2>.displayName = "Mana Gem";
 <botania:manaresource:15>.displayName = "Void Air Bottle";
+<botania:grassseeds:1>.displayName = "Dead Spores";
+<botania:grassseeds:2>.displayName = "Muddy Spores";
