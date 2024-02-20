@@ -65,6 +65,9 @@
 		},
 		{
 			item: "pizzacraft:slice_10"
+		},
+		{
+			item: "pizzacraft:slice_3"
 		}]
 	}]
 }
