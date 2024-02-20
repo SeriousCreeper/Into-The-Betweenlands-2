@@ -494,6 +494,22 @@ ManaInfusion.addAlchemy(<thebetweenlands:black_ice>, <minecraft:snow>, 2250);
 ManaInfusion.addInfusion(<botania:managlass>, <thebetweenlands:silt_glass>, 150);
 ManaInfusion.addInfusion(<botania:managlass>, <thebetweenlands:filtered_silt_glass>, 10);
 
+ManaInfusion.addAlchemy(<thebetweenlands:weedwood>, <thebetweenlands:log_weedwood>, 40);
+ManaInfusion.addAlchemy(<thebetweenlands:log_hearthgrove:1>, <thebetweenlands:weedwood>, 40);
+ManaInfusion.addAlchemy(<thebetweenlands:log_nibbletwig>, <thebetweenlands:log_hearthgrove:1>, 40);
+ManaInfusion.addAlchemy(<thebetweenlands:log_sap>, <thebetweenlands:log_nibbletwig>, 40);
+ManaInfusion.addAlchemy(<thebetweenlands:log_rubber>, <thebetweenlands:log_sap>, 40);
+ManaInfusion.addAlchemy(<thebetweenlands:log_rotten_bark>, <thebetweenlands:log_rubber>, 40);
+ManaInfusion.addAlchemy(<thebetweenlands:giant_root>, <thebetweenlands:log_rotten_bark>, 40);
+ManaInfusion.addAlchemy(<thebetweenlands:log_weedwood>, <thebetweenlands:giant_root>, 40);
+
+ManaInfusion.addAlchemy(<thebetweenlands:sapling_hearthgrove>, <thebetweenlands:sapling_weedwood>, 120);
+ManaInfusion.addAlchemy(<thebetweenlands:sapling_nibbletwig>, <thebetweenlands:sapling_hearthgrove>, 120);
+ManaInfusion.addAlchemy(<thebetweenlands:sapling_sap>, <thebetweenlands:sapling_nibbletwig>, 120);
+ManaInfusion.addAlchemy(<thebetweenlands:sapling_rubber>, <thebetweenlands:sapling_sap>, 120);
+ManaInfusion.addAlchemy(<thebetweenlands:sapling_weedwood>, <thebetweenlands:sapling_rubber>, 120);
+
+
 for i in 0 to 16 {
 	ManaInfusion.addInfusion(<botania:flower>.withDamage(i), <botania:mushroom>.withDamage(i), 200);
 
