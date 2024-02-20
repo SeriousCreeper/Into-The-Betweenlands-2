@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 import mods.botania.PureDaisy;
 import mods.botania.ManaInfusion;
 import mods.botania.Apothecary;
@@ -403,6 +404,60 @@ PureDaisy.removeRecipe(<minecraft:snow>);
 
 // mana infusions
 
+val manaInfusionsToRemove = [
+	<minecraft:leather>,
+	<minecraft:wheat_seeds>,
+	<minecraft:potato>,
+	<minecraft:carrot>,
+	<minecraft:beetroot_seeds>,
+	<minecraft:melon_seeds>,
+	<minecraft:pumpkin_seeds>,
+	<minecraft:dye:3>,
+	<minecraft:nether_wart>,
+	<minecraft:flint>,
+	<minecraft:gunpowder>,
+	<minecraft:name_tag>,
+	<minecraft:string>,
+	<minecraft:slime_ball>,
+	<minecraft:cactus>,
+	<minecraft:ender_pearl>,
+	<minecraft:redstone>,
+	<minecraft:glowstone_dust>,
+	<minecraft:sand:*>,
+	<minecraft:clay_ball>,
+	<minecraft:brick>,
+	<minecraft:dirt:*>,
+	<minecraft:stone:*>,
+	<minecraft:deadbush>,
+	<minecraft:tallgrass:*>,
+	<minecraft:chorus_flower>,
+	<minecraft:coal>,
+	<minecraft:quartz>,
+	<minecraft:netherrack>,
+	<minecraft:soul_sand>,
+	<minecraft:gravel>,
+	<minecraft:leaves:*>,
+	<minecraft:leaves2:*>,
+	<minecraft:red_flower:*>,
+	<minecraft:double_plant:*>,
+	<minecraft:yellow_flower:*>,
+	<minecraft:yellow_flower:*>,
+	<minecraft:log:*>,
+	<minecraft:log2:*>,
+	<minecraft:sapling:*>,
+	<minecraft:stonebrick:*>,
+	<minecraft:waterlily>,
+	<minecraft:fish:*>,
+	<minecraft:vine>,
+	<botania:storage:3>,
+	<botania:tinypotato>,
+	<botania:managlass>,
+] as IItemStack[];
+
+for item in manaInfusionsToRemove {
+	ManaInfusion.removeRecipe(item);	
+}
+
 ManaInfusion.removeRecipe(<botania:specialflower>.withTag({type: "bubbellChibi"}));
 ManaInfusion.removeRecipe(<botania:quartz:*>);
 
@@ -432,6 +487,12 @@ ManaInfusion.addInfusion(<botania:grassseeds:2>, <thebetweenlands:mud>, 6500);
 
 ManaInfusion.removeRecipe(<botania:pistonrelay>);
 ManaInfusion.addInfusion(<botania:pistonrelay>, <betweenlandsredstone:scabyst_piston>, 15000);
+
+ManaInfusion.removeRecipe(<minecraft:ice>);
+ManaInfusion.addAlchemy(<thebetweenlands:black_ice>, <minecraft:snow>, 2250);
+
+ManaInfusion.addInfusion(<botania:managlass>, <thebetweenlands:silt_glass>, 150);
+ManaInfusion.addInfusion(<botania:managlass>, <thebetweenlands:filtered_silt_glass>, 10);
 
 for i in 0 to 16 {
 	ManaInfusion.addInfusion(<botania:flower>.withDamage(i), <botania:mushroom>.withDamage(i), 200);
