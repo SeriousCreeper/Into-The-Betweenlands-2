@@ -441,7 +441,6 @@ val manaInfusionsToRemove = [
 	<minecraft:red_flower:*>,
 	<minecraft:double_plant:*>,
 	<minecraft:yellow_flower:*>,
-	<minecraft:yellow_flower:*>,
 	<minecraft:log:*>,
 	<minecraft:log2:*>,
 	<minecraft:sapling:*>,
