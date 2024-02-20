@@ -531,6 +531,23 @@ Pyre.addRecipe("botania_dungeon", <bladditions:corrupted_bone_wayfinder>.withTag
 // Runic Shears
 val defaultDelay = 24000;
 
+RunicShears.removeEntityRecipe(<entity:minecraft:zombie_pigman>);
+RunicShears.removeEntityRecipe(<entity:minecraft:wolf>);
+RunicShears.removeEntityRecipe(<entity:minecraft:silverfish>);
+RunicShears.removeEntityRecipe(<entity:minecraft:spider>);
+RunicShears.removeEntityRecipe(<entity:minecraft:zombie_horse>);
+RunicShears.removeEntityRecipe(<entity:minecraft:ocelot>);
+RunicShears.removeEntityRecipe(<entity:minecraft:polar_bear>);
+RunicShears.removeEntityRecipe(<entity:minecraft:snowman>);
+RunicShears.removeEntityRecipe(<entity:minecraft:cave_spider>);
+RunicShears.removeEntityRecipe(<entity:minecraft:villager_golem>);
+RunicShears.removeEntityRecipe(<entity:minecraft:skeleton_horse>);
+
+RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_sprout>);
+RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_clam>);
+RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_hell_sprout>);
+RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_lava_cat>);
+
 
 RunicShears.removeRecipe(<roots:fey_leather>);
 RunicShears.removeRecipe(<mysticalworld:aubergine>);
@@ -559,25 +576,6 @@ RunicShears.addEntityRecipe("sporeling_spores", <thebetweenlands:spores>, <entit
 RunicShears.addEntityRecipe("ochre_shells", <thebetweenlands:items_misc:1>, <entity:thebetweenlands:mire_snail>, defaultDelay);
 RunicShears.addEntityRecipe("pheromone_thorax", <thebetweenlands:pheromone_thorax>, <entity:thebetweenlands:swarm>, defaultDelay);
 RunicShears.addEntityRecipe("snow_block", <minecraft:snow>, <entity:minecraft:snowman>, defaultDelay);
-
-RunicShears.removeEntityRecipe(<entity:minecraft:zombie_pigman>);
-RunicShears.removeEntityRecipe(<entity:minecraft:wolf>);
-RunicShears.removeEntityRecipe(<entity:minecraft:silverfish>);
-RunicShears.removeEntityRecipe(<entity:minecraft:spider>);
-RunicShears.removeEntityRecipe(<entity:minecraft:zombie_horse>);
-RunicShears.removeEntityRecipe(<entity:minecraft:ocelot>);
-RunicShears.removeEntityRecipe(<entity:minecraft:polar_bear>);
-RunicShears.removeEntityRecipe(<entity:minecraft:snowman>);
-RunicShears.removeEntityRecipe(<entity:minecraft:cave_spider>);
-RunicShears.removeEntityRecipe(<entity:minecraft:villager_golem>);
-RunicShears.removeEntityRecipe(<entity:minecraft:skeleton_horse>);
-
-RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_sprout>);
-RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_clam>);
-RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_hell_sprout>);
-RunicShears.removeEntityRecipe(<entity:mysticalworld:entity_lava_cat>);
-
-
 
 
 // RITUALS
