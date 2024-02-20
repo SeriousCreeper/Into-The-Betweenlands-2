@@ -154,13 +154,6 @@ scripts.utils.addShaped("pylon_0", <botania:pylon>, [
 	[null, <ore:ingotOctine>, null]
 ]);
 
-recipes.remove(<botania:pylon:1>);
-scripts.utils.addShaped("pylon_1", <botania:pylon:1>, [
-	[null, <ore:nuggetTerrasteel>, null], 
-	[<ore:nuggetTerrasteel>, <botania:pylon>, <ore:nuggetTerrasteel>], 
-	[null, <thebetweenlands:wight_heart>, null]
-]);
-
 recipes.remove(<botania:manavoid>);
 scripts.utils.addShaped("manavoid", <botania:manavoid>, [
 	[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], 
@@ -370,8 +363,6 @@ scripts.utils.addShaped("terrasteelboots", <botania:terrasteelboots>, [
 	[<ore:ingotTerrasteel>, <thaumcraft:void_boots>, <ore:ingotTerrasteel>], 
 	[null, <ore:ingotTerrasteel>, null]
 ]);
-
-
 
 
 for i in 0 to 16 {

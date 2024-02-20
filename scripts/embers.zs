@@ -662,7 +662,21 @@ Alchemy.add(<soot:eitr>, [<thaumcraft:void_pick>, <ore:ingotAntimony>, <soot:sul
 	}
 );
 
+recipes.remove(<botania:alfheimportal>);
+Alchemy.add(<botania:alfheimportal>, [<thebetweenlands:shimmer_stone>, <thebetweenlands:polished_dentrothyst>, <botania:livingwood>, <thebetweenlands:polished_dentrothyst>, <botania:livingwood>], 
+	{
+		"dawnstone" : 32 to 64, 
+		"silver" : 32 to 64
+	}
+);
 
+recipes.remove(<botania:pylon:1>);
+Alchemy.add(<botania:pylon:1>, [<botania:pylon>, <thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:wight_heart>], 
+	{
+		"dawnstone" : 24 to 48, 
+		"silver" : 24 to 48
+	}
+);
 
 
 
