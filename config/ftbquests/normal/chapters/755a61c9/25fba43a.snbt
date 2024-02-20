@@ -1,7 +1,7 @@
 {
 	title: "Neat!",
-	x: 7.5d,
-	y: -2.0d,
+	x: 9.5d,
+	y: 0.0d,
 	shape: "gear",
 	text: [
 		"Place the Pizza Dough on a surface and right-click it a few times to knead it."

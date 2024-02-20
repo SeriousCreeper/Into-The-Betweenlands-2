@@ -1,7 +1,7 @@
 {
 	title: "Salt",
-	x: 5.5d,
-	y: -1.0d,
+	x: 7.5d,
+	y: -2.0d,
 	shape: "gear",
 	text: [
 		"To produce salt, place a §6Culture Jar§r on top a §6heat source§r."

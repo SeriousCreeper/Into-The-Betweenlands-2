@@ -14,6 +14,9 @@
 		"",
 		"Fill a §6Cultur Jar§r over a §6heat source§r with skim milk, and wait."
 	],
+	dependencies: [
+		"f82fd50b"
+	],
 	tasks: [{
 		uid: "61eae306",
 		type: "item",

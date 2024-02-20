@@ -1,0 +1,19 @@
+{
+	title: "Get Baked",
+	x: 9.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"Craft §6bakeware§r, place it down, and right-click to add your dough and ingredients for your pizza."
+	],
+	dependencies: [
+		"25fba43a"
+	],
+	tasks: [{
+		uid: "c1a41ce0",
+		type: "item",
+		items: [{
+			item: "pizzacraft:bakeware"
+		}]
+	}]
+}

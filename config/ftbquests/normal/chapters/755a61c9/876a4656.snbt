@@ -1,7 +1,11 @@
 {
+	title: "Honey, Sweet Honey",
 	x: 8.5d,
-	y: -3.0d,
+	y: 0.0d,
 	shape: "gear",
+	text: [
+		""
+	],
 	dependencies: [
 		"ea29d851"
 	],

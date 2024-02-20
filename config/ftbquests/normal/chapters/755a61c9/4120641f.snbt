@@ -1,14 +1,14 @@
 {
 	title: "That Dough Though",
-	x: 7.5d,
-	y: -3.0d,
+	x: 9.5d,
+	y: 1.0d,
 	shape: "gear",
 	text: [
 		"Sometimes you just need some comfort food, and what's better comfort food than Pizza?"
 	],
 	dependencies: [
-		"876a4656",
-		"8917dd55"
+		"dd26907e",
+		"876a4656"
 	],
 	tasks: [{
 		uid: "641ee76a",

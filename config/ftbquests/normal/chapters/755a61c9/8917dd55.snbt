@@ -1,7 +1,8 @@
 {
 	title: "Butter Up",
+	icon: "growthcraft_milk:butter",
 	x: 7.5d,
-	y: -4.0d,
+	y: -3.0d,
 	shape: "gear",
 	text: [
 		"Adding a bucket of §6Cream§r to a §6Butter Churn§r, and holding right-click on the Churn, will produce §6Butter§r and §6Butter Milk§r.",

@@ -1,7 +1,7 @@
 {
 	title: "Mama Mia!",
-	x: 7.5d,
-	y: -1.0d,
+	x: 9.5d,
+	y: -2.0d,
 	shape: "gear",
 	text: [
 		"Craft a §6Pizza Oven§r, place it down, fill it with §6sticks§r, and light it on §6fire§r. ",
@@ -11,7 +11,7 @@
 		"Once it's done cooking, use a §6Peel§r to pick it up."
 	],
 	dependencies: [
-		"25fba43a"
+		"dc47b035"
 	],
 	tasks: [{
 		uid: "56981716",
