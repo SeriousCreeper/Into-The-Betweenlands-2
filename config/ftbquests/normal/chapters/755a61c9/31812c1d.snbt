@@ -1,16 +1,24 @@
 {
 	title: "Sanity",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbquests:textures/brain.png"
+		}
+	},
 	x: -2.5d,
 	y: -5.0d,
 	shape: "gear",
 	text: [
-		"Not only does decay affect physical things, your mind is not safe either. ",
+		"Not only does §6decay§r affect physical things, your §6mind§r is not safe either. ",
 		"",
-		"There are several things that affect your Mental Decay in a positive and negative way. ",
+		"There are several things that affect your §6Mental Decay§r in a positive and negative way. ",
 		"",
 		"Keep an eye on the icon above your XP bar, it will indicate your current Mental State. ",
 		"",
-		"A low Mental State can be quite devastating, while a high Mental State can provide benefits. "
+		"A low Mental State can be quite devastating, while a high Mental State can provide benefits.",
+		"",
+		"You can enable an §6alternative§r texture by going into the SimpleDifficulty configs -> Client, and toggle \"AlternateTemperature\"."
 	],
 	tasks: [{
 		uid: "d001f8f3",
