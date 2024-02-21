@@ -374,6 +374,8 @@ oreNSWebs.add(<thebetweenlands:dead_moss>);
 oreNSWebs.add(<thebetweenlands:lichen>);
 oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
+<ore:samite>.add(<thebetweenlands:samite:*>);
+<ore:samiteCanvas>.add(<thebetweenlands:samite_canvas_panel:*>);
 
 <ore:dustWood>.remove(<prodigytech:sawdust>);
 <ore:dustWood>.add(<pyrotech:rock:7>);

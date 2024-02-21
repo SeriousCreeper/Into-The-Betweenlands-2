@@ -558,11 +558,11 @@ RuneAltar.removeRecipe(<botania:rune:7>);
 RuneAltar.addRecipe(<botania:rune> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:dye:15>, <ore:sugarcane>, <thebetweenlands:items_misc:60>], 5200);
 RuneAltar.addRecipe(<botania:rune:1> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <thebetweenlands:angry_pebble>, <thebetweenlands:items_misc:45>, <roots:infernal_bulb>], 5200);
 RuneAltar.addRecipe(<botania:rune:2> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <ore:stone>, <thebetweenlands:black_hat_mushroom_item>, <thebetweenlands:sulfur_block>], 5200);
-RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <thebetweenlands:samite_canvas_panel:*>, <ore:feather>, <ore:string>], 5200);
+RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <ore:samiteCanvas>, <ore:feather>, <ore:string>], 5200);
 RuneAltar.addRecipe(<botania:rune:4>, [<ore:runeWaterB>, <ore:runeFireB>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <thebetweenlands:items_misc:6>], 8000);
 RuneAltar.addRecipe(<botania:rune:5>, [<ore:runeEarthB>, <ore:runeAirB>, <thebetweenlands:silt>, <thebetweenlands:silt>, <thebetweenlands:sludge_ball>, <thebetweenlands:middle_fruit>], 8000);
 RuneAltar.addRecipe(<botania:rune:6>, [<ore:runeFireB>, <ore:runeAirB>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <thebetweenlands:items_misc:30>], 8000);
-RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <thebetweenlands:samite:*>, <roots:dewgonia>], 8000);
+RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <ore:samite>, <roots:dewgonia>], 8000);
 
 
 
