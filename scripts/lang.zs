@@ -4,12 +4,10 @@ import crafttweaker.item.IItemStack;
 game.setLocalization("item.simpledifficulty:dragon_canteen_broken.name", "Broken Ancient Beast Canteen");
 game.setLocalization("item.simpledifficulty:dragon_canteen_empty.name", "Empty Ancient Beast Canteen");
 game.setLocalization("item.simpledifficulty:dragon_canteen_normal.name", "Water Ancient Beast Canteen");
-game.setLocalization("item.simpledifficulty:dragon_canteen_purified.name", "Purified Ancient Beast Canteen");
-
-//game.setLocalization("item.simpledifficulty:iron_canteen_broken.name", "Broken Syrmorite Canteen");
-//game.setLocalization("item.simpledifficulty:iron_canteen_empty.name", "Empty Syrmorite Canteen");
-//game.setLocalization("item.simpledifficulty:iron_canteen_normal.name", "Water Syrmorite Canteen");
-//game.setLocalization("item.simpledifficulty:iron_canteen_purified.name", "Purified Syrmorite Canteen");
+game.setLocalization("item.simpledifficulty:canteen_purified.name", "Clean Water Canteen");
+game.setLocalization("item.simpledifficulty:purified_water_bottle.name", "Clean Water Bottle");
+game.setLocalization("item.simpledifficulty:iron_canteen_purified.name", "Clean Water Iron Canteen");
+game.setLocalization("item.simpledifficulty:dragon_canteen_purified.name", "Clean Water Ancient Beast Canteen");
 
 game.setLocalization("gui.pyrotech.jei.info.pit.kiln", "To use a pit kiln, first dig a hole in the ground and place the pit kiln inside. Next, place the item you want to fire in the pit kiln, place a thatch block, and place three logs on top. Finally, light the top of the kiln and be sure to keep it dry while it fires!");
 
