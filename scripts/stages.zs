@@ -97,7 +97,6 @@ stageMods("soot", "knowledge_of_malice", embersItemsNotToStage);
 stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
 
 stageMods("bloodmagic", "chose_bloodmagic", bloodmagicItemsNotToStage);
-stageMods("bloodmagic", "bloodmagic", bloodmagicItemsNotToStage);
 stageMods("botania", "chose_botania", botaniaItemsNotToStage);
 
 var sludgeonStage = "knowledge_of_decay";
@@ -119,8 +118,6 @@ Recipes.setRecipeStageByMod("unstaged", "aetherworks");
 ItemStages.stageModItems("unstaged", "aetherworks");
 Recipes.setRecipeStageByMod("unstaged", "aetheriumashenarmor");
 ItemStages.stageModItems("unstaged", "aetheriumashenarmor");
-Recipes.setRecipeStageByMod("unstaged", "bloodmagic");
-ItemStages.stageModItems("unstaged", "bloodmagic");
 Recipes.setRecipeStageByMod("unstaged", "prodigytech");
 ItemStages.stageModItems("unstaged", "prodigytech");
 Recipes.setRecipeStageByMod("unstaged", "modularmachinery");

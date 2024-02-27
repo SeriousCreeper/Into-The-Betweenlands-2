@@ -442,7 +442,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 //<ore:blockLead>.remove(<immersiveengineering:storage:2>);
 
 
-//<ore:gemLapis>.remove(<minecraft:dye:4>);
+<ore:gemLapis>.remove(<minecraft:dye:4>);
 <ore:gemLapis>.add(<thebetweenlands:items_misc:47>);
 
 <ore:slabWood>.remove(<minecraft:wooden_slab:*>);

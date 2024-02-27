@@ -5,3 +5,4 @@ scripts.utils.addInfoTooltip(<bladditions:corrupted_bone_wayfinder>.withTag({dim
 scripts.utils.addInfoTooltip(<bladditions:corrupted_bone_wayfinder>.withTag({dimension: 23}), "Sludgeon Mirage");
 
 scripts.utils.addInfoTooltip(<bladditions:corrupted_bone_wayfinder>.withTag({dungeon_id: "maze_botania_start"}), "Dungeon: Botanical Gardens");
+scripts.utils.addInfoTooltip(<bladditions:corrupted_bone_wayfinder>.withTag({dungeon_id: "maze_bloodmagic_start"}), "Dungeon: Sanguine Archives");
