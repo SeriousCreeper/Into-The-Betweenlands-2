@@ -50,6 +50,7 @@ TartaricForge.removeRecipe([<minecraft:water_bucket>, <minecraft:water_bucket>, 
 TartaricForge.removeRecipe([<thebetweenlands:items_misc:3>, <thebetweenlands:items_misc:3>, <minecraft:ghast_tear>]);
 TartaricForge.removeRecipe([<minecraft:gold_ingot>, <betweenlandsredstone:scabyst_block>, <minecraft:glowstone>, <bloodmagic:teleposer>]);
 TartaricForge.removeRecipe([<minecraft:lava_bucket>, <betweenlandsredstone:scabyst_dust>, <thebetweenlands:betweenstone>, <minecraft:coal_block>]);
+TartaricForge.removeRecipe([<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:water_bucket>, <bloodmagic:teleposer>]);
 
 TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <minecraft:iron_sword>]);
 TartaricForge.addRecipe(<bloodmagic:sentient_sword>, [<bloodmagic:soul_gem>, <roots:living_sword>], 0, 0);
@@ -99,6 +100,43 @@ TartaricForge.addRecipe(<bloodmagic:item_routing_node>, [<betweenlandsredstone:s
 TartaricForge.removeRecipe([<bloodmagic:slate:2>, <minecraft:iron_block>, <minecraft:diamond>]);
 TartaricForge.addRecipe(<bloodmagic:master_routing_node>, [<bloodmagic:slate:2>, <thebetweenlands:syrmorite_block>, <thebetweenlands:items_misc:19>], 400, 200);
 
+TartaricForge.removeRecipe([<minecraft:glowstone_dust>, <betweenlandsredstone:scabyst_dust>, <minecraft:iron_ingot>, <bloodmagic:item_routing_node>]);
+TartaricForge.addRecipe(<bloodmagic:output_routing_node>, [<bloodmagic:item_routing_node>, <betweenlandsredstone:scabyst_dust>, <ore:ingotSyrmorite>, <thebetweenlands:wisp>], 400, 25);
+
+TartaricForge.removeRecipe([<bloodmagic:item_demon_crystal:*>, <thebetweenlands:items_misc:47>, <thebetweenlands:smooth_betweenstone>, <minecraft:iron_block>]);
+TartaricForge.addRecipe(<bloodmagic:demon_pylon>, [<bloodmagic:item_demon_crystal:*>, <thebetweenlands:items_misc:47>, <roots:runestone>, <ore:blockSyrmorite>], 400, 50);
+
+TartaricForge.removeRecipe([<bloodmagic:soul_gem:3>, <minecraft:nether_star>]);
+TartaricForge.addRecipe(<bloodmagic:soul_gem:4>, [<bloodmagic:soul_gem:3>, <ore:blockIron>, <ore:blockValonite>, <thebetweenlands:ancient_remnant_block>], 4000, 500);
+
+TartaricForge.removeRecipe([<bloodmagic:soul_gem:1>, <minecraft:diamond>, <minecraft:gold_block>, <bloodmagic:slate:2>]);
+TartaricForge.addRecipe(<bloodmagic:soul_gem:2>, [<bloodmagic:soul_gem:1>, <ore:gemValonite>, <ore:blockOctine>, <bloodmagic:slate:2>], 240, 50);
+
+TartaricForge.removeRecipe([<minecraft:slime>, <minecraft:slime>, <minecraft:leather>, <minecraft:string>]);
+TartaricForge.addRecipe(<bloodmagic:component:31>, [<betweenlandsredstone:scabyst_slime_1>, <betweenlandsredstone:scabyst_slime_1>, <ore:leather>, <minecraft:string>], 200, 20);
+
+TartaricForge.removeRecipe([<bloodmagic:sigil_divination>, <thebetweenlands:silt_glass>, <thebetweenlands:silt_glass>, <minecraft:glowstone_dust>]);
+TartaricForge.addRecipe(<bloodmagic:component:7>, [<bloodmagic:sigil_divination>, <thebetweenlands:filtered_silt_glass>, <thebetweenlands:filtered_silt_glass>, <thebetweenlands:wisp>], 64, 0);
+
+TartaricForge.removeRecipe([<minecraft:gunpowder>, <minecraft:iron_shovel>, <minecraft:iron_axe>, <minecraft:iron_pickaxe>]);
+TartaricForge.addRecipe(<bloodmagic:component:3>, [<thebetweenlands:swift_pick>, <thebetweenlands:angry_pebble>], 128, 10);
+
+TartaricForge.removeRecipe([<minecraft:string>, <minecraft:string>, <bloodmagic:soul_gem:1>, <minecraft:bow>]);
+TartaricForge.addRecipe(<bloodmagic:sentient_bow>, [<minecraft:string>, <minecraft:string>, <bloodmagic:soul_gem:1>, <roots:wildwood_bow>], 70, 0);
+
+TartaricForge.removeRecipe([<thebetweenlands:smooth_betweenstone>, <minecraft:cookie>, <minecraft:cookie>, <minecraft:sugar>]);
+TartaricForge.addRecipe(<bloodmagic:component:13>, [<roots:runic_dust>, <thebetweenlands:marshmallow>, <thebetweenlands:marshmallow_pink>, <thebetweenlands:jam_donut>], 1400, 100);
+
+TartaricForge.removeRecipe([<minecraft:gunpowder>, <minecraft:gold_nugget>, <betweenlandsredstone:scabyst_dust>, <minecraft:glowstone_dust>]);
+TartaricForge.addRecipe(<bloodmagic:component:8>, [<betweenlandsredstone:scabyst_dust>, <thebetweenlands:wisp>, <thebetweenlands:items_misc:19>, <roots:runic_dust>], 400, 10);
+
+TartaricForge.removeRecipe([<minecraft:sugar>, <thebetweenlands:swamp_reed_item>, <thebetweenlands:sapling_nibbletwig>, <thebetweenlands:sapling_nibbletwig>]);
+TartaricForge.addRecipe(<bloodmagic:component:5>, [<ore:treeSapling>, <ore:treeSapling>, <thebetweenlands:swamp_reed_item>, <thebetweenlands:items_crushed:17>], 128, 20);
+
+TartaricForge.removeRecipe([<minecraft:obsidian>, <thebetweenlands:smooth_betweenstone>, <minecraft:soul_sand>, <minecraft:soul_sand>]);
+TartaricForge.addRecipe(<bloodmagic:component:15>, [<thebetweenlands:mist_staff>, <roots:runestone>, <thebetweenlands:wight_heart>, <thebetweenlands:wight_heart>], 600, 50);
+
+
 
 
 
@@ -109,6 +147,7 @@ AlchemyArray.removeRecipe(<bloodmagic:component>, <bloodmagic:slate>);
 AlchemyArray.removeRecipe(<bloodmagic:component:2>, <bloodmagic:slate:1>);
 AlchemyArray.removeRecipe(<bloodmagic:component:17>, <bloodmagic:slate:3>);
 AlchemyArray.removeRecipe(<bloodmagic:component:1>, <bloodmagic:slate>);
+AlchemyArray.removeRecipe(<bloodmagic:component:9>, <bloodmagic:slate:3>);
 
 
 
