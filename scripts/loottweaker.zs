@@ -369,7 +369,7 @@ addLoot("thebetweenlands:entities/spirit_tree_face_large", "tablet", "tablet", <
 addLoot("thebetweenlands:entities/dreadful_peat_mummy", "tablet", "tablet", <contenttweaker:book_stonetablet_bottom>, 1, 0, 1, 1);
 
 
-removeLootEntry("thebetweenlands:entities/infestation", "infestation", "thebetweenlands:pheromone_thorax");
+//removeLootEntry("thebetweenlands:entities/infestation", "infestation", "thebetweenlands:pheromone_thorax");
 removeLootEntry("minecraft:entities/slime", "main", "minecraft:slime_ball");
 removeLootEntry("futuremc:entities/tropical_fish", "futuremc:tropical_fish", "minecraft:fish");
 removeLootEntry("futuremc:entities/cod", "futuremc:cod", "minecraft:fish");

@@ -4,14 +4,9 @@
 	y: -6.0d,
 	shape: "gear",
 	text: [
-		"Acquire a pheromone to attract moths. ",
-		"",
-		"Requires Runic Shears."
+		"Acquire a §6Pheromone Thorax§r by killing an §6Infestation§r."
 	],
 	hide_dependency_lines: true,
-	dependencies: [
-		"ccbdfca2"
-	],
 	tasks: [{
 		uid: "0d05f613",
 		type: "item",

@@ -581,7 +581,7 @@ RunicShears.addEntityRecipe("strange_ooze_1", <roots:strange_ooze>, <entity:theb
 
 RunicShears.addEntityRecipe("sporeling_spores", <thebetweenlands:spores>, <entity:thebetweenlands:sporeling>, defaultDelay);
 RunicShears.addEntityRecipe("ochre_shells", <thebetweenlands:items_misc:1>, <entity:thebetweenlands:mire_snail>, defaultDelay);
-RunicShears.addEntityRecipe("pheromone_thorax", <thebetweenlands:pheromone_thorax>, <entity:thebetweenlands:swarm>, defaultDelay);
+//RunicShears.addEntityRecipe("pheromone_thorax", <thebetweenlands:pheromone_thorax>, <entity:thebetweenlands:swarm>, defaultDelay);
 RunicShears.addEntityRecipe("snow_block", <minecraft:snow>, <entity:minecraft:snowman>, defaultDelay);
 
 
