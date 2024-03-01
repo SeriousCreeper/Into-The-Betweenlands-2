@@ -53,6 +53,10 @@ TartaricForge.removeRecipe([<thebetweenlands:items_misc:3>, <thebetweenlands:ite
 TartaricForge.removeRecipe([<minecraft:gold_ingot>, <betweenlandsredstone:scabyst_block>, <minecraft:glowstone>, <bloodmagic:teleposer>]);
 TartaricForge.removeRecipe([<minecraft:lava_bucket>, <betweenlandsredstone:scabyst_dust>, <thebetweenlands:betweenstone>, <minecraft:coal_block>]);
 TartaricForge.removeRecipe([<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:water_bucket>, <bloodmagic:teleposer>]);
+TartaricForge.removeRecipe([<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:ender_pearl>, <minecraft:ender_eye>]);
+TartaricForge.removeRecipe([<bloodmagic:cutting_fluid>, <minecraft:flint>, <minecraft:flint>]);
+TartaricForge.removeRecipe([<minecraft:iron_block>, <minecraft:gold_block>, <minecraft:obsidian>, <thebetweenlands:betweenstone>]);
+TartaricForge.removeRecipe([<betweenlandsredstone:scabyst_dust>, <minecraft:snowball>, <minecraft:snowball>, <minecraft:ice>]);
 
 TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <minecraft:iron_sword>]);
 TartaricForge.addRecipe(<bloodmagic:sentient_sword>, [<bloodmagic:soul_gem>, <roots:living_sword>], 0, 0);
@@ -106,7 +110,7 @@ TartaricForge.removeRecipe([<minecraft:glowstone_dust>, <betweenlandsredstone:sc
 TartaricForge.addRecipe(<bloodmagic:output_routing_node>, [<bloodmagic:item_routing_node>, <betweenlandsredstone:scabyst_dust>, <ore:ingotSyrmorite>, <thebetweenlands:wisp>], 400, 25);
 
 TartaricForge.removeRecipe([<bloodmagic:item_demon_crystal:*>, <thebetweenlands:items_misc:47>, <thebetweenlands:smooth_betweenstone>, <minecraft:iron_block>]);
-TartaricForge.addRecipe(<bloodmagic:demon_pylon>, [<bloodmagic:item_demon_crystal:*>, <thebetweenlands:items_misc:47>, <roots:runestone>, <ore:blockSyrmorite>], 400, 50);
+TartaricForge.addRecipe(<bloodmagic:demon_pylon>, [<bloodmagic:item_demon_crystal:*>, <thebetweenlands:items_misc:47>, <roots:runestone>, <ore:blockOctine>], 400, 50);
 
 TartaricForge.removeRecipe([<bloodmagic:soul_gem:3>, <minecraft:nether_star>]);
 TartaricForge.addRecipe(<bloodmagic:soul_gem:4>, [<bloodmagic:soul_gem:3>, <ore:blockIron>, <ore:blockValonite>, <thebetweenlands:ancient_remnant_block>], 4000, 500);
@@ -138,6 +142,16 @@ TartaricForge.addRecipe(<bloodmagic:component:5>, [<ore:treeSapling>, <ore:treeS
 TartaricForge.removeRecipe([<minecraft:obsidian>, <thebetweenlands:smooth_betweenstone>, <minecraft:soul_sand>, <minecraft:soul_sand>]);
 TartaricForge.addRecipe(<bloodmagic:component:15>, [<thebetweenlands:mist_staff>, <roots:runestone>, <thebetweenlands:wight_heart>, <thebetweenlands:wight_heart>], 600, 50);
 
+TartaricForge.removeRecipe([<minecraft:obsidian>, <minecraft:iron_block>, <bloodmagic:soul_gem:1>, <minecraft:diamond_chestplate>]);
+TartaricForge.addRecipe(<bloodmagic:sentient_armour_gem>, [<roots:wildwood_chestplate>, <embers:block_dawnstone>, <bloodmagic:soul_gem:1>, <embers:shifting_scales>], 240, 150);
+
+TartaricForge.removeRecipe([<minecraft:gunpowder>, <minecraft:string>, <minecraft:string>, <minecraft:bucket>]);
+TartaricForge.addRecipe(<bloodmagic:component:4>, [<minecraft:string>, <minecraft:string>, <thebetweenlands:bl_bucket:1>, <thebetweenlands:angry_pebble>], 64, 10);
+
+TartaricForge.removeRecipe([<minecraft:diamond>, <thebetweenlands:items_misc:47>, <thebetweenlands:smooth_betweenstone>, <minecraft:cauldron>]);
+TartaricForge.addRecipe(<bloodmagic:demon_crucible>, [<thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:47>, <roots:runestone>, <growthcraft_cellar:brew_kettle>], 400, 100);
+
+
 
 
 
@@ -150,6 +164,8 @@ AlchemyArray.removeRecipe(<bloodmagic:component:2>, <bloodmagic:slate:1>);
 AlchemyArray.removeRecipe(<bloodmagic:component:17>, <bloodmagic:slate:3>);
 AlchemyArray.removeRecipe(<bloodmagic:component:1>, <bloodmagic:slate>);
 AlchemyArray.removeRecipe(<bloodmagic:component:9>, <bloodmagic:slate:3>);
-
-
+AlchemyArray.removeRecipe(<bloodmagic:component:16>, <bloodmagic:slate:3>);
+AlchemyArray.removeRecipe(<bloodmagic:component:30>, <bloodmagic:slate:2>);
+AlchemyArray.removeRecipe(<bloodmagic:component:14>, <bloodmagic:slate:3>);
+AlchemyArray.removeRecipe(<bloodmagic:component:32>, <bloodmagic:slate:1>);
 
