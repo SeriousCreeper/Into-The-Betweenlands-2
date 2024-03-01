@@ -24,7 +24,7 @@ recipes.remove(<bloodmagic:alchemy_table>);
 scripts.utils.addShaped("bloodmagic-alchemy_table", <bloodmagic:alchemy_table>, [
 	[<thebetweenlands:dentrothyst_vial>, <roots:runestone>, <thebetweenlands:dentrothyst_vial>], 
 	[<roots:runestone>, <thebetweenlands:dentrothyst:1>, <roots:runestone>],
-	[<ore:ingotOctine>, null, <ore:ingotOctine>]
+	[<ore:ingotOctine>, <bloodmagic:monster_soul>, <ore:ingotOctine>]
 ]);
 
 
