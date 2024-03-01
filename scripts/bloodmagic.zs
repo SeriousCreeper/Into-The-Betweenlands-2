@@ -3,6 +3,8 @@ import mods.bloodmagic.TartaricForge;
 import mods.bloodmagic.AlchemyArray;
 
 recipes.remove(<bloodmagic:soul_snare>); // add to dungeon loot!
+recipes.remove(<guideapi:bloodmagic-guide>);
+scripts.utils.addShapeless("guide_book", <guideapi:bloodmagic-guide>, [<bloodmagic:monster_soul>, <minecraft:book>]);
 
 recipes.remove(<bloodmagic:soul_forge>);
 scripts.utils.addShaped("soul_forge", <bloodmagic:soul_forge>, [
