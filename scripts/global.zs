@@ -658,7 +658,24 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:logWood>.remove(<primallib:log_stripped_dark_oak>);
 <ore:logWood>.remove(<pizzacraft:olive_log>);
 
-<ore:logWood>.add(<thebetweenlands:log_rotten_bark>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark:*>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_1>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_2>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_3>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_4>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_5>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_6>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_7>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_8>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_9>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_10>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_11>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_12>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_13>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_14>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_15>);
+<ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_16>);
+
 <ore:logWood>.add(<thebetweenlands:log_portal:*>);
 <ore:logWood>.add(<thaumcraft:taint_log>);
 
