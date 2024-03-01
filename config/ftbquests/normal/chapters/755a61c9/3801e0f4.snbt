@@ -12,7 +12,9 @@
 		"",
 		"Nearby §6amate lanterns§r will improve the §6production rate§r, up to 3 lanterns.",
 		"",
-		"Once you see silk threads inside the house, remove them with a right click."
+		"Once you see silk threads inside the house, remove them with a right click.",
+		"",
+		"A §6hopper§r below the moth house can automatically extract silk, but at a loss."
 	],
 	dependencies: [
 		"b5e046d4"
