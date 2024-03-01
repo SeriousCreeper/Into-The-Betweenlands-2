@@ -381,6 +381,13 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:dustWood>.add(<pyrotech:rock:7>);
 
 
+<ore:ingotCaminite>.add(<embers:brick_caminite>);
+<ore:ingotArchaic>.add(<embers:archaic_brick>);
+<ore:ingotMud>.add(<thebetweenlands:items_misc:10>);
+<ore:ingotRefractory>.add(<pyrotech:material:5>);
+<ore:ingotMasonry>.add(<pyrotech:material:16>);
+
+
 //<ore:ingotIron>.remove(<minecraft:iron_ingot>);
 //<ore:ingotIron>.add(<thebetweenlands:items_misc:11>);
 
