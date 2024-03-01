@@ -684,7 +684,7 @@ SoakingPot.addRecipe("pulp_from_dry_bark", <pyrotech:material:25>, <liquid:swamp
 SoakingPot.addRecipe("pulp_from_swamp_reed", <pizzacraft:paper_mass>, <liquid:swamp_water> * 50, <thebetweenlands:swamp_reed_item>, true, 4 * 60 * 2);
 SoakingPot.addRecipe("pulp_from_bark", <pizzacraft:paper_mass>, <liquid:swamp_water> * 50, <ore:rootsBark>, true, 3 * 60 * 2);
 //SoakingPot.addRecipe("board_tarred", <pyrotech:material:23>, <liquid:tar> * 50, <pyrotech:material:20>, true, 105 * 20);
-SoakingPot.addRecipe("planks_tarred", <pyrotech:planks_tarred>, <liquid:tar> * 125, <roots:wildwood_planks>, true, 7 * 60 * 20);
+SoakingPot.addRecipe("planks_tarred", <pyrotech:planks_tarred>, <liquid:tar> * 125, <ore:plankWood>, true, 7 * 60 * 20);
 SoakingPot.addRecipe("cragrock_chiseled_mossy", <thebetweenlands:cragrock_chiseled_mossy>, <liquid:swamp_water> * 250, <thebetweenlands:cragrock_chiseled>, 7 * 60 * 20);
 SoakingPot.addRecipe("cragrock_bricks_mossy", <thebetweenlands:cragrock_bricks_mossy>, <liquid:swamp_water> * 250, <thebetweenlands:cragrock_bricks>, 7 * 60 * 20);
 SoakingPot.addRecipe("cragrock_tiles_mossy", <thebetweenlands:cragrock_tiles_mossy>, <liquid:swamp_water> * 250, <thebetweenlands:cragrock_tiles>, 7 * 60 * 20);
