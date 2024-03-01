@@ -4,7 +4,7 @@
 	y: -2.0d,
 	shape: "gear",
 	text: [
-		"To produce salt, place a §6Culture Jar§r on top a §6heat source§r."
+		"To produce salt, fill a §6Culture Jar§r with §6swamp water§r and place it on top a §6heat source§r."
 	],
 	dependencies: [
 		"f1a106ab"

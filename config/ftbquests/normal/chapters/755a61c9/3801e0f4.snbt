@@ -4,11 +4,13 @@
 	y: -3.0d,
 	shape: "gear",
 	text: [
-		"A moth house will provide a safe environment for our silky friends to produce their cocoons.",
+		"A §6moth house§r will provide a safe environment for our silky friends to produce their cocoons.",
 		"",
-		"Right click worms onto the house and be patient. ",
+		"They will produce more cocoons than an infested bush could produce.",
 		"",
-		"Nearby amate lanterns will improve the production rate.",
+		"§6Right click§r worms onto the house and be patient. ",
+		"",
+		"Nearby §6amate lanterns§r will improve the §6production rate§r, up to 3 lanterns.",
 		"",
 		"Once you see silk threads inside the house, remove them with a right click."
 	],

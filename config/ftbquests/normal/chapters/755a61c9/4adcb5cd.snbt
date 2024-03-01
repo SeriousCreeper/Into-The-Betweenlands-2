@@ -4,7 +4,7 @@
 	y: -1.0d,
 	shape: "gear",
 	text: [
-		""
+		"Used in a §6Grub Hub§r to farm silk worms."
 	],
 	dependencies: [
 		"30a5724d"

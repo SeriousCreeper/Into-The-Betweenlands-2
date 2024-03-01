@@ -6,7 +6,7 @@
 	text: [
 		"A Grub Hub is a way to automatically produce and harvest more silky friends.",
 		"",
-		"By providing it with liquid pheromones, it will constantly spray pheromones onto any bush in a 3x3 area, 1 block below itself."
+		"By providing it with §6liquid pheromones§r, it will constantly spray pheromones onto any bush in a 3x3 area, 1 block below itself, and automatically harvest them when ready."
 	],
 	dependencies: [
 		"b5e046d4",

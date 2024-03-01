@@ -2,6 +2,9 @@
 	x: 0.75d,
 	y: -2.0d,
 	shape: "gear",
+	text: [
+		"A §6Silk Bundle§r is used to create different liquids in a §6Steeping Pot§r."
+	],
 	dependencies: [
 		"4c551c5e"
 	],

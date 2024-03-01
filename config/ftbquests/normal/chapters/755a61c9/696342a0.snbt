@@ -1,0 +1,24 @@
+{
+	title: "Hive Mind",
+	x: 2.75d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"Using a bowl on a §6Steeping Pot§r that contains §6Pheromone Extract§r creates a drink that once consumed, will make §6Infestations§r ignore you for a few minutes."
+	],
+	dependencies: [
+		"4adcb5cd"
+	],
+	tasks: [{
+		uid: "5bef37c9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:drinkable_brew 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "73b39924",
+		type: "xp",
+		xp: 100
+	}]
+}
