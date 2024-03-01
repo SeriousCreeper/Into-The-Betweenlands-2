@@ -460,7 +460,6 @@ recipes.remove(<embers:plate_gold>);
 
 
 // ----------- ALCHEMY ----------------------
-Alchemy.remove(<embers:seed_copper>);
 Alchemy.remove(<embers:isolated_materia>);
 
 Alchemy.remove(<embers:tyrfing>);
@@ -622,11 +621,11 @@ Alchemy.add(<embers:seed_nickel>, [<thebetweenlands:dentrothyst_shard_orange>, <
 	}
 );
 
-Alchemy.remove(<embers:seed_tin>);
-Alchemy.add(<embers:seed_tin>, [<thebetweenlands:dentrothyst_shard_orange>, <embers:ingot_tin>, <embers:ingot_tin>, <embers:shard_ember>, <embers:shard_ember>], 
+Alchemy.remove(<embers:seed_copper>);
+Alchemy.add(<embers:seed_copper>, [<thebetweenlands:dentrothyst_shard_orange>, <embers:ingot_copper>, <embers:ingot_copper>, <embers:shard_ember>, <embers:shard_ember>], 
 	{
 		"iron" : 72 to 96,
-		"silver" : 24 to 32
+		"copper" : 24 to 32
 	}
 );
 
