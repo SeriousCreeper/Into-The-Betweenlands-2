@@ -3,7 +3,7 @@
 	y: 2.2142857142857153d,
 	shape: "circle",
 	text: [
-		"Find the bottom half of the ancient stone tablet."
+		"Toss a §6Mummy Heart§r onto mud inside a §6Marsh§r or §6Sludge Plains§r, and defeat the §6Dreadful Peat Mummy§r."
 	],
 	dependencies: [
 		"9bd3946b",

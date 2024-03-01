@@ -3,7 +3,7 @@
 	y: -2.21d,
 	shape: "circle",
 	text: [
-		"Find the top half of the ancient stone tablet."
+		"Kill a §6Spirit Tree§r to acquire the top half."
 	],
 	dependencies: [
 		"9bd3946b",
