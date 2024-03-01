@@ -1,5 +1,5 @@
 {
-	title: "Ritual: Animal Harvest",
+	title: "Ritual: Spawn Anadia",
 	icon: "roots:ritual_animal_harvest",
 	x: -8.5d,
 	y: 0.0d,
@@ -7,6 +7,7 @@
 	text: [
 		"This ritual spawns §6Anadia§r fish in nearby water."
 	],
+	guide_page: "roots:roots_guide:rituals/ritual_animal_harvest",
 	dependencies: [
 		"00ab73c6"
 	],

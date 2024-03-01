@@ -1,5 +1,5 @@
 {
-	title: "Ritual: Summoning Creatures",
+	title: "Ritual: Activate Spawner",
 	icon: "roots:ritual_summon_creatures",
 	x: -8.5d,
 	y: -1.0d,
@@ -7,6 +7,7 @@
 	text: [
 		"Instead of summoning creatures, this ritual keeps any nearby spawners active, as if a player was standing near it."
 	],
+	guide_page: "roots:roots_guide:rituals/ritual_summon_creatures",
 	dependencies: [
 		"00ab73c6"
 	],

@@ -1,5 +1,5 @@
 {
-  "name": "Summon Creatures",
+  "name": "Activate Spawner",
   "icon": "roots:ritual_summon_creatures",
   "category": "rituals",
   "read_by_default": true,
