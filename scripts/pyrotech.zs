@@ -704,6 +704,7 @@ IroncladAnvil.removeAllRecipes();
 recipes.remove(<thebetweenlands:items_misc:18>);
 GraniteAnvil.addRecipe("sulfur", <thebetweenlands:items_misc:18> * 9, <thebetweenlands:sulfur_block>, 8, "hammer", true);
 GraniteAnvil.addRecipe("pebbles", <thebetweenlands:items_misc:50> * 2, <thebetweenlands:betweenstone>, 4, "hammer", true);
+GraniteAnvil.addRecipe("blueduest", <betweenlandsredstone:scabyst_dust> * 9, <betweenlandsredstone:scabyst_block>, 8, "hammer", true);
 GraniteAnvil.addRecipe("ash_from_food", <embers:dust_ash> * 2, <pyrotech:burned_food>, 2, "hammer", true);
 GraniteAnvil.addRecipe("sulfur_from_sulfur_liver", <thebetweenlands:items_misc:18> * 8, <soot:sulfur_clump>, 4, "hammer", true);
 
