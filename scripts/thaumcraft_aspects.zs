@@ -434,6 +434,11 @@ import thaumcraft.aspect.CTAspectStack;
 <minecraft:dye:14>.setAspects(<aspect:sensus> * 5, <aspect:perditio> * 2);
 <minecraft:dye:15>.setAspects(<aspect:sensus> * 5, <aspect:perditio> * 2);
 
+<bloodmagic:sentient_armour_helmet>.removeAspects(<aspect:praemunio>);
+<bloodmagic:sentient_armour_chest>.removeAspects(<aspect:praemunio>);
+<bloodmagic:sentient_armour_leggings>.removeAspects(<aspect:praemunio>);
+<bloodmagic:sentient_armour_boots>.removeAspects(<aspect:praemunio>);
+
 <mod_lavacow:intestine>.setAspects(<aspect:mortuus> * 10, <aspect:vacuos> * 5, <aspect:humanus> * 10);
 
 <thaumcraft:brain>.setAspects(<aspect:cognitio> * 20, <aspect:exanimis> * 10, <aspect:humanus> * 5);
