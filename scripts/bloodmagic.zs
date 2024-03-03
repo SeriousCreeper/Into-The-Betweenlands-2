@@ -169,3 +169,5 @@ AlchemyArray.removeRecipe(<bloodmagic:component:30>, <bloodmagic:slate:2>);
 AlchemyArray.removeRecipe(<bloodmagic:component:14>, <bloodmagic:slate:3>);
 AlchemyArray.removeRecipe(<bloodmagic:component:32>, <bloodmagic:slate:1>);
 
+AlchemyArray.removeRecipe(<minecraft:redstone>, <bloodmagic:slate:0>);
+AlchemyArray.addRecipe(<bloodmagic:sigil_divination>, <betweenlandsredstone:scabyst_dust>, <bloodmagic:slate:0>);
