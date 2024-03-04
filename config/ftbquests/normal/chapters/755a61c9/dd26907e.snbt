@@ -22,15 +22,23 @@
 	tasks: [{
 		uid: "d438dac1",
 		type: "item",
+		title: "Beeswax",
 		items: [{
 			item: "growthcraft_bees:bees_wax 1 14"
-		}]
+		}],
+		consume_items: false,
+		ignore_damage: true
 	},
 	{
 		uid: "73b05781",
 		type: "item",
+		title: "Cheese Slice",
 		items: [{
 			item: "growthcraft_milk:cheese_waxed_slice"
-		}]
+		},
+		{
+			item: "growthcraft_milk:cheese_aged_slice"
+		}],
+		ignore_damage: true
 	}]
 }
