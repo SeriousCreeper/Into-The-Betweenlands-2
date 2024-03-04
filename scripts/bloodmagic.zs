@@ -210,6 +210,26 @@ scripts.utils.addShaped("bloodmagic-base_fluid_filter_0", <bloodmagic:base_fluid
 	[<ore:stickWood>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}).noReturn(), <ore:stickWood>]
 ]);
 
+recipes.remove(<bloodmagic:ritual_controller:1>);
+scripts.utils.addShaped("bloodmagic-ritual_controller_imperfect", <bloodmagic:ritual_controller:1>, [
+	[<thebetweenlands:tar_solid>, <roots:runestone>, <thebetweenlands:tar_solid>], 
+	[<roots:runestone>, tier1Orbs, <roots:runestone>], 
+	[<thebetweenlands:tar_solid>, <roots:runestone>, <thebetweenlands:tar_solid>]
+]);
+
+recipes.removeByRecipeName("bloodmagic:ritual_controller_master");
+scripts.utils.addShaped("bloodmagic-ritual_controller_master", <bloodmagic:ritual_controller>, [
+	[<thebetweenlands:tar_solid>, <bloodmagic:ritual_stone>, <thebetweenlands:tar_solid>], 
+	[<bloodmagic:ritual_stone>, tier3Orbs, <bloodmagic:ritual_stone>], 
+	[<thebetweenlands:tar_solid>, <bloodmagic:ritual_stone>, <thebetweenlands:tar_solid>]
+]);
+
+recipes.removeByRecipeName("bloodmagic:ritual_stone_blank");
+scripts.utils.addShaped("bloodmagic-ritual_stone_blank", <bloodmagic:ritual_stone> * 4, [
+	[<minecraft:obsidian>, <bloodmagic:slate:1>, <minecraft:obsidian>], 
+	[<bloodmagic:slate:1>, tier2Orbs, <bloodmagic:slate:1>],
+	[<minecraft:obsidian>, <bloodmagic:slate:1>, <minecraft:obsidian>]
+]);
 
 
 
