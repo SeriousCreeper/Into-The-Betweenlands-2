@@ -1,6 +1,8 @@
+import crafttweaker.item.IItemStack;
 import mods.bloodmagic.BloodAltar;
 import mods.bloodmagic.TartaricForge;
 import mods.bloodmagic.AlchemyArray;
+import mods.bloodmagic.AlchemyTable;
 
 var tier1Orbs = <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}).reuse() | <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).reuse() | <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}).reuse() | <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}).reuse() | <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}).reuse();
 
@@ -377,9 +379,6 @@ TartaricForge.addRecipe(<bloodmagic:demon_crucible>, [<thebetweenlands:items_mis
 
 
 
-
-
-
 # ALCHEMY ARRAY
 
 AlchemyArray.removeRecipe(<bloodmagic:component:18>, <bloodmagic:slate:3>);
@@ -395,3 +394,35 @@ AlchemyArray.removeRecipe(<bloodmagic:component:32>, <bloodmagic:slate:1>);
 
 AlchemyArray.removeRecipe(<minecraft:redstone>, <bloodmagic:slate:0>);
 AlchemyArray.addRecipe(<bloodmagic:sigil_divination>, <betweenlandsredstone:scabyst_dust>, <bloodmagic:slate:0>);
+
+
+
+# ALCHEMY TABLE
+
+val cuttingRecipes = {
+	<thebetweenlands:syrmorite_ore> : <pyrotech:generated_pile_slag_syrmorite>,
+	<betweenores:copper_ore> : <pyrotech:generated_pile_slag_copper>,
+	<betweenores:lead_ore> : <pyrotech:generated_pile_slag_lead>,
+	<betweenores:nickel_ore> : <pyrotech:generated_pile_slag_nickel>,
+	<betweenores:silver_ore> : <pyrotech:generated_pile_slag_silver>,
+	<betweenores:aluminum_ore> : <pyrotech:generated_pile_slag_aluminum>,
+	<thebetweenlands:octine_ore> : <pyrotech:generated_pile_slag_octine>,
+} as IItemStack[IItemStack];
+
+for ore in cuttingRecipes {
+	AlchemyTable.addRecipe(cuttingRecipes[ore], [<bloodmagic:cutting_fluid>, ore], 400, 500, 0);
+}
+
+AlchemyTable.addRecipe(<bloodmagic:cutting_fluid>, [
+	<simpledifficulty:purified_water_bottle>, 
+	<betweenlandsredstone:scabyst_dust>, 
+	<thebetweenlands:items_misc:39>,
+	<embers:dust_ember>,
+	<thebetweenlands:items_misc:18>,
+	<thebetweenlands:items_misc:27>
+], 1000, 1000, 0);
+
+
+
+
+<bloodmagic:cutting_fluid>.displayName = "Flux Fluid";
