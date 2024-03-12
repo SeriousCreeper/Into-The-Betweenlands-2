@@ -1297,6 +1297,19 @@
       "output": {
         "id": "thebetweenlands:wisp"
       }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "pyrotech:pile_ash"
+        },
+        "fuel": 32,
+        "life": 25
+      },
+      "output_entity": {
+        "id": "thebetweenlands:ash_sprite"
+      },
+      "rendered_entity": "thebetweenlands:ash_sprite"
     }
   ],
   "smoking_rack": [
