@@ -62,5 +62,10 @@
 		items: [{
 			item: "growthcraft_milk:starter_culture"
 		}]
+	}],
+	rewards: [{
+		uid: "32a654d9",
+		type: "xp",
+		xp: 100
 	}]
 }

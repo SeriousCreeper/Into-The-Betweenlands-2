@@ -69,5 +69,10 @@
 			}
 		}],
 		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "f34bb16b",
+		type: "xp",
+		xp: 100
 	}]
 }

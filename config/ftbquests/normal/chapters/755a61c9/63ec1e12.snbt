@@ -69,5 +69,10 @@
 		{
 			item: "pizzacraft:slice_3"
 		}]
+	}],
+	rewards: [{
+		uid: "668006da",
+		type: "xp",
+		xp: 100
 	}]
 }

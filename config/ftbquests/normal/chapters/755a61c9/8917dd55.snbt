@@ -39,5 +39,10 @@
 		items: [{
 			item: "growthcraft_milk:butter"
 		}]
+	}],
+	rewards: [{
+		uid: "7d0d88c4",
+		type: "xp",
+		xp: 100
 	}]
 }

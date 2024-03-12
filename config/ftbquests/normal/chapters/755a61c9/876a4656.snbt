@@ -25,5 +25,10 @@
 		items: [{
 			item: "growthcraft_bees:bottlefluid_honey"
 		}]
+	}],
+	rewards: [{
+		uid: "9119555b",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -54,5 +54,10 @@
 			}
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbca2406",
+		type: "xp",
+		xp: 100
 	}]
 }

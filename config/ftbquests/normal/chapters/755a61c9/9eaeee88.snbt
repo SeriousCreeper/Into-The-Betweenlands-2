@@ -22,5 +22,10 @@
 		items: [{
 			item: "growthcraft:salt"
 		}]
+	}],
+	rewards: [{
+		uid: "35fd50f0",
+		type: "xp",
+		xp: 100
 	}]
 }

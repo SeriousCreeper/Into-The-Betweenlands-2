@@ -40,5 +40,10 @@
 			item: "growthcraft_milk:cheese_aged_slice"
 		}],
 		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "1de8f861",
+		type: "xp",
+		xp: 100
 	}]
 }

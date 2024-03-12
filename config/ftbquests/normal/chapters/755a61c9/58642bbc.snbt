@@ -36,5 +36,10 @@
 			item: "growthcraft_milk:bottlefluid_rennet"
 		}],
 		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f4db4516",
+		type: "xp",
+		xp: 100
 	}]
 }

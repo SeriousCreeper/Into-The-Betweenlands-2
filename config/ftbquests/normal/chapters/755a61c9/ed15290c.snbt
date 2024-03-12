@@ -18,5 +18,10 @@
 		items: [{
 			item: "growthcraft_milk:cheese_cloth"
 		}]
+	}],
+	rewards: [{
+		uid: "9131ffe2",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -15,5 +15,10 @@
 		items: [{
 			item: "pizzacraft:bakeware"
 		}]
+	}],
+	rewards: [{
+		uid: "54a19014",
+		type: "xp",
+		xp: 100
 	}]
 }

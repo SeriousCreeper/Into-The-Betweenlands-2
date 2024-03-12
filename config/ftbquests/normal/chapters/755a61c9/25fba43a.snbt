@@ -15,5 +15,10 @@
 		items: [{
 			item: "pizzacraft:pizza_dough"
 		}]
+	}],
+	rewards: [{
+		uid: "970dab59",
+		type: "xp",
+		xp: 100
 	}]
 }
