@@ -194,6 +194,7 @@ scripts.utils.addBLChangeTooltip(<thebetweenlands:octine_pickaxe:*>, "Chance to 
 scripts.utils.addBLChangeTooltip(<thebetweenlands:octine_shovel:*>, "Chance to turn sand into glass, mud into bricks");
 scripts.utils.addBLChangeTooltip(<thebetweenlands:repeller>, "Standing within an active Repeller shield prevents sanity loss.");
 
+scripts.utils.addInfoTooltip(<thebetweenlands:items_misc:44>, "Drops from Ash Sprites");
 scripts.utils.addInfoTooltip(<thebetweenlands:sulfur_torch_extinguished>, "Can be relit with an octine ingot or at a campfire.\nAutomatically lights when carrying an octine ingot.");
 
 <thebetweenlands:moss_filter>.maxDamage = 4000;
