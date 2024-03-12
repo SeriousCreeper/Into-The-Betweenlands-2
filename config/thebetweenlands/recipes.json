@@ -1432,6 +1432,16 @@
     {
       "input": {
         "item": {
+          "id": "pyrotech:pile_ash",
+          "meta": 0
+        },
+        "composting_time": 5000
+      },
+      "output": 16
+    },
+    {
+      "input": {
+        "item": {
           "id": "pyrotech:rock",
           "meta": 7
         },
