@@ -495,6 +495,17 @@
     {
       "input": {
         "item": {
+          "id": "roots:runic_shears"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
           "id": "roots:living_pickaxe"
         },
         "min_fuel": 5,
