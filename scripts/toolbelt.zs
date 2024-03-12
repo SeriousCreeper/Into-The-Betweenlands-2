@@ -19,3 +19,5 @@ recipes.addShapeless("upgrade_4", <toolbelt:belt>.withTag({Size: 6}), [<toolbelt
 recipes.addShapeless("upgrade_5", <toolbelt:belt>.withTag({Size: 7}), [<toolbelt:belt>.withTag({Size: 6}), <toolbelt:pouch>]);
 recipes.addShapeless("upgrade_6", <toolbelt:belt>.withTag({Size: 8}), [<toolbelt:belt>.withTag({Size: 7}), <toolbelt:pouch>]);
 recipes.addShapeless("upgrade_7", <toolbelt:belt>.withTag({Size: 9}), [<toolbelt:belt>.withTag({Size: 8}), <toolbelt:pouch>]);
+
+scripts.utils.addInfoTooltip(<toolbelt:pouch>, "Take items out of toolbelt before upgrading!");
