@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "bloodmagic_loot_generic",
+  "items": [
+    {
+      "weight": 1.0068187713623047,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.18405085802078247,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bloodmagic:component",
+        "damage": 10,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.9243392944335938,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "bloodmagic:demon_extras",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.9243392944335938,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "bloodmagic:demon_extras",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.9243392944335938,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "bloodmagic:demon_extras",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.9243392944335938,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "bloodmagic:demon_extras",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.9243392944335938,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "bloodmagic:demon_extras",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.8473554849624634,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bloodmagic:soul_snare",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
