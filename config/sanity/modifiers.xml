@@ -43,7 +43,7 @@
     <entry value="-0.1">thaumicaugmentation:emptiness</entry>
   </modifier>
   <modifier value="misc">
-    <entry value="0.5">fish</entry>
+    <entry value="2">fish</entry>
     <entry value="-0.25">wight_possession</entry>
     <entry value="-0.05">depth</entry>
     <entry value="1">wellness</entry>
