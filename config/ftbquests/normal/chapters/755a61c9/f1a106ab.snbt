@@ -4,7 +4,7 @@
 	y: -2.0d,
 	shape: "gear",
 	text: [
-		"Fill a vat with §65 buckets§r of Milk.",
+		"Fill a §6Vat§r that's placed on a §6heat source§r with §65 buckets§r of Milk.",
 		"",
 		"Right click §61 starter culture§r onto it. ",
 		"",
