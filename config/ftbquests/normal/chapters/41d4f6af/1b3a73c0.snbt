@@ -4,7 +4,9 @@
 	y: 2.5d,
 	shape: "circle",
 	text: [
-		"Use the wayfinder to enter the §6Botanical Garden§r."
+		"Use the wayfinder to enter the §6Botanical Garden§r.",
+		"",
+		"§6Note§r: These dungeons can be a bit like a maze, it's recommended to bring §6Caving Ropes§r."
 	],
 	dependencies: [
 		"a6f103f5"

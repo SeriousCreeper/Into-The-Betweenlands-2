@@ -4,7 +4,7 @@
 	y: 2.5d,
 	shape: "circle",
 	text: [
-		""
+		"§6Note§r: These dungeons can be a bit like a maze, it's recommended to bring §6Caving Ropes§r."
 	],
 	dependencies: [
 		"f673cbb0"
