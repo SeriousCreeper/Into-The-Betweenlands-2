@@ -49,12 +49,12 @@
     <entry value="1">wellness</entry>
     <entry value="-1">food_sickness</entry>
     <entry value="-0.1">darkness</entry>
-    <entry value="-0.1">smelly</entry>
+    <entry value="-0.02">smelly</entry>
   </modifier>
   <modifier value="potions">
     <entry value="0.1">teastory:excitement</entry>
     <entry value="-0.05">simpledifficulty:parasites</entry>
-    <entry value="0.05">pyrotech:comfort</entry>
+    <entry value="0.2">pyrotech:comfort</entry>
   </modifier>
   <modifier value="bl_events">
     <entry value="-0.1">blood_sky</entry>
