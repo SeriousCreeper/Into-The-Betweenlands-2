@@ -1400,6 +1400,6 @@ SmeltingBonus.addSmeltingBonus(<ore:clusterTin>, <embers:nugget_tin> % 10);
 
 
 // NAME CHANGES
-<thaumcraft:brain>.displayName = "Swamp Hag Brain";
+<thaumcraft:brain>.displayName = "Moldy Brain";
 <thaumcraft:nugget:9>.displayName = "Dentrothyst Sliver";
 <thaumcraft:redstone_relay>.displayName = "Bluedust Relay";
