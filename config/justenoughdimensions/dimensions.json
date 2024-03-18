@@ -38,6 +38,41 @@
       }
     },
     {
+      "dim": -500,
+      "temporary_dimension": true,
+      "jed": {
+        "SkyRenderType": 2,
+        "MusicType": "arcaneworld:music_dungeon",
+        "CanDoRainSnowIce": false,
+        "CanDoLightning": false,
+        "IsSurfaceWorld": false,
+        "ForceGameMode": true
+      },
+      "biome": "arcaneworld:arcane_dungeon",
+      "dimensiontype": {
+        "id": -500,
+        "name": "Dungeon World",
+        "keeploaded": false,
+        "suffix": "_dim-500",
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+      "worldinfo": {},
+      "worldinfo_onetime": {
+        "GameType": 2,
+        "generatorName": "flat",
+        "generatorOptions": "3;minecraft:air;127;",
+        "GameRules": {
+            "keepInventory": "true",
+            "doWeatherCycle": "false",
+            "doDaylightCycle": "false",
+            "doMobSpawning": "false",
+            "doMobLoot": "false",
+            "spawnRadius": 0
+        }
+      }
+    },
+    {
       "dim": 21,
       "temporary_dimension": true,
       "spawn_structure": {
