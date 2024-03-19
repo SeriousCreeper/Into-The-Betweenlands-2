@@ -1,0 +1,23 @@
+{
+	title: "Time Is Up",
+	x: -0.5d,
+	y: 1.5d,
+	shape: "gear",
+	text: [
+		"The instability of these wayfinders comes at a cost, I can only stay in these worlds for a §6limited§r amount of §6time§r. ",
+		"",
+		"§6The remaining time is displayed in the bottom right corner once you are inside the dimension.§r"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b09d30e4",
+		"16a8fd52",
+		"ff4494e7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "004f953f",
+		type: "checkmark",
+		icon: "timeisup:timer_anchor"
+	}]
+}
