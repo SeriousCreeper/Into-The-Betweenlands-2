@@ -4,7 +4,11 @@
 	y: 2.0d,
 	shape: "gear",
 	text: [
-		"Mixing slaked lime, ash, mud, and silt, creates refractory clay."
+		"Mixing slaked lime, ash, mud, and silt, creates refractory clay.",
+		"",
+		"§6Silt§r can be found in a few places on the §6surface§r, such as §6beaches§r in swamplands.",
+		"",
+		"§6Mud§r is everywhere, even at the bottom of rivers."
 	],
 	dependencies: [
 		"a97f8bba",

@@ -5,7 +5,7 @@
 	shape: "gear",
 	text: [
 		"Find bones to further progress.",
-		"These can drop from Swamp Hags, or mined from slimy bone ore."
+		"These can drop from §6Swamp Hags§r, or be mined from §6slimy bone ore§r."
 	],
 	dependencies: [
 		"4d6af512"

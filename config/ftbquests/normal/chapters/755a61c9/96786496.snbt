@@ -1,0 +1,35 @@
+{
+	title: "Repelling",
+	x: -2.5d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"Repellers produce shields that can §6repell§r most §6enemies§r, §6projectiles§r, as well as §6prevent sanity loss§r.",
+		"",
+		"First §6place§r a Repeller, then §6right-click§r it with a §6Shimmerstone§r, and fill it with any amount of §6Byariis§r aspects. ",
+		"",
+		"Once active, it can be §6right-clicked§r to change the §6range§r of the shield. ",
+		"",
+		"The larger the shield, and the more threats it repells, the more Byariis it consumes over time. "
+	],
+	dependencies: [
+		"b1a71f45"
+	],
+	tasks: [{
+		uid: "5b0b5299",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:repeller"
+		}]
+	},
+	{
+		uid: "bd4b4081",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:shimmer_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

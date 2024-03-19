@@ -10,7 +10,7 @@
 		"",
 		"§6Armor and Tools§r can be stored in §6Shelves§r and §6Armor Stands§r.",
 		"",
-		"§6Ingots§r can be placed in the world by §6sneak-right clicking§r them onto a block."
+		"§6Ingots§r and §6Bricks§r can be placed in the world by §6sneak-right clicking§r them onto a block."
 	],
 	dependencies: [
 		"f5b90f01"

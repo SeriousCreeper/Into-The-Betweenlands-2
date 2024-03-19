@@ -8,7 +8,9 @@
 		"",
 		"For example the §6Sawmill§r can cut down wooden and stone items similar to a §6Chopping Block§r or §6Anvil§r.",
 		"",
-		"They will automatically stop burning fuel once they finished crafting."
+		"They will automatically stop burning fuel once they finished crafting.",
+		"",
+		"Insert the item to §6process§r at the §6top§r, and §6fuel§r such as sulfur or wood at the §6bottom§r."
 	],
 	dependencies: [
 		"16fa265a"

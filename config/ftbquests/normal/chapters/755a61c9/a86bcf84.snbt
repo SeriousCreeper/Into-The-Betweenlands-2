@@ -4,13 +4,13 @@
 	y: 4.0d,
 	shape: "gear",
 	text: [
-		"The bloomery takes fuel, and either ores or slag heaps to create blooms.",
+		"The bloomery takes §6fuel§r, and either §6ores§r or §6slag heaps§r to create §6blooms§r.",
 		"",
-		"- Insert the ore or slag heaps into the top of the bloomery",
-		"- Right click it with fuel",
+		"- Insert the §6ore§r or §6slag§r heaps into the §6top§r of the bloomery",
+		"- Right-click the very §6top§r of the bloomery with §6fuel§r, such as sulfur or wood",
 		"- Set the top on fire using a fire starter",
 		"",
-		"Only 1 fuel item is required per operation, but using more speeds up the process by a lot."
+		"Only §61§r fuel item is §6required§r per operation, but using §6more speeds up§r the process by a lot."
 	],
 	dependencies: [
 		"16fa265a"

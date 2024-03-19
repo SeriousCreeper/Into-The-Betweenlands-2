@@ -1,0 +1,37 @@
+{
+	title: "Sanity Check",
+	x: -2.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"§6Sanity Gain:§r",
+		"- Certain food items (check JEI)",
+		"- \"Comfortable\" buff from being near campfires",
+		"- Being on the surface (y-level > 80)",
+		"- Being exposed to the sky while the sky rift is open",
+		"- Being exposed to the surface while the auroras are in the sky",
+		"- Killing Wights",
+		"- Fishing",
+		"- \"Excitement\" buff from fine teas (scales with the Wellness level, requires Thaumcraft)",
+		"",
+		"§6Sanity Loss:§r",
+		"- Certain food items (check JEI)",
+		"- Opening Intestines",
+		"- Being possessed by a wight",
+		"- Being underground (the deeper you are, the worse the effect)",
+		"- Being in The Emptiness",
+		"- Eating food you are sick of",
+		"- Being smelly",
+		"- Having parasites from drinking dirty water",
+		"- The Blood Sky event"
+	],
+	dependencies: [
+		"31812c1d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fb46ed17",
+		type: "checkmark",
+		icon: "botania:cosmetic 1 31"
+	}]
+}

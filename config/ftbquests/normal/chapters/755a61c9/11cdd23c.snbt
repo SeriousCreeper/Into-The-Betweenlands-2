@@ -4,7 +4,9 @@
 	y: -1.0d,
 	shape: "gear",
 	text: [
-		"Limestone has many uses and is required for the tier 1 anvil to process blooms."
+		"Limestone has many uses and is required for the tier 1 anvil to process blooms.",
+		"",
+		"It can be §6found§r in betweenstone §6caves§r."
 	],
 	dependencies: [
 		"742a6eec"

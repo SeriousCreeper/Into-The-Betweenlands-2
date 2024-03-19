@@ -8,7 +8,7 @@
 		"",
 		"This is used to turn ores into slags, which yield more nuggets than the ore itself.",
 		"",
-		"Cragrock can be found in several locations, like the Deep Waters and Coarse Islands."
+		"§6Cragrock§r can be found in several locations, like the §6Deep Waters§r and §6Coarse Islands§r."
 	],
 	dependencies: [
 		"11cdd23c"
