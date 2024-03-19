@@ -12,7 +12,8 @@
 		"",
 		"It can be further upgraded with §6pouches§r. ",
 		"",
-		"§6NOTE: Take out all items from the belt before upgrading! §r"
+		"§6NOTE:§r Take out all items from the belt before upgrading!",
+		"If you can no longer access the menu after dying, relogging should fix it."
 	],
 	dependencies: [
 		"14564808"
