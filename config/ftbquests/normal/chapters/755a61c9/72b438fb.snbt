@@ -4,7 +4,7 @@
 	y: -5.0d,
 	shape: "gear",
 	text: [
-		"Having an §6Octine Ingot§r in your inventory will automatically §6light§r any §6unlit§r sulfur torch when placed.§6null§r"
+		"Having an §6Octine Ingot§r in your inventory will automatically §6light§r any §6unlit§r sulfur torch when placed."
 	],
 	dependencies: [
 		"060e9365"
