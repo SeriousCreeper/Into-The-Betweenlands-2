@@ -57,7 +57,9 @@
         "worldprovider": "WorldProviderSurfaceJED",
         "require_exact_match": true
       },
-      "worldinfo": {},
+      "worldinfo": {
+         "Difficulty": 3
+      },
       "worldinfo_onetime": {
         "GameType": 2,
         "generatorName": "flat",
