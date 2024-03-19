@@ -1,0 +1,18 @@
+{
+	title: "Filling Bottles",
+	icon: "thebetweenlands:aspect_vial",
+	x: 5.5d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"Vials with the same aspects can be §6combined§r, by first §6placing§r one of the vials on the §6ground§r, and then §6right-clicking§r it with another bottle of the §6same aspect§r. ",
+		"If §6sneaking§r, the aspects of the placed bottle get transfered into the §6held bottle§r."
+	],
+	dependencies: [
+		"3e863174"
+	],
+	tasks: [{
+		uid: "66adef33",
+		type: "checkmark"
+	}]
+}
