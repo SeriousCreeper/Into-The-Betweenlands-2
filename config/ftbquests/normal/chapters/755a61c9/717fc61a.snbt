@@ -1,6 +1,6 @@
 {
 	title: "Healthy Testers",
-	x: 5.5d,
+	x: 4.5d,
 	y: -5.0d,
 	shape: "gear",
 	text: [

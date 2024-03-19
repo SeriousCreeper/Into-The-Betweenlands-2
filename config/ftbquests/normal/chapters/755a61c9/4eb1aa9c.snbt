@@ -1,0 +1,26 @@
+{
+	title: "Exquisite Dirt",
+	x: 3.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"Normal dug dirt/grass can decay over time, potentially destroying the planted crop.",
+		"",
+		"§6Purified§r dirt/grass will not decay over time. ",
+		"",
+		"Harvesting a crop on purified §6dirt§r §6three§r times will cause the purified dirt to turn back into §6regular§r dirt.",
+		"",
+		"If §6grass§r spreads onto the purified dirt, it will stay purified for §6six§r harvests."
+	],
+	dependencies: [
+		"9bab9a9a",
+		"cec09be7"
+	],
+	tasks: [{
+		uid: "428c2032",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:purified_swamp_dirt"
+		}]
+	}]
+}

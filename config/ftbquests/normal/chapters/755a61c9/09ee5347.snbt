@@ -1,5 +1,5 @@
 {
-	x: 9.5d,
+	x: 2.5d,
 	y: -6.0d,
 	shape: "gear",
 	text: [
@@ -10,7 +10,8 @@
 		"The quality of the cog determins the range the Mulcher can cover."
 	],
 	dependencies: [
-		"654f6fcb"
+		"654f6fcb",
+		"ecee6ba2"
 	],
 	tasks: [{
 		uid: "ef953ecd",

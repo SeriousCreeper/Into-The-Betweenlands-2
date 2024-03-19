@@ -1,7 +1,7 @@
 {
 	title: "Boiling Down",
 	icon: "thebetweenlands:infuser",
-	x: 4.5d,
+	x: 5.5d,
 	y: -4.0d,
 	shape: "gear",
 	text: [

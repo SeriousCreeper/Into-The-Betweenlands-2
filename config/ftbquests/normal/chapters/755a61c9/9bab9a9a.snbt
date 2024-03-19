@@ -1,0 +1,30 @@
+{
+	title: "Dug Dirt",
+	icon: "thebetweenlands:dug_swamp_dirt 1 1",
+	x: 3.5d,
+	y: -5.0d,
+	shape: "gear",
+	text: [
+		"Next, §6right-click§r §6dirt§r or §6grass§r with a §6shovel§r to create a hole.",
+		"",
+		"Fill said hole with §6compost§r by right-clicking it.",
+		"",
+		"Place your seed/flower/fungus and wait.",
+		"",
+		"After §6three§r harvests, the compost gets §6used up§r and needs to be re-applied.",
+		"",
+		"Note that flowers and fungi §6spread§r to neighbouring blocks, rather than growing."
+	],
+	dependencies: [
+		"ecee6ba2"
+	],
+	tasks: [{
+		uid: "f5d662c2",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "c53c679c",
+		type: "xp",
+		xp: 100
+	}]
+}

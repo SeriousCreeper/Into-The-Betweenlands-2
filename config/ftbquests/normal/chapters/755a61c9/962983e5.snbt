@@ -1,6 +1,6 @@
 {
 	title: "Silky Production",
-	x: 0.75d,
+	x: 0.5d,
 	y: -6.0d,
 	shape: "gear",
 	text: [

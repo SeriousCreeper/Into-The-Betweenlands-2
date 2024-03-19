@@ -1,6 +1,6 @@
 {
 	title: "Not so silky fiends",
-	x: 1.75d,
+	x: 1.5d,
 	y: -5.0d,
 	shape: "gear",
 	text: [

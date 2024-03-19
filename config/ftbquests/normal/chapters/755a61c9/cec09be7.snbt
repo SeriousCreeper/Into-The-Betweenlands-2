@@ -1,6 +1,6 @@
 {
 	title: "Purifying",
-	x: -1.5d,
+	x: 2.5d,
 	y: -4.0d,
 	shape: "gear",
 	text: [

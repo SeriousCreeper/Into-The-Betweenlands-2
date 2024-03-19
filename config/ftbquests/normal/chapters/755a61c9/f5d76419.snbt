@@ -2,7 +2,7 @@
 	title: "Filling Bottles",
 	icon: "thebetweenlands:aspect_vial",
 	x: 5.5d,
-	y: -3.0d,
+	y: -2.0d,
 	shape: "gear",
 	text: [
 		"Vials with the same aspects can be §6combined§r, by first §6placing§r one of the vials on the §6ground§r, and then §6right-clicking§r it with another bottle of the §6same aspect§r. ",
@@ -14,5 +14,10 @@
 	tasks: [{
 		uid: "66adef33",
 		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "cad12a1e",
+		type: "xp",
+		xp: 100
 	}]
 }

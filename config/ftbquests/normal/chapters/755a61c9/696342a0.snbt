@@ -1,6 +1,6 @@
 {
 	title: "Hive Mind",
-	x: 2.75d,
+	x: 1.5d,
 	y: 0.0d,
 	shape: "gear",
 	text: [

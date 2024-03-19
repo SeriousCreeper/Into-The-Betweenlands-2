@@ -1,0 +1,38 @@
+{
+	title: "Plant Tonic",
+	x: 2.5d,
+	y: -5.0d,
+	shape: "gear",
+	text: [
+		"Normal dug dirt/grass can §6decay§r over time, potentially §6destroying§r the planted crop. ",
+		"",
+		"§6Plant Tonic§r will §6cure§r any decay in a §65x5§r area around the clicked block."
+	],
+	dependencies: [
+		"9bab9a9a"
+	],
+	tasks: [{
+		uid: "f49fb29b",
+		type: "item",
+		title: "Plant Tonic",
+		items: [{
+			id: "thebetweenlands:bl_bucket_plant_tonic",
+			tag: {
+				usages: 0
+			}
+		},
+		{
+			id: "thebetweenlands:bl_bucket_plant_tonic",
+			Damage: 1s,
+			tag: {
+				usages: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31bc0ff7",
+		type: "xp",
+		xp: 100
+	}]
+}

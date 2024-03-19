@@ -1,6 +1,6 @@
 {
 	title: "Silky Gift",
-	x: 0.75d,
+	x: 0.5d,
 	y: -4.0d,
 	shape: "gear",
 	text: [

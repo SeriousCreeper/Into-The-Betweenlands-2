@@ -19,5 +19,10 @@
 		uid: "004f953f",
 		type: "checkmark",
 		icon: "timeisup:timer_anchor"
+	}],
+	rewards: [{
+		uid: "f81d7c60",
+		type: "xp",
+		xp: 100
 	}]
 }

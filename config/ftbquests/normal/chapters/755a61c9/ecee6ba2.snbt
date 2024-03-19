@@ -1,0 +1,34 @@
+{
+	title: "Farming 101",
+	x: 3.5d,
+	y: -6.0d,
+	shape: "gear",
+	text: [
+		"In order to plant and grrow crops, flowers, and fungi, you must first acquire §6compost§r using a §6Compost Bin§r.",
+		"",
+		"Open the Compost Bin (left-click), and insert compostable items (right-click).",
+		"",
+		"Once full, close the Compost Bin (left-click) and wait.",
+		"",
+		"Each item has a different compost value and time."
+	],
+	tasks: [{
+		uid: "a56bff30",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:compost_bin"
+		}]
+	},
+	{
+		uid: "f4a4a9a2",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "3bfdb174",
+		type: "xp",
+		xp: 100
+	}]
+}

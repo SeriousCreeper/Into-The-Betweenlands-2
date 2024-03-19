@@ -1,6 +1,6 @@
 {
 	title: "Silky Friends",
-	x: 1.75d,
+	x: 1.5d,
 	y: -4.0d,
 	shape: "gear",
 	text: [

@@ -1,7 +1,7 @@
 {
 	title: "Elixirs",
 	icon: "thebetweenlands:manual_hl",
-	x: 4.5d,
+	x: 5.5d,
 	y: -6.0d,
 	shape: "gear",
 	text: [

@@ -1,6 +1,6 @@
 {
 	title: "Silky Home",
-	x: 1.75d,
+	x: 1.5d,
 	y: -3.0d,
 	shape: "gear",
 	text: [
