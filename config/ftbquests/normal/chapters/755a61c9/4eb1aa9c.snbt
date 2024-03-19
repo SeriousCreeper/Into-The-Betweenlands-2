@@ -22,5 +22,10 @@
 		items: [{
 			item: "thebetweenlands:purified_swamp_dirt"
 		}]
+	}],
+	rewards: [{
+		uid: "b0ff3b26",
+		type: "xp",
+		xp: 100
 	}]
 }
