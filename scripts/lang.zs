@@ -29,6 +29,18 @@ game.setLocalization("fluid.boiling_potato_juice", "Boiling Root Soup");
 game.setLocalization("fluid.boiling_wort", "Boiling Swamp Reed Wort");
 game.setLocalization("fluid.vodka", "Root Vodka");
 
+// Botania
+game.setLocalization("item.botania:grassSeeds1.name", "Dead Seeds");
+game.setLocalization("item.botania:grassSeeds2.name", "Muddy Seeds");
+game.setLocalization("tile.botania:storage3.name", "Block of Mana Gem");
+game.setLocalization("item.botania:manaDiamond.name", "Mana Gem");
+game.setLocalization("botania.page.pool5", "Infusing &1Mana Gem&0");
+game.setLocalization("item.botania:enderAirBottle.name", "Void Air Bottle");
+game.setLocalization("entity.botania:enderAirBottle.name", "Bottle of Void Air");
+game.setLocalization("advancement.botania:enderAirMake.desc", "Collect a Bottle of Void Air");
+game.setLocalization("item.botania:fertilizer.name", "Fungal Fertilizer");
+
+
 game.setLocalization("arcanearchives.tooltip.device.radiant_chest", "Storage. Used to contain items. Stack size increased to 4x.");
 game.setLocalization("arcanearchives.tooltip.item.raw_quartz", "A crafting ingredient.");
 
