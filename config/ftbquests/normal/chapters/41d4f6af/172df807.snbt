@@ -1,0 +1,28 @@
+{
+	title: "Runic Altar",
+	x: -8.25d,
+	y: 0.75d,
+	shape: "circle",
+	text: [
+		"Some items and recipes require runes, which can be crafted on a §6Runic Altar§r.",
+		"",
+		"Place the correct ingredients onto a Runic Altar, and send mana to it via a §6Mana Spreader§r. ",
+		"",
+		"Once it's §6done§r (indicated by the UI element when looking at the altar), place a §6Livingrock§r on to the altar and right-click it with a §6Wand of the Forest§r."
+	],
+	dependencies: [
+		"1c6d84fd"
+	],
+	tasks: [{
+		uid: "1378723b",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "7070d0bf",
+		type: "xp",
+		xp: 100
+	}]
+}

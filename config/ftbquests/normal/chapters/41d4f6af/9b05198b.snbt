@@ -1,0 +1,20 @@
+{
+	x: -8.25d,
+	y: -0.5d,
+	shape: "circle",
+	text: [
+		"Some recipes require Bottled Air from the Void.",
+		"",
+		"This air can be trapped inside regular §6silt glass bottles§r when §6right-clicking§r them inside any of the §6Mirages§r, or §6§kThe Emptiness§r."
+	],
+	dependencies: [
+		"adec5b50"
+	],
+	tasks: [{
+		uid: "ec9b0f87",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 15"
+		}]
+	}]
+}

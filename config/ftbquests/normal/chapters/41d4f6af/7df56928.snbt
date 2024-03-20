@@ -1,0 +1,25 @@
+{
+	title: "To Dye For",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "spectrolus"
+		}
+	},
+	x: -13.25d,
+	y: -1.75d,
+	shape: "circle",
+	text: [
+		"The §6Spectrolus§r eats §6Samite§r blocks to produce mana. ",
+		"",
+		"Everytime it consumes a Samite block, it will want one of a §6different color§r. The order is fixed however."
+	],
+	dependencies: [
+		"d5893550"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d073516e",
+		type: "checkmark"
+	}]
+}

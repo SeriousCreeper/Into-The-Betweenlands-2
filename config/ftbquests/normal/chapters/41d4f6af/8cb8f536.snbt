@@ -1,0 +1,29 @@
+{
+	title: "Forced Growth",
+	x: -7.5d,
+	y: 6.5d,
+	shape: "circle",
+	text: [
+		"Alternatively, §6Fungal Fertilizer§r can be used to §6instantly§r generate more mushrooms. ",
+		"",
+		"§6Right-click§r the fertilizer onto a large area of §6grass§r to spawn in more mushrooms."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bdb24e21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "6c2ab810",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "ecd097e8",
+		type: "xp",
+		xp: 100
+	}]
+}

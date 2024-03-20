@@ -1,0 +1,25 @@
+{
+	title: "Mark Rafflowsia",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "rafflowsia"
+		}
+	},
+	x: -13.25d,
+	y: -3.0d,
+	shape: "circle",
+	text: [
+		"The §6Rafflowsia§r eats §6man-made flowers§r crafted from an §6Apothecary§r to produce mana. ",
+		"",
+		"Similar to the Gourmaryllis, feeding it the §6same§r flower in a row will be less §6efficient§r."
+	],
+	dependencies: [
+		"7df56928"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f40126fd",
+		type: "checkmark"
+	}]
+}

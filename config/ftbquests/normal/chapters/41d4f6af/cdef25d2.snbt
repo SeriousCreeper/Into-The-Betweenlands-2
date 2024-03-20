@@ -1,0 +1,25 @@
+{
+	title: "Feed Me, Seymour!",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "gourmaryllis"
+		}
+	},
+	x: -12.0d,
+	y: 3.25d,
+	shape: "circle",
+	text: [
+		"The §6Gourmaryllis§r will eat §6food§r off the ground and produce mana depending on the food values it had.",
+		"",
+		"It's a bit of picky eater however and will get §6tired§r if eating the §6same§r food over and over again, without mixing it up."
+	],
+	dependencies: [
+		"8754d91a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9005cddd",
+		type: "checkmark"
+	}]
+}

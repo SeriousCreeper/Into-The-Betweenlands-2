@@ -1,0 +1,27 @@
+{
+	x: -9.5d,
+	y: -1.75d,
+	shape: "circle",
+	text: [
+		"In order to craft the last tier of Botania metal, §6Terrasteel§r, a §6Terrestrial Agglomeration Plate§r is required.",
+		"",
+		"Once crafted, build the §6multiblock structure§r shown in §6JEI§r or the §6Lexica Botania§r, and place the plate in the center.",
+		"",
+		"Each Terrasteel ingot will require the specified §6ingredients§r, as well as §6half a mana pool§r worth of mana. "
+	],
+	dependencies: [
+		"adec5b50"
+	],
+	tasks: [{
+		uid: "0bc2568d",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "a7f90815",
+		type: "xp",
+		xp: 100
+	}]
+}

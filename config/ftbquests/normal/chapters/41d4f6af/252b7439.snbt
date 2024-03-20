@@ -1,0 +1,54 @@
+{
+	title: "Elementium",
+	x: -10.75d,
+	y: -1.75d,
+	shape: "circle",
+	text: [
+		"§6Elementium§r can be traded for §6Dawnstone§r using the Alfheim Portal. ",
+		"",
+		"The §6armor§r set has a chance to summon helpful §6Pixies§r when taking damage, as well as §6absorb§r durability §6damage§r using mana.",
+		"",
+		"The §6Pickaxe§r will §6destroy mundane blocks§r like Betweenstone, not making them drop the item. ",
+		"",
+		"The §6Sword§r will increase the §6chance§r of Pixies to §6spawn§r, as well as §6increase§r their §6damage§r."
+	],
+	dependencies: [
+		"adec5b50"
+	],
+	tasks: [{
+		uid: "b30a66d1",
+		type: "item",
+		title: "Anything Elementium",
+		items: [{
+			item: "botania:elementiumhelm"
+		},
+		{
+			item: "botania:elementiumchest"
+		},
+		{
+			item: "botania:elementiumlegs"
+		},
+		{
+			item: "botania:elementiumboots"
+		},
+		{
+			item: "botania:elementiumpick"
+		},
+		{
+			item: "botania:elementiumshovel"
+		},
+		{
+			item: "botania:elementiumaxe"
+		},
+		{
+			item: "botania:elementiumsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "65f43e8a",
+		type: "xp",
+		xp: 100
+	}]
+}

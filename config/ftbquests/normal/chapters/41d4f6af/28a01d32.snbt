@@ -1,0 +1,25 @@
+{
+	title: "Game of Life",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "dandelifeon"
+		}
+	},
+	x: -13.25d,
+	y: -4.25d,
+	shape: "circle",
+	text: [
+		"While the §6Dandelifeon§r is probably the §6strongest§r generating flower, I am not smart enough to explain it. ",
+		"",
+		"Check the Lexica Botania for more info."
+	],
+	dependencies: [
+		"f1bbd7b5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4c9dc4b1",
+		type: "checkmark"
+	}]
+}

@@ -4,7 +4,7 @@
 	y: -4.0d,
 	shape: "circle",
 	text: [
-		"Kill a music playing Greebling while being Insane (150 or less sanity)."
+		"Kill a tamed Toad or Emberling while being Insane (-150 sanity, shaking icon)"
 	],
 	dependencies: [
 		"0d7e3578"

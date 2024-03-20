@@ -1,0 +1,34 @@
+{
+	title: "Making Contact",
+	x: -9.5d,
+	y: 0.75d,
+	shape: "circle",
+	text: [
+		"The Lexica Botania mentions that it might be possible to gain more §6advanced§r §6knowledge§r from the §6Elves§r. ",
+		"",
+		"In order to communicate with them, a §6portal§r to §6Alfheim§r needs to be created."
+	],
+	dependencies: [
+		"e2b223a3"
+	],
+	tasks: [{
+		uid: "4f1b0c0d",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "16d47f29",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "c12dce11",
+		type: "xp",
+		xp: 100
+	}]
+}

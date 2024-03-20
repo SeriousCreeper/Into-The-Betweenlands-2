@@ -1,0 +1,26 @@
+{
+	title: "Kekimurus",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "kekimurus"
+		}
+	},
+	x: -13.25d,
+	y: -0.5d,
+	shape: "circle",
+	text: [
+		"An even pickier eater is the §6Kekimurus§r. ",
+		"",
+		"It usually only fancies §6cake§r, but what is a §6pizza§r but a meaty cake? "
+	],
+	dependencies: [
+		"adec5b50",
+		"52bb2141"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0cdbc73a",
+		type: "checkmark"
+	}]
+}

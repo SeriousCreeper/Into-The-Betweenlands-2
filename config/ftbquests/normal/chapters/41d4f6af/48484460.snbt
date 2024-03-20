@@ -1,0 +1,27 @@
+{
+	title: "Hold My Mana",
+	x: -10.75d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"While leaving a mana tablet floating on a mana pool is safe and does not despawn the item over time, it can be annoying to pick it on accident. ",
+		"",
+		"A §6Mana Charger§r can be placed onto a pool and will §6hold§r a tablet in place by §6right-clicking§r the tablet onto the charger. "
+	],
+	dependencies: [
+		"e2b223a3"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d61f8111",
+		type: "item",
+		items: [{
+			item: "botanianeedsit:mana_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "a7bf7354",
+		type: "xp",
+		xp: 100
+	}]
+}

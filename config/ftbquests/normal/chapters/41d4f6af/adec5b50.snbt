@@ -1,0 +1,38 @@
+{
+	title: "Updated Knowledge",
+	x: -9.5d,
+	y: -0.5d,
+	shape: "circle",
+	text: [
+		"Now that the portal to Alfheim has been opened, more knowledge can be gained by §6throwing§r the §6Lexica Botania§r into the §6portal§r."
+	],
+	dependencies: [
+		"fab2ea55"
+	],
+	tasks: [{
+		uid: "e877487f",
+		type: "item",
+		icon: {
+			id: "botania:lexicon",
+			tag: {
+				knowledge.alfheim: 1b,
+				forcedMessage: "botania.entry.elfMessage"
+			}
+		},
+		items: [{
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1b,
+				knowledge.relic: 1b,
+				knowledge.alfheim: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "a6c7bfd2",
+		type: "xp",
+		xp: 100
+	}]
+}

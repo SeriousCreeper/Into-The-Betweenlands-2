@@ -1,0 +1,31 @@
+{
+	x: -8.25d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		"§6Mana§r is a very important substance, and is acquired by mana §6generating§r flowers. ",
+		"",
+		"In order to craft these flowers, a §6Petal Apothecary§r is required.",
+		"",
+		"First §6place§r down the apothecary, then right-click it with a bucket of §6swamp water§r.",
+		"",
+		"Add the required §6ingredients§r, and finish the recipe by throwing §6White Pear Seeds§r into it."
+	],
+	dependencies: [
+		"bdb24e21"
+	],
+	hide: true,
+	tasks: [{
+		uid: "42f88ae6",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "4ffcaaee",
+		type: "xp",
+		xp: 100
+	}]
+}

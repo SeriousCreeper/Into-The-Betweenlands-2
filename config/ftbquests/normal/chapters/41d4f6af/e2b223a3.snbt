@@ -1,0 +1,29 @@
+{
+	title: "Portable Mana",
+	x: -9.5d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"A §6Mana Tablet§r can be used to §6store§r and §6move§r mana from pool to pool, and also §6power§r any tools or equipment when the tablet is in your §6inventory§r.",
+		"",
+		"To fill a Mana Tablet, throw it onto a §6Mana Pool§r, and use the §6Wand of the Forest§r to switch between §6filling§r or §6draining§r mode, by §6sneak right-clicking§r the Mana Pool."
+	],
+	dependencies: [
+		"1c6d84fd"
+	],
+	tasks: [{
+		uid: "d8447cf2",
+		type: "item",
+		items: [{
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5539842c",
+		type: "xp",
+		xp: 100
+	}]
+}

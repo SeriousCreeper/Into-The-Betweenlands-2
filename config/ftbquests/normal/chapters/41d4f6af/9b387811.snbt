@@ -1,0 +1,33 @@
+{
+	title: "Water of Life",
+	x: -8.25d,
+	y: 3.25d,
+	shape: "circle",
+	text: [
+		"The first mana producing flower is the §6Hydroaengeas§r. ",
+		"",
+		"This is a §6passive§r generating flower, meaning that it will produce mana over time as long as the proper conditions are met, and it will decay after §6one real time hour§r.",
+		"",
+		"In order for this flower to work, it needs to §6consume§r a source block of §6water§r every so often. ",
+		"",
+		"A 2x2 infinite water source would be ideal."
+	],
+	dependencies: [
+		"6d805468"
+	],
+	tasks: [{
+		uid: "9d822f57",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "01a4f87d",
+		type: "xp",
+		xp: 100
+	}]
+}

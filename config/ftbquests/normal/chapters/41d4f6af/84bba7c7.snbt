@@ -1,0 +1,23 @@
+{
+	title: "Eat Your Greens",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "munchdew"
+		}
+	},
+	x: -9.5d,
+	y: 3.25d,
+	shape: "circle",
+	text: [
+		"The §6Munchdew§r flower consumes §6leaves§r to produce mana, but once it's done eating, it will need to §6take a break§r for a bit."
+	],
+	dependencies: [
+		"9b387811"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f7948ce4",
+		type: "checkmark"
+	}]
+}

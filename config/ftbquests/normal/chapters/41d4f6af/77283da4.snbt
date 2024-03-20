@@ -6,7 +6,7 @@
 	text: [
 		"To unlock Nature's knowledge, the Ancient Tablet mentions the following:",
 		"",
-		"§6\"In nature's grove, sane minds find Purity's trove.\"§r"
+		"§6\"In Nature's grove, sane minds find Purity's trove.\"§r"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

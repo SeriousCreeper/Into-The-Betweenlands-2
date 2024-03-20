@@ -1,0 +1,50 @@
+{
+	title: "Manasteel",
+	x: -10.75d,
+	y: 0.75d,
+	shape: "circle",
+	text: [
+		"The first set of armor and tools that makes use of mana stored in mana tablets is made out of §6Manasteel§r. ",
+		"",
+		"As long as there is mana in the mana tablet, and the tablet is inside your §6inventory§r, anything made out of manasteel will §6repair§r itself."
+	],
+	dependencies: [
+		"e2b223a3"
+	],
+	tasks: [{
+		uid: "b4373925",
+		type: "item",
+		title: "Anything Manasteel",
+		items: [{
+			item: "botania:manasteelhelm"
+		},
+		{
+			item: "botania:manasteelchest"
+		},
+		{
+			item: "botania:manasteellegs"
+		},
+		{
+			item: "botania:manasteelboots"
+		},
+		{
+			item: "botania:manasteelpick"
+		},
+		{
+			item: "botania:manasteelshovel"
+		},
+		{
+			item: "botania:manasteelaxe"
+		},
+		{
+			item: "botania:manasteelsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "768f18ad",
+		type: "xp",
+		xp: 100
+	}]
+}

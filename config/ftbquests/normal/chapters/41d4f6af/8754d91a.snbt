@@ -1,0 +1,23 @@
+{
+	title: "Experienced",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "arcanerose"
+		}
+	},
+	x: -10.75d,
+	y: 3.25d,
+	shape: "circle",
+	text: [
+		"The §6Rosa Arcana§r will consume XP from any §6player§r standing near it, or consume experience §6orbs§r on the ground, at a lower efficiency."
+	],
+	dependencies: [
+		"84bba7c7"
+	],
+	optional: true,
+	tasks: [{
+		uid: "dde5bbbc",
+		type: "checkmark"
+	}]
+}

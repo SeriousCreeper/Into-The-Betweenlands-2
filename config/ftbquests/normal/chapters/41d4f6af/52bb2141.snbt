@@ -1,0 +1,25 @@
+{
+	title: "Booger Eater",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "narslimmus"
+		}
+	},
+	x: -13.25d,
+	y: 3.25d,
+	shape: "circle",
+	text: [
+		"The §6Narslimmus§r eats §6Sludges§r when they approach, and converts them into mana. ",
+		"",
+		"This only works with §6naturally§r spawned Sludges."
+	],
+	dependencies: [
+		"cdef25d2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b3155559",
+		type: "checkmark"
+	}]
+}

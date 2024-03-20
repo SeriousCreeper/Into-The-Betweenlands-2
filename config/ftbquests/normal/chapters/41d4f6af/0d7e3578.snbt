@@ -4,6 +4,11 @@
 	x: 6.0d,
 	y: -2.5d,
 	shape: "circle",
+	text: [
+		"To unlock Cruelty's knowledge, the Ancient Tablet mentions the following:",
+		"",
+		"§6\"Madness claims even the dearest companions.\"§r"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"94e7d6d0"
