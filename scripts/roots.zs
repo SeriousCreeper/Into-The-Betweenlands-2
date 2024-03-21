@@ -678,7 +678,7 @@ Rituals.modifyRitual("ritual_gathering", [
 
 Rituals.modifyRitual("ritual_frost_lands", [
 	<ore:sugarcane>,
-	<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "gelum"}]}),
+	<thebetweenlands:wight_heart>,
 	<roots:dewgonia>,
 	<roots:bark_spruce>,
 	<roots:bark_spruce>
