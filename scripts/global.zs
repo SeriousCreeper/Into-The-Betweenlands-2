@@ -456,6 +456,9 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:plankWood>.remove(<minecraft:planks:*>);
 <ore:plankWood>.remove(<pizzacraft:olive_planks>);
 
+<ore:plankWood>.add(<thebetweenlands:rotten_planks>);
+
+
 <ore:trapdoorWood>.add(<thebetweenlands:weedwood_trapdoor>);
 <ore:trapdoorWood>.add(<thebetweenlands:rubber_tree_plank_trapdoor>);
 <ore:trapdoorWood>.add(<thebetweenlands:giant_root_plank_trapdoor>);
