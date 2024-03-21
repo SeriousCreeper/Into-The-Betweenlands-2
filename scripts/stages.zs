@@ -24,13 +24,17 @@ OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_cinnabar>, <theb
 OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_solid>);
 //OreStages.addReplacement("locked", <pyrotech:material:0>, <embers:dust_ash>);
 
-Recipes.setRecipeStageByMod("locked", "futuremc");
 Recipes.setRecipeStageByMod("locked", "wormhole");
 Recipes.setRecipeStageByMod("locked", "mowziesmobs");
 
-ItemStages.stageModItems("locked", "futuremc");
 ItemStages.stageModItems("locked", "wormhole");
 ItemStages.stageModItems("locked", "mowziesmobs");
+
+
+stageMods("futuremc", "locked", [
+	<futuremc:barrel>
+]);
+
 
 val itemsToLock = [
 	<embers:isolated_materia>,
