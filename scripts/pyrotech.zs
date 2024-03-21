@@ -398,6 +398,20 @@ scripts.utils.addShaped("bone_hammer", <pyrotech:bone_hammer>, [
 	[<ore:stickWood>, null, null]
 ]);
 
+recipes.remove(<pyrotech:gold_hammer>);
+scripts.utils.addShaped("gold_hammer", <pyrotech:gold_hammer>, [
+	[null, <ore:ingotOctine>, <thebetweenlands:items_misc:7>], 
+	[null, <ore:stickWood>, <ore:ingotOctine>], 
+	[<ore:stickWood>, null, null]
+]);
+
+recipes.remove(<pyrotech:tongs_gold>);
+scripts.utils.addShaped("tongs_gold", <pyrotech:tongs_gold>, [
+	[null, <ore:ingotOctine>, <thebetweenlands:items_misc:7>], 
+	[null, <ore:stickWood>, <ore:ingotOctine>], 
+	[<ore:stickWood>, null, null]
+]);
+
 recipes.remove(<pyrotech:faucet_stone>);
 scripts.utils.addShaped("storage/faucet_stone", <pyrotech:faucet_stone>, [
 	[<pyrotech:material:16>, null, <pyrotech:material:16>], 
