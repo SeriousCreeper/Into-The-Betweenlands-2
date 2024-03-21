@@ -669,6 +669,7 @@ recipes.remove(<thebetweenlands:sulfur_block>);
 CompactingBin.addRecipe("sulfur_block", <thebetweenlands:sulfur_block>, <thebetweenlands:items_misc:18>, 9, true);
 
 CompactingBin.addRecipe("pile_ash", <pyrotech:pile_ash>, <embers:dust_ash>, 8, true);
+CompactingBin.addRecipe("snow_block", <minecraft:snow>, <minecraft:snowball>, 8, true);
 
 
 
