@@ -407,9 +407,9 @@ scripts.utils.addShaped("gold_hammer", <pyrotech:gold_hammer>, [
 
 recipes.remove(<pyrotech:tongs_gold>);
 scripts.utils.addShaped("tongs_gold", <pyrotech:tongs_gold>, [
-	[null, <ore:ingotOctine>, <thebetweenlands:items_misc:7>], 
-	[null, <ore:stickWood>, <ore:ingotOctine>], 
-	[<ore:stickWood>, null, null]
+	[null, <ore:ingotOctine>, null], 
+	[<pyrotech:material:27>, <ore:ingotOctine>, <ore:ingotOctine>], 
+	[null, <pyrotech:material:27>, null]
 ]);
 
 recipes.remove(<pyrotech:faucet_stone>);
