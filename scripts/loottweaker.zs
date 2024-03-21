@@ -138,6 +138,7 @@ replaceLoot("thebetweenlands:animator/scroll", "scroll", "thebetweenlands:octine
 
 replaceLoot("thaumcraft:cultist", "main", "minecraft:gold_nugget", <thebetweenlands:items_misc:42>, 1, 0, 0, 2);
 
+replaceLoot("thebetweenlands:entities/infestation", "infestation", "thebetweenlands:pheromone_thorax", <thebetweenlands:pheromone_thorax>, 1, 0, 1, 2);
 
 
 val table = LootTweaker.getTable("thebetweenlands:entities/anadia_treasure");
