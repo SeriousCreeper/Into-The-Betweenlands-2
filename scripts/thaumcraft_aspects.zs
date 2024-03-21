@@ -433,6 +433,7 @@ import thaumcraft.aspect.CTAspectStack;
 <minecraft:dye:13>.setAspects(<aspect:sensus> * 5, <aspect:perditio> * 2);
 <minecraft:dye:14>.setAspects(<aspect:sensus> * 5, <aspect:perditio> * 2);
 <minecraft:dye:15>.setAspects(<aspect:sensus> * 5, <aspect:perditio> * 2);
+<minecraft:snow>.setAspects(<aspect:gelum> * 5);
 
 <mod_lavacow:intestine>.setAspects(<aspect:mortuus> * 10, <aspect:vacuos> * 5, <aspect:humanus> * 10);
 
