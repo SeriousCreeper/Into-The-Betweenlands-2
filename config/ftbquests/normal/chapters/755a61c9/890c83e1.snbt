@@ -1,0 +1,26 @@
+{
+	title: "Makes Censer",
+	x: 3.5d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"A §6Censer§r has many uses, such as slowly evaporating liquids in an area. ",
+		"",
+		"Typing \"§6censer§r\" into §6JEI§r will show all items that can be used in a Censer."
+	],
+	dependencies: [
+		"1afb5aa9"
+	],
+	tasks: [{
+		uid: "87713ccf",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:censer"
+		}]
+	}],
+	rewards: [{
+		uid: "1521c1fc",
+		type: "xp",
+		xp: 100
+	}]
+}

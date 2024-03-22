@@ -1,0 +1,29 @@
+{
+	x: 4.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"A Censer with §6Bottled Fog§r will §6speed up crop growth§r in it's affected area.",
+		"",
+		"Fog can be bottled up in the lower layers of the §6Sludgeon§r."
+	],
+	dependencies: [
+		"890c83e1",
+		"9bab9a9a"
+	],
+	tasks: [{
+		uid: "b79bec59",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:dentrothyst_fluid_vial",
+			tag: {
+				Fluid: {
+					FluidName: "fog",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

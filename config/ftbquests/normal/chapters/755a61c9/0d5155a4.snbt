@@ -1,0 +1,36 @@
+{
+	x: 3.5d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"§6Aspectrus Seeds§r are strange plants that grow §6fruits§r which can be §6ground§r or §6cooked§r down into §6aspects§r.",
+		"",
+		"In order for aspectrus seeds, §6several conditions§r need to be met:",
+		"",
+		"They can only be planted on §6up to 3 blocks§r tall §6fences§r made out of §6Rubber Tree§r that are placed onto §6composted§r dirt/grass.",
+		"",
+		"The fences can §6not§r have any §6horizontal§r connections to other fences or blocks. ",
+		"",
+		"Once they are planted, a nearby §6Censer§r needs to be burning a §6vial§r of the specific §6aspect§r the fruits should adapt. ",
+		"",
+		"The §6amount§r of aspects in the vial only determines for how §6long§r the aspect mist lasts. ",
+		"It does not affect the amount of aspects the fruit will contain in the end.",
+		"",
+		"Once the fruit has been §6fully grown§r, indicated by it's glowing §6light§r, it can be harvested."
+	],
+	dependencies: [
+		"890c83e1"
+	],
+	tasks: [{
+		uid: "c01c7ee0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aspectrus_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "03d0e91b",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "What Cremains",
+	icon: "thebetweenlands:items_misc 1 44",
+	x: 4.5d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"§6Cremains§r drop from §6Ash Sprites§r, which can be difficult to get access to early on. ",
+		"",
+		"Wish enough §6Ash§r, an §6Animator§r, and a §6Life Crystal§r, an Ash Sprite can be §6summoned§r."
+	],
+	tasks: [{
+		uid: "a5ea0437",
+		type: "item",
+		items: [{
+			item: "pyrotech:pile_ash"
+		}]
+	},
+	{
+		uid: "7028ca26",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 44"
+		}]
+	}],
+	rewards: [{
+		uid: "cf7855a4",
+		type: "xp",
+		xp: 100
+	}]
+}

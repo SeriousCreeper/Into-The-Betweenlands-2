@@ -1,0 +1,31 @@
+{
+	x: 3.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"Once a fruit has been acquired, it can be processed in one of two ways:",
+		"",
+		"1) It can be used instead of ground items or aspect vials inside an §6Infuser§r",
+		"",
+		"2) It can be ground down directly into liquid aspects by placing it into a §6mortar§r, and placing a vial into the output slot of the mortar.",
+		"",
+		"Each fruit will always contain §60.25 units§r of an aspect."
+	],
+	dependencies: [
+		"0d5155a4"
+	],
+	tasks: [{
+		uid: "8c937f1c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aspectrus_fruit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82980c3c",
+		type: "xp",
+		xp: 100
+	}]
+}
