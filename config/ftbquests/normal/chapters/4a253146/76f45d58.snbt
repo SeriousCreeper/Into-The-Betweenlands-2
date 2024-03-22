@@ -1,0 +1,33 @@
+{
+	title: "Success Or Failure",
+	x: -3.0d,
+	y: 1.0d,
+	shape: "diamond",
+	text: [
+		"When ready, provide the Beam Cannon with a §6bluedust signal§r to §6start§r the process. ",
+		"",
+		"Once it finished, one of two things can happen: ",
+		"",
+		"1) The amount of ash in each pedestal was §6correct§r, and the §6desired§r item gets ejected",
+		"2) The amount of ash was §6not correct§r, and the items turned into §6Alchemical Waste§r",
+		"",
+		"The Alchemical Waste will show by how much ash the recipe was §6off§r. ",
+		"",
+		"It's recommended to §6note down§r the correct amount of ash for each recipe once found, as this varies from world to world."
+	],
+	dependencies: [
+		"a0808cad"
+	],
+	tasks: [{
+		uid: "fa03a1b2",
+		type: "item",
+		items: [{
+			item: "embers:ashen_cloth"
+		},
+		{
+			item: "embers:alchemic_waste"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

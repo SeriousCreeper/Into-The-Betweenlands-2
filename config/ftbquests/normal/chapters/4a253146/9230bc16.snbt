@@ -1,7 +1,7 @@
 {
 	title: "Automatic Hammering",
-	x: -6.0d,
-	y: 1.0d,
+	x: -7.0d,
+	y: 2.0d,
 	shape: "diamond",
 	text: [
 		"The §6Dawnstone Anvil§r has several uses.",

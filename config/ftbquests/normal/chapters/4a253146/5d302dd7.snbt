@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	shape: "diamond",
+	text: [
+		"Inflictor Gems can §6adapt§r to different §6damage types§r, depending on whatever damage was received §6last§r. ",
+		"",
+		"For example, while holding an inflictor gem and receiving damage from §6drowning§r, the Inflictor Gem will attune to §6drown damage§r. ",
+		"",
+		"Once attuned, up to §67 gems§r can be attached to the §6Ashen Cloak§r by combining them with §6string§r in a crafting table.",
+		"",
+		"The more gems have the same damage type, the less damage will be received from that damage type.",
+		"",
+		"The §6entire§r Ashen Armor §6Set§r needs to be worn for the Inflictor Gems to work!"
+	],
+	dependencies: [
+		"c449e72f"
+	],
+	tasks: [{
+		uid: "805af0c8",
+		type: "item",
+		items: [{
+			item: "embers:inflictor_gem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

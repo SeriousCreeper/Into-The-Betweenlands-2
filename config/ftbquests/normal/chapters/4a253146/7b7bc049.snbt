@@ -1,0 +1,32 @@
+{
+	title: "Alchemy",
+	x: -6.0d,
+	y: 1.0d,
+	shape: "diamond",
+	text: [
+		"Alchemy is a way of §6exchanging§r one set of items into another. ",
+		"",
+		"In order to perform alchemy, several things are required. ",
+		"",
+		"The first thing needed is the §6Exchange Table§r.",
+		"",
+		"This is the center piece and is what holds all the §6ingredients§r to be converted. ",
+		"",
+		"Each §6side§r of the exchange table can hold a different stack of §6items§r, whereas the §6top§r holds the §6catalyst§r for the recipe."
+	],
+	dependencies: [
+		"f1098d87"
+	],
+	tasks: [{
+		uid: "4d58092d",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_tablet"
+		}]
+	}],
+	rewards: [{
+		uid: "2425ace4",
+		type: "xp",
+		xp: 100
+	}]
+}

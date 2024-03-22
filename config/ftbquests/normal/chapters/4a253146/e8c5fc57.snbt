@@ -2,14 +2,14 @@
 	title: "Investigate: Sludgeon",
 	icon: "thebetweenlands:sludge_worm_egg_sac",
 	disable_toast: true,
-	x: -4.5d,
-	y: 0.0d,
+	x: -2.0d,
+	y: 2.5d,
 	shape: "diamond",
 	text: [
-		"I should head to the Sludgeon next."
+		"I should be equipped enough to investigate the Sludgeon."
 	],
 	dependencies: [
-		"f1098d87"
+		"c449e72f"
 	],
 	size: 2.0d,
 	tasks: [{

@@ -1,0 +1,37 @@
+{
+	title: "Ashen One",
+	x: -2.0d,
+	y: 1.0d,
+	shape: "diamond",
+	text: [
+		"Using the exchange table, a new fabric can be created that can be turned into a new set of armor. ",
+		"",
+		"The §6Ashen Armor§r provides decent protection, but has additional properties!",
+		"",
+		"The §6Ashen Goggles§r provide much more §6information§r about Embers machines and parts. ",
+		"",
+		"The §6Ashen Cloak§r can be further augmented using §6Inflictor Gems§r."
+	],
+	dependencies: [
+		"76f45d58"
+	],
+	tasks: [{
+		uid: "ae1915df",
+		type: "item",
+		title: "Ashen Armor",
+		items: [{
+			item: "embers:ashen_cloak_head"
+		},
+		{
+			item: "embers:ashen_cloak_chest"
+		},
+		{
+			item: "embers:ashen_cloak_legs"
+		},
+		{
+			item: "embers:ashen_cloak_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

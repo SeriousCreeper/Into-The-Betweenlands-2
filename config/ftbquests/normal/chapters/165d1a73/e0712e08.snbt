@@ -16,5 +16,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2ac6148",
+		type: "xp",
+		xp: 100
 	}]
 }

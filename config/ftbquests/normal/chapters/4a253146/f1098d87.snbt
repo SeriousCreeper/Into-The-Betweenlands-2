@@ -1,6 +1,6 @@
 {
-	x: -6.0d,
-	y: 0.0d,
+	x: -7.0d,
+	y: 1.0d,
 	shape: "diamond",
 	text: [
 		"One of these combinations is §6Octine§r and §6Russite§r.",

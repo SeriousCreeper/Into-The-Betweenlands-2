@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	shape: "diamond",
+	text: [
+		"Once the ingredients, catalyst, aspectus, and ash, have all been placed into their proper places, a Beam Cannon needs to be fired onto the exchange table to start the process.",
+		"",
+		"Use a §6Tinker's Hammer§r to direct the cannon onto the table, by first §6sneak right-clicking§r the §6table§r, then §6right-clicking§r the §6cannon§r.",
+		"",
+		"It also requires §6Embers§r to work."
+	],
+	dependencies: [
+		"17e54454"
+	],
+	tasks: [{
+		uid: "6100fd6b",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	}]
+}

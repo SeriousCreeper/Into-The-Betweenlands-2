@@ -12,7 +12,9 @@
 		"",
 		"Once the modifier is unlocked, it can be §6toggled§r on and off on the same screen.",
 		"",
-		"As an example, \"§6Acid Cloud§r\" can be turned into \"§6Healing Cloud§r\" by applying §6Terra Moss§r."
+		"As an example, \"§6Acid Cloud§r\" can be turned into \"§6Healing Cloud§r\" by applying §6Terra Moss§r.",
+		"",
+		"Note that some modifiers are completely disabled in this pack."
 	],
 	dependencies: [
 		"cef56e68"
@@ -23,5 +25,10 @@
 		items: [{
 			item: "roots:imposer"
 		}]
+	}],
+	rewards: [{
+		uid: "8b8c7d30",
+		type: "xp",
+		xp: 100
 	}]
 }

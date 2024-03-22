@@ -1,0 +1,53 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	shape: "diamond",
+	text: [
+		"Each recipe requires to be §6infused§r with a specific §6metal§r.",
+		"",
+		"This can be done using §6Pedestals§r, §6Aspectus§r, and §6As§rh.",
+		"",
+		"Place the Pedestals §6around§r the Exchange Table, and add the Aspectus §6onto§r the Pedestal. ",
+		"",
+		"The recipes will specify a §6range§r of ash required to perform the transformation, but the §6exact§r amount is unknow and needs to be discovered by trial and error. ",
+		"",
+		"Note: While the ash is being consumed when using the Exchange Table, the Aspectus do §6NOT§r get consumed, so only 1 of each type is needed."
+	],
+	dependencies: [
+		"7b7bc049"
+	],
+	tasks: [{
+		uid: "9fb1052f",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_pedestal"
+		}]
+	},
+	{
+		uid: "a6e6f04a",
+		type: "item",
+		title: "Aspectus",
+		items: [{
+			item: "embers:aspectus_iron"
+		},
+		{
+			item: "embers:aspectus_copper"
+		},
+		{
+			item: "embers:aspectus_lead"
+		},
+		{
+			item: "embers:aspectus_silver"
+		},
+		{
+			item: "embers:aspectus_dawnstone"
+		}]
+	},
+	{
+		uid: "d7688200",
+		type: "item",
+		items: [{
+			item: "embers:dust_ash"
+		}]
+	}]
+}
