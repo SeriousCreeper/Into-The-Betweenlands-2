@@ -14,6 +14,7 @@ JEI.removeAndHide(<mysticalmechanics:gear_gold>);
 
 recipes.remove(<mystgears:gear_octine>);
 recipes.remove(<mystgears:gear_valonite>);
+recipes.remove(<mystgears:gear_tin>);
 
 
 recipes.remove(<mystgears:ember_gatling_gun>);

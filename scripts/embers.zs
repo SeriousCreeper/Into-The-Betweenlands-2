@@ -755,7 +755,7 @@ Melter.add(<liquid:dawnstone> * 144, <embers:aspectus_dawnstone>);
 //Stamper.remove(<embers:nugget_copper>);
 //Stamper.remove(<mystgears:gear_copper>);
 
-//Stamper.remove(<minecraft:iron_ingot>);
+Stamper.remove(<mystgears:gear_tin>);
 
 Stamper.add(<thebetweenlands:items_misc:11>, <liquid:syrmorite> * 144, <embers:stamp_bar>);
 Stamper.add(<thaumcraft:ingot:2>, <liquid:brass> * 144, <embers:stamp_bar>);
@@ -859,6 +859,8 @@ Mixer.remove(<liquid:gold>);
 Mixer.remove(<liquid:gold> * 4);
 Mixer.remove(<liquid:antimony>);
 Mixer.remove(<liquid:dawnstone> * 8);
+Mixer.remove(<liquid:tin>);
+Mixer.remove(<liquid:tin> * 4);
 Mixer.add(<liquid:dawnstone> * 8, [<liquid:copper> * 4, <liquid:octine> * 4]);
 
 Mixer.remove(<liquid:electrum> * 8);
