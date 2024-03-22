@@ -1,0 +1,40 @@
+{
+	title: "Willingly",
+	icon: "bloodmagic:soul_snare",
+	x: 8.25d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		"Using these §6Rudimentary Snares§r, it is possible to temporarily capture the §6Will§r of a being and extract it on its §6death§r. ",
+		"",
+		"§6Right clicking§r the Snare will §6launch§r it forwards. ",
+		"",
+		"§6White particles§r will indicate if the Will has been §6captured§r or not. "
+	],
+	dependencies: [
+		"61af6487"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "fe7895c1",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	},
+	{
+		uid: "2a1e4ec2",
+		type: "item",
+		items: [{
+			item: "bloodmagic:monster_soul"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b939d7a",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -8,9 +8,14 @@
 		"",
 		"The §6goal§r of the minigame is to get the §6fish§r all the way to the §6right§r before the §6crab§r catches it. ",
 		"",
-		"To §6move§r the fish, §6hold§r down or quickly §6tap§r§6 right click§r. §6Tapping§r is §6more effective§r than holding.",
+		"To §6move§r the fish, §6hold§r down or quickly §6tap§r§6 right click§r.",
+		"§6Tapping§r is §6more effective§r than holding.",
 		"",
-		"§6Obstacles§r will stop you and speed the §6crab§r up if you continue to hold/tap right click while passing them."
+		"§6Obstacles§r will stop you and speed the §6crab§r up if you continue to hold/tap right click while passing them.",
+		"",
+		"Once the minigame has been successfully §6completed§r, the fish has been §6caught§r and can be §6reeled§r by §6holding right-click§r. ",
+		"",
+		"To §6pickup§r the fish when it's close enough to you, §6right click§r it with the §6net§r."
 	],
 	dependencies: [
 		"b11edd10"

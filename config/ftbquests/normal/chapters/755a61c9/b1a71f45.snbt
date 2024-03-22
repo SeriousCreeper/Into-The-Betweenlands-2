@@ -29,6 +29,7 @@
 		"31812c1d"
 	],
 	optional: true,
+	min_width: 300,
 	tasks: [{
 		uid: "fb46ed17",
 		type: "checkmark",

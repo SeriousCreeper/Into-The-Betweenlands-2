@@ -1,0 +1,39 @@
+{
+	title: "Bloodthirsty",
+	x: 10.75d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		"Where there is power in the will of a being, there too is power in its §6blood§r, also known as §6life essence§r.",
+		"",
+		"Unfortunately, with this rudimentary §6Blood Altar§r, it's only possible to drain §6your§r own §6blood§r for now, using a §6Sacrifical Dagger§r.",
+		"",
+		"Stand near the altar, and press §6right-click§r while §6holding§r the dagger. ",
+		"",
+		"Each stab will add some life essence to the altar."
+	],
+	dependencies: [
+		"0439e5a1"
+	],
+	tasks: [{
+		uid: "a999a3ad",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "5c0187f7",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "512d1aa4",
+		type: "xp",
+		xp: 100
+	}]
+}

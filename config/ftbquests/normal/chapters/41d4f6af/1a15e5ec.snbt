@@ -1,0 +1,37 @@
+{
+	title: "Tier 1: Weak Blood Orb",
+	x: 12.0d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		"A §6Blood Orb§r is one of the many tools needed by Blood Mages.",
+		"",
+		"Once crafted, §6right-click§r it while holding it in your hand to §6bind§r your soul to it. ",
+		"",
+		"The Blood Orb acts similar to the §6Sacrifical Dagger§r, it can consume some of your life essence by right-clicking after it's been bound.",
+		"",
+		"It can also be §6filled§r by placing it inside a §6Blood Altar§r that contains life essence. ",
+		"",
+		"While it doesn't §6hold§r life essence directly, it's connected to your blood §6network§r."
+	],
+	dependencies: [
+		"5207bc9b"
+	],
+	tasks: [{
+		uid: "348a09e7",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "256ae58f",
+		type: "xp",
+		xp: 100
+	}]
+}

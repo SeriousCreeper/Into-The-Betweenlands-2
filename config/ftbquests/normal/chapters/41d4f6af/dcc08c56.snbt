@@ -1,0 +1,28 @@
+{
+	title: "Will Power",
+	x: 8.25d,
+	y: 3.25d,
+	shape: "circle",
+	text: [
+		"The §6Hellfire Forge§r can use the power of Will to §6create§r new and forbidden §6items§r.",
+		"",
+		"Each recipe requires a will that contains a §6minimum§r amount, and will §6consume§r a certain amount of will on craft.",
+		"",
+		"The will must be placed in the right side of the forge."
+	],
+	dependencies: [
+		"0439e5a1"
+	],
+	tasks: [{
+		uid: "33a40892",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "f4b472fa",
+		type: "xp",
+		xp: 100
+	}]
+}

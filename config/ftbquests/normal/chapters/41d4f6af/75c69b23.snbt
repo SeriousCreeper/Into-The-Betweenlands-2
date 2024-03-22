@@ -1,0 +1,31 @@
+{
+	x: 9.5d,
+	y: 3.25d,
+	shape: "circle",
+	text: [
+		"§6Arcane Ashes§r can be used to create powerful §6Alchemy Arrays§r.",
+		"",
+		"First, the Ash needs to be §6right-clicked§r the ground to create a §6circle§r. ",
+		"",
+		"Then apply the correct §6combination§r of §6items§r to create the array.",
+		"",
+		"§6Breaking§r the circle will §6drop§r any item that has been placed in it."
+	],
+	dependencies: [
+		"dcc08c56"
+	],
+	tasks: [{
+		uid: "b4cde09c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7aefd766",
+		type: "xp",
+		xp: 100
+	}]
+}

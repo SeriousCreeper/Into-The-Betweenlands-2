@@ -1,0 +1,32 @@
+{
+	x: 9.5d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"By combining §6Slates§r and §6Alchemy Arrays§r, it's possible to craft §6Sigils§r. ",
+		"",
+		"Sigils provide all kinds of different benefits and effects. ",
+		"",
+		"One of the more important ones is the §6Divination Sigil§r. which can be used to gain §6information§r about some blocks. ",
+		"",
+		"For example it will §6show§r the §6tier§r of a blood altar, as well as how much §6life essence§r it currently contains."
+	],
+	dependencies: [
+		"75c69b23",
+		"d031c19e"
+	],
+	tasks: [{
+		uid: "d4f337ef",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sigil_divination"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77c7d293",
+		type: "xp",
+		xp: 100
+	}]
+}

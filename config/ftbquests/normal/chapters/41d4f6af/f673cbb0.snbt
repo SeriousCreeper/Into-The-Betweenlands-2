@@ -4,7 +4,7 @@
 	y: 0.0d,
 	shape: "circle",
 	text: [
-		""
+		"Solve Cruelty's Riddle."
 	],
 	dependencies: [
 		"0d7e3578"

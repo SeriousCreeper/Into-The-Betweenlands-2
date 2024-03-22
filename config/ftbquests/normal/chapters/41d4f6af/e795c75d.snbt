@@ -1,0 +1,31 @@
+{
+	title: "Tier 2: Apprentice Blood Orb",
+	x: 13.25d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		"With the Blood Altar upgraded to §6Tier 2§r, it's possible to craft a better §6Blood Orb§r. ",
+		"",
+		"Higher tiers of blood orbs are necessary for higher tier §6recipes§r."
+	],
+	dependencies: [
+		"db3c0290",
+		"1a15e5ec"
+	],
+	tasks: [{
+		uid: "31712851",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:apprentice"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "320d6a22",
+		type: "xp",
+		xp: 100
+	}]
+}

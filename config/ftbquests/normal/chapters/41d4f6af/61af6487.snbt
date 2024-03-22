@@ -1,0 +1,32 @@
+{
+	x: 6.0d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		"Find the §6Sanguine Scientiem§r inside the §6Sanguine Halls§r."
+	],
+	dependencies: [
+		"36ff66cb"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "73b36039",
+		type: "item",
+		items: [{
+			item: "guideapi:bloodmagic-guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f789beac",
+		type: "gamestage",
+		title: "Unlock Blood Magic",
+		icon: {
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		},
+		auto: "no_toast",
+		stage: "bloodmagic"
+	}]
+}

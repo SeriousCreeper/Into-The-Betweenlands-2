@@ -1,0 +1,33 @@
+{
+	title: "Collecting Will",
+	x: 8.25d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"Since each will §6varies in size§r, it's very difficulty to store a large amount of them. ",
+		"",
+		"The §6Tartaric Gem§r automatically consumes any will on §6pickup§r and §6stores§r it inside the gem. ",
+		"",
+		"There is a §6limit§r of how much will a gem can §6hold§r, and eventually must be upgraded to hold more.",
+		"",
+		"It can also be used in the §6Hellfire Forge§r, like a normal Will would."
+	],
+	dependencies: [
+		"dcc08c56"
+	],
+	tasks: [{
+		uid: "fc9bc0f0",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9e50ab1",
+		type: "xp",
+		xp: 100
+	}]
+}

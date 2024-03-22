@@ -1,0 +1,25 @@
+{
+	x: 10.75d,
+	y: 3.25d,
+	shape: "circle",
+	text: [
+		"In order to §6upgrade§r the Blood Altar, §6Rune blocks§r are required. ",
+		"",
+		"The first tier are crafted out of §6Blank Slates§r, which are made by putting §6stone§r into the §6altar§r that contains life essence."
+	],
+	dependencies: [
+		"5207bc9b"
+	],
+	tasks: [{
+		uid: "469f6fbd",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}]
+	}],
+	rewards: [{
+		uid: "a25cd5c6",
+		type: "xp",
+		xp: 100
+	}]
+}

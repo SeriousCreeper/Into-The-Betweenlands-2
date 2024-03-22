@@ -1,0 +1,30 @@
+{
+	x: 8.25d,
+	y: 0.75d,
+	shape: "circle",
+	text: [
+		"Snares are difficult to come by, but by infusing a §6Living Sword§r with a §6Tartaric Gem§r, a §6Sentient Sword§r can be crafted. ",
+		"",
+		"Killing a being with this sword will §6drop§r their will as well, as if a snare was used on it. ",
+		"",
+		"Additionally, it's §6strength§r seems to be related to the §6amount of will§r one carries inside a tartartic gem. "
+	],
+	dependencies: [
+		"c6811c92"
+	],
+	tasks: [{
+		uid: "c7a2c6d7",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dac71a37",
+		type: "xp",
+		xp: 100
+	}]
+}
