@@ -195,8 +195,8 @@ scripts.utils.addShaped("beam_splitter", <embers:beam_splitter>, [
 
 recipes.remove(<embers:ember_relay>);
 scripts.utils.addShaped("ember_relay", <embers:ember_relay> * 4, [
-	[null, <ore:ingotSyrmorite>, null], 
-	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>], 
+	[null, <ore:ingotOctine>, null], 
+	[<ore:ingotCopper>, null, <ore:ingotCopper>], 
 	[null, <ore:plateSyrmorite>, null]
 ]);
 
