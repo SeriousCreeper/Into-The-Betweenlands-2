@@ -1,7 +1,7 @@
 {
 	title: "Druidic Wisdom",
 	icon: "roots:roots_guide",
-	x: -5.5d,
+	x: -6.0d,
 	y: -3.5d,
 	shape: "gear",
 	text: [

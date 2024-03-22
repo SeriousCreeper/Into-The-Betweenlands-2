@@ -1,0 +1,20 @@
+{
+	x: -8.0d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"While the staff can cast spells, the §6Gramary§r stores any learned spell. "
+	],
+	dependencies: [
+		"52110b41"
+	],
+	tasks: [{
+		uid: "cdae5a47",
+		type: "item",
+		items: [{
+			item: "roots:gramary"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

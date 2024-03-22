@@ -1,0 +1,27 @@
+{
+	title: "Modifying Spells",
+	x: -8.0d,
+	y: 3.0d,
+	shape: "gear",
+	text: [
+		"Once a spell has been applied to a Gramary, it can be further §6modified§r to change how it functions. ",
+		"",
+		"Place your staff that contains the spell onto an §6Imposer§r, and right-click it with a §6knife§r. ",
+		"",
+		"Select the spell you want to §6modify§r, then apply 1 of the items needed to §6unlock§r the modifier. ",
+		"",
+		"Once the modifier is unlocked, it can be §6toggled§r on and off on the same screen.",
+		"",
+		"As an example, \"§6Acid Cloud§r\" can be turned into \"§6Healing Cloud§r\" by applying §6Terra Moss§r."
+	],
+	dependencies: [
+		"cef56e68"
+	],
+	tasks: [{
+		uid: "3058ac2e",
+		type: "item",
+		items: [{
+			item: "roots:imposer"
+		}]
+	}]
+}

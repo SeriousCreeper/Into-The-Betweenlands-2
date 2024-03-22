@@ -1,0 +1,25 @@
+{
+	title: "Spell Casting",
+	x: -8.0d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"There are many §6spells§r available that can provide huge advantage in and out of combat.",
+		"",
+		"A §6staff§r is used to cast these spells."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"15494e7a"
+	],
+	tasks: [{
+		uid: "d0c0ede5",
+		type: "item",
+		items: [{
+			id: "roots:staff",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

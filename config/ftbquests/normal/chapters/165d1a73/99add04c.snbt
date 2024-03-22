@@ -1,7 +1,7 @@
 {
 	title: "Peaceful Fungus",
 	icon: "thebetweenlands:yellow_dotted_fungus",
-	x: -3.5d,
+	x: -4.0d,
 	y: -2.0d,
 	shape: "gear",
 	text: [

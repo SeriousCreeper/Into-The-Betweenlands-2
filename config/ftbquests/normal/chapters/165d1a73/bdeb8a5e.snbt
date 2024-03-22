@@ -1,6 +1,6 @@
 {
 	title: "Radiant Resonator",
-	x: -1.5d,
+	x: -2.0d,
 	y: 1.5d,
 	shape: "gear",
 	text: [
