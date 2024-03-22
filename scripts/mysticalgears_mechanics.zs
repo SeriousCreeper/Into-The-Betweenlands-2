@@ -135,3 +135,9 @@ scripts.utils.addShaped("mergebox_frame", <mysticalmechanics:mergebox_frame>, [
 //<mysticalmechanics:gear_gold_on>.displayName = "Bluedust Gear (Inverted)";
 //<mysticalmechanics:gear_gold_off>.displayName = "Bluedust Gear";
 <mysticalmechanics:gear_fan>.displayName = "Syrmorite Fan";
+<mystgears:gear_lead:*>.displayName = "Gloomsilver Gear";
+<mystgears:gear_copper:*>.displayName = "Russite Gear";
+<mystgears:gear_aluminium:*>.displayName = "Lumicite Gear";
+<mystgears:gear_tin:*>.displayName = "";
+<mystgears:gear_nickel:*>.displayName = "Nyxite Gear";
+<mystgears:gear_silver:*>.displayName = "Mirrium Gear";
