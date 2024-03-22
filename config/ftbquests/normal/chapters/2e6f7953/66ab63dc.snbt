@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	shape: "gear",
+	text: [
+		"§6Crab pots§r need to be in water and when anadia §6parts§r or §6remains§r are added it'll attract crabs who will get trapped inside. ",
+		"",
+		"§6Right-click§r to retrieve the crab once caught."
+	],
+	dependencies: [
+		"4558c086"
+	],
+	tasks: [{
+		uid: "a6951e35",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crab_pot"
+		}]
+	}],
+	rewards: [{
+		uid: "b20a81a6",
+		type: "xp",
+		xp: 100
+	}]
+}

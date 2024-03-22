@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	shape: "gear",
+	text: [
+		"Making a §6fishing float§r and §6hook§r is one of the first steps to making a §6fishing rod§r."
+	],
+	dependencies: [
+		"264c06a0"
+	],
+	tasks: [{
+		uid: "3db1cf11",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 60"
+		}]
+	}],
+	rewards: [{
+		uid: "add59621",
+		type: "xp",
+		xp: 100
+	}]
+}

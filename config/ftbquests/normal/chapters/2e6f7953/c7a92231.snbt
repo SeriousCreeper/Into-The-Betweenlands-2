@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"Can be added to any piece.",
+		"Reduces the rate of decay."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "f0e1ce9b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_spit"
+		}]
+	}]
+}

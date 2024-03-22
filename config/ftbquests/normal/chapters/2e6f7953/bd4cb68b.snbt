@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"Can only be added to any piece.",
+		"Chance to deal up to 6 damage to attacking enemies."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "81cbcfb6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 59"
+		}]
+	}]
+}

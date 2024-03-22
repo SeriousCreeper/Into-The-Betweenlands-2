@@ -1,0 +1,33 @@
+{
+	title: "Sinking speed modifiers",
+	icon: "thebetweenlands:items_crushed 1 53",
+	x: 3.5d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"The ground betweenstone §6pebbles§r will have the bait sink to the bottom quicker, while ground §6bladderwort stalk§r will do the opposite."
+	],
+	dependencies: [
+		"918151d8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "989ccba0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_crushed 1 61"
+		}]
+	},
+	{
+		uid: "5417efdd",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_crushed 1 53"
+		}]
+	}],
+	rewards: [{
+		uid: "79b677f8",
+		type: "xp",
+		xp: 100
+	}]
+}

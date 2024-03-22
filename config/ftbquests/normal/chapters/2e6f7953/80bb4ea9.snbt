@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	shape: "gear",
+	text: [
+		"By keeping spare §6silk§r, §6fishing float§r, and §6hook§r you can §6repair§r your rod without returning home."
+	],
+	dependencies: [
+		"b11edd10"
+	],
+	tasks: [{
+		uid: "a2579727",
+		type: "checkmark",
+		title: "Repairing on the fly",
+		icon: "thebetweenlands:items_misc 1 60"
+	}]
+}

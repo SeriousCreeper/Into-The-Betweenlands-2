@@ -1,0 +1,36 @@
+{
+	icon: "thebetweenlands:fish_trimming_table",
+	x: -0.5d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"You'll need this to §6butcher§r your freshly caught fish. ",
+		"",
+		"When butchering you'll have a choice of §6parts§r in the §6top 3 slots§r.",
+		"",
+		"Anything you don't want can be turned into §6anadia remains§r on the §6bottom left side§r. ",
+		"",
+		"Works on §6crabs§r too!"
+	],
+	tasks: [{
+		uid: "e5d72f62",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:fish_trimming_table"
+		}]
+	},
+	{
+		uid: "7c0fab29",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17dfb0fa",
+		type: "xp",
+		xp: 100
+	}]
+}

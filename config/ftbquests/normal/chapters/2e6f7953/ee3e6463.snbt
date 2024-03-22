@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"Can be added to the helmet only.",
+		"Applies night vision while underwater."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "d5406c7a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 52"
+		}]
+	}]
+}

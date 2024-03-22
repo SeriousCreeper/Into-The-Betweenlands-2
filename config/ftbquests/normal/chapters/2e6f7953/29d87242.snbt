@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"Can be added to any piece.",
+		"Increases the armor toughness."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "65589dcb",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 55"
+		}]
+	}]
+}

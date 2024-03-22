@@ -1,0 +1,33 @@
+{
+	title: "Dissolve time modifiers",
+	icon: "thebetweenlands:items_misc 1 26",
+	x: 3.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"Ground §6milkweed§r will shorten how long the bait stays around, while §6tar drip§r will make it stay around longer."
+	],
+	dependencies: [
+		"918151d8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cb9eb93b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 26"
+		}]
+	},
+	{
+		uid: "10ddef18",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_crushed 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "d613305e",
+		type: "xp",
+		xp: 100
+	}]
+}

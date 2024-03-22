@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -2.5d,
+	shape: "gear",
+	text: [
+		"In order to fish you will need a §6fishing rod§r, §6bait§r, and a §6net§r, and then find an §6Anadia§r fish out in the §6world§r."
+	],
+	dependencies: [
+		"bcff03ed"
+	],
+	tasks: [{
+		uid: "c94e7284",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "229af43b",
+		type: "xp",
+		xp: 100
+	}]
+}

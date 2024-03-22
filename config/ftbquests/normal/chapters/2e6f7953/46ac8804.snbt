@@ -1,0 +1,22 @@
+{
+	title: "Slayer Of Fish!",
+	x: -3.5d,
+	y: -4.5d,
+	shape: "gear",
+	text: [
+		"You've become the hunter of fish!"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2fd8fcef",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 21"
+		}]
+	}],
+	rewards: [{
+		uid: "108df285",
+		type: "xp",
+		xp: 100
+	}]
+}

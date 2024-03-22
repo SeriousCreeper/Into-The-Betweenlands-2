@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"Can be added to the chestplate only.",
+		"Raises enemies into the air."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "66ffc670",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aa_upgrade_vortex"
+		}]
+	}]
+}

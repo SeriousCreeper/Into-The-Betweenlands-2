@@ -1,0 +1,37 @@
+{
+	title: "Fishing gear",
+	icon: "thebetweenlands:lurker_skin_helmet",
+	x: -1.5d,
+	y: -0.5d,
+	shape: "gear",
+	text: [
+		"To make amphibious armor you'll first need a set of §6lurker armor§r."
+	],
+	dependencies: [
+		"1aa7b81e"
+	],
+	tasks: [{
+		uid: "4fa1216a",
+		type: "item",
+		title: "Any Lurker Armor Piece",
+		items: [{
+			item: "thebetweenlands:lurker_skin_helmet"
+		},
+		{
+			item: "thebetweenlands:lurker_skin_chestplate"
+		},
+		{
+			item: "thebetweenlands:lurker_skin_leggings"
+		},
+		{
+			item: "thebetweenlands:lurker_skin_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d21490a1",
+		type: "xp",
+		xp: 100
+	}]
+}

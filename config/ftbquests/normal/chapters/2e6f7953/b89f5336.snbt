@@ -1,0 +1,34 @@
+{
+	title: "Turning it off an on again.",
+	icon: "thebetweenlands:aa_upgrade_toggle",
+	x: 2.5d,
+	y: 3.0d,
+	shape: "gear",
+	text: [
+		"These allow you to activate or toggle abilities for the amphibious armor."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "b3c72716",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aa_upgrade_trigger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a6401d8e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aa_upgrade_toggle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

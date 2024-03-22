@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"Can be added to the chestplate only.",
+		"Increases underwater mining speed."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "d57b96ff",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 58"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	icon: "thebetweenlands:fish_bait",
+	x: 2.5d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"Make the fish come to you by grinding up §6worms§r and shooting into the water with a §6sling shot§r.",
+		"",
+		"Can be crafted with other things to §6improve§r it."
+	],
+	dependencies: [
+		"84889004"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3c5ea7b9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:fish_bait"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "795077d0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:simple_slingshot"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d7f142af",
+		type: "xp",
+		xp: 100
+	}]
+}

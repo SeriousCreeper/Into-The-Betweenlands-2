@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	shape: "gear",
+	text: [
+		"Use that tooth to fight back."
+	],
+	dependencies: [
+		"46ac8804"
+	],
+	tasks: [{
+		uid: "b907ab83",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:fishing_spear"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0ac8b5e",
+		type: "xp",
+		xp: 100
+	}]
+}

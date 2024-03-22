@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -0.5d,
+	shape: "gear",
+	text: [
+		"§6Anadia Remains§r can be used to §6capture crabs§r using §6crab pots§r, which can then be put to §6work§r in a crab pot §6filter§r.",
+		"",
+		"Additionally, remains can be §6steeped§r into §6fish oil§r to craft §6dyes§r."
+	],
+	dependencies: [
+		"3c976fdc"
+	],
+	tasks: [{
+		uid: "1e612224",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "9e589cfd",
+		type: "xp",
+		xp: 100
+	}]
+}

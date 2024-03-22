@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"Can be added to either the chestplate or helmet.",
+		"Extends how long you can hold your breath."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "34ba1455",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 53"
+		}]
+	}]
+}

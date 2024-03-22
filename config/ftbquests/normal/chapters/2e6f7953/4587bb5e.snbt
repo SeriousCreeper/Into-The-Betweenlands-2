@@ -1,0 +1,24 @@
+{
+	icon: "thebetweenlands:anadia",
+	x: 1.5d,
+	y: -2.5d,
+	shape: "gear",
+	text: [
+		"Once a fish bites, a §6minigame§r will start.",
+		"",
+		"The §6goal§r of the minigame is to get the §6fish§r all the way to the §6right§r before the §6crab§r catches it. ",
+		"",
+		"To §6move§r the fish, §6hold§r down or quickly §6tap§r§6 right click§r. §6Tapping§r is §6more effective§r than holding.",
+		"",
+		"§6Obstacles§r will stop you and speed the §6crab§r up if you continue to hold/tap right click while passing them."
+	],
+	dependencies: [
+		"b11edd10"
+	],
+	tasks: [{
+		uid: "600bbbd0",
+		type: "checkmark",
+		title: "Fishing minigame",
+		icon: "thebetweenlands:items_misc 1 50"
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Range modifiers",
+	icon: "thebetweenlands:crab_stick",
+	x: 3.25d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"§6Crabsticks§r increase the range fish detect bait, while §6sap spit§r decreases that range."
+	],
+	dependencies: [
+		"918151d8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "81514e7d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crab_stick"
+		}]
+	},
+	{
+		uid: "15131c4a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_spit"
+		}]
+	}],
+	rewards: [{
+		uid: "48fae641",
+		type: "xp",
+		xp: 100
+	}]
+}

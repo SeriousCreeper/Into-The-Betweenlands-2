@@ -1,0 +1,33 @@
+{
+	title: "Fishing Spear 3.0 parts",
+	icon: "thebetweenlands:shambler_tongue",
+	x: -3.5d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"There are still improvements to be made."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"46ac8804"
+	],
+	tasks: [{
+		uid: "30d17b48",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 59"
+		}]
+	},
+	{
+		uid: "88fce4b4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:shambler_tongue"
+		}]
+	}],
+	rewards: [{
+		uid: "17616330",
+		type: "xp",
+		xp: 100
+	}]
+}

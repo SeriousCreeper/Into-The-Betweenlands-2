@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"Can be added to leggings only.",
+		"Leap up to 10 blocks out of the water by sneaking on the floor for a second."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "150c77e5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aa_upgrade_leap"
+		}]
+	}]
+}

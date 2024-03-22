@@ -1,0 +1,22 @@
+{
+	x: 2.5d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"Can be applied to chestplate, leggings, or boots.",
+		"Increases swim speed."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "49973b5f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 57"
+		}]
+	}]
+}

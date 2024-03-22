@@ -1,0 +1,22 @@
+{
+	x: 2.5d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"Can be added to chestplate or leggings.",
+		"Increases swim speed when moving up or down."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "cddec20c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 51"
+		}]
+	}]
+}

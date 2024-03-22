@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"Can be added to the chestplate or leggings.",
+		"Adds a chance to resist knockback."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "3a8053a7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 4"
+		}]
+	}]
+}

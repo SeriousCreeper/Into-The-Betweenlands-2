@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"Can be added to helmet only.",
+		"Highlights nearby anadia."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "4ec12d29",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:glowing_goop"
+		}]
+	}]
+}

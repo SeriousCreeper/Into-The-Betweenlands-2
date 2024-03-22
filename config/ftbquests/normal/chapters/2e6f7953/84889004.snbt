@@ -1,0 +1,37 @@
+{
+	icon: "thebetweenlands:tiny_sludge_worm",
+	x: 1.5d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"§6Tiny sludgeworms§r are what you use to §6bait§r your fishing rod. ",
+		"",
+		"They can be §6dug out§r of the ground using a §6shovel§r and captured using a §6net§r."
+	],
+	dependencies: [
+		"b11edd10"
+	],
+	tasks: [{
+		uid: "0ec2b902",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:tiny_sludge_worm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b902f15",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:net"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "40b11693",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "\"A Fin-tastic Guide to Fishing\" by Stroam",
+	icon: "thebetweenlands:items_misc 1 60",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: 0.0d,
+		width: 20.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/background_old_fishing_notepad.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

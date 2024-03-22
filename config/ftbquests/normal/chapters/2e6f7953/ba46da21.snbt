@@ -1,0 +1,41 @@
+{
+	title: "Amphibious gear",
+	icon: "thebetweenlands:amphibious_helmet",
+	x: -1.5d,
+	y: 0.5d,
+	shape: "gear",
+	text: [
+		"§6Amphibious gear§r when held in hand can be §6right clicked§r to open up an §6upgrade§r menu. ",
+		"",
+		"By adding §6fish parts§r and §6other items§r the gear can be strengthened and abilities can be added.",
+		"",
+		"Each upgrade slot can hold §63§r of the §6same§r item, and will §6damage§r them depending on use."
+	],
+	dependencies: [
+		"4bc02ae9"
+	],
+	tasks: [{
+		uid: "46e6167d",
+		type: "item",
+		title: "Any Amphibious Armor Piece",
+		items: [{
+			item: "thebetweenlands:amphibious_helmet"
+		},
+		{
+			item: "thebetweenlands:amphibious_chestplate"
+		},
+		{
+			item: "thebetweenlands:amphibious_leggings"
+		},
+		{
+			item: "thebetweenlands:amphibious_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5126aec",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"Can only be added to the chestplate.",
+		"Zaps attackers or nearby mobs for up to 5 damage per mob."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba46da21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "fcb400d0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aa_upgrade_electric"
+		}]
+	}]
+}

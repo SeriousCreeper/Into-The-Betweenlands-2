@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	shape: "gear",
+	text: [
+		"Worms can be put in §6jars§r. ",
+		"",
+		"§6Left-clicking§r a fishing pole on a jar makes baiting it easy.",
+		"",
+		"You'll probably want more than one jar."
+	],
+	dependencies: [
+		"84889004"
+	],
+	tasks: [{
+		uid: "8b5eea1a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:silt_glass_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "5033151c",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"With fins the spear can now swim through the water."
+	],
+	dependencies: [
+		"737edf0b",
+		"168f5262"
+	],
+	tasks: [{
+		uid: "5b0b6642",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:fishing_spear_amphibious"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d88b19d4",
+		type: "xp",
+		xp: 100
+	}]
+}

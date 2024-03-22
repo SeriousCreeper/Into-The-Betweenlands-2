@@ -1,0 +1,49 @@
+{
+	title: "Fish parts",
+	icon: "thebetweenlands:items_misc 1 55",
+	x: -1.5d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"Fish parts can be acquired by §6trimming§r a fish.",
+		"",
+		"An §6Amphibious Armor§r can make use of them!"
+	],
+	dependencies: [
+		"737edf0b",
+		"3c976fdc"
+	],
+	tasks: [{
+		uid: "eac5323b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 52"
+		}]
+	},
+	{
+		uid: "6b79a158",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 54"
+		}]
+	},
+	{
+		uid: "2b587367",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 53"
+		}]
+	},
+	{
+		uid: "23ebc3e1",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 55"
+		}]
+	}],
+	rewards: [{
+		uid: "3c00f7ba",
+		type: "xp",
+		xp: 100
+	}]
+}

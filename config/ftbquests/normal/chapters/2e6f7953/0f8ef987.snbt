@@ -1,0 +1,28 @@
+{
+	x: 0.5d,
+	y: 0.5d,
+	shape: "gear",
+	text: [
+		"Don't want all those fishing supplies taking up your inventory? ",
+		"A fishing §6tackle box§r can store all of that for you. ",
+		"",
+		"Open it by §6left-clicking§r.",
+		"",
+		"It also works as a seat!"
+	],
+	dependencies: [
+		"a50cd05e"
+	],
+	tasks: [{
+		uid: "ba3875f6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:fishing_tackle_box"
+		}]
+	}],
+	rewards: [{
+		uid: "6933fb0a",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: 1.5d,
+	shape: "gear",
+	text: [
+		"§6Crab pot filters§r are placed §6below§r crab pots. ",
+		"",
+		"If a crab is inside and bribed with §6anadia remains§r it can §6purify§r or §6convert§r items."
+	],
+	dependencies: [
+		"66ab63dc"
+	],
+	tasks: [{
+		uid: "91a5fcc0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crab_pot_filter"
+		}]
+	}],
+	rewards: [{
+		uid: "dd8bc807",
+		type: "xp",
+		xp: 100
+	}]
+}
