@@ -833,7 +833,7 @@ natures_scythe.setString("web_dictionary", "ns_webs");
 var shatter = Spells.getSpell("shatter") as Spell;
 
 var acid_cloud = Spells.getSpell("acid_cloud") as Spell;
-acid_cloud.setFloat("healing", 0.1);
+acid_cloud.setFloat("healing", 0.2);
 acid_cloud.setInteger("regeneration", 80);
 
 Chrysopoeia.removeRecipeByOutput(<minecraft:leather>);
