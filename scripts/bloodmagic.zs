@@ -228,9 +228,9 @@ scripts.utils.addShaped("bloodmagic-ritual_controller_master", <bloodmagic:ritua
 
 recipes.removeByRecipeName("bloodmagic:ritual_stone_blank");
 scripts.utils.addShaped("bloodmagic-ritual_stone_blank", <bloodmagic:ritual_stone> * 4, [
-	[<minecraft:obsidian>, <bloodmagic:slate:1>, <minecraft:obsidian>], 
+	[<thebetweenlands:tar_solid>, <bloodmagic:slate:1>, <thebetweenlands:tar_solid>], 
 	[<bloodmagic:slate:1>, tier2Orbs, <bloodmagic:slate:1>],
-	[<minecraft:obsidian>, <bloodmagic:slate:1>, <minecraft:obsidian>]
+	[<thebetweenlands:tar_solid>, <bloodmagic:slate:1>, <thebetweenlands:tar_solid>]
 ]);
 
 
