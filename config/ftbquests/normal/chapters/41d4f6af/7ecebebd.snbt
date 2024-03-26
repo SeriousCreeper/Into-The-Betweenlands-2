@@ -1,0 +1,40 @@
+{
+	title: "Symbiosis",
+	x: 9.5d,
+	y: -0.5d,
+	shape: "circle",
+	text: [
+		"§6Living Armor§r enters a §6symbiotic relationship§r with the wearer, slowly §6adapting§r to the wearers behaviours.",
+		"",
+		"For example when someone takes frequent §6fall damage§r, the armor will start to apply §6protection§r against fall damage. ",
+		"",
+		"If the wearer §6sprints§r a lot, the armor will provide additional §6speed§r. ",
+		"",
+		"There is a §6limit§r of how many upgrades the armor piece can hold.",
+		"",
+		"Only the §6chestpiece§r gains these benefits, and a §6full set§r must be worn for it to apply. "
+	],
+	dependencies: [
+		"f0e5b770"
+	],
+	tasks: [{
+		uid: "2813467b",
+		type: "item",
+		title: "Living Armor",
+		items: [{
+			item: "bloodmagic:living_armour_helmet"
+		},
+		{
+			id: "bloodmagic:living_armour_chest",
+			tag: {}
+		},
+		{
+			item: "bloodmagic:living_armour_leggings"
+		},
+		{
+			item: "bloodmagic:living_armour_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

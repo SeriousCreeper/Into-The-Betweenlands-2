@@ -1,0 +1,40 @@
+{
+	x: 14.5d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"By §6default§r, just placing the Incense Altar provides a §620% bonus§r. ",
+		"",
+		"To further improve this, blocks that provide tranquility need to be placed within the altars §6range§r. ",
+		"",
+		"To start out, place a §63x3§r of §6Wooden Path§r blocks in each §6cardinal§r direction of the altar, leaving §61 block gap§r between path and altar.",
+		"",
+		"Each \"ring\" of path blocks can be 1 block §6lower§r or §6higher§r than the previous one, as long as they match the §6same layout§r on all 4 sides.",
+		"",
+		"For example a pyramid shape would be valid.",
+		"",
+		"Now, blocks that provide §6tranquility§r can be placed inside the 3x3 §6corners§r between the paths.",
+		"",
+		"These can be placed on the §6same height§r as the path, as well as up to §62 blocks above§r."
+	],
+	dependencies: [
+		"e795c75d",
+		"a914c325"
+	],
+	tasks: [{
+		uid: "ce585e05",
+		type: "item",
+		title: "Wooden Path",
+		items: [{
+			item: "bloodmagic:path"
+		},
+		{
+			item: "bloodmagic:path 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "43814cef",
+		type: "xp",
+		xp: 100
+	}]
+}

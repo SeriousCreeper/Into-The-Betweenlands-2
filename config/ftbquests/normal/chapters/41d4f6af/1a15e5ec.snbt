@@ -8,11 +8,13 @@
 		"",
 		"Once crafted, §6right-click§r it while holding it in your hand to §6bind§r your soul to it. ",
 		"",
-		"The Blood Orb acts similar to the §6Sacrifical Dagger§r, it can consume some of your life essence by right-clicking after it's been bound.",
+		"The Blood Orb acts similar to the §6Sacrifical Dagger§r, it can consume some of your life essence by right-clicking after it has been bound.",
 		"",
-		"It can also be §6filled§r by placing it inside a §6Blood Altar§r that contains life essence. ",
+		"However, instead of releasing the life essence into the blood altar, it §6stores§r it in your §6soul network§r.",
 		"",
-		"While it doesn't §6hold§r life essence directly, it's connected to your blood §6network§r."
+		"This is an intangible place that can be accessed, and used, in many different ways.",
+		"",
+		"The orb can also be §6placed§r into a blood altar, where it will §6drain§r the life essence from the altar, and store it in the network."
 	],
 	dependencies: [
 		"5207bc9b"
@@ -27,7 +29,7 @@
 			}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "256ae58f",

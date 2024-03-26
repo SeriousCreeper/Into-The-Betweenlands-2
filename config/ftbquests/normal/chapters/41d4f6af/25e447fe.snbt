@@ -1,0 +1,32 @@
+{
+	title: "Tranquil Blocks",
+	icon: "botania:cosmetic 1 31",
+	x: 15.75d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"Repeating the §6same§r types of blocks will have §6diminishing§r returns, therefore a mix of §6different§r blocks should be used.",
+		"The maximum bonus that can be reached is §6300%§r.",
+		"",
+		"Blocks that add tranquility:",
+		"- Magical Logs",
+		"- Leaves",
+		"- Water",
+		"- Weedwood Bushes",
+		"- Dirt and Grass",
+		"- Composted Purified Dirt and Grass",
+		"- White Pear Fruits",
+		"- Fungus",
+		"- Flowers from Roots",
+		"- Smoldering Peat",
+		"- Fire",
+		"- Life Essence"
+	],
+	dependencies: [
+		"fe9f22a6"
+	],
+	tasks: [{
+		uid: "42c8abab",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 8.25d,
+	y: -1.75d,
+	shape: "circle",
+	text: [
+		"By §6right-clicking§r a §6Sentient Armor Gem§r while having a tartaric gem with §6Will§r inside ones inventory, a §6temporary§r set of armor gets equipped that replaces the currently equipped set until §6deactivated§r.",
+		"",
+		"The strength of the Sentient Armor set §6increases§r with the amount of §6Will§r one carries.",
+		"",
+		"Everytime it absorbs damage, some of the will be used up as well."
+	],
+	dependencies: [
+		"887ef809"
+	],
+	tasks: [{
+		uid: "dc300402",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sentient_armour_gem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

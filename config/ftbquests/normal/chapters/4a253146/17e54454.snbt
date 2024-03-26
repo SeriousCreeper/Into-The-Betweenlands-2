@@ -49,5 +49,10 @@
 		items: [{
 			item: "embers:dust_ash"
 		}]
+	}],
+	rewards: [{
+		uid: "58468329",
+		type: "xp",
+		xp: 100
 	}]
 }

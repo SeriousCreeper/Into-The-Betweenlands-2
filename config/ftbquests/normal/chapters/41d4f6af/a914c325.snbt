@@ -1,0 +1,37 @@
+{
+	x: 14.5d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		"Stabbing oneself over and over again is not the most efficient way of releasing life essence. ",
+		"",
+		"With a bit of meditation in a §6tranquil§r place, this can be §6enhanced§r greatly. ",
+		"",
+		"The §6Incense Altar§r is a complex §6multiblock§r structure that improves the §6sacrifical dagger§r. ",
+		"",
+		"Being §6near§r the incense altar will imbue the sacrificial dagger §6temporarily§r, indicated by its change in appearance.",
+		"",
+		"Upon use of the sacrifical dagger (near a §6blood altar§r), it will consume §6most§r of ones life essence in §61 stab§r, as well as provide §6bonus§r life essence. ",
+		"",
+		"Afterwards, one has to meditate near the incense altar again.",
+		"",
+		"The bonus the altar provides can be seen by holding a§6 Divination Sigil§r while looking at it.",
+		"",
+		"By §6default§r, the incense altar provides a §620%§r bonus."
+	],
+	dependencies: [
+		"1a15e5ec"
+	],
+	tasks: [{
+		uid: "ba1c68f3",
+		type: "item",
+		items: [{
+			item: "bloodmagic:incense_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "d2d0070e",
+		type: "xp",
+		xp: 100
+	}]
+}

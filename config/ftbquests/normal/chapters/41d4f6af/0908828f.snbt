@@ -1,0 +1,42 @@
+{
+	title: "Tier 5: Void Metal Block",
+	icon: {
+		id: "bloodmagic:blood_orb",
+		tag: {
+			orb: "bloodmagic:archmage"
+		}
+	},
+	x: 13.25d,
+	y: -1.75d,
+	shape: "circle",
+	text: [
+		"Crafted in a §6Tier 5§r blood altar. ",
+		"",
+		"Use the§6 Inspectoris Scandalum§r to see the requirements for a Tier 5 Altar."
+	],
+	dependencies: [
+		"90de966b"
+	],
+	tasks: [{
+		uid: "9408e5e3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_void"
+		}]
+	},
+	{
+		uid: "c67b2d33",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c8c22c80",
+		type: "xp",
+		xp: 100
+	}]
+}

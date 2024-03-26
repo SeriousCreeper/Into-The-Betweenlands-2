@@ -18,5 +18,10 @@
 		items: [{
 			item: "embers:beam_cannon"
 		}]
+	}],
+	rewards: [{
+		uid: "0936610b",
+		type: "xp",
+		xp: 100
 	}]
 }

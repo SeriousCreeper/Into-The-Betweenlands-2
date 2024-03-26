@@ -1,0 +1,54 @@
+{
+	title: "Tier 4: Master Blood Orb",
+	icon: {
+		id: "bloodmagic:blood_orb",
+		tag: {
+			orb: "bloodmagic:master"
+		}
+	},
+	x: 13.25d,
+	y: -0.5d,
+	shape: "circle",
+	text: [
+		"Crafted in a §6Tier 4§r blood altar. ",
+		"",
+		"Use the§6 Inspectoris Scandalum§r to see the requirements for a Tier 4 Altar."
+	],
+	dependencies: [
+		"fb70891d",
+		"b45a5d3d"
+	],
+	tasks: [{
+		uid: "2784b9f2",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_shard"
+		}]
+	},
+	{
+		uid: "8d2285a7",
+		type: "item",
+		title: "Bloodstone",
+		items: [{
+			item: "bloodmagic:decorative_brick"
+		},
+		{
+			item: "bloodmagic:decorative_brick 1 1"
+		}]
+	},
+	{
+		uid: "7f996138",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:master"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "492f99fa",
+		type: "xp",
+		xp: 100
+	}]
+}

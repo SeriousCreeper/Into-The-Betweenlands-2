@@ -1,11 +1,14 @@
 {
+	title: "Blank Runes",
 	x: 12.0d,
 	y: 3.25d,
 	shape: "circle",
 	text: [
 		"Combining §6Blank Slates§r and the §6Blood Orb §rallows you to craft §6Blank Runes§r.",
 		"",
-		"Placing 8 of these 1 block below and around the Blood Altar will upgrade it to §6Tier 2§r."
+		"The orb does §6not§r get consumed.",
+		"",
+		"Placing §68§r of these in a ring 1 block lower than the Blood Altar will upgrade the altar to §6Tier 2§r."
 	],
 	dependencies: [
 		"1a15e5ec",

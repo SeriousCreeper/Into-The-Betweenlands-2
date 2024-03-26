@@ -1,0 +1,29 @@
+{
+	x: 14.5d,
+	y: 0.75d,
+	shape: "circle",
+	text: [
+		"The next tier of path blocks are Stone Paths. ",
+		"",
+		"These can be placed in a §63x5§r area."
+	],
+	dependencies: [
+		"fe9f22a6"
+	],
+	tasks: [{
+		uid: "2e4b40c5",
+		type: "item",
+		title: "Stone Path",
+		items: [{
+			item: "bloodmagic:path 1 3"
+		},
+		{
+			item: "bloodmagic:path 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "eb2f7104",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -5,7 +5,7 @@
 	text: [
 		"Restore the Ancient Tablet.",
 		"",
-		"§6Note§r: Choosing §6Blood Magic§r will most likely §6break§r the §6Pacifist Challenge§r."
+		"§6Note§r: Choosing §6Blood Magic§r will §6break§r the §6Pacifist Challenge§r."
 	],
 	dependencies: [
 		"e0b5020e",

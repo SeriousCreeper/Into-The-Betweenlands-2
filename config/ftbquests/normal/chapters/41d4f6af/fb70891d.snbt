@@ -1,0 +1,59 @@
+{
+	x: 10.75d,
+	y: -0.5d,
+	shape: "circle",
+	text: [
+		"By default, the §6bound blade§r and §6tools§r are inactive and not very effective. ",
+		"",
+		"To §6activate§r the blade and tools, §6sneak right-click§r while holding it. ",
+		"",
+		"When §6active§r, the damage and effectiveness is §6increased§r, but will §6consume life essence§r from your soul network over time.",
+		"",
+		"Killing a mob with the §6Bound Blade§r, it has a chance to drop a §6Blood Shard§r.",
+		"",
+		"The §6tools§r have something called \"§6Beast Mode§r\". ",
+		"Holding down §6right-click§r while they are active will §6charge§r them up. ",
+		"§6Releasing§r once charged up will mine up to a §65x5§r area, at the cost of §610k life essence§r.",
+		"",
+		"If there is not enough life essence in the network, it can be quite §6deadly§r."
+	],
+	dependencies: [
+		"f0e5b770"
+	],
+	tasks: [{
+		uid: "f2f11b37",
+		type: "item",
+		title: "Bound Gear",
+		items: [{
+			id: "bloodmagic:bound_axe",
+			tag: {
+				Unbreakable: 1b
+			}
+		},
+		{
+			id: "bloodmagic:bound_shovel",
+			tag: {
+				Unbreakable: 1b
+			}
+		},
+		{
+			id: "bloodmagic:bound_sword",
+			tag: {
+				Unbreakable: 1b
+			}
+		},
+		{
+			id: "bloodmagic:bound_pickaxe",
+			tag: {
+				Unbreakable: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "94c6b60f",
+		type: "xp",
+		xp: 100
+	}]
+}

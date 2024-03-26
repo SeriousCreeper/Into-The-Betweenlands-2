@@ -1,0 +1,33 @@
+{
+	x: 13.25d,
+	y: 3.25d,
+	shape: "circle",
+	text: [
+		"The §6Inspectoris Scandalum§r is a nifty book that can what blocks are §6required§r, and where they need to be placed, in order to §6upgrade§r a Blood Altar to the next tier. ",
+		"",
+		"§6Right-clicking§r the book in the §6air§r will §6cycle§r which altar tier it should display. ",
+		"",
+		"Once a tier has been selected, §6sneak right-click§r the §6blood altar§r to view ghost blocks of the required structure in-world. ",
+		"",
+		"To §6remove§r the ghost blocks again, set the book to §6tier 1§r and sneak right-click the altar again.",
+		"",
+		"Note that the §6Betweenstone Bricks§r can be replaced with any other block."
+	],
+	dependencies: [
+		"1a15e5ec"
+	],
+	tasks: [{
+		uid: "515b0f0b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sanguine_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6227150e",
+		type: "xp",
+		xp: 100
+	}]
+}

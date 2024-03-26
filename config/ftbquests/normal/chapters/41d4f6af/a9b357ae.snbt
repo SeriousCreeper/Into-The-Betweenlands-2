@@ -1,0 +1,34 @@
+{
+	x: 12.0d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"Blank Runes can further be §6augmented§r to provide additional §6bonuses§r, such as increasing the efficiency of the sacrifical dagger. ",
+		"",
+		"These can be placed §6anywhere§r where a normal §6Blank Rune§r is placed.",
+		"",
+		"The only exception are the corners of the §6Tier 2§r Blood Altar."
+	],
+	dependencies: [
+		"db3c0290"
+	],
+	tasks: [{
+		uid: "c68f8c71",
+		type: "item",
+		title: "Augmented Rune",
+		items: [{
+			item: "bloodmagic:blood_rune 1 1"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 3"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "d17cb0a6",
+		type: "xp",
+		xp: 100
+	}]
+}

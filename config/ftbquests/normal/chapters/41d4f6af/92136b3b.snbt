@@ -1,0 +1,29 @@
+{
+	x: 14.5d,
+	y: -1.75d,
+	shape: "circle",
+	text: [
+		"The last tier of path blocks are Stone Paths. ",
+		"",
+		"These can be placed in a §63x9§r area."
+	],
+	dependencies: [
+		"544548ea"
+	],
+	tasks: [{
+		uid: "80442f2f",
+		type: "item",
+		title: "Obsidian Path",
+		items: [{
+			item: "bloodmagic:path 1 6"
+		},
+		{
+			item: "bloodmagic:path 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "5809e2b0",
+		type: "xp",
+		xp: 100
+	}]
+}

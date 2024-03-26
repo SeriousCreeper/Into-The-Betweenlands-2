@@ -5,17 +5,17 @@
 	y: -1.0d,
 	shape: "diamond",
 	text: [
-		"Now that you have embers, you can use an Ember Activator to burn the shards into raw energy. ",
+		"Now that you have embers, you can use an §6Ember Activator§r to burn the shards into raw energy. ",
 		"",
-		"Pipe the embers into an Ember Activator and attach an Ember Emitter.",
+		"Insert (via hopper, pipes, etc) the embers into the bottom of the §6Ember Activator§r and attach an §6Ember Emitter§r to the top.",
 		"",
-		"Attach an Ember Receptor on any machine that should receive energy.",
+		"Attach an §6Ember Receptor§r on any machine that should receive energy.",
 		"",
-		"With the Tinkers Hammer in your hand, sneak-right click the receptor first.",
+		"With the §6Tinkers Hammer§r in your hand, §6sneak right-click§r the §6receptor§r first.",
 		"",
-		"Normal right click (no sneaking) the emitter to link both together.",
+		"Normal §6right click§r (no sneaking) the §6emitter§r to link both together.",
 		"",
-		"Attach a lever to the emitter and flip it to start sending energy."
+		"Attach a §6lever§r to the emitter and flip it to start sending energy."
 	],
 	dependencies: [
 		"d908c566"

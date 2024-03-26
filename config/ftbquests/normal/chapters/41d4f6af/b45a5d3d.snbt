@@ -1,0 +1,43 @@
+{
+	title: "Tier 3: Magician Blood Orb",
+	icon: {
+		id: "bloodmagic:blood_orb",
+		tag: {
+			orb: "bloodmagic:magician"
+		}
+	},
+	x: 13.25d,
+	y: 0.75d,
+	shape: "circle",
+	text: [
+		"Crafted in a §6Tier 3§r blood altar. ",
+		"",
+		"Use the§6 Inspectoris Scandalum§r to see the requirements for a Tier 3 Altar."
+	],
+	dependencies: [
+		"e795c75d"
+	],
+	tasks: [{
+		uid: "8b6982f4",
+		type: "item",
+		items: [{
+			item: "embers:block_dawnstone"
+		}]
+	},
+	{
+		uid: "3ee74b82",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:magician"
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "f89667a5",
+		type: "xp",
+		xp: 100
+	}]
+}

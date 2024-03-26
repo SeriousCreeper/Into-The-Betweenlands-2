@@ -1,0 +1,24 @@
+{
+	x: 9.5d,
+	y: 0.75d,
+	shape: "circle",
+	text: [
+		"Combining a §6Binding Reagant§r and a §6tool§r or §6armor§r in an §6alchemy array§r creates a new set of gear."
+	],
+	dependencies: [
+		"f8f710de",
+		"b45a5d3d"
+	],
+	tasks: [{
+		uid: "12075908",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "eaa134d4",
+		type: "xp",
+		xp: 100
+	}]
+}
