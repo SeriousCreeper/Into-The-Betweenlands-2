@@ -781,6 +781,7 @@ Pacifist.addEntity(<entity:thebetweenlands:root_sprite>);
 Pacifist.addEntity(<entity:thebetweenlands:sporeling>);
 Pacifist.addEntity(<entity:thebetweenlands:dragonfly>);
 Pacifist.addEntity(<entity:thebetweenlands:frog>);
+Pacifist.addEntity(<entity:thebetweenlands:toad>);
 Pacifist.addEntity(<entity:thebetweenlands:firefly>);
 Pacifist.addEntity(<entity:thebetweenlands:mire_snail>);
 Pacifist.addEntity(<entity:thebetweenlands:gecko>);
@@ -833,7 +834,7 @@ natures_scythe.setString("web_dictionary", "ns_webs");
 var shatter = Spells.getSpell("shatter") as Spell;
 
 var acid_cloud = Spells.getSpell("acid_cloud") as Spell;
-acid_cloud.setFloat("healing", 0.2);
+acid_cloud.setFloat("healing", 0.15);
 acid_cloud.setInteger("regeneration", 80);
 
 Chrysopoeia.removeRecipeByOutput(<minecraft:leather>);
