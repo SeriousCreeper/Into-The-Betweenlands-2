@@ -269,7 +269,7 @@ Mortar.changeSpell("spell_radiance", [
 ]);
 
 Mortar.changeSpell("spell_fey_light", [
-	<thaumcraft:lamp_arcane>,
+	<embers:glimmer_shard>.withTag({light: 800}),
 	<arcanearchives:quartz_sliver>,
 	<roots:cloud_berry>,
 	<ore:rootsBark>,
