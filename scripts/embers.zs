@@ -462,6 +462,12 @@ recipes.remove(<embers:plate_gold>);
 // ----------- ALCHEMY ----------------------
 Alchemy.remove(<embers:isolated_materia>);
 
+Alchemy.add(<embers:blend_caminite> * 4, [<roots:runic_dust>, <thebetweenlands:mud>, <pyrotech:material:8>, <thebetweenlands:silt>, <embers:dust_ash>], 
+	{
+		"dawnstone" : 4 to 8
+	}
+);
+
 Alchemy.remove(<embers:tyrfing>);
 Alchemy.add(<embers:tyrfing>, [<thebetweenlands:valonite_sword>, <thebetweenlands:tar_solid>, <thebetweenlands:sulfur_block>, <embers:ingot_lead>, <embers:ingot_lead>], 
 	{
