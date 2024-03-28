@@ -44,13 +44,30 @@ scripts.utils.addShaped("insulation", <soot:insulation>, [
 ]);
 
 
+AlchemicalMixer.remove(<liquid:antimony> * 12);
+
 AlchemicalMixer.remove(<liquid:iron>);
 AlchemicalMixer.remove(<liquid:gold>);
-AlchemicalMixer.remove(<liquid:antimony> * 12);
+AlchemicalMixer.remove(<liquid:tin>);
+AlchemicalMixer.remove(<liquid:copper>);
+AlchemicalMixer.remove(<liquid:silver>);
+AlchemicalMixer.remove(<liquid:syrmorite>);
+AlchemicalMixer.remove(<liquid:octine>);
+
 AlchemicalMixer.remove(<liquid:iron> * 4);
 AlchemicalMixer.remove(<liquid:gold> * 4);
+AlchemicalMixer.remove(<liquid:tin> * 4);
+AlchemicalMixer.remove(<liquid:copper> * 4);
+AlchemicalMixer.remove(<liquid:silver> * 4);
+AlchemicalMixer.remove(<liquid:syrmorite> * 4);
+AlchemicalMixer.remove(<liquid:octine> * 4);
 
-AlchemicalMixer.add(<liquid:syrmorite> * 4, [<liquid:tin> * 4, <liquid:alchemical_redstone> * 3], {"lead":16 to 32});
-AlchemicalMixer.add(<liquid:octine> * 4, [<liquid:silver> * 4, <liquid:alchemical_redstone> * 3], {"lead":32 to 64});
+AlchemicalMixer.add(<liquid:syrmorite> * 4, [<liquid:octine> * 4, <liquid:alchemical_redstone> * 3], {"dawnstone":4 to 8});
+AlchemicalMixer.add(<liquid:russite> * 4, [<liquid:syrmorite> * 4, <liquid:alchemical_redstone> * 3], {"dawnstone":4 to 8});
+AlchemicalMixer.add(<liquid:lead> * 4, [<liquid:russite> * 4, <liquid:alchemical_redstone> * 3], {"dawnstone":4 to 8});
+AlchemicalMixer.add(<liquid:silver> * 4, [<liquid:lead> * 4, <liquid:alchemical_redstone> * 3], {"dawnstone":4 to 8});
+AlchemicalMixer.add(<liquid:aluminium> * 4, [<liquid:silver> * 4, <liquid:alchemical_redstone> * 3], {"dawnstone":4 to 8});
+AlchemicalMixer.add(<liquid:nickel> * 4, [<liquid:aluminium> * 4, <liquid:alchemical_redstone> * 3], {"dawnstone":4 to 8});
+AlchemicalMixer.add(<liquid:octine> * 4, [<liquid:nickel> * 4, <liquid:alchemical_redstone> * 3], {"dawnstone":4 to 8});
+
 AlchemicalMixer.add(<liquid:antimony> * 12, [<liquid:lead> * 8, <liquid:fluid_honey> * 4], {"dawnstone":16 to 32, "silver":16 to 24});
-
