@@ -1,0 +1,25 @@
+{
+	x: 13.25d,
+	y: 5.75d,
+	shape: "circle",
+	text: [
+		"The Alchemy Table is used to convert items into other items. ",
+		"",
+		"This usually requires a specific amount of §6life essence§r and a specific tier of §6blood orb§r."
+	],
+	dependencies: [
+		"1a15e5ec"
+	],
+	tasks: [{
+		uid: "5b008ef8",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "01fad5f1",
+		type: "xp",
+		xp: 100
+	}]
+}

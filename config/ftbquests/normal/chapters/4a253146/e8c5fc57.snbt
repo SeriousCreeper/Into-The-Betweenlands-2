@@ -6,7 +6,9 @@
 	y: 2.5d,
 	shape: "diamond",
 	text: [
-		"I should be equipped enough to investigate the Sludgeon."
+		"I should be equipped enough to investigate the Sludgeon.",
+		"",
+		"This can be a difficult task!"
 	],
 	dependencies: [
 		"c449e72f"
