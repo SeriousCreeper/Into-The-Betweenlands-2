@@ -1,0 +1,24 @@
+{
+	title: "Ask For Forgiveness",
+	x: -3.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"You have angered §6Nature§r, and as a result lost some §6privilges§r. ",
+		"",
+		"Nature is forgiving, and with the right offerings can be persuaded to §6forgive you§r. ",
+		"",
+		"In order to do this, place an §6offering table§r near a §6tamed§r spirit tree, and place a §6spirit fruit§r onto the table. ",
+		"",
+		"§6Sneak§r and wait for the process to finish. ",
+		"",
+		"§4Be aware that this will not only consume the spirit fruit, but also 10% of your maximum life, permanently!§r"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f5434c88",
+		type: "checkmark",
+		title: "Ask For Forgiveness",
+		icon: "thebetweenlands:spirit_fruit"
+	}]
+}
