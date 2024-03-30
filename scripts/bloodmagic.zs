@@ -422,6 +422,14 @@ AlchemyTable.addRecipe(<bloodmagic:cutting_fluid>, [
 	<thebetweenlands:items_misc:27>
 ], 1000, 1000, 0);
 
+AlchemyTable.addRecipe(<bloodmagic:points_upgrade>, [
+	<bloodmagic:blood_shard>,
+	<thebetweenlands:shimmer_stone>,
+	<embers:dust_ember>,
+	<arcanearchives:radiant_dust>,
+	<thebetweenlands:wight_heart>,
+	<thebetweenlands:items_misc:26>
+], 20000, 400, 3);
 
 
 
