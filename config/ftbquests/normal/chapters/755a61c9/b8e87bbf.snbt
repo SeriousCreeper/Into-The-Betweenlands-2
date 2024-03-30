@@ -1,0 +1,26 @@
+{
+	x: -10.0d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"Caves are large and dark, and it's very easy to get lost in them. ",
+		"",
+		"§6Caving Ropes§r can be placed on the ground to create little breadcrumbs to follow back to safety."
+	],
+	dependencies: [
+		"4d6af512"
+	],
+	optional: true,
+	tasks: [{
+		uid: "155fb4fc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:caving_rope"
+		}]
+	}],
+	rewards: [{
+		uid: "06397462",
+		type: "xp",
+		xp: 100
+	}]
+}

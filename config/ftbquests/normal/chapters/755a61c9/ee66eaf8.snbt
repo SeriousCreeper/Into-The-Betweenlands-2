@@ -14,11 +14,15 @@
 		"",
 		"§4Be aware that this will not only consume the spirit fruit, but also 10% of your maximum life, permanently!§r"
 	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"19cfa43d"
+	],
+	hide: true,
 	optional: true,
 	tasks: [{
 		uid: "f5434c88",
 		type: "checkmark",
-		title: "Ask For Forgiveness",
 		icon: "thebetweenlands:spirit_fruit"
 	}]
 }
