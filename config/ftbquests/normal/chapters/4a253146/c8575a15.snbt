@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"If one finds themselves short on §6Ash§r, a §6Cinder Plinth§r, powered with §6Embers§r, will §6burn§r any items and blocks into ash."
+	],
+	dependencies: [
+		"17e54454"
+	],
+	optional: true,
+	tasks: [{
+		uid: "61efac50",
+		type: "item",
+		items: [{
+			item: "embers:cinder_plinth"
+		}]
+	}],
+	rewards: [{
+		uid: "e1d25fa4",
+		type: "xp",
+		xp: 100
+	}]
+}

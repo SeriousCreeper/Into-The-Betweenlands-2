@@ -16,5 +16,10 @@
 		items: [{
 			item: "botania:manaresource 1 15"
 		}]
+	}],
+	rewards: [{
+		uid: "11e248ff",
+		type: "xp",
+		xp: 100
 	}]
 }
