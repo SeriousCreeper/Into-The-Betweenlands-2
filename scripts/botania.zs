@@ -669,3 +669,9 @@ Agglomeration.addRecipe(
 	<embers:archaic_light>,
 	<embers:archaic_edge>
 );
+
+
+<botania:specialflower>.withTag({type: "clayconia"}).displayName = "Mudconia";
+<botania:specialflower>.withTag({type: "clayconiaChibi"}).displayName = "Mudconia Petite";
+<botania:floatingspecialflower>.withTag({type: "clayconia"}).displayName = "Floating Mudconia";
+<botania:floatingspecialflower>.withTag({type: "clayconiaChibi"}).displayName = "Floating Mudconia Petite";
