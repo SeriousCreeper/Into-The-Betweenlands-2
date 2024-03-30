@@ -75,6 +75,13 @@ val thaumcraftItemsNotToStage = [
 	<thaumcraft:amber>,
 	<thaumcraft:amber_block>,
 	<thaumcraft:amber_brick>,
+	<thaumcraft:crystal_aer>,
+	<thaumcraft:crystal_ignis>,
+	<thaumcraft:crystal_aqua>,
+	<thaumcraft:crystal_terra>,
+	<thaumcraft:crystal_ordo>,
+	<thaumcraft:crystal_perditio>,
+	<thaumcraft:crystal_vitium>,
 ] as IItemStack[];
 
 val thaumicaugmentationItemsNotToStage = [
