@@ -18,5 +18,18 @@
 		title: "Cruelty's Gift",
 		icon: "bloodmagic:blood_shard",
 		stage: "unlocked_bloodmagic"
+	}],
+	rewards: [{
+		uid: "26e6c0b4",
+		type: "item",
+		item: {
+			id: "loreexpansion:lore_scrap",
+			tag: {
+				lore: {
+					id: "sanguine_halls",
+					category: "journal"
+				}
+			}
+		}
 	}]
 }
