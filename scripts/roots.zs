@@ -585,7 +585,7 @@ RunicShears.addEntityRecipe("snow_block", <minecraft:snow>, <entity:minecraft:sn
 
 // pacifist only
 RunicShears.addEntityRecipe("pheromone_thorax", <thebetweenlands:pheromone_thorax>, <entity:thebetweenlands:swarm>, defaultDelay);
-RunicShears.addEntityRecipe("pyrad_flame", <thebetweenlands:pyrad_flame>, <entity:thebetweenlands:pyrad>, defaultDelay);
+//RunicShears.addEntityRecipe("pyrad_flame", <thebetweenlands:pyrad_flame>, <entity:thebetweenlands:pyrad>, defaultDelay);
 
 
 
@@ -794,6 +794,7 @@ Pacifist.addEntity(<entity:thebetweenlands:emberling>);
 Pacifist.addEntity(<entity:thebetweenlands:chiromaw_tame>);
 Pacifist.addEntity(<entity:thebetweenlands:chiromaw_hatchling>);
 Pacifist.addEntity(<entity:mod_lavacow:raven>);
+Pacifist.addEntity(<entity:thebetweenlands:swarm>);
 
 
 // Flower Growth
