@@ -26,6 +26,23 @@ scripts.utils.addShaped("radiant_chest", <arcanearchives:radiant_chest>, [
 ]);
 
 
+recipes.addShapeless("letter_invitation", <arcanearchives:letter_invitation>, [<thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:45>],
+	function(out, ins, cInfo) {
+		return out.withTag({creator: cInfo.player.uuid, creator_name: cInfo.player.name});
+	},
+	function(out,cInfo,player){
+	}
+);
+
+recipes.addShapeless("letter_resignation", <arcanearchives:letter_resignation>, [<thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:28>],
+	function(out, ins, cInfo) {
+		return out.withTag({creator: cInfo.player.uuid, creator_name: cInfo.player.name});
+	},
+	function(out,cInfo,player){
+	}
+);
+
+
 GCT.replaceRecipe("manifest", <arcanearchives:manifest>, [<thebetweenlands:items_misc:32>, <minecraft:dye:0>, <arcanearchives:radiant_dust> * 2]);
 //GCT.replaceRecipe("letter_invitation", <arcanearchives:letter_invitation>, [<thebetweenlands:items_misc:32> * 3, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:45>]);
 //GCT.replaceRecipe("letter_resignation", <arcanearchives:letter_resignation>, [<thebetweenlands:items_misc:32> * 3, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:28>]);
