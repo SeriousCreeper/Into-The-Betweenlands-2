@@ -495,6 +495,50 @@
     {
       "input": {
         "item": {
+          "id": "bloodmagic:sentient_sword"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "bloodmagic:sentient_axe"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "bloodmagic:sentient_shovel"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
+          "id": "bloodmagic:sentient_pickaxe"
+        },
+        "min_fuel": 5,
+        "max_fuel": 12,
+        "min_life": 5,
+        "max_life": 32
+      }
+    },
+    {
+      "input": {
+        "item": {
           "id": "roots:runic_shears"
         },
         "min_fuel": 5,
