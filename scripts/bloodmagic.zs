@@ -235,14 +235,14 @@ scripts.utils.addShaped("bloodmagic-ritual_stone_blank", <bloodmagic:ritual_ston
 
 
 recipes.remove(<bloodmagic:pack_self_sacrifice>);
-scripts.utils.addShaped("bloodmagic:pack_self_sacrifice", <bloodmagic:pack_self_sacrifice>, [
+scripts.utils.addShaped("bloodmagic-pack_self_sacrifice", <bloodmagic:pack_self_sacrifice>, [
 	[<ore:blockGlass>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}).noReturn(), <ore:blockGlass>], 
 	[<thebetweenlands:items_misc:59>, <thebetweenlands:bone_chestplate>, <thebetweenlands:items_misc:59>], 
 	[<ore:blockGlass>, <bloodmagic:slate>, <ore:blockGlass>]
 ]);
 
-recipes.remove(<thebetweenlands:bone_chestplate>);
-scripts.utils.addShaped("bloodmagic:bone_chestplate", <thebetweenlands:bone_chestplate>, [
+recipes.remove(<bloodmagic:pack_sacrifice>);
+scripts.utils.addShaped("bloodmagic-bone_chestplate", <bloodmagic:pack_sacrifice>, [
 	[<ore:blockGlass>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}).noReturn(), <ore:blockGlass>], 
 	[<embers:ingot_aluminum>, <thebetweenlands:bone_chestplate>, <embers:ingot_aluminum>], 
 	[<ore:blockGlass>, <bloodmagic:slate>, <ore:blockGlass>]
