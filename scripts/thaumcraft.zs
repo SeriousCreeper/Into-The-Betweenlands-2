@@ -1411,3 +1411,4 @@ SmeltingBonus.addSmeltingBonus(<ore:clusterTin>, <embers:nugget_tin> % 10);
 <thaumcraft:brain>.displayName = "Moldy Brain";
 <thaumcraft:nugget:9>.displayName = "Dentrothyst Sliver";
 <thaumcraft:redstone_relay>.displayName = "Bluedust Relay";
+<thaumicaugmentation:key>.displayName = "Syrmorite Key";
