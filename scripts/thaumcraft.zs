@@ -1097,6 +1097,14 @@ ArcaneWorkbench.registerShapelessRecipe("tubevalve", "TUBES@2", 10, [
 	[<thaumcraft:tube>, <ore:lever>]
 );
 
+ArcaneWorkbench.removeRecipe(<thaumcraft:activator_rail>);
+ArcaneWorkbench.registerShapelessRecipe("activator_rail", "", 10, [
+], 
+<thaumcraft:activator_rail>, 
+	[<betweenlandsredstone:scabyst_activator_rail>]
+);
+
+
 
 
 
