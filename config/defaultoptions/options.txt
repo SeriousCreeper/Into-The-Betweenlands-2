@@ -1,7 +1,7 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.5
-fov:0.25
+fov:0.0
 gamma:1.0
 saturation:0.0
 renderDistance:12
@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Record+Resources+of+Tea+the+Story+v3.3.0+.zip","Arcane Wormhole.zip","Archaesium.zip","Better Prodigy v1.3.zip","Modernity-format3-v3.9.1.zip","Betweenlands Inventory V5.zip"]
+resourcePacks:["Record+Resources+of+Tea+the+Story+v3.3.0+.zip","Archaesium.zip","Better Prodigy v1.3.zip","Betweenlands Inventory V5.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -53,9 +53,9 @@ autoJump:false
 narrator:0
 tutorialStep:none
 soundCategory_master:1.0
-soundCategory_music:0.20422535
+soundCategory_music:0.3028169
 soundCategory_record:1.0
-soundCategory_weather:0.1056338
+soundCategory_weather:0.20422535
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
