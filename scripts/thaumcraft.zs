@@ -292,7 +292,7 @@ ArcaneWorkbench.registerShapedRecipe("redstonerelay", "REDSTONERELAY@2", 10, [
 <thaumcraft:redstone_relay>, 
 [
 	[<betweenlandsredstone:scabyst_torch>, <thaumcraft:mechanism_simple>, <betweenlandsredstone:scabyst_torch>], 
-	[<thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>, <thebetweenlands:smooth_cragrock_slab>]
+	[<thebetweenlands:mud_bricks>, <thebetweenlands:mud_bricks>, <thebetweenlands:mud_bricks>]
 ]);
 
 
