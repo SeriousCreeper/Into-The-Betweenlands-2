@@ -10,7 +10,6 @@
 		"0d7e3578"
 	],
 	hide: true,
-	hide_text_until_complete: true,
 	size: 3.0d,
 	tasks: [{
 		uid: "07502673",
