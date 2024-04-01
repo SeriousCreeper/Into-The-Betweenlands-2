@@ -21,7 +21,7 @@
         {
           "selector": {
             "weight": {
-              "value": 5
+              "value": 20
             }
           },
           "item": {
@@ -33,7 +33,7 @@
         {
           "selector": {
             "weight": {
-              "value": 95
+              "value": 80
             }
           }
         }
@@ -60,7 +60,7 @@
         {
           "selector": {
             "weight": {
-              "value": 5
+              "value": 20
             }
           },
           "item": {
@@ -72,7 +72,7 @@
         {
           "selector": {
             "weight": {
-              "value": 95
+              "value": 80
             }
           }
         }
@@ -99,7 +99,7 @@
         {
           "selector": {
             "weight": {
-              "value": 5
+              "value": 20
             }
           },
           "item": {
@@ -111,7 +111,7 @@
         {
           "selector": {
             "weight": {
-              "value": 95
+              "value": 80
             }
           }
         }
@@ -138,7 +138,7 @@
         {
           "selector": {
             "weight": {
-              "value": 5
+              "value": 20
             }
           },
           "item": {
@@ -150,7 +150,7 @@
         {
           "selector": {
             "weight": {
-              "value": 95
+              "value": 80
             }
           }
         }
@@ -177,7 +177,7 @@
         {
           "selector": {
             "weight": {
-              "value": 5
+              "value": 20
             }
           },
           "item": {
@@ -189,7 +189,7 @@
         {
           "selector": {
             "weight": {
-              "value": 95
+              "value": 80
             }
           }
         }
@@ -216,7 +216,7 @@
         {
           "selector": {
             "weight": {
-              "value": 5
+              "value": 20
             }
           },
           "item": {
@@ -228,7 +228,46 @@
         {
           "selector": {
             "weight": {
-              "value": 95
+              "value": 80
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "ore:oreAluminum"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "items": [
+              "thebetweenlands:octine_pickaxe:*"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 20
+            }
+          },
+          "item": {
+            "items": [
+              "pyrotech:generated_slag_aluminum"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 80
             }
           }
         }
