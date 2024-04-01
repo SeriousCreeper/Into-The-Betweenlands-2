@@ -809,7 +809,6 @@ FlowerGrowth.removeRecipe("white_tulip");
 FlowerGrowth.removeRecipe("pink_tulip");
 FlowerGrowth.removeRecipe("oxeye_daisy");
 
-/*
 FlowerGrowth.addRecipeBlock("thebetweenlands_arrow_arum", <thebetweenlands:arrow_arum>.asBlock(), 0);
 FlowerGrowth.addRecipeBlock("thebetweenlands_blue_eyed_grass", <thebetweenlands:blue_eyed_grass>.asBlock(), 0);
 FlowerGrowth.addRecipeBlock("thebetweenlands_blue_iris", <thebetweenlands:blue_iris>.asBlock(), 0);
@@ -827,7 +826,6 @@ FlowerGrowth.addRecipeBlock("thebetweenlands_shoots", <thebetweenlands:shoots>.a
 FlowerGrowth.addRecipeBlock("thebetweenlands_sludgecreep", <thebetweenlands:sludgecreep>.asBlock(), 0);
 FlowerGrowth.addRecipeBlock("thebetweenlands_soft_rush", <thebetweenlands:soft_rush>.asBlock(), 0);
 FlowerGrowth.addRecipeBlock("thebetweenlands_dead_weedwood_bush", <thebetweenlands:dead_weedwood_bush>.asBlock(), 0);
-*/
 
 
 // Spells
