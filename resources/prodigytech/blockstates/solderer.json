@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "active=false": { "model": "prodigytech:solderer" },
-        "active=true": { "model": "prodigytech:solderer_active" }
-    }
-}

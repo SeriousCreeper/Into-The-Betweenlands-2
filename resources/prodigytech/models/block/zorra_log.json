@@ -1,7 +1,0 @@
-{
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "prodigytech:blocks/zorra_log_top",
-        "side": "prodigytech:blocks/zorra_log_side"
-    }
-}

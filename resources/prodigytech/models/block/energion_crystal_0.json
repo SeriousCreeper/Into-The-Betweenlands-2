@@ -1,6 +1,0 @@
-{
-    "parent": "block/cross",
-    "textures": {
-        "cross": "prodigytech:blocks/energion_crystal_0"
-    }
-}
