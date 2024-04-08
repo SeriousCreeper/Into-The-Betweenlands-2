@@ -9,7 +9,9 @@
 		"",
 		"Not only do they provide light and burn for really a long time, they also provide buffs that will slows down hunger, and heals.",
 		"",
-		"Place §6Tinder§r on the ground, add up to §68 logs§r, then light it up with a §6Fire Starter§r."
+		"Place §6Tinder§r on the ground, add up to §68 logs§r, then light it up with a §6Fire Starter§r.",
+		"",
+		"The §6more logs§r are placed on the campfire, the §6faster§r it cooks items."
 	],
 	dependencies: [
 		"7560e810"
