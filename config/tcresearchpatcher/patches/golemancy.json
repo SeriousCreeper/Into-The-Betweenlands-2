@@ -68,15 +68,5 @@
                 "value": ["thebetweenlands:mud"]
             }
         ]
-    },
-    {
-        "key": "MATSTUDIRON",
-        "ops": [
-            {
-                "op": "replace",
-                "path": "icons",
-                "value": ["embers:plate_iron"]
-            }
-        ]
     }
 ]
