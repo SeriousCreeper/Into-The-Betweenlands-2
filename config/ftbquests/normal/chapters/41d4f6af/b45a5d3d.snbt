@@ -21,7 +21,7 @@
 		uid: "8b6982f4",
 		type: "item",
 		items: [{
-			item: "embers:block_dawnstone"
+			item: "thebetweenlands:octine_block"
 		}]
 	},
 	{

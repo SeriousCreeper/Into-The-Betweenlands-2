@@ -3,7 +3,7 @@
 	y: 3.25d,
 	shape: "circle",
 	text: [
-		"The §6Inspectoris Scandalum§r is a nifty book that can what blocks are §6required§r, and where they need to be placed, in order to §6upgrade§r a Blood Altar to the next tier. ",
+		"The §6Inspectoris Scandalum§r is a nifty book that can display what blocks are §6required§r, and where they need to be placed, in order to §6upgrade§r a Blood Altar to the next tier. ",
 		"",
 		"§6Right-clicking§r the book in the §6air§r will §6cycle§r which altar tier it should display. ",
 		"",

@@ -10,11 +10,14 @@
 		"- Right-click the very §6top§r of the bloomery with §6fuel§r, such as sulfur or wood",
 		"- Set the top on fire using a fire starter",
 		"",
-		"Only §61§r fuel item is §6required§r per operation, but using §6more speeds up§r the process by a lot."
+		"Only §61§r fuel item is §6required§r per operation, but using §6more speeds up§r the process by a lot.",
+		"",
+		"§6Make sure to remove any slag building up in front of the bloomery, as it will otherwise reduce the airflow and slow down the bloomery.§r"
 	],
 	dependencies: [
 		"16fa265a"
 	],
+	min_width: 200,
 	tasks: [{
 		uid: "5db209c6",
 		type: "item",

@@ -10,9 +10,11 @@
 		"",
 		"While the Tea effect is active, and your inventory contains §6Scribing Tools§r and the §6Thaumonomicon§r, you will automatically gain knowledge over time. ",
 		"",
-		"Depending on your surroundings, the §6speed§r of gaining knowledge can be §6increased§r.",
+		"The §6speed§r at which you gain knowledge can be further §6improved§r by surrounding yourself with §6inspiring§r things, providing a §6wellness bonus§r.",
 		"",
-		"After you drank your tea, it will show the §6current bonus§r in chat. A bonus of §60%§r means it's at §6normal§r speed."
+		"Once you drink the tea, the current wellness bonus will be shown in §6chat§r. ",
+		"",
+		"This bonus is §6active§r even if you §6leave§r your inspiring surroundings, until the potion effect §6runs out§r."
 	],
 	dependencies: [
 		"1d46e163"
@@ -20,10 +22,5 @@
 	tasks: [{
 		uid: "618e685f",
 		type: "checkmark"
-	}],
-	rewards: [{
-		uid: "6ec6b744",
-		type: "xp",
-		xp: 100
 	}]
 }
