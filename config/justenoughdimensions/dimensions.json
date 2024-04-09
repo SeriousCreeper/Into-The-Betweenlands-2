@@ -42,7 +42,7 @@
       "temporary_dimension": true,
       "jed": {
         "SkyRenderType": 2,
-        "MusicType": "arcaneworld:music_dungeon",
+        "MusicType": "dungeon",
         "CanDoRainSnowIce": false,
         "CanDoLightning": false,
         "IsSurfaceWorld": false,
