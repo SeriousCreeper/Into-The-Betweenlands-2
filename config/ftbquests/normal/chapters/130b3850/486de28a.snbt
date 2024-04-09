@@ -1,6 +1,6 @@
 {
-	x: -3.25d,
-	y: -1.5d,
+	x: -4.25d,
+	y: -1.0d,
 	text: [
 		"Depending on the current weather or event happening, gaining knowledge can either speed up or slow down.",
 		"",
@@ -15,10 +15,5 @@
 		type: "checkmark",
 		title: "Inspiration: Events",
 		icon: "thebetweenlands:wind_chime"
-	}],
-	rewards: [{
-		uid: "6bde0576",
-		type: "xp",
-		xp: 100
 	}]
 }

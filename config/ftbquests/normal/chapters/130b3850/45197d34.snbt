@@ -1,0 +1,18 @@
+{
+	title: "Accustomed Teas",
+	icon: "teastory:puer_tea 1 5",
+	x: -2.25d,
+	y: -2.0d,
+	text: [
+		"Drinking tea §6every day§r will eventually §6improve§r the effect you gain. ",
+		"",
+		"While §6higher tiers§r of the effect don't last as long as the previous one, they give a much §6higher chance§r of gaining knowledge."
+	],
+	dependencies: [
+		"16569826"
+	],
+	tasks: [{
+		uid: "f0777bef",
+		type: "checkmark"
+	}]
+}

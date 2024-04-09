@@ -1,6 +1,6 @@
 {
-	x: -2.25d,
-	y: 0.0d,
+	x: -6.25d,
+	y: -1.0d,
 	text: [
 		"Other things that will improve gaining knowledge:",
 		"",
@@ -18,10 +18,5 @@
 		type: "checkmark",
 		title: "Inspiration: Others",
 		icon: "thebetweenlands:reed_mat"
-	}],
-	rewards: [{
-		uid: "c78a8412",
-		type: "xp",
-		xp: 100
 	}]
 }

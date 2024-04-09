@@ -10,7 +10,9 @@
 		"",
 		"While the Tea effect is active, and your inventory contains §6Scribing Tools§r and the §6Thaumonomicon§r, you will automatically gain knowledge over time. ",
 		"",
-		"The speed and chance at which knowledge is gained can be further increased through several means."
+		"Depending on your surroundings, the §6speed§r of gaining knowledge can be §6increased§r.",
+		"",
+		"After you drank your tea, it will show the §6current bonus§r in chat. A bonus of §60%§r means it's at §6normal§r speed."
 	],
 	dependencies: [
 		"1d46e163"

@@ -1,0 +1,27 @@
+{
+	title: "Wellness Info",
+	x: -2.25d,
+	y: 0.0d,
+	text: [
+		"Holding a §6Thaumometer§r will show the current §6wellness bonus§r you would receive from your surroundings.",
+		"",
+		"The §6higher§r the wellness bonus, the §6faster§r you gain knowledge."
+	],
+	dependencies: [
+		"16569826"
+	],
+	tasks: [{
+		uid: "ffcacbb2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9dfd9af0",
+		type: "xp",
+		xp: 100
+	}]
+}
