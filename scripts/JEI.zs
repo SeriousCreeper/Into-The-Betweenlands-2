@@ -78,6 +78,7 @@ val itemsToRemove = [
 	<embers:hoe_tin:*>,
 	<embers:isolated_materia>,
 
+/*
 	<jaopca:item_platedensealuminium>,
 	<jaopca:item_platedensecopper>,
 	<jaopca:item_platedensegold>,
@@ -94,6 +95,7 @@ val itemsToRemove = [
 	<jaopca:item_platedenseelectrum>,
 	<jaopca:item_platedensethaumium>,
 	<jaopca:item_platedensevoid>,
+*/
 
 	<quark:color_slime:1>,
 	<quark:color_slime:2>,
@@ -270,10 +272,12 @@ val itemsToRemove = [
 	<botania:manaresource:11>,
 	<botania:craftpattern:*>,
 
+/*
 	<jaopca:block_blockelvenelementium>,
 	<jaopca:block_blockmanasteel>,
 	<jaopca:block_blockrawzorrasteel>,
 	<jaopca:block_blockterrasteel>,
+*/
 
 	<timeisup:timer_anchor>,
 	<timeisup:timer_bonus>,

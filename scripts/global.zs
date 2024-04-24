@@ -62,7 +62,7 @@ global metals as IItemStack[string][string] = {
 		ingot: <thebetweenlands:items_misc:11>,
 		block: <thebetweenlands:syrmorite_block>,
 		plate: <thaumcraft:plate:1>,
-		cluster: <jaopca:item_clustersyrmorite>
+		cluster: <jaopca:thaumcraft_cluster.syrmorite>
 	},
 	octine: {
 		ore: <thebetweenlands:octine_ore>,
@@ -70,7 +70,7 @@ global metals as IItemStack[string][string] = {
 		ingot: <thebetweenlands:octine_ingot>,
 		block: <thebetweenlands:octine_block>,
 		plate: <embers:plate_gold>,
-		cluster: <jaopca:item_clusteroctine>
+		cluster: <jaopca:thaumcraft_cluster.octine>
 	},
 	lead: {
 		ore: <betweenores:lead_ore>,
@@ -102,7 +102,7 @@ global metals as IItemStack[string][string] = {
 		ingot: <embers:ingot_nickel>,
 		block: <embers:block_nickel>,
 		plate: <embers:plate_nickel>,
-		cluster: <jaopca:item_clusternickel>
+		cluster: <jaopca:thaumcraft_cluster.nickel>
 	},
 	dawnstone: {
 		ore: null,
@@ -166,7 +166,7 @@ global metals as IItemStack[string][string] = {
         ingot: <embers:ingot_aluminum>,
         block: <embers:block_aluminum>,
         plate: <embers:plate_aluminum>,
-        cluster: <jaopca:item_clusteraluminium>
+        cluster: <jaopca:thaumcraft_cluster.aluminum>
     }
 };
 
