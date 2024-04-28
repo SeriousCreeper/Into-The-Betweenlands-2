@@ -410,6 +410,9 @@ AlchemyArray.removeRecipe(<bloodmagic:component:32>, <bloodmagic:slate:1>);
 AlchemyArray.removeRecipe(<minecraft:redstone>, <bloodmagic:slate:0>);
 AlchemyArray.addRecipe(<bloodmagic:sigil_divination>, <betweenlandsredstone:scabyst_dust>, <bloodmagic:slate:0>, "bloodmagic:textures/models/AlchemyArrays/divinationsigil.png");
 
+AlchemyArray.removeRecipe(<bloodmagic:component:27>, <bloodmagic:slate:2>);
+AlchemyArray.addRecipe(<bloodmagic:sigil_holding>, <bloodmagic:component:27>, <bloodmagic:slate:2>, "bloodmagic:textures/models/AlchemyArrays/basearray.png");
+
 
 
 # ALCHEMY TABLE
