@@ -4,7 +4,13 @@
 	y: -2.0d,
 	shape: "diamond",
 	text: [
-		"The next tool tier is octine. ",
+		"Octine tools have special properties. ",
+		"",
+		"Every tool can set enemies on §6fire§r.",
+		"",
+		"Additionally:",
+		"- The Octine §6Pickaxe§r can turn ores into §6slag§r.",
+		"- The Octine §6Shovel§r can §6smelt§r silt into glass, and mud into bricks.",
 		"",
 		"Place the bone version of a tool into the stamper base, and fill it with molten octine. ",
 		"",
@@ -13,6 +19,7 @@
 	dependencies: [
 		"bc8ad6e7"
 	],
+	optional: true,
 	tasks: [{
 		uid: "8c5e5118",
 		type: "item",

@@ -30,5 +30,10 @@
 		{
 			item: "embers:item_gauge"
 		}]
+	}],
+	rewards: [{
+		uid: "4611ef0a",
+		type: "xp",
+		xp: 100
 	}]
 }
