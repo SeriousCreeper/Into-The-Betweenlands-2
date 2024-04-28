@@ -169,7 +169,7 @@ recipes.remove(<embers:ember_gauge>);
 scripts.utils.addShaped("ember_gauge", <embers:ember_gauge>, [
 	[<ore:dustRedstone>], 
 	[<thebetweenlands:items_misc:32>], 
-	[<ore:plateCopper>]
+	[<ore:plateOctine>]
 ]);
 
 recipes.remove(<embers:fluid_gauge>);
