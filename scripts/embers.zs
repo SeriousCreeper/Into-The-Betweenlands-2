@@ -165,6 +165,13 @@ scripts.utils.addShaped("large_tank", <embers:large_tank>, [
 	[<embers:stairs_caminite_brick:*>, <embers:block_tank:*>, <embers:stairs_caminite_brick:*>]
 ]);
 
+
+scripts.utils.addShaped("item_gauge", <embers:item_gauge>, [
+	[<ore:dustRedstone>], 
+	[<thebetweenlands:items_misc:32>], 
+	[<ore:plateLead>]
+]);
+
 recipes.remove(<embers:ember_gauge>);
 scripts.utils.addShaped("ember_gauge", <embers:ember_gauge>, [
 	[<ore:dustRedstone>], 
