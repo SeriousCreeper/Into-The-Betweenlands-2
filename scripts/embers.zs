@@ -694,10 +694,12 @@ Alchemy.add(<botania:pylon:1>, [<botania:pylon>, <thebetweenlands:dentrothyst_sh
 
 
 // ----------- METAL COEFFICIENT ----------------------
+/*
 EmberGeneration.addMetalCoefficient(<thaumcraft:metal_void>, 1);
 EmberGeneration.addMetalCoefficient(<thaumcraft:metal_thaumium>, 0.9);
 EmberGeneration.addMetalCoefficient(<thebetweenlands:octine_block>, 0.8);
 EmberGeneration.addMetalCoefficient(<ore:blockSyrmorite>, 0.7);
+*/
 
 
 // ----------- MELTER ----------------------
