@@ -1,0 +1,34 @@
+{
+	title: "Dial Up",
+	x: -6.0d,
+	y: -4.0d,
+	shape: "diamond",
+	text: [
+		"§6Dials§r can display more information about the block they are attached to. ",
+		"",
+		"For example, the §6Fluid Dial§r displays what fluids a §6mixer§r contains."
+	],
+	dependencies: [
+		"94ea134b"
+	],
+	tasks: [{
+		uid: "8e6b9627",
+		type: "item",
+		title: "Any Dial",
+		items: [{
+			item: "embers:ember_gauge"
+		},
+		{
+			item: "embers:fluid_gauge"
+		},
+		{
+			item: "mystgears:mechanical_dial"
+		},
+		{
+			item: "soot:alchemy_gauge"
+		},
+		{
+			item: "embers:item_gauge"
+		}]
+	}]
+}
