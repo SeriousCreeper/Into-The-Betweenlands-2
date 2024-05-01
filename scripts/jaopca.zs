@@ -35,3 +35,11 @@ for item in itemsToRemove {
 	recipes.remove(item);
 	furnace.remove(item);
 }
+
+furnace.remove(<prodigytech:zorrasteel_ingot>);
+furnace.remove(<botania:manaresource>);
+furnace.remove(<prodigytech:zorrasteel_raw>);
+furnace.remove(<botania:manaresource:4>);
+furnace.remove(<embers:ingot_bronze>);
+furnace.remove(<embers:ingot_electrum>);
+furnace.remove(<botania:manaresource:7>);
