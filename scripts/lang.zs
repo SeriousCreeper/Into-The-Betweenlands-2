@@ -40,6 +40,11 @@ game.setLocalization("entity.botania:enderAirBottle.name", "Bottle of Void Air")
 game.setLocalization("advancement.botania:enderAirMake.desc", "Collect a Bottle of Void Air");
 game.setLocalization("item.botania:fertilizer.name", "Fungal Fertilizer");
 
+// Mystgears related
+game.setLocalization("material.lead.name", "Gloomsilver");
+game.setLocalization("material.silver.name", "Mirrium");
+
+
 
 game.setLocalization("arcanearchives.tooltip.device.radiant_chest", "Storage. Used to contain items. Stack size increased to 4x.");
 game.setLocalization("arcanearchives.tooltip.item.raw_quartz", "A crafting ingredient.");
