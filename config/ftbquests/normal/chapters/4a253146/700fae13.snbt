@@ -18,18 +18,13 @@
 		type: "item",
 		items: [{
 			item: "betweenores:silver_ore"
-		},
-		{
+		}]
+	},
+	{
+		uid: "84614ed4",
+		type: "item",
+		items: [{
 			item: "betweenores:lead_ore"
-		},
-		{
-			item: "betweenores:copper_ore"
-		},
-		{
-			item: "betweenores:aluminum_ore"
-		},
-		{
-			item: "betweenores:nickel_ore"
 		}]
 	}],
 	rewards: [{
