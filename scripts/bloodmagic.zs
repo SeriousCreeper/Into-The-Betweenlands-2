@@ -419,11 +419,8 @@ AlchemyArray.addRecipe(<bloodmagic:sigil_holding>, <bloodmagic:component:27>, <b
 
 val cuttingRecipes = {
 	<thebetweenlands:syrmorite_ore> : <pyrotech:generated_pile_slag_syrmorite>,
-	<betweenores:copper_ore> : <pyrotech:generated_pile_slag_copper>,
 	<betweenores:lead_ore> : <pyrotech:generated_pile_slag_lead>,
-	<betweenores:nickel_ore> : <pyrotech:generated_pile_slag_nickel>,
 	<betweenores:silver_ore> : <pyrotech:generated_pile_slag_silver>,
-	<betweenores:aluminum_ore> : <pyrotech:generated_pile_slag_aluminum>,
 	<thebetweenlands:octine_ore> : <pyrotech:generated_pile_slag_octine>,
 } as IItemStack[IItemStack];
 
