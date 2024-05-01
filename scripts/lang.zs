@@ -40,6 +40,13 @@ game.setLocalization("entity.botania:enderAirBottle.name", "Bottle of Void Air")
 game.setLocalization("advancement.botania:enderAirMake.desc", "Collect a Bottle of Void Air");
 game.setLocalization("item.botania:fertilizer.name", "Fungal Fertilizer");
 
+// Embers
+game.setLocalization("embers.aspect.iron", "Syrmorite");
+game.setLocalization("embers.aspect.copper", "Octine");
+game.setLocalization("embers.aspect.dawnstone", "Dawnstone");
+game.setLocalization("embers.aspect.lead", "Gloomsilver");
+game.setLocalization("embers.aspect.silver", "Mirrium");
+
 // Mystgears related
 game.setLocalization("material.lead.name", "Gloomsilver");
 game.setLocalization("material.silver.name", "Mirrium");
