@@ -243,7 +243,7 @@ ArcaneWorkbench.registerShapedRecipe("alembic", "ESSENTIASMELTER@3", 50, [
 <thaumcraft:alembic>, 
 [
 	[<thaumcraft:plank_greatwood>, <thaumcraft:filter>, <thaumcraft:plank_greatwood>], 
-	[<ore:plateBrass>, <thebetweenlands:bl_bucket:1>, <ore:plateBrass>], 
+	[<ore:plateBrass>, <ore:ingotSyrmorite>, <ore:plateBrass>], 
 	[<thaumcraft:plank_greatwood>, <thaumcraft:filter>, <thaumcraft:plank_greatwood>]
 ]);
 
