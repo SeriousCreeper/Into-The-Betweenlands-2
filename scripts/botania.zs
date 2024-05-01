@@ -364,6 +364,8 @@ scripts.utils.addShaped("terrasteelboots", <botania:terrasteelboots>, [
 	[null, <ore:ingotTerrasteel>, null]
 ]);
 
+recipes.remove(<botania:poolminecart>);
+
 
 for i in 0 to 16 {
 	recipes.remove(<botania:shinyflower>.withDamage(i));
