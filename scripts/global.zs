@@ -88,44 +88,12 @@ global metals as IItemStack[string][string] = {
 		plate: <embers:plate_silver>,
 		cluster: <thaumcraft:cluster:4>
 	},
-    copper: {
-        ore: <betweenores:copper_ore>,
-        nugget: <embers:nugget_copper>,
-        ingot: <embers:ingot_copper>,
-        block: <embers:block_copper>,
-        plate: <embers:plate_copper>,
-        cluster: <thaumcraft:cluster:2>
-    },
-	nickel: {
-		ore: <betweenores:nickel_ore>,
-		nugget: <embers:nugget_nickel>,
-		ingot: <embers:ingot_nickel>,
-		block: <embers:block_nickel>,
-		plate: <embers:plate_nickel>,
-		cluster: <jaopca:thaumcraft_cluster.nickel>
-	},
 	dawnstone: {
 		ore: null,
 		nugget: <embers:nugget_dawnstone>,
 		ingot: <embers:ingot_dawnstone>,
 		block: <embers:block_dawnstone>,
 		plate: <embers:plate_dawnstone>,
-		cluster: null
-	},
-	bronze: {
-		ore: null,
-		nugget: <embers:nugget_bronze>,
-		ingot: <embers:ingot_bronze>,
-		block: <embers:block_bronze>,
-		plate: <embers:plate_bronze>,
-		cluster: null
-	},
-	electrum: {
-		ore: null,
-		nugget: <embers:nugget_electrum>,
-		ingot: <embers:ingot_electrum>,
-		block: <embers:block_electrum>,
-		plate: <embers:plate_electrum>,
 		cluster: null
 	},
 	thaumium: {
@@ -159,15 +127,7 @@ global metals as IItemStack[string][string] = {
 		block: <minecraft:iron_block>,
 		plate: <embers:plate_iron>,
 		cluster: null
-	},
-    aluminum: {
-        ore: <betweenores:aluminum_ore>,
-        nugget: <embers:nugget_aluminum>,
-        ingot: <embers:ingot_aluminum>,
-        block: <embers:block_aluminum>,
-        plate: <embers:plate_aluminum>,
-        cluster: <jaopca:thaumcraft_cluster.aluminum>
-    }
+	}
 };
 
 global liquids as ILiquidStack[string] = {
@@ -175,16 +135,11 @@ global liquids as ILiquidStack[string] = {
 	octine: <liquid:octine>,
 	lead: <liquid:lead>,
 	silver: <liquid:silver>,
-	nickel: <liquid:nickel>,
 	dawnstone: <liquid:dawnstone>,
-	bronze: <liquid:bronze>,
-	electrum: <liquid:electrum>,
 	thaumium: <liquid:thaumium>,
 	"void": <liquid:void>,
 	brass: <liquid:brass>,
-	copper: <liquid:copper>,
 	iron: <liquid:iron>,
-    aluminum: <liquid:aluminum>,
 };
 
 

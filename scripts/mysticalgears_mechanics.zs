@@ -28,7 +28,7 @@ recipes.remove(<mystgears:mechanical_dial>);
 scripts.utils.addShaped("recipe_mechanical_dial", <mystgears:mechanical_dial>, [
 	[<ore:dustRedstone>], 
 	[<thebetweenlands:items_misc:32>], 
-	[<ore:plateGold>]
+	[<ore:plateSilver>]
 ]);
 
 recipes.remove(<mysticalmechanics:gear_fan>);

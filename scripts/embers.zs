@@ -203,7 +203,7 @@ scripts.utils.addShaped("beam_splitter", <embers:beam_splitter>, [
 recipes.remove(<embers:ember_relay>);
 scripts.utils.addShaped("ember_relay", <embers:ember_relay> * 4, [
 	[null, <ore:ingotOctine>, null], 
-	[<ore:ingotCopper>, null, <ore:ingotCopper>], 
+	[<ore:ingotOctine>, null, <ore:ingotOctine>], 
 	[null, <ore:plateSyrmorite>, null]
 ]);
 
@@ -258,9 +258,9 @@ scripts.utils.addShaped("fluid_transfer", <embers:fluid_transfer> * 4, [
 
 recipes.remove(<embers:clockwork_attenuator>);
 scripts.utils.addShaped("clockwork_attenuator", <embers:clockwork_attenuator>, [
-	[<ore:nuggetElectrum>, <ore:dustRedstone>, <ore:nuggetElectrum>], 
-	[null, <thebetweenlands:items_misc:32>, null], 
-	[<ore:nuggetElectrum>, <ore:plateElectrum>, <ore:nuggetElectrum>]
+	[<ore:dustRedstone>], 
+	[<thebetweenlands:items_misc:32>], 
+	[<mystgears:gear_syrmorite>]
 ]);
 
 recipes.remove(<embers:steam_engine>);
@@ -305,7 +305,7 @@ scripts.utils.addShaped("ember_jar", <embers:ember_jar>.withTag({emberCapacity: 
 
 recipes.remove(<embers:ember_cartridge>);
 scripts.utils.addShaped("ember_cartridge", <embers:ember_cartridge>.withTag({emberCapacity: 6000.0, ember: 0.0}), [
-	[<ore:ingotSyrmorite>, <ore:plateCopper>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, <ore:plateOctine>, <ore:ingotSyrmorite>], 
 	[<ore:blockGlass>, <embers:crystal_ember:*>, <ore:blockGlass>], 
 	[null, <ore:blockGlass>, null]
 ]);
@@ -416,7 +416,7 @@ scripts.utils.addShaped("ember_funnel", <embers:ember_funnel>, [
 recipes.remove(<embers:ember_siphon>);
 scripts.utils.addShaped("ember_siphon", <embers:ember_siphon>, [
 	[<embers:wall_caminite_brick>, <ore:ingotSyrmorite>, <embers:wall_caminite_brick>], 
-	[<ore:plateNickel>, <ore:ingotSyrmorite>, <ore:plateNickel>], 
+	[<ore:plateSilver>, <ore:ingotSyrmorite>, <ore:plateSilver>], 
 	[<embers:brick_caminite:*>, <embers:brick_caminite:*>, <embers:brick_caminite:*>]
 ]);
 
@@ -436,8 +436,8 @@ scripts.utils.addShaped("alchemy_pedestal", <embers:alchemy_pedestal>, [
 
 recipes.remove(<embers:beam_cannon>);
 scripts.utils.addShaped("beam_cannon", <embers:beam_cannon>, [
-	[<ore:plateCopper>, <embers:crystal_ember:*>, <ore:plateCopper>], 
-	[<ore:plateCopper>, <embers:crystal_ember:*>, <ore:plateCopper>], 
+	[<ore:plateOctine>, <embers:crystal_ember:*>, <ore:plateOctine>], 
+	[<ore:plateOctine>, <embers:crystal_ember:*>, <ore:plateOctine>], 
 	[<ore:ingotDawnstone>, <embers:block_caminite_brick:*>, <ore:ingotDawnstone>]
 ]);
 
@@ -455,6 +455,13 @@ scripts.utils.addShaped("stirling", <embers:stirling>, [
 	[<embers:shard_ember:*>, <embers:wildfire_core:*>, <embers:shard_ember:*>]
 ]);
 
+recipes.remove(<embers:reaction_chamber>);
+scripts.utils.addShaped("reaction_chamber", <embers:reaction_chamber>, [
+	[<ore:plateSyrmorite>, <ore:plateSyrmorite>, <ore:plateSyrmorite>], 
+	[<ore:plateSyrmorite>, null, <ore:plateSyrmorite>], 
+	[<ore:ingotSyrmorite>, <embers:spark_plug:*>, <ore:ingotSyrmorite>]
+]);
+
 
 
 recipes.remove(<embers:plate_iron>);
@@ -468,6 +475,15 @@ recipes.remove(<embers:plate_gold>);
 
 // ----------- ALCHEMY ----------------------
 Alchemy.remove(<embers:isolated_materia>);
+Alchemy.remove(<soot:witch_fire>);
+Alchemy.remove(<embers:seed_tin>);
+
+Alchemy.remove(<embers:winding_gears>);
+Alchemy.add(<embers:winding_gears>, [<ore:ingotOctine>, <ore:plateOctine>, <ore:plateOctine>, <ore:plateOctine>, <ore:plateOctine>], 
+	{
+		"copper" : 32 to 128
+	}
+);
 
 Alchemy.add(<embers:blend_caminite> * 4, [<roots:runic_dust>, <thebetweenlands:mud>, <pyrotech:material:8>, <thebetweenlands:silt>, <embers:dust_ash>], 
 	{
@@ -618,29 +634,8 @@ Alchemy.add(<embers:seed_lead>, [<thebetweenlands:dentrothyst_shard_orange>, <em
 );
 
 Alchemy.remove(<embers:seed_aluminum>);
-Alchemy.add(<embers:seed_aluminum>, [<thebetweenlands:dentrothyst_shard_orange>, <embers:ingot_aluminum>, <embers:ingot_aluminum>, <embers:shard_ember>, <embers:shard_ember>], 
-	{
-		"iron" : 48 to 64,
-		"copper" : 24 to 32,
-		"silver" : 24 to 32
-	}
-);
-
-Alchemy.remove(<embers:seed_nickel>);
-Alchemy.add(<embers:seed_nickel>, [<thebetweenlands:dentrothyst_shard_orange>, <embers:ingot_nickel>, <embers:ingot_nickel>, <embers:shard_ember>, <embers:shard_ember>], 
-	{
-		"iron" : 72 to 96,
-		"lead" : 24 to 32
-	}
-);
-
+Alchemy.remove(<embers:seed_nickel>);	
 Alchemy.remove(<embers:seed_copper>);
-Alchemy.add(<embers:seed_copper>, [<thebetweenlands:dentrothyst_shard_orange>, <embers:ingot_copper>, <embers:ingot_copper>, <embers:shard_ember>, <embers:shard_ember>], 
-	{
-		"iron" : 72 to 96,
-		"copper" : 24 to 32
-	}
-);
 
 Alchemy.remove(<embers:explosion_charm>);
 Alchemy.add(<embers:explosion_charm>, [<embers:ember_cluster>, <embers:archaic_brick>, <thebetweenlands:items_misc:4>, <embers:archaic_brick>, <embers:archaic_brick>], 
@@ -651,7 +646,7 @@ Alchemy.add(<embers:explosion_charm>, [<embers:ember_cluster>, <embers:archaic_b
 );
 
 Alchemy.remove(<embers:intelligent_apparatus>);
-Alchemy.add(<embers:intelligent_apparatus>, [<embers:plate_gold>, <embers:archaic_circuit>, <ore:ingotCopper>, <embers:archaic_circuit>, <ore:ingotCopper>], 
+Alchemy.add(<embers:intelligent_apparatus>, [<ore:plateOctine>, <embers:archaic_circuit>, <ore:ingotOctine>, <embers:archaic_circuit>, <ore:ingotOctine>], 
 	{
 		"lead" : 40 to 64,
 		"copper" : 24 to 48
@@ -659,7 +654,7 @@ Alchemy.add(<embers:intelligent_apparatus>, [<embers:plate_gold>, <embers:archai
 );
 
 Alchemy.remove(<embers:wildfire_core>);
-Alchemy.add(<embers:wildfire_core>, [<embers:ancient_motive_core>, <ore:ingotDawnstone>, <embers:ember_cluster>, <ore:ingotDawnstone>, <ore:plateCopper>], 
+Alchemy.add(<embers:wildfire_core>, [<embers:ancient_motive_core>, <ore:ingotDawnstone>, <embers:ember_cluster>, <ore:ingotDawnstone>, <ore:plateOctine>], 
 	{
 		"iron" : 32 to 48,
 		"silver" : 24 to 32
@@ -708,6 +703,11 @@ val liquidsToRemove = [
 	<liquid:gold>,
 	<liquid:tin>,
 	<liquid:sugar>,
+	<liquid:copper>,
+	<liquid:aluminum>,
+	<liquid:nickel>,
+	<liquid:bronze>,
+	<liquid:electrum>,
 ] as ILiquidStack[];
 
 for liquid in liquidsToRemove {
@@ -754,7 +754,7 @@ Melter.remove(<liquid:boiling_wormwood> * 100);
 Melter.add(<liquid:boiling_wormwood> * 50, <thebetweenlands:swamp_double_tallgrass>);
 
 Melter.add(<liquid:syrmorite> * 144, <embers:aspectus_iron>);
-Melter.add(<liquid:copper> * 144, <embers:aspectus_copper>);
+Melter.add(<liquid:octine> * 144, <embers:aspectus_copper>);
 Melter.add(<liquid:lead> * 144, <embers:aspectus_lead>);
 Melter.add(<liquid:silver> * 144, <embers:aspectus_silver>);
 Melter.add(<liquid:dawnstone> * 144, <embers:aspectus_dawnstone>);
@@ -765,19 +765,38 @@ Melter.add(<liquid:dawnstone> * 144, <embers:aspectus_dawnstone>);
 
 
 // ----------- STAMPER ----------------------
-//Stamper.remove(<embers:ingot_copper>);
-//Stamper.remove(<embers:plate_copper>);
-//Stamper.remove(<embers:nugget_copper>);
-//Stamper.remove(<mystgears:gear_copper>);
-
 Stamper.remove(<mystgears:gear_tin>);
+Stamper.remove(<minecraft:gold_ingot>);
+Stamper.remove(<embers:ingot_copper>);
+Stamper.remove(<mystgears:gear_copper>);
+Stamper.remove(<embers:plate_copper>);
+Stamper.remove(<embers:nugget_copper>);
+Stamper.remove(<thaumcraft:nugget:1>);
+Stamper.remove(<embers:block_copper>);
+Stamper.remove(<thebetweenlands:octine_ingot>);
+Stamper.remove(<mystgears:gear_nickel>);
+Stamper.remove(<embers:nugget_nickel>);
+Stamper.remove(<embers:plate_nickel>);
+Stamper.remove(<embers:ingot_nickel>);
+Stamper.remove(<mystgears:gear_aluminium>);
+Stamper.remove(<embers:nugget_aluminum>);
+Stamper.remove(<embers:plate_aluminum>);
+Stamper.remove(<embers:ingot_aluminum>);
+Stamper.remove(<embers:plate_bronze>);
+Stamper.remove(<embers:nugget_bronze>);
+Stamper.remove(<mystgears:gear_bronze>);
+Stamper.remove(<embers:ingot_bronze>);
+Stamper.remove(<embers:ingot_electrum>);
+Stamper.remove(<embers:plate_electrum>);
+Stamper.remove(<embers:nugget_electrum>);
+Stamper.remove(<mystgears:gear_electrum>);
+Stamper.remove(<embers:ingot_tin>);
+Stamper.remove(<embers:plate_tin>);
 
 Stamper.add(<thebetweenlands:items_misc:11>, <liquid:syrmorite> * 144, <embers:stamp_bar>);
 Stamper.add(<thaumcraft:ingot:2>, <liquid:brass> * 144, <embers:stamp_bar>);
-
 Stamper.add(<thaumcraft:nugget:8>, <liquid:brass> * 16, <soot:stamp_nugget>);
 
-Stamper.remove(<minecraft:gold_ingot>);
 //Stamper.add(<ore:ingotCopper>, <liquid:octine> * 144, <embers:stamp_bar>);
 
 //Stamper.remove(<embers:plate_iron>);
@@ -804,8 +823,8 @@ Stamper.remove(<minecraft:blaze_powder>);
 Stamper.remove(<embers:aspectus_iron>);
 Stamper.add(<embers:aspectus_iron>, <liquid:syrmorite> * 144, <embers:stamp_plate>, <embers:shard_ember>);
 
-//Stamper.remove(<embers:aspectus_copper>);
-//Stamper.add(<embers:aspectus_copper>, <liquid:octine> * 144, <embers:stamp_plate>, <embers:shard_ember>);
+Stamper.remove(<embers:aspectus_copper>);
+Stamper.add(<embers:aspectus_copper>, <liquid:octine> * 144, <embers:stamp_plate>, <embers:shard_ember>);
 
 recipes.remove(<thebetweenlands:octine_pickaxe>);
 recipes.remove(<thebetweenlands:octine_axe>);
@@ -876,13 +895,16 @@ Mixer.remove(<liquid:antimony>);
 Mixer.remove(<liquid:dawnstone> * 8);
 Mixer.remove(<liquid:tin>);
 Mixer.remove(<liquid:tin> * 4);
-Mixer.add(<liquid:dawnstone> * 8, [<liquid:copper> * 4, <liquid:octine> * 4]);
-
+Mixer.remove(<liquid:copper>);
+Mixer.remove(<liquid:copper> * 4);
+Mixer.remove(<liquid:nickel>);
+Mixer.remove(<liquid:nickel> * 4);
+Mixer.remove(<liquid:aluminum>);
+Mixer.remove(<liquid:aluminum> * 4);
 Mixer.remove(<liquid:electrum> * 8);
-Mixer.add(<liquid:electrum> * 8, [<liquid:silver> * 4, <liquid:octine> * 4]);
-
 Mixer.remove(<liquid:bronze> * 8);
-Mixer.add(<liquid:bronze> * 8, [<liquid:syrmorite> * 4, <liquid:copper> * 4]);
+
+Mixer.add(<liquid:dawnstone> * 8, [<liquid:syrmorite> * 4, <liquid:octine> * 4]);
 
 Mixer.remove(<liquid:inner_fire> * 4);
 Mixer.add(<liquid:inner_fire> * 4, [<liquid:fluid_booze_hopale_extended> * 4, <liquid:octine> * 1]);
@@ -944,7 +966,7 @@ scripts.utils.addInfoTooltip(<embers:ember_bore>, "Has to be placed in the pitst
 <embers:plate_iron>.displayName = "Wrought Iron Plate";
 <embers:plate_gold>.displayName = "Octine Plate";
 <embers:aspectus_iron>.displayName = "Syrmorite Aspectus";
-//<embers:aspectus_copper>.displayName = "Octine Aspectus";
+<embers:aspectus_copper>.displayName = "Octine Aspectus";
 //<embers:seed_iron>.displayName = "Syrmorite Crystal Seed";
 //<embers:seed_gold>.displayName = "Octine Crystal Seed";
 <embers:copper_cell:*>.displayName = "Octine Cell";

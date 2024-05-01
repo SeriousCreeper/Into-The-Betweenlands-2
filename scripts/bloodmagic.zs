@@ -244,7 +244,7 @@ scripts.utils.addShaped("bloodmagic-pack_self_sacrifice", <bloodmagic:pack_self_
 recipes.remove(<bloodmagic:pack_sacrifice>);
 scripts.utils.addShaped("bloodmagic-bone_chestplate", <bloodmagic:pack_sacrifice>, [
 	[<ore:blockGlass>, <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}).noReturn(), <ore:blockGlass>], 
-	[<embers:ingot_aluminum>, <thebetweenlands:bone_chestplate>, <embers:ingot_aluminum>], 
+	[<ore:ingotDawnstone>, <thebetweenlands:bone_chestplate>, <ore:ingotDawnstone>], 
 	[<ore:blockGlass>, <bloodmagic:slate>, <ore:blockGlass>]
 ]);
 

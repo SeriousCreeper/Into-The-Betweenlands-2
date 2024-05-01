@@ -737,8 +737,6 @@ for metal in metals {
 
 
 val extraPlates = {
-	<embers:plate_electrum> : <embers:ingot_electrum>,
-	<embers:plate_bronze> : <embers:ingot_bronze>,
 	<embers:plate_dawnstone> : <embers:ingot_dawnstone>,
 	<thaumcraft:plate:0> : <thaumcraft:ingot:2>,
 	<thaumcraft:plate:2> : <thaumcraft:ingot:0>,
@@ -1284,19 +1282,20 @@ Bloomery.removeAllWitherForgeRecipes();
 recreateWitherBloomeryRecipe("Iron", metals["iron"].ore, <pyrotech:generated_pile_slag_iron>, metals["iron"].nugget, <pyrotech:generated_slag_iron>, ["ironclad"]);
 recreateBloomeryRecipe("Syrmorite", <thebetweenlands:syrmorite_ore>, <pyrotech:generated_pile_slag_syrmorite>, <thebetweenlands:items_misc:41>, <pyrotech:generated_slag_syrmorite>, ["granite", "ironclad"]);
 recreateBloomeryRecipe("Octine", metals["octine"].ore, <pyrotech:generated_pile_slag_octine>, metals["octine"].nugget, <pyrotech:generated_slag_octine>, ["ironclad"]);
-recreateBloomeryRecipe("Nickel", metals["nickel"].ore, <pyrotech:generated_pile_slag_nickel>, metals["nickel"].nugget, <pyrotech:generated_slag_nickel>, ["ironclad"]);
-recreateBloomeryRecipe("Copper", metals["copper"].ore, <pyrotech:generated_pile_slag_copper>, metals["copper"].nugget, <pyrotech:generated_slag_copper>, ["ironclad"]);
 recreateBloomeryRecipe("Lead", metals["lead"].ore, <pyrotech:generated_pile_slag_lead>, metals["lead"].nugget, <pyrotech:generated_slag_lead>, ["ironclad"]);
 recreateBloomeryRecipe("Silver", metals["silver"].ore, <pyrotech:generated_pile_slag_silver>, metals["silver"].nugget, <pyrotech:generated_slag_silver>, ["ironclad"]);
-recreateBloomeryRecipe("Aluminum", metals["aluminum"].ore, <pyrotech:generated_pile_slag_aluminum>, metals["aluminum"].nugget, <pyrotech:generated_slag_aluminum>, ["ironclad"]);
 //recreateBloomeryRecipe("Uranium", metals["uranium"].ore, <pyrotech:generated_pile_slag_uranium>, metals["uranium"].nugget, <pyrotech:generated_slag_uranium>, ["ironclad"]);
 
 furnace.remove(<pyrotech:generated_pile_slag_iron>);
 
 
 val bloomsToRemove = [
-	//<immersiveengineering:metal:29>,
-	<minecraft:gold_nugget>
+	<minecraft:gold_nugget>,
+	<embers:nugget_tin>,
+	<embers:nugget_nickel>,
+	<embers:nugget_copper>,
+	<embers:nugget_aluminum>,
+	<thaumcraft:nugget:1>,
 ] as IItemStack[];
 
 

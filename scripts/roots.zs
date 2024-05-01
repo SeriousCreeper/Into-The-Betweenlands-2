@@ -689,7 +689,7 @@ Rituals.modifyRitual("ritual_frost_lands", [
 ]);
 
 Rituals.modifyRitual("ritual_heavy_storms", [
-	<embers:ingot_copper>,
+	<ore:ingotOctine>,
 	<roots:dewgonia>,
 	<ore:vine>,
 	<roots:cloud_berry>,

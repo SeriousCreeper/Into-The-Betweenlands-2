@@ -654,8 +654,8 @@ ArcaneWorkbench.registerShapedRecipe("axe_clockwork", "UNLOCKARTIFICE@2", 100, [
 ], 
 <embers:axe_clockwork>, 
 [
-	[<embers:plate_dawnstone>, <embers:plate_gold>, <embers:plate_dawnstone>], 
-	[<embers:ingot_dawnstone>, <embers:shard_ember>, <embers:ingot_dawnstone>], 
+	[<ore:plateDawnstone>, <ore:plateOctine>, <ore:plateDawnstone>], 
+	[<ore:ingotDawnstone>, <embers:shard_ember>, <ore:ingotDawnstone>], 
 	[null, <ore:stickWood>, null]
 ]);
 
@@ -667,8 +667,8 @@ ArcaneWorkbench.registerShapedRecipe("pickaxe_clockwork", "UNLOCKARTIFICE@2", 10
 ], 
 <embers:pickaxe_clockwork>, 
 [
-	[<embers:ingot_dawnstone>, <embers:shard_ember>, <embers:ingot_dawnstone>], 
-	[null, <ore:ingotCopper>, null], 
+	[<ore:ingotDawnstone>, <embers:shard_ember>, <ore:ingotDawnstone>], 
+	[null, <ore:plateOctine>, null], 
 	[null, <ore:stickWood>, null]
 ]);
 
@@ -680,8 +680,8 @@ ArcaneWorkbench.registerShapedRecipe("grandhammer", "UNLOCKARTIFICE@2", 100, [
 ], 
 <embers:grandhammer>, 
 [
-	[<embers:block_dawnstone>, <embers:ingot_dawnstone>, <embers:block_dawnstone>], 
-	[null, <ore:ingotCopper>, null], 
+	[<ore:blockDawnstone>, <ore:ingotDawnstone>, <ore:blockDawnstone>], 
+	[null, <ore:ingotOctine>, null], 
 	[null, <ore:stickWood>, null]
 ]);
 
@@ -1118,6 +1118,8 @@ SalisMundus.addSingleConversion(<growthcraft_cellar:brew_kettle>, <thaumcraft:cr
 // CAULDRON
 Crucible.removeRecipe(<thaumcraft:cluster:0>);
 Crucible.removeRecipe(<thaumcraft:cluster:1>);
+Crucible.removeRecipe(<thaumcraft:cluster:2>);
+Crucible.removeRecipe(<thaumcraft:cluster:3>);
 Crucible.removeRecipe(<thaumcraft:tallow>);
 Crucible.removeRecipe(<minecraft:gunpowder>);
 Crucible.removeRecipe(<minecraft:slime_ball>);
@@ -1126,7 +1128,8 @@ Crucible.removeRecipe(<minecraft:glowstone_dust>);
 Crucible.removeRecipe(<minecraft:clay_ball>);
 Crucible.removeRecipe(<minecraft:string>);
 Crucible.removeRecipe(<minecraft:lava_bucket>);
-
+Crucible.removeRecipe(<jaopca:thaumcraft_cluster.aluminum>);
+Crucible.removeRecipe(<jaopca:thaumcraft_cluster.nickel>);
 
 /*
 Crucible.removeRecipe(<thaumcraft:nitor_yellow>);
@@ -1196,7 +1199,7 @@ Crucible.registerRecipe("SaneSoap", "SANESOAP@2", <thaumcraft:sanity_soap>, <the
 ]);
 
 Crucible.removeRecipe(<thaumcraft:ingot:2>);
-Crucible.registerRecipe("brassingot", "METALLURGY@1", <thaumcraft:ingot:2>, <ore:ingotCopper>, [
+Crucible.registerRecipe("brassingot", "METALLURGY@1", <thaumcraft:ingot:2>, <ore:ingotOctine>, [
 	<aspect:instrumentum> * 5
 ]);
 
@@ -1397,13 +1400,9 @@ SmeltingBonus.removeSmeltingBonus(<ore:clusterCopper>, <thaumcraft:nugget:1>);
 
 SmeltingBonus.addSmeltingBonus(<ore:oreLead>, <embers:nugget_lead> % 5);
 SmeltingBonus.addSmeltingBonus(<ore:oreSilver>, <embers:nugget_silver> % 5);
-SmeltingBonus.addSmeltingBonus(<ore:oreCopper>, <embers:nugget_copper> % 5);
-SmeltingBonus.addSmeltingBonus(<ore:oreTin>, <embers:nugget_tin> % 5);
 
 SmeltingBonus.addSmeltingBonus(<ore:clusterLead>, <embers:nugget_lead> % 10);
 SmeltingBonus.addSmeltingBonus(<ore:clusterSilver>, <embers:nugget_silver> % 10);
-SmeltingBonus.addSmeltingBonus(<ore:clusterCopper>, <embers:nugget_copper> % 10);
-SmeltingBonus.addSmeltingBonus(<ore:clusterTin>, <embers:nugget_tin> % 10);
 
 
 
