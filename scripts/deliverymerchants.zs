@@ -113,7 +113,6 @@ Store.addTrade(<thebetweenlands:octine_ore>, cur_2 * 1);
 Store.addTrade(<thebetweenlands:scabyst_ore>, cur_2 * 2);
 Store.addTrade(<thebetweenlands:valonite_ore>, cur_2 * 3);
 
-Store.addTrade("knowledge_of_malice", <betweenores:nickel_ore>, cur_2 * 1);
 Store.addTrade("knowledge_of_malice", <betweenores:lead_ore>, cur_2 * 1);
 Store.addTrade("knowledge_of_malice", <betweenores:silver_ore>, cur_2 * 1);
 Store.addTrade("knowledge_of_malice", <thaumcraft:ore_amber>, cur_2 * 2);
