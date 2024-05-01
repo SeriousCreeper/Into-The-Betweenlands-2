@@ -26,3 +26,4 @@ assignees: ''
 
 **Version of the pack:**
 <!-- e.g. Into the Betweenlands 2 Alpha-0.7.3 -->
+<!-- If you've made any changes to the pack (e.g. added mods, changed config) please list any changes here -->
