@@ -622,7 +622,6 @@ val ignemOrechidToRemove = [
 ] as string[];
 
 
-
 for ore in orechidToRemove {
 	Orechid.removeOre(ore);
 }
@@ -631,20 +630,17 @@ for ore in ignemOrechidToRemove {
 	OrechidIgnem.removeOre(ore);
 }
 
-Orechid.addOre(<ore:oreOctine>, 300);
+Orechid.addOre(<ore:oreSulfur>, 1000);
 Orechid.addOre(<ore:oreBone>, 800);
 Orechid.addOre(<ore:oreSyrmorite>, 500);
-Orechid.addOre(<ore:oreCopper>, 400);
-Orechid.addOre(<ore:oreAluminum>, 400);
-Orechid.addOre(<ore:oreSulfur>, 1000);
+Orechid.addOre(<ore:oreOctine>, 400);
+Orechid.addOre(<ore:oreSilver>, 300);
 Orechid.addOre(<ore:oreAmber>, 200);
 
-OrechidIgnem.addOre(<ore:oreLead>, 1000);
-OrechidIgnem.addOre(<ore:oreNickel>, 900);
-OrechidIgnem.addOre(<ore:oreSilver>, 900);
-OrechidIgnem.addOre(<ore:oreCinnabar>, 500);
-OrechidIgnem.addOre(<ore:oreValonite>, 200);
-OrechidIgnem.addOre(<ore:oreScabyst>, 600);
+OrechidIgnem.addOre(<ore:oreLead>, 400);
+OrechidIgnem.addOre(<ore:oreCinnabar>, 200);
+OrechidIgnem.addOre(<ore:oreValonite>, 100);
+OrechidIgnem.addOre(<ore:oreScabyst>, 300);
 
 
 // trades
