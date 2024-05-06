@@ -6,10 +6,12 @@
 !/config/**
 !/scripts/**
 !/resources/**
+!/resourcepacks/**
 !/oresources/**
 !/structures/**
 !/patchouli_books/**
 # You can be specific with these rules
+/resourcepacks/*.zip
 !.gitignore 
 config/jei/worldSettings.cfg
 config/fantasticlib/reference
