@@ -611,11 +611,6 @@ Alchemy.add(<embers:seed_octine>, [<thebetweenlands:dentrothyst_shard_orange>, <
 );
 
 Alchemy.remove(<embers:seed_iron>);
-Alchemy.add(<embers:seed_iron>, [<thebetweenlands:dentrothyst_shard_orange>, <ore:ingotIron>, <ore:ingotIron>, <embers:shard_ember>, <embers:shard_ember>], 
-	{
-		"iron" : 96 to 128
-	}
-);
 
 Alchemy.remove(<embers:seed_silver>);
 Alchemy.add(<embers:seed_silver>, [<thebetweenlands:dentrothyst_shard_orange>, <embers:ingot_silver>, <embers:ingot_silver>, <embers:shard_ember>, <embers:shard_ember>], 
