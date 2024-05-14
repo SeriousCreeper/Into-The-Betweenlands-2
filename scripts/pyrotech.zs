@@ -310,7 +310,7 @@ val itemsToRemove = [
 	<pyrotech:barrel>,
 	<pyrotech:tanning_rack>,
 	<pyrotech:barrel_lid>,
-	<pyrotech:trip_hammer>,
+	//<pyrotech:trip_hammer>,
 	//<pyrotech:fluid.wood_tar>,
 	//<pyrotech:fluid.coal_tar>,
 	<pyrotech:crude_shield>,
@@ -579,7 +579,12 @@ scripts.utils.addShaped("tech/bloomery/bloomery", <pyrotech:bloomery>, [
 	[<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]
 ]);
 
-
+recipes.remove(<pyrotech:trip_hammer>);
+scripts.utils.addShaped("tech/machine/trip_hammer", <pyrotech:trip_hammer>, [
+	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>], 
+	[<pyrotech:mechanical_hopper>, <pyrotech:cog_bone>, <pyrotech:material:23>], 
+	[<pyrotech:masonry_brick_block>, <pyrotech:planks_tarred>, <pyrotech:masonry_brick_block>]
+]);
 
 
 recipes.remove(<pyrotech:obsidian_hammer>);
