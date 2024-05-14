@@ -1,0 +1,20 @@
+{
+	x: -9.0d,
+	y: 2.0d,
+	shape: "gear",
+	dependencies: [
+		"4457f695"
+	],
+	tasks: [{
+		uid: "6f34b323",
+		type: "item",
+		items: [{
+			item: "pyrotech:planks_tarred"
+		}]
+	}],
+	rewards: [{
+		uid: "a2c2e15f",
+		type: "xp",
+		xp: 100
+	}]
+}

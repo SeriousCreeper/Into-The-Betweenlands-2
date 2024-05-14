@@ -1,0 +1,28 @@
+{
+	x: -10.0d,
+	y: 3.0d,
+	shape: "gear",
+	text: [
+		"The §6Trip Hammer§r can be used to automatically §6process§r items on an §6anvil§r or a §6chopping block§r. ",
+		"",
+		"Simply place a trip hammer next to the anvil/chopping block, attach a §6cog§r, and the §6required tool§r for the item that needs to be processed. ",
+		"",
+		"It is §6not§r the §6fastest§r, but it is automatic. "
+	],
+	dependencies: [
+		"918f3200"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6ae3dbd6",
+		type: "item",
+		items: [{
+			item: "pyrotech:trip_hammer"
+		}]
+	}],
+	rewards: [{
+		uid: "c0d3cda0",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,13 +1,14 @@
 {
 	x: -9.0d,
-	y: 4.0d,
+	y: 3.0d,
 	shape: "gear",
 	text: [
 		"Automatic bellow that will blow air into refractory machines, as long as a cog is attached."
 	],
 	dependencies: [
 		"654f6fcb",
-		"b024cd96"
+		"b024cd96",
+		"918f3200"
 	],
 	hide: true,
 	optional: true,

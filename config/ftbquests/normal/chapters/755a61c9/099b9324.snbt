@@ -1,6 +1,6 @@
 {
 	title: "Slaked Lime",
-	x: -9.0d,
+	x: -8.0d,
 	y: 2.0d,
 	shape: "gear",
 	text: [
