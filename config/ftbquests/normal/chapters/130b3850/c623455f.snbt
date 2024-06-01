@@ -2,7 +2,7 @@
 	x: -3.25d,
 	y: -1.0d,
 	text: [
-		"Certain blocks near the player (within §69x3x9§r range) increase the chance of gaining knowledge. ",
+		"Certain blocks near the player (within §617x3x17§r range) increase the chance of gaining knowledge. ",
 		"",
 		"These include:",
 		"- Crucible",
