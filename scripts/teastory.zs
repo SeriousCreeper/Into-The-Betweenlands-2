@@ -100,7 +100,7 @@ recipes.remove(<teastory:pot_iron>);
 scripts.utils.addShaped("teastory_pot_iron", <teastory:pot_iron>, [
 	[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>], 
 	[<thebetweenlands:items_misc:11>, <teastory:pot_stone>, <thebetweenlands:items_misc:11>], 
-	[null, <ore:blockSyrmorite>, null]
+	[null, <thebetweenlands:items_misc:11>, null]
 ]);
 
 recipes.remove(<teastory:pot_clay>);
