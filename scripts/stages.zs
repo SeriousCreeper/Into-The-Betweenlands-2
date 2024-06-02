@@ -126,6 +126,9 @@ stageMods("thaumicaugmentation", sludgeonStage, thaumicaugmentationItemsNotToSta
 stageMods("wormhole", sludgeonStage, wormholeItemsNotToStage);
 
 ItemStages.addItemStage(sludgeonStage, <pyrotech:wither_forge>);
+ItemStages.addItemStage(sludgeonStage, <jaopca:thaumcraft_cluster.octine>);
+ItemStages.addItemStage(sludgeonStage, <jaopca:thaumcraft_cluster.syrmorite>);
+
 Recipes.setRecipeStage(sludgeonStage, <pyrotech:wither_forge>);
 Recipes.setRecipeStage("botania", <botania:lexicon>.withTag({}));
 
@@ -141,6 +144,8 @@ Recipes.setRecipeStageByMod("unstaged", "deepresonance");
 ItemStages.stageModItems("unstaged", "deepresonance");
 Recipes.setRecipeStageByMod("unstaged", "arcaneworld");
 ItemStages.stageModItems("unstaged", "arcaneworld");
+
+
 
 
 
