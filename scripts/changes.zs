@@ -234,7 +234,7 @@ scripts.utils.addShaped("flint_and_steel", <minecraft:flint_and_steel>, [
 */
 
 recipes.remove(<minecraft:string>);
-recipes.addShapeless("string", <minecraft:string> * 3, [<contenttweaker:silk>, <mysticalworld:spindle:*>.transformDamage(1)]);
+recipes.addShapeless("string", <minecraft:string> * 3, [<contenttweaker:silk>, <thebetweenlands:syrmorite_shears:*>.transformDamage(1)]);
 
 recipes.remove(<minecraft:iron_bars>);
 scripts.utils.addShaped("iron_bars", <minecraft:iron_bars> * 16, [
