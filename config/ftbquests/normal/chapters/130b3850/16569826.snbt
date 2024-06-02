@@ -20,7 +20,15 @@
 		"1d46e163"
 	],
 	tasks: [{
-		uid: "618e685f",
-		type: "checkmark"
+		uid: "a479629e",
+		type: "item",
+		items: [{
+			item: "teastory:tea_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "0ae353f2",
+		type: "xp",
+		xp: 100
 	}]
 }
