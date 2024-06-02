@@ -1086,27 +1086,27 @@ PitKiln.addRecipe("brick_caminite", <embers:brick_caminite> * 2, <embers:blend_c
 ], true);
 
 furnace.remove(<embers:plate_caminite>);
-PitKiln.addRecipe("plate_caminite", <embers:plate_caminite>, <embers:plate_caminite_raw>, 10 * 60 * 20, 0.33, [
+PitKiln.addRecipe("plate_caminite", <embers:plate_caminite>, <embers:plate_caminite_raw>, 4 * 60 * 20, 0.33, [
 ], true);
 
 furnace.remove(<embers:stamp_bar>);
-PitKiln.addRecipe("stamp_bar", <embers:stamp_bar>, <embers:stamp_bar_raw>, 10 * 60 * 20, 0.33, [
+PitKiln.addRecipe("stamp_bar", <embers:stamp_bar>, <embers:stamp_bar_raw>, 4 * 60 * 20, 0.33, [
 ], true);
 
 furnace.remove(<embers:stamp_flat>);
-PitKiln.addRecipe("stamp_flat", <embers:stamp_flat>, <embers:stamp_flat_raw>, 10 * 60 * 20, 0.33, [
+PitKiln.addRecipe("stamp_flat", <embers:stamp_flat>, <embers:stamp_flat_raw>, 4 * 60 * 20, 0.33, [
 ], true);
 
 furnace.remove(<embers:stamp_plate>);
-PitKiln.addRecipe("stamp_plate", <embers:stamp_plate>, <embers:stamp_plate_raw>, 10 * 60 * 20, 0.33, [
+PitKiln.addRecipe("stamp_plate", <embers:stamp_plate>, <embers:stamp_plate_raw>, 4 * 60 * 20, 0.33, [
 ], true);
 
 furnace.remove(<embers:stamp_gear>);
-PitKiln.addRecipe("stamp_gear", <embers:stamp_gear>, <embers:stamp_gear_raw>, 10 * 60 * 20, 0.33, [
+PitKiln.addRecipe("stamp_gear", <embers:stamp_gear>, <embers:stamp_gear_raw>, 4 * 60 * 20, 0.33, [
 ], true);
 
 furnace.remove(<soot:stamp_nugget>);
-PitKiln.addRecipe("stamp_nugget", <soot:stamp_nugget>, <soot:stamp_nugget_raw>, 10 * 60 * 20, 0.33, [
+PitKiln.addRecipe("stamp_nugget", <soot:stamp_nugget>, <soot:stamp_nugget_raw>, 4 * 60 * 20, 0.33, [
 ], true);
 
 //PitKiln.addRecipe("stamp_wire", <immersiveengineering:mold:4>, <contenttweaker:stamp_wires_raw>, 10 * 60 * 20, 0.33, [
@@ -1129,6 +1129,10 @@ PitKiln.addRecipe("polished_dentrothyst_green", <thebetweenlands:polished_dentro
 
 furnace.remove(<thebetweenlands:polished_dentrothyst:1>);
 PitKiln.addRecipe("polished_dentrothyst_orange", <thebetweenlands:polished_dentrothyst:1>, <thebetweenlands:dentrothyst:1>, 10 * 60 * 20, 0.33, [
+], true);
+
+furnace.remove(<teastory:pot_porcelain>);
+PitKiln.addRecipe("pot_porcelain", <teastory:pot_porcelain>, <teastory:pot_clay>, 60 * 20, 0.33, [
 ], true);
 
 
