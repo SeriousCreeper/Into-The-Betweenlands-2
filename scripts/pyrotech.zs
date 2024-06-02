@@ -868,6 +868,7 @@ planksRecipe("dreamwood_planks", <botania:dreamwood:1>, <botania:dreamwood>, 4, 
 planksRecipe("shimmerwoodplanks0slab", <botania:shimmerwoodplanks0slab>, <botania:shimmerwoodplanks>, 4, 5, 6);
 
 
+brickSawmillRecipeBuilder("stone_rod", <pyrotech:material:27>, <pyrotech:material:16>, 4, 4, false);
 brickSawmillRecipeBuilder("pyrotech_material_16", <pyrotech:material:16>, <thebetweenlands:betweenstone_brick_slab>, 2, 2, false);
 brickSawmillRecipeBuilder("mud_brick_slab_decay_4", <thebetweenlands:mud_brick_slab_decay_4>, <thebetweenlands:mud_bricks_carved:13>, 2, 2, false);
 brickSawmillRecipeBuilder("mud_brick_slab_decay_3", <thebetweenlands:mud_brick_slab_decay_3>, <thebetweenlands:mud_bricks_carved:12>, 2, 2, false);
