@@ -2,6 +2,11 @@
 	x: -9.0d,
 	y: 2.0d,
 	shape: "gear",
+	text: [
+		"To create §6Tarred Planks§r, place a soaking pot over a campfire, and fill it with tar, as well as any plank. ",
+		"",
+		"Pools of tar can be found in §6Swamplands§r and §6Sludge Plains§r."
+	],
 	dependencies: [
 		"4457f695"
 	],
