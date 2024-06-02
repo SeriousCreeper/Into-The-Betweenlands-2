@@ -12,43 +12,39 @@ val cur_3 = <immersiveruins:scrap3>; // value = 4
 
 
 function addExchangeStore() {
-	/*
-	var cur_1 = <immersiveruins:scrap>; // value = 1
-	var cur_2 = <immersiveruins:scrap2>; // value = 64
-	var cur_3 = <immersiveruins:scrap3>; // value = 256
-	
+	val cur_1 = <immersiveruins:scrap2>; 
+	val cur_2 = <immersiveruins:scrap>;
+	val cur_3 = <immersiveruins:scrap3>;
+
 	Store.setStoreIcon("Exchange", cur_1);
 
-	Store.addTrade(cur_1 * 64, "Exchange", cur_2);
-	Store.addTrade(cur_1 * 256, "Exchange", cur_3);
-	Store.addTrade(cur_2, "Exchange", cur_1 * 64);
-	Store.addTrade(cur_2 * 4, "Exchange", cur_3);
-	Store.addTrade(cur_3, "Exchange", cur_2 * 4);
-	*/
+	Store.addTrade(cur_2, "Exchange", cur_1 * 4);
+	Store.addTrade(cur_3, "Exchange", cur_2 * 8);
+	Store.addTrade(cur_2 * 2, "Exchange", <soot:ingot_antimony>);
 }
 
 // rarities bl
 Store.setProfile("black_f");
 Store.setStoreIcon("_store", <thebetweenlands:life_crystal_fragment>);
 
-Store.addTrade(<thebetweenlands:life_crystal_fragment>, cur_2 * 2, cur_3 * 1);
-Store.addTrade(<thebetweenlands:bark_amulet>, cur_3 * 1);
-Store.addTrade(<livingchest:eye_bone>, cur_2 * 32);
+Store.addTrade(<thebetweenlands:life_crystal_fragment>, cur_2 * 32, cur_3 * 1);
+Store.addTrade(<thebetweenlands:bark_amulet>, cur_2 * 32, cur_3 * 1);
+Store.addTrade(<livingchest:eye_bone>, cur_2 * 32, cur_3 * 1);
 Store.addTrade(<thebetweenlands:aqua_middle_gem_ore>, cur_2 * 32);
 Store.addTrade(<thebetweenlands:crimson_middle_gem_ore>, cur_2 * 32);
 Store.addTrade(<thebetweenlands:green_middle_gem_ore>, cur_2 * 32);
-Store.addTrade(<thebetweenlands:rock_snot_pearl>, cur_2 * 8);
-Store.addTrade(<thebetweenlands:aspectrus_seeds>, cur_2 * 32);
-Store.addTrade(<thebetweenlands:bone_wayfinder>, cur_2 * 64);
-Store.addTrade(<simpledifficulty:dragon_canteen>.withTag({Doses: 0, CanteenType: 3}), cur_3 * 4);
+Store.addTrade(<thebetweenlands:rock_snot_pearl>, cur_2 * 4);
+Store.addTrade(<thebetweenlands:aspectrus_seeds>, cur_2 * 64);
+Store.addTrade(<thebetweenlands:bone_wayfinder>, cur_2 * 64, cur_3 * 1);
+Store.addTrade(<simpledifficulty:dragon_canteen>.withTag({Doses: 0, CanteenType: 3}), cur_2 * 64, cur_3 * 4);
 
 Store.addTrade("knowledge_of_technology", <thebetweenlands:rune_door_key>, cur_2 * 64);
-Store.addTrade("knowledge_of_technology", <pogosticks:pogo_stick>, cur_3 * 4);
+Store.addTrade("knowledge_of_technology", <pogosticks:pogo_stick>, cur_2 * 64, cur_3 * 4);
 
-Store.addTrade("knowledge_of_decay", <pyrotech:obsidian_hammer>, cur_3 * 8);
-Store.addTrade("knowledge_of_decay", <pyrotech:tongs_obsidian>, cur_3 * 8);
-Store.addTrade("knowledge_of_decay", <pyrotech:sawmill_blade_obsidian>, cur_3 * 8);
-Store.addTrade("knowledge_of_decay", <pyrotech:cog_obsidian>, cur_3 * 8);
+Store.addTrade("knowledge_of_decay", <pyrotech:obsidian_hammer>, cur_2 * 64, cur_3 * 8);
+Store.addTrade("knowledge_of_decay", <pyrotech:tongs_obsidian>, cur_2 * 64, cur_3 * 8);
+Store.addTrade("knowledge_of_decay", <pyrotech:sawmill_blade_obsidian>, cur_2 * 64, cur_3 * 8);
+Store.addTrade("knowledge_of_decay", <pyrotech:cog_obsidian>, cur_2 * 64, cur_3 * 8);
 
 addExchangeStore();
 
@@ -106,17 +102,17 @@ addExchangeStore();
 Store.setProfile("green_f");
 Store.setStoreIcon("_store", <thebetweenlands:sulfur_ore>);
 
-Store.addTrade(<thebetweenlands:sulfur_ore>, cur_2 * 1);
-Store.addTrade(<thebetweenlands:slimy_bone_ore>, cur_2 * 1);
-Store.addTrade(<thebetweenlands:syrmorite_ore>, cur_2 * 1);
-Store.addTrade(<thebetweenlands:octine_ore>, cur_2 * 1);
-Store.addTrade(<thebetweenlands:scabyst_ore>, cur_2 * 2);
-Store.addTrade(<thebetweenlands:valonite_ore>, cur_2 * 3);
+Store.addTrade(<thebetweenlands:sulfur_ore>, cur_2 * 4);
+Store.addTrade(<thebetweenlands:slimy_bone_ore>, cur_2 * 4);
+Store.addTrade(<thebetweenlands:syrmorite_ore>, cur_2 * 4);
+Store.addTrade(<thebetweenlands:octine_ore>, cur_2 * 4);
+Store.addTrade(<thebetweenlands:scabyst_ore>, cur_2 * 8);
+Store.addTrade(<thebetweenlands:valonite_ore>, cur_2 * 12);
 
-Store.addTrade("knowledge_of_malice", <betweenores:lead_ore>, cur_2 * 1);
-Store.addTrade("knowledge_of_malice", <betweenores:silver_ore>, cur_2 * 1);
-Store.addTrade("knowledge_of_malice", <thaumcraft:ore_amber>, cur_2 * 2);
-Store.addTrade("knowledge_of_malice", <thaumcraft:ore_cinnabar>, cur_2 * 2);
+Store.addTrade("knowledge_of_malice", <betweenores:lead_ore>, cur_2 * 4);
+Store.addTrade("knowledge_of_malice", <betweenores:silver_ore>, cur_2 * 4);
+Store.addTrade("knowledge_of_malice", <thaumcraft:ore_amber>, cur_2 * 8);
+Store.addTrade("knowledge_of_malice", <thaumcraft:ore_cinnabar>, cur_2 * 8);
 
 addExchangeStore();
 
@@ -133,11 +129,11 @@ Store.addTrade(<thebetweenlands:items_misc:53>, cur_2 * 16);
 Store.addTrade(<thebetweenlands:items_misc:54>, cur_2 * 16);
 Store.addTrade(<thebetweenlands:items_misc:55>, cur_2 * 16);
 Store.addTrade(<thebetweenlands:items_misc:57>, cur_2 * 16);
-Store.addTrade(<thebetweenlands:aa_upgrade_electric>, cur_3);
-Store.addTrade(<thebetweenlands:aa_upgrade_glide>, cur_3);
-Store.addTrade(<thebetweenlands:aa_upgrade_leap>, cur_3);
-Store.addTrade(<thebetweenlands:aa_upgrade_urchin>, cur_3);
-Store.addTrade(<thebetweenlands:aa_upgrade_vortex>, cur_3);
+Store.addTrade(<thebetweenlands:aa_upgrade_electric>, cur_2 * 16, cur_3);
+Store.addTrade(<thebetweenlands:aa_upgrade_glide>, cur_2 * 16, cur_3);
+Store.addTrade(<thebetweenlands:aa_upgrade_leap>, cur_2 * 16, cur_3);
+Store.addTrade(<thebetweenlands:aa_upgrade_urchin>, cur_2 * 16, cur_3);
+Store.addTrade(<thebetweenlands:aa_upgrade_vortex>, cur_2 * 16, cur_3);
 
 addExchangeStore();
 
