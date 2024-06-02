@@ -1,8 +1,5 @@
 {
-    "jaopca.material.Nickel": "Nyxite",
-    "jaopca.material.Aluminium": "Lumicite",
-    "jaopca.material.Aluminum": "Lumicite",
-    "jaopca.material.Aluminiumbrass": "Lumicite Brass",
+    "jaopca.material.Aluminiumbrass": "Aluminium Brass",
     "jaopca.material.BrickNether": "Nether Brick",
     "jaopca.material.BrickSeared": "Seared Brick",
     "jaopca.material.ElvenElementium": "Elementium",
