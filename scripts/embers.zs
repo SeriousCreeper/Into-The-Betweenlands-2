@@ -787,19 +787,19 @@ Stamper.remove(<embers:nugget_electrum>);
 Stamper.remove(<mystgears:gear_electrum>);
 Stamper.remove(<embers:ingot_tin>);
 Stamper.remove(<embers:plate_tin>);
+Stamper.remove(<embers:plate_iron>);
+Stamper.remove(<thaumcraft:plate:1>);
 
 Stamper.add(<thebetweenlands:items_misc:11>, <liquid:syrmorite> * 144, <embers:stamp_bar>);
 Stamper.add(<thaumcraft:ingot:2>, <liquid:brass> * 144, <embers:stamp_bar>);
+
 Stamper.add(<thaumcraft:nugget:8>, <liquid:brass> * 16, <soot:stamp_nugget>);
 
-//Stamper.add(<ore:ingotCopper>, <liquid:octine> * 144, <embers:stamp_bar>);
-
-//Stamper.remove(<embers:plate_iron>);
 Stamper.add(<thaumcraft:plate:1>, <liquid:syrmorite> * 144, <embers:stamp_plate>);
-
 Stamper.add(<thaumcraft:plate:0>, <liquid:brass> * 144, <embers:stamp_plate>);
 Stamper.add(<thaumcraft:plate:2>, <liquid:thaumium> * 144, <embers:stamp_plate>);
 Stamper.add(<thaumcraft:plate:3>, <liquid:void> * 144, <embers:stamp_plate>);
+Stamper.add(<embers:plate_iron>, <liquid:iron> * 144, <embers:stamp_plate>);
 
 //recipes.remove(<immersiveengineering:metal:38>);
 //recipes.remove(<immersiveengineering:metal:8>);
