@@ -767,6 +767,7 @@ Stamper.remove(<mystgears:gear_copper>);
 Stamper.remove(<embers:plate_copper>);
 Stamper.remove(<embers:nugget_copper>);
 Stamper.remove(<thaumcraft:nugget:1>);
+Stamper.remove(<thaumcraft:nugget:2>);
 Stamper.remove(<embers:block_copper>);
 Stamper.remove(<thebetweenlands:octine_ingot>);
 Stamper.remove(<mystgears:gear_nickel>);
