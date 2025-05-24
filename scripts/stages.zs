@@ -14,7 +14,7 @@ MobStages.addStage("knowledge_of_decay", "thaumcraft:wisp");
 
 OreStages.addReplacement("knowledge_of_malice", <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_malice", <betweenores:lead_ore>, <thebetweenlands:pitstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:silver_ore>, <thebetweenlands:pitstone>);
+OreStages.addReplacement("knowledge_of_malice", <betweenores:silver_ore>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_malice", <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement("knowledge_of_malice", <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
 OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_amber>, <thebetweenlands:betweenstone>);
