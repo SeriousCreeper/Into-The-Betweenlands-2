@@ -768,6 +768,7 @@ Stamper.remove(<embers:plate_copper>);
 Stamper.remove(<embers:nugget_copper>);
 Stamper.remove(<thaumcraft:nugget:1>);
 Stamper.remove(<thaumcraft:nugget:2>);
+Stamper.remove(<thaumcraft:nugget:3>);
 Stamper.remove(<embers:block_copper>);
 Stamper.remove(<thebetweenlands:octine_ingot>);
 Stamper.remove(<mystgears:gear_nickel>);
@@ -795,6 +796,7 @@ Stamper.add(<thebetweenlands:items_misc:11>, <liquid:syrmorite> * 144, <embers:s
 Stamper.add(<thaumcraft:ingot:2>, <liquid:brass> * 144, <embers:stamp_bar>);
 
 Stamper.add(<thaumcraft:nugget:8>, <liquid:brass> * 16, <soot:stamp_nugget>);
+Stamper.add(<embers:nugget_silver>, <liquid:silver> * 16, <soot:stamp_nugget>);
 
 Stamper.add(<thaumcraft:plate:1>, <liquid:syrmorite> * 144, <embers:stamp_plate>);
 Stamper.add(<thaumcraft:plate:0>, <liquid:brass> * 144, <embers:stamp_plate>);
