@@ -440,7 +440,7 @@ Fey.addRecipe("runed_obsidian", <roots:runed_obsidian> * 4,
 
 recipes.remove(<thaumcraft:salis_mundus>);
 Fey.addRecipe("salismundus", <thaumcraft:salis_mundus>, 
-	[<arcanearchives:radiant_dust>, <ore:dustRedstone>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
+	[<roots:runic_dust>, <ore:dustRedstone>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>]);
 
 Fey.addRecipe("sporeling_spores", <thebetweenlands:spores>, 
 	[<roots:terra_spores>, <thebetweenlands:items_misc:18>, <thebetweenlands:dentrothyst:1>, <thebetweenlands:shelf_fungus>, <thebetweenlands:bulb_capped_mushroom_item>]);
