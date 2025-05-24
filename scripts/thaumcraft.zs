@@ -207,9 +207,7 @@ ArcaneWorkbench.registerShapedRecipe("enchantedfabric", "UNLOCKINFUSION@2", 5, [
 ], 
 <thaumcraft:fabric>, 
 [
-	[null, <ore:string>, null], 
-	[<ore:string>, <thebetweenlands:shelf_fungus>, <ore:string>], 
-	[null, <ore:string>, null]
+	[<thebetweenlands:shelf_fungus>, <contenttweaker:silk>]
 ]);
 
 
