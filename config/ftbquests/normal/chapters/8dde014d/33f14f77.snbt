@@ -1,15 +1,15 @@
 {
 	disable_toast: true,
-	x: 14.625d,
-	y: -0.75d,
+	x: 11.625d,
+	y: 5.25d,
 	shape: "gear",
 	size: 1.5d,
 	tasks: [{
 		uid: "dcedefc7",
 		type: "gamestage",
-		title: "Knowledge of Decay",
+		title: "Knowledge of Spirit",
 		icon: "thaumcraft:thaumonomicon",
-		stage: "knowledge_of_decay"
+		stage: "knowledge_of_spirit"
 	}],
 	rewards: [{
 		uid: "28f16871",

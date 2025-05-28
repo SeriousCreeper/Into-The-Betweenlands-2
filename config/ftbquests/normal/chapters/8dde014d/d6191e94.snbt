@@ -1,0 +1,13 @@
+{
+	x: 10.125d,
+	y: 5.25d,
+	shape: "gear",
+	size: 1.5d,
+	tasks: [{
+		uid: "a589296e",
+		type: "advancement",
+		title: "Investigation: Spirit Tree",
+		advancement: "thebetweenlands:fighter/illegal_logging",
+		criterion: ""
+	}]
+}

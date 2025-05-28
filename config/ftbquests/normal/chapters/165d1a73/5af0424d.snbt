@@ -1,5 +1,5 @@
 {
-	title: "Investigation: Wight Fortress",
+	title: "Investigation: Spirit Tree",
 	x: -6.0d,
 	y: 4.0d,
 	shape: "gear",
@@ -18,7 +18,7 @@
 		type: "advancement",
 		title: "Advancement: Staring Contest",
 		disable_toast: true,
-		advancement: "thebetweenlands:fighter/staring_contest",
+		advancement: "thebetweenlands:fighter/illegal_logging",
 		criterion: ""
 	}],
 	rewards: [{

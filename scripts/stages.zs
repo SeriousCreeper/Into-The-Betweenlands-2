@@ -9,16 +9,22 @@ import crafttweaker.item.IIngredient;
 //import mods.multiblockstages.IEMultiBlockStages;
 
 
-MobStages.addStage("knowledge_of_malice", "embers:ancient_golem");
-MobStages.addStage("knowledge_of_decay", "thaumcraft:wisp");
+var stageCragrock = "knowledge_of_druids";
+var stageWightFortress = "knowledge_of_malice";
+var stageSpiritTree = "knowledge_of_spirit";
+var stageSludgeon = "knowledge_of_decay";
 
-OreStages.addReplacement("knowledge_of_malice", <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:lead_ore>, <thebetweenlands:pitstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:silver_ore>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement("knowledge_of_malice", <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
-OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_amber>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement("knowledge_of_malice", <thaumcraft:ore_cinnabar>, <thebetweenlands:pitstone>);
+
+MobStages.addStage(stageWightFortress, "embers:ancient_golem");
+MobStages.addStage(stageSpiritTree, "thaumcraft:wisp");
+
+OreStages.addReplacement(stageSpiritTree, <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement(stageSpiritTree, <betweenores:lead_ore>, <thebetweenlands:pitstone>);
+OreStages.addReplacement(stageSpiritTree, <betweenores:silver_ore>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement(stageSpiritTree, <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement(stageSpiritTree, <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
+OreStages.addReplacement(stageSpiritTree, <thaumcraft:ore_amber>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement(stageSpiritTree, <thaumcraft:ore_cinnabar>, <thebetweenlands:pitstone>);
 
 //OreStages.addReplacement("locked", <minecraft:dirt>, <thebetweenlands:swamp_dirt>);
 OreStages.addReplacement("locked", <minecraft:obsidian>, <thebetweenlands:tar_solid>);
@@ -70,11 +76,11 @@ val thaumcraftItemsNotToStage = [
 	<thaumcraft:brain>,
 	<thaumcraft:plate:1>,
 	<thaumcraft:crystal_essence>,
-	<thaumcraft:ore_amber>,
-	<thaumcraft:ore_cinnabar>,
-	<thaumcraft:amber>,
-	<thaumcraft:amber_block>,
-	<thaumcraft:amber_brick>,
+	//<thaumcraft:ore_amber>,
+	//<thaumcraft:ore_cinnabar>,
+	//<thaumcraft:amber>,
+	//<thaumcraft:amber_block>,
+	//<thaumcraft:amber_brick>,
 	<thaumcraft:crystal_aer>,
 	<thaumcraft:crystal_ignis>,
 	<thaumcraft:crystal_aqua>,
@@ -104,32 +110,31 @@ val bloodmagicItemsNotToStage = [
 ] as IItemStack[];
 
 
-stageMods("roots", "knowledge_of_druids", rootsItemsNotToStage);
+stageMods("roots", stageCragrock, rootsItemsNotToStage);
 
-stageMods("embers", "knowledge_of_malice", embersItemsNotToStage);
-stageMods("soot", "knowledge_of_malice", embersItemsNotToStage);
+stageMods("thaumcraft", stageSpiritTree, thaumcraftItemsNotToStage);
 
-stageMods("thaumcraft", "knowledge_of_decay", thaumcraftItemsNotToStage);
+stageMods("embers", stageWightFortress, embersItemsNotToStage);
+stageMods("soot", stageWightFortress, embersItemsNotToStage);
 
 stageMods("bloodmagic", "chose_bloodmagic", bloodmagicItemsNotToStage);
 stageMods("botania", "chose_botania", botaniaItemsNotToStage);
 
-var sludgeonStage = "knowledge_of_decay";
-//var sludgeonStage = "unstaged";
+stageMods("thaumicaugmentation", stageSludgeon, thaumicaugmentationItemsNotToStage);
 
-stageMods("thaumicaugmentation", sludgeonStage, thaumicaugmentationItemsNotToStage);
-//stageMods("immersiveengineering", sludgeonStage, ieItemsNotToStage);
-//stageMods("engineersdoors", sludgeonStage, ieItemsNotToStage);
-//stageMods("engineeredgolems", sludgeonStage, ieItemsNotToStage);
-//stageMods("immersivepetroleum", sludgeonStage, ieItemsNotToStage);
+//var stageSludgeon = "unstaged";
+//stageMods("immersiveengineering", stageSludgeon, ieItemsNotToStage);
+//stageMods("engineersdoors", stageSludgeon, ieItemsNotToStage);
+//stageMods("engineeredgolems", stageSludgeon, ieItemsNotToStage);
+//stageMods("immersivepetroleum", stageSludgeon, ieItemsNotToStage);
 
-stageMods("wormhole", sludgeonStage, wormholeItemsNotToStage);
+stageMods("wormhole", stageSludgeon, wormholeItemsNotToStage);
 
-ItemStages.addItemStage(sludgeonStage, <pyrotech:wither_forge>);
-ItemStages.addItemStage(sludgeonStage, <jaopca:thaumcraft_cluster.octine>);
-ItemStages.addItemStage(sludgeonStage, <jaopca:thaumcraft_cluster.syrmorite>);
+ItemStages.addItemStage(stageSludgeon, <pyrotech:wither_forge>);
+ItemStages.addItemStage(stageSludgeon, <jaopca:thaumcraft_cluster.octine>);
+ItemStages.addItemStage(stageSludgeon, <jaopca:thaumcraft_cluster.syrmorite>);
 
-Recipes.setRecipeStage(sludgeonStage, <pyrotech:wither_forge>);
+Recipes.setRecipeStage(stageSludgeon, <pyrotech:wither_forge>);
 Recipes.setRecipeStage("botania", <botania:lexicon>.withTag({}));
 
 Recipes.setRecipeStageByMod("unstaged", "aetherworks");
@@ -186,15 +191,19 @@ function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack
 	}
 }
 
-Recipes.addShapeless("book_knowledge_of_druids", "knowledge_of_druids", <gamestagebooks:knowledge_of_druids>, [
+Recipes.addShapeless("book_knowledge_of_druids", stageCragrock, <gamestagebooks:knowledge_of_druids>, [
 	<minecraft:book>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>, <roots:wildroot>
 ]);
 
-Recipes.addShapeless("book_knowledge_of_malice", "knowledge_of_malice", <gamestagebooks:knowledge_of_malice>, [
+Recipes.addShapeless("book_knowledge_of_spirit", stageSpiritTree, <gamestagebooks:knowledge_of_spirit>, [
+	<minecraft:book>, <thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>
+]);
+
+Recipes.addShapeless("book_knowledge_of_malice", stageWightFortress, <gamestagebooks:knowledge_of_malice>, [
 	<minecraft:book>, <embers:shard_ember>, <embers:shard_ember>, <embers:shard_ember>, <embers:shard_ember>, <embers:shard_ember>, <embers:shard_ember>, <embers:shard_ember>, <embers:shard_ember>
 ]);
 
-Recipes.addShapeless("book_knowledge_of_decay", "knowledge_of_decay", <gamestagebooks:knowledge_of_decay>, [
+Recipes.addShapeless("book_knowledge_of_decay", stageSludgeon, <gamestagebooks:knowledge_of_decay>, [
 	<minecraft:book>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>
 ]);
 
