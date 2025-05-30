@@ -26,7 +26,7 @@ scripts.utils.addShaped("radiant_chest", <arcanearchives:radiant_chest>, [
 ]);
 
 
-recipes.addShapeless("letter_invitation", <arcanearchives:letter_invitation>, [<thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:45>],
+recipes.addShapeless("letter_invitation", <arcanearchives:letter_invitation>, [<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>, <arcanearchives:radiant_dust>, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:45>, <thebetweenlands:items_crushed:45>, <thebetweenlands:items_crushed:45>],
 	function(out, ins, cInfo) {
 		return out.withTag({creator: cInfo.player.uuid, creator_name: cInfo.player.name});
 	},
@@ -34,7 +34,7 @@ recipes.addShapeless("letter_invitation", <arcanearchives:letter_invitation>, [<
 	}
 );
 
-recipes.addShapeless("letter_resignation", <arcanearchives:letter_resignation>, [<thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:28>],
+recipes.addShapeless("letter_resignation", <arcanearchives:letter_resignation>, [<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>, <arcanearchives:radiant_dust>, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:32>, <thebetweenlands:items_crushed:32>, <thebetweenlands:items_crushed:32>],
 	function(out, ins, cInfo) {
 		return out.withTag({creator: cInfo.player.uuid, creator_name: cInfo.player.name});
 	},
