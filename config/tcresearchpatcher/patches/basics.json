@@ -53,5 +53,15 @@
                 "value": ["minecraft:textures/blocks/bookshelf.png"]
             }
         ]
+    },
+    {
+        "key": "UNLOCKINFUSION",
+        "ops": [
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_malice"]
+            }
+        ]
     }
 ]

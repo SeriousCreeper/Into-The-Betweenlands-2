@@ -1,0 +1,12 @@
+[
+    {
+        "key": "BASEELDRITCH",
+        "ops": [
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_decay"]
+            }
+        ]
+    }
+]

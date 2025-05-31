@@ -61,6 +61,11 @@
                 "op": "replace",
                 "path": "stages/0/required_item",
                 "value": ["oredict:shimmerstone","thaumcraft:mirrored_glass"]
+            },
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_decay"]
             }
         ]
     },
@@ -71,6 +76,16 @@
                 "op": "replace",
                 "path": "stages/0/required_item",
                 "value": ["betweenlandsredstone:scabyst_block","betweenlandsredstone:scabyst_piston"]
+            }
+        ]
+    },
+    {
+        "key": "ARCANEBORE",
+        "ops": [
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_decay"]
             }
         ]
     }

@@ -46,6 +46,31 @@
                 "op": "replace",
                 "path": "stages/0/required_item",
                 "value": ["thebetweenlands:octine_shield","thaumcraft:amber"]
+            },
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_decay"]
+            }
+        ]
+    },
+    {
+        "key": "ELEMENTALTOOLS",
+        "ops": [
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_decay"]
+            }
+        ]
+    },
+    {
+        "key": "ARMORFORTRESS",
+        "ops": [
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_decay"]
             }
         ]
     }

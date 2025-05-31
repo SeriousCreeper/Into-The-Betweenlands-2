@@ -6,6 +6,11 @@
                 "op": "replace",
                 "path": "stages/0/required_item",
                 "value": ["oredict:shallowBreathVial"]
+            },
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_decay"]
             }
         ]
     },
@@ -36,6 +41,31 @@
                 "op": "replace",
                 "path": "stages/0/required_item",
                 "value": ["thebetweenlands:dentrothyst_fluid_vial;1;0;{Fluid: {FluidName: \"shallowbreath\", Amount: 1000}}"]
+            },
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_decay"]
+            }
+        ]
+    },
+    {
+        "key": "FOCUSSPELLBAT",
+        "ops": [
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_decay"]
+            }
+        ]
+    },
+    {
+        "key": "FOCUSGREATER",
+        "ops": [
+            {
+                "op": "add",
+                "path": "stages/0/required_research",
+                "value": ["knowledge_of_decay"]
             }
         ]
     }
