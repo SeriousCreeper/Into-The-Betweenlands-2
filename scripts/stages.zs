@@ -6,13 +6,14 @@ import mods.orestages.OreStages;
 import mods.MobStages;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-//import mods.multiblockstages.IEMultiBlockStages;
+import mods.multiblockstages.IEMultiBlockStages;
 
 
 var stageCragrock = "knowledge_of_druids";
 var stageWightFortress = "knowledge_of_malice";
 var stageSpiritTree = "knowledge_of_spirit";
 var stageSludgeon = "knowledge_of_decay";
+var stageTechnology = "knowledge_of_technology";
 
 
 MobStages.addStage(stageWightFortress, "embers:ancient_golem");
@@ -107,6 +108,9 @@ val botaniaItemsNotToStage = [
 ] as IItemStack[];
 
 val bloodmagicItemsNotToStage = [
+	<immersiveengineering:skyhook>,
+	<immersiveengineering:connector:6>,
+	<immersiveengineering:material:13>,
 ] as IItemStack[];
 
 
@@ -122,11 +126,13 @@ stageMods("botania", "chose_botania", botaniaItemsNotToStage);
 
 stageMods("thaumicaugmentation", stageSludgeon, thaumicaugmentationItemsNotToStage);
 
+stageMods("immersiveengineering", stageTechnology, ieItemsNotToStage);
+
 //var stageSludgeon = "unstaged";
-//stageMods("immersiveengineering", stageSludgeon, ieItemsNotToStage);
-//stageMods("engineersdoors", stageSludgeon, ieItemsNotToStage);
-//stageMods("engineeredgolems", stageSludgeon, ieItemsNotToStage);
-//stageMods("immersivepetroleum", stageSludgeon, ieItemsNotToStage);
+//stageMods("immersiveengineering", stageTechnology, ieItemsNotToStage);
+//stageMods("engineersdoors", stageTechnology, ieItemsNotToStage);
+//stageMods("engineeredgolems", stageTechnology, ieItemsNotToStage);
+//stageMods("immersivepetroleum", stageTechnology, ieItemsNotToStage);
 
 stageMods("wormhole", stageSludgeon, wormholeItemsNotToStage);
 
@@ -151,21 +157,18 @@ Recipes.setRecipeStageByMod("unstaged", "arcaneworld");
 ItemStages.stageModItems("unstaged", "arcaneworld");
 
 
-
-
-
-//IEMultiBlockStages.addStage("removed", "IE:CokeOven", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IE:AlloySmelter", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IE:BlastFurnace", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IE:MetalPress", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IE:Mixer", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IE:Squeezer", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IE:Fermenter", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IE:Refinery", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IE:DieselGenerator", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IE:ArcFurnace", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IP:DistillationTower", "This multiblock is not available.");
-//IEMultiBlockStages.addStage("removed", "IP:Pumpjack", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:CokeOven", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:AlloySmelter", "This multiblock is not available.");
+IEMultiBlockStages.addStage(stageTechnology, "IE:BlastFurnace", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:MetalPress", "This multiblock is not available.");
+IEMultiBlockStages.addStage(stageTechnology, "IE:Mixer", "This multiblock is not available.");
+IEMultiBlockStages.addStage(stageTechnology, "IE:Squeezer", "This multiblock is not available.");
+IEMultiBlockStages.addStage(stageTechnology, "IE:Fermenter", "This multiblock is not available.");
+IEMultiBlockStages.addStage(stageTechnology, "IE:Refinery", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IE:DieselGenerator", "This multiblock is not available.");
+IEMultiBlockStages.addStage(stageTechnology, "IE:ArcFurnace", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IP:DistillationTower", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IP:Pumpjack", "This multiblock is not available.");
 
 
 function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack[]) {
@@ -207,11 +210,9 @@ Recipes.addShapeless("book_knowledge_of_decay", stageSludgeon, <gamestagebooks:k
 	<minecraft:book>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>, <thaumcraft:crystal_essence>
 ]);
 
-/*
-Recipes.addShapeless("book_knowledge_of_technology", "knowledge_of_technology", <gamestagebooks:knowledge_of_technology>, [
+Recipes.addShapeless("book_knowledge_of_technology", stageTechnology, <gamestagebooks:knowledge_of_technology>, [
 	<minecraft:book>, <immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>
 ]);
-*/
 
 
 
