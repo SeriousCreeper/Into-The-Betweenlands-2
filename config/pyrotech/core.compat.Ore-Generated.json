@@ -23,10 +23,12 @@
     "oreAluminum": {
       "slagColor": "e2e2e3",
       "langKey": [
-        "betweenores:tile.betweenores.aluminum_ore"
+        "betweenores:tile.betweenores.aluminum_ore",
+        "immersiveengineering:tile.immersiveengineering.ore.aluminum"
       ],
       "output": [
-        "embers:nugget_aluminum:0"
+        "embers:nugget_aluminum:0",
+        "immersiveengineering:metal:21"
       ],
       "bloomYieldMinMax": [
         12,
@@ -40,10 +42,12 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
-        "betweenores:tile.betweenores.copper_ore"
+        "betweenores:tile.betweenores.copper_ore",
+        "immersiveengineering:tile.immersiveengineering.ore.copper"
       ],
       "output": [
-        "embers:nugget_copper:0"
+        "embers:nugget_copper:0",
+        "immersiveengineering:metal:20"
       ],
       "bloomYieldMinMax": [
         12,
@@ -77,6 +81,7 @@
         "minecraft:tile.oreIron"
       ],
       "output": [
+        "immersiveengineering:metal:29",
         "minecraft:iron_nugget:0"
       ],
       "bloomYieldMinMax": [
@@ -91,10 +96,12 @@
     "oreLead": {
       "slagColor": "95afee",
       "langKey": [
-        "betweenores:tile.betweenores.lead_ore"
+        "betweenores:tile.betweenores.lead_ore",
+        "immersiveengineering:tile.immersiveengineering.ore.lead"
       ],
       "output": [
-        "embers:nugget_lead:0"
+        "embers:nugget_lead:0",
+        "immersiveengineering:metal:22"
       ],
       "bloomYieldMinMax": [
         12,
@@ -109,10 +116,12 @@
       "slagColor": "e4e5d8",
       "langKey": [
         "betweenores:tile.betweenores.nickel_ore",
-        "embers:tile.ore_nickel"
+        "embers:tile.ore_nickel",
+        "immersiveengineering:tile.immersiveengineering.ore.nickel"
       ],
       "output": [
-        "embers:nugget_nickel:0"
+        "embers:nugget_nickel:0",
+        "immersiveengineering:metal:24"
       ],
       "bloomYieldMinMax": [
         12,
@@ -143,10 +152,12 @@
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
-        "betweenores:tile.betweenores.silver_ore"
+        "betweenores:tile.betweenores.silver_ore",
+        "immersiveengineering:tile.immersiveengineering.ore.silver"
       ],
       "output": [
-        "embers:nugget_silver:0"
+        "embers:nugget_silver:0",
+        "immersiveengineering:metal:23"
       ],
       "bloomYieldMinMax": [
         12,
@@ -181,6 +192,23 @@
       ],
       "output": [
         "embers:nugget_tin:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
+      ]
+    },
+    "oreUranium": {
+      "slagColor": "5c734b",
+      "langKey": [
+        "immersiveengineering:tile.immersiveengineering.ore.uranium"
+      ],
+      "output": [
+        "immersiveengineering:metal:25"
       ],
       "bloomYieldMinMax": [
         12,

@@ -1,6 +1,6 @@
 #Configurations for material Gold.
 [general]
-	#The module blacklist of this material.
+	#The module blacklist of this material. "*" is an alias for all modules. If a module name occurs an odd number of times (including wildcards), then the module is blacklisted.
 	moduleBlacklist = []
 	#The alternative names of this material.
 	alternativeNames = []
