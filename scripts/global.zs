@@ -755,6 +755,8 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:chest>.remove(<minecraft:red_shulker_box>);
 <ore:chest>.remove(<minecraft:black_shulker_box>);
 
+<ore:gearWood>.remove(<rustichromia:gear_wood>);
+
 //<ore:chestWood>.remove(<minecraft:chest>);
 
 <ore:dyeBlack>.remove(<mysticalworld:ink_bottle>);
