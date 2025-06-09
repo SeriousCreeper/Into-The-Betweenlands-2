@@ -132,8 +132,10 @@ recipes.remove(<immersiveengineering:material:1>);
 recipes.remove(<immersiveengineering:material:2>);
 recipes.remove(<immersiveengineering:material:3>);
 
-recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood_slab_back0");
 recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
+recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood_slab_back0");
+recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood_slab_back1");
+recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood_slab_back2");
 
 recipes.removeByRecipeName("immersiveengineering:stone_decoration/blastbrick_reinforced");
 scripts.utils.addShapeless("stone_decoration/blastbrick_reinforced", <immersiveengineering:stone_decoration:2>, 
@@ -176,9 +178,6 @@ recipes.addShaped("connectors/breaker_switch", <immersiveengineering:connector:9
 
 
 
-
-recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood_slab_back1");
-recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood_slab_back2");
 
 scripts.utils.addShaped("stamp_wires_raw", <contenttweaker:stamp_wires_raw>, [
 	[null, null, <embers:blend_caminite>],
@@ -368,6 +367,33 @@ scripts.utils.addShaped("metal_devices/charging_station", <immersiveengineering:
 	[<ore:plankTreatedWood>, <immersiveengineering:metal_decoration0>, <ore:plankTreatedWood>]
 ]);
 
+recipes.remove(<immersiveengineering:material:13>);
+scripts.utils.addShaped("material/wooden_grip", <immersiveengineering:material:13>, [
+	[<pyrotech:material:23>, <pyrotech:material:23>], 
+	[<ore:ingotOctine>, <pyrotech:material:23>], 
+	[<pyrotech:material:23>, <pyrotech:material:23>]
+]);
+
+recipes.remove(<immersiveengineering:skyhook>);
+scripts.utils.addShaped("tool/skyhook", <immersiveengineering:skyhook>, [
+	[<ore:ingotSilver>, <ore:ingotSilver>, null], 
+	[<ore:ingotSilver>, <mystgears:gear_syrmorite>, null], 
+	[null, <immersiveengineering:material:13>, <immersiveengineering:material:13>]
+]);
+
+recipes.remove(<immersiveengineering:connector:6>);
+scripts.utils.addShaped("connectors/connector_structural", <immersiveengineering:connector:6> * 8, [
+	[<ore:ingotSilver>, <ore:nuggetSilver>, <ore:ingotSilver>], 
+	[<ore:ingotSilver>, null, <ore:ingotSilver>]
+]);
+
+scripts.utils.addShaped("hemp_coil", <immersiveengineering:wirecoil:3> * 4, [
+	[null, <clothesline:clothesline>, null], 
+	[<clothesline:clothesline>, <pyrotech:material:23>, <clothesline:clothesline>],
+	[null, <clothesline:clothesline>, null]
+]);
+
+
 
 
 Blueprint.removeRecipe(<immersiveengineering:mold:0>);
@@ -383,7 +409,7 @@ Blueprint.removeRecipe(<immersiveengineering:graphite_electrode>);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:0> * 4, [<immersiveengineering:material>, <immersiveengineering:material:20>, <immersiveengineering:material:20>, <immersiveengineering:material:20>, <immersiveengineering:material:20>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:1> * 4, [<immersiveengineering:material>, <immersiveengineering:material:21>, <immersiveengineering:material:21>, <immersiveengineering:material:21>, <immersiveengineering:material:21>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:2> * 4, [<immersiveengineering:material>, <immersiveengineering:material:22>, <immersiveengineering:material:22>, <immersiveengineering:material:23>, <immersiveengineering:material:23>]);
-Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:3> * 4, [<immersiveengineering:material>, <clothesline:clothesline>, <clothesline:clothesline>, <clothesline:clothesline>, <clothesline:clothesline>]);
+Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:3> * 4, [<immersiveengineering:material>, <clothesline:clothesline>, <clothesline:clothesline>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:5> * 4, [<immersiveengineering:material>, <immersiveengineering:material:22>, <immersiveengineering:material:22>, <betweenlandsredstone:scabyst_dust>, <betweenlandsredstone:scabyst_dust>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:6>, [<immersiveengineering:wirecoil:0>, <immersiveengineering:material:5>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:7>, [<immersiveengineering:wirecoil:1>, <immersiveengineering:material:5>]);
@@ -465,6 +491,8 @@ for recipe in bottlingRecipesToRemove {
 BottlingMachine.addRecipe(<simpledifficulty:purified_water_bottle>, <minecraft:glass_bottle>, <liquid:clean_water> * 125);
 BottlingMachine.addRecipe(<simpledifficulty:canteen>.withTag({Doses: 3, CanteenType: 3}), <simpledifficulty:canteen>.withTag({Doses: 0, CanteenType: 0}), <liquid:clean_water> * 4000);
 BottlingMachine.addRecipe(<simpledifficulty:iron_canteen>.withTag({Doses: 7, CanteenType: 3}), <simpledifficulty:iron_canteen>.withTag({Doses: 0, CanteenType: 0}), <liquid:clean_water> * 8000);
+
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Byrginaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 5000}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:clean_water> * 125);
 
 <immersiveengineering:stone_decoration:2>.displayName = "Reinforced Archaic Bricks";
 <immersiveengineering:mold:2>.displayName = "Rod Stamp";
