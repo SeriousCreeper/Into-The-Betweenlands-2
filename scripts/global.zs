@@ -346,6 +346,17 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 //<ore:ingotIron>.remove(<minecraft:iron_ingot>);
 //<ore:ingotIron>.add(<thebetweenlands:items_misc:11>);
 
+// Immersive Engineering
+<ore:ingotLead>.remove(<immersiveengineering:metal:2>);
+<ore:ingotSilver>.remove(<immersiveengineering:metal:3>);
+<ore:nuggetIron>.remove(<immersiveengineering:metal:29>);
+<ore:nuggetLead>.remove(<immersiveengineering:metal:22>);
+<ore:plateLead>.remove(<immersiveengineering:metal:32>);
+<ore:plateSilver>.remove(<immersiveengineering:metal:33>);
+<ore:plateIron>.remove(<immersiveengineering:metal:39>);
+<ore:plateGold>.remove(<immersiveengineering:metal:40>);
+
+
 <ore:rock>.add(<thebetweenlands:items_misc:50>);
 
 <ore:feather>.add(<thebetweenlands:items_misc:3>);
@@ -359,17 +370,12 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:nuggetTin>.remove(<thaumcraft:nugget:2>);
 
 <ore:nuggetSilver>.remove(<thaumcraft:nugget:3>);
-//<ore:nuggetSilver>.remove(<immersiveengineering:metal:23>);
 
 <ore:nuggetIron>.remove(<thaumcraft:nugget>);
 
 //<ore:nuggetAluminum>.remove(<immersiveengineering:metal:21>);
 //<ore:nuggetAluminium>.remove(<immersiveengineering:metal:21>);
-
-//<ore:nuggetLead>.remove(<immersiveengineering:metal:22>);
-
 //<ore:nuggetNickel>.remove(<immersiveengineering:metal:24>);
-
 //<ore:nuggetElectrum>.remove(<immersiveengineering:metal:27>);
 
 
@@ -377,8 +383,6 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 //<ore:ingotCopper>.remove(<immersiveengineering:metal:0>);
 //<ore:ingotAluminum>.remove(<immersiveengineering:metal:1>);
 //<ore:ingotAluminium>.remove(<immersiveengineering:metal:1>);
-//<ore:ingotLead>.remove(<immersiveengineering:metal:2>);
-//<ore:ingotSilver>.remove(<immersiveengineering:metal:3>);
 //<ore:ingotNickel>.remove(<immersiveengineering:metal:4>);
 //<ore:ingotElectrum>.remove(<immersiveengineering:metal:7>);
 
