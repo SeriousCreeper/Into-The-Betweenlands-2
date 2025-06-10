@@ -1,0 +1,45 @@
+{
+	title: "Wind Power",
+	icon: "rustichromia:windmill",
+	x: 9.5d,
+	y: -5.0d,
+	shape: "gear",
+	text: [
+		"Some machines can be powered by §6rotational energy§r.",
+		"",
+		"§6Windmills§r are an early way to generate this kind of power. The §6higher§r you place a windmill, the §6faster§r it can potentially rotate, though its strength also depends on §6wind direction§r.",
+		"",
+		"You can add §6more blades§r to a windmill by §6right-clicking§r them onto it. Adding more blades increases the potential speed, but each additional blade has a §6reduced effect§r compared to the previous one."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"918f3200"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6ac1abfc",
+		type: "item",
+		items: [{
+			item: "rustichromia:windmill_blade"
+		}]
+	},
+	{
+		uid: "f9232b85",
+		type: "item",
+		items: [{
+			item: "rustichromia:ratiobox"
+		}]
+	},
+	{
+		uid: "29f57241",
+		type: "item",
+		items: [{
+			item: "rustichromia:axle_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "b65a4af8",
+		type: "xp",
+		xp: 100
+	}]
+}
