@@ -13,9 +13,8 @@ val itemsToKeep = [
     <rustichromia:crank>,
     <rustichromia:disk_stone>,
     <rustichromia:disk_sandstone>,
-    <rustichromia:disk_red_sandstone>,
+    <rustichromia:disk_red_sandstone>
 ] as IItemStack[];
-
 
 for item in moddedItems {
 	var skip = false;
@@ -33,6 +32,9 @@ for item in moddedItems {
     	item.removeAspects(allAspects);
     }
 }
+
+JEI.removeAndHide(<rustichromia:cart_control:*>);
+
 
 recipes.remove(<rustichromia:windmill_big>);
 scripts.utils.addShaped("windmill_big", <rustichromia:windmill_big>, [
