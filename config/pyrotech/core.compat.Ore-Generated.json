@@ -81,7 +81,6 @@
         "minecraft:tile.oreIron"
       ],
       "output": [
-        "immersiveengineering:metal:29",
         "minecraft:iron_nugget:0"
       ],
       "bloomYieldMinMax": [
@@ -100,8 +99,7 @@
         "immersiveengineering:tile.immersiveengineering.ore.lead"
       ],
       "output": [
-        "embers:nugget_lead:0",
-        "immersiveengineering:metal:22"
+        "embers:nugget_lead:0"
       ],
       "bloomYieldMinMax": [
         12,
