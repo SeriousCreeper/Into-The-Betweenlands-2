@@ -2,7 +2,7 @@
 	title: "Tasty Triangle",
 	icon: "pizzacraft:slice_7",
 	x: 9.5d,
-	y: -3.0d,
+	y: 5.0d,
 	shape: "gear",
 	text: [
 		"Once the Pizza has been fully cooked and picked up, place it down on a surface or §6Cutting Board§r, and use a §6knife§r to cut it into slices.",

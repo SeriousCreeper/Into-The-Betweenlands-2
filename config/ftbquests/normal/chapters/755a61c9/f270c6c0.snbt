@@ -1,7 +1,7 @@
 {
 	title: "Mama Mia!",
 	x: 9.5d,
-	y: -2.0d,
+	y: 4.0d,
 	shape: "gear",
 	text: [
 		"Craft a §6Pizza Oven§r, place it down, fill it with §6sticks§r, and light it on §6fire§r. ",

@@ -1,6 +1,6 @@
 {
 	x: -10.0d,
-	y: 3.0d,
+	y: 2.0d,
 	shape: "gear",
 	text: [
 		"The §6Trip Hammer§r can be used to automatically §6process§r items on an §6anvil§r or a §6chopping block§r. ",
