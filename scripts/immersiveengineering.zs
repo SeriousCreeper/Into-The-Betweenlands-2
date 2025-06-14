@@ -393,6 +393,10 @@ scripts.utils.addShaped("hemp_coil", <immersiveengineering:wirecoil:3> * 4, [
 	[null, <clothesline:clothesline>, null]
 ]);
 
+scripts.utils.addShapeless("string_ie", <minecraft:string>, 
+	[<immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>]
+);
+
 
 
 
