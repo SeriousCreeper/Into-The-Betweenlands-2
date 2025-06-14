@@ -58,3 +58,93 @@ for armor in brokenAncientArmor {
 		item.register();
 	}
 }
+
+var aspects as string[string][string] = {
+	armaniis: {
+		id: "armaniis",
+		name: "Armaniis",
+		color: "FFCC00",
+	},
+	azuwynn: {
+		id: "azuwynn",
+		name: "Azuwynn",
+		color: "DF1414",
+	},
+	byariis: {
+		id: "byariis",
+		name: "Byariis",
+		color: "285937",
+	},
+	byrginaz: {
+		id: "byrginaz",
+		name: "Byrginaz",
+		color: "1EBBDB",
+	},
+	celawynn: {
+		id: "celawynn",
+		name: "Celawynn",
+		color: "4CCD48",
+	},
+	dayuniis: {
+		id: "dayuniis",
+		name: "Dayuniis",
+		color: "B148CE",
+	},
+	fergalaz: {
+		id: "fergalaz",
+		name: "Fergalaz",
+		color: "29B538",
+	},
+	firnalaz: {
+		id: "firnalaz",
+		name: "Firnalaz",
+		color: "FF7F00",
+	},
+	freiwynn: {
+		id: "freiwynn",
+		name: "Freiwynn",
+		color: "C1D8F4",
+	},
+	geoliirgaz: {
+		id: "geoliirgaz",
+		name: "Geoliirgaz",
+		color: "222229",
+	},
+	ordaniis: {
+		id: "ordaniis",
+		name: "Ordaniis",
+		color: "64E69A",
+	},
+	uduriis: {
+		id: "uduriis",
+		name: "Uduriis",
+		color: "3C1328",
+	},
+	wodren: {
+		id: "wodren",
+		name: "Wodren",
+		color: "63C2AF",
+	},
+	yeowynn: {
+		id: "yeowynn",
+		name: "Yeowynn",
+		color: "FC0069",
+	},
+	yihinren: {
+		id: "yihinren",
+		name: "Yihinren",
+		color: "FFFFFF",
+	},
+	yunugaz: {
+		id: "yunugaz",
+		name: "Yunugaz",
+		color: "01FFBB",
+	}
+};
+
+for aspect in aspects {
+	var aspectFluid = VanillaFactory.createFluid(aspects[aspect].id, Color.fromHex(aspects[aspect].color));
+	aspectFluid.setDensity(1000);
+	aspectFluid.register();
+}
+

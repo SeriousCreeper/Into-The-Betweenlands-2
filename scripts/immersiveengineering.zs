@@ -409,7 +409,6 @@ scripts.utils.addShaped("immersiveengineering_conveyors/conveyor_basic", <immers
 
 
 // SQUEEZER RECIPES
-
 var defaultAspectrusPower = 2048;
 Squeezer.addRecipe(null, <liquid:armaniis> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Armaniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
 Squeezer.addRecipe(null, <liquid:azuwynn> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Azuwynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
@@ -525,10 +524,62 @@ for recipe in bottlingRecipesToRemove {
 
 
 BottlingMachine.addRecipe(<simpledifficulty:purified_water_bottle>, <minecraft:glass_bottle>, <liquid:clean_water> * 125);
-BottlingMachine.addRecipe(<simpledifficulty:canteen>.withTag({Doses: 3, CanteenType: 3}), <simpledifficulty:canteen>.withTag({Doses: 0, CanteenType: 0}), <liquid:clean_water> * 4000);
-BottlingMachine.addRecipe(<simpledifficulty:iron_canteen>.withTag({Doses: 7, CanteenType: 3}), <simpledifficulty:iron_canteen>.withTag({Doses: 0, CanteenType: 0}), <liquid:clean_water> * 8000);
 
-BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Byrginaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 5000}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:clean_water> * 125);
+for i in 0 to 4 {
+	var dose = 4 - i;
+
+	BottlingMachine.addRecipe(<simpledifficulty:canteen>.withTag({Doses: dose, CanteenType: 3}), <simpledifficulty:canteen>.withTag({Doses: 0, CanteenType: 0}), <liquid:clean_water> * (dose * 1000));
+
+	if (i < 4) {
+		BottlingMachine.addRecipe(<simpledifficulty:canteen>.withTag({Doses: 4, CanteenType: 3}), <simpledifficulty:canteen>.withTag({Doses: (4 - dose), CanteenType: 3}), <liquid:clean_water> * (dose * 1000));
+	}
+}
+
+for i in 0 to 8 {
+	var dose = 8 - i;
+
+	BottlingMachine.addRecipe(<simpledifficulty:iron_canteen>.withTag({Doses: dose, CanteenType: 3}), <simpledifficulty:iron_canteen>.withTag({Doses: 0, CanteenType: 0}), <liquid:clean_water> * (dose * 1000));
+
+	if (i < 8) {
+		BottlingMachine.addRecipe(<simpledifficulty:iron_canteen>.withTag({Doses: 4, CanteenType: 3}), <simpledifficulty:iron_canteen>.withTag({Doses: (4 - dose), CanteenType: 3}), <liquid:clean_water> * (dose * 1000));
+	}
+}
+
+
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Armaniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:armaniis> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Azuwynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:azuwynn> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Byariis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:byariis> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Byrginaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:byrginaz> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Celawynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:celawynn> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Dayuniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:dayuniis> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Fergalaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:fergalaz> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Firnalaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:firnalaz> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Freiwynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:freiwynn> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Geoliirgaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:geoliirgaz> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Ordaniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:ordaniis> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Uduriis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:uduriis> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Wodren"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:wodren> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yeowynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:yeowynn> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yihinren"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:yihinren> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yunugaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial>, <liquid:yunugaz> * 250);
+
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Armaniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:armaniis> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Azuwynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:azuwynn> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Byariis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:byariis> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Byrginaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:byrginaz> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Celawynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:celawynn> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Dayuniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:dayuniis> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Fergalaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:fergalaz> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Firnalaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:firnalaz> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Freiwynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:freiwynn> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Geoliirgaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:geoliirgaz> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Ordaniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:ordaniis> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Uduriis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:uduriis> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Wodren"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:wodren> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yeowynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:yeowynn> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yihinren"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:yihinren> * 250);
+BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yunugaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:yunugaz> * 250);
+
 
 <immersiveengineering:stone_decoration:2>.displayName = "Reinforced Archaic Bricks";
 <immersiveengineering:mold:2>.displayName = "Rod Stamp";
