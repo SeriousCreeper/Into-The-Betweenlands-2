@@ -81,6 +81,7 @@ val itemsToRemove as IItemStack[] = [
 	<immersiveengineering:stone_decoration_slab>,
 	<immersiveengineering:stone_decoration_slab:1>,
 	<immersiveengineering:stone_decoration_slab:10>,
+	<immersiveengineering:wooden_device0:2>,
 ] as IItemStack[];
 
 for item in itemsToRemove {
