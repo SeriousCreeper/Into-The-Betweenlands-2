@@ -13,7 +13,8 @@ val itemsToKeep = [
     <rustichromia:crank>,
     <rustichromia:disk_stone>,
     <rustichromia:disk_sandstone>,
-    <rustichromia:disk_red_sandstone>
+    <rustichromia:disk_red_sandstone>,
+    <rustichromia:hopper_wood>
 ] as IItemStack[];
 
 for item in moddedItems {
@@ -71,7 +72,7 @@ scripts.utils.addShaped("disk_sandstone", <rustichromia:disk_sandstone>, [
     [<thebetweenlands:limestone>, <thebetweenlands:limestone>, <thebetweenlands:limestone>]
 ]);
 
-recipes.remove(<rustichromia:disk_sandstone>);
+recipes.remove(<rustichromia:disk_red_sandstone>);
 scripts.utils.addShaped("disk_red_sandstone", <rustichromia:disk_red_sandstone>, [
     [<thebetweenlands:pitstone>, <thebetweenlands:pitstone>, <thebetweenlands:pitstone>],
     [<thebetweenlands:pitstone>, <ore:nuggetSyrmorite>, <thebetweenlands:pitstone>], 
