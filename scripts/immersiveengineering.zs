@@ -142,7 +142,7 @@ scripts.utils.addShapeless("stone_decoration/blastbrick_reinforced", <immersivee
 	[<ore:plateIron>, <embers:archaic_bricks>]
 );
 
-recipes.remove(<immersiveengineering:material:5>);
+//recipes.remove(<immersiveengineering:material:5>);
 scripts.utils.addShaped("material/hemp_fabric", <immersiveengineering:material:5>, [
 	[<thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>],
 	[<thebetweenlands:items_misc:63>, <ore:stickWood>, <thebetweenlands:items_misc:63>],
