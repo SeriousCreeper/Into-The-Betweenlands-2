@@ -413,7 +413,7 @@ Blueprint.removeRecipe(<immersiveengineering:graphite_electrode>);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:0> * 4, [<immersiveengineering:material>, <immersiveengineering:material:20>, <immersiveengineering:material:20>, <immersiveengineering:material:20>, <immersiveengineering:material:20>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:1> * 4, [<immersiveengineering:material>, <immersiveengineering:material:21>, <immersiveengineering:material:21>, <immersiveengineering:material:21>, <immersiveengineering:material:21>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:2> * 4, [<immersiveengineering:material>, <immersiveengineering:material:22>, <immersiveengineering:material:22>, <immersiveengineering:material:23>, <immersiveengineering:material:23>]);
-Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:3> * 4, [<immersiveengineering:material>, <clothesline:clothesline>, <clothesline:clothesline>]);
+Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:3> * 4, [<immersiveengineering:material>, <immersiveengineering:material:4>, <immersiveengineering:material:4>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:5> * 4, [<immersiveengineering:material>, <immersiveengineering:material:22>, <immersiveengineering:material:22>, <betweenlandsredstone:scabyst_dust>, <betweenlandsredstone:scabyst_dust>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:6>, [<immersiveengineering:wirecoil:0>, <immersiveengineering:material:5>]);
 Blueprint.addRecipe("Wires", <immersiveengineering:wirecoil:7>, [<immersiveengineering:wirecoil:1>, <immersiveengineering:material:5>]);
