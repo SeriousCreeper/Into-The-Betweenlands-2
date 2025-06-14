@@ -365,7 +365,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 
 <ore:nuggetCopper>.remove(<thaumcraft:nugget:1>);
-//<ore:nuggetCopper>.remove(<immersiveengineering:metal:20>);
+<ore:nuggetCopper>.remove(<immersiveengineering:metal:20>);
 
 <ore:nuggetTin>.remove(<thaumcraft:nugget:2>);
 
@@ -373,18 +373,18 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 
 <ore:nuggetIron>.remove(<thaumcraft:nugget>);
 
-//<ore:nuggetAluminum>.remove(<immersiveengineering:metal:21>);
-//<ore:nuggetAluminium>.remove(<immersiveengineering:metal:21>);
-//<ore:nuggetNickel>.remove(<immersiveengineering:metal:24>);
-//<ore:nuggetElectrum>.remove(<immersiveengineering:metal:27>);
+<ore:nuggetAluminum>.remove(<immersiveengineering:metal:21>);
+<ore:nuggetAluminium>.remove(<immersiveengineering:metal:21>);
+<ore:nuggetNickel>.remove(<immersiveengineering:metal:24>);
+<ore:nuggetElectrum>.remove(<immersiveengineering:metal:27>);
 
 
 
-//<ore:ingotCopper>.remove(<immersiveengineering:metal:0>);
-//<ore:ingotAluminum>.remove(<immersiveengineering:metal:1>);
-//<ore:ingotAluminium>.remove(<immersiveengineering:metal:1>);
-//<ore:ingotNickel>.remove(<immersiveengineering:metal:4>);
-//<ore:ingotElectrum>.remove(<immersiveengineering:metal:7>);
+<ore:ingotCopper>.remove(<immersiveengineering:metal:0>);
+<ore:ingotAluminum>.remove(<immersiveengineering:metal:1>);
+<ore:ingotAluminium>.remove(<immersiveengineering:metal:1>);
+<ore:ingotNickel>.remove(<immersiveengineering:metal:4>);
+<ore:ingotElectrum>.remove(<immersiveengineering:metal:7>);
 
 <ore:string>.remove(<mysticalworld:silk_thread>);
 
@@ -770,37 +770,37 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:trapdoorWood>.remove(<minecraft:trapdoor>);
 
 <ore:oreCopper>.remove(<embers:ore_copper>);
-//<ore:oreCopper>.remove(<immersiveengineering:ore>);
+<ore:oreCopper>.remove(<immersiveengineering:ore>);
 
 <ore:oreLead>.remove(<embers:ore_lead>);
-//<ore:oreLead>.remove(<immersiveengineering:ore:2>);
+<ore:oreLead>.remove(<immersiveengineering:ore:2>);
 
 <ore:oreSilver>.remove(<embers:ore_silver>);
-//<ore:oreSilver>.remove(<immersiveengineering:ore:3>);
+<ore:oreSilver>.remove(<immersiveengineering:ore:3>);
 
 <ore:oreAluminum>.remove(<embers:ore_aluminum>);
-//<ore:oreAluminum>.remove(<immersiveengineering:ore:1>);
-//<ore:oreAluminium>.remove(<immersiveengineering:ore:1>);
+<ore:oreAluminum>.remove(<immersiveengineering:ore:1>);
+<ore:oreAluminium>.remove(<immersiveengineering:ore:1>);
 
-//<ore:oreNickel>.remove(<immersiveengineering:ore:4>);
+<ore:oreNickel>.remove(<immersiveengineering:ore:4>);
 
 <ore:plateIron>.remove(<thaumcraft:plate:1>);
-//<ore:plateIron>.remove(<immersiveengineering:metal:39>);
+<ore:plateIron>.remove(<immersiveengineering:metal:39>);
 
-//<ore:plateGold>.remove(<immersiveengineering:metal:40>);
+<ore:plateGold>.remove(<immersiveengineering:metal:40>);
 
-//<ore:plateCopper>.remove(<immersiveengineering:metal:30>);
+<ore:plateCopper>.remove(<immersiveengineering:metal:30>);
 
-//<ore:plateAluminum>.remove(<immersiveengineering:metal:31>);
-//<ore:plateAluminium>.remove(<immersiveengineering:metal:31>);
+<ore:plateAluminum>.remove(<immersiveengineering:metal:31>);
+<ore:plateAluminium>.remove(<immersiveengineering:metal:31>);
 
-//<ore:plateLead>.remove(<immersiveengineering:metal:32>);
+<ore:plateLead>.remove(<immersiveengineering:metal:32>);
 
-//<ore:plateSilver>.remove(<immersiveengineering:metal:33>);
+<ore:plateSilver>.remove(<immersiveengineering:metal:33>);
 
-//<ore:plateNickel>.remove(<immersiveengineering:metal:34>);
+<ore:plateNickel>.remove(<immersiveengineering:metal:34>);
 
-//<ore:plateElectrum>.remove(<immersiveengineering:metal:37>);
+<ore:plateElectrum>.remove(<immersiveengineering:metal:37>);
 
 
 
