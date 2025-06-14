@@ -6,6 +6,7 @@ import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Blueprint;
 import mods.immersiveengineering.BottlingMachine;
+import mods.immersiveengineering.Squeezer;
 
 
 val itemsToRemove as IItemStack[] = [
@@ -397,6 +398,36 @@ scripts.utils.addShaped("hemp_coil", <immersiveengineering:wirecoil:3> * 4, [
 scripts.utils.addShapeless("string_ie", <minecraft:string>, 
 	[<immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>]
 );
+
+recipes.removeByRegex("crafttweaker:immersiveengineering_conveyors/conveyor_basic_modified");
+scripts.utils.addShaped("immersiveengineering_conveyors/conveyor_basic", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8, [
+	[null, <thebetweenlands:rubber_block>, null], 
+	[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]
+]);
+
+
+
+
+// SQUEEZER RECIPES
+
+var defaultAspectrusPower = 2048;
+Squeezer.addRecipe(null, <liquid:armaniis> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Armaniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:azuwynn> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Azuwynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:byariis> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Byariis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:byrginaz> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Byrginaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:celawynn> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Celawynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:dayuniis> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Dayuniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:fergalaz> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Fergalaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:firnalaz> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Firnalaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:freiwynn> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Freiwynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:geoliirgaz> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Geoliirgaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:ordaniis> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Ordaniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:uduriis> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Uduriis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:wodren> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Wodren"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:yeowynn> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yeowynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:yihinren> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yihinren"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+Squeezer.addRecipe(null, <liquid:yunugaz> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yunugaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
+
 
 
 
