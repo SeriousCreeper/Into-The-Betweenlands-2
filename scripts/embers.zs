@@ -754,9 +754,9 @@ Melter.add(<liquid:lead> * 144, <embers:aspectus_lead>);
 Melter.add(<liquid:silver> * 144, <embers:aspectus_silver>);
 Melter.add(<liquid:dawnstone> * 144, <embers:aspectus_dawnstone>);
 
-//Melter.add(<liquid:steel> * 16, <immersiveengineering:metal:28>);
-//Melter.add(<liquid:steel> * 144, <immersiveengineering:metal:8>);
-//Melter.add(<liquid:steel> * 1296, <immersiveengineering:storage:8>);
+Melter.add(<liquid:steel> * 16, <immersiveengineering:metal:28>);
+Melter.add(<liquid:steel> * 144, <immersiveengineering:metal:8>);
+Melter.add(<liquid:steel> * 1296, <immersiveengineering:storage:8>);
 
 
 // ----------- STAMPER ----------------------
@@ -804,14 +804,14 @@ Stamper.add(<thaumcraft:plate:2>, <liquid:thaumium> * 144, <embers:stamp_plate>)
 Stamper.add(<thaumcraft:plate:3>, <liquid:void> * 144, <embers:stamp_plate>);
 Stamper.add(<embers:plate_iron>, <liquid:iron> * 144, <embers:stamp_plate>);
 
-//recipes.remove(<immersiveengineering:metal:38>);
-//recipes.remove(<immersiveengineering:metal:8>);
-//recipes.remove(<immersiveengineering:storage:8>);
-//recipes.remove(<immersiveengineering:storage:28>);
-//Stamper.add(<immersiveengineering:metal:38>, <liquid:steel> * 144, <embers:stamp_plate>);
-//Stamper.add(<immersiveengineering:metal:8>, <liquid:steel> * 144, <embers:stamp_bar>);
-//Stamper.add(<immersiveengineering:storage:8>, <liquid:steel> * 1296, <embers:stamp_flat>);
-//Stamper.add(<immersiveengineering:metal:28>, <liquid:steel> * 16, <soot:stamp_nugget>);
+recipes.remove(<immersiveengineering:metal:38>);
+recipes.remove(<immersiveengineering:metal:8>);
+recipes.remove(<immersiveengineering:storage:8>);
+recipes.remove(<immersiveengineering:storage:28>);
+Stamper.add(<immersiveengineering:metal:38>, <liquid:steel> * 144, <embers:stamp_plate>);
+Stamper.add(<immersiveengineering:metal:8>, <liquid:steel> * 144, <embers:stamp_bar>);
+Stamper.add(<immersiveengineering:storage:8>, <liquid:steel> * 1296, <embers:stamp_flat>);
+Stamper.add(<immersiveengineering:metal:28>, <liquid:steel> * 16, <soot:stamp_nugget>);
 
 Stamper.remove(<embers:plate_gold>);
 Stamper.add(<embers:plate_gold>, <liquid:octine> * 144, <embers:stamp_plate>);
@@ -844,20 +844,20 @@ Stamper.add(<thebetweenlands:items_misc:32>, null, <embers:stamp_flat>, <pyrotec
 
 
 // Bullet mold
-//Stamper.add(<immersiveengineering:bullet>, <liquid:copper> * 144, <immersiveengineering:mold:3>);
+Stamper.add(<immersiveengineering:bullet>, <liquid:copper> * 144, <immersiveengineering:mold:3>);
 
 // Wires mold
-//Stamper.add(<alternatingflux:material> * 2, <liquid:constantan> * 144, <immersiveengineering:mold:4>);
-//Stamper.add(<immersiveengineering:material:20> * 2, <liquid:copper> * 144, <immersiveengineering:mold:4>);
-//Stamper.add(<immersiveengineering:material:21> * 2, <liquid:electrum> * 144, <immersiveengineering:mold:4>);
-//Stamper.add(<immersiveengineering:material:22> * 2, <liquid:aluminum> * 144, <immersiveengineering:mold:4>);
-//Stamper.add(<immersiveengineering:material:23> * 2, <liquid:steel> * 144, <immersiveengineering:mold:4>);
-//
-//Stamper.add(<immersiveengineering:material:1> * 2, <liquid:iron> * 144, <immersiveengineering:mold:2>);
-//Stamper.add(<immersiveengineering:material:2> * 2, <liquid:steel> * 144, <immersiveengineering:mold:2>);
-//Stamper.add(<immersiveengineering:material:3> * 2, <liquid:aluminum> * 144, <immersiveengineering:mold:2>);
-//
-//Stamper.add(<immersiveengineering:graphite_electrode>, null, <immersiveengineering:mold:2>,<immersiveengineering:material:19> * 4);
+Stamper.add(<alternatingflux:material> * 2, <liquid:constantan> * 144, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:20> * 2, <liquid:copper> * 144, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:21> * 2, <liquid:electrum> * 144, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:22> * 2, <liquid:aluminum> * 144, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:23> * 2, <liquid:steel> * 144, <immersiveengineering:mold:4>);
+
+Stamper.add(<immersiveengineering:material:1> * 2, <liquid:iron> * 144, <immersiveengineering:mold:2>);
+Stamper.add(<immersiveengineering:material:2> * 2, <liquid:steel> * 144, <immersiveengineering:mold:2>);
+Stamper.add(<immersiveengineering:material:3> * 2, <liquid:aluminum> * 144, <immersiveengineering:mold:2>);
+
+Stamper.add(<immersiveengineering:graphite_electrode>, null, <immersiveengineering:mold:2>,<immersiveengineering:material:19> * 4);
 
 
 
