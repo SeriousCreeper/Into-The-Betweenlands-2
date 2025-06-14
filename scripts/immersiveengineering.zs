@@ -475,53 +475,11 @@ MetalPress.removeRecipeByMold(<immersiveengineering:mold:7>);
 
 // Bottling Machine
 val bottlingRecipesToRemove = [
-	<minecraft:sponge:1>,
-	<minecraft:potion>.withTag({Potion: "simpledifficulty:long_heat_resist_type"}),
-	<minecraft:potion>.withTag({Potion: "simpledifficulty:long_cold_resist_type"}),
-	<minecraft:potion>.withTag({Potion: "simpledifficulty:heat_resist_type"}),
-	<minecraft:potion>.withTag({Potion: "simpledifficulty:cold_resist_type"}),
-	<minecraft:potion>.withTag({Potion: "pizzacraft:eye_irritation"}),
-	<minecraft:potion>.withTag({Potion: "pizzacraft:long_eye_irritation"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_weakness"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:weakness"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:strong_strength"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_strength"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:strength"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_regeneration"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:regeneration"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:strong_poison"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_poison"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:poison"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:strong_harming"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:harming"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:strong_healing"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:healing"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:water_breathing"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_slowness"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:slowness"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:strong_leaping"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_leaping"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:leaping"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_fire_resistance"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_invisibility"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:invisibility"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:night_vision"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:awkward"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:thick"}),
-	<minecraft:potion>.withTag({Potion: "minecraft:mundane"}),
 ] as IItemStack[];
 
 for recipe in bottlingRecipesToRemove {
 	BottlingMachine.removeRecipe(recipe);
 }
-
 
 BottlingMachine.addRecipe(<simpledifficulty:purified_water_bottle>, <minecraft:glass_bottle>, <liquid:clean_water> * 125);
 
