@@ -791,38 +791,53 @@ Stamper.remove(<embers:ingot_tin>);
 Stamper.remove(<embers:plate_tin>);
 Stamper.remove(<embers:plate_iron>);
 Stamper.remove(<thaumcraft:plate:1>);
-
-Stamper.add(<thebetweenlands:items_misc:11>, <liquid:syrmorite> * 144, <embers:stamp_bar>);
-Stamper.add(<thaumcraft:ingot:2>, <liquid:brass> * 144, <embers:stamp_bar>);
-
-Stamper.add(<thaumcraft:nugget:8>, <liquid:brass> * 16, <soot:stamp_nugget>);
-Stamper.add(<embers:nugget_silver>, <liquid:silver> * 16, <soot:stamp_nugget>);
-
-Stamper.add(<thaumcraft:plate:1>, <liquid:syrmorite> * 144, <embers:stamp_plate>);
-Stamper.add(<thaumcraft:plate:0>, <liquid:brass> * 144, <embers:stamp_plate>);
-Stamper.add(<thaumcraft:plate:2>, <liquid:thaumium> * 144, <embers:stamp_plate>);
-Stamper.add(<thaumcraft:plate:3>, <liquid:void> * 144, <embers:stamp_plate>);
-Stamper.add(<embers:plate_iron>, <liquid:iron> * 144, <embers:stamp_plate>);
-
-recipes.remove(<immersiveengineering:metal:38>);
-recipes.remove(<immersiveengineering:metal:8>);
-recipes.remove(<immersiveengineering:storage:8>);
-recipes.remove(<immersiveengineering:storage:28>);
-Stamper.add(<immersiveengineering:metal:38>, <liquid:steel> * 144, <embers:stamp_plate>);
-Stamper.add(<immersiveengineering:metal:8>, <liquid:steel> * 144, <embers:stamp_bar>);
-Stamper.add(<immersiveengineering:storage:8>, <liquid:steel> * 1296, <embers:stamp_flat>);
-Stamper.add(<immersiveengineering:metal:28>, <liquid:steel> * 16, <soot:stamp_nugget>);
-
 Stamper.remove(<embers:plate_gold>);
-Stamper.add(<embers:plate_gold>, <liquid:octine> * 144, <embers:stamp_plate>);
-	
-Stamper.remove(<minecraft:blaze_powder>);
+Stamper.remove(<minecraft:blaze_powder> * 4);
+Stamper.remove(<immersiveengineering:metal:38>);
+Stamper.remove(<immersiveengineering:metal:35>);
+Stamper.remove(<immersiveengineering:metal:5>);
+Stamper.remove(<immersiveengineering:metal:27>);
+Stamper.remove(<immersiveengineering:metal:24>);
+Stamper.remove(<immersiveengineering:metal:21>);
+Stamper.remove(<immersiveengineering:metal:23>);
+Stamper.remove(<immersiveengineering:metal:22>);
+Stamper.remove(<immersiveengineering:metal:20>);
+Stamper.remove(<immersiveengineering:metal:34>);
+Stamper.remove(<immersiveengineering:metal:37>);
+Stamper.remove(<immersiveengineering:metal:31>);
+Stamper.remove(<mysticalmechanics:gear_gold>);
+Stamper.remove(<immersiveengineering:metal:2>);
+Stamper.remove(<immersiveengineering:metal:3>);
+Stamper.remove(<immersiveengineering:metal>);
+Stamper.remove(<immersiveengineering:metal:1>);
+Stamper.remove(<immersiveengineering:metal:7>);
+Stamper.remove(<immersiveengineering:metal:4>);
+Stamper.remove(<immersiveengineering:metal:39>);
+Stamper.remove(<immersiveengineering:metal:40>);
+Stamper.remove(<immersiveengineering:metal:32>);
+Stamper.remove(<immersiveengineering:metal:33>);
+Stamper.remove(<immersiveengineering:metal:30>);
 
 Stamper.remove(<embers:aspectus_iron>);
 Stamper.add(<embers:aspectus_iron>, <liquid:syrmorite> * 144, <embers:stamp_plate>, <embers:shard_ember>);
 
 Stamper.remove(<embers:aspectus_copper>);
 Stamper.add(<embers:aspectus_copper>, <liquid:octine> * 144, <embers:stamp_plate>, <embers:shard_ember>);
+
+// iterate over the metals from global.zs, remove the Stamper recipes for each item, and then re-add them using the correct liquid
+for metal in metals {
+	print(metal);
+
+	Stamper.remove(metals[metal].ingot);
+	Stamper.remove(metals[metal].plate);
+	Stamper.remove(metals[metal].nugget);
+	Stamper.remove(metals[metal].block);
+
+	Stamper.add(metals[metal].block, liquids[metal] * 1296, <embers:stamp_flat>);
+	Stamper.add(metals[metal].ingot, liquids[metal] * 144, <embers:stamp_bar>);
+	Stamper.add(metals[metal].plate, liquids[metal] * 144, <embers:stamp_plate>);
+	Stamper.add(metals[metal].nugget, liquids[metal] * 16, <soot:stamp_nugget>);
+}
 
 recipes.remove(<thebetweenlands:octine_pickaxe>);
 recipes.remove(<thebetweenlands:octine_axe>);
@@ -844,19 +859,14 @@ Stamper.add(<thebetweenlands:items_misc:32>, null, <embers:stamp_flat>, <pyrotec
 
 
 // Bullet mold
-Stamper.add(<immersiveengineering:bullet>, <liquid:copper> * 144, <immersiveengineering:mold:3>);
+Stamper.add(<immersiveengineering:bullet>, <liquid:octine> * 144, <immersiveengineering:mold:3>);
 
 // Wires mold
 Stamper.add(<alternatingflux:material> * 2, <liquid:constantan> * 144, <immersiveengineering:mold:4>);
-Stamper.add(<immersiveengineering:material:20> * 2, <liquid:copper> * 144, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:20> * 2, <liquid:octine> * 144, <immersiveengineering:mold:4>);
 Stamper.add(<immersiveengineering:material:21> * 2, <liquid:electrum> * 144, <immersiveengineering:mold:4>);
 Stamper.add(<immersiveengineering:material:22> * 2, <liquid:aluminum> * 144, <immersiveengineering:mold:4>);
 Stamper.add(<immersiveengineering:material:23> * 2, <liquid:steel> * 144, <immersiveengineering:mold:4>);
-
-Stamper.add(<immersiveengineering:material:1> * 2, <liquid:iron> * 144, <immersiveengineering:mold:2>);
-Stamper.add(<immersiveengineering:material:2> * 2, <liquid:steel> * 144, <immersiveengineering:mold:2>);
-Stamper.add(<immersiveengineering:material:3> * 2, <liquid:aluminum> * 144, <immersiveengineering:mold:2>);
-
 Stamper.add(<immersiveengineering:graphite_electrode>, null, <immersiveengineering:mold:2>,<immersiveengineering:material:19> * 4);
 
 

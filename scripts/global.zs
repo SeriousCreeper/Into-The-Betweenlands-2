@@ -127,6 +127,14 @@ global metals as IItemStack[string][string] = {
 		block: <minecraft:iron_block>,
 		plate: <embers:plate_iron>,
 		cluster: null
+	},
+	steel: {
+		ore: null,
+		nugget: <immersiveengineering:metal:28>,
+		ingot: <immersiveengineering:metal:8>,
+		block: <immersiveengineering:storage:8>,
+		plate: <immersiveengineering:metal:38>,
+		cluster: null
 	}
 };
 
@@ -140,6 +148,7 @@ global liquids as ILiquidStack[string] = {
 	"void": <liquid:void>,
 	brass: <liquid:brass>,
 	iron: <liquid:iron>,
+	steel: <liquid:steel>,
 };
 
 

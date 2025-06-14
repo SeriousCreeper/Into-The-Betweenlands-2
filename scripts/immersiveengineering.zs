@@ -172,7 +172,7 @@ scripts.utils.addShaped("metal_decoration/aluminum_post", <immersiveengineering:
 ]);
 
 recipes.remove(<immersiveengineering:connector:9>);
-recipes.addShaped("connectors/breaker_switch", <immersiveengineering:connector:9>, [
+scripts.utils.addShaped("connectors/breaker_switch", <immersiveengineering:connector:9>, [
 	[null, <ore:lever>, null],
 	[<thebetweenlands:mud_bricks>, <ore:ingotCopper>, <thebetweenlands:mud_bricks>]
 ]);
