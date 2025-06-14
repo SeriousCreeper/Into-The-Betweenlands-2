@@ -541,7 +541,7 @@ for i in 0 to 8 {
 	BottlingMachine.addRecipe(<simpledifficulty:iron_canteen>.withTag({Doses: dose, CanteenType: 3}), <simpledifficulty:iron_canteen>.withTag({Doses: 0, CanteenType: 0}), <liquid:clean_water> * (dose * 1000));
 
 	if (i < 8) {
-		BottlingMachine.addRecipe(<simpledifficulty:iron_canteen>.withTag({Doses: 4, CanteenType: 3}), <simpledifficulty:iron_canteen>.withTag({Doses: (4 - dose), CanteenType: 3}), <liquid:clean_water> * (dose * 1000));
+		BottlingMachine.addRecipe(<simpledifficulty:iron_canteen>.withTag({Doses: 8, CanteenType: 3}), <simpledifficulty:iron_canteen>.withTag({Doses: (8 - dose), CanteenType: 3}), <liquid:clean_water> * (dose * 1000));
 	}
 }
 
