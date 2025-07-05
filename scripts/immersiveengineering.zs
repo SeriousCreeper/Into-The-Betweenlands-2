@@ -35,7 +35,6 @@ val itemsToRemove as IItemStack[] = [
 	<immersiveengineering:material:9>,
 	<immersiveengineering:material:17>,
 	<immersiveengineering:material:24>,
-	<immersiveengineering:material:25>,
 	<immersiveengineering:metal>,
 	<immersiveengineering:metal:1>,
 	<immersiveengineering:metal:2>,
@@ -462,7 +461,11 @@ BlastFurnace.addFuel(<thebetweenlands:octine_ingot>, 8000);
 
 
 CokeOven.removeAll();
-CokeOven.addRecipe(<thebetweenlands:items_misc:18>, 4, <pyrotech:log_pile>, 6000);
+CokeOven.addRecipe(<soot:sulfur> * 2, 125, <thebetweenlands:log_weedwood>, 600);
+CokeOven.addRecipe(<soot:sulfur> * 4, 125, <thebetweenlands:log_hearthgrove:1>, 600);
+CokeOven.addRecipe(<soot:sulfur> * 4, 125, <thebetweenlands:log_hearthgrove:3>, 600);
+CokeOven.addRecipe(<soot:sulfur> * 6, 125, <thebetweenlands:log_hearthgrove:5>, 600);
+CokeOven.addRecipe(<soot:sulfur> * 6, 125, <thebetweenlands:log_hearthgrove:7>, 600);
 
 
 MetalPress.removeRecipeByMold(<immersiveengineering:mold:0>);
@@ -475,6 +478,7 @@ MetalPress.removeRecipeByMold(<immersiveengineering:mold:7>);
 
 // Bottling Machine
 val bottlingRecipesToRemove = [
+	<minecraft:sponge:1>
 ] as IItemStack[];
 
 for recipe in bottlingRecipesToRemove {
@@ -542,6 +546,7 @@ BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAsp
 <immersiveengineering:stone_decoration:2>.displayName = "Reinforced Archaic Bricks";
 <immersiveengineering:mold:2>.displayName = "Rod Stamp";
 <immersiveengineering:mold:4>.displayName = "Wire Stamp";
+<immersiveengineering:wooden_device1:1>.displayName = "Large Windmill";
 
 
 //val platesToReplace = {
