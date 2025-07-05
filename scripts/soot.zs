@@ -68,3 +68,5 @@ AlchemicalMixer.add(<liquid:silver> * 3, [<liquid:lead> * 4, <liquid:alchemical_
 AlchemicalMixer.add(<liquid:octine> * 3, [<liquid:silver> * 4, <liquid:alchemical_redstone> * 3], {"dawnstone":4 to 8});
 
 AlchemicalMixer.add(<liquid:antimony> * 12, [<liquid:lead> * 8, <liquid:fluid_honey> * 4], {"dawnstone":16 to 32, "silver":16 to 24});
+
+<soot:sulfur>.displayName = "Sulfur Dust";
