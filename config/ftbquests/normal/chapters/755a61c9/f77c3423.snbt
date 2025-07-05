@@ -10,7 +10,8 @@
 			tag: {
 				Fluid: {}
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "e79350d3",
