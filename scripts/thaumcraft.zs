@@ -1384,6 +1384,21 @@ Infusion.registerRecipe("sludgeon_wayfinder", "BASEINFUSION", <bladditions:corru
 	<thebetweenlands:items_misc:44>
 ]);
 
+Infusion.registerRecipe("hemp_seed", "GOINGHOME@3", <immersiveengineering:seed>, 5, [
+	<aspect:herba> * 100,
+	<aspect:permutatio> * 100,
+], 
+<thebetweenlands:aspectrus_seeds>, 
+[
+	<thebetweenlands:swamp_reed_item>,
+	<minecraft:iron_ingot>,
+	<thebetweenlands:swamp_reed_item>,
+	<thaumcraft:salis_mundus>,
+	<thebetweenlands:swamp_reed_item>,
+	<minecraft:iron_ingot>,
+	<thebetweenlands:swamp_reed_item>,
+	<thaumcraft:salis_mundus>
+]);
 
 // INFERNAL FURNACE
 SmeltingBonus.removeSmeltingBonus(<ore:oreLead>, <thaumcraft:nugget:4>);
