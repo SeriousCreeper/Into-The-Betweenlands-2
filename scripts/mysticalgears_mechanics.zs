@@ -24,13 +24,6 @@ scripts.utils.addShaped("recipe_ember_gatling_gun", <mystgears:ember_gatling_gun
 	[<ore:plateSyrmorite>, <ore:plateDawnstone>, <ore:plateDawnstone>]
 ]);
 
-recipes.remove(<mystgears:mechanical_dial>);
-scripts.utils.addShaped("recipe_mechanical_dial", <mystgears:mechanical_dial>, [
-	[<ore:dustRedstone>], 
-	[<thebetweenlands:items_misc:32>], 
-	[<ore:plateSilver>]
-]);
-
 recipes.remove(<mysticalmechanics:gear_fan>);
 scripts.utils.addShaped("mysticalmechanics-fan_iron", <mysticalmechanics:gear_fan>, [
 	[<thaumcraft:plate:1>, null, <thaumcraft:plate:1>], 

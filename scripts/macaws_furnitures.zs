@@ -49,12 +49,6 @@ scripts.utils.addShaped("mcwfurnitures_cabinet_door", <mcwfurnitures:cabinet_doo
 	[<pyrotech:material:20>]
 ]);
 
-recipes.remove(<mcwfurnitures:iron_handle>);
-scripts.utils.addShaped("iron_handle", <mcwfurnitures:iron_handle>, [
-	[<ore:nuggetSyrmorite>, <ore:nuggetSyrmorite>]
-]);
-
-
 
 // Furnitures
 // oak
@@ -147,7 +141,7 @@ var tempFence = <thebetweenlands:weedwood_log_fence>;
 var log1 = <thebetweenlands:log_weedwood>;
 var log2 = <thebetweenlands:log_weedwood:12>;
 
-scripts.utils.addShaped("mcwfurnitures_oak_nightstand_8", <mcwfurnitures:nightstand_8>, [[<mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>], [<mcwfurnitures:iron_handle>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:oak_plate>], [<mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>]]);
+scripts.utils.addShaped("mcwfurnitures_oak_nightstand_8", <mcwfurnitures:nightstand_8>, [[<mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>], [<thebetweenlands:items_misc:41>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:oak_plate>], [<mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>]]);
 scripts.utils.addShaped("mcwfurnitures_oak_nightstand_9", <mcwfurnitures:nightstand_9>, [[<mcwfurnitures:nightstand_11>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_oak_nightstand_11", <mcwfurnitures:nightstand_11>, [[<mcwfurnitures:oak_plate>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_oak_dresser_14", <mcwfurnitures:dresser_14>, [[<mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>], [log1, null, log1], [<mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>, <mcwfurnitures:oak_plate>]]);
@@ -165,7 +159,7 @@ tempFence = <thebetweenlands:rubber_tree_plank_fence>;
 log1 = <thebetweenlands:log_rubber>;
 log2 = <thebetweenlands:log_rubber>;
 
-scripts.utils.addShaped("mcwfurnitures_spruce_nightstand_8", <mcwfurnitures:spruce_nightstand_8>, [[<mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>], [<mcwfurnitures:iron_handle>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:spruce_plate>], [<mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>]]);
+scripts.utils.addShaped("mcwfurnitures_spruce_nightstand_8", <mcwfurnitures:spruce_nightstand_8>, [[<mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>], [<thebetweenlands:items_misc:41>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:spruce_plate>], [<mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>]]);
 scripts.utils.addShaped("mcwfurnitures_spruce_nightstand_9", <mcwfurnitures:spruce_nightstand_9>, [[<mcwfurnitures:spruce_nightstand_11>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_spruce_nightstand_11", <mcwfurnitures:spruce_nightstand_11>, [[<mcwfurnitures:spruce_plate>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_spruce_dresser_14", <mcwfurnitures:spruce_dresser_14>, [[<mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>], [log1, null, log1], [<mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>, <mcwfurnitures:spruce_plate>]]);
@@ -183,7 +177,7 @@ tempFence = <thebetweenlands:giant_root_plank_fence>;
 log1 = <thebetweenlands:giant_root>;
 log2 = <thebetweenlands:giant_root>;
 
-scripts.utils.addShaped("mcwfurnitures_birch_nightstand_8", <mcwfurnitures:birch_nightstand_8>, [[<mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>], [<mcwfurnitures:iron_handle>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:birch_plate>], [<mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>]]);
+scripts.utils.addShaped("mcwfurnitures_birch_nightstand_8", <mcwfurnitures:birch_nightstand_8>, [[<mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>], [<thebetweenlands:items_misc:41>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:birch_plate>], [<mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>]]);
 scripts.utils.addShaped("mcwfurnitures_birch_nightstand_9", <mcwfurnitures:birch_nightstand_9>, [[<mcwfurnitures:birch_nightstand_11>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_birch_nightstand_11", <mcwfurnitures:birch_nightstand_11>, [[<mcwfurnitures:birch_plate>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_birch_dresser_14", <mcwfurnitures:birch_dresser_14>, [[<mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>], [log1, null, log1], [<mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>, <mcwfurnitures:birch_plate>]]);
@@ -201,7 +195,7 @@ tempFence = <thebetweenlands:hearthgrove_plank_fence>;
 log1 = <thebetweenlands:log_hearthgrove:1>;
 log2 = <thebetweenlands:log_hearthgrove:3>;
 
-scripts.utils.addShaped("mcwfurnitures_jungle_nightstand_8", <mcwfurnitures:jungle_nightstand_8>, [[<mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>], [<mcwfurnitures:iron_handle>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:jungle_plate>], [<mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>]]);
+scripts.utils.addShaped("mcwfurnitures_jungle_nightstand_8", <mcwfurnitures:jungle_nightstand_8>, [[<mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>], [<thebetweenlands:items_misc:41>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:jungle_plate>], [<mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>]]);
 scripts.utils.addShaped("mcwfurnitures_jungle_nightstand_9", <mcwfurnitures:jungle_nightstand_9>, [[<mcwfurnitures:jungle_nightstand_11>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_jungle_nightstand_11", <mcwfurnitures:jungle_nightstand_11>, [[<mcwfurnitures:jungle_plate>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_jungle_dresser_14", <mcwfurnitures:jungle_dresser_14>, [[<mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>], [log1, null, log1], [<mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>, <mcwfurnitures:jungle_plate>]]);
@@ -219,7 +213,7 @@ tempFence = <thebetweenlands:nibbletwig_plank_fence>;
 log1 = <thebetweenlands:log_nibbletwig>;
 log2 = <thebetweenlands:log_nibbletwig:12>;
 
-scripts.utils.addShaped("mcwfurnitures_acacia_nightstand_8", <mcwfurnitures:acacia_nightstand_8>, [[<mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>], [<mcwfurnitures:iron_handle>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:acacia_plate>], [<mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>]]);
+scripts.utils.addShaped("mcwfurnitures_acacia_nightstand_8", <mcwfurnitures:acacia_nightstand_8>, [[<mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>], [<thebetweenlands:items_misc:41>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:acacia_plate>], [<mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>]]);
 scripts.utils.addShaped("mcwfurnitures_acacia_nightstand_9", <mcwfurnitures:acacia_nightstand_9>, [[<mcwfurnitures:acacia_nightstand_11>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_acacia_nightstand_11", <mcwfurnitures:acacia_nightstand_11>, [[<mcwfurnitures:acacia_plate>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_acacia_dresser_14", <mcwfurnitures:acacia_dresser_14>, [[<mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>], [log1, null, log1], [<mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>, <mcwfurnitures:acacia_plate>]]);
@@ -237,7 +231,7 @@ tempFence = <thebetweenlands:rotten_plank_fence>;
 log1 = <thebetweenlands:log_rotten_bark:*>;
 log2 = <thebetweenlands:log_rotten_bark:*>;
 
-scripts.utils.addShaped("mcwfurnitures_dark_oak_nightstand_8", <mcwfurnitures:dark_oak_nightstand_8>, [[<mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>], [<mcwfurnitures:iron_handle>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:dark_oak_plate>], [<mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>]]);
+scripts.utils.addShaped("mcwfurnitures_dark_oak_nightstand_8", <mcwfurnitures:dark_oak_nightstand_8>, [[<mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>], [<thebetweenlands:items_misc:41>, <thebetweenlands:silt_glass_pane>, <mcwfurnitures:dark_oak_plate>], [<mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>]]);
 scripts.utils.addShaped("mcwfurnitures_dark_oak_nightstand_9", <mcwfurnitures:dark_oak_nightstand_9>, [[<mcwfurnitures:dark_oak_nightstand_11>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_dark_oak_nightstand_11", <mcwfurnitures:dark_oak_nightstand_11>, [[<mcwfurnitures:dark_oak_plate>], [tempFence]]);
 scripts.utils.addShaped("mcwfurnitures_dark_oak_dresser_14", <mcwfurnitures:dark_oak_dresser_14>, [[<mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>], [log1, null, log1], [<mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>, <mcwfurnitures:dark_oak_plate>]]);
