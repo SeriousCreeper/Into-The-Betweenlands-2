@@ -8,22 +8,20 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.multiblockstages.IEMultiBlockStages;
 
-
 var stageCragrock = "knowledge_of_druids";
 var stageWightFortress = "knowledge_of_malice";
 var stageSpiritTree = "knowledge_of_spirit";
 var stageSludgeon = "knowledge_of_decay";
 var stageTechnology = "knowledge_of_technology";
 
-
 MobStages.addStage(stageWightFortress, "embers:ancient_golem");
 MobStages.addStage(stageSpiritTree, "thaumcraft:wisp");
 
-OreStages.addReplacement(stageSpiritTree, <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement(stageSpiritTree, <betweenores:lead_ore>, <thebetweenlands:pitstone>);
-OreStages.addReplacement(stageSpiritTree, <betweenores:silver_ore>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement(stageSpiritTree, <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);
-OreStages.addReplacement(stageSpiritTree, <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
+OreStages.addReplacement(stageWightFortress, <betweenores:copper_ore>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement(stageWightFortress, <betweenores:lead_ore>, <thebetweenlands:pitstone>);
+OreStages.addReplacement(stageWightFortress, <betweenores:silver_ore>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement(stageWightFortress, <betweenores:aluminum_ore>, <thebetweenlands:betweenstone>);
+OreStages.addReplacement(stageWightFortress, <betweenores:nickel_ore>, <thebetweenlands:pitstone>);
 OreStages.addReplacement(stageSpiritTree, <thaumcraft:ore_amber>, <thebetweenlands:betweenstone>);
 OreStages.addReplacement(stageSpiritTree, <thaumcraft:ore_cinnabar>, <thebetweenlands:pitstone>);
 
