@@ -855,3 +855,6 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:blockBone>.remove(<minecraft:bone_block>);
 
 <ore:oreAluminium>.remove(<embers:ore_aluminum>);
+
+<ore:plateBoard>.add(<pyrotech:material:20>);
+<ore:plateTarredBoard>.add(<pyrotech:material:23>);
