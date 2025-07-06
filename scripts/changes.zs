@@ -524,12 +524,6 @@ scripts.utils.addShaped("weirdinggadget-weirding_gadget-remodified", <weirdingga
 
 // UPPERS
 recipes.remove(<uppers:upper>);
-scripts.utils.addShaped("uppers-upper-modified", <uppers:upper>, [
-	[null, <thebetweenlands:items_misc:11>, null], 
-	[<thebetweenlands:items_misc:11>, <pyrotech:mechanical_hopper>, <thebetweenlands:items_misc:11>], 
-	[<thebetweenlands:items_misc:11>, <ore:chestWood>, <thebetweenlands:items_misc:11>]
-]);
-
 scripts.utils.addShapeless("upper_alt", <uppers:upper>, [<thebetweenlands:syrmorite_hopper>]);
 scripts.utils.addShapeless("upper_alt_2", <thebetweenlands:syrmorite_hopper>, [<uppers:upper>]);
 
