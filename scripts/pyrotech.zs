@@ -669,7 +669,7 @@ function planksRecipe(name as string, itemOut as IItemStack, itemIn as IIngredie
 	//scripts.utils.addShapeless(name, itemOut * 2, [itemIn]);
 	Chopping.addRecipe(name, itemOut * 2, itemIn);
 	stoneSawmillRecipeBuilder(name, itemOut, itemIn, countBone, countOctine, countDiamond);
-	Assembler.add(name, 1, [itemIn], [itemOut * 2, <pyrotech:rock:7>], 1, 7, 200);
+	//Assembler.add(name, 1, [itemIn], [itemOut * 2, <pyrotech:rock:7>], 1, 7, 200);
 }
 
 

@@ -23,13 +23,6 @@ scripts.utils.addShapeless("gerts_donut", <thebetweenlands:gerts_donut>, [<thebe
 
 scripts.utils.addShapeless("convenient_dual_furnace", <thebetweenlands:sulfur_furnace_dual>, [<thebetweenlands:sulfur_furnace>, <thebetweenlands:sulfur_furnace>]);
 
-recipes.remove(<thebetweenlands:syrmorite_hopper>);
-scripts.utils.addShaped("syrmorite_hopper", <thebetweenlands:syrmorite_hopper>, [
-	[<thebetweenlands:items_misc:11>, <ore:chestWood>, <thebetweenlands:items_misc:11>], 
-	[<thebetweenlands:items_misc:11>, <pyrotech:mechanical_hopper>, <thebetweenlands:items_misc:11>], 
-	[null, <thebetweenlands:items_misc:11>, null]
-]);
-
 scripts.utils.addShaped("mushroom_stalk", <thebetweenlands:bulb_capped_mushroom_stalk>, [
 	[<thebetweenlands:bulb_capped_mushroom_cap>, <thebetweenlands:bulb_capped_mushroom_cap>],
 	[<thebetweenlands:bulb_capped_mushroom_cap>, <thebetweenlands:bulb_capped_mushroom_cap>]
@@ -76,13 +69,6 @@ recipes.remove(<thebetweenlands:sulfur_torch>);
 scripts.utils.addShaped("unlit_sulfur_torchers", <thebetweenlands:sulfur_torch_extinguished> * 4, [
 	[<thebetweenlands:items_misc:18>],
 	[<ore:stickWood>]
-]);
-
-recipes.remove(<thebetweenlands:weedwood_chest>);
-scripts.utils.addShaped("weedwood_chest", <thebetweenlands:weedwood_chest>, [
-	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>],
-	[<thebetweenlands:weedwood_planks>, <mcwfurnitures:iron_handle>, <thebetweenlands:weedwood_planks>],
-	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]
 ]);
 
 recipes.addShaped("bucket_weedwood", <thebetweenlands:bl_bucket>.withTag({Fluid: {}}), [

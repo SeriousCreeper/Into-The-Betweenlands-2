@@ -91,7 +91,7 @@ scripts.utils.addShaped("windmill_big", <rustichromia:windmill_big>, [
 ]);
 
 recipes.remove(<rustichromia:assembler1>);
-scripts.utils.addShaped("assembler1", <rustichromia:assembler2>, [
+scripts.utils.addShaped("assembler1", <rustichromia:assembler1>, [
     [<thebetweenlands:weedwood_planks>, <mystgears:gear_wood>, <thebetweenlands:weedwood_planks>], 
     [<mystgears:gear_wood>, <mystgears:gear_wood>, <mystgears:gear_wood>], 
     [<thebetweenlands:weedwood_planks>, <mystgears:gear_wood>, <thebetweenlands:weedwood_planks>]
@@ -109,13 +109,15 @@ scripts.utils.addShaped("assembler2", <rustichromia:assembler2>, [
 val defaultAssemblerTime = 10 * 20;
 val defaultLower = 1;
 val defaultUpper = 7;
+val assembler2Lower = 7;
+val assembler2Upper = 15;
 
 // Tier 1
 Assembler.add("assembler1", 1, [
     <mystgears:gear_wood> * 2,
     <thebetweenlands:weedwood_planks> * 2
 ], [
-    <rustichromia:assembler2>
+    <rustichromia:assembler1>
 ], defaultLower, defaultUpper, defaultAssemblerTime);
 
 recipes.remove(<rustichromia:axle_wood>);
@@ -164,10 +166,9 @@ Assembler.add("iron_handle", 1, [
     <mcwfurnitures:iron_handle> * 2
 ], defaultLower, defaultUpper, defaultAssemblerTime);
 
-recipes.remove(<mystgears:mechanical_dial>);
 Assembler.add("mechanical_dial", 1, [
-    <mystgears:gear_wood> * 2,
-    <thebetweenlands:items_misc:32>,
+    <mystgears:gear_wood>,
+    <thebetweenlands:items_misc:20>,
 ], [
     <mystgears:mechanical_dial>
 ], defaultLower, defaultUpper, defaultAssemblerTime);
@@ -264,8 +265,8 @@ Assembler.add("mechanical_mulch_spreader", 1, [
 
 recipes.remove(<pyrotech:trip_hammer>);
 Assembler.add("trip_hammer", 1, [
-    <pyrotech:mechanical_hopper>,
-    <pyrotech:cog_bone>,
+    <mystgears:gear_wood>,
+    <pyrotech:material:27> * 4,
     <pyrotech:masonry_brick_block> * 3,
     <pyrotech:material:23> * 4
 ], [
@@ -401,7 +402,23 @@ Assembler.add("assembler2", 2, [
     <embers:plate_lead> * 2
 ], [
     <rustichromia:assembler2>
-], defaultLower, defaultUpper, defaultAssemblerTime);
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<thebetweenlands:syrmorite_hopper>);
+Assembler.add("syrmorite_hopper", 2, [
+    <thebetweenlands:items_misc:11> * 5,
+    <ore:chestWood>
+], [
+    <thebetweenlands:syrmorite_hopper>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<thebetweenlands:weedwood_chest>);
+Assembler.add("weedwood_chest", 2, [
+    <thebetweenlands:weedwood_planks> * 8,
+    <mcwfurnitures:iron_handle>
+], [
+    <thebetweenlands:weedwood_chest>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
 
 
 <rustichromia:windmill>.displayName = "Small Windmill";

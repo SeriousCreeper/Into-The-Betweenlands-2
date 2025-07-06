@@ -15,7 +15,21 @@ JEI.removeAndHide(<mysticalmechanics:gear_gold>);
 recipes.remove(<mystgears:gear_octine>);
 recipes.remove(<mystgears:gear_valonite>);
 recipes.remove(<mystgears:gear_tin>);
+recipes.remove(<mystgears:gear_silver>);
+recipes.remove(<mystgears:gear_antimony>);
+recipes.remove(<mystgears:gear_manasteel>);
+recipes.remove(<mystgears:gear_elvenelementium>);
+recipes.remove(<mystgears:gear_thaumium>);
+recipes.remove(<mystgears:gear_void>);
+recipes.remove(<mystgears:gear_lead>);
+recipes.remove(<mystgears:gear_syrmorite>);
 
+recipes.remove(<mystgears:mechanical_dial>);
+scripts.utils.addShaped("mechanical_dial", <mystgears:mechanical_dial>, [
+	[null, <thebetweenlands:items_misc:20>, null], 
+	[<thebetweenlands:items_misc:20>, <mystgears:gear_wood>, <thebetweenlands:items_misc:20>], 
+	[null, <thebetweenlands:items_misc:20>, null]
+]);
 
 recipes.remove(<mystgears:ember_gatling_gun>);
 scripts.utils.addShaped("recipe_ember_gatling_gun", <mystgears:ember_gatling_gun>, [

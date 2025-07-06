@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.rustichromia.Assembler;
 
 recipes.remove(<quark:paper_lantern>);
 scripts.utils.addShaped("paper_lantern", <quark:paper_lantern>, [
@@ -44,11 +45,12 @@ recipes.remove(<quark:custom_chest:*>);
 recipes.remove(<quark:custom_bookshelf:*>);
 
 for i, wood in quarkChestPlank {
-	scripts.utils.addShaped("custom_chest_" ~ i, <quark:custom_chest>.definition.makeStack(i), [
-		[wood, wood, wood],
-		[wood, <mcwfurnitures:iron_handle>, wood],
-		[wood, wood, wood]
-	]);
+	Assembler.add("custom_chest_" ~ i, 2, [
+		wood * 8,
+		<mcwfurnitures:iron_handle>
+	], [
+		<quark:custom_chest>.definition.makeStack(i)
+	], 7, 15, 200);
 
 	scripts.utils.addShaped("custom_bookshelf_" ~ i, <quark:custom_bookshelf>.definition.makeStack(i), [
 	[wood, wood, wood], 
