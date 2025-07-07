@@ -884,10 +884,6 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 // - Ingots
 <minecraft:iron_ingot>.maxStackSize = 16;
 //<aetherworks:item_resource:4>.maxStackSize = 16;
-//<botania:manaresource>.maxStackSize = 16;
-//<botania:manaresource:4>.maxStackSize = 16;
-//<botania:manaresource:7>.maxStackSize = 16;
-//<botania:manaresource:14>.maxStackSize = 16;
 <embers:archaic_brick>.maxStackSize = 16;
 <embers:brick_caminite>.maxStackSize = 16;
 <embers:ingot_aluminum>.maxStackSize = 16;
@@ -900,18 +896,10 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <embers:ingot_silver>.maxStackSize = 16;
 <embers:ingot_tin>.maxStackSize = 16;
 <mod_lavacow:ectoplasm_ingot>.maxStackSize = 16;
-//<immersiveengineering:material:19>.maxStackSize = 16;
-//<immersiveengineering:metal:5>.maxStackSize = 16;
-//<immersiveengineering:metal:6>.maxStackSize = 16;
-//<immersiveengineering:metal:8>.maxStackSize = 16;
-//<pyrotech:material:5>.maxStackSize = 16;
-//<pyrotech:material:16>.maxStackSize = 16;
 <soot:ingot_antimony>.maxStackSize = 16;
-//<thaumcraft:ingot>.maxStackSize = 16;
-//<thaumcraft:ingot:1>.maxStackSize = 16;
-//<thaumcraft:ingot:2>.maxStackSize = 16;
-//<thebetweenlands:items_misc:10>.maxStackSize = 16;
-//<thebetweenlands:items_misc:11>.maxStackSize = 16;
+<thaumcraft:ingot>.maxStackSize = 16;
+<thaumcraft:ingot:1>.maxStackSize = 16;
+<thaumcraft:ingot:2>.maxStackSize = 16;
 <thebetweenlands:octine_ingot>.maxStackSize = 16;
 
 // - Logs
