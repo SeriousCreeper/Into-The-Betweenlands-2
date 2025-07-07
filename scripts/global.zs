@@ -635,6 +635,25 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:logWood>.remove(<primallib:log_stripped_acacia>);
 <ore:logWood>.remove(<primallib:log_stripped_dark_oak>);
 <ore:logWood>.remove(<pizzacraft:olive_log>);
+<ore:logWood>.remove(<futuremc:stripped_acacia_log>);
+<ore:logWood>.remove(<futuremc:stripped_jungle_log>);
+<ore:logWood>.remove(<futuremc:stripped_birch_log>);
+<ore:logWood>.remove(<futuremc:stripped_oak_log>);
+<ore:logWood>.remove(<futuremc:stripped_spruce_log>);
+<ore:logWood>.remove(<futuremc:stripped_dark_oak_log>);
+<ore:logWood>.remove(<futuremc:stripped_acacia_wood>);
+<ore:logWood>.remove(<futuremc:stripped_jungle_wood>);
+<ore:logWood>.remove(<futuremc:stripped_birch_wood>);
+<ore:logWood>.remove(<futuremc:stripped_oak_wood>);
+<ore:logWood>.remove(<futuremc:stripped_spruce_wood>);
+<ore:logWood>.remove(<futuremc:stripped_dark_oak_wood>);
+<ore:logWood>.remove(<futuremc:acacia_wood>);
+<ore:logWood>.remove(<futuremc:jungle_wood>);
+<ore:logWood>.remove(<futuremc:birch_wood>);
+<ore:logWood>.remove(<futuremc:oak_wood>);
+<ore:logWood>.remove(<futuremc:spruce_wood>);
+<ore:logWood>.remove(<futuremc:dark_oak_wood>);
+<ore:logWood>.remove(<roots:wildwood_log>);
 
 <ore:logWood>.add(<thebetweenlands:log_rotten_bark:*>);
 <ore:logWood>.add(<thebetweenlands:log_rotten_bark_carved_1>);
@@ -656,7 +675,6 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 
 <ore:logWood>.add(<thebetweenlands:log_portal:*>);
 <ore:logWood>.add(<thaumcraft:taint_log>);
-
 
 <ore:plankWood>.remove(<mysticalworld:charred_planks>);
 <ore:plankWood>.remove(<growthcraft_apples:apple_planks>);
@@ -858,3 +876,78 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 
 <ore:plateBoard>.add(<pyrotech:material:20>);
 <ore:plateTarredBoard>.add(<pyrotech:material:23>);
+
+
+
+
+// Item Stack Sizes
+// - Ingots
+<minecraft:iron_ingot>.maxStackSize = 16;
+//<aetherworks:item_resource:4>.maxStackSize = 16;
+//<botania:manaresource>.maxStackSize = 16;
+//<botania:manaresource:4>.maxStackSize = 16;
+//<botania:manaresource:7>.maxStackSize = 16;
+//<botania:manaresource:14>.maxStackSize = 16;
+<embers:archaic_brick>.maxStackSize = 16;
+<embers:brick_caminite>.maxStackSize = 16;
+<embers:ingot_aluminum>.maxStackSize = 16;
+<embers:ingot_bronze>.maxStackSize = 16;
+<embers:ingot_copper>.maxStackSize = 16;
+<embers:ingot_dawnstone>.maxStackSize = 16;
+<embers:ingot_electrum>.maxStackSize = 16;
+<embers:ingot_lead>.maxStackSize = 16;
+<embers:ingot_nickel>.maxStackSize = 16;
+<embers:ingot_silver>.maxStackSize = 16;
+<embers:ingot_tin>.maxStackSize = 16;
+<mod_lavacow:ectoplasm_ingot>.maxStackSize = 16;
+//<immersiveengineering:material:19>.maxStackSize = 16;
+//<immersiveengineering:metal:5>.maxStackSize = 16;
+//<immersiveengineering:metal:6>.maxStackSize = 16;
+//<immersiveengineering:metal:8>.maxStackSize = 16;
+//<pyrotech:material:5>.maxStackSize = 16;
+//<pyrotech:material:16>.maxStackSize = 16;
+<soot:ingot_antimony>.maxStackSize = 16;
+//<thaumcraft:ingot>.maxStackSize = 16;
+//<thaumcraft:ingot:1>.maxStackSize = 16;
+//<thaumcraft:ingot:2>.maxStackSize = 16;
+//<thebetweenlands:items_misc:10>.maxStackSize = 16;
+//<thebetweenlands:items_misc:11>.maxStackSize = 16;
+<thebetweenlands:octine_ingot>.maxStackSize = 16;
+
+// - Logs
+<roots:wildwood_log>.maxStackSize = 32;
+<thaumcraft:log_greatwood>.maxStackSize = 32;
+<thaumcraft:log_silverwood>.maxStackSize = 32;
+<thaumcraft:taint_log>.maxStackSize = 32;
+<thebetweenlands:log_weedwood>.maxStackSize = 32;
+<thebetweenlands:log_weedwood:12>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark>.maxStackSize = 32;
+<thebetweenlands:log_rubber>.maxStackSize = 32;
+<thebetweenlands:log_hearthgrove:1>.maxStackSize = 32;
+<thebetweenlands:log_hearthgrove:5>.maxStackSize = 32;
+<thebetweenlands:log_hearthgrove:3>.maxStackSize = 32;
+<thebetweenlands:log_hearthgrove:7>.maxStackSize = 32;
+<thebetweenlands:log_nibbletwig>.maxStackSize = 32;
+<thebetweenlands:log_nibbletwig:12>.maxStackSize = 32;
+<thebetweenlands:log_spirit_tree>.maxStackSize = 32;
+<thebetweenlands:log_spirit_tree:12>.maxStackSize = 32;
+<thebetweenlands:weedwood>.maxStackSize = 32;
+<thebetweenlands:log_sap>.maxStackSize = 32;
+<thebetweenlands:log_sap:12>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_1>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_2>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_3>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_4>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_5>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_6>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_7>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_8>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_9>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_10>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_11>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_12>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_13>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_14>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_15>.maxStackSize = 32;
+<thebetweenlands:log_rotten_bark_carved_16>.maxStackSize = 32;
+<thebetweenlands:giant_root>.maxStackSize = 32;
