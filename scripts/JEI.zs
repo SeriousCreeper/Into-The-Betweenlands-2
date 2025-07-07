@@ -342,6 +342,26 @@ val itemsToRemove = [
 	<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_nether"}),
 	<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_end"}),
 
+	<futuremc:stripped_acacia_log>,
+	<futuremc:stripped_jungle_log>,
+	<futuremc:stripped_birch_log>,
+	<futuremc:stripped_oak_log>,
+	<futuremc:stripped_spruce_log>,
+	<futuremc:stripped_dark_oak_log>,
+	<futuremc:stripped_acacia_wood>,
+	<futuremc:stripped_jungle_wood>,
+	<futuremc:stripped_birch_wood>,
+	<futuremc:stripped_oak_wood>,
+	<futuremc:stripped_spruce_wood>,
+	<futuremc:stripped_dark_oak_wood>,
+	<futuremc:acacia_wood>,
+	<futuremc:jungle_wood>,
+	<futuremc:birch_wood>,
+	<futuremc:oak_wood>,
+	<futuremc:spruce_wood>,
+	<futuremc:dark_oak_wood>,
+	<roots:wildwood_log>,
+
 	//<mystgears:gear_copper>,
 ] as IItemStack[];
 
