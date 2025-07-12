@@ -1,5 +1,7 @@
 import mods.arcanearchives.GCT;
 
+recipes.remove(<arcanearchives:radiant_crafting_table>);
+
 recipes.remove(<arcanearchives:radiant_resonator>);
 recipes.addShaped("radiant_resonator", <arcanearchives:radiant_resonator>, [
 	[<ore:ingotDawnstone>, <minecraft:iron_bars>, <ore:ingotDawnstone>], 

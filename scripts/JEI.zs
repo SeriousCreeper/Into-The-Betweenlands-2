@@ -361,6 +361,8 @@ val itemsToRemove = [
 	<futuremc:dark_oak_wood>,
 	<roots:wildwood_log>,
 
+	<arcanearchives:radiant_crafting_table>
+
 	//<mystgears:gear_copper>,
 ] as IItemStack[];
 
