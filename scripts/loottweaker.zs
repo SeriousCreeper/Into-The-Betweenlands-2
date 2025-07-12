@@ -133,8 +133,8 @@ replaceLoot("thebetweenlands:loot/wight_fortress_chest", "uncommon_loot", "octin
 replaceLoot("thebetweenlands:loot/wight_fortress_pot", "pot_loot", "syrmorite_nugget", <pyrotech:generated_slag_syrmorite>, 20, 0, 7, 16);
 replaceLoot("thebetweenlands:loot/wight_fortress_pot", "pot_loot", "octine_nugget", <pyrotech:generated_slag_octine>, 20, 0, 7, 16);
 
-replaceLoot("thebetweenlands:animator/scroll", "scroll", "syrmorite_ingot", <thebetweenlands:syrmorite_ore>, 20, 0, 5, 12);
-replaceLoot("thebetweenlands:animator/scroll", "scroll", "thebetweenlands:octine_ingot", <thebetweenlands:octine_ore>, 20, 0, 5, 12);
+//replaceLoot("thebetweenlands:animator/scroll", "scroll", "syrmorite_ingot", <thebetweenlands:syrmorite_ore>, 20, 0, 5, 12);
+//replaceLoot("thebetweenlands:animator/scroll", "scroll", "thebetweenlands:octine_ingot", <thebetweenlands:octine_ore>, 20, 0, 5, 12);
 
 replaceLoot("thaumcraft:cultist", "main", "minecraft:gold_nugget", <thebetweenlands:items_misc:42>, 1, 0, 0, 2);
 
