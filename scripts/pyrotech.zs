@@ -20,6 +20,7 @@ import mods.pyrotech.CompactingBin;
 import mods.pyrotech.MechanicalCompactor;
 import mods.pyrotech.Campfire;
 import mods.rustichromia.Assembler;
+import mods.pyrotech.Stages;
 
 
 
@@ -1154,6 +1155,7 @@ for bloom in bloomsToRemove {
 	Bloomery.removeWitherForgeRecipes(bloom);
 }
 
+Bloomery.setWitherForgeGameStages(Stages.and(["knowledge_of_technology"]));
 
 
 
