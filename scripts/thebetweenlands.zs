@@ -9,6 +9,7 @@ val weedWoodLogs = <thebetweenlands:weedwood> | <thebetweenlands:log_weedwood:12
 furnace.remove(<thebetweenlands:items_misc:6>);
 furnace.remove(<thebetweenlands:sulfur_torch>);
 
+furnace.setFuel(<thebetweenlands:peat>, 400);
 
 
 recipes.remove(<thebetweenlands:items_misc:32>);
