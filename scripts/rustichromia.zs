@@ -386,17 +386,46 @@ Assembler.add("shelf_stone", 1, [
     <pyrotech:shelf_stone>
 ], defaultLower, defaultUpper, defaultAssemblerTime);
 
-
-
-// Tier 2
 recipes.remove(<thebetweenlands:weedwood_workbench>);
-Assembler.add("weedwood_workbench", 2, [
-    <thebetweenlands:weedwood_planks> * 4,
-    <thebetweenlands:octine_ingot> * 2
+Assembler.add("weedwood_workbench", 1, [    
+    <pyrotech:worktable>,
+    <thebetweenlands:octine_ingot> * 2,
 ], [
     <thebetweenlands:weedwood_workbench>
 ], defaultLower, defaultUpper, defaultAssemblerTime);
 
+Assembler.add("wooden_scaffold", 1, [
+    <thebetweenlands:weedwood_planks> * 2,
+    <thebetweenlands:items_misc:20> * 3
+], [
+    <notenoughscaffold:wooden_scaffold> * 8
+], defaultLower, defaultUpper, defaultAssemblerTime);
+
+Assembler.add("crate", 1, [
+    <thebetweenlands:weedwood_planks> * 4,
+    <thebetweenlands:weedwood_plank_slab>
+], [
+    <pyrotech:crate>
+], defaultLower, defaultUpper, defaultAssemblerTime);
+
+Assembler.add("wood_rack", 1, [
+    <thebetweenlands:weedwood_plank_slab> * 2,
+    <thebetweenlands:weedwood_ladder>,
+    (<thebetweenlands:log_weedwood> | <thebetweenlands:log_weedwood:12> | <thebetweenlands:weedwood>) * 2
+], [
+    <pyrotech:wood_rack>
+], defaultLower, defaultUpper, defaultAssemblerTime);
+
+Assembler.add("shelf", 1, [
+    <thebetweenlands:weedwood_plank_slab> * 2,
+    <thebetweenlands:weedwood_planks> * 3
+], [
+    <pyrotech:shelf>
+], defaultLower, defaultUpper, defaultAssemblerTime);
+
+
+
+// Tier 2
 Assembler.add("assembler2", 2, [
     <mystgears:gear_lead> * 2,
     <embers:plate_lead> * 2
@@ -419,6 +448,270 @@ Assembler.add("weedwood_chest", 2, [
 ], [
     <thebetweenlands:weedwood_chest>
 ], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:crystal_cell>);
+Assembler.add("crystal_cell", 2, [
+    <embers:crystal_ember:*> * 2,
+    <embers:plate_dawnstone> * 2,
+    <thebetweenlands:octine_block> * 2,
+    <ore:blockDawnstone>
+], [
+    <embers:crystal_cell>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:ember_bore>);
+Assembler.add("ember_bore", 2, [
+    <embers:stairs_caminite_brick:*> * 4,
+    <thebetweenlands:items_misc:11> * 4,
+    <embers:mech_core:*>
+], [
+    <embers:ember_bore>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:heat_coil>);
+Assembler.add("heat_coil", 2, [
+    <embers:plate_gold> * 3,
+    <thebetweenlands:items_misc:11> * 2,
+    <thebetweenlands:octine_block>,
+    <embers:mech_core:*>
+], [
+    <embers:heat_coil>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:inferno_forge>);
+Assembler.add("inferno_forge", 2, [
+    <embers:ingot_dawnstone> * 20,
+    <thebetweenlands:octine_block>,
+    <embers:block_caminite_brick:*> * 2,
+    <embers:wildfire_core:*>
+], [
+    <embers:inferno_forge>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:large_tank>);
+Assembler.add("large_tank", 2, [
+    <embers:stairs_caminite_brick:*> * 4,
+    <thebetweenlands:items_misc:11> * 2,
+    <embers:block_tank:*>
+], [
+    <embers:large_tank>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:steam_engine>);
+Assembler.add("steam_engine", 2, [
+    <embers:pipe:*> * 2,
+    <mystgears:gear_syrmorite>,
+    <embers:plate_gold> * 2,
+    <thaumcraft:plate:1> * 3
+], [
+    <embers:steam_engine>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:block_furnace>);
+Assembler.add("block_furnace", 2, [
+    <embers:brick_caminite:*> * 4,
+    <embers:plate_caminite:*>,
+    <thebetweenlands:items_misc:11> * 2,
+    <thebetweenlands:sulfur_furnace>
+], [
+    <embers:block_furnace>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:boiler>);
+Assembler.add("boiler", 2, [
+    <thebetweenlands:items_misc:11> * 5,
+    <thebetweenlands:sulfur_furnace>,
+    <thebetweenlands:octine_block>
+], [
+    <embers:boiler>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:breaker>);
+Assembler.add("breaker", 2, [
+    <thaumcraft:plate:1> * 2,
+    <thebetweenlands:items_misc:11>,
+    <embers:ingot_lead> * 3,
+    <ore:dustRedstone>
+], [
+    <embers:breaker>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:cinder_plinth>);
+Assembler.add("cinder_plinth", 2, [
+    <embers:plate_lead> * 2,
+    <embers:ingot_silver> * 2,
+    <thebetweenlands:sulfur_furnace>,
+    <embers:block_caminite_brick:*>
+], [
+    <embers:cinder_plinth>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:combustor>);
+Assembler.add("combustor", 2, [
+    <thebetweenlands:items_misc:11> * 2,
+    <embers:plate_gold> * 2,
+    <embers:ember_cluster:*>,
+    <embers:mech_core:*>
+], [
+    <embers:combustor>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:copper_cell>);
+Assembler.add("copper_cell", 2, [
+    <embers:block_caminite_brick:*> * 4,
+    <thebetweenlands:items_misc:11> * 4,
+    <thebetweenlands:octine_block>
+], [
+    <embers:copper_cell>.withTag({emberCapacity: 24000.0, ember: 0.0})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:ember_activator>);
+Assembler.add("ember_activator", 2, [
+    <thebetweenlands:items_misc:11> * 6,
+    <thaumcraft:plate:1> * 2,
+    <thebetweenlands:sulfur_furnace>
+], [
+    <embers:ember_activator>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:ember_siphon>);
+Assembler.add("ember_siphon", 2, [
+    <embers:wall_caminite_brick> * 2,
+    <thebetweenlands:items_misc:11> * 2,
+    <embers:plate_silver> * 2,
+    <embers:brick_caminite:*> * 3
+], [
+    <embers:ember_siphon>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:mechanical_pump>);
+Assembler.add("mechanical_pump", 2, [
+    <embers:pipe:*> * 2,
+    <thaumcraft:plate:1> * 4,
+    <embers:brick_caminite:*> * 2,
+    <embers:pump:*>
+], [
+    <embers:mechanical_pump>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:mech_accessor>);
+Assembler.add("mech_accessor", 2, [
+    <embers:stairs_caminite_brick:*>,
+    <thaumcraft:plate:1>,
+    <thebetweenlands:items_misc:11>
+], [
+    <embers:mech_accessor>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:mixer>);
+Assembler.add("mixer", 2, [
+    <thaumcraft:plate:1> * 5,
+    <thebetweenlands:items_misc:11> * 2,
+    <embers:mech_core:*>
+], [
+    <embers:mixer>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:reactor>);
+Assembler.add("reactor", 2, [
+    <thebetweenlands:items_misc:11> * 4,
+    <embers:wildfire_core:*>,
+    <embers:plate_silver> * 2,
+    <embers:block_caminite_brick:*>
+], [
+    <embers:reactor>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:stamper>);
+Assembler.add("stamper", 2, [
+    <embers:brick_caminite:*> * 6,
+    <thebetweenlands:items_misc:11>,
+    <thebetweenlands:syrmorite_block>
+], [
+    <embers:stamper>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:stamper_base>);
+Assembler.add("stamper_base", 2, [
+    <thebetweenlands:items_misc:11> * 2,
+    <embers:block_caminite_brick:*> * 2,
+    <thebetweenlands:bl_bucket:1>.noReturn() | <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}).noReturn()
+], [
+    <embers:stamper_base>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:stirling>);
+Assembler.add("stirling", 2, [
+    <embers:plate_dawnstone> * 4,
+    <thebetweenlands:octine_block> * 2,
+    <embers:shard_ember:*> * 2,
+    <embers:wildfire_core:*>
+], [
+    <embers:stirling>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:mech_actuator>);
+Assembler.add("mech_actuator", 2, [
+    <mysticalmechanics:axle_iron:*> * 3,
+    <mystgears:gear_syrmorite>,
+    <embers:mech_accessor:*>
+], [
+    <embers:mech_actuator>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:mech_actuator_single>);
+Assembler.add("mech_actuator_single", 2, [
+    <embers:mech_accessor:*>,
+    <mystgears:gear_syrmorite>,
+    <mysticalmechanics:axle_iron:*>
+], [
+    <embers:mech_actuator_single>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:charger>);
+Assembler.add("charger", 2, [
+    <thaumcraft:plate:1>,
+    <embers:ingot_dawnstone> * 2,
+    <thebetweenlands:items_misc:11> * 2,
+    <embers:plate_gold>
+], [
+    <embers:charger>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:field_chart>);
+Assembler.add("field_chart", 2, [
+    <embers:archaic_brick:*> * 8,
+    <embers:ember_cluster:*>
+], [
+    <embers:field_chart>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:ember_injector>);
+Assembler.add("ember_injector", 2, [
+    <embers:ingot_silver> * 3,
+    <embers:plate_dawnstone> * 2,
+    <embers:wildfire_core:*>,
+    <embers:block_caminite_brick:*> * 2
+], [
+    <embers:ember_injector>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:stone_edge>);
+Assembler.add("stone_edge", 2, [
+    <embers:wall_caminite_brick> * 4,
+    <embers:brick_caminite:*> * 2
+], [
+    <embers:stone_edge>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<embers:stone_valve>);
+Assembler.add("stone_valve", 2, [
+    <embers:wall_caminite_brick> * 6,
+    <embers:mech_accessor:*> * 2
+], [
+    <embers:stone_valve>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
 
 
 <rustichromia:windmill>.displayName = "Small Windmill";

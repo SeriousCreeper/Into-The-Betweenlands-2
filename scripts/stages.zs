@@ -69,6 +69,7 @@ val embersItemsNotToStage = [
 	<embers:dust_ash>,
 	<soot:sulfur_ore>,
 	<soot:sulfur_clump>,
+	<soot:sulfur>
 ] as IItemStack[];
 
 val thaumcraftItemsNotToStage = [
@@ -135,8 +136,8 @@ stageMods("immersiveengineering", stageTechnology, ieItemsNotToStage);
 stageMods("wormhole", stageSludgeon, wormholeItemsNotToStage);
 
 ItemStages.addItemStage(stageSludgeon, <pyrotech:wither_forge>);
-ItemStages.addItemStage(stageSludgeon, <jaopca:thaumcraft_cluster.octine>);
-ItemStages.addItemStage(stageSludgeon, <jaopca:thaumcraft_cluster.syrmorite>);
+ItemStages.addItemStage(stageSpiritTree, <jaopca:thaumcraft_cluster.octine>);
+ItemStages.addItemStage(stageSpiritTree, <jaopca:thaumcraft_cluster.syrmorite>);
 
 Recipes.setRecipeStage(stageSludgeon, <pyrotech:wither_forge>);
 Recipes.setRecipeStage("botania", <botania:lexicon>.withTag({}));

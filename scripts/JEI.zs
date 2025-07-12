@@ -140,7 +140,6 @@ val itemsToRemove = [
 	<quark:dark_oak_trapdoor>,
 	<quark:color_slime>,
 	<quark:lit_lamp>,
-	<quark:backpack>,
 	<quark:hardened_clay_tiles:*>,
 	<quark:hardened_clay_tiles_stairs>,
 	<quark:hardened_clay_tiles_slab>,

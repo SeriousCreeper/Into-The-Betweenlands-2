@@ -1,6 +1,7 @@
 import moretweaker.betweenlands.Animator;
 import crafttweaker.player.IPlayer;
 import crafttweaker.events.IEventManager;
+import moretweaker.betweenlands.DruidAltar;
 
 val weedWoodLogs = <thebetweenlands:weedwood> | <thebetweenlands:log_weedwood:12> | <thebetweenlands:log_weedwood:0>;
 
@@ -155,6 +156,14 @@ scripts.utils.addShapeless("silk_bundle_2", <thebetweenlands:items_misc:63>,
 	[<thebetweenlands:items_misc:62>]
 );
 
+recipes.remove(<thebetweenlands:moth_house>);
+scripts.utils.addShaped("moth_house", <thebetweenlands:moth_house>, [
+	[<thebetweenlands:thatch>, <thebetweenlands:thatch>, <thebetweenlands:thatch>], 
+	[<thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:20>], 
+	[<thebetweenlands:weedwood_plank_slab>, <pyrotech:crate>, <thebetweenlands:weedwood_plank_slab>]
+]);
+
+
 
 scripts.utils.addShapeless("silk", <contenttweaker:silk>, [<thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <mysticalworld:spindle:*>.transformDamage(1)]);
 
@@ -165,6 +174,32 @@ scripts.utils.addShapeless("sticks_from_sapling", <thebetweenlands:items_misc:20
 scripts.utils.addShaped("clear_weedwood_barrel", <thebetweenlands:weedwood_barrel>, [[<thebetweenlands:weedwood_barrel>]]);
 
 scripts.utils.addShapeless("dragonfly_wings", <thebetweenlands:items_misc:3> * 2, [<roots:mystic_feather>]);
+
+
+// Druid Altar
+DruidAltar.addRecipe(<thaumcraft:salis_mundus>, [
+	<thebetweenlands:dentrothyst_shard_green>,
+	<ore:visCrystals>,
+	<ore:visCrystals>,
+	<ore:visCrystals>
+]);
+
+DruidAltar.addRecipe(<thaumcraft:sapling_greatwood>, [
+	<thaumcraft:salis_mundus>,
+	<thebetweenlands:dentrothyst_shard_green>,
+	<thebetweenlands:sapling_weedwood>,
+	<thebetweenlands:log_spirit_tree>
+]);
+
+DruidAltar.addRecipe(<thaumcraft:sapling_silverwood>, [
+	<thaumcraft:salis_mundus>,
+	<thebetweenlands:dentrothyst_shard_green>,
+	<thebetweenlands:sapling_sap>,
+	<thebetweenlands:log_spirit_tree>
+]);
+
+
+
 
 
 <thebetweenlands:sulfur_torch_extinguished>.displayName = "Unlit Sulfur Torch";

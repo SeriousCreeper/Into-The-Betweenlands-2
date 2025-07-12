@@ -108,7 +108,7 @@ scripts.utils.addShapeless("honey_comb_filled_1", <growthcraft_bees:honey_jar>, 
 recipes.remove(<growthcraft_milk:cheese_press>);
 scripts.utils.addShaped("cheese_press", <growthcraft_milk:cheese_press>, [
 	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>], 
-	[<thebetweenlands:items_misc:11>, <ore:chestWood>, <thebetweenlands:items_misc:11>], 
+	[<thebetweenlands:items_misc:11>, <pyrotech:crate>, <thebetweenlands:items_misc:11>], 
 	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
 ]);
 

@@ -262,8 +262,8 @@ ArcaneWorkbench.registerShapedRecipe("goggles", "UNLOCKARTIFICE@2", 50, [
 ], 
 <thaumcraft:goggles>, 
 [
-	[<roots:fey_leather>, <ore:ingotBrass>, <roots:fey_leather>], 
-	[<roots:fey_leather>, null, <roots:fey_leather>], 
+	[<ore:leather>, <ore:ingotBrass>, <ore:leather>], 
+	[<ore:leather>, null, <ore:leather>], 
 	[<thaumcraft:thaumometer>, <ore:ingotBrass>, <thaumcraft:thaumometer>]
 ]);
 
@@ -915,6 +915,17 @@ ArcaneWorkbench.registerShapedRecipe("sharing_tome", "FIRSTSTEPS@0", 50, [
 	[null, <thaumcraft:fabric>, null]
 ]);
 
+ArcaneWorkbench.removeRecipe(<thaumcraft:hungry_chest>);
+ArcaneWorkbench.registerShapedRecipe("hungry_chest", "HUNGRYCHEST@2", 15, [
+	<aspect:aqua> * 1,
+	<aspect:terra> * 1
+], 
+<thaumcraft:hungry_chest>, 
+[
+	[<thaumcraft:plank_greatwood>, <ore:trapdoorWood>, <thaumcraft:plank_greatwood>], [<thaumcraft:plank_greatwood>, <mcwfurnitures:iron_handle>, <thaumcraft:plank_greatwood>], 
+	[<thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>]
+]);
+
 
 ArcaneWorkbench.removeRecipe(<thaumcraft:banner_white>);
 ArcaneWorkbench.removeRecipe(<thaumcraft:banner_orange>);
@@ -1416,6 +1427,8 @@ SmeltingBonus.addSmeltingBonus(<ore:oreSilver>, <embers:nugget_silver> % 5);
 
 SmeltingBonus.addSmeltingBonus(<ore:clusterLead>, <embers:nugget_lead> % 10);
 SmeltingBonus.addSmeltingBonus(<ore:clusterSilver>, <embers:nugget_silver> % 10);
+
+SmeltingBonus.addSmeltingBonus(<pyrotech:material:4>, <embers:blend_caminite> % 5);
 
 
 

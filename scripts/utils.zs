@@ -2,6 +2,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.thaumcraft.ArcaneWorkbench;
+import mods.pyrotech.Stages;
+import mods.pyrotech.Worktable;
 
 
 function addBLChangeTooltip(stack as IItemStack, tooltip as string) {
@@ -20,7 +22,6 @@ function addShapeless(name as string, output as IItemStack, input as IIngredient
 	//ArcaneWorkbench.registerShapelessRecipe(name, "", 0, [], output, input);
 }
 
-
 function addShaped(name as string, output as IItemStack, input as IIngredient[][]) {
 	recipes.addShaped(name, output, input);
 
@@ -31,4 +32,44 @@ function addShapedMirrored(name as string, output as IItemStack, input as IIngre
 	recipes.addShapedMirrored(name, output, input);
 
 	//ArcaneWorkbench.registerShapedRecipe(name, "", 0, [], output, input);
+}
+
+function addShapedWT(name as string, stage as string, output as IItemStack, input as IIngredient[][]) {
+	recipes.addShaped(name, output, input);
+
+	Worktable.blacklistVanillaRecipes(["crafttweaker:" ~ name]);
+
+	Worktable.buildShaped(output, input)
+		.setName(name)
+		.setRecipeGameStages(Stages.and([stage]))
+		.register();
+
+	//ArcaneWorkbench.registerShapedRecipe(name, "", 0, [], output, input);
+}
+
+function addShapedMirroredWT(name as string, stage as string, output as IItemStack, input as IIngredient[][]) {
+	recipes.addShapedMirrored(name, output, input);
+
+	Worktable.blacklistVanillaRecipes(["crafttweaker:" ~ name]);
+
+	Worktable.buildShaped(output, input)
+		.setName(name)
+		.setRecipeGameStages(Stages.and([stage]))
+		.setMirrored(true)
+		.register();
+
+	//ArcaneWorkbench.registerShapedRecipe(name, "", 0, [], output, input);
+}
+
+function addShapelessWT(name as string, stage as string, output as IItemStack, input as IIngredient[]) {
+	recipes.addShapeless(name, output, input);
+
+	Worktable.blacklistVanillaRecipes(["crafttweaker:" ~ name]);
+
+	Worktable.buildShapeless(output, input)
+		.setName(name)
+		.setRecipeGameStages(Stages.and([stage]))
+		.register();
+
+	//ArcaneWorkbench.registerShapelessRecipe(name, "", 0, [], output, input);
 }

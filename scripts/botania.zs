@@ -673,3 +673,4 @@ Agglomeration.addRecipe(
 <botania:specialflower>.withTag({type: "clayconiaChibi"}).displayName = "Mudconia Petite";
 <botania:floatingspecialflower>.withTag({type: "clayconia"}).displayName = "Floating Mudconia";
 <botania:floatingspecialflower>.withTag({type: "clayconiaChibi"}).displayName = "Floating Mudconia Petite";
+<botania:manaresource:6>.displayName = "Bluedust Root";

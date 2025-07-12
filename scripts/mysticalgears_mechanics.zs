@@ -15,14 +15,14 @@ JEI.removeAndHide(<mysticalmechanics:gear_gold>);
 recipes.remove(<mystgears:gear_octine>);
 recipes.remove(<mystgears:gear_valonite>);
 recipes.remove(<mystgears:gear_tin>);
-recipes.remove(<mystgears:gear_silver>);
+//recipes.remove(<mystgears:gear_silver>);
 recipes.remove(<mystgears:gear_antimony>);
 recipes.remove(<mystgears:gear_manasteel>);
 recipes.remove(<mystgears:gear_elvenelementium>);
 recipes.remove(<mystgears:gear_thaumium>);
 recipes.remove(<mystgears:gear_void>);
-recipes.remove(<mystgears:gear_lead>);
-recipes.remove(<mystgears:gear_syrmorite>);
+//recipes.remove(<mystgears:gear_lead>);
+//recipes.remove(<mystgears:gear_syrmorite>);
 
 recipes.remove(<mystgears:mechanical_dial>);
 scripts.utils.addShaped("mechanical_dial", <mystgears:mechanical_dial>, [
@@ -140,8 +140,6 @@ scripts.utils.addShaped("mergebox_frame", <mysticalmechanics:mergebox_frame>, [
 
 
 <mysticalmechanics:axle_iron>.displayName = "Syrmorite Axle";
-//<mysticalmechanics:gear_gold_on>.displayName = "Bluedust Gear (Inverted)";
-//<mysticalmechanics:gear_gold_off>.displayName = "Bluedust Gear";
 <mysticalmechanics:gear_fan>.displayName = "Syrmorite Fan";
 <mystgears:gear_lead:*>.displayName = "Gloomsilver Gear";
 <mystgears:gear_copper:*>.displayName = "Russite Gear";
@@ -149,3 +147,5 @@ scripts.utils.addShaped("mergebox_frame", <mysticalmechanics:mergebox_frame>, [
 <mystgears:gear_tin:*>.displayName = "";
 <mystgears:gear_nickel:*>.displayName = "Nyxite Gear";
 <mystgears:gear_silver:*>.displayName = "Mirrium Gear";
+<mysticalmechanics:gear_gold_on>.displayName = "Bluedust Gear (Inverted)";
+<mysticalmechanics:gear_gold_off>.displayName = "Bluedust Gear";

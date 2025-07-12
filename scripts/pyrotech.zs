@@ -528,7 +528,7 @@ CompactingBin.addRecipe("redstone_block", <betweenlandsredstone:scabyst_block>, 
 
 recipes.remove(<thebetweenlands:sulfur_block>);
 CompactingBin.addRecipe("sulfur_block", <thebetweenlands:sulfur_block>, <thebetweenlands:items_misc:18>, 9, true);
-CompactingBin.addRecipe("sulfur", <thebetweenlands:items_misc:18>, <soot:sulfur>, 9, true);
+CompactingBin.addRecipe("sulfur", <thebetweenlands:items_misc:18>, <soot:sulfur>, 8, true);
 
 CompactingBin.addRecipe("pile_ash", <pyrotech:pile_ash>, <embers:dust_ash>, 8, true);
 CompactingBin.addRecipe("snow_block", <minecraft:snow>, <minecraft:snowball>, 8, true);
@@ -570,6 +570,7 @@ GraniteAnvil.addRecipe("pebbles", <thebetweenlands:items_misc:50> * 2, <thebetwe
 GraniteAnvil.addRecipe("blueduest", <betweenlandsredstone:scabyst_dust> * 9, <betweenlandsredstone:scabyst_block>, 8, "hammer", true);
 GraniteAnvil.addRecipe("ash_from_food", <embers:dust_ash> * 2, <pyrotech:burned_food>, 2, "hammer", true);
 GraniteAnvil.addRecipe("sulfur_from_sulfur_liver", <thebetweenlands:items_misc:18> * 8, <soot:sulfur_clump>, 4, "hammer", true);
+GraniteAnvil.addRecipe("sulfur_chunks_from_sulfur", <soot:sulfur> * 8, <thebetweenlands:items_misc:18>, 4, "hammer", true);
 
 IroncladAnvil.addRecipe("radiant_dust", <arcanearchives:radiant_dust>, <arcanearchives:raw_quartz>, 8, "hammer");
 
@@ -669,7 +670,7 @@ function planksRecipe(name as string, itemOut as IItemStack, itemIn as IIngredie
 	//scripts.utils.addShapeless(name, itemOut * 2, [itemIn]);
 	Chopping.addRecipe(name, itemOut * 2, itemIn);
 	stoneSawmillRecipeBuilder(name, itemOut, itemIn, countBone, countOctine, countDiamond);
-	//Assembler.add(name, 1, [itemIn], [itemOut * 2, <pyrotech:rock:7>], 1, 7, 200);
+	Assembler.add(name, 1, [itemIn], [itemOut * 2, <pyrotech:rock:7>], 1, 7, 200);
 }
 
 

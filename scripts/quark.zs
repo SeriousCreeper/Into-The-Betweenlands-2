@@ -17,11 +17,11 @@ scripts.utils.addShaped("paper_lantern", <quark:paper_lantern>, [
 scripts.utils.addShaped("paper_lantern_candle", <quark:paper_lantern>, [[<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>], [<thebetweenlands:items_misc:32>, <ore:candles>, <thebetweenlands:items_misc:32>], [<thebetweenlands:items_misc:32>, <ore:stickWood>, <thebetweenlands:items_misc:32>]]);
 
 
-//scripts.utils.addShaped("backpack", <quark:backpack>, [
-//	[<ore:leather>, <betweenlandsredstone:scabyst_tripwire_hook>, <ore:leather>],
-//	[<ore:leather>, <ore:chest>, <ore:leather>],
-//	[<ore:leather>, <ore:leather>, <ore:leather>]
-//]);
+scripts.utils.addShaped("backpack", <quark:backpack>, [
+	[<ore:leather>, <betweenlandsredstone:scabyst_tripwire_hook>, <ore:leather>],
+	[<ore:leather>, <pyrotech:crate>, <ore:leather>],
+	[<ore:leather>, <ore:leather>, <ore:leather>]
+]);
 
 
 val quarkChestPlank = [

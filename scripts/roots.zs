@@ -23,6 +23,7 @@ import mods.roots.Herbs;
 import mods.roots.Modifiers;
 import mods.roots.SummonCreatures;
 import mods.roots.Chrysopoeia;
+import mods.pyrotech.Worktable;
 
 
 
@@ -88,24 +89,22 @@ for item in itemsToRemove {
 	item.removeAspects(allAspects);
 }
 
-
-
 recipes.remove(<roots:grove_stone>);
-scripts.utils.addShaped("roots_grove_stone", <roots:grove_stone>, [
+scripts.utils.addShapedWT("roots_grove_stone", "knowledge_of_druids", <roots:grove_stone>, [
 	[null, <thebetweenlands:cragrock>, null], 
 	[<roots:wildroot>, <thebetweenlands:cragrock>, <roots:terra_moss>], 
 	[<thebetweenlands:cragrock_slab>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock_slab>]
 ]);
 
 recipes.remove(<roots:wood_knife>);
-scripts.utils.addShaped("roots_wood_knife", <roots:wood_knife>, [
+scripts.utils.addShapedWT("roots_wood_knife", "knowledge_of_druids", <roots:wood_knife>, [
 	[null, null, <thebetweenlands:weedwood_planks>], 
 	[null, <thebetweenlands:weedwood_planks>, null], 
 	[<ore:stickWood>, null, null]
 ]);
 
 recipes.remove(<roots:stone_knife>);
-scripts.utils.addShaped("roots_stone_knife", <roots:stone_knife>, [
+scripts.utils.addShapedWT("roots_stone_knife", "knowledge_of_druids", <roots:stone_knife>, [
 	[null, null, <thebetweenlands:items_misc:14>], 
 	[null, <thebetweenlands:items_misc:14>, null], 
 	[<ore:stickWood>, null, null]
@@ -114,26 +113,26 @@ scripts.utils.addShaped("roots_stone_knife", <roots:stone_knife>, [
 recipes.remove(<roots:iron_knife>);
 
 recipes.remove(<roots:mortar>);
-scripts.utils.addShaped("roots_mortar", <roots:mortar>, [
+scripts.utils.addShapedWT("roots_mortar", "knowledge_of_druids", <roots:mortar>, [
 	[<thebetweenlands:cragrock>, null, <thebetweenlands:cragrock>], 
 	[<thebetweenlands:cragrock>, <thebetweenlands:items_misc:18>, <thebetweenlands:cragrock>], 
 	[null, <thebetweenlands:cragrock>, null]
 ]);
 
 recipes.remove(<roots:pestle>);
-scripts.utils.addShapedMirrored("roots_pestle", <roots:pestle>, [
+scripts.utils.addShapedWT("roots_pestle", "knowledge_of_druids", <roots:pestle>, [
 	[<ore:stickWood>], 
 	[<thebetweenlands:cragrock>]
 ]);
 
 recipes.remove(<roots:herb_pouch>);
-scripts.utils.addShaped("herb_pouch", <roots:herb_pouch>.withTag({"color": 0}), [
+scripts.utils.addShapedWT("herb_pouch", "knowledge_of_druids", <roots:herb_pouch>.withTag({"color": 0}), [
 	[null, <thebetweenlands:shelf_fungus>, null], 
 	[<thebetweenlands:shelf_fungus>, null, <thebetweenlands:shelf_fungus>], 
 	[<thebetweenlands:shelf_fungus>, <thebetweenlands:shelf_fungus>, <thebetweenlands:shelf_fungus>]
 ]);
 
-scripts.utils.addShapeless("terra_spores", <roots:terra_spores>, [<roots:terra_moss>]);
+scripts.utils.addShapelessWT("terra_spores", "knowledge_of_druids", <roots:terra_spores>, [<roots:terra_moss>]);
 
 
 
@@ -448,11 +447,13 @@ Fey.addRecipe("sporeling_spores", <thebetweenlands:spores>,
 Fey.addRecipe("caminite_blend", <embers:blend_caminite> * 4, 
 	[<roots:runic_dust>, <pyrotech:material:4>, <pyrotech:material:4>, <pyrotech:material:4>, <pyrotech:material:4>]);
 
+/*
 Fey.addRecipe("caminite_brick", <embers:brick_caminite> * 2, 
 	[<roots:runic_dust>, <roots:runic_dust>, <roots:runic_dust>, <pyrotech:material:5>, <pyrotech:material:5>]);
 
 Fey.addRecipe("caminite_bricks", <embers:block_caminite_brick>, 
 	[<roots:runic_dust>, <roots:runic_dust>, <roots:runic_dust>, <roots:runic_dust>, <pyrotech:refractory_brick_block>]);
+*/
 
 Fey.addRecipe("inert_cragrock_tower", <bladditions:corrupted_bone_wayfinder>.withTag({dimension: 21}), 
 	[<contenttweaker:inert_boneway_finder>, <thebetweenlands:glowing_smooth_cragrock>, <thebetweenlands:wisp>, <thebetweenlands:octine_block>, <thebetweenlands:dentrothyst:1>]);

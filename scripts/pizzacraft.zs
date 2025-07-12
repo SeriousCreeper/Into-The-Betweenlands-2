@@ -82,7 +82,7 @@ scripts.utils.addShapeless("red_cloth", <pizzacraft:red_cloth>, [<pizzacraft:whi
 recipes.remove(<pizzacraft:pizza_bag>);
 scripts.utils.addShaped("pizza_bag", <pizzacraft:pizza_bag>, [
 	[<thebetweenlands:items_misc:11>, <pizzacraft:red_cloth>, <thebetweenlands:items_misc:11>], 
-	[<pizzacraft:red_cloth>, <ore:chestWood>, <pizzacraft:red_cloth>], 
+	[<pizzacraft:red_cloth>, <pyrotech:crate>, <pizzacraft:red_cloth>], 
 	[<pizzacraft:red_cloth>, <pizzacraft:red_cloth>, <pizzacraft:red_cloth>]
 ]);
 
