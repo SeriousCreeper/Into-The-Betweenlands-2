@@ -547,7 +547,11 @@ BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAsp
 <immersiveengineering:mold:2>.displayName = "Rod Stamp";
 <immersiveengineering:mold:4>.displayName = "Wire Stamp";
 <immersiveengineering:wooden_device1:1>.displayName = "Large Windmill";
-
+<immersiveengineering:wirecoil:5>.displayName = "Bluedust Wire Coil";
+<immersiveengineering:connector:13>.displayName = "Bluedust Probe Connector";
+<immersiveengineering:connector:12>.displayName = "Bluedust Wire Connector";
+<immersiveengineering:connector:10>.displayName = "Bluedust Breaker";
+<immersiveengineering:metal_decoration0:3>.displayName = "Bluedust Engineering Block";
 
 //val platesToReplace = {
 //	<immersiveengineering:metal:30> : <immersiveengineering:metal:0>, 
