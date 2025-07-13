@@ -104,7 +104,6 @@ scripts.utils.addShapeless("honey_comb_filled_3_2", <bladditions:dentrothyst_flu
 recipes.remove(<growthcraft_bees:honey_jar>);
 scripts.utils.addShapeless("honey_comb_filled_1", <growthcraft_bees:honey_jar>, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <thebetweenlands:mud_flower_pot>]);
 
-
 recipes.remove(<growthcraft_milk:cheese_press>);
 scripts.utils.addShaped("cheese_press", <growthcraft_milk:cheese_press>, [
 	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>], 
@@ -126,6 +125,9 @@ scripts.utils.addShaped("beebox", <growthcraft_bees:beebox>, [
 	[<pyrotech:material:23>, null, <pyrotech:material:23>], 
 	[<pyrotech:material:23>, <pyrotech:material:23>, <pyrotech:material:23>]
 ]);
+
+recipes.remove(<growthcraft_milk:cheese_simple_slice>);
+scripts.utils.addShapeless("ricotta_bowl", <growthcraft_milk:cheese_simple_slice> * 4, [<growthcraft_milk:curds_simple:24>.withTag({te_curd_block: {cheese_name: "ricotta", cheese_modid: "growthcraft_milk"}}), <thebetweenlands:items_misc:22>, <thebetweenlands:items_misc:22>, <thebetweenlands:items_misc:22>, <thebetweenlands:items_misc:22>]);
 
 
 
