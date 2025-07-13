@@ -877,6 +877,8 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:plateBoard>.add(<pyrotech:material:20>);
 <ore:plateTarredBoard>.add(<pyrotech:material:23>);
 
+<ore:bowls>.add(<minecraft:bowl>);
+<ore:bowls>.add(<thebetweenlands:items_misc:22>);
 
 
 
