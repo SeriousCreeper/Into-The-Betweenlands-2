@@ -432,36 +432,36 @@ Alchemy.add(<embers:ashen_cloth> * 2, [<thebetweenlands:shelf_fungus>, <embers:d
 
 Alchemy.remove(<embers:seed_gold>);
 
-Alchemy.add(<embers:seed_syrmorite>, [<thebetweenlands:dentrothyst_shard_orange>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <embers:shard_ember>, <embers:shard_ember>], 
-	{
-		"iron" : 96 to 128
-	}
-);
+//Alchemy.add(<embers:seed_syrmorite>, [<thebetweenlands:dentrothyst_shard_orange>, <ore:ingotSyrmorite>, <ore:ingotSyrmorite>, <embers:shard_ember>, <embers:shard_ember>], 
+//	{
+//		"iron" : 96 to 128
+//	}
+//);
 
-Alchemy.add(<embers:seed_octine>, [<thebetweenlands:dentrothyst_shard_orange>, <ore:ingotOctine>, <ore:ingotOctine>, <embers:shard_ember>, <embers:shard_ember>], 
-	{
-		"iron" : 48 to 64,
-		"dawnstone" : 48 to 64
-	}
-);
+//Alchemy.add(<embers:seed_octine>, [<thebetweenlands:dentrothyst_shard_orange>, <ore:ingotOctine>, <ore:ingotOctine>, <embers:shard_ember>, <embers:shard_ember>], 
+//	{
+//		"iron" : 48 to 64,
+//		"dawnstone" : 48 to 64
+//	}
+//);
 
 Alchemy.remove(<embers:seed_iron>);
 
 Alchemy.remove(<embers:seed_silver>);
-Alchemy.add(<embers:seed_silver>, [<thebetweenlands:dentrothyst_shard_orange>, <embers:ingot_silver>, <embers:ingot_silver>, <embers:shard_ember>, <embers:shard_ember>], 
-	{
-		"iron" : 48 to 64,
-		"silver" : 48 to 64
-	}
-);
+//Alchemy.add(<embers:seed_silver>, [<thebetweenlands:dentrothyst_shard_orange>, <embers:ingot_silver>, <embers:ingot_silver>, <embers:shard_ember>, <embers:shard_ember>], 
+//	{
+//		"iron" : 48 to 64,
+//		"silver" : 48 to 64
+//	}
+//);
 
 Alchemy.remove(<embers:seed_lead>);
-Alchemy.add(<embers:seed_lead>, [<thebetweenlands:dentrothyst_shard_orange>, <embers:ingot_lead>, <embers:ingot_lead>, <embers:shard_ember>, <embers:shard_ember>], 
-	{
-		"iron" : 48 to 64,
-		"lead" : 48 to 64
-	}
-);
+//Alchemy.add(<embers:seed_lead>, [<thebetweenlands:dentrothyst_shard_orange>, <embers:ingot_lead>, <embers:ingot_lead>, <embers:shard_ember>, <embers:shard_ember>], 
+//	{
+//		"iron" : 48 to 64,
+//		"lead" : 48 to 64
+//	}
+//);
 
 Alchemy.remove(<embers:seed_aluminum>);
 Alchemy.remove(<embers:seed_nickel>);	
