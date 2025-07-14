@@ -597,12 +597,12 @@
         "meta": 32767
       },
       "input_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Purple Port Wine",
+        "comment": "White Pear Port Wine",
         "name": "fluid_booze_purple_portwine",
         "amount": 40
       },
@@ -686,12 +686,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -703,12 +703,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Purple Grape Wine Potent",
+        "comment": "White Pear Wine Potent",
         "name": "fluid_booze_purple_wine_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -720,12 +720,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Purple Grape Wine Extended",
+        "comment": "White Pear Wine Extended",
         "name": "fluid_booze_purple_wine_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -737,12 +737,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Purple Ambrosia",
+        "comment": "White Pear Ambrosia",
         "name": "fluid_booze_purple_ambrosia",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -754,12 +754,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Purple Port Wine",
+        "comment": "White Pear Port Wine",
         "name": "fluid_booze_purple_portwine",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -771,12 +771,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -788,12 +788,12 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 40
       },
@@ -1038,6 +1038,38 @@
       "residue": null,
       "requiresLid": null,
       "time": 20
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "yeastBayanus",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "comment": "Wine",
+        "name": "wine",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "White Pear Port Wine",
+        "name": "fluid_booze_purple_portwine",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.3,
+        "ore": null,
+        "comment": "White Dye Powder",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "requiresLid": false,
+      "time": 120
     },
     {
       "comment": "",

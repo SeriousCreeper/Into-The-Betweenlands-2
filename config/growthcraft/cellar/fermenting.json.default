@@ -1710,6 +1710,33 @@
       "comment": "",
       "item": {
         "ore": null,
+        "comment": "Nether Wart",
+        "mod_id": "minecraft",
+        "name": "nether_wart",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "milk"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 200
+      },
+      "output_fluid": {
+        "comment": "Kumis Fermented",
+        "name": "fluid_booze_kumis_kumis_fermented",
+        "amount": 200
+      },
+      "time": 15840
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": null,
         "comment": "Glowstone Dust",
         "mod_id": "minecraft",
         "name": "glowstone_dust",
@@ -2460,6 +2487,141 @@
       "input_fluid": {
         "name": null,
         "names": [
+          "applejuice"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_fermented",
+        "amount": 1
+      },
+      "time": 144000
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": null,
+        "comment": "Nether Wart",
+        "mod_id": "minecraft",
+        "name": "nether_wart",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "applejuice"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_fermented",
+        "amount": 1
+      },
+      "time": 95040
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "dustGlowstone",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "cider"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_potent",
+        "amount": 1
+      },
+      "time": 144000
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "dustRedstone",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "cider"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_extended",
+        "amount": 1
+      },
+      "time": 144000
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "yeastPoison",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "cider"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_poisoned",
+        "amount": 1
+      },
+      "time": 144000
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "yeastBrewers",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
           "fluid_booze_purple_juice"
         ],
         "inclusion_tags": [],
@@ -2468,7 +2630,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine",
         "amount": 1
       },
@@ -2495,7 +2657,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine",
         "amount": 1
       },
@@ -2630,7 +2792,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine Potent",
+        "comment": "White Pear Wine Potent",
         "name": "fluid_booze_purple_wine_potent",
         "amount": 1
       },
@@ -2657,7 +2819,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine Potent",
+        "comment": "White Pear Wine Potent",
         "name": "fluid_booze_purple_wine_potent",
         "amount": 1
       },
@@ -2792,7 +2954,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine Extended",
+        "comment": "White Pear Wine Extended",
         "name": "fluid_booze_purple_wine_extended",
         "amount": 1
       },
@@ -2819,7 +2981,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine Extended",
+        "comment": "White Pear Wine Extended",
         "name": "fluid_booze_purple_wine_extended",
         "amount": 1
       },
@@ -2954,7 +3116,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Ambrosia",
+        "comment": "White Pear Ambrosia",
         "name": "fluid_booze_purple_ambrosia",
         "amount": 1
       },
@@ -2981,7 +3143,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Ambrosia",
+        "comment": "White Pear Ambrosia",
         "name": "fluid_booze_purple_ambrosia",
         "amount": 1
       },
@@ -3116,7 +3278,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_intoxicated",
         "amount": 1
       },
@@ -3143,7 +3305,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_intoxicated",
         "amount": 1
       },
@@ -3278,7 +3440,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3298,7 +3460,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3325,7 +3487,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3345,7 +3507,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3372,7 +3534,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3392,7 +3554,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3419,7 +3581,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3439,7 +3601,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3466,7 +3628,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3486,7 +3648,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3513,7 +3675,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3533,7 +3695,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -3553,7 +3715,7 @@
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Purple Grape Wine",
+        "comment": "White Pear Wine",
         "name": "fluid_booze_purple_wine_poisoned",
         "amount": 1
       },
@@ -4162,6 +4324,141 @@
         "amount": 1
       },
       "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "yeastBrewers",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "grapejuice"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "White Pear Wine",
+        "name": "fluid_booze_purple_wine",
+        "amount": 1
+      },
+      "time": 144000
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": null,
+        "comment": "Nether Wart",
+        "mod_id": "minecraft",
+        "name": "nether_wart",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "grapejuice"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "White Pear Wine",
+        "name": "fluid_booze_purple_wine",
+        "amount": 1
+      },
+      "time": 95040
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "dustGlowstone",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "wine"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "White Pear Wine Potent",
+        "name": "fluid_booze_purple_wine_potent",
+        "amount": 1
+      },
+      "time": 144000
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "dustRedstone",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "wine"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "White Pear Wine Extended",
+        "name": "fluid_booze_purple_wine_extended",
+        "amount": 1
+      },
+      "time": 144000
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "yeastPoison",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "wine"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "White Pear Wine",
+        "name": "fluid_booze_purple_wine_poisoned",
+        "amount": 1
+      },
+      "time": 144000
     },
     {
       "comment": "",
