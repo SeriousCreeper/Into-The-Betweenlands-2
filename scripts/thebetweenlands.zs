@@ -73,12 +73,14 @@ scripts.utils.addShaped("unlit_sulfur_torchers", <thebetweenlands:sulfur_torch_e
 	[<ore:stickWood>]
 ]);
 
+recipes.remove(<thebetweenlands:bl_bucket>);
 recipes.addShaped("bucket_weedwood", <thebetweenlands:bl_bucket>.withTag({Fluid: {}}), [
 	[null, <thebetweenlands:items_misc:7>, null],
 	[<thebetweenlands:weedwood_planks>, null, <thebetweenlands:weedwood_planks>],
 	[null, <thebetweenlands:weedwood_planks>, null]
 ]);
 
+recipes.remove(<thebetweenlands:bl_bucket:1>);
 recipes.addShaped("bucket_syrmorite", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), [
 	[null, <thebetweenlands:items_misc:7>, null],
 	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>],
