@@ -83,13 +83,6 @@ scripts.utils.addShaped("axle_wood", <rustichromia:axle_wood>, [
     [<ore:plankWood>]
 ]);
 
-recipes.remove(<rustichromia:windmill_big>);
-scripts.utils.addShaped("windmill_big", <rustichromia:windmill_big>, [
-    [null, <rustichromia:windmill_blade>, null], 
-    [<rustichromia:windmill_blade>, <mystgears:gear_syrmorite>, <rustichromia:windmill_blade>], 
-    [null, <rustichromia:windmill_blade>, null]
-]);
-
 recipes.remove(<rustichromia:assembler1>);
 scripts.utils.addShaped("assembler1", <rustichromia:assembler1>, [
     [<thebetweenlands:weedwood_planks>, <mystgears:gear_wood>, <thebetweenlands:weedwood_planks>], 
@@ -426,6 +419,15 @@ Assembler.add("shelf", 1, [
 
 
 // Tier 2
+
+recipes.remove(<rustichromia:windmill_big>);
+Assembler.add("windmill_big", 2, [
+    <rustichromia:windmill_blade> * 4,
+    <mystgears:gear_syrmorite>
+], [
+    <rustichromia:windmill_big>
+], defaultLower, defaultUpper, defaultAssemblerTime);
+
 Assembler.add("assembler2", 2, [
     <mystgears:gear_lead> * 2,
     <embers:plate_lead> * 2
