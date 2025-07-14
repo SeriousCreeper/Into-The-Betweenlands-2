@@ -44,6 +44,10 @@ val itemsToKeep = [
 	<growthcraft_milk:curds_waxed:*>,
 	<growthcraft_milk:curds_simple:*>,
 	<growthcraft_milk:starter_culture>,
+	<growthcraft_milk:yogurt>,
+	<growthcraft_milk:yogurt:1>,
+	<growthcraft_milk:yogurt:3>,
+	<growthcraft_milk:yogurt:4>,
 ] as IItemStack[];
 
 for mod in subModNames {
@@ -74,6 +78,13 @@ recipes.remove(<forge:bucketfilled>.withTag({FluidName: "fluid_honey", Amount: 1
 
 //recipes.removeByRecipeName("growthcraft_bees:beewax_normal");
 
+recipes.remove(<growthcraft_milk:yogurt>);
+recipes.remove(<growthcraft_milk:yogurt:1>);
+recipes.remove(<growthcraft_milk:yogurt:3>);
+recipes.remove(<growthcraft_milk:yogurt:4>);
+scripts.utils.addShapeless("mud_yogurt", <growthcraft_milk:yogurt:1>, [<growthcraft_milk:yogurt>, <thebetweenlands:sludge_ball>]);
+scripts.utils.addShapeless("white_pear_yogurt", <growthcraft_milk:yogurt:3>, [<growthcraft_milk:yogurt>, <thebetweenlands:middle_fruit>]);
+scripts.utils.addShapeless("honey_yogurt", <growthcraft_milk:yogurt:4>, [<growthcraft_milk:yogurt>, <growthcraft_bees:honey_jar>.giveBack(<thebetweenlands:mud_flower_pot>)]);
 
 
 recipes.remove(<growthcraft_milk:pancheon>);

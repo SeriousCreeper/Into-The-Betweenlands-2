@@ -558,7 +558,7 @@ SoakingPot.addRecipe("mossy_limestone_bricks", <thebetweenlands:mossy_limestone_
 SoakingPot.addRecipe("mossy_smooth_betweenstone", <thebetweenlands:mossy_smooth_betweenstone>, <liquid:swamp_water> * 250, <thebetweenlands:smooth_betweenstone>, 7 * 60 * 20);
 //SoakingPot.addRecipe("mortar", <contenttweaker:mortar> * 16, <liquid:lime_water> * 100, <thebetweenlands:silt>, 7 * 60 * 20);
 SoakingPot.addRecipe("treated_planks", <immersiveengineering:treated_wood>, <liquid:creosote> * 125, <pyrotech:planks_tarred>, 3 * 60 * 20);
-
+SoakingPot.addRecipe("yogurt", <growthcraft_milk:yogurt>, <liquid:liquid_milk> * 250, <growthcraft_milk:starter_culture>, 3 * 60 * 20);
 
 
 // ANVIL
