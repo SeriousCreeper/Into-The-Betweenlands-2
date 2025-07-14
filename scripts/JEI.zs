@@ -359,7 +359,7 @@ val itemsToRemove = [
 	<futuremc:oak_wood>,
 	<futuremc:spruce_wood>,
 	<futuremc:dark_oak_wood>,
-	<roots:wildwood_log>,
+	<futuremc:barrel>
 
 	<arcanearchives:radiant_crafting_table>
 
