@@ -11,7 +11,6 @@ val itemsToKeep = [
     <rustichromia:mech_torch_toggle>,
     <rustichromia:axle_wood>,
     <rustichromia:ratiobox>,
-    //<rustichromia:crank>,
     <rustichromia:disk_stone>,
     <rustichromia:disk_sandstone>,
     <rustichromia:disk_red_sandstone>,
@@ -19,7 +18,8 @@ val itemsToKeep = [
     <rustichromia:assembler1>,
     <rustichromia:assembler2>,
     <rustichromia:assembler3>,
-    <rustichromia:windmill_blade>
+    <rustichromia:windmill_blade>,
+    <rustichromia:press>
 ] as IItemStack[];
 
 for item in moddedItems {
