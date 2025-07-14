@@ -976,6 +976,8 @@ furnace.remove(<teastory:pot_porcelain>);
 PitKiln.addRecipe("pot_porcelain", <teastory:pot_porcelain>, <teastory:pot_clay>, 60 * 20, 0.33, [
 ], true);
 
+PitKiln.addRecipe("syrmorite_ingot", <thebetweenlands:items_misc:11>, <thebetweenlands:syrmorite_ore>, 10 * 60 * 20, 0.33, [
+], false);
 
 
 
