@@ -145,3 +145,30 @@ scripts.utils.addShapeless("ricotta_bowl", <growthcraft_milk:cheese_simple_slice
 <growthcraft_bees:bee>.maxStackSize = 8;
 
 <growthcraft_bees:bee>.displayName = "Swambee";
+
+<growthcraft_milk:cheese_waxed_slice>.displayName = "Churnrot Cheese Slice";
+<growthcraft_milk:cheese_waxed:27>.withTag({te_cheese_block: {slices: 4, cheese_name: "cheddar", cheese_modid: "growthcraft_milk", cheese_stage_id: 3}}).displayName = "Churnrot Cheese (Unwaxed)";
+<growthcraft_milk:curds_waxed:24>.withTag({te_curd_block: {cheese_name: "cheddar", cheese_modid: "growthcraft_milk"}}).displayName = "Churnrot Curds";
+
+<growthcraft_milk:cheese_aged_slice:3>.displayName = "Sporemelt Cheese Slice";
+<growthcraft_milk:cheese_aged:120>.withTag({te_cheese_block: {slices: 4, cheese_name: "asiago", cheese_modid: "growthcraft_milk", cheese_stage_id: 0}}).displayName = "Sporemelt Cheese (Unaged)";
+<growthcraft_milk:curds_aged:120>.withTag({te_curd_block: {cheese_name: "asiago", cheese_modid: "growthcraft_milk"}}).displayName = "Sporemelt Curds";
+
+<growthcraft_milk:cheese_aged_slice:4>.displayName = "Graveflake Cheese Slice";
+<growthcraft_milk:cheese_aged:152>.withTag({te_cheese_block: {slices: 4, cheese_name: "parmesan", cheese_modid: "growthcraft_milk", cheese_stage_id: 0}}).displayName = "Graveflake Cheese (Unaged)";
+<growthcraft_milk:curds_aged:152>.withTag({te_curd_block: {cheese_name: "parmesan", cheese_modid: "growthcraft_milk"}}).displayName = "Graveflake Curds";
+
+<growthcraft_milk:cheese_waxed_slice:1>.displayName = "Fenbliss Cheese Slice";
+<growthcraft_milk:cheese_waxed:59>.withTag({te_cheese_block: {slices: 4, cheese_name: "monterey", cheese_modid: "growthcraft_milk", cheese_stage_id: 3}}).displayName = "Fenbliss Cheese (Unwaxed)";
+<growthcraft_milk:curds_waxed:56>.withTag({te_curd_block: {cheese_name: "monterey", cheese_modid: "growthcraft_milk"}}).displayName = "Fenbliss Curds";	
+
+<growthcraft_milk:cheese_waxed_slice:3>.displayName = "Tanglecurd Cheese Slice";
+<growthcraft_milk:cheese_waxed:123>.withTag({te_cheese_block: {slices: 4, cheese_name: "provolone", cheese_modid: "growthcraft_milk", cheese_stage_id: 3}}).displayName = "Tanglecurd Cheese (Unwaxed)";
+<growthcraft_milk:curds_waxed:120>.withTag({te_curd_block: {cheese_name: "provolone", cheese_modid: "growthcraft_milk"}}).displayName = "Tanglecurd Curds";
+
+<growthcraft_milk:cheese_waxed_slice:2>.displayName = "Glowcurd Cheese Slice";
+<growthcraft_milk:cheese_waxed:91>.withTag({te_cheese_block: {slices: 4, cheese_name: "gouda", cheese_modid: "growthcraft_milk", cheese_stage_id: 3}}).displayName = "Glowcurd Cheese (Unwaxed)";
+<growthcraft_milk:curds_waxed:88>.withTag({te_curd_block: {cheese_name: "gouda", cheese_modid: "growthcraft_milk"}}).displayName = "Glowcurd Curds";
+
+<growthcraft_milk:yogurt:1>.displayName = "Sludge Yogurt";
+<growthcraft_milk:yogurt:3>.displayName = "White Pear Yogurt";
