@@ -416,6 +416,13 @@ Assembler.add("shelf", 1, [
     <pyrotech:shelf>
 ], defaultLower, defaultUpper, defaultAssemblerTime);
 
+recipes.remove(<growthcraft_cellar:ferment_barrel>);
+Assembler.add("ferment_barrel", 1, [
+    <thebetweenlands:items_misc:11> * 2,
+    <thebetweenlands:weedwood_planks> * 6
+], [
+    <growthcraft_cellar:ferment_barrel>
+], defaultLower, defaultUpper, defaultAssemblerTime);
 
 
 // Tier 2
