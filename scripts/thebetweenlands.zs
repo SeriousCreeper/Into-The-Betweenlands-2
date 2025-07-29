@@ -167,15 +167,6 @@ scripts.utils.addShaped("moth_house", <thebetweenlands:moth_house>, [
 ]);
 
 
-recipes.remove(<thebetweenlands:animator>);
-scripts.utils.addShaped("animator", <thebetweenlands:animator>, [
-	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>],
-	[<thebetweenlands:items_misc:20>, <thebetweenlands:wight_heart>, <thebetweenlands:items_misc:20>],
-	[<roots:runestone>, <roots:runestone>, <roots:runestone>]
-]);
-
-
-
 
 scripts.utils.addShapeless("silk", <contenttweaker:silk>, [<thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <mysticalworld:spindle:*>.transformDamage(1)]);
 
