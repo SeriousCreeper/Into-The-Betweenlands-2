@@ -341,7 +341,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:samite>.add(<thebetweenlands:samite:*>);
 <ore:samiteCanvas>.add(<thebetweenlands:samite_canvas_panel:*>);
 
-<ore:dustWood>.remove(<prodigytech:sawdust>);
+//<ore:dustWood>.remove(<prodigytech:sawdust>);
 <ore:dustWood>.add(<pyrotech:rock:7>);
 
 
@@ -494,7 +494,7 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 <ore:banner>.add(<thaumcraft:banner_black>);
 
 <ore:dustAsh>.add(<pyrotech:material:0>);
-<ore:dustAsh>.remove(<prodigytech:ash>);
+//<ore:dustAsh>.remove(<prodigytech:ash>);
 <ore:dustAshes>.remove(<embers:dust_ash>);
 
 <ore:toolAxe>.add(<thebetweenlands:valonite_axe:*>);
