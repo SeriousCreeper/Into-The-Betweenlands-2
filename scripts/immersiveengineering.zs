@@ -426,7 +426,8 @@ Squeezer.addRecipe(null, <liquid:yeowynn> * 250, <thebetweenlands:aspectrus_frui
 Squeezer.addRecipe(null, <liquid:yihinren> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yihinren"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
 Squeezer.addRecipe(null, <liquid:yunugaz> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yunugaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
 
-
+Squeezer.addRecipe(null, <liquid:fluid_booze_purple_juice> * 40, <thebetweenlands:middle_fruit>, defaultAspectrusPower);
+Squeezer.addRecipe(<growthcraft_bees:honey_comb_empty>, <liquid:fluid_honey> * 160, <growthcraft_bees:honey_comb_filled>, defaultAspectrusPower);
 
 
 

@@ -34,7 +34,6 @@ val itemsToKeep = [
 	<growthcraft_milk:cheese_press>,
 	<growthcraft_milk:butter:*>,
 	<growthcraft_milk:ice_cream:*>,
-	<growthcraft_milk:yogurt:*>,
 	<growthcraft_milk:cheese_aged_slice:*>,
 	<growthcraft_milk:cheese_waxed_slice:*>,
 	<growthcraft_milk:cheese_simple_slice:*>,
@@ -48,6 +47,10 @@ val itemsToKeep = [
 	<growthcraft_milk:yogurt:1>,
 	<growthcraft_milk:yogurt:3>,
 	<growthcraft_milk:yogurt:4>,
+	<growthcraft_bees:mead:*>,
+	<growthcraft_cellar:ferment_barrel>,
+	<growthcraft_cellar:yeast:*>,
+	<growthcraft_grapes:grapewine:*>
 ] as IItemStack[];
 
 for mod in subModNames {
@@ -84,7 +87,7 @@ recipes.remove(<growthcraft_milk:yogurt:3>);
 recipes.remove(<growthcraft_milk:yogurt:4>);
 scripts.utils.addShapeless("mud_yogurt", <growthcraft_milk:yogurt:1>, [<growthcraft_milk:yogurt>, <thebetweenlands:sludge_ball>]);
 scripts.utils.addShapeless("white_pear_yogurt", <growthcraft_milk:yogurt:3>, [<growthcraft_milk:yogurt>, <thebetweenlands:middle_fruit>]);
-scripts.utils.addShapeless("honey_yogurt", <growthcraft_milk:yogurt:4>, [<growthcraft_milk:yogurt>, <growthcraft_bees:honey_jar>.giveBack(<thebetweenlands:mud_flower_pot>)]);
+scripts.utils.addShapeless("honey_yogurt", <growthcraft_milk:yogurt:4>, [<growthcraft_milk:yogurt>, <growthcraft_bees:bottlefluid_honey>.giveBack(<growthcraft_bees:bottlefluid_honey>)]);
 
 
 recipes.remove(<growthcraft_milk:pancheon>);
@@ -103,7 +106,7 @@ scripts.utils.addShaped("brew_kettle", <growthcraft_cellar:brew_kettle>, [
 ]);
 
 recipes.remove(<growthcraft_bees:bottlefluid_honey>);
-scripts.utils.addShapeless("honey_comb_filled_3", <growthcraft_bees:bottlefluid_honey> * 2, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <minecraft:glass_bottle:*>, <minecraft:glass_bottle:*>]);
+//scripts.utils.addShapeless("honey_comb_filled_3", <growthcraft_bees:bottlefluid_honey> * 2, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <minecraft:glass_bottle:*>, <minecraft:glass_bottle:*>]);
 
 
 /*
@@ -113,7 +116,7 @@ scripts.utils.addShapeless("honey_comb_filled_3_2", <bladditions:dentrothyst_flu
 */
 
 recipes.remove(<growthcraft_bees:honey_jar>);
-scripts.utils.addShapeless("honey_comb_filled_1", <growthcraft_bees:honey_jar>, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <thebetweenlands:mud_flower_pot>]);
+//scripts.utils.addShapeless("honey_comb_filled_1", <growthcraft_bees:honey_jar>, [<growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <growthcraft_bees:honey_comb_filled>, <thebetweenlands:mud_flower_pot>]);
 
 recipes.remove(<growthcraft_milk:cheese_press>);
 scripts.utils.addShaped("cheese_press", <growthcraft_milk:cheese_press>, [
