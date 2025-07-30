@@ -175,14 +175,9 @@ scripts.utils.addShaped("fishing_tackle_box", <thebetweenlands:fishing_tackle_bo
 
 
 scripts.utils.addShapeless("silk", <contenttweaker:silk>, [<thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <mysticalworld:spindle:*>.transformDamage(1)]);
-
-
 scripts.utils.addShapeless("sticks_from_sapling", <thebetweenlands:items_misc:20>, [<thebetweenlands:sapling_weedwood>]);
-
-
-scripts.utils.addShaped("clear_weedwood_barrel", <thebetweenlands:weedwood_barrel>, [[<thebetweenlands:weedwood_barrel>]]);
-
 scripts.utils.addShapeless("dragonfly_wings", <thebetweenlands:items_misc:3> * 2, [<roots:mystic_feather>]);
+scripts.utils.addShaped("clear_weedwood_barrel", <thebetweenlands:weedwood_barrel>, [[<thebetweenlands:weedwood_barrel>]]);
 
 
 // Druid Altar
