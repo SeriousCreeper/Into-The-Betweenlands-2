@@ -166,6 +166,12 @@ scripts.utils.addShaped("moth_house", <thebetweenlands:moth_house>, [
 	[<thebetweenlands:weedwood_plank_slab>, <pyrotech:crate>, <thebetweenlands:weedwood_plank_slab>]
 ]);
 
+recipes.remove(<thebetweenlands:fishing_tackle_box>);
+scripts.utils.addShaped("fishing_tackle_box", <thebetweenlands:fishing_tackle_box>, [
+	[null, <thebetweenlands:reed_mat>, null], 
+	[<thebetweenlands:items_misc:7>, <pyrotech:crate>, <thebetweenlands:items_misc:7>], 
+	[<thebetweenlands:swamp_reed_item>, <thebetweenlands:swamp_reed_item>, <thebetweenlands:swamp_reed_item>]
+]);
 
 
 scripts.utils.addShapeless("silk", <contenttweaker:silk>, [<thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <thebetweenlands:items_misc:63>, <mysticalworld:spindle:*>.transformDamage(1)]);
