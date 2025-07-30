@@ -88,6 +88,22 @@ val thaumcraftItemsNotToStage = [
 	<thaumcraft:crystal_ordo>,
 	<thaumcraft:crystal_perditio>,
 	<thaumcraft:crystal_vitium>,
+	<thaumcraft:candle_white>,
+	<thaumcraft:candle_orange>,
+	<thaumcraft:candle_magenta>,
+	<thaumcraft:candle_lightblue>,
+	<thaumcraft:candle_yellow>,
+	<thaumcraft:candle_lime>,
+	<thaumcraft:candle_pink>,
+	<thaumcraft:candle_gray>,
+	<thaumcraft:candle_silver>,
+	<thaumcraft:candle_cyan>,
+	<thaumcraft:candle_purple>,
+	<thaumcraft:candle_blue>,
+	<thaumcraft:candle_brown>,
+	<thaumcraft:candle_green>,
+	<thaumcraft:candle_red>,
+	<thaumcraft:candle_black>,
 ] as IItemStack[];
 
 val thaumicaugmentationItemsNotToStage = [
