@@ -829,6 +829,13 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 
 <ore:plateElectrum>.remove(<immersiveengineering:metal:37>);
 
+<ore:materialWaxcomb>.remove(<rustic:honeycomb>);
+<ore:materialHoneycomb>.remove(<rustic:honeycomb>);
+<ore:wax>.remove(<rustic:beeswax>);
+<ore:tallow>.remove(<rustic:beeswax>);
+<ore:wax>.remove(<rustic:tallow>);
+<ore:tallow>.remove(<rustic:tallow>);
+
 
 
 <ore:rock>.remove(<pyrotech:rock>);
