@@ -4,6 +4,7 @@ import crafttweaker.item.IIngredient;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.pyrotech.Stages;
 import mods.pyrotech.Worktable;
+import mods.jei.JEI;
 
 
 function addBLChangeTooltip(stack as IItemStack, tooltip as string) {
@@ -72,4 +73,26 @@ function addShapelessWT(name as string, stage as string, output as IItemStack, i
 		.register();
 
 	//ArcaneWorkbench.registerShapelessRecipe(name, "", 0, [], output, input);
+}
+
+
+function removeAllExcept(modId as string, itemsToKeep as IItemStack[]) {
+	val moddedItems = loadedMods[modId].items;
+
+	for item in moddedItems {
+		var skip = false;
+
+		for wlItem in itemsToKeep {
+			if(wlItem.matches(item)) {
+				skip = true;
+				break;
+			}
+		}
+
+		if(!skip) {
+			JEI.removeAndHide(item);
+			furnace.remove(item);
+			item.removeAspects(allAspects);
+		}
+	}
 }
