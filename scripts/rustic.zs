@@ -1,4 +1,43 @@
 import mods.rustic.CrushingTub;
+import crafttweaker.item.IItemStack;
+
+scripts.utils.removeAllExcept("rustic", [
+    <rustic:chain>,
+    <rustic:candle>,
+    <rustic:candle_double>,
+    <rustic:candle_lever>,
+    <rustic:chandelier>,
+    <rustic:chain_gold>,
+    <rustic:candle_gold>,
+    <rustic:candle_double_gold>,
+    <rustic:candle_lever_gold>,
+    <rustic:chandelier_gold>,
+    <rustic:chain_silver>,
+    <rustic:candle_silver>,
+    <rustic:candle_lever_silver>,
+    <rustic:candle_double_silver>,
+    <rustic:chandelier_silver>,
+    <rustic:chair_oak>,
+    <rustic:chair_big_oak>,
+    <rustic:chair_birch>,
+    <rustic:chair_spruce>,
+    <rustic:chair_acacia>,
+    <rustic:chair_jungle>,
+    <rustic:table_oak>,
+    <rustic:table_big_oak>,
+    <rustic:table_birch>,
+    <rustic:table_spruce>,
+    <rustic:table_acacia>,
+    <rustic:table_jungle>,
+    <rustic:iron_lattice>,
+    <rustic:iron_lantern>,
+    <rustic:golden_lantern>,
+    <rustic:silver_lantern>,
+    <rustic:gargoyle>,
+    <rustic:crushing_tub>,
+    <rustic:lantern_wood>,
+]);
+
 
 recipes.remove(<rustic:crushing_tub>);
 scripts.utils.addShaped("crushing_tub", <rustic:crushing_tub>, [
