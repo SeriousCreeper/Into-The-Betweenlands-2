@@ -178,6 +178,10 @@ scripts.utils.addShapeless("silk", <contenttweaker:silk>, [<thebetweenlands:item
 scripts.utils.addShapeless("sticks_from_sapling", <thebetweenlands:items_misc:20>, [<thebetweenlands:sapling_weedwood>]);
 scripts.utils.addShapeless("dragonfly_wings", <thebetweenlands:items_misc:3> * 2, [<roots:mystic_feather>]);
 scripts.utils.addShaped("clear_weedwood_barrel", <thebetweenlands:weedwood_barrel>, [[<thebetweenlands:weedwood_barrel>]]);
+scripts.utils.addShapeless("candle_to_wall_candle", <thebetweenlands:dungeon_wall_candle>, [<thebetweenlands:mud_flower_pot_candle>]);
+scripts.utils.addShapeless("wall_candle_to_candle", <thebetweenlands:mud_flower_pot_candle>, [<thebetweenlands:dungeon_wall_candle>]);
+
+
 
 
 // Druid Altar
