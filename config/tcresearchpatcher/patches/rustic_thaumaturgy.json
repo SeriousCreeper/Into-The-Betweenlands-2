@@ -1,0 +1,113 @@
+[
+    {
+        "key": "RT_BASE",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "icons",
+                "value": [
+                    "rusticthaumaturgy:chair_silverwood"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "RT_CINDERMOTE",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "key"
+            }
+        ]
+    },
+    {
+        "key": "RT_SHIMMERPETAL",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "key"
+            }
+        ]
+    },
+    {
+        "key": "RT_VISCAP",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "key"
+            }
+        ]
+    },
+    {
+        "key": "RT_CINDERFIRE",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "key"
+            }
+        ]
+    },
+    {
+        "key": "RT_SHIMMERDEW",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "key"
+            }
+        ]
+    },
+    {
+        "key": "RT_VISCOUS",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "key"
+            }
+        ]
+    },
+    {
+        "key": "RT_MATSTUDIRONWOOD",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "key"
+            }
+        ]
+    },
+    {
+        "key": "RT_SCONCES",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "location",
+                "value": [
+                    2, -2
+                ]
+            }
+        ]
+    },
+    {
+        "key": "RT_BRASS_FIXTURES",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "location",
+                "value": [
+                    -2, -2
+                ]
+            }
+        ]
+    },
+    {
+        "key": "RT_BRASS_SCONCES",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "location",
+                "value": [
+                    0, -4
+                ]
+            }
+        ]
+    }
+]
