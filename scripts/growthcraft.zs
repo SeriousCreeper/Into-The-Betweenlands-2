@@ -54,24 +54,7 @@ val itemsToKeep = [
 ] as IItemStack[];
 
 for mod in subModNames {
-	val loadedModItems = loadedMods[mod].items;
-
-	for item in loadedModItems {
-		var skip = false;
-
-	    for wlItem in itemsToKeep {
-	    	if(wlItem.matches(item)) {
-	            skip = true;
-	            break;
-	        }
-	    }
-
-	    if(!skip) {
-	    	JEI.removeAndHide(item);
-	    	furnace.remove(item);
-	    	item.removeAspects(allAspects);
-	    }
-	}
+	scripts.utils.removeAllExcept(mod, itemsToKeep);
 }
 
 val honeyBucket = <thebetweenlands:bl_bucket:0>.withTag({Fluid: {FluidName: "fluid_honey", Amount: 1000}}).transformReplace(<thebetweenlands:bl_bucket:0>) |

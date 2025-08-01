@@ -2,9 +2,7 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 import mods.rustichromia.Assembler;
 
-val moddedItems = loadedMods["rustichromia"].items;
-
-val itemsToKeep = [
+scripts.utils.removeAllExcept("rustichromia", [
     <rustichromia:windmill>,
     <rustichromia:windmill_big>,
     <rustichromia:mech_torch>,
@@ -19,25 +17,8 @@ val itemsToKeep = [
     <rustichromia:assembler2>,
     <rustichromia:assembler3>,
     <rustichromia:windmill_blade>,
-    <rustichromia:press>
-] as IItemStack[];
-
-for item in moddedItems {
-	var skip = false;
-
-    for wlItem in itemsToKeep {
-    	if(wlItem.matches(item)) {
-            skip = true;
-            break;
-        }
-    }
-
-    if(!skip) {
-    	JEI.removeAndHide(item);
-    	furnace.remove(item);
-    	item.removeAspects(allAspects);
-    }
-}
+    <rustichromia:press>,
+]);
 
 JEI.removeAndHide(<rustichromia:cart_control:*>);
 

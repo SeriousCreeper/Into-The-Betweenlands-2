@@ -1,34 +1,12 @@
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 
-val itemsToKeep = [
+scripts.utils.removeAllExcept("simpledifficulty", [
 	<simpledifficulty:purified_water_bottle>,
 	<simpledifficulty:canteen>,
 	<simpledifficulty:iron_canteen>,
 	<simpledifficulty:ice_chunk>,
-	//<thebetweenlands:bl_bucket>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}),
-	//<thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "purifiedwater", Amount: 1000}}),
-	//<simpledifficulty:purifiedwater>,
-] as IItemStack[];
-
-val items = loadedMods["simpledifficulty"].items;
-
-for item in items {
-	var skip = false;
-
-    for wlItem in itemsToKeep {
-    	if(wlItem.matches(item)) {
-            skip = true;
-            break;
-        }
-    }
-
-    if(!skip) {
-    	JEI.removeAndHide(item);
-    	furnace.remove(item);
-    	item.removeAspects(allAspects);
-    }
-}
+]);
 
 recipes.remove(<simpledifficulty:purified_water_bottle>);
 furnace.remove(<simpledifficulty:purified_water_bottle>);

@@ -1,33 +1,13 @@
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 
-val itemsToKeep = [
+scripts.utils.removeAllExcept("basketcase", [
 	<basketcase:wicker_small_generic>,
 	<basketcase:wicker_medium_generic>,
 	<basketcase:wicker_large_generic>,
-	<basketcase:basket_small_generic>,
 	<basketcase:basket_medium_generic>,
-	<basketcase:basket_large_generic>,
-] as IItemStack[];
-
-val basketItems = loadedMods["basketcase"].items;
-
-for item in basketItems {
-	var skip = false;
-
-    for wlItem in itemsToKeep {
-    	if(wlItem.matches(item)) {
-            skip = true;
-            break;
-        }
-    }
-
-    if(!skip) {
-    	JEI.removeAndHide(item);
-    	furnace.remove(item);
-    	item.removeAspects(allAspects);
-    }
-}
+	<basketcase:basket_large_generic>
+]);
 
 recipes.remove(<basketcase:wicker_small_generic>);
 scripts.utils.addShaped("wicker_small", <basketcase:wicker_small_generic>, [

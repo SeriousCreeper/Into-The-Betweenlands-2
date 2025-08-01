@@ -39,73 +39,24 @@ recipes.replaceAllOccurences(<minecraft:tripwire_hook>, <betweenlandsredstone:sc
 
 
 // VANILLA
-val minecraftItems = loadedMods["minecraft"].items;
-
-val itemsToKeep = [
-	//<minecraft:golden_rail>,
-	//<minecraft:detector_rail>,
-	//<minecraft:dispenser>,
-	//<minecraft:sticky_piston>,
-	//<minecraft:piston>,
-	//<minecraft:observer>,
-	//<minecraft:dropper>,
+scripts.utils.removeAllExcept("minecraft", [
 	<minecraft:lead>,
 	<minecraft:armor_stand>,
-	//<minecraft:minecart>,
-	//<minecraft:chest_minecart>,
-	//<minecraft:hopper_minecart>,
 	<minecraft:iron_bars>,
 	<minecraft:trapped_chest>,
-	//<minecraft:item_frame>,
-	//<minecraft:activator_rail>,
-	//<minecraft:rail>,
-	//<minecraft:flint_and_steel>,
-	//<minecraft:tripwire_hook>,
 	<minecraft:string>,
-	//<minecraft:slime>,
-	//<minecraft:anvil>,
 	<minecraft:book>,
 	<minecraft:writable_book>,
 	<minecraft:dye:*>,
-	//<minecraft:name_tag>,
 	<minecraft:bookshelf>,
 	<minecraft:noteblock>,
-	//<minecraft:milk_bucket>,
-	//<minecraft:water_bucket>,
-	//<minecraft:paper>,
 	<minecraft:spawn_egg>,
-	//<minecraft:redstone_torch>,
-	//<minecraft:redstone>,
-	//<minecraft:repeater>,
-	//<minecraft:comparator>,
-	//<minecraft:redstone_block>,
-	//<minecraft:redstone_lamp>,
 	<minecraft:glass_bottle>,
 	<minecraft:snowball>,
 	<minecraft:iron_nugget>,
 	<minecraft:iron_ingot>,
 	<minecraft:iron_block>,
-] as IItemStack[];
-
-
-for item in minecraftItems {
-	var skip = false;
-
-    for wlItem in itemsToKeep {
-    	if(wlItem.matches(item)) {
-            skip = true;
-            break;
-        }
-    }
-
-    if(!skip) {
-    	JEI.removeAndHide(item);
-    	furnace.remove(item);
-    	item.removeAspects(allAspects);
-    }
-}
-
-
+]);
 
 furnace.remove(<minecraft:torch>);
 furnace.remove(<minecraft:redstone>);
