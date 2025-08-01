@@ -35,6 +35,13 @@ scripts.utils.removeAllExcept("rustic", [
     <rustic:silver_lantern>,
     <rustic:crushing_tub>,
     <rustic:lantern_wood>,
+    <rusticthaumaturgy:dust_tiny_blaze>,
+    <rusticthaumaturgy:cindermote>,
+    <rusticthaumaturgy:shimmerpetal>,
+    <rusticthaumaturgy:viscap>,
+    <rusticthaumaturgy:cindermote_seeds>,
+    <rusticthaumaturgy:shimmerpetal_bulb>,
+    <rusticthaumaturgy:viscap_spores>,
 ]);
 
 recipes.remove(<rustic:crushing_tub>);
