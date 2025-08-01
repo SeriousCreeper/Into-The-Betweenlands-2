@@ -33,7 +33,6 @@ val itemsToKeep = [
 	<growthcraft_milk:churn>,
 	<growthcraft_milk:cheese_press>,
 	<growthcraft_milk:butter:*>,
-	<growthcraft_milk:ice_cream:*>,
 	<growthcraft_milk:cheese_aged_slice:*>,
 	<growthcraft_milk:cheese_waxed_slice:*>,
 	<growthcraft_milk:cheese_simple_slice:*>,
