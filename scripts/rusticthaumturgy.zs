@@ -1,5 +1,5 @@
 import crafttweaker.item.IItemStack;
-import mods.thaumcraft.ArcaneWorkbench;
+import mods.thaumcraft.Infusion;
 
 scripts.utils.removeAllExcept("rusticthaumaturgy", [
     <rusticthaumaturgy:dust_tiny_blaze>,
@@ -50,6 +50,6 @@ scripts.utils.addShaped("silverwood_table", <rusticthaumaturgy:table_silverwood>
     [<thebetweenlands:items_misc:20>, null, <thebetweenlands:items_misc:20>]
 ]);
 
-ArcaneWorkbench.removeRecipe(<rusticthaumaturgy:cindermote_seeds>);
-ArcaneWorkbench.removeRecipe(<rusticthaumaturgy:shimmerpetal_bulb>);
-ArcaneWorkbench.removeRecipe(<rusticthaumaturgy:viscap_spores>);
+Infusion.removeRecipe(<rusticthaumaturgy:cindermote_seeds>);
+Infusion.removeRecipe(<rusticthaumaturgy:shimmerpetal_bulb>);
+Infusion.removeRecipe(<rusticthaumaturgy:viscap_spores>);
