@@ -1,0 +1,8 @@
+setIcon(<minecraft:stick>);
+setTitle("Pebble");
+setShowToast(false);
+setAnnounceToChat(false);
+addParent("itbl2:root");
+setDescription("");
+criteria = addCriteria("got_pebble", "minecraft:inventory_changed");
+criteria.addItem("minecraft:stick");

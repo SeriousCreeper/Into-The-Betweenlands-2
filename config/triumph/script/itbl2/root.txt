@@ -1,0 +1,13 @@
+setIcon(<thebetweenlands:swamp_talisman>)
+
+setTitle("Discoveries")
+
+setDescription("")
+
+setBackground("thebetweenlands:textures/blocks/swamp_dirt.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+addCriteria("location", "minecraft:location")
