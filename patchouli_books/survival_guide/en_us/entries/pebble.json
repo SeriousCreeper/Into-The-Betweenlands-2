@@ -1,0 +1,16 @@
+{
+  "name": "Pebble",
+  "category": "items",
+  "advancement": "itbl2:pebble",
+  "icon": "minecraft:stick",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Pebbles are found on the ground."
+    },
+    {
+      "type": "crafting",
+      "recipe": "minecraft:stick"
+    }
+  ]
+}

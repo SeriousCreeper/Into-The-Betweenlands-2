@@ -1,0 +1,20 @@
+{
+  "name": "Decay",
+  "category": "items",
+  "advancement": "itbl2:pebble",
+  "icon": "thebetweenlands:sap_ball",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Test"
+    },
+    {
+      "type": "image",
+      "images": [
+        "botania:textures/gui/entries/banners.png"
+      ],
+      "border": true,
+      "title": "Banners"
+    }
+  ]
+}
