@@ -887,6 +887,8 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:bowls>.add(<minecraft:bowl>);
 <ore:bowls>.add(<thebetweenlands:items_misc:22>);
 
+<ore:dustGlowstone>.add(<arcanearchives:radiant_dust>);
+
 
 
 // Item Stack Sizes
