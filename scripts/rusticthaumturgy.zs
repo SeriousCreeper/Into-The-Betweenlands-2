@@ -1,7 +1,15 @@
 import crafttweaker.item.IItemStack;
 import mods.thaumcraft.Infusion;
 
-scripts.utils.removeAllExcept("rusticthaumaturgy", []);
+scripts.utils.removeAll([
+    <rusticthaumaturgy:dust_tiny_blaze>,
+    <rusticthaumaturgy:cindermote>,
+    <rusticthaumaturgy:shimmerpetal>,
+    <rusticthaumaturgy:viscap>,
+    <rusticthaumaturgy:cindermote_seeds>,
+    <rusticthaumaturgy:shimmerpetal_bulb>,
+    <rusticthaumaturgy:viscap_spores>,
+]);
 
 recipes.remove(<rusticthaumaturgy:candle_brass>);
 scripts.utils.addShaped("brass_candle_tallow", <rusticthaumaturgy:candle_brass> * 4, [
