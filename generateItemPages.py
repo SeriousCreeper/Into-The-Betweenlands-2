@@ -8,17 +8,14 @@ def safe_strip(value):
     return str(value).strip() if pd.notna(value) and str(value).strip().lower() != "nan" else ""
 
 # === CONFIG ===
-input_file = "items.csv"  # or "items.xlsx"
+input_file = "items.csv"
 adv_output_dir = "config/triumph/script/itbl2"
 entry_output_dir = "patchouli_books/survival_guide/en_us/entries"
 os.makedirs(adv_output_dir, exist_ok=True)
 os.makedirs(entry_output_dir, exist_ok=True)
 
 # === READ INPUT ===
-if input_file.endswith(".xlsx"):
-    df = pd.read_excel(input_file)
-else:
-    df = pd.read_csv(input_file)
+df = pd.read_excel(input_file) if input_file.endswith(".xlsx") else pd.read_csv(input_file)
 
 # === GROUP ENTRIES ===
 entries = defaultdict(list)
@@ -28,12 +25,15 @@ for _, row in df.iterrows():
     file_name = safe_strip(row.get("file_name"))
     if not file_name:
         continue
+
     if safe_strip(row.get("item_id")):
         shared_data[file_name] = {
             "item_id": safe_strip(row["item_id"]),
             "icon": safe_strip(row["icon"]),
-            "display_name": safe_strip(row["display_name"])
+            "display_name": safe_strip(row["display_name"]),
+            "advancement_id": safe_strip(row.get("advancement_id"))
         }
+
     entries[file_name].append(row)
 
 # === GENERATE FILES ===
@@ -42,12 +42,17 @@ for file_name, rows in entries.items():
     display_name = shared.get("display_name", file_name)
     icon = shared.get("icon", "minecraft:book")
     item_id = shared.get("item_id", f"minecraft:{file_name}")
+    raw_adv = shared.get("advancement_id")
+    custom_advancement = ""
+    if raw_adv:
+        custom_advancement = raw_adv if ":" in raw_adv else f"itbl2:{raw_adv}"
+    advancement_id = custom_advancement if custom_advancement else f"itbl2:{file_name}"
 
     # Patchouli entry
     patchouli_entry = {
         "name": display_name,
         "category": "items",
-        "advancement": f"itbl2:{file_name}",
+        "advancement": advancement_id,
         "icon": item_id,
         "pages": []
     }
@@ -74,18 +79,20 @@ for file_name, rows in entries.items():
     with open(os.path.join(entry_output_dir, f"{file_name}.json"), "w", encoding="utf-8") as f:
         json.dump(patchouli_entry, f, indent=2)
 
-    # Triumph advancement script
-    lines = [
-        f'setIcon(<{icon}>);',
-        f'setTitle("{display_name}");',
-        f'setShowToast(false);',
-        f'setAnnounceToChat(false);',
-        f'addParent("itbl2:root");',
-        f'criteria = addCriteria("got_{file_name}", "minecraft:inventory_changed");',
-        f'criteria.addItem("{item_id}");'
-    ]
+    # Generate advancement only if not provided manually
+    if not custom_advancement:
+        lines = [
+            f'setIcon(<{icon}>);',
+            f'setTitle("{display_name}");',
+            f'setShowToast(false);',
+            f'setAnnounceToChat(false);',
+            f'addParent("itbl2:root");',
+            f'setDescription("");',
+            f'criteria = addCriteria("got_{file_name}", "minecraft:inventory_changed");',
+            f'criteria.addItem("{item_id}");'
+        ]
 
-    with open(os.path.join(adv_output_dir, f"{file_name}.txt"), "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
+        with open(os.path.join(adv_output_dir, f"{file_name}.txt"), "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
 
 print("✅ All files generated successfully!")
