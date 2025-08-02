@@ -1,0 +1,91 @@
+import csv
+import json
+import os
+import pandas as pd
+from collections import defaultdict
+
+def safe_strip(value):
+    return str(value).strip() if pd.notna(value) and str(value).strip().lower() != "nan" else ""
+
+# === CONFIG ===
+input_file = "items.csv"  # or "items.xlsx"
+adv_output_dir = "config/triumph/script/itbl2"
+entry_output_dir = "patchouli_books/survival_guide/en_us/entries"
+os.makedirs(adv_output_dir, exist_ok=True)
+os.makedirs(entry_output_dir, exist_ok=True)
+
+# === READ INPUT ===
+if input_file.endswith(".xlsx"):
+    df = pd.read_excel(input_file)
+else:
+    df = pd.read_csv(input_file)
+
+# === GROUP ENTRIES ===
+entries = defaultdict(list)
+shared_data = {}
+
+for _, row in df.iterrows():
+    file_name = safe_strip(row.get("file_name"))
+    if not file_name:
+        continue
+    if safe_strip(row.get("item_id")):
+        shared_data[file_name] = {
+            "item_id": safe_strip(row["item_id"]),
+            "icon": safe_strip(row["icon"]),
+            "display_name": safe_strip(row["display_name"])
+        }
+    entries[file_name].append(row)
+
+# === GENERATE FILES ===
+for file_name, rows in entries.items():
+    shared = shared_data.get(file_name, {})
+    display_name = shared.get("display_name", file_name)
+    icon = shared.get("icon", "minecraft:book")
+    item_id = shared.get("item_id", f"minecraft:{file_name}")
+
+    # Patchouli entry
+    patchouli_entry = {
+        "name": display_name,
+        "category": "items",
+        "advancement": f"itbl2:{file_name}",
+        "icon": item_id,
+        "pages": []
+    }
+
+    for _, row in pd.DataFrame(rows).iterrows():
+        page_type = safe_strip(row.get("page_type"))
+        page = {"type": page_type}
+
+        if page_type == "text":
+            page["text"] = safe_strip(row.get("page_text"))
+        elif page_type == "crafting":
+            recipe = safe_strip(row.get("recipe_id"))
+            if recipe:
+                page["recipe"] = recipe
+        elif page_type == "image":
+            image = safe_strip(row.get("recipe_id"))
+            if image:
+                page["images"] = [image]
+        else:
+            continue
+
+        patchouli_entry["pages"].append(page)
+
+    with open(os.path.join(entry_output_dir, f"{file_name}.json"), "w", encoding="utf-8") as f:
+        json.dump(patchouli_entry, f, indent=2)
+
+    # Triumph advancement script
+    lines = [
+        f'setIcon(<{icon}>);',
+        f'setTitle("{display_name}");',
+        f'setShowToast(false);',
+        f'setAnnounceToChat(false);',
+        f'addParent("itbl2:root");',
+        f'criteria = addCriteria("got_{file_name}", "minecraft:inventory_changed");',
+        f'criteria.addItem("{item_id}");'
+    ]
+
+    with open(os.path.join(adv_output_dir, f"{file_name}.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+print("✅ All files generated successfully!")

@@ -1,0 +1,4 @@
+file_name,item_id,icon,display_name,page_type,recipe_id,page_text
+pebble,minecraft:stick,minecraft:stick,Pebble,text,,Pebbles are found on the ground.
+pebble,,,,crafting,minecraft:stick,
+sap,thebetweenlands:sap_ball,thebetweenlands:sap_ball,Decay,text,,Spending time here seems to have a negative effect on my mental state. This sap seems to be having positive effects on it though.
