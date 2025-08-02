@@ -64,13 +64,23 @@ for file_name, rows in entries.items():
         if page_type == "text":
             page["text"] = safe_strip(row.get("page_text"))
         elif page_type == "crafting":
-            recipe = safe_strip(row.get("recipe_id"))
+            recipe = safe_strip(row.get("meta"))
             if recipe:
                 page["recipe"] = recipe
         elif page_type == "image":
-            image = safe_strip(row.get("recipe_id"))
+            image = safe_strip(row.get("meta"))
             if image:
                 page["images"] = [image]
+
+            border_val = safe_strip(row.get("border"))
+            if border_val.lower() == "true":
+                page["border"] = True
+            elif border_val.lower() == "false":
+                page["border"] = False
+
+            title_val = safe_strip(row.get("title"))
+            if title_val:
+                page["title"] = title_val
         else:
             continue
 
