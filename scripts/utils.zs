@@ -75,6 +75,13 @@ function addShapelessWT(name as string, stage as string, output as IItemStack, i
 	//ArcaneWorkbench.registerShapelessRecipe(name, "", 0, [], output, input);
 }
 
+function removeAll(itemsToKeep as IItemStack[]) {
+	for item in itemsToKeep {
+		JEI.removeAndHide(item);
+		furnace.remove(item);
+		item.removeAspects(allAspects);
+	}
+}
 
 function removeAllExcept(modId as string, itemsToKeep as IItemStack[]) {
 	val moddedItems = loadedMods[modId].items;
