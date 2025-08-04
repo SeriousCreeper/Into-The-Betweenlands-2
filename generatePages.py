@@ -18,7 +18,7 @@ category_name = os.path.splitext(os.path.basename(input_file))[0]
 
 # === OUTPUT DIRS ===
 adv_output_dir = "config/triumph/script/itbl2"
-entry_output_dir = "patchouli_books/survival_guide/en_us/entries"
+entry_output_dir = f"patchouli_books/survival_guide/en_us/entries/{category_name}"
 os.makedirs(adv_output_dir, exist_ok=True)
 os.makedirs(entry_output_dir, exist_ok=True)
 
