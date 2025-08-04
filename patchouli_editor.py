@@ -55,7 +55,14 @@ class PageFrame(ttk.LabelFrame):
         # Add more page types as needed
         
     def create_text_page(self):
-        text_widget = ScrolledText(self.content_frame, height=8, width=50)
+        text_widget = ScrolledText(self.content_frame, height=8, width=50,
+            bg='#21252b',
+            fg='#abb2bf',
+            insertbackground='#abb2bf',
+            selectbackground='#404859',
+            selectforeground='#ffffff',
+            relief='solid',
+            borderwidth=1)
         text_widget.pack(fill=tk.BOTH, expand=True)
         text_widget.bind("<<Modified>>", self.update_char_count)
         text_widget.bind("<Button-3>", self.show_context_menu)  # Right click
@@ -286,8 +293,63 @@ class PatchouliEditor:
         self.root.title("Patchouli Book Editor")
         self.root.geometry("930x1200")  # Width x Height in pixels
         
+        # Configure dark theme
+        self.style = ttk.Style()
+        
+        # Configure colors
+        self.root.configure(bg='#282c34')
+        self.style.configure('.',
+            background='#282c34',
+            foreground='#abb2bf',
+            fieldbackground='#21252b',
+            insertcolor='#abb2bf',
+            selectforeground='#ffffff',
+            selectbackground='#404859',
+            borderwidth=0
+        )
+        
+        # Configure specific elements
+        self.style.configure('TFrame', background='#282c34')
+        self.style.configure('TLabel', background='#282c34', foreground='#abb2bf')
+        self.style.configure('TLabelframe', background='#282c34', foreground='#abb2bf')
+        self.style.configure('TLabelframe.Label', background='#282c34', foreground='#abb2bf')
+        self.style.configure('TButton',
+            background='#404859',
+            foreground='#abb2bf',
+            borderwidth=0,
+            focuscolor='none'
+        )
+        self.style.map('TButton',
+            background=[('active', '#4b5363')],
+            foreground=[('active', '#ffffff')]
+        )
+        self.style.configure('TEntry',
+            fieldbackground='#21252b',
+            foreground='#abb2bf',
+            insertcolor='#abb2bf',
+            borderwidth=1,
+            relief='solid'
+        )
+        self.style.configure('TCombobox',
+            fieldbackground='#21252b',
+            background='#21252b',
+            foreground='#abb2bf',
+            arrowcolor='#abb2bf',
+            borderwidth=1,
+            relief='solid'
+        )
+        self.style.map('TCombobox',
+            fieldbackground=[('readonly', '#21252b')],
+            selectbackground=[('readonly', '#21252b')],
+            selectforeground=[('readonly', '#abb2bf')]
+        )
+        self.style.configure('TCheckbutton',
+            background='#282c34',
+            foreground='#abb2bf'
+        )
+        
         # Create main container with scrollbar
-        self.main_canvas = tk.Canvas(root)
+        self.main_canvas = tk.Canvas(root, bg='#282c34', highlightthickness=0)
         scrollbar = ttk.Scrollbar(root, orient="vertical", command=self.main_canvas.yview)
         self.scrollable_frame = ttk.Frame(self.main_canvas)
         
