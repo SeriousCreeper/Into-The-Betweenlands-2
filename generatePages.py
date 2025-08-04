@@ -65,7 +65,7 @@ for file_name, rows in entries.items():
         "pages": []
     }
 
-    if add_adv and advancement_id:
+    if advancement_id:
         patchouli_entry["advancement"] = advancement_id
 
     for _, row in pd.DataFrame(rows).iterrows():
