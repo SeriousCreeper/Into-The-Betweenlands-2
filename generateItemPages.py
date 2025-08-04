@@ -1,14 +1,22 @@
 import csv
 import json
 import os
+import sys
 import pandas as pd
 from collections import defaultdict
 
 def safe_strip(value):
     return str(value).strip() if pd.notna(value) and str(value).strip().lower() != "nan" else ""
 
-# === CONFIG ===
-input_file = "items.csv"
+# === CLI ARGUMENT ===
+if len(sys.argv) < 2:
+    print("❌ Please provide the input CSV/XLSX file name, e.g., python generateItemPages.py items.csv")
+    sys.exit(1)
+
+input_file = sys.argv[1]
+category_name = os.path.splitext(os.path.basename(input_file))[0]
+
+# === OUTPUT DIRS ===
 adv_output_dir = "config/triumph/script/itbl2"
 entry_output_dir = "patchouli_books/survival_guide/en_us/entries"
 os.makedirs(adv_output_dir, exist_ok=True)
@@ -26,12 +34,13 @@ for _, row in df.iterrows():
     if not file_name:
         continue
 
-    if safe_strip(row.get("item_id")):
+    if safe_strip(row.get("item_id")) or safe_strip(row.get("icon")) or safe_strip(row.get("display_name")):
         shared_data[file_name] = {
-            "item_id": safe_strip(row["item_id"]),
-            "icon": safe_strip(row["icon"]),
-            "display_name": safe_strip(row["display_name"]),
-            "advancement_id": safe_strip(row.get("advancement_id"))
+            "item_id": safe_strip(row["item_id"]) or "thebetweenlands:items_misc:32",
+            "icon": safe_strip(row["icon"]) or "minecraft:book",
+            "display_name": safe_strip(row["display_name"]) or file_name,
+            "advancement_id": safe_strip(row.get("advancement_id")),
+            "add_advancement": safe_strip(row.get("add_advancement")).lower() != "false"
         }
 
     entries[file_name].append(row)
@@ -41,21 +50,23 @@ for file_name, rows in entries.items():
     shared = shared_data.get(file_name, {})
     display_name = shared.get("display_name", file_name)
     icon = shared.get("icon", "minecraft:book")
-    item_id = shared.get("item_id", f"minecraft:{file_name}")
+    item_id = shared.get("item_id", "minecraft:air")
     raw_adv = shared.get("advancement_id")
-    custom_advancement = ""
-    if raw_adv:
-        custom_advancement = raw_adv if ":" in raw_adv else f"itbl2:{raw_adv}"
-    advancement_id = custom_advancement if custom_advancement else f"itbl2:{file_name}"
+    add_adv = shared.get("add_advancement", True)
+
+    custom_advancement = raw_adv if raw_adv and ":" in raw_adv else f"itbl2:{raw_adv}" if raw_adv else ""
+    advancement_id = custom_advancement if custom_advancement else ""
 
     # Patchouli entry
     patchouli_entry = {
         "name": display_name,
-        "category": "items",
-        "advancement": advancement_id,
+        "category": category_name,
         "icon": item_id,
         "pages": []
     }
+
+    if add_adv and advancement_id:
+        patchouli_entry["advancement"] = advancement_id
 
     for _, row in pd.DataFrame(rows).iterrows():
         page_type = safe_strip(row.get("page_type"))
@@ -89,8 +100,7 @@ for file_name, rows in entries.items():
     with open(os.path.join(entry_output_dir, f"{file_name}.json"), "w", encoding="utf-8") as f:
         json.dump(patchouli_entry, f, indent=2)
 
-    # Generate advancement only if not provided manually
-    if not custom_advancement:
+    if add_adv and advancement_id:
         lines = [
             f'setIcon(<{icon}>);',
             f'setTitle("{display_name}");',
@@ -105,4 +115,4 @@ for file_name, rows in entries.items():
         with open(os.path.join(adv_output_dir, f"{file_name}.txt"), "w", encoding="utf-8") as f:
             f.write("\n".join(lines))
 
-print("✅ All files generated successfully!")
+print(f"✅ All files generated for category '{category_name}' from {input_file}!")
