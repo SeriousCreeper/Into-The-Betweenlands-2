@@ -1121,6 +1121,7 @@ ArcaneWorkbench.registerShapelessRecipe("activator_rail", "", 10, [
 // SALIS MUNDUS
 SalisMundus.removeSingleConversion(<thaumcraft:crucible>);
 SalisMundus.addSingleConversion(<growthcraft_cellar:brew_kettle>, <thaumcraft:crucible>);
+SalisMundus.addSingleConversion(<thaumcraft:leaves_silverwood>, <teastory:tea_seeds>);
 
 
 
