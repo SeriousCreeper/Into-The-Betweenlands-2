@@ -54,8 +54,9 @@ class PageFrame(ttk.LabelFrame):
             self.create_spotlight_page()
         # Add more page types as needed
         
-    def create_text_page(self):
-        text_widget = ScrolledText(self.content_frame, height=8, width=50,
+    def create_text_widget(self, height=8):
+        """Helper method to create a consistently styled text widget with context menu"""
+        text_widget = ScrolledText(self.content_frame, height=height, width=50,
             bg='#21252b',
             fg='#abb2bf',
             insertbackground='#abb2bf',
@@ -63,9 +64,13 @@ class PageFrame(ttk.LabelFrame):
             selectforeground='#ffffff',
             relief='solid',
             borderwidth=1)
-        text_widget.pack(fill=tk.BOTH, expand=True)
         text_widget.bind("<<Modified>>", self.update_char_count)
         text_widget.bind("<Button-3>", self.show_context_menu)  # Right click
+        return text_widget
+
+    def create_text_page(self):
+        text_widget = self.create_text_widget()
+        text_widget.pack(fill=tk.BOTH, expand=True)
         self.current_fields["text"] = text_widget
         
     def show_context_menu(self, event):
@@ -181,7 +186,7 @@ class PageFrame(ttk.LabelFrame):
         
         # Text
         ttk.Label(self.content_frame, text="Description:").pack(anchor=tk.W)
-        text_widget = ScrolledText(self.content_frame, height=6, width=60)
+        text_widget = self.create_text_widget(height=6)
         text_widget.pack(fill=tk.BOTH, expand=True)
         self.current_fields["text"] = text_widget
 
@@ -194,11 +199,17 @@ class PageFrame(ttk.LabelFrame):
         
         # Text
         ttk.Label(self.content_frame, text="Caption:").pack(anchor=tk.W)
-        text_widget = ScrolledText(self.content_frame, height=6, width=60)
+        text_widget = self.create_text_widget(height=6)
         text_widget.pack(fill=tk.BOTH, expand=True)
         self.current_fields["text"] = text_widget
 
     def create_spotlight_page(self):
+        # Title
+        ttk.Label(self.content_frame, text="Title:").pack(anchor=tk.W)
+        title = ttk.Entry(self.content_frame, width=40)
+        title.pack(fill=tk.X)
+        self.current_fields["title"] = title
+
         # Item ID
         ttk.Label(self.content_frame, text="Item ID:").pack(anchor=tk.W)
         item_id = ttk.Entry(self.content_frame, width=40)
@@ -207,7 +218,7 @@ class PageFrame(ttk.LabelFrame):
         
         # Text
         ttk.Label(self.content_frame, text="Description:").pack(anchor=tk.W)
-        text_widget = ScrolledText(self.content_frame, height=6, width=60)
+        text_widget = self.create_text_widget(height=6)
         text_widget.pack(fill=tk.BOTH, expand=True)
         self.current_fields["text"] = text_widget
 
@@ -314,14 +325,16 @@ class PatchouliEditor:
         self.style.configure('TLabelframe', background='#282c34', foreground='#abb2bf')
         self.style.configure('TLabelframe.Label', background='#282c34', foreground='#abb2bf')
         self.style.configure('TButton',
-            background='#404859',
-            foreground='#abb2bf',
-            borderwidth=0,
-            focuscolor='none'
+            background='#e0e0e0',  # Light gray background
+            foreground='#000000',  # Black text
+            borderwidth=1,
+            bordercolor='#404040',
+            focuscolor='none',
+            padding=6  # Add some padding for better clickability
         )
         self.style.map('TButton',
-            background=[('active', '#4b5363')],
-            foreground=[('active', '#ffffff')]
+            background=[('active', '#f0f0f0'), ('pressed', '#d0d0d0')],  # Lighter on hover, darker when clicked
+            foreground=[('active', '#000000')]
         )
         self.style.configure('TEntry',
             fieldbackground='#21252b',
