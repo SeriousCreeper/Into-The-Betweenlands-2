@@ -1,0 +1,9 @@
+setIcon(<thebetweenlands:items_misc:11>);
+setTitle("Syrmorite Ingot");
+setShowToast(false);
+setAnnounceToChat(false);
+addParent("itbl2:root");
+setDescription("");
+criteria = addCriteria("got_ingot", "minecraft:inventory_changed");
+criteria.addItem(<thebetweenlands:items_misc, ore:ingotSyrmorite, meta:11, count:1>);
+addRewardFunction("itbl2:trigger_roots_invasion")
