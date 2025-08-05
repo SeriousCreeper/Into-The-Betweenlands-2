@@ -444,8 +444,8 @@ Fey.addRecipe("salismundus", <thaumcraft:salis_mundus>,
 Fey.addRecipe("sporeling_spores", <thebetweenlands:spores>, 
 	[<roots:terra_spores>, <thebetweenlands:items_misc:18>, <thebetweenlands:dentrothyst:1>, <thebetweenlands:shelf_fungus>, <thebetweenlands:bulb_capped_mushroom_item>]);
 
-Fey.addRecipe("caminite_blend", <embers:blend_caminite> * 4, 
-	[<roots:runic_dust>, <pyrotech:material:4>, <pyrotech:material:4>, <pyrotech:material:4>, <pyrotech:material:4>]);
+//Fey.addRecipe("caminite_blend", <embers:blend_caminite> * 4, 
+//	[<roots:runic_dust>, <pyrotech:material:4>, <pyrotech:material:4>, <pyrotech:material:4>, <pyrotech:material:4>]);
 
 /*
 Fey.addRecipe("caminite_brick", <embers:brick_caminite> * 2, 

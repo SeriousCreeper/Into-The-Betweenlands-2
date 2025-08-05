@@ -1113,7 +1113,12 @@ ArcaneWorkbench.registerShapelessRecipe("activator_rail", "", 10, [
 	[<betweenlandsredstone:scabyst_activator_rail>]
 );
 
-
+ArcaneWorkbench.registerShapelessRecipe("caminite_blend", "", 2, [
+	<aspect:ignis>,
+	<aspect:terra>
+], <embers:blend_caminite> * 4, 
+	[<roots:runic_dust>, <pyrotech:material:4>, <pyrotech:material:4>, <pyrotech:material:4>]
+);
 
 
 
