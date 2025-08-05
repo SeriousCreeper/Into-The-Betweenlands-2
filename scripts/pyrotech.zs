@@ -573,7 +573,7 @@ GraniteAnvil.addRecipe("ash_from_food", <embers:dust_ash> * 2, <pyrotech:burned_
 GraniteAnvil.addRecipe("sulfur_from_sulfur_liver", <thebetweenlands:items_misc:18> * 8, <soot:sulfur_clump>, 4, "hammer", true);
 GraniteAnvil.addRecipe("sulfur_chunks_from_sulfur", <soot:sulfur> * 8, <thebetweenlands:items_misc:18>, 4, "hammer", true);
 
-IroncladAnvil.addRecipe("radiant_dust", <arcanearchives:radiant_dust>, <arcanearchives:raw_quartz>, 8, "hammer");
+//IroncladAnvil.addRecipe("radiant_dust", <arcanearchives:radiant_dust>, <arcanearchives:raw_quartz>, 8, "hammer");
 
 function nuggetAnvilRecipeBuilder(name as string, output as IItemStack, input as IIngredient, hits as int) {
 	recipes.remove(output);
