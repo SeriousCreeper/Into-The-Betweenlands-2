@@ -20,13 +20,14 @@ scripts.utils.addShaped("scepter_revelation", <arcanearchives:scepter_revelation
 ]);
 
 
+/*
 recipes.remove(<arcanearchives:radiant_chest>);
 scripts.utils.addShaped("radiant_chest", <arcanearchives:radiant_chest>, [
 	[<ore:plankWood>, <ore:plateOctine>, <ore:plankWood>], 
 	[<ore:plankWood>, <arcanearchives:raw_quartz>, <ore:plankWood>], 	
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
-
+*/
 
 recipes.addShapeless("letter_invitation", <arcanearchives:letter_invitation>, [<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <arcanearchives:radiant_dust>, <arcanearchives:radiant_dust>, <arcanearchives:radiant_dust>, <thebetweenlands:items_crushed:45>, <thebetweenlands:items_crushed:45>, <thebetweenlands:items_crushed:45>],
 	function(out, ins, cInfo) {
@@ -122,6 +123,10 @@ GCT.addRecipe("baublegirdlefancy", <thaumcraft:baubles:4>, [<ore:string> * 3, <t
 
 recipes.remove(<thaumcraft:baubles:5>);
 GCT.addRecipe("baubleringfancy", <thaumcraft:baubles:5>, [<thebetweenlands:items_misc:42> * 7, <thebetweenlands:items_misc:19>]);
+
+recipes.remove(<arcanearchives:radiant_chest>);
+GCT.addRecipe("radiant_chest", <arcanearchives:radiant_chest>, [<ore:chest>, <arcanearchives:radiant_dust> * 4, <embers:plate_gold>]);
+
 
 recipes.remove(<storagedrawers:upgrade_storage:3>);
 recipes.remove(<storagedrawers:upgrade_storage:4>);
