@@ -1,0 +1,18 @@
+{
+  "name": "Worktable",
+  "category": "basics",
+  "icon": "pyrotech:worktable",
+  "pages": [
+    {
+      "type": "spotlight",
+      "text": "The worktable is a primitive version of the crafting table.$(br2)Items must be placed on the 9 slots by right-clicking them.$(br2)Once the correct items have been placed, use a $(l:basics/crude_hammer)hammer$() and right-click the top of the worktable to craft the item.",
+      "item": "pyrotech:worktable",
+      "link_recipe": "true"
+    },
+    {
+      "type": "text",
+      "text": "Sneaking while looking at an item inside a storage container shows how many of that item are available.$(br2)Using the scroll wheel while sneaking either adds or removes items."
+    }
+  ],
+  "sortnum": 2
+}

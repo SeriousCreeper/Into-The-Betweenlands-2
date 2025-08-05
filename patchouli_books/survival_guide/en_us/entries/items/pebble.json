@@ -1,7 +1,6 @@
 {
   "name": "Pebble",
   "category": "items",
-  "advancement": "itbl2:pebble",
   "icon": "minecraft:stick",
   "pages": [
     {

@@ -1,0 +1,6 @@
+{
+    "name": "Journal",
+    "description": "I will keep a journal to track my findings and progress.",
+    "icon": "minecraft:writable_book",
+    "sortnum": 0
+}

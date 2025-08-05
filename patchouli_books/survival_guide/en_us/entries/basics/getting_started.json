@@ -2,15 +2,11 @@
     "name": "Getting Started",
     "category": "basics",
     "icon": "minecraft:wooden_pickaxe",
+    "priority": true,
     "pages": [
         {
             "type": "text",
             "text": "Welcome to your survival guide! This book will help you learn everything you need to know to survive and thrive in this world. $(br2)Start by gathering some basic resources like wood and stone to craft your first tools."
-        },
-        {
-            "type": "crafting",
-            "recipe": "minecraft:crafting_table",
-            "text": "The crafting table is your most essential tool. It allows you to craft more complex items and tools."
         }
     ]
 }

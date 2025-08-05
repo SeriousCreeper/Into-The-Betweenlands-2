@@ -1,0 +1,43 @@
+{
+  "name": "Pit Kiln",
+  "category": "basics",
+  "icon": "pyrotech:kiln_pit",
+  "pages": [
+    {
+      "type": "spotlight",
+      "text": "The pit kiln is an early and rough way of refining certain items and blocks.$(br)Place the pit kiln block inside a 1 deep and wide hole.$(br2)Right click the item you want to process (up to a stack of 8).$(br2)Place thatch and logs on top, then set it on fire.",
+      "item": "pyrotech:kiln_pit",
+      "link_recipe": "true"
+    },
+    {
+      "type": "multiblock",
+      "text": "The glass block represents any solid block",
+      "multiblock": {
+        "mapping": {
+          "P": "pyrotech:kiln_pit",
+          "G": "thebetweenlands:silt_glass",
+          "D": "thebetweenlands:swamp_dirt"
+        },
+        "pattern": [
+          [
+            " G ",
+            "GPG",
+            " G "
+          ],
+          [
+            "   ",
+            " D ",
+            "   "
+          ],
+          [
+            "   ",
+            " 0 ",
+            "   "
+          ]
+        ]
+      },
+      "enable_visualize": "false"
+    }
+  ],
+  "sortnum": 5
+}

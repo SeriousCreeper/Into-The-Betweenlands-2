@@ -1,0 +1,64 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_curved.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 16,
+			"height": 16,
+			"scale": 1.5,
+			"x": 45,
+			"y": 25
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_curved.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 16,
+			"height": 16,
+			"scale": 1.5,
+			"x": 73,
+			"y": 45
+		},
+		{
+			"type": "image",
+			"image": "books:templates/fire.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 15,
+			"height": 15,
+			"scale": 1.5,
+			"x": 50,
+			"y": 45
+		},
+		{
+			"type": "item",
+			"item": "#input",
+			"framed": "true",
+			"x": 27,
+			"y": 30
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed": "true",
+			"link_recipe": true,
+			"x": 82,
+			"y": 70
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 5,
+			"y": 95
+		}
+	]
+}

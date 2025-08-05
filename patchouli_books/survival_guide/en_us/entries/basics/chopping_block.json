@@ -1,0 +1,14 @@
+{
+  "name": "Chopping Block",
+  "category": "basics",
+  "icon": "pyrotech:chopping_block",
+  "pages": [
+    {
+      "type": "spotlight",
+      "text": "Chopping blocks can be used to cut wooden parts into smaller pieces.$(br2)Right click the item onto the chopping block, then right click the block with your axe several times until the item has been processed.",
+      "item": "pyrotech:chopping_block",
+      "link_recipe": "true"
+    }
+  ],
+  "sortnum": 1
+}

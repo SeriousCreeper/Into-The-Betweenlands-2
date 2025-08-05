@@ -1,0 +1,38 @@
+{
+  "name": "Early Storage",
+  "category": "basics",
+  "icon": "pyrotech:crate",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A list of primitive but useful storage containers with their own unique purposes.$(br2)Sneaking while looking at an item inside a storage container shows how many of that item are available.$(br2)Using the scroll wheel while sneaking either adds or removes items."
+    },
+    {
+      "type": "crafting",
+      "text": "Stores up to 9 different item types.",
+      "recipe": "pyrotech:crate"
+    },
+    {
+      "type": "crafting",
+      "text": "Same as a crate, but can be placed against walls.",
+      "recipe": "pyrotech:shelf"
+    },
+    {
+      "type": "crafting",
+      "text": "Holds multiple stacks of one item or block type.",
+      "recipe": "pyrotech:stash"
+    },
+    {
+      "type": "crafting",
+      "text": "Stores up to 9 different types of logs.",
+      "recipe": "pyrotech:wood_rack"
+    },
+    {
+      "type": "crafting",
+      "text": "A basket can be placed in-world, or picked up with its contents.$(br)However, when picked up, it can only be placed inside the hotbar.$(br2)The bigger the basket, the more items and larger stacks it can hold.",
+      "title": "Baskets",
+      "recipe": "basketcase:basket_medium_generic"
+    }
+  ],
+  "sortnum": 4
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Assembler",
+  "category": "basics",
+  "icon": "rustichromia:assembler1",
+  "pages": [
+    {
+      "type": "spotlight",
+      "text": "More complicated machines and blocks need to be created in an assembler.$(br2)These mechanical crafters require a minimum (and sometimes maximum) amount of rotational power to function.",
+      "item": "rustichromia:assembler1",
+      "link_recipe": "true"
+    },
+    {
+      "type": "text",
+      "text": "One of the faces acts as the output, while the others act as the input.$(br2)Using hoppers or pipes, items can be piped into these slots.$(br2)The simple assmelber can only hold up to 4 different item types.$(br2)Right-click the assembler to select a recipe, otherwise it will craft whatever it can with the items available."
+    }
+  ],
+  "sortnum": 6
+}

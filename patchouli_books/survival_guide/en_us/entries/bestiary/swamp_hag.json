@@ -1,0 +1,23 @@
+{
+  "name": "Swamp Hag",
+  "category": "bestiary",
+  "icon": "betweencards:swamp_hag",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Spotted a Swamp Hag. Around 2.5 blocks tall, all bone and twisted, overgrown limbs. Glowing yellow eyes. It staggered as it moved — eerie, like it shouldn’t be walking at all.$(br2)Fights like a typical hostile mob, hits with average strength. Odd thing is, sometimes it doesn’t flinch when struck — seems to resist knockback now and then."
+    },
+    {
+      "type": "entity",
+      "entity": "thebetweenlands:swamp_hag"
+    },
+    {
+      "type": "mob_drops",
+      "title": "Item Drops",
+      "drop1": "thebetweenlands:items_misc:14",
+      "raredrop1": "thaumcraft:brain",
+      "raredrop2": "mod_lavacow:intestine"
+    }
+  ],
+  "sortnum": 6
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Goodbye and Good luck",
+    "category": "journal",
+    "icon": "minecraft:wooden_pickaxe",
+    "priority": true,
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Dear Friend,$(br2)I'm sorry I can't be there in person to send you off to your mission, but I have an urgent matter that I must attend to immediately.$(br2)As you are aware, we don't have much time before our world gets completely destroyed by whatever this dimensional $(5)corruption$() is. We have yet to find a suitable"
+        },
+        {
+            "type": "text",
+            "text": "world to move to, and quite frankly, we are running out of options. We don't have a lot of information on file about your destination, but we suspect this place to reside between other dimensions-- potentially out of reach from this corruption.$(br)I'm afraid that once you've reached the other side, we will have to cut the connection between our correspondence. Whatever new dimension that you might find, we cannot allow this corruption to follow you through!"
+        },
+        {
+            "type": "text",
+            "text": "But don't worry, I'm attaching a blueprint to this letter that can help you build a new device to contact us once you finish your evaluation of this new place that we hope humanity can call home.$(br2)I wish you great success on your mission! May we meet again soon!$(br2)Best of luck,$(br)Your friend"
+        }
+    ]
+}

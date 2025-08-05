@@ -1,0 +1,14 @@
+{
+  "name": "Hammers",
+  "category": "basics",
+  "icon": "pyrotech:crude_hammer",
+  "pages": [
+    {
+      "type": "spotlight",
+      "text": "Hammers have several uses, and the better the material, the longer they will last.",
+      "item": "pyrotech:crude_hammer",
+      "link_recipe": "true"
+    }
+  ],
+  "sortnum": 3
+}

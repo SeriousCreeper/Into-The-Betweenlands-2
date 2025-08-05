@@ -1,0 +1,90 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "Standard Drops:",
+			"guard": "#drop1->iexists",
+			"x": -1,
+			"y": 5
+		},
+		{
+			"type": "item",
+			"item": "#drop1",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#drop1->iexists",
+			"x": 10,
+			"y": 19
+		},
+		{
+			"type": "item",
+			"item": "#drop2",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#drop1->iexists",
+			"x": 35,
+			"y": 19
+		},
+		{
+			"type": "item",
+			"item": "#drop3",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#drop1->iexists",
+			"x": 60,
+			"y": 19
+		},
+		{
+			"type": "item",
+			"item": "#drop4",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#drop1->iexists",
+			"x": 85,
+			"y": 19
+		},
+		{
+			"type": "header",
+			"text": "Rare Drops:",
+			"guard": "#raredrop1->iexists",
+			"x": -1,
+			"y": 40
+		},
+		{
+			"type": "item",
+			"item": "#raredrop1",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#raredrop1->iexists",
+			"x": 10,
+			"y": 54
+		},
+		{
+			"type": "item",
+			"item": "#raredrop2",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#raredrop1->iexists",
+			"x": 35,
+			"y": 54
+		},
+		{
+			"type": "item",
+			"item": "#raredrop3",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#raredrop1->iexists",
+			"x": 60,
+			"y": 54
+		},
+		{
+			"type": "item",
+			"item": "#raredrop4",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#raredrop1->iexists",
+			"x": 85,
+			"y": 54
+		}
+	]
+}

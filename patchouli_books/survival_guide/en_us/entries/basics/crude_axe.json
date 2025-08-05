@@ -1,0 +1,14 @@
+{
+  "name": "Crude Axe",
+  "category": "basics",
+  "icon": "pyrotech:crude_axe",
+  "pages": [
+    {
+      "type": "spotlight",
+      "text": "A primitive axe that isn't very sturdy, but it gets the job done.",
+      "item": "pyrotech:crude_axe",
+      "link_recipe": "true"
+    }
+  ],
+  "sortnum": 0
+}

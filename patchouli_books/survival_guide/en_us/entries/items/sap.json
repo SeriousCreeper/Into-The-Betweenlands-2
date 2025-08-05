@@ -1,7 +1,6 @@
 {
   "name": "Decay",
   "category": "items",
-  "advancement": "itbl2:pebble",
   "icon": "thebetweenlands:sap_ball",
   "pages": [
     {
@@ -11,10 +10,11 @@
     {
       "type": "image",
       "images": [
-        "botania:textures/gui/entries/banners.png"
+        "ftbquests:textures/investigation_cragrock.png"
       ],
-      "border": true,
+      "border": false,
       "title": "Banners"
     }
-  ]
+  ],
+  "advancement": "itbl2:pebble"
 }

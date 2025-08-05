@@ -1,0 +1,24 @@
+{
+  "name": "Rotational Power",
+  "category": "basics",
+  "icon": "rustichromia:windmill",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Rotational power is the main method of powering a lot of machinery.$(br2)There are several ways to achieve this, which will be laid out here as i discover them."
+    },
+    {
+      "type": "spotlight",
+      "text": "The earlierst form of rotational power can be achieved with windmills.$(br2)The higher these are placed, the faster they can spin, producing more power.$(br2)Additional blades can be attached to speed them up as well.",
+      "item": "rustichromia:windmill",
+      "link_recipe": "true"
+    },
+    {
+      "type": "spotlight",
+      "text": "A ratiobox can transfer rotational power between windmill, axles, machines, etc.$(br2)Right-click any of it's faces with an axle to change the input/output mode.$(br2)Right-click it with an empty hand to specify its power distribution.",
+      "item": "rustichromia:ratiobox",
+      "link_recipe": "true"
+    }
+  ],
+  "sortnum": 7
+}

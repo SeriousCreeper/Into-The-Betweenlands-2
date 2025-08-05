@@ -1,0 +1,11 @@
+{
+  "name": "Arrival",
+  "category": "journal",
+  "icon": "thebetweenlands:items_misc:32",
+  "pages": [
+    {
+      "type": "text",
+      "text": "I've established a secure spot to catch my breath, which gives me the chance to document my experiences in this unfamiliar land.\\n\\nI was aware that swamps dominated the landscape here, yet seeing them with my own eyes is something else entirely.\\n\\nThe wildlife and plants don't seem too welcoming, but there's a certain charm to the place despite that.\\n\\nI'll need to be fully prepared before I explore more. This could be our last chance for a new beginning."
+    }
+  ]
+}
