@@ -20,5 +20,6 @@ config/loliasm/methods-stable_39.csv
 config/better_quest_popup/completed-cache
 config/activity.json
 resources/thaumcraft/textures/blocks/desktop.ini
-!items.csv
+!*.csv
 !*.py
+edited_page_text.csv

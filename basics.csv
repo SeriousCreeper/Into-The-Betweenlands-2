@@ -1,0 +1,102 @@
+file_name,item_id,icon,add_advancement,advancement_id,display_name,page_type,page_text,meta,title,border
+crude_axe,<pyrotech:crude_axe>,<pyrotech:crude_axe>,FALSE,,Crude Axe,spotlight,"A primitive axe that isn't very sturdy, but it gets the job done.",<pyrotech:crude_axe>,,FALSE
+chopping_block,<pyrotech:chopping_block>,<pyrotech:chopping_block>,FALSE,,Chopping Block,spotlight,"Chopping blocks can be used to cut wooden parts into smaller pieces.$(br2)Right click the item onto the chopping block, then right click the block with your axe several times until the item has been processed.",<pyrotech:chopping_block>,,FALSE
+work_table,<pyrotech:worktable>,<pyrotech:worktable>,FALSE,,Worktable,spotlight,"The worktable is a primitive version of the crafting table.$(br2)Items must be placed on the 9 slots by right-clicking them.$(br2)Once the correct items have been placed, use a $(l:basics/crude_hammer)hammer$() and right-click the top of the worktable to craft the item.",<pyrotech:worktable>,,FALSE
+,,,,,,text,Sneaking while looking at an item inside a storage container shows how many of that item are available.$(br2)Using the scroll wheel while sneaking either adds or removes items.,,,
+crude_hammer,<pyrotech:crude_hammer>,<pyrotech:crude_hammer>,FALSE,,Hammers,spotlight,"Hammers have several uses, and the better the material, the longer they will last.",<pyrotech:crude_hammer>,,FALSE
+early_storage,<pyrotech:crate>,<pyrotech:crate>,FALSE,,Early Storage,text,A list of primitive but useful storage containers with their own unique purposes.$(br2)Sneaking while looking at an item inside a storage container shows how many of that item are available.$(br2)Using the scroll wheel while sneaking either adds or removes items.,,,FALSE
+,,,FALSE,,,crafting,Stores up to 9 different item types.,<pyrotech:crate>,,FALSE
+,,,FALSE,,,crafting,"Same as a crate, but can be placed against walls.",<pyrotech:shelf>,,FALSE
+,,,FALSE,,,crafting,Holds multiple stacks of one item or block type.,<pyrotech:stash>,,FALSE
+,,,FALSE,,,crafting,Stores up to 9 different types of logs.,<pyrotech:wood_rack>,,FALSE
+,,,FALSE,,,crafting,"A basket can be placed in-world, or picked up with its contents.$(br)However, when picked up, it can only be placed inside the hotbar.$(br2)The bigger the basket, the more items and larger stacks it can hold.",<basketcase:basket_medium_generic>,Baskets,FALSE
+pit_kiln,<pyrotech:kiln_pit>,<pyrotech:kiln_pit>,FALSE,,Pit Kiln,spotlight,"The pit kiln is an early and rough way of refining certain items and blocks.$(br)Place the pit kiln block inside a 1 deep and wide hole.$(br2)Right click the item you want to process (up to a stack of 8).$(br2)Place thatch and logs on top, then set it on fire.",<pyrotech:kiln_pit>,,FALSE
+,,,FALSE,,,multiblock,The glass block represents any solid block,"{""mapping"":{""P"":""pyrotech:kiln_pit"",""G"":""thebetweenlands:silt_glass"",""D"":""thebetweenlands:swamp_dirt""},""pattern"":[["" G "",""GPG"","" G ""],[""   "","" D "",""   ""],[""   "","" 0 "",""   ""]]}",,FALSE
+assembler,<rustichromia:assembler1>,<rustichromia:assembler1>,FALSE,,Assembler,spotlight,More complicated machines and blocks need to be created in an assembler.$(br2)These mechanical crafters require a minimum (and sometimes maximum) amount of rotational power to function.,<rustichromia:assembler1>,,FALSE
+,,,FALSE,,,text,"One of the faces acts as the output, while the others act as the input.$(br2)Using hoppers or pipes, items can be piped into these slots.$(br2)The simple assmelber can only hold up to 4 different item types.$(br2)Right-click the assembler to select a recipe, otherwise it will craft whatever it can with the items available.",,,
+rotational_power,<rustichromia:windmill>,<rustichromia:windmill>,FALSE,,Rotational Power,text,"Rotational power is the main method of powering a lot of machinery.$(br2)There are several ways to achieve this, which will be laid out here as i discover them.",,,FALSE
+,,,FALSE,,,spotlight,"The earlierst form of rotational power can be achieved with windmills.$(br2)The higher these are placed, the faster they can spin, producing more power.$(br2)Additional blades can be attached to speed them up as well.",<rustichromia:windmill>,,FALSE
+,,,FALSE,,,spotlight,"A ratiobox can transfer rotational power between windmill, axles, machines, etc.$(br2)Right-click any of it's faces with an axle to change the input/output mode.$(br2)Right-click it with an empty hand to specify its power distribution.",<rustichromia:ratiobox>,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
+,,,FALSE,,,,,,,FALSE
