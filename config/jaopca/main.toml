@@ -25,21 +25,36 @@
 	#List of materials that should be crystals.
 	crystal = []
 	#List of materials that should be dusts.
-	dust = ["Redstone"]
+	dust = [
+		"Redstone"
+]
 	#List of materials that should be gems.
-	gem = ["Coal", "Diamond", "Emerald", "Lapis", "Prismarine", "Quartz"]
+	gem = [
+		"Coal",
+		"Diamond",
+		"Emerald",
+		"Lapis",
+		"Prismarine",
+		"Quartz"
+]
 #Configurations related to item selection.
 [itemSelection]
 	#List of mods that are preferred when selecting items in recipes.
-	preferredMods = ["minecraft", "jaopca"]
+	preferredMods = [
+		"minecraft",
+		"jaopca"
+]
 #Configurations related to the ore dictionary.
 [oredict]
 	#List of oredict modules that should not be registered.
 	moduleBlacklist = []
-	#List of custom oredict entries to add. Format: <mod:item@meta=oredict>
+	#List of custom oredict entries to add. Format: "namespace:item@meta=oredict"
 	custom = []
 	#List of oredict names that should not be added.
-	blacklist = ["nickel", "oreAluminum"]
+	blacklist = [
+		"nickel",
+		"oreAluminum"
+]
 #Configurations related to recipes.
 [recipes]
 	#List of recipes that should not be added.

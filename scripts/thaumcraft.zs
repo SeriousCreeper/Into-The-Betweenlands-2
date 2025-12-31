@@ -1143,8 +1143,8 @@ Crucible.removeRecipe(<minecraft:glowstone_dust>);
 Crucible.removeRecipe(<minecraft:clay_ball>);
 Crucible.removeRecipe(<minecraft:string>);
 Crucible.removeRecipe(<minecraft:lava_bucket>);
-Crucible.removeRecipe(<jaopca:thaumcraft_cluster.aluminum>);
-Crucible.removeRecipe(<jaopca:thaumcraft_cluster.nickel>);
+Crucible.removeRecipe(<congregamystica:cluster_aluminum>);
+Crucible.removeRecipe(<congregamystica:cluster_nickel>);
 
 /*
 Crucible.removeRecipe(<thaumcraft:nitor_yellow>);
