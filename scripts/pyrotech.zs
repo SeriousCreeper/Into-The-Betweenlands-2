@@ -823,7 +823,6 @@ brickSawmillRecipeBuilder("sheetmetal_slab_3", <immersiveengineering:sheetmetal_
 brickSawmillRecipeBuilder("sheetmetal_slab_2", <immersiveengineering:sheetmetal_slab:2>, <immersiveengineering:sheetmetal:2>, 2, 2, false);
 brickSawmillRecipeBuilder("sheetmetal_slab_1", <immersiveengineering:sheetmetal_slab:1>, <immersiveengineering:sheetmetal:1>, 2, 2, false);
 brickSawmillRecipeBuilder("sheetmetal_slab_0", <immersiveengineering:sheetmetal_slab:0>, <immersiveengineering:sheetmetal:0>, 2, 2, false);
-brickSawmillRecipeBuilder("stone_decoration_slab_10", <immersiveengineering:stone_decoration_slab:10>, <immersiveengineering:stone_decoration:10>, 2, 2, false);
 brickSawmillRecipeBuilder("stone_decoration_slab_7", <immersiveengineering:stone_decoration_slab:7>, <immersiveengineering:stone_decoration:7>, 2, 2, false);
 brickSawmillRecipeBuilder("stone_decoration_slab_6", <immersiveengineering:stone_decoration_slab:6>, <immersiveengineering:stone_decoration:6>, 2, 2, false);
 brickSawmillRecipeBuilder("stone_decoration_slab_5", <immersiveengineering:stone_decoration_slab:5>, <immersiveengineering:stone_decoration:5>, 2, 2, false);
@@ -831,14 +830,6 @@ brickSawmillRecipeBuilder("stone_decoration_slab_4", <immersiveengineering:stone
 brickSawmillRecipeBuilder("stone_decoration_slab_2", <immersiveengineering:stone_decoration_slab:2>, <immersiveengineering:stone_decoration:2>, 2, 2, false);
 brickSawmillRecipeBuilder("stone_decoration_slab_1", <immersiveengineering:stone_decoration_slab:1>, <immersiveengineering:stone_decoration:1>, 2, 2, false);
 brickSawmillRecipeBuilder("storage_slab_8", <immersiveengineering:storage_slab:8>, <immersiveengineering:storage:8>, 2, 2, false);
-brickSawmillRecipeBuilder("storage_slab_7", <immersiveengineering:storage_slab:7>, <immersiveengineering:storage:7>, 2, 2, false);
-brickSawmillRecipeBuilder("storage_slab_6", <immersiveengineering:storage_slab:6>, <immersiveengineering:storage:6>, 2, 2, false);
-brickSawmillRecipeBuilder("storage_slab_5", <immersiveengineering:storage_slab:5>, <immersiveengineering:storage:5>, 2, 2, false);
-brickSawmillRecipeBuilder("storage_slab_4", <immersiveengineering:storage_slab:4>, <immersiveengineering:storage:4>, 2, 2, false);
-brickSawmillRecipeBuilder("storage_slab_3", <immersiveengineering:storage_slab:3>, <immersiveengineering:storage:3>, 2, 2, false);
-brickSawmillRecipeBuilder("storage_slab_2", <immersiveengineering:storage_slab:2>, <immersiveengineering:storage:2>, 2, 2, false);
-brickSawmillRecipeBuilder("storage_slab_1", <immersiveengineering:storage_slab:1>, <immersiveengineering:storage:1>, 2, 2, false);
-brickSawmillRecipeBuilder("storage_slab_0", <immersiveengineering:storage_slab:0>, <immersiveengineering:storage:0>, 2, 2, false);
 
 slabRecipe("boards", <pyrotech:material:20>, <ore:slabWood>, 1, 2, 3); // boards
 stoneSawmillRecipeBuilder("treated_boards", <pyrotech:material:23>, <pyrotech:planks_tarred>, 1, 2, 3); // tarred boards

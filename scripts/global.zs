@@ -358,12 +358,33 @@ oreNSWebs.add(<thebetweenlands:dead_lichen>);
 // Immersive Engineering
 <ore:ingotLead>.remove(<immersiveengineering:metal:2>);
 <ore:ingotSilver>.remove(<immersiveengineering:metal:3>);
+<ore:ingotUranium>.remove(<immersiveengineering:metal:5>);
+<ore:ingotConstantan>.remove(<immersiveengineering:metal:6>);
+
 <ore:nuggetIron>.remove(<immersiveengineering:metal:29>);
 <ore:nuggetLead>.remove(<immersiveengineering:metal:22>);
+<ore:nuggetSilver>.remove(<immersiveengineering:metal:23>);
+<ore:nuggetUranium>.remove(<immersiveengineering:metal:25>);
+<ore:nuggetConstantan>.remove(<immersiveengineering:metal:26>);
+
 <ore:plateLead>.remove(<immersiveengineering:metal:32>);
 <ore:plateSilver>.remove(<immersiveengineering:metal:33>);
 <ore:plateIron>.remove(<immersiveengineering:metal:39>);
 <ore:plateGold>.remove(<immersiveengineering:metal:40>);
+<ore:plateUranium>.remove(<immersiveengineering:metal:35>);
+<ore:plateConstantan>.remove(<immersiveengineering:metal:36>);
+
+<ore:dustCopper>.remove(<immersiveengineering:metal:9>);
+<ore:dustAluminum>.remove(<immersiveengineering:metal:10>);
+<ore:dustAluminium>.remove(<immersiveengineering:metal:10>);
+<ore:dustLead>.remove(<immersiveengineering:metal:11>);
+<ore:dustSilver>.remove(<immersiveengineering:metal:12>);
+<ore:dustNickel>.remove(<immersiveengineering:metal:13>);
+<ore:dustUranium>.remove(<immersiveengineering:metal:14>);
+<ore:dustConstantan>.remove(<immersiveengineering:metal:15>);
+<ore:dustElectrum>.remove(<immersiveengineering:metal:16>);
+<ore:dustGold>.remove(<immersiveengineering:metal:19>);
+
 
 
 <ore:rock>.add(<thebetweenlands:items_misc:50>);
@@ -890,6 +911,26 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:dustGlowstone>.add(<arcanearchives:radiant_dust>);
 
 <ore:barsIron>.add(<betweenlandsredstone:syrmorite_bars>);
+
+<ore:blockCopper>.remove(<immersiveengineering:storage:0>);
+<ore:blockAluminum>.remove(<immersiveengineering:storage:1>);
+<ore:blockAluminium>.remove(<immersiveengineering:storage:1>);
+<ore:blockLead>.remove(<immersiveengineering:storage:2>);
+<ore:blockSilver>.remove(<immersiveengineering:storage:3>);
+<ore:blockNickel>.remove(<immersiveengineering:storage:4>);
+<ore:blockUranium>.remove(<immersiveengineering:storage:5>);
+<ore:blockConstantan>.remove(<immersiveengineering:storage:6>);
+<ore:blockElectrum>.remove(<immersiveengineering:storage:7>);
+
+<ore:slabCopper>.remove(<immersiveengineering:storage_slab>);
+<ore:slabAluminum>.remove(<immersiveengineering:storage_slab:1>);
+<ore:slabAluminium>.remove(<immersiveengineering:storage_slab:1>);
+<ore:slabLead>.remove(<immersiveengineering:storage_slab:2>);
+<ore:slabSilver>.remove(<immersiveengineering:storage_slab:3>);
+<ore:slabNickel>.remove(<immersiveengineering:storage_slab:4>);
+<ore:slabUranium>.remove(<immersiveengineering:storage_slab:5>);
+<ore:slabConstantan>.remove(<immersiveengineering:storage_slab:6>);
+<ore:slabElectrum>.remove(<immersiveengineering:storage_slab:7>);
 
 
 
