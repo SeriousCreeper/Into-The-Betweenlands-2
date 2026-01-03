@@ -224,7 +224,7 @@ scripts.utils.addShaped("tinker_lens", <embers:tinker_lens>, [
 
 recipes.remove(<embers:spark_plug>);
 scripts.utils.addShaped("spark_plug", <embers:spark_plug>, [
-	[<ore:ingotAluminium>, null, <ore:ingotAluminium>], 
+	[<ore:ingotSilver>, null, <ore:ingotSilver>], 
 	[null, <ore:plateSyrmorite>, null], 
 	[null, <embers:aspectus_silver:*>, null]
 ]);
@@ -652,6 +652,7 @@ Stamper.remove(<immersiveengineering:metal:40>);
 Stamper.remove(<immersiveengineering:metal:32>);
 Stamper.remove(<immersiveengineering:metal:33>);
 Stamper.remove(<immersiveengineering:metal:30>);
+Stamper.remove(<immersiveengineering:material:3>);
 
 Stamper.remove(<embers:aspectus_iron>);
 Stamper.add(<embers:aspectus_iron>, <liquid:syrmorite> * 144, <embers:stamp_plate>, <embers:shard_ember>);
@@ -691,18 +692,19 @@ Stamper.add(<roots:iron_knife>, <liquid:octine> * 288, <embers:stamp_flat>, <roo
 //Stamper.add(<pyrotech:tongs_gold>, <liquid:octine> * 432, <embers:stamp_flat>, <pyrotech:tongs_bone>);
 Stamper.add(<thebetweenlands:items_misc:32>, null, <embers:stamp_flat>, <pyrotech:material:25>);
 
-
-
 // Bullet mold
 Stamper.add(<immersiveengineering:bullet> * 2, <liquid:octine> * 144, <immersiveengineering:mold:3>);
 
 // Wires mold
-Stamper.add(<alternatingflux:material> * 2, <liquid:constantan> * 144, <immersiveengineering:mold:4>);
-Stamper.add(<immersiveengineering:material:20> * 2, <liquid:octine> * 144, <immersiveengineering:mold:4>);
-Stamper.add(<immersiveengineering:material:21> * 2, <liquid:electrum> * 144, <immersiveengineering:mold:4>);
-Stamper.add(<immersiveengineering:material:22> * 2, <liquid:aluminum> * 144, <immersiveengineering:mold:4>);
-Stamper.add(<immersiveengineering:material:23> * 2, <liquid:steel> * 144, <immersiveengineering:mold:4>);
+Stamper.add(<alternatingflux:material>, <liquid:constantan> * 72, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:20>, <liquid:octine> * 72, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:21>, <liquid:dawnstone> * 72, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:22>, <liquid:silver> * 72, <immersiveengineering:mold:4>);
+Stamper.add(<immersiveengineering:material:23>, <liquid:steel> * 72, <immersiveengineering:mold:4>);
 Stamper.add(<immersiveengineering:graphite_electrode>, null, <immersiveengineering:mold:2>,<immersiveengineering:material:19> * 4);
+
+// Rod mold
+Stamper.add(<immersiveengineering:material:3>, <liquid:silver> * 72, <embers:stamp_rod>);
 
 
 
