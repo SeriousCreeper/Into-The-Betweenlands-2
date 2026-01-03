@@ -7,6 +7,8 @@ import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Blueprint;
 import mods.immersiveengineering.BottlingMachine;
 import mods.immersiveengineering.Squeezer;
+import mods.immersiveengineering.Crusher;
+import mods.immersiveengineering.Fermenter;
 
 val itemsToRemove as IItemStack[] = [
 	<immersiveengineering:ore>,
@@ -592,6 +594,9 @@ scripts.utils.replaceShaped("blueprints/components", <immersiveengineering:bluep
 
 // SQUEEZER RECIPES
 var defaultAspectrusPower = 2048;
+Squeezer.removeAll();
+Squeezer.addRecipe(null, <liquid:plantoil> * 120, <immersiveengineering:seed>, defaultAspectrusPower);
+
 Squeezer.addRecipe(null, <liquid:armaniis> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Armaniis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
 Squeezer.addRecipe(null, <liquid:azuwynn> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Azuwynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
 Squeezer.addRecipe(null, <liquid:byariis> * 250, <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Byariis"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), defaultAspectrusPower);
@@ -611,6 +616,12 @@ Squeezer.addRecipe(null, <liquid:yunugaz> * 250, <thebetweenlands:aspectrus_frui
 
 Squeezer.addRecipe(null, <liquid:fluid_booze_purple_juice> * 40, <thebetweenlands:middle_fruit>, defaultAspectrusPower);
 Squeezer.addRecipe(<growthcraft_bees:honey_comb_empty>, <liquid:fluid_honey> * 160, <growthcraft_bees:honey_comb_filled>, defaultAspectrusPower);
+
+
+// FERMENTER RECIPES
+Fermenter.removeAll();
+Fermenter.addRecipe(null, <liquid:ethanol> * 80, <thebetweenlands:middle_fruit>, 2048);
+
 
 
 
@@ -790,6 +801,19 @@ BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAsp
 BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yeowynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:yeowynn> * 250);
 BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yihinren"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:yihinren> * 250);
 BottlingMachine.addRecipe(<thebetweenlands:aspect_vial:1>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Yunugaz"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}), <thebetweenlands:dentrothyst_vial:2>, <liquid:yunugaz> * 250);
+
+// Crusher - Doesn't break down anything that requires precision, like plants
+Crusher.removeAll();
+// limestone
+// loot scrap
+// runestone
+// anything that turns into dyes, but without the middle product
+// things that break into dentrothyst slivers
+// cobble into ground pebbles
+// anvil recipes that break down stuff using the hammer
+// valonite into shards
+// something to turn into silt?
+
 
 
 <immersiveengineering:stone_decoration:2>.displayName = "Reinforced Archaic Bricks";

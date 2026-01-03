@@ -172,18 +172,20 @@ Recipes.setRecipeStageByMod("unstaged", "arcaneworld");
 ItemStages.stageModItems("unstaged", "arcaneworld");
 
 
+IEMultiBlockStages.addStage("removed", "IE:Assembler", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IE:CokeOven", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IE:AlloySmelter", "This multiblock is not available.");
-IEMultiBlockStages.addStage(stageTechnology, "IE:BlastFurnace", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IE:MetalPress", "This multiblock is not available.");
-IEMultiBlockStages.addStage(stageTechnology, "IE:Mixer", "This multiblock is not available.");
-IEMultiBlockStages.addStage(stageTechnology, "IE:Squeezer", "This multiblock is not available.");
-IEMultiBlockStages.addStage(stageTechnology, "IE:Fermenter", "This multiblock is not available.");
-IEMultiBlockStages.addStage(stageTechnology, "IE:Refinery", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IE:DieselGenerator", "This multiblock is not available.");
-IEMultiBlockStages.addStage(stageTechnology, "IE:ArcFurnace", "This multiblock is not available.");
-IEMultiBlockStages.addStage("removed", "IP:DistillationTower", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IP:Pumpjack", "This multiblock is not available.");
+IEMultiBlockStages.addStage("removed", "IP:DistillationTower", "This multiblock is not available.");
+IEMultiBlockStages.addStage(stageTechnology, "IE:Crusher", "I'm not sure how to use this yet...");
+IEMultiBlockStages.addStage(stageTechnology, "IE:BlastFurnace", "I'm not sure how to use this yet...");
+IEMultiBlockStages.addStage(stageTechnology, "IE:Mixer", "I'm not sure how to use this yet...");
+IEMultiBlockStages.addStage(stageTechnology, "IE:Squeezer", "I'm not sure how to use this yet...");
+IEMultiBlockStages.addStage(stageTechnology, "IE:Fermenter", "I'm not sure how to use this yet...");
+IEMultiBlockStages.addStage(stageTechnology, "IE:Refinery", "I'm not sure how to use this yet...");
+IEMultiBlockStages.addStage(stageTechnology, "IE:ArcFurnace", "I'm not sure how to use this yet...");
 
 
 function stageMods(modID as string, stageID as string, itemsToKeep as IItemStack[]) {
