@@ -16,7 +16,7 @@ scripts.utils.addShaped("aetherium_lens", <aetherworks:item_resource:2>, [
 recipes.remove(<aetherworks:forge_component:3>);
 scripts.utils.addShaped("heat_vent", <aetherworks:forge_component:3>, [
 	[<ore:plateGold>, <ore:plateIron>, <ore:plateGold>], 
-	[<ore:plateIron>, <minecraft:iron_bars>, <ore:plateIron>], 
+	[<ore:plateIron>, <ore:barsIron>, <ore:plateIron>], 
 	[<ore:plateGold>, <ore:plateIron>, <ore:plateGold>]
 ]);
 

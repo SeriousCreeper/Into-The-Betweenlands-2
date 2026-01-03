@@ -192,7 +192,7 @@ scripts.utils.addShaped("ashen_cloak_head", <embers:ashen_cloak_head>, [
 recipes.remove(<embers:glimmer_lamp>);
 scripts.utils.addShaped("glimmer_lamp", <embers:glimmer_lamp>.withTag({light: 1200}), [
 	[null, <ore:plateSyrmorite>, null], 
-	[<minecraft:iron_bars>, <embers:glimmer_shard>, <minecraft:iron_bars>], 
+	[<ore:barsIron>, <embers:glimmer_shard>, <ore:barsIron>], 
 	[null, <ore:plateSyrmorite>, null]
 ]);
 
@@ -694,7 +694,7 @@ Stamper.add(<thebetweenlands:items_misc:32>, null, <embers:stamp_flat>, <pyrotec
 
 
 // Bullet mold
-Stamper.add(<immersiveengineering:bullet>, <liquid:octine> * 144, <immersiveengineering:mold:3>);
+Stamper.add(<immersiveengineering:bullet> * 2, <liquid:octine> * 144, <immersiveengineering:mold:3>);
 
 // Wires mold
 Stamper.add(<alternatingflux:material> * 2, <liquid:constantan> * 144, <immersiveengineering:mold:4>);
@@ -804,6 +804,11 @@ boresetTCCrystals.addOutput((<thaumcraft:crystal_essence>.withTag({Aspects: [{am
 
 scripts.utils.addInfoTooltip(<thebetweenlands:items_misc:45>, "Can be used as Embers fuel");
 scripts.utils.addInfoTooltip(<embers:ember_bore>, "Has to be placed in the pitstone layers");
+
+scripts.utils.addInfoTooltip(<embers:ingot_aluminum>, "No longer used, replaced with Mirrium");
+scripts.utils.addInfoTooltip(<embers:ingot_copper>, "No longer used, replaced with Octine");
+scripts.utils.addInfoTooltip(<embers:ingot_nickel>, "No longer used, replaced with Gloomsilver");
+
 
 
 <embers:plate_iron>.displayName = "Wrought Iron Plate";

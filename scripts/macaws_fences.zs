@@ -13,7 +13,7 @@ function addStoneFences(name as string, result as IItemStack, bottomBlock as IIn
 function addStoneRailings(name as string, result as IItemStack, bottomBlock as IIngredient) {
 	recipes.remove(result);
 	scripts.utils.addShaped(name, result * 6, [
-		[bottomBlock, <minecraft:iron_bars>, bottomBlock], 
+		[bottomBlock, <ore:barsIron>, bottomBlock], 
 		[bottomBlock, bottomBlock, bottomBlock]
 	]);
 }
@@ -86,7 +86,7 @@ for wood in fenceWoodTypes {
 
 	itemName = itemUtils.getItem("mcwfences:" ~ wood ~ "_wired_fence");
 	recipes.remove(itemName);
-	scripts.utils.addShaped(wood ~ "_wired_fence", itemName * 3, [[<ore:stickWood>, <minecraft:iron_bars>, <ore:stickWood>], [<ore:stickWood>, fenceWoodTypes[wood].log, <ore:stickWood>]]);
+	scripts.utils.addShaped(wood ~ "_wired_fence", itemName * 3, [[<ore:stickWood>, <ore:barsIron>, <ore:stickWood>], [<ore:stickWood>, fenceWoodTypes[wood].log, <ore:stickWood>]]);
 }
 
 

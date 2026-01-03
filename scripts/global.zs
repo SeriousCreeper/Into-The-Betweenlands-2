@@ -889,6 +889,8 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 
 <ore:dustGlowstone>.add(<arcanearchives:radiant_dust>);
 
+<ore:barsIron>.add(<betweenlandsredstone:syrmorite_bars>);
+
 
 
 // Item Stack Sizes

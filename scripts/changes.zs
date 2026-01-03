@@ -360,8 +360,8 @@ scripts.utils.addShaped("platforms-platformer-modified", <platforms:platform:50>
 recipes.remove(<platforms:wrench>);
 scripts.utils.addShaped("platforms-wrench-modified", <platforms:wrench>, [
 	[null, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>], 
-	[null, <minecraft:iron_bars>, null], 
-	[<minecraft:iron_bars>, null, null]
+	[null, <ore:barsIron>, null], 
+	[<ore:barsIron>, null, null]
 ]);
 
 

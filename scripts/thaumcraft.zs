@@ -488,7 +488,7 @@ ArcaneWorkbench.registerShapedRecipe("arcanespa", "ARCANESPA@2", 50, [
 ], 
 <thaumcraft:spa>, 
 [
-	[<thebetweenlands:polished_limestone>, <minecraft:iron_bars>, <thebetweenlands:polished_limestone>], 
+	[<thebetweenlands:polished_limestone>, <ore:barsIron>, <thebetweenlands:polished_limestone>], 
 	[<thaumcraft:stone_arcane>, <thaumcraft:jar_normal>, <thaumcraft:stone_arcane>], 
 	[<thaumcraft:stone_arcane>, <thaumcraft:mechanism_simple>, <thaumcraft:stone_arcane>]
 ]);

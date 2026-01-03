@@ -406,8 +406,11 @@ Assembler.add("ferment_barrel", 1, [
 ], defaultLower, defaultUpper, defaultAssemblerTime);
 
 
-// Tier 2
 
+// --------------------------------------------------------------
+
+
+// Tier 2
 recipes.remove(<rustichromia:windmill_big>);
 Assembler.add("windmill_big", 2, [
     <rustichromia:windmill_blade> * 4,
@@ -701,6 +704,32 @@ Assembler.add("stone_valve", 2, [
 ], [
     <embers:stone_valve>
 ], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<immersiveengineering:material:8>);
+Assembler.add("iron_mechanical_component", 2, [
+    <embers:plate_iron> * 2,
+    <thebetweenlands:octine_ingot>
+], [
+    <immersiveengineering:material:8>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<immersiveengineering:material:9>);
+Assembler.add("steel_mechanical_component", 2, [
+    <immersiveengineering:metal:38> * 2,
+    <thebetweenlands:octine_ingot>
+], [
+    <immersiveengineering:material:9>
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+recipes.remove(<immersiveengineering:wirecoil>);
+Assembler.add("octine_wirecoil", 2, [
+    <immersiveengineering:material:20> * 4,
+    <immersiveengineering:material>
+], [
+    <immersiveengineering:wirecoil> * 2
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+
 
 
 
