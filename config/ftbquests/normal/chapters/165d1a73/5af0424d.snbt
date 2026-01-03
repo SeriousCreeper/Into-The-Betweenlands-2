@@ -17,6 +17,7 @@
 		uid: "a783ca60",
 		type: "advancement",
 		title: "Advancement: Staring Contest",
+		icon: "thebetweenlands:sapling_spirit_tree",
 		disable_toast: true,
 		advancement: "thebetweenlands:fighter/illegal_logging",
 		criterion: ""

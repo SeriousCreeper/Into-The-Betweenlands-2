@@ -1,0 +1,11 @@
+{
+	x: -4.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "63516160",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}]
+	}]
+}
