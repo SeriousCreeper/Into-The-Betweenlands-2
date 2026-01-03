@@ -35,6 +35,21 @@ function addShapedMirrored(name as string, output as IItemStack, input as IIngre
 	//ArcaneWorkbench.registerShapedRecipe(name, "", 0, [], output, input);
 }
 
+function replaceShapeless(name as string, output as IItemStack, input as IIngredient[]) {
+	recipes.remove(output);
+	addShapeless(name, output, input);
+}
+
+function replaceShaped(name as string, output as IItemStack, input as IIngredient[][]) {
+	recipes.remove(output);
+	addShaped(name, output, input);
+}
+
+function replacehapedMirrored(name as string, output as IItemStack, input as IIngredient[][]) {
+	recipes.remove(output);
+	addShapedMirrored(name, output, input);
+}
+
 function addShapedWT(name as string, stage as string, output as IItemStack, input as IIngredient[][]) {
 	recipes.addShaped(name, output, input);
 
