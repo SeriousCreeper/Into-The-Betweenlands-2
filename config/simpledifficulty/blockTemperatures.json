@@ -1,4 +1,10 @@
 {
+  "rustic:candle_gold": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
   "pyrotech:brick_crucible": [
     {
       "properties": {
@@ -161,6 +167,12 @@
         "variant": "LIT"
       },
       "temperature": 7.0
+    }
+  ],
+  "rustic:candle": [
+    {
+      "properties": {},
+      "temperature": 1.0
     }
   ]
 }

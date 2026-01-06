@@ -1,4 +1,12 @@
 {
+  "rustic:candle_gold": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
   "minecraft:magma": [
     {
       "identity": {
@@ -8,6 +16,14 @@
     }
   ],
   "minecraft:torch": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "rustic:candle": [
     {
       "identity": {
         "metadata": -1
