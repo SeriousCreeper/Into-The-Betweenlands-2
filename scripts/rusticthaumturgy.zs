@@ -1,12 +1,6 @@
 import crafttweaker.item.IItemStack;
 import mods.thaumcraft.Infusion;
 
-scripts.utils.removeAll([
-    <congregamystica:cindermote>,
-    <congregamystica:viscap>,
-    <congregamystica:shimmerdew_bulb>,
-]);
-
 recipes.remove(<congregamystica:candle_brass>);
 scripts.utils.addShaped("brass_candle_tallow", <congregamystica:candle_brass> * 4, [
     [<ore:candles>], 
