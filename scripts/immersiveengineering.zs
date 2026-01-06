@@ -9,6 +9,7 @@ import mods.immersiveengineering.BottlingMachine;
 import mods.immersiveengineering.Squeezer;
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.Fermenter;
+import mods.immersiveengineering.AlloySmelter;
 
 val itemsToRemove as IItemStack[] = [
 	<immersiveengineering:ore>,
@@ -89,6 +90,8 @@ val itemsToRemove as IItemStack[] = [
 	<immersiveengineering:metal:36>,
 	<immersiveengineering:metal:26>,
 	<immersiveengineering:sheetmetal:3>,
+	<immersiveengineering:sheetmetal>,
+	<immersiveengineering:sheetmetal:4>,
 ] as IItemStack[];
 
 for item in itemsToRemove {
@@ -821,6 +824,10 @@ Crusher.removeAll();
 // anvil recipes that break down stuff using the hammer
 // valonite into shards
 // something to turn into silt?
+
+
+
+AlloySmelter.removeAll();
 
 
 
