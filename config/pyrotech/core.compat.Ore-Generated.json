@@ -146,8 +146,7 @@
         "betweenores:tile.betweenores.silver_ore"
       ],
       "output": [
-        "embers:nugget_silver:0",
-        "immersiveengineering:metal:23"
+        "embers:nugget_silver:0"
       ],
       "bloomYieldMinMax": [
         12,
@@ -182,23 +181,6 @@
       ],
       "output": [
         "embers:nugget_tin:0"
-      ],
-      "bloomYieldMinMax": [
-        12,
-        15
-      ],
-      "slagBloomYieldMinMax": [
-        12,
-        15
-      ]
-    },
-    "oreUranium": {
-      "slagColor": "5c734b",
-      "langKey": [
-        "immersiveengineering:tile.immersiveengineering.ore.uranium"
-      ],
-      "output": [
-        "immersiveengineering:metal:25"
       ],
       "bloomYieldMinMax": [
         12,
