@@ -116,6 +116,9 @@ val wormholeItemsNotToStage = [
 ] as IItemStack[];
 
 val ieItemsNotToStage = [
+	<immersiveengineering:connector:6>,
+	<immersiveengineering:wirecoil:3>,
+	<immersiveengineering:skyhook>
 ] as IItemStack[];
 
 val botaniaItemsNotToStage = [
