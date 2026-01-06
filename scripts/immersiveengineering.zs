@@ -84,7 +84,11 @@ val itemsToRemove as IItemStack[] = [
 	<immersiveposts:fence_copper>,
 	<immersiveposts:metal_rods:1>,
 	<immersiveengineering:wooden_device1>,
-	<immersiveengineering:wooden_device0:0>
+	<immersiveengineering:wooden_device0:0>,
+	<immersiveengineering:metal:6>,
+	<immersiveengineering:metal:36>,
+	<immersiveengineering:metal:26>,
+	<immersiveengineering:sheetmetal:3>,
 ] as IItemStack[];
 
 for item in itemsToRemove {
@@ -328,8 +332,8 @@ scripts.utils.addShaped("tool/skyhook", <immersiveengineering:skyhook>, [
 
 recipes.remove(<immersiveengineering:connector:6>);
 scripts.utils.addShaped("connectors/connector_structural", <immersiveengineering:connector:6> * 8, [
-	[<ore:ingotSilver>, <ore:nuggetSilver>, <ore:ingotSilver>], 
-	[<ore:ingotSilver>, null, <ore:ingotSilver>]
+	[<ore:ingotSyrmorite>, <ore:nuggetSyrmorite>, <ore:ingotSyrmorite>], 
+	[<ore:ingotSyrmorite>, null, <ore:ingotSyrmorite>]
 ]);
 
 scripts.utils.addShaped("hemp_coil", <immersiveengineering:wirecoil:3> * 4, [
@@ -588,7 +592,11 @@ scripts.utils.replaceShaped("blueprints/components", <immersiveengineering:bluep
 	[<thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_misc:32>]
 ]);
 
-
+scripts.utils.replaceShaped("sheetmetal/aluminum_sheetmetal", <immersiveengineering:sheetmetal:1> * 4, [
+	[null, <ore:plateSilver>, null], 
+	[<ore:plateSilver>, null, <ore:plateSilver>], 
+	[null, <ore:plateSilver>, null]
+]);
 
 
 
@@ -841,6 +849,18 @@ Crusher.removeAll();
 <immersiveengineering:metal_decoration1:4>.displayName = "Mirrium Fence";
 <immersiveengineering:metal_decoration1:5>.displayName = "Mirrium Scaffolding";
 <immersiveengineering:metal_decoration2:3>.displayName = "Mirrium Wallmount";
+<immersiveengineering:sheetmetal:1>.displayName = "Mirrium Sheetmetal";
+<immersiveengineering:sheetmetal_slab:1>.displayName = "Mirrium Sheetmetal Slab";
+<immersiveengineering:metal_decoration1:6>.displayName = "Mirrium Scaffolding";
+<immersiveengineering:metal_decoration1:7>.displayName = "Mirrium Scaffolding";
+<immersiveengineering:metal_decoration2:8>.displayName = "Mirrium Structural Arm";
+<immersiveengineering:metal_decoration1_slab:5>.displayName = "Mirrium Scaffolding Slab";
+<immersiveengineering:metal_decoration1_slab:6>.displayName = "Mirrium Scaffolding Slab";
+<immersiveengineering:metal_decoration1_slab:7>.displayName = "Mirrium Scaffolding Slab";
+<immersiveengineering:aluminum_scaffolding_stairs0>.displayName = "Mirrium Scaffolding Stairs";
+<immersiveengineering:aluminum_scaffolding_stairs1>.displayName = "Mirrium Scaffolding Stairs";
+<immersiveengineering:aluminum_scaffolding_stairs2>.displayName = "Mirrium Scaffolding Stairs";
+
 
 //val platesToReplace = {
 //	<immersiveengineering:metal:30> : <immersiveengineering:metal:0>, 
