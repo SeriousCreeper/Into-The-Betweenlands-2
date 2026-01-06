@@ -729,6 +729,147 @@ Assembler.add("octine_wirecoil", 2, [
     <immersiveengineering:wirecoil> * 2
 ], assembler2Lower, assembler2Upper, defaultAssemblerTime);
 
+Assembler.add("ie_capsule_mixer", 2, [
+    <immersiveengineering:metal_decoration0:4> * 4,
+    <immersiveengineering:metal_device1:6> * 3,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration1>,
+    <immersiveengineering:metal_decoration1:1> * 5,
+    <immersiveengineering:sheetmetal:9> * 4,
+], [
+    <capsule:capsule:5>.withTag({size: 3, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-mixer", display: {color: 7105644}, label: "Mixer", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_lightningrod", 2, [
+    <immersiveengineering:metal_decoration1:1> * 4,
+    <immersiveengineering:metal_device0:2> * 4,
+    <immersiveengineering:wooden_decoration> * 4,
+    <immersiveengineering:metal_decoration0> * 8,
+    <immersiveengineering:metal_decoration0:2> * 3,
+    <immersiveengineering:metal_decoration0:4> * 4,
+], [
+    <capsule:capsule:5>.withTag({size: 3, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-lightningrod", display: {color: 7105644}, label: "Lightning Rod", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_arcfurnace", 2, [
+    <immersiveengineering:storage:8> * 6,
+    <immersiveengineering:metal_decoration1:1> * 5,
+    <thaumcraft:crucible>,
+    <immersiveengineering:stone_decoration:2> * 27,
+    <immersiveengineering:sheetmetal_slab:8> * 14,
+    <immersiveengineering:sheetmetal:8> * 8,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:5> * 5,
+    <immersiveengineering:metal_decoration0:4> * 10,
+], [
+    <capsule:capsule:5>.withTag({size: 3, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-arcfurnace", display: {color: 7105644}, label: "Arc Furnace", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_excavator", 2, [
+    <immersiveengineering:metal_decoration0:7> * 3,
+    <immersiveengineering:storage:8> * 9,
+    <immersiveengineering:metal_decoration1:1> * 26,
+    <immersiveengineering:sheetmetal:8> * 15,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:5> * 5,
+    <immersiveengineering:metal_decoration0:4> * 9,
+], [
+    <capsule:capsule:5>.withTag({size: 9, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-excavatordemo", display: {color: 7105644}, label: "Excavator", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_dieselgenerator", 2, [
+    <immersiveengineering:metal_decoration0:7> * 9,
+    <immersiveengineering:metal_decoration0:6> * 4,
+    <immersiveengineering:metal_device1:6> * 5,
+    <immersiveengineering:metal_decoration1:1> * 6,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:5> * 13,
+], [
+    <capsule:capsule:5>.withTag({size: 5, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-dieselgenerator", display: {color: 7105644}, label: "Diesel Generator", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_refinery", 2, [
+    <immersiveengineering:metal_device1:6> * 5,
+    <immersiveengineering:metal_decoration1:1> * 8,
+    <immersiveengineering:sheetmetal:9> * 16,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:5> * 2,
+    <immersiveengineering:metal_decoration0:4> * 2,
+], [
+    <capsule:capsule:5>.withTag({size: 5, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-refinery", display: {color: 7105644}, label: "Refinery", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_fermenter", 2, [
+    <immersiveengineering:metal_device1:6> * 2,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:4> * 2,
+    <immersiveengineering:sheetmetal:9> * 4,
+    <immersiveengineering:metal_decoration1:1> * 6,
+    <thaumcraft:crucible> * 4,
+], [
+    <capsule:capsule:5>.withTag({size: 3, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-fermenter", display: {color: 7105644}, label: "Fermenter", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_squeezer", 2, [
+    <immersiveengineering:metal_device1:6> * 2,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:4> * 2,
+    <immersiveengineering:wooden_device0:1> * 4,
+    <immersiveengineering:metal_decoration1> * 3,
+    <betweenlandsredstone:scabyst_piston>,
+    <immersiveengineering:metal_decoration1:1> * 6,
+], [
+    <capsule:capsule:5>.withTag({size: 3, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-squeezer", display: {color: 7105644}, label: "Squeezer", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_bottlingmachine", 2, [
+    <immersiveengineering:metal_device0:5>,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:4> * 2,
+    <immersiveengineering:sheetmetal:9> * 2,
+    <immersiveengineering:conveyor> * 3,
+    <immersiveengineering:metal_decoration1:1> * 3,
+    <thebetweenlands:filtered_silt_glass>,
+], [
+    <capsule:capsule:5>.withTag({size: 3, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-bottlingmachine", display: {color: 7105644}, label: "Bottling Machine", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_workbench", 2, [
+    <immersiveengineering:treated_wood_slab> * 2,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:4> * 4,
+    <immersiveengineering:metal_decoration0:5> * 2,
+    <immersiveengineering:conveyor> * 4,
+    <immersiveengineering:metal_decoration1:1> * 5,
+], [
+    <capsule:capsule:5>.withTag({size: 3, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-autoworkbench", display: {color: 7105644}, label: "Automated Engineer's Workbench", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_silo", 2, [
+    <immersiveengineering:sheetmetal:9> * 50,
+    <immersiveengineering:wooden_decoration> * 4,
+], [
+    <capsule:capsule:5>.withTag({size: 7, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-silo", display: {color: 7105644}, label: "Silo", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_tank", 2, [
+    <immersiveengineering:sheetmetal:9> * 34,
+    <immersiveengineering:wooden_decoration> * 4,
+], [
+    <capsule:capsule:5>.withTag({size: 7, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-sheetmetaltank", display: {color: 7105644}, label: "Tank", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+Assembler.add("ie_capsule_crusher", 2, [
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:4> * 10,
+    <immersiveengineering:metal_decoration1> * 8,
+    <immersiveengineering:metal_decoration1:1> * 10,
+    <thebetweenlands:syrmorite_hopper> * 9 ,
+], [
+    <capsule:capsule:5>.withTag({size: 5, color: 16777215, isReward: 1, oneUse: 1, structureName: "config/capsule/rewards/ie-crusher", display: {color: 7105644}, label: "Crusher", canRotate: 1})
+], assembler2Lower, assembler2Upper, defaultAssemblerTime);
+
+
 
 
 
