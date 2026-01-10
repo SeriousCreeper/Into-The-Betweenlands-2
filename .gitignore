@@ -25,3 +25,4 @@ resources/thaumcraft/textures/blocks/desktop.ini
 edited_page_text.csv
 config/relauncher.json
 config/codechicken/supporters.json
+!*.todo
