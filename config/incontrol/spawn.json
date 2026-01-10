@@ -37,5 +37,16 @@
     "mincount": 1,
     "perplayer": true,
     "result": "deny"
+  },
+  {
+    "maxheight": 120,
+    "mob": "rats:rat",
+    "result": "deny"
+  },
+  {
+    "mob": "rats:rat",
+    "mincount": 4,
+    "perplayer": true,
+    "result": "deny"
   }
 ]

@@ -3,6 +3,17 @@
     "dimension": 20,
     "mobs": [
       {
+        "mob": "rats:rat",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 20,
+    "mobs": [
+      {
         "mob": "embers:ancient_golem",
         "weight": 1,
         "groupcountmin": 1,
