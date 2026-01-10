@@ -153,7 +153,7 @@ addExchangeStore();
 
 
 // rat merchant
-Store.setProfile("pink_f");
+Store.setProfile("pink_m");
 Store.setStoreIcon("_store", <rats:chunky_cheese_token>);
 
 Store.addTrade(<rats:marbled_cheese_raw> * 16, cur_2);
