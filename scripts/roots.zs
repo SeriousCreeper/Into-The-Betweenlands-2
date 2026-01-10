@@ -430,8 +430,10 @@ Fey.addRecipe("runestone_2", <roots:runestone> * 8,
 	[<thebetweenlands:dentrothyst_shard_green>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>, <thebetweenlands:cragrock>]);
 
 Fey.removeRecipe(<roots:unending_bowl>);
+/*
 Fey.addRecipe("unending_bowl", <roots:unending_bowl>, 
 	[<thaumcraft:everfull_urn>, <roots:mortar>, <roots:dewgonia>, <roots:terra_moss>, <roots:dewgonia>]);
+*/
 
 Fey.removeRecipe(<roots:runed_obsidian>);
 Fey.addRecipe("runed_obsidian", <roots:runed_obsidian> * 4, 

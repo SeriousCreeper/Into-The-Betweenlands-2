@@ -1187,11 +1187,13 @@ Crucible.registerRecipe("hedge_leather", "HEDGEALCHEMY@1", <thebetweenlands:item
 
 
 Crucible.removeRecipe(<thaumcraft:everfull_urn>);
+/*
 Crucible.registerRecipe("everfullurn", "EVERFULLURN", <thaumcraft:everfull_urn>, <thebetweenlands:mud_flower_pot>, [
 	<aspect:aqua> * 30,
 	<aspect:fabrico> * 10,
 	<aspect:terra> * 10,
 ]);
+*/
 
 
 Crucible.removeRecipe("liquiddeath");
