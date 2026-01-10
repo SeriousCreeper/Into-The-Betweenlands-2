@@ -30,6 +30,8 @@ Todo 2026:
   ☐ Add soaking pot recipes to brew kettle
   ☐ Figure out new class system, using Skillable?
   ☐ Make rats dance to BL jukebox
+  ☐ maybe change greebling store so 1 greebling has all stores, unlocked by stages ("greebling_store_1", etc)
+    - alternatively give each "merchant" up to 3 different stores
 
   Rats:
     ✔ Start out with basic rat, not job upgrades @done (1/9/2026, 9:46:57 PM)
@@ -49,7 +51,7 @@ Todo 2026:
 
   Thaumcraft:
     ✔ Add info that tea seeds can be made via salis mundus and shears @done (1/9/2026, 4:13:09 PM)
-    ☐ Fix weird formatting on Dream book (or replace it entirely?)
+    ✔ Fix weird formatting on Dream book (or replace it entirely?) @done (1/9/2026, 10:14:03 PM)
     ☐ Lock Congrega research behind others so the main chapters aren't visible immediately
   
   Dungeon Rework:
