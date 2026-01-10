@@ -387,6 +387,9 @@ removeLootEntry("futuremc:entities/salmon", "futuremc:salmon", "minecraft:fish")
 <entity:mod_lavacow:scarecrow>.addPlayerOnlyDrop(<thebetweenlands:items_misc:20>, 0, 1);
 <entity:mod_lavacow:scarecrow>.addPlayerOnlyDrop(<thebetweenlands:items_misc:6>, 0, 1);
 
+<entity:rats:rat>.addPlayerOnlyDrop(<contenttweaker:rat_brain>, 1, 1, 0.1);
+
+
 
 /*
 val sporeling = LootTweaker.getTable("thebetweenlands:entities/sporeling");
