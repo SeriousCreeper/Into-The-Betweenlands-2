@@ -597,6 +597,11 @@ scripts.utils.replaceShaped("sheetmetal/aluminum_sheetmetal", <immersiveengineer
 	[null, <ore:plateSilver>, null]
 ]);
 
+scripts.utils.replaceShaped("postbase", <immersiveposts:postbase> * 6, [
+	[<immersiveengineering:stone_decoration:4>, null, <immersiveengineering:stone_decoration:4>], 
+	[<immersiveengineering:stone_decoration:4>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:4>], 
+	[<immersiveengineering:stone_decoration:4>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:4>]
+]);
 
 
 // SQUEEZER RECIPES
