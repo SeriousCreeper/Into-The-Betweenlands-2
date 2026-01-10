@@ -144,6 +144,47 @@ scripts.utils.addShaped("rat_tube_brown_plastic", <rats:rat_tube_brown> * 16, [
     [<thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>, <thebetweenlands:silt_glass_pane>]
 ]);
 
+scripts.utils.replaceShaped("rat_cage", <rats:rat_cage>, [
+    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], 
+    [<minecraft:iron_bars>, null, <minecraft:iron_bars>], 
+    [<ore:ingotSyrmorite>, <thebetweenlands:thatch_slab>, <ore:ingotSyrmorite>]
+]);
+
+scripts.utils.replaceShaped("fish_barrel", <rats:fish_barrel>, [
+    [<thebetweenlands:anadia_meat_raw>, <thebetweenlands:anadia_meat_raw>, <thebetweenlands:anadia_meat_raw>], 
+    [<thebetweenlands:anadia_meat_raw>, <ore:plankWood>, <thebetweenlands:anadia_meat_raw>], 
+    [<thebetweenlands:anadia_meat_raw>, <thebetweenlands:anadia_meat_raw>, <thebetweenlands:anadia_meat_raw>]
+]);
+
+scripts.utils.replaceShaped("rattrap", <rats:rattrap>, [
+    [<ore:ingotSyrmorite>, <thebetweenlands:syrmorite_trapdoor>, null], 
+    [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
+]);
+
+scripts.utils.replaceShaped("rat_lantern", <rats:rat_lantern>, [
+    [null, <thebetweenlands:items_misc:42>, null], 
+    [<thebetweenlands:items_misc:32>, <rats:raw_rat>, <thebetweenlands:items_misc:32>], 
+    [null, <betweenlandsredstone:scabyst_torch>, null]
+]);
+
+scripts.utils.replaceShaped("jack_o_ratern", <rats:jack_o_ratern>, [
+    [<minecraft:pumpkin>], 
+    [<rats:raw_rat>], 
+    [<thebetweenlands:sulfur_torch>]
+]);
+
+scripts.utils.replaceShapeless("marbled_cheese_dirt", <rats:marbled_cheese_dirt>, [
+    <rats:marbled_cheese>, <thebetweenlands:swamp_dirt>
+]);
+
+scripts.utils.replaceShapeless("marbled_cheese_grass", <rats:marbled_cheese_grass>, [
+    <rats:marbled_cheese>, <thebetweenlands:swamp_grass>
+]);
+
+scripts.utils.replaceShapeless("marbled_cheese_brick_mossy", <rats:marbled_cheese_brick_mossy>, [
+    <rats:marbled_cheese_brick>, <thebetweenlands:moss> | <thebetweenlands:cave_moss> | <thebetweenlands:items_plant_drop:29> | <thebetweenlands:items_plant_drop:30>
+]);
+
 
 
 
