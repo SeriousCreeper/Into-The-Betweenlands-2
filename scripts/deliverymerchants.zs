@@ -150,3 +150,23 @@ Store.addTrade(<betweencards:haunted_deep>, cur_2 * 6);
 Store.addTrade(<betweencards:sludgeon_delver>, cur_2 * 6);
 
 addExchangeStore();
+
+
+// rat merchant
+Store.setProfile("pink_f");
+Store.setStoreIcon("_store", <rats:chunky_cheese_token>);
+
+Store.addTrade(<rats:marbled_cheese_raw> * 16, cur_2);
+Store.addTrade(<rats:rat_toga>, cur_2 * 4);
+Store.addTrade(<rats:archeologist_hat>, cur_2 * 4);
+Store.addTrade(<rats:farmer_hat>, cur_2 * 4);
+Store.addTrade(<rats:fisherman_hat>, cur_2 * 4);
+Store.addTrade(<rats:rat_fez>, cur_2 * 4);
+Store.addTrade(<rats:top_hat>, cur_2 * 4);
+Store.addTrade(<rats:plague_doctor_mask>, cur_2 * 8);
+Store.addTrade(<rats:santa_hat>, cur_2 * 4);
+Store.addTrade(<rats:music_disc_living_mice>, cur_2 * 8);
+Store.addTrade(<rats:music_disc_mice_on_venus>, cur_2 * 8);
+Store.addTrade(<rats:black_death_mask>, cur_3 * 2);
+
+addExchangeStore();
