@@ -165,8 +165,8 @@ Store.addTrade(<rats:rat_fez>, cur_2 * 4);
 Store.addTrade(<rats:top_hat>, cur_2 * 4);
 Store.addTrade(<rats:plague_doctor_mask>, cur_2 * 8);
 Store.addTrade(<rats:santa_hat>, cur_2 * 4);
-Store.addTrade(<rats:music_disc_living_mice>, cur_2 * 8);
-Store.addTrade(<rats:music_disc_mice_on_venus>, cur_2 * 8);
+//Store.addTrade(<rats:music_disc_living_mice>, cur_2 * 8);
+//Store.addTrade(<rats:music_disc_mice_on_venus>, cur_2 * 8);
 Store.addTrade(<rats:black_death_mask>, cur_3 * 2);
 
 addExchangeStore();
