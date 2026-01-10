@@ -83,7 +83,7 @@ scripts.utils.addShaped("pancheon", <growthcraft_milk:pancheon>, [
 recipes.remove(<growthcraft_cellar:brew_kettle>);
 scripts.utils.addShaped("brew_kettle", <growthcraft_cellar:brew_kettle>, [
 	[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>], 
-	[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>], 
+	[<thebetweenlands:items_misc:11>, <pyrotech:soaking_pot>, <thebetweenlands:items_misc:11>], 
 	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>]
 ]);
 
