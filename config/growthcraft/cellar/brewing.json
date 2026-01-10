@@ -89,6 +89,38 @@
       },
       "requiresLid": false,
       "time": 1200
+    },
+    {
+      "comment": "Tarred Planks",
+      "item": {
+        "ore": "plankWood",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "tar",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "tar",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "pyrotech",
+        "name": "planks_tarred",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 1000
     }
   ]
 }
