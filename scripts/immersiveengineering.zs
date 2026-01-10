@@ -73,7 +73,7 @@ val itemsToRemove as IItemStack[] = [
 	<immersiveengineering:stone_decoration_slab>,
 	<immersiveengineering:stone_decoration_slab:1>,
 	<immersiveengineering:stone_decoration_slab:10>,
-	<immersiveengineering:wooden_device0:2>,
+	//<immersiveengineering:wooden_device0:2>,
 	<immersiveengineering:sheetmetal:5>,
 	<immersiveengineering:sheetmetal_slab:5>,
 	<immersiveengineering:metal:5>,
@@ -116,11 +116,11 @@ recipes.remove(<immersiveengineering:material:22>);
 recipes.remove(<immersiveengineering:material:23>);
 recipes.remove(<immersiveengineering:metal:38>);
 
-//recipes.remove(<immersiveengineering:wooden_device0:2>);
-//scripts.utils.addShaped("wooden_devices/workbench", <immersiveengineering:wooden_device0:2>, [
-//	[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], 
-//	[<thebetweenlands:weedwood_workbench>, null, <ore:fenceTreatedWood>]
-//]);
+recipes.remove(<immersiveengineering:wooden_device0:2>);
+scripts.utils.addShaped("wooden_devices/workbench", <immersiveengineering:wooden_device0:2>, [
+	[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], 
+	[<thebetweenlands:weedwood_workbench>, null, <ore:fenceTreatedWood>]
+]);
 
 recipes.remove(<immersiveengineering:stone_decoration:1>);
 //scripts.utils.addShaped("stone_decoration/blastbrick", <immersiveengineering:stone_decoration:1> * 3, [
