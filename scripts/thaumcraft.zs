@@ -1235,8 +1235,6 @@ Infusion.registerRecipe("cloudring", "CLOUDRING", <thaumcraft:cloud_ring>, 1, [
 <thaumcraft:baubles:1>, 
 [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), <ore:feather>]);
 
-
-
 Infusion.removeRecipe("curiosityband");
 Infusion.registerRecipe("curiosityband", "CURIOSITYBAND", <thaumcraft:curiosity_band>, 5, [
 	<aspect:cognitio> * 150, 
@@ -1245,7 +1243,6 @@ Infusion.registerRecipe("curiosityband", "CURIOSITYBAND", <thaumcraft:curiosity_
 ], 
 <thaumcraft:baubles:6>, 
 [<minecraft:writable_book>, <ore:middleGems>, <minecraft:writable_book>, <ore:middleGems>, <minecraft:writable_book>, <ore:middleGems>, <minecraft:writable_book>, <ore:middleGems>]);
-
 
 Infusion.removeRecipe("verdantheartlife");
 Infusion.registerRecipe("verdantheartlife", "VERDANTCHARMS", <thaumcraft:verdant_charm>.withTag({type: 1 as byte}), 5, [
@@ -1272,7 +1269,6 @@ Infusion.registerRecipe("verdantheart", "VERDANTCHARMS", <thaumcraft:verdant_cha
 <thaumcraft:baubles:4>, 
 [<thaumcraft:nugget:10>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]}), <thebetweenlands:bl_bucket:1>.withTag({Fluid: {FluidName: "liquid_milk", Amount: 1000}}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]})]);
 
-
 Infusion.removeRecipe("bootstraveller");
 Infusion.registerRecipe("bootstraveller", "BOOTSTRAVELLER", <thaumcraft:traveller_boots>, 1, [
 	<aspect:volatus> * 100, 
@@ -1287,7 +1283,6 @@ Infusion.registerRecipe("bootstraveller", "BOOTSTRAVELLER", <thaumcraft:travelle
 	<ore:feather>,
 	<thebetweenlands:items_misc:21>
 ]);
-
 
 Infusion.removeRecipe("thaumiumfortresshelm");
 Infusion.registerRecipe("thaumiumfortresshelm", "ARMORFORTRESS", <thaumcraft:fortress_helm>, 3, [
@@ -1304,7 +1299,6 @@ Infusion.registerRecipe("thaumiumfortresshelm", "ARMORFORTRESS", <thaumcraft:for
 	<ore:middleGems>,
 ]);
 
-
 Infusion.removeRecipe("thaumiumfortresschest");
 Infusion.registerRecipe("thaumiumfortresschest", "ARMORFORTRESS", <thaumcraft:fortress_chest>, 3, [
 	<aspect:metallum> * 50,
@@ -1320,7 +1314,6 @@ Infusion.registerRecipe("thaumiumfortresschest", "ARMORFORTRESS", <thaumcraft:fo
 	<thebetweenlands:octine_ingot>,
 	<ore:leather>
 ]);
-
 
 Infusion.removeRecipe("thaumiumfortresslegs");
 Infusion.registerRecipe("thaumiumfortresslegs", "ARMORFORTRESS", <thaumcraft:fortress_legs>, 3, [
@@ -1416,6 +1409,19 @@ Infusion.registerRecipe("hemp_seed", "GOINGHOME@3", <immersiveengineering:seed>,
 	<thebetweenlands:swamp_reed_item>,
 	<thaumcraft:salis_mundus>
 ]);
+
+Infusion.removeRecipe("MindBiothaumic");
+Infusion.registerRecipe("MindBiothaumic", "MINDBIOTHAUMIC@2", <thaumcraft:mind:1>, 3, [
+	<aspect:cognitio> * 50,
+	<aspect:machina> * 25,
+], 
+<thaumcraft:mind>, 
+[
+	<contenttweaker:rat_brain>,
+	<thaumcraft:mechanism_complex>
+]);
+
+
 
 // INFERNAL FURNACE
 SmeltingBonus.removeSmeltingBonus(<ore:oreLead>, <thaumcraft:nugget:4>);
