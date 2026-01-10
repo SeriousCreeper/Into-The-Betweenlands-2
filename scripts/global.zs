@@ -932,6 +932,8 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 <ore:slabConstantan>.remove(<immersiveengineering:storage_slab:6>);
 <ore:slabElectrum>.remove(<immersiveengineering:storage_slab:7>);
 
+<ore:foodCheese>.remove(<rats:cheese>);
+
 
 
 // Item Stack Sizes
