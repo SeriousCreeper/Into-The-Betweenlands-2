@@ -396,7 +396,7 @@ scripts.utils.addShaped("storage/faucet_stone", <pyrotech:faucet_stone>, [
 recipes.remove(<pyrotech:wood_rack>);
 scripts.utils.addShaped("storage/wood_rack", <pyrotech:wood_rack>, [
 	[<ore:logWood>, <ore:slabWood>, <ore:logWood>], 
-	[<thebetweenlands:weedwood_ladder>, <ore:slabWood>, <thebetweenlands:weedwood_ladder>], 
+	[<thebetweenlands:items_misc:20>, <ore:slabWood>, <thebetweenlands:items_misc:20>], 
 	[<ore:logWood>, <ore:slabWood>, <ore:logWood>]
 ]);
 
@@ -942,10 +942,10 @@ furnace.remove(<soot:stamp_nugget>);
 PitKiln.addRecipe("stamp_nugget", <soot:stamp_nugget>, <soot:stamp_nugget_raw>, 4 * 60 * 20, 0.33, [
 ], true);
 
-PitKiln.addRecipe("stamp_wire", <immersiveengineering:mold:4>, <contenttweaker:stamp_wires_raw>, 10 * 60 * 20, 0.33, [
+PitKiln.addRecipe("stamp_wire", <immersiveengineering:mold:4>, <contenttweaker:stamp_wires_raw>, 4 * 60 * 20, 0.33, [
 ], true);
 
-PitKiln.addRecipe("stamp_rod", <immersiveengineering:mold:2>, <contenttweaker:stamp_rod_raw>, 10 * 60 * 20, 0.33, [
+PitKiln.addRecipe("stamp_rod", <immersiveengineering:mold:2>, <contenttweaker:stamp_rod_raw>, 4 * 60 * 20, 0.33, [
 ], true);
 
 furnace.remove(<thebetweenlands:silt_glass>);

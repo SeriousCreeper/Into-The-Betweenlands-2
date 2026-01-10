@@ -384,7 +384,7 @@ Assembler.add("crate", 1, [
 
 Assembler.add("wood_rack", 1, [
     <thebetweenlands:weedwood_plank_slab> * 2,
-    <thebetweenlands:weedwood_ladder>,
+    <thebetweenlands:items_misc:20>,
     (<thebetweenlands:log_weedwood> | <thebetweenlands:log_weedwood:12> | <thebetweenlands:weedwood>) * 2
 ], [
     <pyrotech:wood_rack>
@@ -405,6 +405,49 @@ Assembler.add("ferment_barrel", 1, [
     <growthcraft_cellar:ferment_barrel>
 ], defaultLower, defaultUpper, defaultAssemblerTime);
 
+recipes.remove(<thebetweenlands:weedwood_chest>);
+Assembler.add("weedwood_chest", 1, [
+    <thebetweenlands:weedwood_planks> * 8,
+    <mcwfurnitures:iron_handle>
+], [
+    <thebetweenlands:weedwood_chest>
+], defaultLower, defaultUpper, defaultAssemblerTime);
+
+Assembler.add("weedwood_chest_create", 1, [
+    <pyrotech:crate>,
+    <mcwfurnitures:iron_handle>
+], [
+    <thebetweenlands:weedwood_chest>
+], defaultLower, defaultUpper, defaultAssemblerTime);
+
+
+val quarkChestPlank = [
+	<thebetweenlands:rubber_tree_planks>,
+	<thebetweenlands:giant_root_planks>,
+	<thebetweenlands:hearthgrove_planks>,
+	<thebetweenlands:nibbletwig_planks>,
+	<thebetweenlands:rotten_planks>
+] as IItemStack[];
+
+val quarkChestLog = [
+	<thebetweenlands:log_rubber>,
+	<thebetweenlands:giant_root>,
+	<thebetweenlands:log_hearthgrove:*>,
+	<thebetweenlands:log_nibbletwig:*>,
+	<thebetweenlands:log_rotten_bark:*>
+] as IItemStack[];
+
+recipes.remove(<quark:custom_chest:*>);
+recipes.remove(<quark:custom_bookshelf:*>);
+
+for i, wood in quarkChestPlank {
+	Assembler.add("custom_chest_" ~ i, 1, [
+		wood * 8,
+		<mcwfurnitures:iron_handle>
+	], [
+		<quark:custom_chest>.definition.makeStack(i)
+	], defaultLower, defaultUpper, defaultAssemblerTime);
+}
 
 
 // --------------------------------------------------------------
@@ -432,14 +475,6 @@ Assembler.add("syrmorite_hopper", 2, [
     <ore:chestWood>
 ], [
     <thebetweenlands:syrmorite_hopper>
-], assembler2Lower, assembler2Upper, defaultAssemblerTime);
-
-recipes.remove(<thebetweenlands:weedwood_chest>);
-Assembler.add("weedwood_chest", 2, [
-    <thebetweenlands:weedwood_planks> * 8,
-    <mcwfurnitures:iron_handle>
-], [
-    <thebetweenlands:weedwood_chest>
 ], assembler2Lower, assembler2Upper, defaultAssemblerTime);
 
 recipes.remove(<embers:crystal_cell>);

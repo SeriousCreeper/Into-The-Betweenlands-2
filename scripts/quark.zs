@@ -1,5 +1,32 @@
 import crafttweaker.item.IItemStack;
-import mods.rustichromia.Assembler;
+
+val quarkChestPlank = [
+	<thebetweenlands:rubber_tree_planks>,
+	<thebetweenlands:giant_root_planks>,
+	<thebetweenlands:hearthgrove_planks>,
+	<thebetweenlands:nibbletwig_planks>,
+	<thebetweenlands:rotten_planks>
+] as IItemStack[];
+
+val quarkChestLog = [
+	<thebetweenlands:log_rubber>,
+	<thebetweenlands:giant_root>,
+	<thebetweenlands:log_hearthgrove:*>,
+	<thebetweenlands:log_nibbletwig:*>,
+	<thebetweenlands:log_rotten_bark:*>
+] as IItemStack[];
+
+recipes.remove(<quark:custom_chest:*>);
+recipes.remove(<quark:custom_bookshelf:*>);
+
+for i, wood in quarkChestPlank {
+	scripts.utils.addShaped("custom_bookshelf_" ~ i, <quark:custom_bookshelf>.definition.makeStack(i), [
+		[wood, wood, wood], 
+		[<minecraft:book>, <minecraft:book>, <minecraft:book>], 
+		[wood, wood, wood]
+	]);
+}
+
 
 recipes.remove(<quark:paper_lantern>);
 scripts.utils.addShaped("paper_lantern", <quark:paper_lantern>, [
@@ -23,41 +50,6 @@ scripts.utils.addShaped("backpack", <quark:backpack>, [
 	[<ore:leather>, <ore:leather>, <ore:leather>]
 ]);
 
-
-val quarkChestPlank = [
-	<thebetweenlands:rubber_tree_planks>,
-	<thebetweenlands:giant_root_planks>,
-	<thebetweenlands:hearthgrove_planks>,
-	<thebetweenlands:nibbletwig_planks>,
-	<thebetweenlands:rotten_planks>
-] as IItemStack[];
-
-val quarkChestLog = [
-	<thebetweenlands:log_rubber>,
-	<thebetweenlands:giant_root>,
-	<thebetweenlands:log_hearthgrove:*>,
-	<thebetweenlands:log_nibbletwig:*>,
-	<thebetweenlands:log_rotten_bark:*>
-] as IItemStack[];
-
-
-recipes.remove(<quark:custom_chest:*>);
-recipes.remove(<quark:custom_bookshelf:*>);
-
-for i, wood in quarkChestPlank {
-	Assembler.add("custom_chest_" ~ i, 2, [
-		wood * 8,
-		<mcwfurnitures:iron_handle>
-	], [
-		<quark:custom_chest>.definition.makeStack(i)
-	], 7, 15, 200);
-
-	scripts.utils.addShaped("custom_bookshelf_" ~ i, <quark:custom_bookshelf>.definition.makeStack(i), [
-	[wood, wood, wood], 
-	[<minecraft:book>, <minecraft:book>, <minecraft:book>], 
-	[wood, wood, wood]
-]);
-}
 
 recipes.remove(<quark:chain>);
 scripts.utils.addShaped("chain", <quark:chain> * 3, [
