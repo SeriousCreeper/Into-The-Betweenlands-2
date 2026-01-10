@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "knowledge_of_spirit",
+    "category": "journal"
+  },
+  "content": {
+    "title": "Knowledge of Spirit",
+    "body": "I had the strangest vision.\n\nIn this vision, I took three of those strange crystals I found and combined them with a handful of bluedust and radiant dust in a druidic crafting device. If I did it properly then the result was a strange, glowing dust.\n\nI have the impression the dust was going to reveal something wondrous, but dangerous.",
+    "audio": "",
+    "autoplay": false
+  },
+  "sortingIndex": 2,
+  "requirements": [],
+  "autoAdd": false,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}
