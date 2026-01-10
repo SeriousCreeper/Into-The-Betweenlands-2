@@ -121,6 +121,486 @@
       },
       "requiresLid": false,
       "time": 1000
+    },
+    {
+      "comment": "Slaked Lime",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "items_misc",
+        "amount": 1,
+        "meta": 27
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "pyrotech",
+        "name": "material",
+        "amount": 1,
+        "meta": 8
+      },
+      "requiresLid": false,
+      "time": 1000
+    },
+    {
+      "comment": "Pulp from Wood Chips",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "pyrotech",
+        "name": "pile_wood_chips",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 500
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "pyrotech",
+        "name": "material",
+        "amount": 1,
+        "meta": 25
+      },
+      "requiresLid": false,
+      "time": 1000
+    },
+    {
+      "comment": "Pulp from Bark",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "items_misc",
+        "amount": 1,
+        "meta": 13
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "pyrotech",
+        "name": "material",
+        "amount": 1,
+        "meta": 25
+      },
+      "requiresLid": false,
+      "time": 250
+    },
+    {
+      "comment": "Paper Mass from Reed",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "swamp_reed_item",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 50
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "pizzacraft",
+        "name": "paper_mass",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 60
+    },
+    {
+      "comment": "Paper Mass from Bark",
+      "item": {
+        "ore": "rootsBark",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 50
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "pizzacraft",
+        "name": "paper_mass",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 40
+    },
+    {
+      "comment": "Mossy Chiseled Cragrock",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "cragrock_chiseled",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "cragrock_chiseled_mossy",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 1000
+    },
+    {
+      "comment": "Mossy Crackrock Bricks",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "cragrock_bricks",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "cragrock_bricks_mossy",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 1000
+    },
+    {
+      "comment": "Mossy Crackrock Tiles",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "cragrock_tiles",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "cragrock_tiles_mossy",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 1000
+    },
+    {
+      "comment": "Mossy Betweenstone Bricks",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "betweenstone_bricks",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "mossy_betweenstone_bricks",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 1000
+    },
+    {
+      "comment": "Mossy Betweenstone Tiles",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "betweenstone_tiles",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "mossy_betweenstone_tiles",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 1000
+    },
+    {
+      "comment": "Mossy Limestone Bricks",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "limestone_bricks",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "mossy_limestone_bricks",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 1000
+    },
+    {
+      "comment": "Mossy Smooth Betweenstone",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "smooth_betweenstone",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "swamp_water",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "thebetweenlands",
+        "name": "mossy_smooth_betweenstone",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 1000
+    },
+    {
+      "comment": "Treated Planks from Creosote",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "pyrotech",
+        "name": "planks_tarred",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "creosote",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "creosote",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "immersiveengineering",
+        "name": "treated_wood",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 300
+    },
+    {
+      "comment": "Treated Planks from Fishoil",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "pyrotech",
+        "name": "planks_tarred",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "fish_oil",
+        "amount": 125
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "fish_oil",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "immersiveengineering",
+        "name": "treated_wood",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 300
+    },
+    {
+      "comment": "Yogurt",
+      "item": {
+        "ore": null,
+        "comment": "",
+        "mod_id": "growthcraft_milk",
+        "name": "starter_culture",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "",
+        "name": "liquid_milk",
+        "amount": 250
+      },
+      "output_fluid": {
+        "comment": "",
+        "name": "liquid_milk",
+        "amount": 0
+      },
+      "residue": {
+        "pomace": 1.0,
+        "ore": null,
+        "comment": "",
+        "mod_id": "growthcraft_milk",
+        "name": "yogurt",
+        "amount": 1,
+        "meta": 0
+      },
+      "requiresLid": false,
+      "time": 300
     }
   ]
 }
