@@ -23,3 +23,5 @@ resources/thaumcraft/textures/blocks/desktop.ini
 !*.csv
 !*.py
 edited_page_text.csv
+config/relauncher.json
+config/codechicken/supporters.json
