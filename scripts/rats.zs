@@ -125,7 +125,7 @@ scripts.utils.replaceShaped("rat_seed_bowl", <rats:rat_seed_bowl>, [
     [<thebetweenlands:items_misc:22>]
 ]);
 
-recipes.removeByRegex("rats:rat_hammock_wool_*");
+recipes.removeByRegex("rats:rat_hammock_wool_.*");
 scripts.utils.addShaped("rat_hammock_wool_white", <rats:rat_hammock_white>, [
     [<ore:string>, <ore:foodCheese>, <ore:string>], 
     [<thebetweenlands:samite:7>, <thebetweenlands:samite:7>, <thebetweenlands:samite:7>]
