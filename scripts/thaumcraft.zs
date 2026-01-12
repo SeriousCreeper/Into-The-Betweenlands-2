@@ -1448,6 +1448,6 @@ SmeltingBonus.addSmeltingBonus(<pyrotech:material:4>, <embers:blend_caminite> % 
 
 // NAME CHANGES
 <thaumcraft:brain>.displayName = "Moldy Brain";
-<thaumcraft:nugget:9>.displayName = "Dentrothyst Sliver";
+<thaumcraft:nugget:9>.displayName = "Scabyst Sliver";
 <thaumcraft:redstone_relay>.displayName = "Bluedust Relay";
 <thaumicaugmentation:key>.displayName = "Syrmorite Key";
