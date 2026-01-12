@@ -462,22 +462,13 @@
     },
     {
       "input": {
-        "id": "thebetweenlands:dentrothyst_shard_green"
+        "id": "thebetweenlands:items_misc",
+        "meta": 39
       },
       "output": {
         "id": "thaumcraft:nugget",
         "meta": 9,
         "size": 16
-      }
-    },
-    {
-      "input": {
-        "id": "thebetweenlands:dentrothyst_shard_orange"
-      },
-      "output": {
-        "id": "thaumcraft:nugget",
-        "meta": 9,
-        "size": 32
       }
     }
   ],
