@@ -24,7 +24,11 @@ val items = [
 	"book_stonetablet_top",
 	"book_stonetablet_bottom",
 	"gold_coin",
-	"rat_brain"
+	"rat_brain",
+	"essence_strength",
+	"essence_efficiency",
+	"dentrothyst_sliver_green",
+	"dentrothyst_sliver_orange"
 ] as string[];
 
 

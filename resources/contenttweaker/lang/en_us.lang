@@ -47,6 +47,10 @@ item.contenttweaker.broken_ancient_armor_leggings_6.name=Inate Ancient Armor Leg
 item.contenttweaker.broken_ancient_armor_boots_6.name=Inate Ancient Armor Boots
 
 item.contenttweaker.rat_brain.name=Rat Brain
+item.contenttweaker.essence_strength.name=Essence of Strength
+item.contenttweaker.essence_efficiency.name=Essence of Efficiency
+item.contenttweaker.dentrothyst_sliver_green.name=Green Dentrothyst Sliver
+item.contenttweaker.dentrothyst_sliver_orange.name=Orange Dentrothyst Sliver
 
 fluid.armaniis=Armaniis Essence
 fluid.azuwynn=Azuwynn Essence
