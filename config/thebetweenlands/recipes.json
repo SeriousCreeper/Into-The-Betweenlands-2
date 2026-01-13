@@ -443,15 +443,6 @@
     },
     {
       "input": {
-        "id": "arcanearchives:raw_quartz"
-      },
-      "output": {
-        "id": "arcanearchives:quartz_sliver",
-        "size": 4
-      }
-    },
-    {
-      "input": {
         "id": "arcanearchives:quartz_sliver"
       },
       "output": {
