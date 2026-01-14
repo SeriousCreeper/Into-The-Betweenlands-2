@@ -452,16 +452,6 @@
     },
     {
       "input": {
-        "id": "arcanearchives:quartz_sliver"
-      },
-      "output": {
-        "id": "thaumcraft:nugget",
-        "meta": 9,
-        "size": 4
-      }
-    },
-    {
-      "input": {
         "id": "thebetweenlands:items_misc",
         "meta": 39
       },
