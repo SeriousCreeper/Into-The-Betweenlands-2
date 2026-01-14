@@ -934,6 +934,9 @@ oreVisCrystals.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, k
 
 <ore:foodCheese>.remove(<rats:cheese>);
 
+<ore:blockTerrasteel>.add(<botania:storage:1>);
+<ore:blockBloodstone>.add(<bloodmagic:decorative_brick:0>);
+
 
 
 // Item Stack Sizes
