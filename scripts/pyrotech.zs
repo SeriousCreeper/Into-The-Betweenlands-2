@@ -534,6 +534,11 @@ CompactingBin.addRecipe("sulfur", <thebetweenlands:items_misc:18>, <soot:sulfur>
 CompactingBin.addRecipe("pile_ash", <pyrotech:pile_ash>, <embers:dust_ash>, 8, true);
 CompactingBin.addRecipe("snow_block", <minecraft:snow>, <minecraft:snowball>, 8, true);
 
+CompactingBin.addRecipe("scabyst", <thebetweenlands:items_misc:39>, <thaumcraft:nugget:9>, 16, true);
+
+CompactingBin.addRecipe("green_dentrothyst", <thebetweenlands:dentrothyst_shard_green>, <contenttweaker:dentrothyst_sliver_green>, 9, true);
+CompactingBin.addRecipe("orange_dentrothyst", <thebetweenlands:dentrothyst_shard_orange>, <contenttweaker:dentrothyst_sliver_orange>, 9, true);
+
 
 
 
