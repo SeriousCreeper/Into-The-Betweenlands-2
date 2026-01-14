@@ -179,7 +179,7 @@ IEMultiBlockStages.addStage("removed", "IE:Assembler", "This multiblock is not a
 IEMultiBlockStages.addStage("removed", "IE:CokeOven", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IE:AlloySmelter", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IE:MetalPress", "This multiblock is not available.");
-IEMultiBlockStages.addStage("removed", "IE:DieselGenerator", "This multiblock is not available.");
+//IEMultiBlockStages.addStage("removed", "IE:DieselGenerator", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IP:Pumpjack", "This multiblock is not available.");
 IEMultiBlockStages.addStage("removed", "IP:DistillationTower", "This multiblock is not available.");
 IEMultiBlockStages.addStage(stageTechnology, "IE:Crusher", "I'm not sure how to use this yet...");
