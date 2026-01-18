@@ -181,6 +181,24 @@ scripts.utils.addShaped("clear_weedwood_barrel", <thebetweenlands:weedwood_barre
 scripts.utils.addShapeless("candle_to_wall_candle", <thebetweenlands:dungeon_wall_candle>, [<thebetweenlands:mud_flower_pot_candle>]);
 scripts.utils.addShapeless("wall_candle_to_candle", <thebetweenlands:mud_flower_pot_candle>, [<thebetweenlands:dungeon_wall_candle>]);
 
+scripts.utils.addShaped("green_dentrothyst_from_sliver", <thebetweenlands:dentrothyst_shard_green>, [
+	[<contenttweaker:dentrothyst_sliver_green>, <contenttweaker:dentrothyst_sliver_green>, <contenttweaker:dentrothyst_sliver_green>],
+	[<contenttweaker:dentrothyst_sliver_green>, <contenttweaker:dentrothyst_sliver_green>, <contenttweaker:dentrothyst_sliver_green>],
+	[<contenttweaker:dentrothyst_sliver_green>, <contenttweaker:dentrothyst_sliver_green>, <contenttweaker:dentrothyst_sliver_green>]
+]);
+
+scripts.utils.addShaped("orange_dentrothyst_from_sliver", <thebetweenlands:dentrothyst_shard_orange>, [
+	[<contenttweaker:dentrothyst_sliver_orange>, <contenttweaker:dentrothyst_sliver_orange>, <contenttweaker:dentrothyst_sliver_orange>],
+	[<contenttweaker:dentrothyst_sliver_orange>, <contenttweaker:dentrothyst_sliver_orange>, <contenttweaker:dentrothyst_sliver_orange>],
+	[<contenttweaker:dentrothyst_sliver_orange>, <contenttweaker:dentrothyst_sliver_orange>, <contenttweaker:dentrothyst_sliver_orange>]
+]);
+
+scripts.utils.addShaped("scabyst_from_sliver", <thebetweenlands:items_misc:39>, [
+	[<thaumcraft:nugget:9>, <thaumcraft:nugget:9>, <thaumcraft:nugget:9>],
+	[<thaumcraft:nugget:9>, <thaumcraft:nugget:9>, <thaumcraft:nugget:9>],
+	[<thaumcraft:nugget:9>, <thaumcraft:nugget:9>, <thaumcraft:nugget:9>]
+]);
+
 
 
 
