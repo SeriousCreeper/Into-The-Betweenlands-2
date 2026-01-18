@@ -45,7 +45,7 @@
   },
   {
     "mob": "rats:rat",
-    "mincount": 4,
+    "mincount": 2,
     "perplayer": true,
     "result": "deny"
   }
